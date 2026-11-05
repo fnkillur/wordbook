@@ -1,0 +1,18 @@
+node_modules
+dist
+dist-ssr
+*.local
+*.log
+.DS_Store
+.idea
+.vscode/*
+*.sw?
+.superpowers/
+.vitest/
+
+# 개인 토큰
+apps-script/Secret.gs
+apps-script/.clasp.json
+.env.local
+.env.*.local
+.connect-code.txt
