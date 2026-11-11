@@ -7,6 +7,7 @@ import { TEST_WORDS } from '../data/vocabTest'
 import { db } from '../db/database'
 import { saveVocabTest, startRankOf, vocabTests } from '../db/repository'
 import { saveSettings } from '../settings'
+import { waitUntil } from '../testing/waitUntil'
 import VocabTestPage from './VocabTestPage'
 
 let container: HTMLDivElement
@@ -97,7 +98,7 @@ describe('VocabTestPage', () => {
     for (let count = 0; count < 40; count += 1) {
       await press('모르겠어')
     }
-    await wait()
+    await waitUntil(() => (container.textContent ?? '').includes('약 0개'))
 
     expect(container.textContent).toContain('약 0개')
     expect(container.querySelector('.vocab-defeat')?.textContent).toContain('여기부터는 아직 어려워')
@@ -106,7 +107,7 @@ describe('VocabTestPage', () => {
     expect(await startRankOf('ja')).toBe(1)
     expect(await startRankOf('en')).toBeNull()
     await press('1번째 단어부터 시작할게')
-    await wait()
+    await waitUntil(() => (container.textContent ?? '').includes('홈 화면'))
 
     expect(container.textContent).toContain('홈 화면')
   })

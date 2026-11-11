@@ -330,7 +330,7 @@ function ClozeFace({ wordId, media, isFlipped }: { wordId: string; media: WordMe
             {hasKanji(sentence.answer) && <small className="cloze-reading">{sentence.reading}</small>}
           </span>
         ) : (
-          <span className="cloze-blank" aria-label="빈칸" />
+          <span className="cloze-blank" role="img" aria-label="빈칸" />
         )}
         {sentence.after}
       </span>

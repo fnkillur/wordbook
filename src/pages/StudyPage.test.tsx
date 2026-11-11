@@ -7,6 +7,7 @@ import { db } from '../db/database'
 import { dateKey, earnedTotal, makeWord, setSentenceAudio } from '../db/repository'
 import { newStudyCard } from '../domain/schedule'
 import { saveSettings } from '../settings'
+import { waitUntil } from '../testing/waitUntil'
 import StudyPage from './StudyPage'
 
 let container: HTMLDivElement
@@ -27,6 +28,7 @@ const open = async () => {
     { initialEntries: ['/study'] },
   )
   await act(async () => root.render(<RouterProvider router={router} />))
+  await waitUntil(() => (container.textContent ?? '') !== '')
   await wait()
 }
 
@@ -98,6 +100,7 @@ describe('StudyPage', () => {
     await act(async () => (container.querySelector('.study-card') as HTMLElement).click())
     await act(async () => button('알았어')!.click())
     await afterReaction()
+    await waitUntil(() => (container.textContent ?? '').includes('2 /'))
 
     expect(await db.reviewLogs.count()).toBe(1)
     expect(container.textContent).toContain('2 /')
@@ -137,6 +140,7 @@ describe('StudyPage', () => {
     await act(async () => (container.querySelector('.study-card') as HTMLElement).click())
     await act(async () => button('알았어')!.click())
     await afterReaction()
+    await waitUntil(() => (container.textContent ?? '').includes('우리 집 고양이'))
 
     expect(container.textContent).toContain('우리 집 고양이')
     expect(container.querySelector('.study-image')?.getAttribute('src')).not.toBe(firstImage)
@@ -163,7 +167,7 @@ describe('StudyPage', () => {
     await flip()
     await act(async () => button('알았어')!.click())
     await afterReaction()
-    await wait()
+    await waitUntil(() => (container.textContent ?? '').includes('보너스 10'))
 
     expect(container.textContent).toContain('오늘 할 일을 다 했어!')
     expect(container.textContent).toContain('보너스 10')
@@ -177,6 +181,7 @@ describe('StudyPage', () => {
     await db.settings.put({ key: `plan:${dateKey(new Date())}:ja`, value: { date: dateKey(new Date()), newWords: 0 } })
     await open()
     for (let count = 0; count < 3; count += 1) {
+      await waitUntil(() => !!container.querySelector('.study-card') && !button('몰랐어'))
       await flip()
       await act(async () => button('몰랐어')!.click())
       await afterReaction()
@@ -206,7 +211,7 @@ describe('StudyPage', () => {
     await open()
     await flip()
     await act(async () => button('알았어')!.click())
-    await wait()
+    await waitUntil(() => (container.querySelector('.speech-bubble')?.textContent ?? '').includes('정답!'))
 
     expect(container.querySelector('.speech-bubble')?.textContent).toContain('정답!')
     expect(container.textContent).toContain('1 /')
@@ -214,6 +219,7 @@ describe('StudyPage', () => {
     expect(button('알았어')!.querySelector('img')?.getAttribute('src')).not.toContain('still')
     expect(button('몰랐어')!.querySelector('img')?.getAttribute('src')).toContain('still')
     await afterReaction()
+    await waitUntil(() => (container.textContent ?? '').includes('2 /'))
     expect(container.querySelector('.speech-bubble')?.textContent).toContain('뭐라고 할까?')
     expect(container.textContent).toContain('2 /')
   })
@@ -224,7 +230,7 @@ describe('StudyPage', () => {
     await open()
     await flip()
     await act(async () => button('몰랐어')!.click())
-    await wait()
+    await waitUntil(() => (container.querySelector('.speech-bubble')?.textContent ?? '').includes('괜찮아'))
 
     expect(container.querySelector('.speech-bubble')?.textContent).toContain('괜찮아')
   })
@@ -334,6 +340,9 @@ describe('StudyPage', () => {
       expect(sentence).toContain('しています。')
       expect(sentence).not.toContain('心配')
       expect(container.querySelectorAll('.cloze-blank')).toHaveLength(1)
+      // 빈 span의 aria-label은 역할이 없으면 화면 읽기가 건너뛴다.
+      expect(container.querySelector('.cloze-blank')?.getAttribute('role')).toBe('img')
+      expect(container.querySelector('.cloze-blank')?.getAttribute('aria-label')).toBe('빈칸')
       expect(container.querySelector('.study-image')).not.toBeNull()
       expect(container.textContent).not.toContain('엄마가 걱정하고 있어요.')
       expect(container.querySelector('.card-listen')?.getAttribute('aria-disabled')).toBe('true')

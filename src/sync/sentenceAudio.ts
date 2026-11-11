@@ -28,8 +28,13 @@ export const prepareSentenceAudio = async (wordId: string, { allowTts = true } =
   if (!sentence) return false
   const audio = (sentence.audioPath && (await nativeAudio(sentence.audioPath))) || (allowTts && (await ttsAudio(sentenceTextOf(sentence), wordId)))
   if (!audio) return false
-  await setSentenceAudio(wordId, audio)
-  return true
+  // 기다리지 않고 부르는 곳이 많아, 저장소 오류도 실패로 돌려준다. 다음 다시 받기에서 또 해 본다.
+  try {
+    await setSentenceAudio(wordId, audio)
+    return true
+  } catch {
+    return false
+  }
 }
 
 // 받지 못한 문장 음성(서버 연결 전이나 실패)을 차례로 다시 받는다. 앱에 든 녹음은 인터넷 없이도 받으니 끝까지 받고,
@@ -37,7 +42,8 @@ export const prepareSentenceAudio = async (wordId: string, { allowTts = true } =
 export const backfillSentenceAudio = async () => {
   let filled = 0
   let canUseTts = true
-  for (const wordId of await wordsMissingSentenceAudio()) {
+  const missing = await wordsMissingSentenceAudio().catch(() => [])
+  for (const wordId of missing) {
     const sentence = findSentence(wordId)
     if (!sentence || (!sentence.audioPath && !canUseTts)) continue
     if (await prepareSentenceAudio(wordId, { allowTts: canUseTts })) {

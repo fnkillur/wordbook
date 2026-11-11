@@ -52,6 +52,28 @@ describe('백업 파일', () => {
     expect((await db.media.get('ja-0001:sentence'))?.type).toBe('audio/mp4')
   })
 
+  it('폰의 노트를 그대로 두더라도 폰에 없는 문장 음성은 백업에서 채우고, 있는 그림은 바꾸지 않는다', async () => {
+    await seed()
+    await db.media.put({ key: 'ja-0001:sentence', data: new Uint8Array([7, 7, 7]).buffer, type: 'audio/mp4' })
+    const archive = await exportArchive()
+    await db.media.delete('ja-0001:sentence')
+    await db.media.put({ key: mediaKey('ja-0001', 'image'), data: new Uint8Array([5]).buffer, type: 'image/jpeg' })
+
+    await importArchive(archive)
+    expect(await bytes('ja-0001:sentence')).toEqual([7, 7, 7])
+    expect(await bytes(mediaKey('ja-0001', 'image'))).toEqual([5])
+  })
+
+  it('그림·음성 파일 이름은 형식에 맞는 확장자를 쓴다', async () => {
+    await seed()
+    await db.media.put({ key: mediaKey('ja-0001', 'image'), data: new Uint8Array([1]).buffer, type: 'image/webp' })
+    await db.media.put({ key: mediaKey('ja-0001', 'audio'), data: new Uint8Array([2]).buffer, type: 'audio/webm;codecs=opus' })
+    await db.media.put({ key: 'ja-0001:sentence', data: new Uint8Array([3]).buffer, type: 'audio/wav' })
+
+    const names = Object.keys(unzipSync(new Uint8Array(await (await exportArchive()).arrayBuffer())))
+    expect(names).toEqual(expect.arrayContaining(['media/ja-0001-image.webp', 'media/ja-0001-audio.webm', 'media/ja-0001-sentence.wav']))
+  })
+
   it('같은 항목이 있으면 더 최근 것을 남기고, 기록은 겹치지 않게 더한다', async () => {
     await seed()
     const archive = await exportArchive()

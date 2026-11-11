@@ -114,12 +114,25 @@ describe('주관식 채점', () => {
     expect(checkAnswer(dog, '')).toBe('wrong')
   })
 
+  it('읽기가 여럿인 흔한 단어는 다른 읽기로 써도 정답이다', () => {
+    const what = word({ id: 'ja-f00004', text: '何', reading: 'なん', kanji: '何', meaningKo: '무엇, 뭐' })
+    expect(checkAnswer(what, 'なに')).toBe('correct')
+    expect(checkAnswer(word({ id: 'ja-f00100', text: '家', reading: 'いえ', kanji: '家' }), 'うち')).toBe('correct')
+    expect(checkAnswer(what, 'なぜ')).toBe('wrong')
+  })
+
   it('영어는 대소문자·공백·문장부호를 무시하고, 네 글자 이상은 한 글자 틀려도 거의 맞았다고 본다', () => {
     const understand = word({ id: 'en-0002', text: 'understand', reading: '', kanji: null })
     expect(checkAnswer(understand, 'Understand.')).toBe('correct')
     expect(checkAnswer(understand, 'understnd')).toBe('almost')
     expect(checkAnswer(understand, 'undrestand')).toBe('wrong')
     expect(checkAnswer(word({ id: 'en-0001', text: 'dog', reading: '', kanji: null }), 'dig')).toBe('wrong')
+  })
+
+  it('한 글자 차이라도 다른 영어 단어를 쓴 거면 오타가 아니라 틀린 답이다', () => {
+    const house = word({ id: 'en-0300', text: 'house', reading: '', kanji: null })
+    expect(checkAnswer(house, 'horse', new Set(['horse', 'house']))).toBe('wrong')
+    expect(checkAnswer(house, 'hause', new Set(['horse', 'house']))).toBe('almost')
   })
 
   it('숫자 단어는 한 글자만 달라도 다른 수라 정확히 같아야 정답이다', () => {

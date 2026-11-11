@@ -92,6 +92,19 @@ const toHiragana = (text: string) => text.replace(/[ァ-ヶ]/g, char => String.f
 
 const normalizeJapanese = (text: string) => toHiragana(text.normalize('NFKC').replace(/[\s〜～]/g, ''))
 
+// 단어 자료에는 읽기가 하나뿐이라, 같은 뜻으로 흔히 쓰는 다른 읽기를 따로 받아 준다.
+const OTHER_READINGS: Record<string, string[]> = {
+  何: ['なに'],
+  家: ['うち'],
+  私: ['わたくし', 'あたし'],
+  他: ['た'],
+  後: ['のち'],
+  行く: ['ゆく'],
+  明日: ['あす'],
+  昨日: ['さくじつ'],
+  本当: ['ほんと'],
+}
+
 const normalizeEnglish = (text: string) => text.toLowerCase().replace(/[^a-z0-9]/g, '')
 
 const editDistance = (left: string, right: string) => {
@@ -110,18 +123,23 @@ const editDistance = (left: string, right: string) => {
 
 const ALMOST_MIN_LENGTH = 4
 
+// 오타와 다른 단어를 가르려고, 앱이 아는 영어 단어를 채점할 때와 같은 모양으로 모아 둔다.
+export const englishWordSet = (texts: string[]) => new Set(texts.flatMap(text => text.split('/')).map(normalizeEnglish))
+
 // 철자 시험이 되지 않게: 일본어는 한자·읽기 어느 쪽이든, 영어는 여러 뜻 중 하나만 맞혀도 되고 긴 단어는 한 글자 틀림까지 봐준다.
-export const checkAnswer = (word: WordEntry, input: string): Answer => {
+// 다만 한 글자 차이라도 다른 영어 단어(house → horse)를 쓴 건 오타가 아니라 틀린 답이다.
+export const checkAnswer = (word: WordEntry, input: string, knownWords: Set<string> = new Set()): Answer => {
   if (word.id.startsWith('ja-')) {
     const answer = normalizeJapanese(input)
     if (!answer) return 'wrong'
-    const accepted = [word.text, word.kanji, word.reading].filter((value): value is string => !!value).map(normalizeJapanese)
+    const accepted = [word.text, word.kanji, word.reading, ...(OTHER_READINGS[word.text] ?? [])].filter((value): value is string => !!value).map(normalizeJapanese)
     return accepted.includes(answer) ? 'correct' : 'wrong'
   }
   const answer = normalizeEnglish(input)
   if (!answer) return 'wrong'
   const accepted = word.text.split('/').map(normalizeEnglish)
   if (accepted.includes(answer)) return 'correct'
+  if (knownWords.has(answer)) return 'wrong'
   // 숫자는 한 글자만 달라도 다른 수(100·1000)라 봐주지 않는다.
   const isLenient = (option: string) => option.length >= ALMOST_MIN_LENGTH && !/^\d+$/.test(option)
   return accepted.some(option => isLenient(option) && editDistance(option, answer) === 1) ? 'almost' : 'wrong'

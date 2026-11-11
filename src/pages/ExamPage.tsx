@@ -1,14 +1,15 @@
 import { XIcon } from '@phosphor-icons/react'
 import { useLiveQuery } from 'dexie-react-hooks'
-import { useRef, useState, type KeyboardEvent } from 'react'
+import { useEffect, useRef, useState, type KeyboardEvent } from 'react'
 import { Link, useNavigate } from 'react-router'
 import { DEFEAT_EFFECTS, pickImage } from '../characters/effects'
 import { EXAM_INTRO_IMAGE, LICENSE_BRAG_VIDEO, licenseImageOf } from '../characters/slots'
 import DefeatScene from '../components/DefeatScene'
 import StudyImage from '../components/StudyImage'
-import type { WordEntry } from '../data/words'
+import { TEST_WORDS } from '../data/vocabTest'
+import { WORDS, type WordEntry } from '../data/words'
 import { examProgress, getMedia, learnedWords, postponeToTomorrow, saveExamResult } from '../db/repository'
-import { checkAnswer, gradeLabel, GRADES, gradeRule, pickQuestions, type Answer, type ExamStatus } from '../domain/exam'
+import { checkAnswer, englishWordSet, gradeLabel, GRADES, gradeRule, pickQuestions, type Answer, type ExamStatus } from '../domain/exam'
 import { DEVICE_PERSON, type Language } from '../platform'
 import { getSettings, learningLanguage } from '../settings'
 
@@ -18,6 +19,8 @@ type Answered = { word: WordEntry; answer: Answer }
 type ExamOutcome = { grade: number; pass: number; correct: number; total: number; passed: boolean; missed: WordEntry[] }
 
 const FAILED_MESSAGE = '괜찮아, 내일 다시 보자'
+
+const ENGLISH_WORDS = englishWordSet([...WORDS.en, ...TEST_WORDS.en].map(word => word.text))
 
 const feedbackOf = (answer: Answer) => {
   if (answer === 'correct') return '맞았어!'
@@ -49,7 +52,9 @@ function ExamPage() {
   const language = learningLanguage()
   const person = getSettings().person ?? DEVICE_PERSON
 
-  const progress = useLiveQuery(() => examProgress(language, new Date()), [language])
+  const today = useToday()
+
+  const progress = useLiveQuery(() => examProgress(language, new Date()), [language, today])
 
   // 마지막 문제를 빠르게 두 번 눌러 결과를 두 번 저장하지 않게 막는다.
   const isFinishing = useRef(false)
@@ -60,13 +65,16 @@ function ExamPage() {
   const [checked, setChecked] = useState<Answer | null>(null)
   const [outcome, setOutcome] = useState<ExamOutcome | null>(null)
   const [defeatImage, setDefeatImage] = useState<string | null>(null)
+  const [isStarting, setIsStarting] = useState(false)
+  const [saveFailed, setSaveFailed] = useState(false)
 
   const rule = progress?.status.kind === 'ready' ? gradeRule(progress.status.grade) : null
   const question = exam?.questions[answers.length]
   const isLast = exam !== null && answers.length === exam.questions.length - 1
 
   const start = async () => {
-    if (!rule) return
+    if (!rule || isStarting) return
+    setIsStarting(true)
     const words = pickQuestions(await learnedWords(language), rule.questions)
     const questions = await Promise.all(words.map(async word => ({ word, image: await getMedia(word.id, 'image') })))
     setExam({ grade: rule.grade, pass: rule.pass, questions })
@@ -75,35 +83,44 @@ function ExamPage() {
   const finish = async (all: Answered[]) => {
     if (!exam || isFinishing.current) return
     isFinishing.current = true
+    setSaveFailed(false)
     const now = new Date()
     const correct = all.filter(item => item.answer !== 'wrong').length
     const passed = correct >= exam.pass
     const missed = all.filter(item => item.answer === 'wrong').map(item => item.word)
-    await saveExamResult(language, { takenAt: now.toISOString(), grade: exam.grade, correct, total: all.length, passed })
-    if (missed.length > 0) await postponeToTomorrow(missed.map(word => word.id), now)
+    try {
+      await saveExamResult(language, { takenAt: now.toISOString(), grade: exam.grade, correct, total: all.length, passed })
+      if (missed.length > 0) await postponeToTomorrow(missed.map(word => word.id), now)
+    } catch {
+      isFinishing.current = false
+      setSaveFailed(true)
+      return
+    }
     if (!passed) setDefeatImage(pickImage(DEFEAT_EFFECTS).src)
     setOutcome({ grade: exam.grade, pass: exam.pass, correct, total: all.length, passed, missed })
   }
 
   const check = () => {
     if (!question || checked || !input.trim()) return
-    setChecked(checkAnswer(question.word, input))
+    setChecked(checkAnswer(question.word, input, ENGLISH_WORDS))
   }
 
   const next = () => {
     if (!question || !checked) return
     const all = [...answers, { word: question.word, answer: checked }]
-    setInput('')
-    setChecked(null)
+    // 마지막 문제는 저장이 끝날 때까지 답을 그대로 둔다. 실패하면 다시 누를 수 있다.
     if (isLast) {
       finish(all)
       return
     }
+    setInput('')
+    setChecked(null)
     setAnswers(all)
   }
 
   const handleKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
-    if (event.key !== 'Enter' || event.nativeEvent.isComposing) return
+    // 사파리는 한글·일본어 조합을 끝내는 Enter에 isComposing 대신 keyCode 229를 준다.
+    if (event.key !== 'Enter' || event.nativeEvent.isComposing || event.keyCode === 229) return
     if (checked) next()
     else check()
   }
@@ -205,6 +222,11 @@ function ExamPage() {
                   <strong lang={language}>{answerTextOf(question.word, language)}</strong>
                 </p>
               )}
+              {saveFailed && (
+                <p className="exam-error" role="alert">
+                  결과를 저장하지 못했어. 다시 눌러 줘
+                </p>
+              )}
             </section>
           </div>
         </main>
@@ -240,13 +262,32 @@ function ExamPage() {
       </main>
       {rule && (
         <div className="bottom-cta vocab-actions vocab-cta">
-          <button type="button" className="button button-primary" onClick={start}>
+          <button type="button" className="button button-primary" disabled={isStarting} onClick={start}>
             {rule.grade}급 시험 시작하기
           </button>
         </div>
       )}
     </div>
   )
+}
+
+// 시험은 하루 한 번이라, 화면을 켜 둔 채 자정이 지나거나 다음 날 앱으로 돌아오면 날짜를 새로 읽는다.
+function useToday() {
+  const [today, setToday] = useState(() => new Date().toDateString())
+
+  useEffect(() => {
+    const refresh = () => setToday(new Date().toDateString())
+    const now = new Date()
+    const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1)
+    const timer = setTimeout(refresh, nextMidnight.getTime() - now.getTime())
+    document.addEventListener('visibilitychange', refresh)
+    return () => {
+      clearTimeout(timer)
+      document.removeEventListener('visibilitychange', refresh)
+    }
+  }, [today])
+
+  return today
 }
 
 type NextExamProps = { grade: number | null; vocab: number; learned: number; status: ExamStatus }

@@ -28,6 +28,23 @@ afterEach(() => {
 })
 
 describe('prepareSentenceAudio', () => {
+  it('받은 음성을 저장하지 못해도(저장소 오류) 실패로 알려 줄 뿐 오류를 던지지 않는다', async () => {
+    vi.stubGlobal('fetch', vi.fn(async () => audioResponse()))
+    const put = vi.spyOn(db.media, 'put').mockRejectedValueOnce(new Error('저장소 오류'))
+
+    await expect(prepareSentenceAudio('ja-f00001')).resolves.toBe(false)
+    put.mockRestore()
+  })
+
+  it('받을 문장을 찾다가 저장소 오류가 나도 다시 받기는 조용히 끝난다', async () => {
+    const filter = vi.spyOn(db.cards, 'filter').mockImplementationOnce(() => {
+      throw new Error('저장소 오류')
+    })
+
+    await expect(backfillSentenceAudio()).resolves.toBe(0)
+    filter.mockRestore()
+  })
+
   it('원어민 녹음이 있으면 앱에 든 녹음 파일을 받아 저장한다', async () => {
     const fetchMock = vi.fn(async () => audioResponse())
     vi.stubGlobal('fetch', fetchMock)

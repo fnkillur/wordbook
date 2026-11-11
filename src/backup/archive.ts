@@ -24,10 +24,12 @@ const isProfileKey = (key: string) => key.startsWith('vocabTests:') || key.start
 
 export type ImportResult = { added: number; updated: number; skipped: number }
 
+const EXTENSIONS: Record<string, string> = { 'audio/mpeg': 'mp3', 'audio/mp4': 'm4a', 'image/jpeg': 'jpg' }
+
+// audio/webm;codecs=opus처럼 붙은 설명은 떼고, 따로 정하지 않은 형식은 image/webp → webp처럼 뒷부분을 쓴다.
 const extensionOf = (type: string) => {
-  if (type.includes('mpeg')) return 'mp3'
-  if (type === 'audio/mp4') return 'm4a'
-  return 'jpg'
+  const mime = type.split(';')[0].trim()
+  return EXTENSIONS[mime] ?? mime.split('/')[1] ?? 'bin'
 }
 
 const mediaPath = (record: MediaRecord) => `media/${record.key.replace(':', '-')}.${extensionOf(record.type)}`
@@ -100,6 +102,9 @@ export const notesToImport = async (data: ArchiveData) => {
   return data.notes.filter((note, index) => !current[index] || current[index].updatedAt < note.updatedAt).map(note => note.wordId)
 }
 
+const noteMedia = (data: ArchiveData, files: Record<string, Uint8Array>, wordId: string): MediaRecord[] =>
+  data.media.filter(entry => entry.key.startsWith(`${wordId}:`) && files[entry.path]).map(entry => ({ key: entry.key, type: entry.type, data: new Uint8Array(files[entry.path]).buffer }))
+
 // files: media/ 경로별 바이트. 가져올 노트의 그림·발음만 있으면 된다.
 export const mergeArchive = async (data: ArchiveData, files: Record<string, Uint8Array>): Promise<ImportResult> => {
   const result: ImportResult = { added: 0, updated: 0, skipped: 0 }
@@ -107,14 +112,17 @@ export const mergeArchive = async (data: ArchiveData, files: Record<string, Uint
   await db.transaction('rw', [db.notes, db.media, db.cards, db.reviewLogs, db.wordStates, db.settings, db.coins], async () => {
     for (const note of data.notes) {
       const current = await db.notes.get(note.wordId)
+      const records = noteMedia(data, files, note.wordId)
       if (current && current.updatedAt >= note.updatedAt) {
+        // 폰의 노트를 남겨도, 폰에 없는 그림·발음·문장 음성은 백업에서 채운다.
+        const existing = await db.media.bulkGet(records.map(record => record.key))
+        await db.media.bulkPut(records.filter((_, index) => !existing[index]))
         result.skipped += 1
         continue
       }
       await db.notes.put(note)
-      // 노트를 가져올 때만 그 단어의 그림·발음도 함께 바꾼다.
-      const entries = data.media.filter(entry => entry.key.startsWith(`${note.wordId}:`) && files[entry.path])
-      await db.media.bulkPut(entries.map(entry => ({ key: entry.key, type: entry.type, data: new Uint8Array(files[entry.path]).buffer })))
+      // 노트를 가져올 때는 그 단어의 그림·발음도 함께 바꾼다.
+      await db.media.bulkPut(records)
       if (current) result.updated += 1
       else result.added += 1
     }

@@ -5,7 +5,7 @@ import { createMemoryRouter, RouterProvider } from 'react-router'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { WORDS } from '../data/words'
 import { db } from '../db/database'
-import { examResults, saveVocabTest } from '../db/repository'
+import { examResults, saveExamResult, saveVocabTest } from '../db/repository'
 import { pickQuestions } from '../domain/exam'
 import { newStudyCard } from '../domain/schedule'
 import { saveSettings } from '../settings'
@@ -79,6 +79,7 @@ afterEach(() => {
   act(() => root.unmount())
   container.remove()
   vi.restoreAllMocks()
+  vi.useRealTimers()
 })
 
 const questions = () => pickQuestions(LEARNED, 10, () => 0)
@@ -132,6 +133,65 @@ describe('제초 검정', () => {
     expect(await examResults('ja')).toMatchObject([{ grade: 4, correct: 0, passed: false }])
     const due = (await db.cards.get(`${wrong.id}:produce`))?.fsrs.due
     expect(new Date(due!).getTime()).toBeLessThan(new Date('2026-12-31T00:00:00.000Z').getTime())
+  })
+
+  it('시작하기를 누르면 준비하는 동안 다시 누를 수 없다', async () => {
+    await open()
+    act(() => button('시작하기')!.click())
+    expect(button('시작하기')?.disabled).toBe(true)
+    await wait()
+    expect(container.querySelector('.vocab-progress-count')?.textContent).toBe('1 / 10')
+  })
+
+  it('마지막 결과를 저장하지 못하면 답을 그대로 두고 다시 저장할 수 있다', async () => {
+    await open()
+    await startExam()
+    const answers = questions().map(word => word.text)
+    for (const answer of answers.slice(0, -1)) {
+      await type(answer)
+      await act(async () => button('확인')!.click())
+      await act(async () => button('다음')!.click())
+    }
+    await type(answers.at(-1)!)
+    await act(async () => button('확인')!.click())
+    const put = vi.spyOn(db.settings, 'put').mockRejectedValueOnce(new Error('저장 실패'))
+
+    await act(async () => button('결과 보기')!.click())
+    await wait()
+    expect(container.querySelector('.exam-error')?.textContent).toContain('저장하지 못했어')
+    expect((container.querySelector('input') as HTMLInputElement).value).toBe(answers.at(-1))
+    expect(container.querySelector('.exam-feedback')).not.toBeNull()
+
+    put.mockRestore()
+    await act(async () => button('결과 보기')!.click())
+    await wait()
+    expect(container.textContent).toContain('제초 4급 합격!')
+    expect(await examResults('ja')).toHaveLength(1)
+  })
+
+  it('글자를 조합하는 중에 누른 Enter(사파리는 keyCode 229)로는 확인하지 않는다', async () => {
+    await open()
+    await startExam()
+    await type(questions()[0].text)
+    const press = (init: KeyboardEventInit) => act(async () => container.querySelector('input')!.dispatchEvent(new KeyboardEvent('keydown', { bubbles: true, key: 'Enter', ...init })))
+
+    await press({ keyCode: 229 })
+    expect(container.querySelector('.exam-feedback')).toBeNull()
+    await press({ keyCode: 13 })
+    expect(container.querySelector('.exam-feedback')).not.toBeNull()
+  })
+
+  it('오늘 떨어진 채로 자정이 지나 앱으로 돌아오면 시험을 다시 볼 수 있다', async () => {
+    vi.useFakeTimers({ toFake: ['Date'] })
+    vi.setSystemTime(new Date('2026-11-10T21:00:00'))
+    await saveExamResult('ja', { takenAt: new Date().toISOString(), grade: 4, correct: 0, total: 10, passed: false })
+    await open()
+    expect(container.querySelector('.exam-next')?.textContent).toContain('내일 다시 볼 수 있어')
+
+    vi.setSystemTime(new Date('2026-11-11T07:00:00'))
+    await act(async () => document.dispatchEvent(new Event('visibilitychange')))
+    await wait()
+    expect(button('시작하기')).toBeDefined()
   })
 
   it('시험 중에 나가면 기록하지 않는다', async () => {
