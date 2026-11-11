@@ -4,18 +4,30 @@ import { speechTextOf, WORDS } from './words'
 
 describe.each(['ja', 'en'] as const)('단어 데이터 (%s)', language => {
   const words = WORDS[language]
+  const baseWords = words.filter(word => word.source === 'base')
+  const freqWords = words.filter(word => word.source === 'freq')
 
   it('기초 단어 목록과 같은 수, 같은 순서다', () => {
-    expect(words).toHaveLength(base.length)
-    expect(words.map(word => word.order)).toEqual(base.map((_, index) => index + 1))
-    expect(words.map(word => word.theme)).toEqual(base.map(item => item.theme))
+    expect(baseWords).toHaveLength(base.length)
+    expect(baseWords.map(word => word.order)).toEqual(base.map((_, index) => index + 1))
+    expect(baseWords.map(word => word.theme)).toEqual(base.map(item => item.theme))
+    expect(baseWords.every(word => word.rank === null)).toBe(true)
   })
 
   it('id가 겹치지 않고, 단어·뜻·읽기·검색어가 비어 있지 않다', () => {
     expect(new Set(words.map(word => word.id)).size).toBe(words.length)
     words.forEach(word => {
       expect(word.id.startsWith(`${language}-`)).toBe(true)
-      expect([word.text, word.meaningKo, word.reading, word.searchQuery].every(value => value.trim() !== '')).toBe(true)
+      expect([word.text, word.meaningKo, word.searchQuery].every(value => value.trim() !== '')).toBe(true)
+    })
+    expect(baseWords.every(word => word.reading.trim() !== '')).toBe(true)
+  })
+
+  it('회화 빈도 단어는 순위로 id를 붙이고, 기초 단어와 겹치지 않는다', () => {
+    const baseTexts = new Set(baseWords.map(word => word.text))
+    freqWords.forEach(word => {
+      expect(word.id).toBe(`${language}-f${String(word.rank).padStart(5, '0')}`)
+      expect(baseTexts.has(word.text)).toBe(false)
     })
   })
 })

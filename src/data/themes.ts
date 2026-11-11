@@ -1,0 +1,32 @@
+// 기초 625 목록(base625.json)은 영어 주제 이름을 그대로 둔다. 화면에서만 우리말로 바꿔 보여 준다.
+const THEME_KO: Record<string, string> = {
+  Animal: '동물',
+  Transportation: '교통',
+  Location: '장소',
+  Clothing: '옷',
+  Color: '색깔',
+  People: '사람',
+  Job: '직업',
+  Society: '사회',
+  Art: '예술',
+  Beverages: '음료',
+  Food: '음식',
+  Home: '집',
+  Electronics: '전자제품',
+  Body: '몸',
+  Nature: '자연',
+  Materials: '재료',
+  'Math/Measurements': '수학·단위',
+  'Misc Nouns': '그 밖의 명사',
+  Directions: '방향',
+  Seasons: '계절',
+  Numbers: '숫자',
+  Months: '달',
+  'Days of the week': '요일',
+  Time: '시간',
+  Verbs: '동사',
+  Adjectives: '형용사',
+  Pronouns: '대명사',
+}
+
+export const themeLabel = (theme: string) => THEME_KO[theme] ?? theme

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { gradeCard, newStudyCard, newWordBudget, todayQueue, type StudyCard } from './schedule'
+import { gradeCard, newStudyCard, newWordBudget, startOfNextDay, todayQueue, type StudyCard } from './schedule'
 
 const NOW = new Date('2026-11-05T09:00:00+09:00')
 const minutesLater = (date: Date, minutes: number) => new Date(date.getTime() + minutes * 60_000)
@@ -81,5 +81,28 @@ describe('newWordBudget', () => {
   it('복습만으로 목표를 넘으면 새 단어는 없다', () => {
     const reviews = Array.from({ length: 120 }, (_, index) => dueCard(`ja-${index}`, 'produce', 10))
     expect(newWordBudget(reviews, NOW, 15)).toBe(0)
+  })
+})
+
+describe('빈칸 카드(cloze)', () => {
+  const tomorrow = new Date(NOW.getFullYear(), NOW.getMonth(), NOW.getDate() + 1)
+  const cloze = () => newStudyCard('ja-f00001', 'cloze', NOW, startOfNextDay(NOW))
+
+  it('기한을 주면 그때부터, startOfNextDay는 다음 날 0시다', () => {
+    expect(startOfNextDay(NOW).getTime()).toBe(tomorrow.getTime())
+    expect(dueAt(cloze()).getTime()).toBe(tomorrow.getTime())
+  })
+
+  it('오늘은 나오지 않고 다음 날 0시부터 나온다', () => {
+    expect(todayQueue([cloze()], NOW, { soundOff: false })).toHaveLength(0)
+    expect(todayQueue([cloze()], tomorrow, { soundOff: false })).toHaveLength(1)
+  })
+
+  it('오늘 할 양 계산에 들어가지 않는다', () => {
+    expect(newWordBudget([cloze()], NOW, 10)).toBe(newWordBudget([], NOW, 10))
+  })
+
+  it('발음이 아직 없는 단어라도 빈칸 카드는 낸다', () => {
+    expect(todayQueue([cloze()], tomorrow, { soundOff: false, silentWords: new Set(['ja-f00001']) })).toHaveLength(1)
   })
 })

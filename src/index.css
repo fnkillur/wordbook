@@ -3,17 +3,29 @@
   --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
   --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
   --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
-  --color-bg: #f7f6f3;
-  --color-surface: #fcfcfb;
+  /* 배경은 따뜻한 회색, 카드·말풍선은 흰색으로 확실히 나눈다. */
+  --color-bg: #f1eee8;
+  --color-surface: #ffffff;
   --color-text: #1d1c1a;
   --color-text-sub: #6b6963;
   --color-border: #e6e4df;
   --color-grid: #e9e7e2;
   --color-primary: #4f6f9a;
+  /* 대표색: 우사기 노랑. 노랑 위 글자는 그림체 테두리와 같은 갈색으로 쓴다. */
+  --color-brand: #f6c979;
+  --color-brand-strong: #e3a845;
+  --color-brand-text: #3d2b26;
   --color-expense: #bf5a4e;
+  /* 상점 돗자리는 상점 그림 속 바닥 색. 액자·팻말 선은 그림체 테두리 갈색이다. */
+  --stall-mat: #c6cbdd;
+  --stall-stitch: rgb(255 255 255 / 0.7);
+  --stall-line: #3d2b26;
+  --book-page: #fbfbfa;
+  --book-line: #4a2e28;
+  --book-spine: rgb(74 46 40 / 0.1);
   --color-primary-text: #ffffff;
   --color-danger: #c0594d;
-  --color-pressed: #efede8;
+  --color-pressed: #e6e2da;
   --color-success-bg: #e6f1ea;
   --color-success-text: #2f6a4c;
   --color-error-bg: #f8e6e3;
@@ -42,15 +54,15 @@
   --status-warning: #e0b04a;
   --status-critical: #cf6a5e;
   --shadow-fab: 0 6px 20px rgb(0 0 0 / 0.1);
-  --font-2xs: 11px;
-  --font-xs: 12px;
-  --font-sm: 13px;
-  --font-md: 15px;
-  --font-lg: 17px;
-  --font-xl: 20px;
-  --font-2xl: 24px;
-  --font-3xl: 32px;
-  --font-4xl: 40px;
+  /* 역할별 글자 크기(토스 디자인 시스템 단계: 13·15·17·22). */
+  --text-title: 22px;
+  /* 헤더 가운데 제목: 화면 제목(22)보다 작고 본문(17)보다 조금 크게 */
+  --text-header: 19px;
+  --text-body: 17px;
+  --text-sub: 15px;
+  --text-caption: 13px;
+  --text-tab: 11px;
+  --text-word: 48px;
   --space-1: 4px;
   --space-2: 8px;
   --space-3: 12px;
@@ -58,15 +70,22 @@
   --space-5: 20px;
   --space-6: 24px;
   --space-8: 32px;
+  --page-gutter: 16px;
+  --cta-bottom: 16px;
   --radius-xs: 4px;
   --radius-sm: 8px;
   --radius-md: 12px;
   --radius-lg: 16px;
   --radius-xl: 20px;
+  /* 그림은 크기와 상관없이 모서리를 하나로 맞춘다. */
+  --radius-image: var(--radius-lg);
   --radius-full: 999px;
   --control-height: 44px;
   --top-bar-height: 52px;
   --tab-bar-height: 60px;
+  /* 화면 맨 위 헤더(뒤로·닫기·제목 줄)와 첫 콘텐츠 사이는 어느 화면이든 이 간격이다. */
+  --header-height: 44px;
+  --header-gap: var(--space-4);
 
   color-scheme: light dark;
   font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', Roboto, sans-serif;
@@ -78,17 +97,23 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-bg: #161615;
-    --color-surface: #1f1f1d;
+    --color-bg: #141413;
+    --color-surface: #262522;
     --color-text: #f0efec;
     --color-text-sub: #a9a79f;
     --color-border: #33322f;
     --color-grid: #2e2d2a;
     --color-primary: #86a3cc;
+    --color-brand-strong: #f6c979;
     --color-expense: #e7958b;
+    --stall-mat: #2e3140;
+    --stall-stitch: rgb(255 255 255 / 0.18);
+    --book-page: #2b2926;
+    --book-line: #9c7d73;
+    --book-spine: rgb(0 0 0 / 0.3);
     --color-primary-text: #ffffff;
     --color-danger: #e48c81;
-    --color-pressed: #2a2927;
+    --color-pressed: #33312e;
     --color-success-bg: #1e3127;
     --color-success-text: #a5d6bb;
     --color-error-bg: #3a2522;
@@ -123,20 +148,14 @@
 html,
 body {
   margin: 0;
+  /* 내용이 화면에 다 들어올 때 끌어도 화면 전체가 출렁이지 않게 한다. */
+  overscroll-behavior: none;
   background: var(--color-bg);
   color: var(--color-text);
-  font-size: var(--font-md);
-
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0;
-  background: var(--color-bg);
-  color: var(--color-text);
-  font-size: var(--font-md);
+  font-size: var(--text-body);
+  /* 한국어는 낱말 중간('줄/래?')에서 줄이 바뀌지 않게 하고, 너무 긴 낱말만 쪼갠다. */
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 button,
@@ -147,10 +166,11 @@ select {
   color: inherit;
 }
 
+/* 16px보다 작으면 아이폰이 입력할 때 화면을 확대한다. */
 input,
 textarea,
 select {
-  font-size: 16px;
+  font-size: var(--text-body);
 }
 
 button,
@@ -164,15 +184,24 @@ a {
   min-height: 100dvh;
 }
 
+.page-content > :last-child {
+  margin-bottom: 0;
+}
+
 .page-content {
   max-width: 680px;
   margin: 0 auto;
-  padding: calc(var(--space-3) + env(safe-area-inset-top, 0px)) var(--space-4) calc(var(--tab-bar-height) + 96px + env(safe-area-inset-bottom, 0px));
+  /* 아래 여백은 고정된 탭 바 높이만큼만 둔다. 더 두면 내용이 화면에 다 들어와도 스크롤이 생긴다. */
+  padding: calc(var(--space-3) + env(safe-area-inset-top, 0px)) var(--page-gutter) calc(var(--tab-bar-height) + var(--space-4) + env(safe-area-inset-bottom, 0px));
 }
 
+/* 제목은 닫기·뒤로 버튼이 있는 머리 줄과 같은 높이에 두고, 그 아래 첫 요소까지 같은 간격을 둔다. */
 .page-title {
-  margin: var(--space-2) 0 var(--space-4);
-  font-size: var(--font-xl);
+  display: flex;
+  align-items: center;
+  min-height: var(--header-height);
+  margin: 0 0 var(--header-gap);
+  font-size: var(--text-title);
   font-weight: 700;
 }
 
@@ -186,9 +215,7 @@ a {
   height: calc(var(--tab-bar-height) + env(safe-area-inset-bottom, 0px));
   padding-bottom: env(safe-area-inset-bottom, 0px);
   border-top: 1px solid var(--color-border);
-  background: color-mix(in srgb, var(--color-surface) 90%, transparent);
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background: var(--color-surface);
 }
 
 .tab-link {
@@ -199,7 +226,7 @@ a {
   justify-content: center;
   gap: 2px;
   color: var(--color-text-sub);
-  font-size: var(--font-2xs);
+  font-size: var(--text-tab);
   font-weight: 600;
   text-decoration: none;
   transition: transform 100ms var(--ease-out);
@@ -220,13 +247,14 @@ a {
   border-radius: var(--radius-md);
   background: var(--color-warning-bg);
   color: var(--color-warning-text);
-  font-size: var(--font-sm);
+  font-size: var(--text-sub);
 }
 
 .button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: var(--space-1);
   min-height: var(--control-height);
   padding: 0 var(--space-4);
   border: 0;
@@ -241,9 +269,16 @@ a {
   opacity: 0.45;
 }
 
+/* 아래 버튼 뒤로 내용이 지나가도 비치지 않게, 비활성 버튼은 투명도 대신 옅은 색을 칠한다. */
+.button-primary:disabled {
+  background: color-mix(in srgb, var(--color-brand) 40%, var(--color-bg));
+  color: color-mix(in srgb, var(--color-brand-text) 40%, var(--color-bg));
+  opacity: 1;
+}
+
 .button-primary {
-  background: var(--color-text);
-  color: var(--color-bg);
+  background: var(--color-brand);
+  color: var(--color-brand-text);
 }
 
 .text-button {
@@ -262,13 +297,14 @@ a {
 
 .bottom-cta {
   position: fixed;
+  z-index: 5;
   right: 0;
   bottom: 0;
   left: 0;
   display: flex;
   gap: var(--space-2);
-  padding: var(--space-3) max(var(--space-4), calc((100% - 680px) / 2 + var(--space-4))) calc(var(--space-3) + env(safe-area-inset-bottom, 0px));
-  background: linear-gradient(transparent, var(--color-bg) 30%);
+  padding: var(--space-3) max(var(--page-gutter), calc((100% - 680px) / 2 + var(--page-gutter))) calc(var(--cta-bottom) + env(safe-area-inset-bottom, 0px));
+  background: var(--color-bg);
 }
 
 .bottom-cta .button {
@@ -287,6 +323,8 @@ a {
   flex: 1;
   min-height: 36px;
   padding: 0 var(--space-2);
+  font-size: var(--text-sub);
+  white-space: nowrap;
   border: 0;
   border-radius: var(--radius-sm);
   background: none;
@@ -301,8 +339,18 @@ a {
   box-shadow: 0 1px 2px rgb(0 0 0 / 0.08);
 }
 
+.form-group-title {
+  margin: var(--space-6) var(--space-1) var(--space-2);
+  color: var(--color-text-sub);
+  font-size: var(--text-caption);
+  font-weight: 700;
+}
+
+.page-title + .form-group-title {
+  margin-top: 0;
+}
+
 .form-group {
-  margin-bottom: var(--space-4);
   overflow: hidden;
   border-radius: var(--radius-lg);
   background: var(--color-surface);
@@ -316,6 +364,7 @@ a {
   min-height: 56px;
   padding: var(--space-2) var(--space-4);
   border-bottom: 1px solid var(--color-border);
+  font-weight: 600;
 }
 
 .form-row:last-child {
@@ -334,18 +383,60 @@ a {
 
 .form-row-text small {
   color: var(--color-text-sub);
-  font-size: var(--font-xs);
+  font-size: var(--text-caption);
+  font-weight: 400;
+}
+
+.form-row-heading {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.status-badge {
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-full);
+  background: var(--color-pressed);
+  color: var(--color-text-sub);
+  font-size: var(--text-caption);
+  font-weight: 700;
+}
+
+.status-badge.is-on {
+  background: var(--color-success-bg);
+  color: var(--color-success-text);
 }
 
 .form-row-button {
+  justify-content: flex-start;
   width: 100%;
   border-right: 0;
   border-left: 0;
   border-top: 0;
   background: none;
+  color: inherit;
   font-weight: 600;
   text-align: left;
+  text-decoration: none;
   cursor: pointer;
+}
+
+.form-row-button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.form-row-button .form-row-text {
+  flex: 1;
+}
+
+.form-row-button svg {
+  flex: none;
+  color: var(--color-text-sub);
+}
+
+.form-row-label {
+  flex: 1;
 }
 
 .connect-row {
@@ -390,14 +481,196 @@ a {
 }
 
 .switch[aria-checked='true'] {
-  background: var(--color-primary);
+  background: var(--color-brand-strong);
 }
 
 .switch[aria-checked='true']::after {
   transform: translateX(20px);
 }
 
-/* 마을 */
+/* 집: 낮은 화면(폴드 바깥·안쪽 화면)에서도 스크롤 없이 시험 카드까지 보이게, 남는 높이만큼만 집 영상을 보여 준다. */
+.village-home {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}
+
+.home-scene {
+  position: relative;
+  flex: 0 1 auto;
+  min-height: 120px;
+  margin-bottom: var(--space-3);
+  border-radius: var(--radius-image);
+  overflow: hidden;
+}
+
+.home-scene video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+.shop-scene {
+  margin-bottom: var(--space-4);
+  border-radius: var(--radius-image);
+  overflow: hidden;
+}
+
+.shop-scene img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.shop-wallet {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+}
+
+.shop-wallet-icon {
+  width: 56px;
+  height: 56px;
+  flex: none;
+}
+
+.shop-wallet-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.shop-wallet-label {
+  color: var(--color-text-sub);
+  font-size: var(--text-caption);
+  font-weight: 700;
+}
+
+.shop-wallet-amount {
+  font-size: var(--text-title);
+  line-height: 1.2;
+}
+
+.shop-wallet-guide {
+  color: var(--color-text-sub);
+  font-size: var(--text-caption);
+}
+
+/* 상점 그림 속 갑옷씨처럼 돗자리에 물건을 늘어놓고 판다. */
+.shop-stall {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-5) var(--space-3);
+  margin: 0;
+  padding: var(--space-5) var(--space-3);
+  border-radius: var(--radius-lg);
+  outline: 2px dashed var(--stall-stitch);
+  outline-offset: -6px;
+  background: var(--stall-mat);
+  list-style: none;
+}
+
+.shop-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.shop-item-frame {
+  position: relative;
+  width: 100%;
+  padding: 3px;
+  border: 2px solid var(--stall-line);
+  border-radius: var(--radius-md);
+  background: #ffffff;
+  box-shadow: 0 3px 0 rgb(0 0 0 / 0.12);
+  transform: rotate(-2deg);
+}
+
+.shop-item:nth-child(3n + 2) .shop-item-frame {
+  transform: rotate(1.5deg);
+}
+
+.shop-item:nth-child(3n) .shop-item-frame {
+  transform: rotate(-0.5deg);
+}
+
+.shop-item-image {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: #f1eee8;
+  color: var(--stall-line);
+  font-size: var(--text-title);
+  font-weight: 700;
+}
+
+.shop-item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 도감에서 아직 안 열린 물건은 그림자로만 보인다. */
+.shop-item.is-locked .shop-item-image img {
+  filter: brightness(0);
+  opacity: 0.25;
+}
+
+/* 이름과 값은 상점 그림 속 나무 팻말에 적는다. */
+.shop-sign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2px var(--space-1);
+  border: 7px solid transparent;
+  border-image: url('./shop/images/sign.webp') 28 fill / 7px stretch;
+  color: var(--stall-line);
+  text-align: center;
+}
+
+.shop-item-name {
+  font-size: var(--text-caption);
+  font-weight: 700;
+  line-height: 1.3;
+  word-break: keep-all;
+}
+
+.shop-price {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: var(--text-caption);
+}
+
+.shop-price-icon {
+  width: 1.25em;
+  height: 1.25em;
+}
+
+.shop-item-state {
+  font-size: var(--text-caption);
+}
+
+.shop-item-play {
+  flex: none;
+  width: 100%;
+  height: 40px;
+  background: var(--color-surface);
+  font-size: var(--text-caption);
+}
+
 .village-who {
   display: flex;
   flex-direction: column;
@@ -426,42 +699,86 @@ a {
   display: flex;
   flex-direction: column;
   gap: var(--space-3);
-  padding-bottom: 120px;
+  /* 아래 고정 영역(만들기 52 + 넘기기 44 + 간격) 높이만큼만 비워 둔다. */
+  padding-bottom: calc(var(--space-3) + 52px + var(--space-2) + 44px + var(--cta-bottom) + var(--space-3) + env(safe-area-inset-bottom, 0px));
 }
 
-.make-top {
-  display: flex;
+/* 헤더 한 줄: 왼쪽 뒤로·닫기, 가운데 제목, 오른쪽은 비우거나 보조 정보 */
+.screen-header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  justify-content: space-between;
-  color: var(--color-text-sub);
-  font-size: var(--font-sm);
+  gap: var(--space-2);
+  min-height: var(--header-height);
+  margin-bottom: var(--header-gap);
+}
+
+.screen-header > :first-child {
+  justify-self: start;
+}
+
+.screen-header h1 {
+  margin: 0;
+  font-size: var(--text-header);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+/* 캐릭터 줄은 스크롤해도 위에 붙어 있다. 위 여백만큼 끌어올려 상태바 바로 아래에 붙인다.
+   책 페이지 뒤 종이 선이 카드 오른쪽으로 삐져나와서, 배경을 좌우 여백까지 넓혀 스크롤할 때 선이 비치지 않게 한다. */
+.make-header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  margin: calc((var(--space-3) + env(safe-area-inset-top, 0px)) * -1) calc(var(--page-gutter) * -1) 0;
+  padding: calc(var(--space-3) + env(safe-area-inset-top, 0px)) var(--page-gutter) var(--space-2);
+  background: var(--color-bg);
+}
+
+
+/* 폴드 커버처럼 세로가 짧은 화면은 캐릭터와 간격을 줄여 그림 칸과 기억 한 줄이 한 화면에 들어오게 한다. */
+@media (max-height: 760px) {
+  .make-content {
+    gap: var(--space-2);
+  }
+
+  .make-content .study-host {
+    margin: 0;
+  }
+
+  .make-content .character {
+    width: 64px;
+    height: 64px;
+  }
+
+  .make-word {
+    --text-word: 40px;
+  }
+
+  .study-card .study-image {
+    max-height: 32vh;
+  }
 }
 
 .make-word {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
+  gap: var(--space-2);
   text-align: center;
 }
 
-.make-word strong {
-  font-size: var(--font-4xl);
-  line-height: 1.2;
-}
-
-.make-reading,
-.make-hint {
-  color: var(--color-text-sub);
-}
 
 .make-image {
   display: grid;
-  place-items: center;
   aspect-ratio: 4 / 3;
+  /* 폴드 커버처럼 짧은 화면에서도 구글 찾기 버튼이 아래 만들기 버튼에 가리지 않게 높이를 줄인다. */
+  max-height: 32dvh;
   overflow: hidden;
   border: 2px dashed var(--color-border);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-image);
   color: var(--color-text-sub);
 }
 
@@ -469,10 +786,53 @@ a {
   border-style: solid;
 }
 
-.make-image img {
+/* 고른 그림은 저장되는 4:3 그대로 보여 준다. 짧은 화면에서는 폭을 줄여 비율을 지킨다. */
+.make-image.has-image {
+  align-self: center;
+  width: min(100%, calc(32dvh * 4 / 3));
+  background: #ffffff;
+}
+
+.image-cropper {
+  position: relative;
+  overflow: hidden;
+  touch-action: none;
+  cursor: grab;
+}
+
+.image-cropper img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   width: 100%;
   height: 100%;
+  max-width: none;
   object-fit: cover;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.make-image-hint {
+  margin: 0;
+  color: var(--color-text-sub);
+  font-size: var(--text-caption);
+  text-align: center;
+}
+
+/* 빈 칸 전체가 갤러리 버튼이다. */
+.make-image-pick {
+  grid-area: 1 / 1;
+}
+
+.make-image-pick {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  font-size: var(--text-sub);
+  cursor: pointer;
 }
 
 .make-offer {
@@ -488,29 +848,95 @@ a {
 .make-error {
   margin: 0;
   color: var(--color-danger);
-  font-size: var(--font-sm);
+  font-size: var(--text-sub);
 }
 
-.make-sources {
+.make-cta {
+  flex-direction: column;
+}
+
+/* 그림을 고른 뒤 아직 비어 있으면 다음 할 일로 눈에 띄게 한다. */
+
+@property --bubble-bg {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: transparent;
+}
+
+.study-host.is-talking .speech-bubble {
+  animation:
+    bubble-pop 360ms cubic-bezier(0.2, 0.9, 0.3, 1.3),
+    bubble-flash 1600ms ease-out;
+}
+
+.study-host.is-talking .character {
+  animation: character-hop 480ms ease-out;
+}
+
+@keyframes bubble-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+}
+
+@keyframes bubble-flash {
+  from,
+  30% {
+    --bubble-bg: var(--color-brand);
+  }
+}
+
+@keyframes character-hop {
+  40% {
+    transform: translateY(-8px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .study-host.is-talking .speech-bubble,
+  .study-host.is-talking .character {
+    animation: none;
+  }
+}
+
+/* 두 버튼이 아래 줄을 반씩 나눠 가져서, 누르는 칸이 넓고 만들기 버튼 가운데를 기준으로 대칭이 된다. */
+.make-skips {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.make-skips::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1px;
+  height: 14px;
+  background: var(--color-border);
+  transform: translateY(-50%);
+}
+
+.make-skips .text-button {
+  min-height: 44px;
+  font-size: var(--text-sub);
+}
+
+.make-undo {
   display: flex;
-  gap: var(--space-2);
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-1) var(--space-2) var(--space-1) var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--color-text);
+  color: var(--color-bg);
+  font-size: var(--text-sub);
 }
 
-.source-button {
-  display: inline-flex;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-1);
-  min-height: var(--control-height);
-  border: 0;
-  border-radius: var(--radius-md);
-  background: var(--color-surface);
-  color: var(--color-text);
-  font-weight: 600;
-  font-size: var(--font-sm);
-  text-decoration: none;
-  cursor: pointer;
+.make-undo .text-button {
+  min-height: 44px;
+  color: var(--color-brand);
 }
 
 /* 복습 */
@@ -518,50 +944,292 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  min-height: var(--header-height);
+  margin-bottom: var(--header-gap);
   color: var(--color-text-sub);
 }
 
-.study-card {
+/* 복습 위쪽 장면: 하치와레가 문제를 내고, 말풍선 꼬리가 하치와레를 가리킨다. 짧은 화면에서는 장면 높이를 줄인다. */
+.study-scene {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin: 0 0 var(--space-3);
+}
+
+.study-scene img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 5 / 2;
+  max-height: 15dvh;
+  border-radius: var(--radius-image);
+  object-fit: cover;
+  object-position: 70% 10%;
+}
+
+.study-scene .speech-bubble {
+  text-align: center;
+}
+
+.study-scene .speech-bubble::before {
+  top: -8px;
+  left: 70%;
+  border: 8px solid transparent;
+  border-top: 0;
+  border-bottom-color: var(--bubble-bg);
+  transform: translateX(-50%);
+}
+
+.study-host {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin: var(--space-3) 0;
+}
+
+.character {
+  flex: none;
+  width: 88px;
+  height: 88px;
+  border-radius: var(--radius-image);
+  object-fit: contain;
+}
+
+.character-placeholder {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--color-pressed);
+  color: var(--color-text);
+  font-size: var(--text-caption);
+  font-weight: 600;
+}
+
+.character-placeholder small {
+  color: var(--color-text-sub);
+  font-size: var(--text-caption);
+  font-weight: 400;
+}
+
+.speech-bubble {
+  position: relative;
+  flex: 1;
+  margin: 0;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  --bubble-bg: var(--color-surface);
+  background: var(--bubble-bg);
+  font-weight: 600;
+}
+
+.speech-bubble::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -8px;
+  border: 8px solid transparent;
+  border-left: 0;
+  border-right-color: var(--bubble-bg);
+  transform: translateY(-50%);
+}
+
+/* 10장마다 효과와 도감 다시 보기: 화면 가운데에 크게 띄우고, 아무 데나 누르면 닫힌다. */
+.effect-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: var(--space-3);
+  padding: var(--page-gutter);
+  background: color-mix(in srgb, var(--color-bg) 82%, transparent);
+  animation: effect-in 220ms ease-out;
+}
+
+.effect-card {
+  display: flex;
+  flex-direction: column;
+  width: min(100%, 420px);
+  margin: 0;
+  overflow: hidden;
+  border: 3px solid var(--book-line);
+  border-radius: 6px 20px 20px 6px;
+  background: var(--book-page);
+  box-shadow:
+    4px 4px 0 -3px var(--book-page),
+    4px 4px 0 0 var(--book-line);
+}
+
+.effect-card img,
+.effect-card video {
+  display: block;
   width: 100%;
-  min-height: 60vh;
-  padding: var(--space-4);
-  border: 0;
-  border-radius: var(--radius-xl);
-  background: var(--color-surface);
+  max-height: 56dvh;
+  background: #ffffff;
+  object-fit: contain;
+}
+
+.effect-message {
+  padding: var(--space-3) var(--space-4);
+  border-top: 2px dashed color-mix(in srgb, var(--book-line) 35%, transparent);
+  color: var(--book-line);
+  font-size: var(--text-title);
+  font-weight: 800;
+  text-align: center;
+}
+
+@keyframes effect-in {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .effect-overlay {
+    animation: none;
+  }
+}
+
+/* 문제 카드는 제초 검정 교재의 펼친 한 페이지다. 그림 속 책처럼 갈색 선, 왼쪽 제본 그늘, 뒤로 겹친 종이와 책갈피를 그린다. */
+.study-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  width: calc(100% - 8px);
+  min-height: 48vh;
+  /* 위아래 낙서가 사진에 가리지 않을 만큼만 비운다. */
+  padding: 36px var(--space-4) 40px;
+  border: 3px solid var(--book-line);
+  border-radius: 6px 20px 20px 6px;
+  background:
+    url('./characters/images/book-lines.webp') no-repeat top 8px left 16px / 64px auto,
+    url('./characters/images/book-crowns.webp') no-repeat bottom 8px right 14px / 60px auto,
+    linear-gradient(90deg, var(--book-spine), transparent 22px),
+    var(--book-page);
+  box-shadow:
+    4px 4px 0 -3px var(--book-page),
+    4px 4px 0 0 var(--book-line),
+    8px 8px 0 -3px var(--book-page),
+    8px 8px 0 0 var(--book-line);
   color: var(--color-text);
   cursor: pointer;
 }
 
-.study-image {
+.study-card::before,
+.study-card::after {
+  content: '';
+  position: absolute;
+  /* 그림 속 교재처럼 페이지 끝에 붙여 아래로 삐져나오게 한다. */
+  top: calc(100% - 6px);
+  width: 16px;
+  height: 22px;
+  border: 2px solid var(--book-line);
+  border-radius: 0 0 3px 3px;
+}
+
+.study-card::before {
+  right: 64px;
+  background: #a8d8ee;
+}
+
+.study-card::after {
+  right: 38px;
+  background: #ee7b6f;
+}
+
+/* 복습은 탭 바 없이 아래 답 버튼만 있다. 카드가 남는 높이를 채워서, 다 들어오면 스크롤이 생기지 않는다.
+   답을 열면 우사기가 든 키 큰 버튼으로 바뀌어서, 카드 높이가 바뀌지 않게 처음부터 그 높이만큼 비워 둔다. */
+.study-page {
+  --answer-height: 100px;
+}
+
+.study-page .page-content {
+  display: flex;
+  flex-direction: column;
+  /* 높이를 화면에 고정해서 사진이 있어도 책 페이지 크기가 바뀌지 않는다. 남는 자리보다 크면 사진이 줄어든다. */
+  height: 100dvh;
+  padding-bottom: calc(var(--space-3) + var(--answer-height) + var(--cta-bottom) + env(safe-area-inset-bottom, 0px));
+}
+
+.study-page .study-card {
+  flex: 1;
+  min-height: 0;
+  /* 아래로 삐져나온 책갈피가 답 버튼에 가리지 않게 */
+  margin-bottom: 24px;
+  /* 답을 열 때 내려 주는 위치: 아래 답 버튼 영역 위로 */
+  scroll-margin-bottom: calc(var(--space-3) + var(--answer-height) + var(--cta-bottom) + var(--space-3) + env(safe-area-inset-bottom, 0px));
+}
+
+/* 만들 때 맞춘 모습 그대로 보여 준다. 높이가 모자라면 자르지 않고 폭을 줄인다. */
+/* 그림은 페이지에서 글자가 쓰고 남은 자리를 다 쓴다. 틀 안에서 비율을 지키며 커지고 줄어서 모서리도 그림에 맞게 둥글다. */
+.study-image-frame {
+  position: relative;
+  flex: 1;
   width: 100%;
-  max-height: 40vh;
-  border-radius: var(--radius-lg);
-  object-fit: cover;
+  min-height: 0;
+}
+
+/* 펼친 폴드처럼 넓고 낮은 화면에서는 퍼센트 최대 높이가 안 먹어 그림이 페이지 밖으로 나가서, 틀을 꽉 채운 상자 안에 그림을 맞춰 넣는다. */
+.study-image {
+  position: absolute;
+  inset: 4% 6%;
+  width: 88%;
+  height: 92%;
+  object-fit: contain;
+}
+
+/* 그림이 정답인 카드에서는 단어를 줄여 그림 자리를 넓힌다. */
+.study-card:has(.study-image) {
+  --text-word: 32px;
+}
+
+/* 단어는 48px까지 키우되, 긴 단어는 카드 폭에 맞춰 줄인다. --units는 글자 폭 합(wordSize.ts). */
+.study-card,
+.make-word {
+  container-type: inline-size;
+}
+
+.word-display {
+  font-size: min(var(--text-word), calc(100cqi / var(--units, 1)));
+  /* 큰 글자는 기본 줄 높이(1.5배)면 아래 한자·뜻과 너무 벌어진다. */
+  line-height: 1.2;
+  white-space: nowrap;
 }
 
 .study-word {
   display: flex;
+  flex: none;
   flex-direction: column;
   align-items: center;
 }
 
-.study-word strong {
-  font-size: var(--font-4xl);
+.study-word small,
+.study-memo {
+  color: var(--color-text-sub);
 }
 
-.study-word small,
-.study-memo,
-.study-prompt {
-  color: var(--color-text-sub);
+.study-word small {
+  font-size: var(--text-sub);
+}
+
+/* 일본어는 히라가나 아래 한자도 알아볼 수 있게 크게 쓴다. */
+.study-word small:lang(ja) {
+  color: var(--color-text);
+  font-size: var(--text-title);
+  line-height: 1.3;
 }
 
 .study-sound {
   display: grid;
+  flex: none;
   place-items: center;
   width: 64px;
   height: 64px;
@@ -569,14 +1237,162 @@ a {
   background: var(--color-pressed);
 }
 
+/* 빈칸 문장 카드. 빈칸은 답 길이와 상관없이 같은 폭이라 길이로 답을 짐작하지 못한다. */
+/* 읽기가 들어갈 자리를 문장 아래에 늘 비워 두어 답을 봐도 문장·그림 크기가 그대로다. */
+.cloze-sentence {
+  flex: none;
+  padding-bottom: 1.1em;
+  font-size: var(--text-title);
+  line-height: 1.9;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.cloze-blank {
+  display: inline-block;
+  width: 3em;
+  margin: 0 0.15em;
+  border-bottom: 2px solid var(--book-line);
+  vertical-align: -0.1em;
+}
+
+/* 일본어 읽기는 채운 말 바로 아래에 작게 단다(후리가나 대신). 줄 높이에 끼어들지 않게 띄워 둔다. */
+.cloze-filled {
+  position: relative;
+  margin: 0 0.15em;
+}
+
+.cloze-answer {
+  color: var(--color-primary);
+}
+
+.cloze-reading {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--color-text-sub);
+  font-size: var(--text-sub);
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* 카드 아래 도움 버튼(듣기, 빈칸 카드는 번역도)은 같은 크기로 나란히 두고, 쓸 수 없을 때는 흐리게만 보여 줘서 버튼이 움직이지 않는다. */
+/* 버튼 줄은 늘 카드 바닥에 붙이고, 그림이 없는 카드의 글자는 남는 자리 가운데에 둔다. */
+.study-card > :first-child {
+  margin-top: auto;
+}
+
+.card-actions {
+  margin-top: auto;
+  display: flex;
+  flex: none;
+  justify-content: center;
+  gap: var(--space-2);
+  width: 100%;
+}
+
+.card-action {
+  display: inline-flex;
+  border: 0;
+  color: var(--color-text);
+  text-decoration: none;
+  cursor: pointer;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-1);
+  max-width: 160px;
+  height: 48px;
+  border-radius: 24px;
+  background: var(--color-pressed);
+  font-size: var(--text-sub);
+  font-weight: 600;
+}
+
+.card-action.is-primary {
+  background: var(--color-brand);
+  color: var(--color-brand-text);
+}
+
+.card-action[aria-disabled='true'] {
+  opacity: 0.4;
+}
+
+.cloze-translation {
+  flex: none;
+  margin-top: calc(var(--space-2) * -1);
+  color: var(--color-text-sub);
+  font-size: var(--text-sub);
+  text-align: center;
+}
+
+/* 폰 앱: 장면 대신 작은 얼굴을 말풍선 옆에 두고 꼬리가 얼굴을 가리킨다. 빈칸 카드는 치이카와가 왼쪽, 단어 카드는 하치와레가 오른쪽. */
+.study-scene.is-compact {
+  flex-direction: row;
+  align-items: center;
+}
+
+.study-scene.is-compact img {
+  flex: none;
+  width: 64px;
+  height: 64px;
+  aspect-ratio: 1;
+  border: 2px solid var(--book-line);
+  border-radius: 50%;
+  object-position: center;
+}
+
+.study-scene.is-compact .speech-bubble {
+  flex: 1;
+}
+
+.study-scene.is-compact .speech-bubble::before {
+  top: 50%;
+  left: -8px;
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+.study-scene.is-avatar-right {
+  flex-direction: row-reverse;
+}
+
+.study-scene.is-avatar-right .speech-bubble::before {
+  right: -8px;
+  left: auto;
+  transform: translateY(-50%) rotate(90deg);
+}
+
 .button-again {
-  background: var(--color-error-bg);
-  color: var(--color-error-text);
+  background: var(--color-pressed);
+  color: var(--color-text);
+}
+
+.study-answers .button-again,
+.study-answers .button-good {
+  flex-direction: column;
+  gap: var(--space-1);
+  min-height: var(--answer-height);
+  padding: var(--space-2);
+}
+
+.answer-image {
+  width: 56px;
+  height: 56px;
+}
+
+.button-good .answer-image {
+  border-radius: 50%;
+}
+
+/* 반응하는 동안 두 버튼 모두 막지만, 누른 쪽은 흐리지 않아서 우사기가 움직이는 게 보인다. */
+.study-answers .button.is-chosen {
+  opacity: 1;
 }
 
 .button-good {
-  background: var(--color-success-bg);
-  color: var(--color-success-text);
+  background: var(--color-brand);
+  color: var(--color-brand-text);
 }
 
 .study-done {
@@ -587,30 +1403,974 @@ a {
   padding-top: 30vh;
 }
 
-/* 단어장 */
-.word-list {
-  margin: var(--space-3) 0 0;
+/* 어휘량 테스트 */
+/* 화면 높이에 맞춰 그림이 줄어들어 스크롤 없이 한 화면에 보인다. */
+.vocab-intro-page {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100dvh;
+  padding-bottom: calc(var(--control-height) + var(--space-3) + var(--cta-bottom) + var(--space-4) + env(safe-area-inset-bottom, 0px));
+}
+
+/* 테스트도 다른 화면과 같은 좌우 여백(--page-gutter)을 쓴다. */
+.vocab-column {
+  width: 100%;
+}
+
+.vocab-intro {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 0;
+}
+
+.vocab-intro-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  align-self: stretch;
+  min-height: var(--header-height);
+  margin-bottom: var(--header-gap);
+}
+
+.vocab-intro-header .page-title {
+  margin: 0;
+}
+
+.vocab-intro-header .nav-button {
+  margin: 0 -10px 0 0;
+}
+
+.vocab-progress {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-bottom: var(--space-6);
+}
+
+.vocab-progress-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: var(--header-height);
+}
+
+/* 화면 이동 버튼(뒤로 <, 그만두기 ✕)은 어디서나 같은 크기·굵기·색이다. */
+.nav-button {
+  display: inline-flex;
+  /* 아이콘 24px에 여백을 둘러 누르는 칸을 44px로 하고, 아이콘은 여백 선에 맞춘다. */
+  margin-left: -10px;
+  padding: 10px;
+  border: 0;
+  background: none;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.vocab-progress-count {
+  color: var(--color-text-sub);
+  font-size: var(--text-sub);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.vocab-progress-stage {
+  margin: 0;
+  color: var(--color-text-sub);
+  font-size: var(--text-sub);
+}
+
+.vocab-progress-stage strong {
+  margin-right: var(--space-2);
+  color: var(--color-text);
+}
+
+.vocab-intro-time {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-1) var(--space-3);
+  border-radius: 999px;
+  background: var(--color-pressed);
+  color: var(--color-text-sub);
+  font-size: var(--text-caption);
+  font-weight: 600;
+}
+
+/* 화면이 길면(아이폰) 그림과 설명이 남는 공간의 가운데로 내려온다. */
+.vocab-intro-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 0;
+}
+
+.vocab-intro-image {
+  display: block;
+  flex: 0 1 auto;
+  width: 100%;
+  min-height: 0;
+  margin: var(--space-4) 0 var(--space-6);
+  border-radius: var(--radius-image);
+  object-fit: contain;
+}
+
+.vocab-intro-steps {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0 0 0 20px;
+  font-size: var(--text-body);
+  line-height: 1.6;
+}
+
+.word-meaning {
+  font-size: var(--text-title);
+  font-weight: 700;
+}
+
+.reveal-button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: none;
+  color: var(--color-text-sub);
+  font-size: var(--text-sub);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.vocab-actions .button {
+  flex: 1;
+  text-decoration: none;
+}
+
+.vocab-bands {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--text-sub);
+}
+
+.vocab-bands li {
+  display: grid;
+  grid-template-columns: 3.5em 1fr 3em;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.vocab-bar {
+  height: 8px;
+  border-radius: 4px;
+  background: var(--color-pressed);
+  overflow: hidden;
+}
+
+.vocab-bar span {
+  display: block;
+  height: 100%;
+  background: var(--color-brand-strong);
+}
+
+/* 책장: 원작 그림체의 나무 서랍장. 연갈색 몸통, 굵은 갈색 테두리, 칸마다 책이 서 있다. */
+.bookshelf {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: var(--space-2);
+  padding: 10px;
+  border: 3px solid var(--wood-line);
+  border-radius: 6px 8px 5px 7px;
+  background: var(--wood);
+}
+
+.shelf-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-2) 0;
+  border: 3px solid var(--wood-line);
+  border-radius: 4px;
+  background: var(--wood-back);
+}
+
+.shelf-drawer {
+  display: grid;
+  place-items: center;
+  height: 44px;
+  border: 3px solid var(--wood-line);
+  border-radius: 4px;
+}
+
+/* 서랍 손잡이 */
+.shelf-drawer span {
+  width: 34px;
+  height: 9px;
+  border: 3px solid var(--wood-line);
+  border-radius: 3px;
+}
+
+.shelf-legs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7%;
+}
+
+.shelf-legs span {
+  width: 16px;
+  height: 14px;
+  border: 3px solid var(--wood-line);
+  border-top: 0;
+  background: var(--wood);
+}
+
+:root {
+  --wood: #d6a77c;
+  --wood-back: #c39064;
+  --wood-line: #6e3f35;
+  --paper: #fffdf6;
+  --paper-line: rgb(120 150 190 / 0.22);
+  --paper-margin: rgb(220 110 100 / 0.35);
+  --pencil: #5b5750;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #2b2925;
+    --paper-line: rgb(255 255 255 / 0.08);
+    --paper-margin: rgb(230 120 110 / 0.3);
+    --pencil: #c9c4ba;
+  }
+}
+
+/* 원작의 제초 검정 책: 연두 표지, 굵은 갈색 손그림 테두리, 위로 삐져나온 색 포스트잇. */
+.book {
+  --book-line: #3d2b26;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 0;
+  border: 0;
+  background: none;
+  color: var(--book-line);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  perspective: 700px;
+}
+
+.book:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.book-tabs {
+  position: absolute;
+  top: 0;
+  right: 14%;
+  display: flex;
+  gap: 12%;
+  width: 60%;
+}
+
+.book-tabs span {
+  flex: 1;
+  height: 18px;
+  border: 2px solid var(--book-line);
+  border-bottom: 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.book-tabs span:nth-child(1) {
+  background: #a9d2ea;
+}
+
+.book-tabs span:nth-child(2) {
+  background: #ef9a93;
+}
+
+.book-tabs span:nth-child(3) {
+  background: #7cc28a;
+}
+
+.book-inner {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 3px solid var(--book-line);
+  border-radius: 10px 14px 12px 8px / 12px 9px 14px 10px;
+  /* 빨간 여백 줄과 파란 공책 줄 */
+  background:
+    linear-gradient(90deg, transparent 16px, var(--paper-margin) 16px 17px, transparent 17px),
+    repeating-linear-gradient(transparent 0 13px, var(--paper-line) 13px 14px),
+    var(--paper);
+}
+
+.book-cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 3 / 4;
+  padding: 12% 14% 8% 12%;
+  border: 3px solid var(--book-line);
+  /* 손으로 그린 듯 모서리마다 둥글기를 조금씩 다르게 한다. */
+  border-radius: 10px 14px 12px 8px / 12px 9px 14px 10px;
+  background: #c9e7a4;
+  transform-origin: left center;
+  transition: transform 420ms var(--ease-in-out);
+}
+
+/* 오른쪽에 겹쳐 보이는 속지 선 */
+.book-cover::after {
+  content: '';
+  position: absolute;
+  top: 6%;
+  right: 5px;
+  bottom: 4%;
+  width: 0;
+  border-right: 2px solid var(--book-line);
+  border-radius: 2px;
+}
+
+.book.is-opening .book-cover {
+  transform: rotateY(-115deg);
+}
+
+/* 표지는 남기되, 반쯤 넘어가 뒷면이 보일 때부터는 거꾸로 비치는 글자를 숨긴다. */
+.book.is-opening .book-cover > * {
+  opacity: 0;
+  transition: opacity 0ms 200ms;
+}
+
+.book-title {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2px;
+  justify-items: center;
+  font-size: clamp(18px, 6.4vw, 26px);
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.book-title > span:last-child {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 2px;
+}
+
+.book-crown {
+  width: 0.9em;
+  height: 0.7em;
+  margin-bottom: 0.12em;
+}
+
+.book-crown path {
+  fill: #7dbb5f;
+  stroke: var(--book-line);
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+
+.book-progress {
+  margin-top: auto;
+  font-size: var(--text-caption);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.book-summary {
+  margin: 0;
+  color: var(--color-text-sub);
+  font-size: var(--text-caption);
+  text-align: right;
+}
+
+/* 책: 줄 친 공책 종이 위에 인덱스 탭이 붙어 있다. */
+
+
+.index-tabs {
+  display: flex;
+  gap: var(--space-1);
+  padding-left: var(--space-3);
+}
+
+.index-tab {
+  min-height: 40px;
+  padding: 0 var(--space-3);
+  border: 0;
+  border-radius: 10px 10px 0 0;
+  background: var(--tab);
+  color: var(--color-brand-text);
+  font: inherit;
+  font-size: var(--text-sub);
+  font-weight: 700;
+  opacity: 0.6;
+  transform: translateY(6px);
+  transition:
+    transform 160ms var(--ease-out),
+    opacity 160ms var(--ease-out);
+  cursor: pointer;
+}
+
+.index-tab[aria-checked='true'] {
+  opacity: 1;
+  transform: none;
+}
+
+.index-tab[data-filter='todo'] {
+  --tab: #ef9a93;
+}
+
+.index-tab[data-filter='made'] {
+  --tab: #7cc28a;
+}
+
+.index-tab[data-filter='known'] {
+  --tab: #a9d2ea;
+}
+
+.paper {
+  position: relative;
+  z-index: 1;
+  padding: var(--space-3) var(--space-3) var(--space-4) 44px;
+  border-radius: 4px 12px 12px 12px;
+  background: var(--paper);
+  box-shadow: 0 1px 3px rgb(60 40 20 / 0.12);
+  animation: paper-open 360ms var(--ease-out);
+}
+
+/* 공책의 빨간 여백 줄 */
+.paper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 32px;
+  width: 1px;
+  background: var(--paper-margin);
+}
+
+@keyframes paper-open {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+.paper-tools {
+  display: flex;
+  gap: var(--space-2);
+  justify-content: space-between;
+  min-height: 44px;
+  align-items: center;
+}
+
+.pencil-button {
+  display: inline-flex;
+  margin-left: auto;
+  align-items: center;
+  gap: var(--space-1);
+  color: var(--color-text);
+}
+
+.pencil-hint {
+  color: var(--color-text-sub);
+  font-size: var(--text-sub);
+}
+
+.book-chapter + .book-chapter {
+  margin-top: var(--space-5);
+}
+
+/* 장 제목은 형광펜으로 칠한 것처럼 */
+.book-chapter h2 {
+  display: inline;
+  margin: 0;
+  padding: 0 2px;
+  background: linear-gradient(transparent 55%, color-mix(in srgb, var(--color-brand) 70%, transparent) 55%);
+  font-size: var(--text-sub);
+  font-weight: 800;
+}
+
+.book-chapter ul {
+  margin: var(--space-2) 0 0;
   padding: 0;
   list-style: none;
 }
 
-.word-row {
+.book-word {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: var(--space-2);
-  padding: var(--space-3) var(--space-1);
-  border-bottom: 1px solid var(--color-border);
+  width: 100%;
+  min-height: 48px;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid var(--paper-line);
+  background: none;
   color: var(--color-text);
+  font: inherit;
+  text-align: left;
   text-decoration: none;
+  cursor: pointer;
 }
 
-.word-order,
+.book-word-text {
+  position: relative;
+  display: inline-block;
+  margin-right: var(--space-1);
+}
+
 .word-reading,
 .word-theme {
   color: var(--color-text-sub);
-  font-size: var(--font-sm);
+  font-size: var(--text-sub);
+}
+
+.word-reading:lang(ja) {
+  color: var(--color-text);
+  font-size: var(--text-body);
 }
 
 .word-theme {
   margin-left: auto;
+}
+
+/* 아는 단어는 연필로 옅게 줄을 그은 것처럼 */
+.book-word.is-known strong {
+  text-decoration: line-through;
+  text-decoration-color: var(--pencil);
+  text-decoration-thickness: 2px;
+}
+
+/* 기억할 한 줄까지 적은 단어에 붙이는 작은 메모지 */
+.book-memo-mark {
+  display: inline-grid;
+  flex: none;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+  background: var(--color-brand);
+  color: var(--color-brand-text);
+  box-shadow: 0 1px 2px rgb(60 40 20 / 0.2);
+  transform: rotate(-6deg);
+}
+
+.pencil-circle {
+  position: absolute;
+  inset: -8px -12px;
+  width: calc(100% + 24px);
+  height: calc(100% + 16px);
+  overflow: visible;
+  pointer-events: none;
+}
+
+.pencil-circle path {
+  fill: none;
+  stroke: var(--pencil);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+  vector-effect: non-scaling-stroke;
+  animation: pencil-draw 280ms var(--ease-out);
+}
+
+@keyframes pencil-draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+}
+
+.paper-empty {
+  margin: var(--space-4) 0;
+  color: var(--color-text-sub);
+  text-align: center;
+}
+
+/* 연필 버튼은 탭 바 위에 띄운다. */
+.pencil-actions {
+  bottom: calc(var(--tab-bar-height) + env(safe-area-inset-bottom, 0px));
+  padding-bottom: var(--space-3);
+}
+
+.pencil-actions .button {
+  display: inline-flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-1);
+}
+
+.pencil-actions .button-primary {
+  flex: 2;
+}
+
+.book-page.is-pencil .page-content {
+  padding-bottom: calc(var(--tab-bar-height) + 52px + var(--space-6) + env(safe-area-inset-bottom, 0px));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .book-cover,
+  .index-tab {
+    transition: none;
+  }
+
+  .paper,
+  .pencil-circle path {
+    animation: none;
+  }
+}
+
+/* 카드 만들기: 만들 카드를 복습 카드와 같은 책 페이지로 보여 준다. 위에서부터 단어, 그림, 그림 찾기 버튼(짧은 화면에서도 보이게), 기억 한 줄. */
+.make-card {
+  justify-content: flex-start;
+  min-height: 0;
+  margin-bottom: 24px;
+  cursor: auto;
+}
+
+.make-card > :first-child,
+.make-card .card-actions {
+  margin-top: 0;
+}
+
+/* 단어 크기는 칸 폭을 기준으로 정해서(cqi), 단어 칸이 카드 폭을 다 써야 한다. */
+.make-card .make-word,
+.make-card .make-image:not(.has-image),
+.make-card .make-memo-line {
+  width: 100%;
+}
+
+/* 기억 한 줄: 상자 대신 공책 줄 위에 연필로 적는 모양. 그림을 고른 뒤 비어 있으면 줄을 진하게 해 다음 할 일로 보이게 한다. */
+.make-memo-line {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 0 var(--space-1);
+  border-bottom: 2px dashed color-mix(in srgb, var(--book-line) 45%, transparent);
+  color: var(--book-line);
+}
+
+.make-memo-line .make-memo {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--color-text);
+}
+
+.make-memo-line .make-memo:focus {
+  outline: none;
+}
+
+.make-memo-line:focus-within,
+.make-memo-line.is-suggested {
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-brand-strong);
+}
+
+.make-sources .card-action {
+  white-space: nowrap;
+}
+
+/* 웹앱은 그림을 고른 뒤 버튼이 셋(구글·갤러리·붙여넣기)이라 아이콘을 빼서 한 줄에 넣는다. */
+.make-sources:has(> :nth-child(3)) .card-action svg {
+  display: none;
+}
+
+/* 하치와레 그림(움직이는 gif)은 그대로 두고 화면에서만 동그랗게 잘라 복습 화면의 얼굴과 맞춘다. */
+/* 머리 줄 아래 간격은 머리 줄이 이미 두었다. */
+.make-header .study-host {
+  margin-top: 0;
+}
+
+.make-header .character {
+  width: 64px;
+  height: 64px;
+  border: 2px solid var(--book-line);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* 급수 시험이 어려운 구간에서 끝났을 때의 탈락 장면. */
+.vocab-defeat {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.vocab-defeat img {
+  flex: none;
+  width: 96px;
+  height: 96px;
+  border: 2px solid var(--book-line);
+  border-radius: var(--radius-image);
+  background: #ffffff;
+  object-fit: contain;
+}
+
+.vocab-defeat .speech-bubble {
+  flex: 1;
+  margin: 0;
+}
+
+/* 제초 검정 */
+.exam-card {
+  justify-content: flex-start;
+  gap: var(--space-4);
+}
+
+.exam-prompt {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.exam-input {
+  width: 100%;
+  font-size: var(--text-title);
+  text-align: center;
+}
+
+.exam-feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  margin: 0;
+  font-weight: 700;
+}
+
+.exam-feedback.is-correct span {
+  color: var(--color-success-text);
+}
+
+.exam-feedback.is-almost span {
+  color: var(--color-warning-text);
+}
+
+.exam-feedback.is-wrong span {
+  color: var(--color-error-text);
+}
+
+.exam-feedback strong {
+  font-size: var(--text-title);
+}
+
+.exam-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.exam-license,
+.exam-brag {
+  width: min(100%, 360px);
+  border-radius: var(--radius-lg);
+}
+
+.exam-missed {
+  width: 100%;
+}
+
+.exam-missed h2 {
+  margin: 0 0 var(--space-2);
+  color: var(--color-text-sub);
+  font-size: var(--text-sub);
+}
+
+.exam-missed ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.exam-missed li {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+/* 집 화면의 제초 검정 입구: 시험장 그림을 꽉 채운 배너. 아래쪽만 어둡게 깔아 흰 글씨가 그림 위에서도 읽히게 한다. */
+.exam-entry {
+  position: relative;
+  display: block;
+  flex-shrink: 0;
+  height: 110px;
+  margin-top: var(--space-3);
+  overflow: hidden;
+  border-radius: var(--radius-image);
+  text-decoration: none;
+}
+
+.exam-entry img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 80%;
+}
+
+.exam-entry::after {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgb(0 0 0 / 0.55), rgb(0 0 0 / 0) 60%);
+  content: '';
+}
+
+.exam-entry span {
+  position: absolute;
+  right: var(--space-4);
+  bottom: var(--space-3);
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  color: #fff;
+  font-weight: 800;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 0.4);
+}
+
+.exam-chip {
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-full);
+  background: var(--color-pressed);
+  color: var(--color-text-sub);
+  font-size: var(--text-caption);
+  font-weight: 700;
+}
+
+/* 제초 검정 안내 */
+.exam-intro-page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding-bottom: calc(var(--control-height) + var(--space-3) + var(--cta-bottom) + var(--space-6) + env(safe-area-inset-bottom, 0px));
+}
+
+/* 머리 줄 아래 간격은 세로 줄의 gap이 맡는다. */
+.exam-intro-page .vocab-intro-header {
+  margin-bottom: 0;
+}
+
+.exam-intro-image {
+  display: block;
+  width: 100%;
+  max-height: 220px;
+  border-radius: var(--radius-image);
+  object-fit: cover;
+}
+
+.exam-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+}
+
+.exam-section h2 {
+  margin: 0;
+  font-size: var(--text-body);
+}
+
+.exam-next h2 {
+  font-size: var(--text-header);
+}
+
+.exam-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.exam-status {
+  margin: 0;
+  color: var(--color-text-sub);
+  font-size: var(--text-sub);
+}
+
+.exam-progress {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.exam-progress-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-sub);
+  font-weight: 700;
+}
+
+.exam-progress-top span:last-child {
+  font-weight: 400;
+}
+
+/* 급수 안내: 한 줄씩, 다음에 볼 급수만 칠해 지금 어디쯤인지 보이게 한다. */
+.exam-ladder {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.exam-ladder li {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  color: var(--color-text-sub);
+}
+
+.exam-ladder li > span:first-of-type {
+  flex: 1;
+}
+
+.exam-ladder li.is-target {
+  background: color-mix(in srgb, var(--color-brand) 30%, transparent);
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+.exam-ladder li.is-passed {
+  color: var(--color-text);
+}
+
+.exam-ladder strong {
+  width: 32px;
+}
+
+.exam-ladder-done {
+  color: var(--color-success-text);
+  font-size: var(--text-caption);
+  font-weight: 700;
 }

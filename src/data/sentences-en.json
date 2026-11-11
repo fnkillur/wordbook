@@ -1,0 +1,7674 @@
+{
+ "en-f00001": {
+  "before": "What can I ",
+  "answer": "get",
+  "after": " for you today?",
+  "reading": null,
+  "translation": "오늘 뭐 드릴까요?",
+  "audioPath": null
+ },
+ "en-f00002": {
+  "before": "Do you ",
+  "answer": "know",
+  "after": " a lot about cars?",
+  "reading": null,
+  "translation": "너 차에 대해 많이 알아?",
+  "audioPath": null
+ },
+ "en-f00003": {
+  "before": "It's raining, ",
+  "answer": "so",
+  "after": " we should go home.",
+  "reading": null,
+  "translation": "비 오니까 집에 가자.",
+  "audioPath": "sentence-audio/en/3.m4a"
+ },
+ "en-f00004": {
+  "before": "I ",
+  "answer": "just",
+  "after": " need to try it once.",
+  "reading": null,
+  "translation": "한 번만 해 보면 돼.",
+  "audioPath": null
+ },
+ "en-f00005": {
+  "before": "A taxi will be ",
+  "answer": "here",
+  "after": " shortly, sir.",
+  "reading": null,
+  "translation": "택시가 곧 도착할 겁니다, 손님.",
+  "audioPath": null
+ },
+ "en-f00006": {
+  "before": "It's a pity that you can't ",
+  "answer": "come",
+  "after": ".",
+  "reading": null,
+  "translation": "못 온다니 아쉽다.",
+  "audioPath": "sentence-audio/en/6.m4a"
+ },
+ "en-f00007": {
+  "before": "",
+  "answer": "Well",
+  "after": ", to be honest, there's another reason.",
+  "reading": null,
+  "translation": "글쎄, 솔직히 말하면 다른 이유가 있어.",
+  "audioPath": null
+ },
+ "en-f00008": {
+  "before": "I don't ",
+  "answer": "want",
+  "after": " to miss my flight.",
+  "reading": null,
+  "translation": "비행기 놓치고 싶지 않아.",
+  "audioPath": null
+ },
+ "en-f00009": {
+  "before": "I went ",
+  "answer": "out",
+  "after": " with them last weekend.",
+  "reading": null,
+  "translation": "지난 주말에 걔네랑 놀러 나갔어.",
+  "audioPath": null
+ },
+ "en-f00010": {
+  "before": "It's ",
+  "answer": "about",
+  "after": " one and a half hours.",
+  "reading": null,
+  "translation": "한 시간 반 정도 걸려.",
+  "audioPath": null
+ },
+ "en-f00011": {
+  "before": "He ",
+  "answer": "said",
+  "after": " I have a big nose.",
+  "reading": null,
+  "translation": "걔가 나더러 코가 크대.",
+  "audioPath": null
+ },
+ "en-f00012": {
+  "before": "",
+  "answer": "Now",
+  "after": ", what seems to be the trouble?",
+  "reading": null,
+  "translation": "자, 어디가 불편하세요?",
+  "audioPath": null
+ },
+ "en-f00013": {
+  "before": "It ",
+  "answer": "looks",
+  "after": " like it may rain soon.",
+  "reading": null,
+  "translation": "곧 비 올 것 같아.",
+  "audioPath": null
+ },
+ "en-f00014": {
+  "before": "Can you ",
+  "answer": "take",
+  "after": " me to the airport?",
+  "reading": null,
+  "translation": "공항까지 데려다줄 수 있어?",
+  "audioPath": null
+ },
+ "en-f00015": {
+  "before": "I'll ",
+  "answer": "tell",
+  "after": " him when he comes back.",
+  "reading": null,
+  "translation": "그 사람 돌아오면 전해 줄게.",
+  "audioPath": null
+ },
+ "en-f00016": {
+  "before": "",
+  "answer": "Let",
+  "after": "'s have a look at the menu.",
+  "reading": null,
+  "translation": "메뉴 좀 보자.",
+  "audioPath": null
+ },
+ "en-f00017": {
+  "before": "It'll ",
+  "answer": "make",
+  "after": " a mess of this house.",
+  "reading": null,
+  "translation": "그러면 집이 엉망이 될 거야.",
+  "audioPath": null
+ },
+ "en-f00018": {
+  "before": "",
+  "answer": "Then",
+  "after": " I'll see you in the afternoon.",
+  "reading": null,
+  "translation": "그럼 오후에 보자.",
+  "audioPath": null
+ },
+ "en-f00019": {
+  "before": "I ",
+  "answer": "need",
+  "after": " to get to a hospital.",
+  "reading": null,
+  "translation": "나 병원에 가야 해.",
+  "audioPath": null
+ },
+ "en-f00020": {
+  "before": "Can you ",
+  "answer": "give",
+  "after": " me a better price?",
+  "reading": null,
+  "translation": "좀 더 싸게 해 주실 수 있어요?",
+  "audioPath": null
+ },
+ "en-f00021": {
+  "before": "It's a good ",
+  "answer": "thing",
+  "after": " I asked you.",
+  "reading": null,
+  "translation": "너한테 물어보길 잘했다.",
+  "audioPath": null
+ },
+ "en-f00022": {
+  "before": "I ",
+  "answer": "really",
+  "after": " need to start eating healthier.",
+  "reading": null,
+  "translation": "나 진짜 좀 건강하게 먹기 시작해야겠어.",
+  "audioPath": null
+ },
+ "en-f00023": {
+  "before": "",
+  "answer": "Thank",
+  "after": " you for lending me the book.",
+  "reading": null,
+  "translation": "책 빌려줘서 고마워.",
+  "audioPath": null
+ },
+ "en-f00024": {
+  "before": "What are you going to ",
+  "answer": "do",
+  "after": " now?",
+  "reading": null,
+  "translation": "이제 뭐 할 거야?",
+  "audioPath": null
+ },
+ "en-f00025": {
+  "before": "Walk that ",
+  "answer": "way",
+  "after": " for about four blocks.",
+  "reading": null,
+  "translation": "저쪽으로 네 블록 정도 걸어가세요.",
+  "audioPath": null
+ },
+ "en-f00026": {
+  "before": "I have ",
+  "answer": "too",
+  "after": " much work to do.",
+  "reading": null,
+  "translation": "할 일이 너무 많아.",
+  "audioPath": null
+ },
+ "en-f00027": {
+  "before": "You must learn to be ",
+  "answer": "more",
+  "after": " careful.",
+  "reading": null,
+  "translation": "너 좀 더 조심하는 법을 배워야 해.",
+  "audioPath": "sentence-audio/en/27.m4a"
+ },
+ "en-f00028": {
+  "before": "All right, could I ",
+  "answer": "leave",
+  "after": " a message?",
+  "reading": null,
+  "translation": "알겠어요, 메시지 좀 남길 수 있을까요?",
+  "audioPath": null
+ },
+ "en-f00029": {
+  "before": "Yeah, I'm better after ",
+  "answer": "talking",
+  "after": " to you.",
+  "reading": null,
+  "translation": "응, 너랑 얘기하고 나니까 좀 나아.",
+  "audioPath": null
+ },
+ "en-f00030": {
+  "before": "That's ",
+  "answer": "very",
+  "after": " nice of you to offer.",
+  "reading": null,
+  "translation": "그렇게 말해 줘서 정말 고마워.",
+  "audioPath": null
+ },
+ "en-f00031": {
+  "before": "I've ",
+  "answer": "never",
+  "after": " seen one of those before.",
+  "reading": null,
+  "translation": "저런 건 한 번도 본 적이 없어.",
+  "audioPath": null
+ },
+ "en-f00032": {
+  "before": "Some ",
+  "answer": "people",
+  "after": " say that history repeats itself.",
+  "reading": null,
+  "translation": "역사는 되풀이된다고 말하는 사람들도 있잖아.",
+  "audioPath": null
+ },
+ "en-f00033": {
+  "before": "I ",
+  "answer": "only",
+  "after": " paid two dollars for mine.",
+  "reading": null,
+  "translation": "난 내 거 2달러밖에 안 줬어.",
+  "audioPath": null
+ },
+ "en-f00034": {
+  "before": "Is the movie ",
+  "answer": "over",
+  "after": " already?",
+  "reading": null,
+  "translation": "영화 벌써 끝났어?",
+  "audioPath": null
+ },
+ "en-f00035": {
+  "before": "Who is that ",
+  "answer": "guy",
+  "after": " on the stage?",
+  "reading": null,
+  "translation": "무대 위에 있는 저 남자 누구야?",
+  "audioPath": null
+ },
+ "en-f00036": {
+  "before": "It's a ",
+  "answer": "little",
+  "after": " expensive, but it's fun.",
+  "reading": null,
+  "translation": "좀 비싸긴 한데 재밌어.",
+  "audioPath": null
+ },
+ "en-f00037": {
+  "before": "Oh, I am ",
+  "answer": "sorry",
+  "after": " to hear that.",
+  "reading": null,
+  "translation": "아, 그거 참 안됐다.",
+  "audioPath": null
+ },
+ "en-f00038": {
+  "before": "May I ",
+  "answer": "try",
+  "after": " that black one on?",
+  "reading": null,
+  "translation": "저 검은색 입어 봐도 될까요?",
+  "audioPath": null
+ },
+ "en-f00039": {
+  "before": "Can you ",
+  "answer": "help",
+  "after": " me with my application?",
+  "reading": null,
+  "translation": "내 지원서 쓰는 것 좀 도와줄래?",
+  "audioPath": null
+ },
+ "en-f00040": {
+  "before": "Oh, I can't ",
+  "answer": "wait",
+  "after": " to see him!",
+  "reading": null,
+  "translation": "아, 빨리 그 사람 보고 싶다!",
+  "audioPath": null
+ },
+ "en-f00041": {
+  "before": "I don't ",
+  "answer": "even",
+  "after": " know who he is.",
+  "reading": null,
+  "translation": "난 그 사람이 누군지도 몰라.",
+  "audioPath": null
+ },
+ "en-f00042": {
+  "before": "I assure you it won't ",
+  "answer": "happen",
+  "after": " again.",
+  "reading": null,
+  "translation": "다시는 이런 일 없을 거라고 약속드릴게요.",
+  "audioPath": null
+ },
+ "en-f00043": {
+  "before": "How ",
+  "answer": "much",
+  "after": " do apartments cost around here?",
+  "reading": null,
+  "translation": "이 근처 아파트는 얼마나 해?",
+  "audioPath": null
+ },
+ "en-f00044": {
+  "before": "My ",
+  "answer": "life",
+  "after": " is a big mess.",
+  "reading": null,
+  "translation": "내 인생 완전 엉망이야.",
+  "audioPath": null
+ },
+ "en-f00045": {
+  "before": "I don't ",
+  "answer": "feel",
+  "after": " safe in the dark.",
+  "reading": null,
+  "translation": "난 어두운 데 있으면 불안해.",
+  "audioPath": null
+ },
+ "en-f00046": {
+  "before": "I'm ",
+  "answer": "sure",
+  "after": " they'll do a good job.",
+  "reading": null,
+  "translation": "분명 잘할 거야.",
+  "audioPath": null
+ },
+ "en-f00047": {
+  "before": "The ",
+  "answer": "other",
+  "after": " guests should be arriving shortly.",
+  "reading": null,
+  "translation": "다른 손님들은 곧 도착하실 거예요.",
+  "audioPath": null
+ },
+ "en-f00048": {
+  "before": "Yes, at ",
+  "answer": "first",
+  "after": " I felt very awkward.",
+  "reading": null,
+  "translation": "응, 처음엔 엄청 어색했어.",
+  "audioPath": null
+ },
+ "en-f00049": {
+  "before": "I ",
+  "answer": "keep",
+  "after": " forgetting everyone's birthdays as well.",
+  "reading": null,
+  "translation": "나도 사람들 생일을 자꾸 까먹어.",
+  "audioPath": null
+ },
+ "en-f00050": {
+  "before": "You can go and ",
+  "answer": "ask",
+  "after": " your father.",
+  "reading": null,
+  "translation": "아빠한테 가서 물어봐.",
+  "audioPath": null
+ },
+ "en-f00051": {
+  "before": "I am ",
+  "answer": "still",
+  "after": " waiting for their call.",
+  "reading": null,
+  "translation": "아직 그쪽 전화 기다리는 중이야.",
+  "audioPath": null
+ },
+ "en-f00052": {
+  "before": "Hello, ",
+  "answer": "sir",
+  "after": ", how may I help you?",
+  "reading": null,
+  "translation": "안녕하세요, 손님, 무엇을 도와드릴까요?",
+  "audioPath": null
+ },
+ "en-f00053": {
+  "before": "Where on earth did I ",
+  "answer": "put",
+  "after": " it?",
+  "reading": null,
+  "translation": "도대체 그걸 어디에 뒀지?",
+  "audioPath": null
+ },
+ "en-f00054": {
+  "before": "Can you ",
+  "answer": "use",
+  "after": " it in the dark?",
+  "reading": null,
+  "translation": "어두운 데서도 쓸 수 있어?",
+  "audioPath": null
+ },
+ "en-f00055": {
+  "before": "We'll have a ",
+  "answer": "great",
+  "after": " time this weekend.",
+  "reading": null,
+  "translation": "이번 주말에 정말 재밌게 놀 거야.",
+  "audioPath": null
+ },
+ "en-f00056": {
+  "before": "Well, it may rain ",
+  "answer": "again",
+  "after": " later today.",
+  "reading": null,
+  "translation": "음, 이따 또 비 올지도 몰라.",
+  "audioPath": null
+ },
+ "en-f00057": {
+  "before": "",
+  "answer": "Maybe",
+  "after": " you can give me some advice.",
+  "reading": null,
+  "translation": "네가 조언 좀 해 줄 수 있을지도 모르겠다.",
+  "audioPath": null
+ },
+ "en-f00058": {
+  "before": "I've got to go ",
+  "answer": "home",
+  "after": " and study.",
+  "reading": null,
+  "translation": "집에 가서 공부해야 돼.",
+  "audioPath": null
+ },
+ "en-f00059": {
+  "before": "He has been ",
+  "answer": "away",
+  "after": " for a week!",
+  "reading": null,
+  "translation": "걔 일주일째 떠나 있어!",
+  "audioPath": null
+ },
+ "en-f00060": {
+  "before": "Write your ",
+  "answer": "name",
+  "after": " inside the front cover.",
+  "reading": null,
+  "translation": "앞표지 안쪽에 이름 써.",
+  "audioPath": null
+ },
+ "en-f00061": {
+  "before": "I quarreled with my roommate ",
+  "answer": "last",
+  "after": " night.",
+  "reading": null,
+  "translation": "어젯밤에 룸메이트랑 싸웠어.",
+  "audioPath": null
+ },
+ "en-f00062": {
+  "before": "When is your vacation going to ",
+  "answer": "start",
+  "after": "?",
+  "reading": null,
+  "translation": "휴가 언제 시작해?",
+  "audioPath": null
+ },
+ "en-f00063": {
+  "before": "You ",
+  "answer": "always",
+  "after": " worry too much about everything.",
+  "reading": null,
+  "translation": "넌 항상 모든 일에 걱정이 너무 많아.",
+  "audioPath": null
+ },
+ "en-f00064": {
+  "before": "What is the best ",
+  "answer": "place",
+  "after": " to park?",
+  "reading": null,
+  "translation": "주차하기 제일 좋은 데가 어디야?",
+  "audioPath": null
+ },
+ "en-f00065": {
+  "before": "I think housing is a ",
+  "answer": "big",
+  "after": " problem.",
+  "reading": null,
+  "translation": "집 문제가 큰 문제인 것 같아.",
+  "audioPath": null
+ },
+ "en-f00066": {
+  "before": "Are there any good restaurants ",
+  "answer": "around",
+  "after": " here?",
+  "reading": null,
+  "translation": "이 근처에 괜찮은 식당 있어?",
+  "audioPath": "sentence-audio/en/66.m4a"
+ },
+ "en-f00067": {
+  "before": "I ",
+  "answer": "stayed",
+  "after": " at home with my family.",
+  "reading": null,
+  "translation": "가족이랑 집에 있었어.",
+  "audioPath": null
+ },
+ "en-f00068": {
+  "before": "Can you ",
+  "answer": "show",
+  "after": " me on the map?",
+  "reading": null,
+  "translation": "지도에서 좀 보여 줄래?",
+  "audioPath": null
+ },
+ "en-f00069": {
+  "before": "It's been raining a ",
+  "answer": "lot",
+  "after": " these days.",
+  "reading": null,
+  "translation": "요즘 비가 많이 오네.",
+  "audioPath": null
+ },
+ "en-f00070": {
+  "before": "Do you ",
+  "answer": "live",
+  "after": " in this neighborhood, too?",
+  "reading": null,
+  "translation": "너도 이 동네 살아?",
+  "audioPath": null
+ },
+ "en-f00071": {
+  "before": "I can't ",
+  "answer": "believe",
+  "after": " how hot it is.",
+  "reading": null,
+  "translation": "이렇게 덥다니 믿기지가 않아.",
+  "audioPath": null
+ },
+ "en-f00072": {
+  "before": "Did you ",
+  "answer": "bring",
+  "after": " some lunch with you?",
+  "reading": null,
+  "translation": "점심 좀 싸 왔어?",
+  "audioPath": null
+ },
+ "en-f00073": {
+  "before": "Have you ",
+  "answer": "ever",
+  "after": " been in an earthquake?",
+  "reading": null,
+  "translation": "지진 겪어 본 적 있어?",
+  "audioPath": null
+ },
+ "en-f00074": {
+  "before": "Did you ",
+  "answer": "move",
+  "after": " into your new apartment?",
+  "reading": null,
+  "translation": "새 아파트로 이사했어?",
+  "audioPath": null
+ },
+ "en-f00075": {
+  "before": "I don't ",
+  "answer": "understand",
+  "after": " most of these games.",
+  "reading": null,
+  "translation": "이 게임들 대부분은 이해가 안 돼.",
+  "audioPath": null
+ },
+ "en-f00076": {
+  "before": "I am going to ",
+  "answer": "miss",
+  "after": " you, too.",
+  "reading": null,
+  "translation": "나도 너 보고 싶을 거야.",
+  "audioPath": null
+ },
+ "en-f00077": {
+  "before": "What ",
+  "answer": "kind",
+  "after": " of flowers would you like?",
+  "reading": null,
+  "translation": "어떤 꽃으로 드릴까요?",
+  "audioPath": null
+ },
+ "en-f00078": {
+  "before": "Everything is ",
+  "answer": "fine",
+  "after": ", and how are you?",
+  "reading": null,
+  "translation": "다 괜찮아, 너는 어때?",
+  "audioPath": null
+ },
+ "en-f00079": {
+  "before": "I don't think we have ",
+  "answer": "met",
+  "after": " before.",
+  "reading": null,
+  "translation": "저희 전에 만난 적 없는 것 같은데요.",
+  "audioPath": null
+ },
+ "en-f00080": {
+  "before": "",
+  "answer": "Remember",
+  "after": " to be punctual next time.",
+  "reading": null,
+  "translation": "다음엔 꼭 시간 지켜.",
+  "audioPath": null
+ },
+ "en-f00081": {
+  "before": "Of ",
+  "answer": "course",
+  "after": ", I like it very much.",
+  "reading": null,
+  "translation": "물론이지, 정말 마음에 들어.",
+  "audioPath": null
+ },
+ "en-f00082": {
+  "before": "",
+  "answer": "Dad",
+  "after": ", I have to do my homework.",
+  "reading": null,
+  "translation": "아빠, 나 숙제해야 돼.",
+  "audioPath": null
+ },
+ "en-f00083": {
+  "before": "Didn't you get ",
+  "answer": "enough",
+  "after": " sleep last night?",
+  "reading": null,
+  "translation": "어젯밤에 잠 충분히 못 잤어?",
+  "audioPath": null
+ },
+ "en-f00084": {
+  "before": "I'd love to have my ",
+  "answer": "own",
+  "after": " farm.",
+  "reading": null,
+  "translation": "내 농장 하나 갖고 싶어.",
+  "audioPath": null
+ },
+ "en-f00085": {
+  "before": "I don't ",
+  "answer": "care",
+  "after": " what other people think.",
+  "reading": null,
+  "translation": "난 남들이 어떻게 생각하든 상관없어.",
+  "audioPath": null
+ },
+ "en-f00086": {
+  "before": "You are going in the ",
+  "answer": "wrong",
+  "after": " direction.",
+  "reading": null,
+  "translation": "방향을 잘못 가고 계세요.",
+  "audioPath": null
+ },
+ "en-f00087": {
+  "before": "Are you up for some tennis ",
+  "answer": "today",
+  "after": "?",
+  "reading": null,
+  "translation": "오늘 테니스 좀 칠래?",
+  "audioPath": null
+ },
+ "en-f00088": {
+  "before": "Could you just ",
+  "answer": "hold",
+  "after": " this for me?",
+  "reading": null,
+  "translation": "이것 좀 잠깐 들고 있어 줄래?",
+  "audioPath": null
+ },
+ "en-f00089": {
+  "before": "You and I are the ",
+  "answer": "same",
+  "after": " age.",
+  "reading": null,
+  "translation": "너랑 나 동갑이네.",
+  "audioPath": "sentence-audio/en/89.m4a"
+ },
+ "en-f00090": {
+  "before": "Is there anything ",
+  "answer": "else",
+  "after": " I can do?",
+  "reading": null,
+  "translation": "내가 더 해 줄 수 있는 거 있어?",
+  "audioPath": null
+ },
+ "en-f00091": {
+  "before": "I will call you sometime ",
+  "answer": "next",
+  "after": " week.",
+  "reading": null,
+  "translation": "다음 주 중에 전화할게.",
+  "audioPath": null
+ },
+ "en-f00092": {
+  "before": "Do you ",
+  "answer": "mind",
+  "after": " if I sit here?",
+  "reading": null,
+  "translation": "여기 앉아도 될까?",
+  "audioPath": null
+ },
+ "en-f00093": {
+  "before": "You might want to ",
+  "answer": "change",
+  "after": " your plans.",
+  "reading": null,
+  "translation": "계획을 바꾸는 게 좋을 것 같아.",
+  "audioPath": null
+ },
+ "en-f00094": {
+  "before": "How ",
+  "answer": "many",
+  "after": " close friends do you have?",
+  "reading": null,
+  "translation": "친한 친구 몇 명이나 있어?",
+  "audioPath": "sentence-audio/en/94.m4a"
+ },
+ "en-f00095": {
+  "before": "Don't ",
+  "answer": "worry",
+  "after": ", we can go tomorrow morning.",
+  "reading": null,
+  "translation": "걱정 마, 내일 아침에 가면 돼.",
+  "audioPath": null
+ },
+ "en-f00096": {
+  "before": "",
+  "answer": "Mom",
+  "after": ", I've got something to tell you.",
+  "reading": null,
+  "translation": "엄마, 할 말 있어.",
+  "audioPath": null
+ },
+ "en-f00097": {
+  "before": "It's not the ",
+  "answer": "end",
+  "after": " of the world.",
+  "reading": null,
+  "translation": "세상 끝난 것도 아니잖아.",
+  "audioPath": null
+ },
+ "en-f00098": {
+  "before": "Yeah, but I can ",
+  "answer": "speak",
+  "after": " English, too.",
+  "reading": null,
+  "translation": "응, 근데 나 영어도 할 줄 알아.",
+  "audioPath": null
+ },
+ "en-f00099": {
+  "before": "We can go to the bank ",
+  "answer": "together",
+  "after": ".",
+  "reading": null,
+  "translation": "은행에 같이 가면 되지.",
+  "audioPath": null
+ },
+ "en-f00100": {
+  "before": "I don't think that's a good ",
+  "answer": "idea",
+  "after": ".",
+  "reading": null,
+  "translation": "그거 좋은 생각 같지 않은데.",
+  "audioPath": null
+ },
+ "en-f00101": {
+  "before": "I think you've got a ",
+  "answer": "real",
+  "after": " bargain.",
+  "reading": null,
+  "translation": "진짜 싸게 잘 산 것 같아.",
+  "audioPath": null
+ },
+ "en-f00102": {
+  "before": "Oh, my God, I ",
+  "answer": "forgot",
+  "after": " grandma's coming!",
+  "reading": null,
+  "translation": "맙소사, 할머니 오시는 거 깜빡했다!",
+  "audioPath": null
+ },
+ "en-f00103": {
+  "before": "The city has got a traffic ",
+  "answer": "problem",
+  "after": ".",
+  "reading": null,
+  "translation": "이 도시는 교통 문제가 있어.",
+  "audioPath": null
+ },
+ "en-f00105": {
+  "before": "Did you ",
+  "answer": "already",
+  "after": " take the history exam?",
+  "reading": null,
+  "translation": "역사 시험 벌써 봤어?",
+  "audioPath": null
+ },
+ "en-f00106": {
+  "before": "I was sick ",
+  "answer": "most",
+  "after": " of the night.",
+  "reading": null,
+  "translation": "밤새 거의 아팠어.",
+  "audioPath": null
+ },
+ "en-f00107": {
+  "before": "The bill you ",
+  "answer": "sent",
+  "after": " me was incorrect.",
+  "reading": null,
+  "translation": "보내 주신 청구서가 잘못됐어요.",
+  "audioPath": null
+ },
+ "en-f00108": {
+  "before": "It doesn't ",
+  "answer": "matter",
+  "after": ", I can teach you.",
+  "reading": null,
+  "translation": "상관없어, 내가 가르쳐 줄게.",
+  "audioPath": null
+ },
+ "en-f00109": {
+  "before": "We ",
+  "answer": "actually",
+  "after": " met at a dance party.",
+  "reading": null,
+  "translation": "우리 사실 댄스 파티에서 만났어.",
+  "audioPath": null
+ },
+ "en-f00111": {
+  "before": "I ",
+  "answer": "seem",
+  "after": " to have caught a cold.",
+  "reading": null,
+  "translation": "나 감기 걸린 것 같아.",
+  "audioPath": "sentence-audio/en/111.m4a"
+ },
+ "en-f00112": {
+  "before": "I wouldn't ",
+  "answer": "lie",
+  "after": " about something like that.",
+  "reading": null,
+  "translation": "그런 걸로 거짓말 안 해.",
+  "audioPath": null
+ },
+ "en-f00113": {
+  "before": "Yes, I went there ",
+  "answer": "once",
+  "after": " last summer.",
+  "reading": null,
+  "translation": "응, 작년 여름에 한 번 가 봤어.",
+  "audioPath": null
+ },
+ "en-f00114": {
+  "before": "I can play the piano a ",
+  "answer": "bit",
+  "after": ".",
+  "reading": null,
+  "translation": "피아노 조금 칠 줄 알아.",
+  "audioPath": null
+ },
+ "en-f00115": {
+  "before": "Are you ",
+  "answer": "ready",
+  "after": " for the camping trip?",
+  "reading": null,
+  "translation": "캠핑 갈 준비 됐어?",
+  "audioPath": null
+ },
+ "en-f00116": {
+  "before": "I ",
+  "answer": "guess",
+  "after": " I'm just a little nervous.",
+  "reading": null,
+  "translation": "그냥 좀 긴장했나 봐.",
+  "audioPath": null
+ },
+ "en-f00117": {
+  "before": "Can I have a ",
+  "answer": "word",
+  "after": " with you?",
+  "reading": null,
+  "translation": "잠깐 얘기 좀 할 수 있을까?",
+  "audioPath": null
+ },
+ "en-f00118": {
+  "before": "I'm ",
+  "answer": "pretty",
+  "after": " sure I'll be all right.",
+  "reading": null,
+  "translation": "나 괜찮을 거라고 거의 확신해.",
+  "audioPath": null
+ },
+ "en-f00119": {
+  "before": "Why are you in ",
+  "answer": "such",
+  "after": " a hurry?",
+  "reading": null,
+  "translation": "왜 그렇게 서둘러?",
+  "audioPath": null
+ },
+ "en-f00120": {
+  "before": "I ",
+  "answer": "also",
+  "after": " like going to the movies.",
+  "reading": null,
+  "translation": "나도 영화 보러 가는 거 좋아해.",
+  "audioPath": null
+ },
+ "en-f00121": {
+  "before": "Have you found a new job ",
+  "answer": "yet",
+  "after": "?",
+  "reading": null,
+  "translation": "새 일자리는 아직 못 구했어?",
+  "audioPath": null
+ },
+ "en-f00122": {
+  "before": "I was laughing through the ",
+  "answer": "whole",
+  "after": " movie.",
+  "reading": null,
+  "translation": "영화 보는 내내 웃었어.",
+  "audioPath": null
+ },
+ "en-f00123": {
+  "before": "He took my ",
+  "answer": "phone",
+  "after": " and my wallet.",
+  "reading": null,
+  "translation": "그 사람이 내 휴대폰이랑 지갑을 가져갔어.",
+  "audioPath": null
+ },
+ "en-f00124": {
+  "before": "What are you going to do ",
+  "answer": "tomorrow",
+  "after": "?",
+  "reading": null,
+  "translation": "내일 뭐 할 거야?",
+  "audioPath": null
+ },
+ "en-f00125": {
+  "before": "What are you going to do ",
+  "answer": "tonight",
+  "after": "?",
+  "reading": null,
+  "translation": "오늘 밤에 뭐 할 거야?",
+  "audioPath": null
+ },
+ "en-f00126": {
+  "before": "Hey, you ",
+  "answer": "wanna",
+  "after": " see a movie tomorrow?",
+  "reading": null,
+  "translation": "야, 내일 영화 볼래?",
+  "audioPath": null
+ },
+ "en-f00127": {
+  "before": "In that ",
+  "answer": "case",
+  "after": ", I won't keep you.",
+  "reading": null,
+  "translation": "그럼 더 붙잡지 않을게.",
+  "audioPath": null
+ },
+ "en-f00128": {
+  "before": "I don't want to go ",
+  "answer": "alone",
+  "after": ".",
+  "reading": null,
+  "translation": "혼자 가기 싫어.",
+  "audioPath": null
+ },
+ "en-f00129": {
+  "before": "I'll ",
+  "answer": "check",
+  "after": " immediately and call you back.",
+  "reading": null,
+  "translation": "바로 확인하고 다시 전화드릴게요.",
+  "audioPath": null
+ },
+ "en-f00130": {
+  "before": "The bank is going to close ",
+  "answer": "soon",
+  "after": ".",
+  "reading": null,
+  "translation": "은행 곧 문 닫아.",
+  "audioPath": null
+ },
+ "en-f00131": {
+  "before": "I ",
+  "answer": "hope",
+  "after": " we'll get together again soon.",
+  "reading": null,
+  "translation": "곧 또 만났으면 좋겠다.",
+  "audioPath": null
+ },
+ "en-f00132": {
+  "before": "I have a ",
+  "answer": "question",
+  "after": " about my cable.",
+  "reading": null,
+  "translation": "케이블 관련해서 질문이 있는데요.",
+  "audioPath": null
+ },
+ "en-f00133": {
+  "before": "My watch is a ",
+  "answer": "few",
+  "after": " minutes fast.",
+  "reading": null,
+  "translation": "내 시계가 몇 분 빨라.",
+  "audioPath": null
+ },
+ "en-f00135": {
+  "before": "How ",
+  "answer": "far",
+  "after": " is it from our hotel?",
+  "reading": null,
+  "translation": "우리 호텔에서 얼마나 멀어?",
+  "audioPath": null
+ },
+ "en-f00136": {
+  "before": "I caught a cold two days ",
+  "answer": "ago",
+  "after": ".",
+  "reading": null,
+  "translation": "이틀 전에 감기 걸렸어.",
+  "audioPath": null
+ },
+ "en-f00137": {
+  "before": "",
+  "answer": "Excuse",
+  "after": " me, could I ask a favour?",
+  "reading": null,
+  "translation": "실례지만, 부탁 하나 드려도 될까요?",
+  "audioPath": null
+ },
+ "en-f00138": {
+  "before": "What am I ",
+  "answer": "supposed",
+  "after": " to do then?",
+  "reading": null,
+  "translation": "그럼 나 어떻게 해야 돼?",
+  "audioPath": null
+ },
+ "en-f00139": {
+  "before": "So why did you ",
+  "answer": "become",
+  "after": " a hairdresser?",
+  "reading": null,
+  "translation": "그럼 왜 미용사가 됐어?",
+  "audioPath": null
+ },
+ "en-f00140": {
+  "before": "The hardest ",
+  "answer": "part",
+  "after": " is just about over.",
+  "reading": null,
+  "translation": "제일 힘든 부분은 거의 끝났어.",
+  "audioPath": null
+ },
+ "en-f00141": {
+  "before": "You are here on ",
+  "answer": "business",
+  "after": ", aren't you?",
+  "reading": null,
+  "translation": "출장 오신 거죠?",
+  "audioPath": null
+ },
+ "en-f00142": {
+  "before": "This is too good to be ",
+  "answer": "true",
+  "after": ".",
+  "reading": null,
+  "translation": "이거 믿기지 않을 만큼 좋다.",
+  "audioPath": null
+ },
+ "en-f00143": {
+  "before": "Do you have ",
+  "answer": "plans",
+  "after": " for this evening?",
+  "reading": null,
+  "translation": "오늘 저녁에 계획 있어?",
+  "audioPath": null
+ },
+ "en-f00144": {
+  "before": "It ",
+  "answer": "saves",
+  "after": " me a lot of time.",
+  "reading": null,
+  "translation": "그러면 시간이 많이 절약돼.",
+  "audioPath": null
+ },
+ "en-f00145": {
+  "before": "Well, you are right on that ",
+  "answer": "point",
+  "after": ".",
+  "reading": null,
+  "translation": "음, 그 점에서는 네 말이 맞아.",
+  "audioPath": null
+ },
+ "en-f00146": {
+  "before": "It's not an ",
+  "answer": "easy",
+  "after": " decision to make.",
+  "reading": null,
+  "translation": "쉽게 내릴 수 있는 결정이 아니야.",
+  "audioPath": null
+ },
+ "en-f00147": {
+  "before": "Oh, how did you ",
+  "answer": "deal",
+  "after": " with it?",
+  "reading": null,
+  "translation": "아, 그건 어떻게 해결했어?",
+  "audioPath": null
+ },
+ "en-f00148": {
+  "before": "Could I call you back ",
+  "answer": "later",
+  "after": "?",
+  "reading": null,
+  "translation": "이따가 다시 전화해도 될까?",
+  "audioPath": null
+ },
+ "en-f00149": {
+  "before": "You'll ",
+  "answer": "hit",
+  "after": " that car if you're not careful.",
+  "reading": null,
+  "translation": "조심 안 하면 저 차 박겠다.",
+  "audioPath": null
+ },
+ "en-f00150": {
+  "before": "I fell down and ",
+  "answer": "hurt",
+  "after": " my arm.",
+  "reading": null,
+  "translation": "넘어져서 팔을 다쳤어.",
+  "audioPath": null
+ },
+ "en-f00151": {
+  "before": "It's not like him to be ",
+  "answer": "late",
+  "after": ".",
+  "reading": null,
+  "translation": "걔가 늦다니 걔답지 않네.",
+  "audioPath": null
+ },
+ "en-f00152": {
+  "before": "I am married and ",
+  "answer": "have",
+  "after": " two children.",
+  "reading": null,
+  "translation": "저는 결혼했고 아이가 둘 있어요.",
+  "audioPath": "sentence-audio/en/152.m4a"
+ },
+ "en-f00153": {
+  "before": "They're ",
+  "answer": "probably",
+  "after": " going to be so happy.",
+  "reading": null,
+  "translation": "걔네 아마 엄청 좋아할 거야.",
+  "audioPath": null
+ },
+ "en-f00154": {
+  "before": "Would you like to ",
+  "answer": "order",
+  "after": " anything else?",
+  "reading": null,
+  "translation": "더 주문하실 거 있으세요?",
+  "audioPath": null
+ },
+ "en-f00155": {
+  "before": "All my ",
+  "answer": "stuff",
+  "after": " is in this backpack.",
+  "reading": null,
+  "translation": "내 짐은 전부 이 배낭에 있어.",
+  "audioPath": null
+ },
+ "en-f00156": {
+  "before": "Can I ",
+  "answer": "read",
+  "after": " it when you're finished?",
+  "reading": null,
+  "translation": "너 다 읽으면 나도 읽어도 돼?",
+  "audioPath": null
+ },
+ "en-f00157": {
+  "before": "I think it's a love ",
+  "answer": "story",
+  "after": ".",
+  "reading": null,
+  "translation": "사랑 이야기인 것 같아.",
+  "audioPath": null
+ },
+ "en-f00158": {
+  "before": "What time shall I ",
+  "answer": "pick",
+  "after": " you up?",
+  "reading": null,
+  "translation": "몇 시에 데리러 갈까?",
+  "audioPath": null
+ },
+ "en-f00159": {
+  "before": "Did you ",
+  "answer": "set",
+  "after": " the alarm for six?",
+  "reading": null,
+  "translation": "알람 여섯 시로 맞춰 놨어?",
+  "audioPath": null
+ },
+ "en-f00160": {
+  "before": "You know what really drives me ",
+  "answer": "crazy",
+  "after": "?",
+  "reading": null,
+  "translation": "나 진짜 미치게 하는 게 뭔지 알아?",
+  "audioPath": null
+ },
+ "en-f00161": {
+  "before": "That's ",
+  "answer": "exactly",
+  "after": " what I want, thank you.",
+  "reading": null,
+  "translation": "딱 내가 원하던 거야, 고마워.",
+  "audioPath": null
+ },
+ "en-f00162": {
+  "before": "I ",
+  "answer": "wish",
+  "after": " I could, but I'm busy.",
+  "reading": null,
+  "translation": "그러고 싶은데 바빠.",
+  "audioPath": null
+ },
+ "en-f00163": {
+  "before": "It is time to ",
+  "answer": "shut",
+  "after": " the gate.",
+  "reading": null,
+  "translation": "이제 문 닫을 시간이야.",
+  "audioPath": "sentence-audio/en/163.m4a"
+ },
+ "en-f00164": {
+  "before": "No, I haven't had a ",
+  "answer": "chance",
+  "after": " to.",
+  "reading": null,
+  "translation": "아니, 아직 그럴 기회가 없었어.",
+  "audioPath": null
+ },
+ "en-f00165": {
+  "before": "How should I dress for the ",
+  "answer": "party",
+  "after": "?",
+  "reading": null,
+  "translation": "파티에 뭐 입고 가야 해?",
+  "audioPath": null
+ },
+ "en-f00166": {
+  "before": "Why didn't you ",
+  "answer": "answer",
+  "after": " my question?",
+  "reading": null,
+  "translation": "왜 내 질문에 대답 안 했어?",
+  "audioPath": null
+ },
+ "en-f00167": {
+  "before": "I ",
+  "answer": "promise",
+  "after": " it will not happen again.",
+  "reading": null,
+  "translation": "다시는 이런 일 없을 거라고 약속할게.",
+  "audioPath": null
+ },
+ "en-f00168": {
+  "before": "Just a ",
+  "answer": "moment",
+  "after": ", please, while I check.",
+  "reading": null,
+  "translation": "확인하는 동안 잠시만 기다려 주세요.",
+  "audioPath": null
+ },
+ "en-f00169": {
+  "before": "The calculator on the table is ",
+  "answer": "mine",
+  "after": ".",
+  "reading": null,
+  "translation": "탁자 위에 있는 계산기 내 거야.",
+  "audioPath": "sentence-audio/en/169.m4a"
+ },
+ "en-f00170": {
+  "before": "This is ",
+  "answer": "different",
+  "after": " from what I expected.",
+  "reading": null,
+  "translation": "이건 내가 예상했던 거랑 달라.",
+  "audioPath": "sentence-audio/en/170.m4a"
+ },
+ "en-f00171": {
+  "before": "For some ",
+  "answer": "reason",
+  "after": " it won't turn on.",
+  "reading": null,
+  "translation": "무슨 이유인지 전원이 안 켜져.",
+  "audioPath": null
+ },
+ "en-f00172": {
+  "before": "I'm ",
+  "answer": "afraid",
+  "after": " I have to go now.",
+  "reading": null,
+  "translation": "미안하지만 이제 가 봐야겠어.",
+  "audioPath": null
+ },
+ "en-f00173": {
+  "before": "Well, you'd better get some ",
+  "answer": "rest",
+  "after": ".",
+  "reading": null,
+  "translation": "그럼 좀 쉬는 게 좋겠다.",
+  "audioPath": null
+ },
+ "en-f00174": {
+  "before": "You're very ",
+  "answer": "dear",
+  "after": " to me.",
+  "reading": null,
+  "translation": "너는 나한테 정말 소중해.",
+  "audioPath": "sentence-audio/en/174.m4a"
+ },
+ "en-f00175": {
+  "before": "There's a long ",
+  "answer": "line",
+  "after": " at the bank.",
+  "reading": null,
+  "translation": "은행에 줄이 길어.",
+  "audioPath": null
+ },
+ "en-f00176": {
+  "before": "I didn't ",
+  "answer": "quite",
+  "after": " catch what you said.",
+  "reading": null,
+  "translation": "네가 한 말 잘 못 알아들었어.",
+  "audioPath": null
+ },
+ "en-f00177": {
+  "before": "",
+  "answer": "Anyway",
+  "after": ", what did you do yesterday evening?",
+  "reading": null,
+  "translation": "그건 그렇고, 어제 저녁에 뭐 했어?",
+  "audioPath": null
+ },
+ "en-f00178": {
+  "before": "It's good exercise as well as ",
+  "answer": "fun",
+  "after": ".",
+  "reading": null,
+  "translation": "재미도 있고 운동도 돼.",
+  "audioPath": null
+ },
+ "en-f00179": {
+  "before": "What was the ",
+  "answer": "cause",
+  "after": " of your quarrel?",
+  "reading": null,
+  "translation": "너희 싸운 원인이 뭐였어?",
+  "audioPath": "sentence-audio/en/179.m4a"
+ },
+ "en-f00180": {
+  "before": "Do you think English is that ",
+  "answer": "important",
+  "after": "?",
+  "reading": null,
+  "translation": "영어가 그렇게 중요하다고 생각해?",
+  "audioPath": null
+ },
+ "en-f00181": {
+  "before": "You can ",
+  "answer": "trust",
+  "after": " me this time.",
+  "reading": null,
+  "translation": "이번엔 날 믿어도 돼.",
+  "audioPath": null
+ },
+ "en-f00182": {
+  "before": "It was the ",
+  "answer": "least",
+  "after": " I could do.",
+  "reading": null,
+  "translation": "그 정도는 당연히 해야지.",
+  "audioPath": null
+ },
+ "en-f00183": {
+  "before": "I always have ",
+  "answer": "trouble",
+  "after": " with jet lag.",
+  "reading": null,
+  "translation": "난 항상 시차 때문에 고생해.",
+  "audioPath": null
+ },
+ "en-f00184": {
+  "before": "It's my belief that knowledge is ",
+  "answer": "power",
+  "after": ".",
+  "reading": null,
+  "translation": "나는 아는 게 힘이라고 믿어.",
+  "audioPath": "sentence-audio/en/184.m4a"
+ },
+ "en-f00185": {
+  "before": "Would you like to ",
+  "answer": "clear",
+  "after": " the table then?",
+  "reading": null,
+  "translation": "그럼 상 좀 치워 줄래?",
+  "audioPath": null
+ },
+ "en-f00186": {
+  "before": "Can you ",
+  "answer": "pass",
+  "after": " me the salt, please?",
+  "reading": null,
+  "translation": "소금 좀 건네줄래?",
+  "audioPath": "sentence-audio/en/186.m4a"
+ },
+ "en-f00187": {
+  "before": "To tell you the ",
+  "answer": "truth",
+  "after": ", I'm really nervous.",
+  "reading": null,
+  "translation": "솔직히 말하면 나 진짜 긴장돼.",
+  "audioPath": null
+ },
+ "en-f00188": {
+  "before": "The concert will ",
+  "answer": "begin",
+  "after": " in twenty minutes.",
+  "reading": null,
+  "translation": "콘서트는 이십 분 뒤에 시작해.",
+  "audioPath": null
+ },
+ "en-f00189": {
+  "before": "I have some urgent work to ",
+  "answer": "finish",
+  "after": ".",
+  "reading": null,
+  "translation": "끝내야 할 급한 일이 좀 있어.",
+  "audioPath": null
+ },
+ "en-f00190": {
+  "before": "No, there's a police car ",
+  "answer": "behind",
+  "after": " us.",
+  "reading": null,
+  "translation": "아니, 우리 뒤에 경찰차 있어.",
+  "audioPath": null
+ },
+ "en-f00191": {
+  "before": "I was there for ",
+  "answer": "almost",
+  "after": " a year.",
+  "reading": null,
+  "translation": "거기 거의 일 년 있었어.",
+  "audioPath": null
+ },
+ "en-f00192": {
+  "before": "Will you be ",
+  "answer": "able",
+  "after": " to make it?",
+  "reading": null,
+  "translation": "너 올 수 있어?",
+  "audioPath": null
+ },
+ "en-f00193": {
+  "before": "No, it's just a ",
+  "answer": "couple",
+  "after": " of minutes.",
+  "reading": null,
+  "translation": "아니, 몇 분밖에 안 걸려.",
+  "audioPath": null
+ },
+ "en-f00194": {
+  "before": "I don't want to do this ",
+  "answer": "anymore",
+  "after": ".",
+  "reading": null,
+  "translation": "더 이상 이거 하기 싫어.",
+  "audioPath": "sentence-audio/en/194.m4a"
+ },
+ "en-f00195": {
+  "before": "Good morning, and ",
+  "answer": "welcome",
+  "after": " to our bank.",
+  "reading": null,
+  "translation": "안녕하세요, 저희 은행에 오신 걸 환영합니다.",
+  "audioPath": null
+ },
+ "en-f00196": {
+  "before": "How do you ",
+  "answer": "spend",
+  "after": " your spare time?",
+  "reading": null,
+  "translation": "여가 시간에 뭐 하면서 보내?",
+  "audioPath": null
+ },
+ "en-f00197": {
+  "before": "Yes, I think we might be ",
+  "answer": "free",
+  "after": ".",
+  "reading": null,
+  "translation": "응, 우리 시간 될 것 같아.",
+  "audioPath": null
+ },
+ "en-f00198": {
+  "before": "In ",
+  "answer": "fact",
+  "after": ", I am in a hurry.",
+  "reading": null,
+  "translation": "사실 나 좀 바빠.",
+  "audioPath": null
+ },
+ "en-f00199": {
+  "before": "Is this ",
+  "answer": "your",
+  "after": " first time in China?",
+  "reading": null,
+  "translation": "중국은 이번이 처음이세요?",
+  "audioPath": null
+ },
+ "en-f00200": {
+  "before": "It would break if you ",
+  "answer": "dropped",
+  "after": " it.",
+  "reading": null,
+  "translation": "떨어뜨리면 깨질 거야.",
+  "audioPath": "sentence-audio/en/200.m4a"
+ },
+ "en-f00201": {
+  "before": "",
+  "answer": "Either",
+  "after": " way is good for me.",
+  "reading": null,
+  "translation": "난 어느 쪽이든 좋아.",
+  "audioPath": null
+ },
+ "en-f00202": {
+  "before": "I think I can ",
+  "answer": "figure",
+  "after": " this out.",
+  "reading": null,
+  "translation": "이거 내가 알아낼 수 있을 것 같아.",
+  "audioPath": null
+ },
+ "en-f00203": {
+  "before": "I can't ",
+  "answer": "bear",
+  "after": " to look at it.",
+  "reading": null,
+  "translation": "차마 못 보겠어.",
+  "audioPath": null
+ },
+ "en-f00205": {
+  "before": "Hey ",
+  "answer": "honey",
+  "after": ", how was your day?",
+  "reading": null,
+  "translation": "자기야, 오늘 하루 어땠어?",
+  "audioPath": null
+ },
+ "en-f00206": {
+  "before": "I ",
+  "answer": "wonder",
+  "after": " how old these things are.",
+  "reading": null,
+  "translation": "이것들 얼마나 오래된 건지 궁금하다.",
+  "audioPath": null
+ },
+ "en-f00207": {
+  "before": "I would like to ",
+  "answer": "return",
+  "after": " these books.",
+  "reading": null,
+  "translation": "이 책들 반납하려고요.",
+  "audioPath": null
+ },
+ "en-f00208": {
+  "before": "I'm so ",
+  "answer": "full",
+  "after": " that I can burst.",
+  "reading": null,
+  "translation": "배불러서 터질 것 같아.",
+  "audioPath": null
+ },
+ "en-f00209": {
+  "before": "This isn't the time for ",
+  "answer": "stupid",
+  "after": " jokes.",
+  "reading": null,
+  "translation": "지금 바보 같은 농담할 때 아니야.",
+  "audioPath": "sentence-audio/en/209.m4a"
+ },
+ "en-f00211": {
+  "before": "What ",
+  "answer": "sort",
+  "after": " of music do you like?",
+  "reading": null,
+  "translation": "어떤 음악 좋아해?",
+  "audioPath": null
+ },
+ "en-f00212": {
+  "before": "You aren't in a ",
+  "answer": "hurry",
+  "after": ", are you?",
+  "reading": null,
+  "translation": "급한 거 아니지?",
+  "audioPath": null
+ },
+ "en-f00213": {
+  "before": "I have some good ",
+  "answer": "news",
+  "after": " for you.",
+  "reading": null,
+  "translation": "너한테 좋은 소식 있어.",
+  "audioPath": null
+ },
+ "en-f00214": {
+  "before": "I can't ",
+  "answer": "decide",
+  "after": " what to do today.",
+  "reading": null,
+  "translation": "오늘 뭐 할지 못 정하겠어.",
+  "audioPath": null
+ },
+ "en-f00215": {
+  "before": "I have to get up ",
+  "answer": "early",
+  "after": " tomorrow.",
+  "reading": null,
+  "translation": "나 내일 일찍 일어나야 돼.",
+  "audioPath": null
+ },
+ "en-f00216": {
+  "before": "May I take a ",
+  "answer": "picture",
+  "after": " of you?",
+  "reading": null,
+  "translation": "사진 좀 찍어도 될까요?",
+  "audioPath": null
+ },
+ "en-f00217": {
+  "before": "",
+  "answer": "Sometimes",
+  "after": " it takes a couple of tries.",
+  "reading": null,
+  "translation": "가끔은 몇 번 해 봐야 될 때도 있어.",
+  "audioPath": null
+ },
+ "en-f00218": {
+  "before": "I ",
+  "answer": "hate",
+  "after": " this part of my job.",
+  "reading": null,
+  "translation": "난 내 일에서 이 부분이 싫어.",
+  "audioPath": null
+ },
+ "en-f00219": {
+  "before": "It's really a ",
+  "answer": "small",
+  "after": " world, isn't it!",
+  "reading": null,
+  "translation": "세상 진짜 좁다, 그치!",
+  "audioPath": null
+ },
+ "en-f00220": {
+  "before": "We can't ",
+  "answer": "expect",
+  "after": " it to be perfect.",
+  "reading": null,
+  "translation": "완벽하길 기대할 순 없지.",
+  "audioPath": null
+ },
+ "en-f00221": {
+  "before": "Why are you ",
+  "answer": "acting",
+  "after": " so strange today?",
+  "reading": null,
+  "translation": "너 오늘 왜 이렇게 이상하게 굴어?",
+  "audioPath": null
+ },
+ "en-f00222": {
+  "before": "Where is the ",
+  "answer": "captain",
+  "after": " of this ship?",
+  "reading": null,
+  "translation": "이 배 선장님 어디 계세요?",
+  "audioPath": "sentence-audio/en/222.m4a"
+ },
+ "en-f00224": {
+  "before": "Do you want to see my ",
+  "answer": "scar",
+  "after": "?",
+  "reading": null,
+  "translation": "내 흉터 볼래?",
+  "audioPath": "sentence-audio/en/224.m4a"
+ },
+ "en-f00225": {
+  "before": "Have a ",
+  "answer": "safe",
+  "after": " trip home.",
+  "reading": null,
+  "translation": "집에 조심히 가.",
+  "audioPath": null
+ },
+ "en-f00226": {
+  "before": "This ",
+  "answer": "street",
+  "after": " used to have few stores.",
+  "reading": null,
+  "translation": "이 거리는 예전엔 가게가 별로 없었어.",
+  "audioPath": null
+ },
+ "en-f00227": {
+  "before": "A ",
+  "answer": "funny",
+  "after": " thing happened to me the other day.",
+  "reading": null,
+  "translation": "며칠 전에 나한테 웃긴 일이 있었어.",
+  "audioPath": null
+ },
+ "en-f00228": {
+  "before": "How do you like your new ",
+  "answer": "boss",
+  "after": "?",
+  "reading": null,
+  "translation": "새 상사는 어때?",
+  "audioPath": null
+ },
+ "en-f00229": {
+  "before": "I knew, but I couldn't ",
+  "answer": "control",
+  "after": " myself.",
+  "reading": null,
+  "translation": "알긴 했는데 나 자신을 못 참았어.",
+  "audioPath": null
+ },
+ "en-f00230": {
+  "before": "I had to ",
+  "answer": "blow",
+  "after": " my nose.",
+  "reading": null,
+  "translation": "코 풀어야 했어.",
+  "audioPath": null
+ },
+ "en-f00231": {
+  "before": "Why don't you go ",
+  "answer": "ahead",
+  "after": " of me?",
+  "reading": null,
+  "translation": "나보다 먼저 가.",
+  "audioPath": null
+ },
+ "en-f00232": {
+  "before": "Not all ",
+  "answer": "states",
+  "after": " have an income tax.",
+  "reading": null,
+  "translation": "모든 주에 소득세가 있는 건 아니야.",
+  "audioPath": null
+ },
+ "en-f00233": {
+  "before": "I am an accountant at a ",
+  "answer": "company",
+  "after": ".",
+  "reading": null,
+  "translation": "나 회사에서 회계 일 해.",
+  "audioPath": null
+ },
+ "en-f00234": {
+  "before": "I was ",
+  "answer": "forced",
+  "after": " to abandon the plan.",
+  "reading": null,
+  "translation": "어쩔 수 없이 계획을 포기해야 했어.",
+  "audioPath": "sentence-audio/en/234.m4a"
+ },
+ "en-f00235": {
+  "before": "Watch your ",
+  "answer": "step",
+  "after": ". The stairs are steep.",
+  "reading": null,
+  "translation": "발밑 조심해. 계단이 가팔라.",
+  "audioPath": "sentence-audio/en/235.m4a"
+ },
+ "en-f00236": {
+  "before": "I have ",
+  "answer": "reported",
+  "after": " it to the police.",
+  "reading": null,
+  "translation": "경찰에 신고했어.",
+  "audioPath": null
+ },
+ "en-f00237": {
+  "before": "But I'm sure it will be ",
+  "answer": "alright",
+  "after": ".",
+  "reading": null,
+  "translation": "그래도 분명 괜찮을 거야.",
+  "audioPath": null
+ },
+ "en-f00238": {
+  "before": "Did you ",
+  "answer": "land",
+  "after": " safely?",
+  "reading": null,
+  "translation": "무사히 착륙했어?",
+  "audioPath": null
+ },
+ "en-f00239": {
+  "before": "She ",
+  "answer": "screamed",
+  "after": " when she saw the snake.",
+  "reading": null,
+  "translation": "그녀는 뱀을 보고 비명을 질렀어.",
+  "audioPath": "sentence-audio/en/239.m4a"
+ },
+ "en-f00240": {
+  "before": "A ",
+  "answer": "gentleman",
+  "after": " wouldn't do such a thing.",
+  "reading": null,
+  "translation": "신사라면 그런 짓은 안 해.",
+  "audioPath": "sentence-audio/en/240.m4a"
+ },
+ "en-f00241": {
+  "before": "Dinner and a movie will be ",
+  "answer": "perfect",
+  "after": ".",
+  "reading": null,
+  "translation": "저녁 먹고 영화 보면 완벽하겠다.",
+  "audioPath": null
+ },
+ "en-f00242": {
+  "before": "I think I will ",
+  "answer": "continue",
+  "after": " my studies.",
+  "reading": null,
+  "translation": "나 공부 계속할 것 같아.",
+  "audioPath": null
+ },
+ "en-f00243": {
+  "before": "We have no ",
+  "answer": "secrets",
+  "after": " from each other.",
+  "reading": null,
+  "translation": "우린 서로 비밀이 없어.",
+  "audioPath": "sentence-audio/en/243.m4a"
+ },
+ "en-f00245": {
+  "before": "I want to get something really ",
+  "answer": "special",
+  "after": ".",
+  "reading": null,
+  "translation": "정말 특별한 걸 사 주고 싶어.",
+  "audioPath": null
+ },
+ "en-f00246": {
+  "before": "I'm going to see my ",
+  "answer": "uncle",
+  "after": ".",
+  "reading": null,
+  "translation": "삼촌 보러 갈 거야.",
+  "audioPath": null
+ },
+ "en-f00247": {
+  "before": "",
+  "answer": "Perhaps",
+  "after": " you should go to a doctor.",
+  "reading": null,
+  "translation": "병원에 가 보는 게 좋겠어.",
+  "audioPath": null
+ },
+ "en-f00248": {
+  "before": "Sounds ",
+  "answer": "like",
+  "after": " it was a close game.",
+  "reading": null,
+  "translation": "접전이었나 보네.",
+  "audioPath": null
+ },
+ "en-f00249": {
+  "before": "Come off it, it's not that ",
+  "answer": "serious",
+  "after": ".",
+  "reading": null,
+  "translation": "에이, 그렇게 심각한 거 아니야.",
+  "audioPath": null
+ },
+ "en-f00250": {
+  "before": "Did the ",
+  "answer": "cops",
+  "after": " get him?",
+  "reading": null,
+  "translation": "경찰이 그 사람 잡았어?",
+  "audioPath": null
+ },
+ "en-f00251": {
+  "before": "Please ",
+  "answer": "wake",
+  "after": " me up at 6 a.m.",
+  "reading": null,
+  "translation": "아침 6시에 깨워 주세요.",
+  "audioPath": null
+ },
+ "en-f00252": {
+  "before": "Could you ",
+  "answer": "explain",
+  "after": " a little more?",
+  "reading": null,
+  "translation": "좀 더 설명해 주실래요?",
+  "audioPath": null
+ },
+ "en-f00253": {
+  "before": "Where did you work in the ",
+  "answer": "past",
+  "after": "?",
+  "reading": null,
+  "translation": "예전에 어디서 일하셨어요?",
+  "audioPath": null
+ },
+ "en-f00254": {
+  "before": "I've got a ",
+  "answer": "meeting",
+  "after": " in five minutes.",
+  "reading": null,
+  "translation": "오 분 뒤에 회의 있어.",
+  "audioPath": null
+ },
+ "en-f00255": {
+  "before": "Is it ",
+  "answer": "possible",
+  "after": " to get a beer?",
+  "reading": null,
+  "translation": "맥주 한 잔 될까요?",
+  "audioPath": null
+ },
+ "en-f00256": {
+  "before": "The guide ",
+  "answer": "led",
+  "after": " us to the hotel.",
+  "reading": null,
+  "translation": "가이드가 우리를 호텔까지 안내해 줬어.",
+  "audioPath": "sentence-audio/en/256.m4a"
+ },
+ "en-f00257": {
+  "before": "Rich or poor, dogs always love their ",
+  "answer": "masters",
+  "after": ".",
+  "reading": null,
+  "translation": "부자든 가난하든 개는 늘 주인을 사랑해.",
+  "audioPath": null
+ },
+ "en-f00258": {
+  "before": "Those bushes are ",
+  "answer": "covering",
+  "after": " the stop sign.",
+  "reading": null,
+  "translation": "덤불이 정지 표지판을 가리고 있어.",
+  "audioPath": null
+ },
+ "en-f00259": {
+  "before": "I'm ",
+  "answer": "glad",
+  "after": " we can still be friends.",
+  "reading": null,
+  "translation": "우리 아직 친구로 지낼 수 있어서 다행이야.",
+  "audioPath": null
+ },
+ "en-f00260": {
+  "before": "Yes, I couldn't ",
+  "answer": "agree",
+  "after": " with you more.",
+  "reading": null,
+  "translation": "응, 완전 동의해.",
+  "audioPath": null
+ },
+ "en-f00261": {
+  "before": "Who's in ",
+  "answer": "charge",
+  "after": " of the construction project?",
+  "reading": null,
+  "translation": "그 공사 프로젝트 담당이 누구야?",
+  "audioPath": null
+ },
+ "en-f00262": {
+  "before": "Good ",
+  "answer": "luck",
+  "after": " on your test tomorrow.",
+  "reading": null,
+  "translation": "내일 시험 잘 봐.",
+  "audioPath": null
+ },
+ "en-f00263": {
+  "before": "",
+  "answer": "Daddy",
+  "after": " is going to teach you how to play!",
+  "reading": null,
+  "translation": "아빠가 하는 법 가르쳐 줄게!",
+  "audioPath": null
+ },
+ "en-f00264": {
+  "before": "I have a good ",
+  "answer": "sense",
+  "after": " of smell.",
+  "reading": null,
+  "translation": "나 후각이 좋아.",
+  "audioPath": "sentence-audio/en/264.m4a"
+ },
+ "en-f00265": {
+  "before": "",
+  "answer": "Cheer",
+  "after": " up, I hope you'll feel better soon.",
+  "reading": null,
+  "translation": "힘내, 곧 기분 나아졌으면 좋겠다.",
+  "audioPath": null
+ },
+ "en-f00266": {
+  "before": "It's nice to ",
+  "answer": "finally",
+  "after": " meet you.",
+  "reading": null,
+  "translation": "드디어 만나서 반가워.",
+  "audioPath": null
+ },
+ "en-f00267": {
+  "before": "I have a taste for something ",
+  "answer": "sweet",
+  "after": ".",
+  "reading": null,
+  "translation": "단 게 당기네.",
+  "audioPath": null
+ },
+ "en-f00268": {
+  "before": "What did you think of the ",
+  "answer": "film",
+  "after": "?",
+  "reading": null,
+  "translation": "그 영화 어땠어?",
+  "audioPath": null
+ },
+ "en-f00269": {
+  "before": "Why did you become a police ",
+  "answer": "officer",
+  "after": "?",
+  "reading": null,
+  "translation": "왜 경찰관이 됐어?",
+  "audioPath": "sentence-audio/en/269.m4a"
+ },
+ "en-f00270": {
+  "before": "Where does that ",
+  "answer": "strange",
+  "after": " smell come from?",
+  "reading": null,
+  "translation": "저 이상한 냄새 어디서 나는 거야?",
+  "audioPath": null
+ },
+ "en-f00271": {
+  "before": "Are there pets ",
+  "answer": "allowed",
+  "after": " in this apartment?",
+  "reading": null,
+  "translation": "이 아파트 반려동물 키워도 돼요?",
+  "audioPath": null
+ },
+ "en-f00272": {
+  "before": "You weren't watching the ",
+  "answer": "road",
+  "after": " at all.",
+  "reading": null,
+  "translation": "너 도로를 하나도 안 보고 있었잖아.",
+  "audioPath": null
+ },
+ "en-f00273": {
+  "before": "I'd ",
+  "answer": "rather",
+  "after": " have a cup of coffee.",
+  "reading": null,
+  "translation": "난 차라리 커피 한 잔 마실래.",
+  "audioPath": null
+ },
+ "en-f00274": {
+  "before": "I must have made a ",
+  "answer": "mistake",
+  "after": ".",
+  "reading": null,
+  "translation": "내가 실수했나 봐.",
+  "audioPath": null
+ },
+ "en-f00275": {
+  "before": "Someone has ",
+  "answer": "stolen",
+  "after": " my cell phone.",
+  "reading": null,
+  "translation": "누가 제 휴대폰을 훔쳐 갔어요.",
+  "audioPath": null
+ },
+ "en-f00277": {
+  "before": "Sunglasses ",
+  "answer": "protect",
+  "after": " our eyes from the sun.",
+  "reading": null,
+  "translation": "선글라스는 햇빛으로부터 눈을 보호해 줘.",
+  "audioPath": "sentence-audio/en/277.m4a"
+ },
+ "en-f00278": {
+  "before": "Do you want to ",
+  "answer": "join",
+  "after": " me tonight?",
+  "reading": null,
+  "translation": "오늘 밤에 나랑 같이 할래?",
+  "audioPath": null
+ },
+ "en-f00279": {
+  "before": "I think I've seen you ",
+  "answer": "somewhere",
+  "after": " before.",
+  "reading": null,
+  "translation": "전에 어디서 뵌 것 같아요.",
+  "audioPath": null
+ },
+ "en-f00280": {
+  "before": "I'm so sorry, but ",
+  "answer": "rules",
+  "after": " are rules.",
+  "reading": null,
+  "translation": "정말 죄송하지만, 규칙은 규칙이에요.",
+  "audioPath": null
+ },
+ "en-f00281": {
+  "before": "It is against the labor ",
+  "answer": "law",
+  "after": ".",
+  "reading": null,
+  "translation": "그건 노동법 위반이야.",
+  "audioPath": null
+ },
+ "en-f00282": {
+  "before": "You're ",
+  "answer": "lucky",
+  "after": " there was no lasting damage.",
+  "reading": null,
+  "translation": "후유증이 안 남아서 운이 좋았네.",
+  "audioPath": null
+ },
+ "en-f00283": {
+  "before": "I just eat ",
+  "answer": "less",
+  "after": " and exercise more.",
+  "reading": null,
+  "translation": "그냥 덜 먹고 운동을 더 해.",
+  "audioPath": null
+ },
+ "en-f00284": {
+  "before": "Are you ",
+  "answer": "enjoying",
+  "after": " the class so far?",
+  "reading": null,
+  "translation": "지금까지 수업 재밌어?",
+  "audioPath": null
+ },
+ "en-f00285": {
+  "before": "I heard someone ",
+  "answer": "knock",
+  "after": " on the door.",
+  "reading": null,
+  "translation": "누가 문 두드리는 소리 들었어.",
+  "audioPath": "sentence-audio/en/285.m4a"
+ },
+ "en-f00286": {
+  "before": "You did well on the math ",
+  "answer": "test",
+  "after": ".",
+  "reading": null,
+  "translation": "수학 시험 잘 봤네.",
+  "audioPath": null
+ },
+ "en-f00287": {
+  "before": "I was really ",
+  "answer": "fooled",
+  "after": ".",
+  "reading": null,
+  "translation": "완전히 속았어.",
+  "audioPath": null
+ },
+ "en-f00288": {
+  "before": "",
+  "answer": "Choose",
+  "after": " which day is best for you.",
+  "reading": null,
+  "translation": "편한 날로 골라.",
+  "audioPath": null
+ },
+ "en-f00289": {
+  "before": "He's very sensible for his ",
+  "answer": "age",
+  "after": ".",
+  "reading": null,
+  "translation": "걔는 나이에 비해 참 철이 들었어.",
+  "audioPath": null
+ },
+ "en-f00290": {
+  "before": "I need to get my internet ",
+  "answer": "fixed",
+  "after": ".",
+  "reading": null,
+  "translation": "인터넷 고쳐야 해.",
+  "audioPath": null
+ },
+ "en-f00291": {
+  "before": "Be ",
+  "answer": "careful",
+  "after": ", it's still quite hot.",
+  "reading": null,
+  "translation": "조심해, 아직 꽤 뜨거워.",
+  "audioPath": null
+ },
+ "en-f00292": {
+  "before": "Be careful, those ",
+  "answer": "rocks",
+  "after": " are slippery.",
+  "reading": null,
+  "translation": "조심해, 그 바위들 미끄러워.",
+  "audioPath": null
+ },
+ "en-f00293": {
+  "before": "I know, but it wasn't my ",
+  "answer": "fault",
+  "after": "!",
+  "reading": null,
+  "translation": "알아, 근데 내 잘못 아니었다고!",
+  "audioPath": null
+ },
+ "en-f00294": {
+  "before": "",
+  "answer": "Calm",
+  "after": " down, don't worry.",
+  "reading": null,
+  "translation": "진정해, 걱정 마.",
+  "audioPath": null
+ },
+ "en-f00295": {
+  "before": "",
+  "answer": "Dude",
+  "after": ", what are you talking about?",
+  "reading": null,
+  "translation": "야, 무슨 소리야?",
+  "audioPath": null
+ },
+ "en-f00296": {
+  "before": "What are you ",
+  "answer": "hiding",
+  "after": " behind your back?",
+  "reading": null,
+  "translation": "등 뒤에 뭐 숨기고 있어?",
+  "audioPath": null
+ },
+ "en-f00297": {
+  "before": "This cafe ",
+  "answer": "offers",
+  "after": " a wireless internet connection.",
+  "reading": null,
+  "translation": "이 카페 무선 인터넷 돼.",
+  "audioPath": null
+ },
+ "en-f00298": {
+  "before": "I didn't ",
+  "answer": "realize",
+  "after": " it was so late.",
+  "reading": null,
+  "translation": "이렇게 늦은 줄 몰랐어.",
+  "audioPath": null
+ },
+ "en-f00299": {
+  "before": "What would you like to be in the ",
+  "answer": "future",
+  "after": "?",
+  "reading": null,
+  "translation": "나중에 커서 뭐 되고 싶어?",
+  "audioPath": null
+ },
+ "en-f00300": {
+  "before": "Let me make a ",
+  "answer": "quick",
+  "after": " phone call.",
+  "reading": null,
+  "translation": "잠깐 전화 한 통만 할게.",
+  "audioPath": null
+ },
+ "en-f00301": {
+  "before": "I've been in physics ",
+  "answer": "class",
+  "after": " all day.",
+  "reading": null,
+  "translation": "하루 종일 물리 수업 들었어.",
+  "audioPath": null
+ },
+ "en-f00302": {
+  "before": "I know but I have no ",
+  "answer": "choice",
+  "after": ".",
+  "reading": null,
+  "translation": "알아, 근데 선택의 여지가 없어.",
+  "audioPath": null
+ },
+ "en-f00303": {
+  "before": "Why did they ",
+  "answer": "arrest",
+  "after": " you?",
+  "reading": null,
+  "translation": "그 사람들이 왜 너를 체포했어?",
+  "audioPath": null
+ },
+ "en-f00304": {
+  "before": "I hope you're not ",
+  "answer": "mad",
+  "after": " at me.",
+  "reading": null,
+  "translation": "나한테 화난 거 아니었으면 좋겠어.",
+  "audioPath": "sentence-audio/en/304.m4a"
+ },
+ "en-f00305": {
+  "before": "Our dorm's heating ",
+  "answer": "system",
+  "after": " isn't working properly.",
+  "reading": null,
+  "translation": "우리 기숙사 난방 시스템이 제대로 안 돼.",
+  "audioPath": "sentence-audio/en/305.m4a"
+ },
+ "en-f00306": {
+  "before": "Can you ",
+  "answer": "imagine",
+  "after": " having a million dollars?",
+  "reading": null,
+  "translation": "백만 달러가 생긴다고 상상이 돼?",
+  "audioPath": null
+ },
+ "en-f00307": {
+  "before": "I bet you had a ",
+  "answer": "wonderful",
+  "after": " time.",
+  "reading": null,
+  "translation": "분명 엄청 즐거웠겠다.",
+  "audioPath": null
+ },
+ "en-f00308": {
+  "before": "Who's that old ",
+  "answer": "lady",
+  "after": " trimming the trees?",
+  "reading": null,
+  "translation": "나무 다듬고 있는 저 할머니 누구야?",
+  "audioPath": null
+ },
+ "en-f00309": {
+  "before": "I think you are ",
+  "answer": "absolutely",
+  "after": " right.",
+  "reading": null,
+  "translation": "네 말이 전적으로 맞는 것 같아.",
+  "audioPath": null
+ },
+ "en-f00310": {
+  "before": "Do you think you can ",
+  "answer": "handle",
+  "after": " that?",
+  "reading": null,
+  "translation": "그거 감당할 수 있을 것 같아?",
+  "audioPath": null
+ },
+ "en-f00311": {
+  "before": "What ",
+  "answer": "present",
+  "after": " should we give him this time?",
+  "reading": null,
+  "translation": "이번엔 걔한테 무슨 선물 줄까?",
+  "audioPath": null
+ },
+ "en-f00312": {
+  "before": "I ran into a glass door ",
+  "answer": "yesterday",
+  "after": ".",
+  "reading": null,
+  "translation": "어제 유리문에 부딪혔어.",
+  "audioPath": null
+ },
+ "en-f00313": {
+  "before": "Wow, your apartment is a ",
+  "answer": "mess",
+  "after": ".",
+  "reading": null,
+  "translation": "와, 너네 집 엉망이다.",
+  "audioPath": null
+ },
+ "en-f00314": {
+  "before": "",
+  "answer": "Darling",
+  "after": ", I have news for you.",
+  "reading": null,
+  "translation": "자기야, 할 얘기가 있어.",
+  "audioPath": null
+ },
+ "en-f00315": {
+  "before": "Can I ",
+  "answer": "share",
+  "after": " an apartment with someone?",
+  "reading": null,
+  "translation": "다른 사람이랑 아파트 같이 써도 돼요?",
+  "audioPath": null
+ },
+ "en-f00316": {
+  "before": "You can ",
+  "answer": "reach",
+  "after": " me at this number.",
+  "reading": null,
+  "translation": "이 번호로 연락하면 돼.",
+  "audioPath": "sentence-audio/en/316.m4a"
+ },
+ "en-f00317": {
+  "before": "Is there anything ",
+  "answer": "worth",
+  "after": " watching on another channel?",
+  "reading": null,
+  "translation": "다른 채널에 볼 만한 거 있어?",
+  "audioPath": null
+ },
+ "en-f00318": {
+  "before": "Can I take a ",
+  "answer": "message",
+  "after": " for her?",
+  "reading": null,
+  "translation": "메시지 전해 드릴까요?",
+  "audioPath": null
+ },
+ "en-f00319": {
+  "before": "When do I get to ",
+  "answer": "visit",
+  "after": " Grandma?",
+  "reading": null,
+  "translation": "할머니 언제 보러 갈 수 있어?",
+  "audioPath": null
+ },
+ "en-f00320": {
+  "before": "The car was ",
+  "answer": "destroyed",
+  "after": " in the accident.",
+  "reading": null,
+  "translation": "그 차는 사고로 완전히 부서졌어.",
+  "audioPath": "sentence-audio/en/320.m4a"
+ },
+ "en-f00321": {
+  "before": "You can't ",
+  "answer": "prove",
+  "after": " anything.",
+  "reading": null,
+  "translation": "넌 아무것도 증명 못 해.",
+  "audioPath": null
+ },
+ "en-f00322": {
+  "before": "Have you ",
+  "answer": "noticed",
+  "after": " what has changed?",
+  "reading": null,
+  "translation": "뭐가 바뀌었는지 눈치챘어?",
+  "audioPath": null
+ },
+ "en-f00323": {
+  "before": "It's ",
+  "answer": "none",
+  "after": " of my business.",
+  "reading": null,
+  "translation": "내가 상관할 일 아니야.",
+  "audioPath": null
+ },
+ "en-f00324": {
+  "before": "He did an ",
+  "answer": "amazing",
+  "after": " job.",
+  "reading": null,
+  "translation": "그 사람 정말 대단하게 해냈어.",
+  "audioPath": null
+ },
+ "en-f00325": {
+  "before": "Do you have a ",
+  "answer": "ride",
+  "after": " home?",
+  "reading": null,
+  "translation": "집에 타고 갈 차 있어?",
+  "audioPath": null
+ },
+ "en-f00326": {
+  "before": "But in ",
+  "answer": "general",
+  "after": " I didn't like it.",
+  "reading": null,
+  "translation": "근데 전반적으로는 별로였어.",
+  "audioPath": null
+ },
+ "en-f00327": {
+  "before": "I had a ",
+  "answer": "weird",
+  "after": " dream last night.",
+  "reading": null,
+  "translation": "어젯밤에 이상한 꿈 꿨어.",
+  "audioPath": "sentence-audio/en/327.m4a"
+ },
+ "en-f00328": {
+  "before": "I'd like to buy everyone a ",
+  "answer": "round",
+  "after": ".",
+  "reading": null,
+  "translation": "다들 한 잔씩 내가 살게.",
+  "audioPath": "sentence-audio/en/328.m4a"
+ },
+ "en-f00329": {
+  "before": "I'll buy you a new ",
+  "answer": "one",
+  "after": " tomorrow.",
+  "reading": null,
+  "translation": "내일 새 거 사 줄게.",
+  "audioPath": null
+ },
+ "en-f00330": {
+  "before": "Has the ",
+  "answer": "chief",
+  "after": " accepted our plan?",
+  "reading": null,
+  "translation": "부장님이 우리 계획 받아들이셨어?",
+  "audioPath": null
+ },
+ "en-f00331": {
+  "before": "Will you ",
+  "answer": "forgive",
+  "after": " me?",
+  "reading": null,
+  "translation": "나 용서해 줄래?",
+  "audioPath": null
+ },
+ "en-f00332": {
+  "before": "Is there a subway ",
+  "answer": "station",
+  "after": " near here?",
+  "reading": null,
+  "translation": "이 근처에 지하철역 있어요?",
+  "audioPath": null
+ },
+ "en-f00333": {
+  "before": "",
+  "answer": "Goodbye",
+  "after": ", and have a nice day.",
+  "reading": null,
+  "translation": "안녕히 가세요, 좋은 하루 보내세요.",
+  "audioPath": null
+ },
+ "en-f00334": {
+  "before": "I have a chronic ",
+  "answer": "fear",
+  "after": " of flying.",
+  "reading": null,
+  "translation": "나 비행기 타는 게 늘 무서워.",
+  "audioPath": null
+ },
+ "en-f00335": {
+  "before": "The teacher ",
+  "answer": "kicked",
+  "after": " me out of class.",
+  "reading": null,
+  "translation": "선생님이 나를 교실에서 쫓아냈어.",
+  "audioPath": "sentence-audio/en/335.m4a"
+ },
+ "en-f00336": {
+  "before": "It just ",
+  "answer": "arrived",
+  "after": " a few minutes ago.",
+  "reading": null,
+  "translation": "몇 분 전에 막 도착했어요.",
+  "audioPath": null
+ },
+ "en-f00337": {
+  "before": "Let's go to the coffee ",
+  "answer": "shop",
+  "after": " then.",
+  "reading": null,
+  "translation": "그럼 카페로 가자.",
+  "audioPath": null
+ },
+ "en-f00338": {
+  "before": "How long have you been ",
+  "answer": "studying",
+  "after": " English?",
+  "reading": null,
+  "translation": "영어 공부한 지 얼마나 됐어?",
+  "audioPath": null
+ },
+ "en-f00339": {
+  "before": "I've been so ",
+  "answer": "busy",
+  "after": " at work recently.",
+  "reading": null,
+  "translation": "요즘 회사에서 너무 바빴어.",
+  "audioPath": null
+ },
+ "en-f00340": {
+  "before": "The ",
+  "answer": "kids",
+  "after": " are too excited to wait.",
+  "reading": null,
+  "translation": "애들이 너무 신나서 못 기다려.",
+  "audioPath": null
+ },
+ "en-f00341": {
+  "before": "What ",
+  "answer": "crime",
+  "after": " did I commit?",
+  "reading": null,
+  "translation": "제가 무슨 죄를 지었는데요?",
+  "audioPath": null
+ },
+ "en-f00342": {
+  "before": "I have the flu and I'm ",
+  "answer": "tired",
+  "after": ".",
+  "reading": null,
+  "translation": "독감 걸려서 피곤해.",
+  "audioPath": "sentence-audio/en/342.m4a"
+ },
+ "en-f00343": {
+  "before": "The ",
+  "answer": "service",
+  "after": " certainly could have been better.",
+  "reading": null,
+  "translation": "서비스가 확실히 좀 아쉬웠어.",
+  "audioPath": null
+ },
+ "en-f00344": {
+  "before": "You can't ",
+  "answer": "judge",
+  "after": " a book by its cover.",
+  "reading": null,
+  "translation": "겉만 보고 판단하면 안 돼.",
+  "audioPath": null
+ },
+ "en-f00345": {
+  "before": "I ",
+  "answer": "swear",
+  "after": " never to drink again.",
+  "reading": null,
+  "translation": "다시는 술 안 마시겠다고 맹세할게.",
+  "audioPath": null
+ },
+ "en-f00346": {
+  "before": "How many diners will be in your ",
+  "answer": "group",
+  "after": "?",
+  "reading": null,
+  "translation": "일행이 몇 분이세요?",
+  "audioPath": null
+ },
+ "en-f00347": {
+  "before": "What on earth are you ",
+  "answer": "searching",
+  "after": " for?",
+  "reading": null,
+  "translation": "도대체 뭘 찾고 있는 거야?",
+  "audioPath": null
+ },
+ "en-f00348": {
+  "before": "I'm not going to ",
+  "answer": "accept",
+  "after": " this excuse.",
+  "reading": null,
+  "translation": "이런 변명은 안 받아 줄 거야.",
+  "audioPath": null
+ },
+ "en-f00349": {
+  "before": "I was an ",
+  "answer": "idiot",
+  "after": " to believe you.",
+  "reading": null,
+  "translation": "너를 믿은 내가 바보였어.",
+  "audioPath": "sentence-audio/en/349.m4a"
+ },
+ "en-f00350": {
+  "before": "The ",
+  "answer": "birthday",
+  "after": " cake was delicious, wasn't it?",
+  "reading": null,
+  "translation": "생일 케이크 맛있었지?",
+  "audioPath": null
+ },
+ "en-f00351": {
+  "before": "Please put your ",
+  "answer": "weapon",
+  "after": " on the ground.",
+  "reading": null,
+  "translation": "무기를 바닥에 내려놓으세요.",
+  "audioPath": "sentence-audio/en/351.m4a"
+ },
+ "en-f00352": {
+  "before": "Do you have any ",
+  "answer": "evidence",
+  "after": "?",
+  "reading": null,
+  "translation": "증거 있어?",
+  "audioPath": null
+ },
+ "en-f00353": {
+  "before": "It's a great ",
+  "answer": "honor",
+  "after": " to meet you.",
+  "reading": null,
+  "translation": "만나 뵙게 되어 정말 영광입니다.",
+  "audioPath": "sentence-audio/en/353.m4a"
+ },
+ "en-f00354": {
+  "before": "I think you're sitting in my ",
+  "answer": "seat",
+  "after": ".",
+  "reading": null,
+  "translation": "제 자리에 앉아 계신 것 같은데요.",
+  "audioPath": "sentence-audio/en/354.m4a"
+ },
+ "en-f00355": {
+  "before": "I work as an undercover ",
+  "answer": "agent",
+  "after": ".",
+  "reading": null,
+  "translation": "나는 비밀 요원으로 일해.",
+  "audioPath": "sentence-audio/en/355.m4a"
+ },
+ "en-f00356": {
+  "before": "May I turn on the ",
+  "answer": "TV",
+  "after": " then?",
+  "reading": null,
+  "translation": "그럼 텔레비전 켜도 돼요?",
+  "audioPath": null
+ },
+ "en-f00357": {
+  "before": "I want to ",
+  "answer": "create",
+  "after": " a password for this document.",
+  "reading": null,
+  "translation": "이 문서에 비밀번호를 만들고 싶어.",
+  "audioPath": null
+ },
+ "en-f00358": {
+  "before": "I ",
+  "answer": "completely",
+  "after": " forgot about your cat allergy.",
+  "reading": null,
+  "translation": "너 고양이 알레르기 있는 거 완전히 잊어버렸어.",
+  "audioPath": null
+ },
+ "en-f00359": {
+  "before": "I want to install a ",
+  "answer": "security",
+  "after": " door.",
+  "reading": null,
+  "translation": "방범문 달고 싶어.",
+  "audioPath": null
+ },
+ "en-f00360": {
+  "before": "I ",
+  "answer": "totally",
+  "after": " forgot they were due.",
+  "reading": null,
+  "translation": "반납일인 걸 완전히 까먹었어.",
+  "audioPath": null
+ },
+ "en-f00361": {
+  "before": "Smoking is not permitted in this ",
+  "answer": "area",
+  "after": ".",
+  "reading": null,
+  "translation": "이 구역에서는 흡연이 금지되어 있습니다.",
+  "audioPath": null
+ },
+ "en-f00362": {
+  "before": "Could I ",
+  "answer": "treat",
+  "after": " you to dinner tonight?",
+  "reading": null,
+  "translation": "오늘 저녁 내가 대접해도 될까?",
+  "audioPath": null
+ },
+ "en-f00363": {
+  "before": "I'm looking for ",
+  "answer": "information",
+  "after": " on tropical fish.",
+  "reading": null,
+  "translation": "열대어에 관한 정보를 찾고 있어요.",
+  "audioPath": null
+ },
+ "en-f00365": {
+  "before": "This ",
+  "answer": "situation",
+  "after": " isn't easy to handle.",
+  "reading": null,
+  "translation": "이 상황은 감당하기 쉽지 않아.",
+  "audioPath": null
+ },
+ "en-f00366": {
+  "before": "The sun ",
+  "answer": "rises",
+  "after": " early and sets late.",
+  "reading": null,
+  "translation": "해가 일찍 뜨고 늦게 져.",
+  "audioPath": null
+ },
+ "en-f00367": {
+  "before": "Why don't we go on Friday ",
+  "answer": "instead",
+  "after": "?",
+  "reading": null,
+  "translation": "대신 금요일에 가는 건 어때?",
+  "audioPath": null
+ },
+ "en-f00368": {
+  "before": "I think you should ",
+  "answer": "definitely",
+  "after": " consider it!",
+  "reading": null,
+  "translation": "너 그거 꼭 고려해 봐야 해!",
+  "audioPath": null
+ },
+ "en-f00369": {
+  "before": "It's ",
+  "answer": "certainly",
+  "after": " a big improvement over yesterday.",
+  "reading": null,
+  "translation": "어제보다 확실히 훨씬 낫네.",
+  "audioPath": null
+ },
+ "en-f00370": {
+  "before": "Do you have to ",
+  "answer": "prepare",
+  "after": " for your examination?",
+  "reading": null,
+  "translation": "너 시험 준비해야 돼?",
+  "audioPath": null
+ },
+ "en-f00371": {
+  "before": "I'm ",
+  "answer": "considering",
+  "after": " studying in America next year.",
+  "reading": null,
+  "translation": "내년에 미국 유학 갈까 고려 중이야.",
+  "audioPath": "sentence-audio/en/371.m4a"
+ },
+ "en-f00372": {
+  "before": "When will you give me a ",
+  "answer": "raise",
+  "after": "?",
+  "reading": null,
+  "translation": "월급 언제 올려 주실 거예요?",
+  "audioPath": null
+ },
+ "en-f00373": {
+  "before": "I was taught to ",
+  "answer": "respect",
+  "after": " my elders.",
+  "reading": null,
+  "translation": "어른을 공경하라고 배웠어.",
+  "audioPath": "sentence-audio/en/373.m4a"
+ },
+ "en-f00374": {
+  "before": "But I don't ",
+  "answer": "smoke",
+  "after": " or drink.",
+  "reading": null,
+  "translation": "근데 난 담배도 술도 안 해.",
+  "audioPath": null
+ },
+ "en-f00375": {
+  "before": "A tiger has ",
+  "answer": "escaped",
+  "after": " from the zoo.",
+  "reading": null,
+  "translation": "동물원에서 호랑이가 탈출했어.",
+  "audioPath": "sentence-audio/en/375.m4a"
+ },
+ "en-f00376": {
+  "before": "How do you get ",
+  "answer": "rid",
+  "after": " of it?",
+  "reading": null,
+  "translation": "그거 어떻게 없애?",
+  "audioPath": null
+ },
+ "en-f00377": {
+  "before": "I think it's a ",
+  "answer": "waste",
+  "after": " of money.",
+  "reading": null,
+  "translation": "돈 낭비인 것 같아.",
+  "audioPath": null
+ },
+ "en-f00378": {
+  "before": "I won't ",
+  "answer": "bother",
+  "after": " you any more.",
+  "reading": null,
+  "translation": "더 이상 귀찮게 안 할게.",
+  "audioPath": null
+ },
+ "en-f00379": {
+  "before": "Do you think animals have a ",
+  "answer": "soul",
+  "after": "?",
+  "reading": null,
+  "translation": "동물도 영혼이 있다고 생각해?",
+  "audioPath": "sentence-audio/en/379.m4a"
+ },
+ "en-f00380": {
+  "before": "Do you like our new ",
+  "answer": "history",
+  "after": " teacher?",
+  "reading": null,
+  "translation": "새로 오신 역사 선생님 마음에 들어?",
+  "audioPath": null
+ },
+ "en-f00381": {
+  "before": "So, how was your ",
+  "answer": "trip",
+  "after": " to Thailand?",
+  "reading": null,
+  "translation": "그래서 태국 여행은 어땠어?",
+  "audioPath": null
+ },
+ "en-f00382": {
+  "before": "My ",
+  "answer": "cell",
+  "after": " phone is out of service again.",
+  "reading": null,
+  "translation": "내 휴대폰 또 안 터져.",
+  "audioPath": null
+ },
+ "en-f00383": {
+  "before": "The traffic is ",
+  "answer": "terrible",
+  "after": " on Monday morning.",
+  "reading": null,
+  "translation": "월요일 아침엔 교통이 끔찍해.",
+  "audioPath": null
+ },
+ "en-f00384": {
+  "before": "I want to ",
+  "answer": "breathe",
+  "after": " some fresh air.",
+  "reading": null,
+  "translation": "신선한 공기 좀 마시고 싶어.",
+  "audioPath": "sentence-audio/en/384.m4a"
+ },
+ "en-f00385": {
+  "before": "I have a ",
+  "answer": "surprise",
+  "after": " for you.",
+  "reading": null,
+  "translation": "너한테 줄 깜짝 선물이 있어.",
+  "audioPath": null
+ },
+ "en-f00386": {
+  "before": "It's not as ",
+  "answer": "simple",
+  "after": " as that.",
+  "reading": null,
+  "translation": "그렇게 간단한 게 아니야.",
+  "audioPath": null
+ },
+ "en-f00387": {
+  "before": "You just sit back and ",
+  "answer": "relax",
+  "after": "!",
+  "reading": null,
+  "translation": "그냥 편히 앉아서 쉬어!",
+  "audioPath": null
+ },
+ "en-f00388": {
+  "before": "The ",
+  "answer": "guard",
+  "after": " was on duty all night.",
+  "reading": null,
+  "translation": "경비원이 밤새 근무를 섰어.",
+  "audioPath": "sentence-audio/en/388.m4a"
+ },
+ "en-f00389": {
+  "before": "A ",
+  "answer": "detective",
+  "after": " arrived at the crime scene.",
+  "reading": null,
+  "translation": "형사가 범죄 현장에 도착했어.",
+  "audioPath": "sentence-audio/en/389.m4a"
+ },
+ "en-f00390": {
+  "before": "",
+  "answer": "Seriously",
+  "after": ", I don't mind helping.",
+  "reading": null,
+  "translation": "진짜 도와주는 거 괜찮아.",
+  "audioPath": null
+ },
+ "en-f00391": {
+  "before": "I want to be with you ",
+  "answer": "forever",
+  "after": ".",
+  "reading": null,
+  "translation": "너랑 영원히 함께하고 싶어.",
+  "audioPath": "sentence-audio/en/391.m4a"
+ },
+ "en-f00392": {
+  "before": "I vacuumed the ",
+  "answer": "entire",
+  "after": " house.",
+  "reading": null,
+  "translation": "집 전체를 청소기로 밀었어.",
+  "audioPath": null
+ },
+ "en-f00393": {
+  "before": "Yes, this is everything on the ",
+  "answer": "list",
+  "after": ".",
+  "reading": null,
+  "translation": "네, 목록에 있는 건 이게 다예요.",
+  "audioPath": null
+ },
+ "en-f00394": {
+  "before": "You ",
+  "answer": "mentioned",
+  "after": " that in your letter.",
+  "reading": null,
+  "translation": "편지에서 그 얘기 했었잖아.",
+  "audioPath": null
+ },
+ "en-f00395": {
+  "before": "It's a ",
+  "answer": "lovely",
+  "after": " day, isn't it?",
+  "reading": null,
+  "translation": "날씨 참 좋다, 그치?",
+  "audioPath": null
+ },
+ "en-f00397": {
+  "before": "I lost ",
+  "answer": "track",
+  "after": " of time.",
+  "reading": null,
+  "translation": "시간 가는 줄 몰랐어.",
+  "audioPath": null
+ },
+ "en-f00398": {
+  "before": "",
+  "answer": "Cross",
+  "after": " the street and walk two blocks west.",
+  "reading": null,
+  "translation": "길 건너서 서쪽으로 두 블록 가세요.",
+  "audioPath": null
+ },
+ "en-f00399": {
+  "before": "I'm going to exercise every ",
+  "answer": "single",
+  "after": " day.",
+  "reading": null,
+  "translation": "하루도 빠짐없이 매일 운동할 거야.",
+  "audioPath": null
+ },
+ "en-f00400": {
+  "before": "Do you have any ",
+  "answer": "experience",
+  "after": " in management?",
+  "reading": null,
+  "translation": "관리 업무 경험 있으세요?",
+  "audioPath": null
+ },
+ "en-f00401": {
+  "before": "I'm in the ",
+  "answer": "middle",
+  "after": " of a conversation.",
+  "reading": null,
+  "translation": "저 지금 대화 중이에요.",
+  "audioPath": null
+ },
+ "en-f00402": {
+  "before": "That looks like a bad ",
+  "answer": "accident",
+  "after": ".",
+  "reading": null,
+  "translation": "사고가 크게 난 것 같아.",
+  "audioPath": null
+ },
+ "en-f00403": {
+  "before": "Would you ",
+  "answer": "roll",
+  "after": " up your sleeve?",
+  "reading": null,
+  "translation": "소매 좀 걷어 주시겠어요?",
+  "audioPath": null
+ },
+ "en-f00404": {
+  "before": "It ",
+  "answer": "involves",
+  "after": " a lot of travel.",
+  "reading": null,
+  "translation": "출장이 많이 따르는 일이야.",
+  "audioPath": null
+ },
+ "en-f00405": {
+  "before": "We paid a ",
+  "answer": "fair",
+  "after": " price for it.",
+  "reading": null,
+  "translation": "우리 그거 적당한 가격에 샀어.",
+  "audioPath": "sentence-audio/en/405.m4a"
+ },
+ "en-f00406": {
+  "before": "Which ",
+  "answer": "scene",
+  "after": " is your favorite?",
+  "reading": null,
+  "translation": "어떤 장면이 제일 좋아?",
+  "audioPath": null
+ },
+ "en-f00407": {
+  "before": "Can you ",
+  "answer": "stick",
+  "after": " this note on the fridge?",
+  "reading": null,
+  "translation": "이 메모 냉장고에 좀 붙여 줄래?",
+  "audioPath": null
+ },
+ "en-f00408": {
+  "before": "Do you ",
+  "answer": "serve",
+  "after": " breakfast in the hotel?",
+  "reading": null,
+  "translation": "호텔에서 아침 식사 제공되나요?",
+  "audioPath": null
+ },
+ "en-f00409": {
+  "before": "These ",
+  "answer": "machines",
+  "after": " aren't very difficult to use.",
+  "reading": null,
+  "translation": "이 기계들은 쓰기 별로 어렵지 않아.",
+  "audioPath": null
+ },
+ "en-f00410": {
+  "before": "Are you going ",
+  "answer": "anywhere",
+  "after": " for your vacation?",
+  "reading": null,
+  "translation": "휴가 때 어디 가?",
+  "audioPath": null
+ },
+ "en-f00411": {
+  "before": "I think it's too ",
+  "answer": "dangerous",
+  "after": " for me.",
+  "reading": null,
+  "translation": "나한텐 너무 위험한 것 같아.",
+  "audioPath": null
+ },
+ "en-f00412": {
+  "before": "May I have your ",
+  "answer": "attention",
+  "after": " please?",
+  "reading": null,
+  "translation": "잠시 주목해 주시겠습니까?",
+  "audioPath": null
+ },
+ "en-f00413": {
+  "before": "How are you going to ",
+  "answer": "contact",
+  "after": " him?",
+  "reading": null,
+  "translation": "그 사람한테 어떻게 연락할 거야?",
+  "audioPath": null
+ },
+ "en-f00414": {
+  "before": "Let me just ",
+  "answer": "grab",
+  "after": " my coat.",
+  "reading": null,
+  "translation": "코트만 챙겨 올게.",
+  "audioPath": null
+ },
+ "en-f00415": {
+  "before": "That must be a very ",
+  "answer": "interesting",
+  "after": " job.",
+  "reading": null,
+  "translation": "정말 재밌는 일이겠다.",
+  "audioPath": null
+ },
+ "en-f00416": {
+  "before": "There were no ",
+  "answer": "witnesses",
+  "after": " to the crime.",
+  "reading": null,
+  "translation": "그 범죄에는 목격자가 없었어.",
+  "audioPath": "sentence-audio/en/416.m4a"
+ },
+ "en-f00417": {
+  "before": "It might ",
+  "answer": "belong",
+  "after": " to somebody else.",
+  "reading": null,
+  "translation": "그거 다른 사람 거일지도 몰라.",
+  "audioPath": null
+ },
+ "en-f00418": {
+  "before": "Have you come to a ",
+  "answer": "decision",
+  "after": "?",
+  "reading": null,
+  "translation": "결정했어?",
+  "audioPath": null
+ },
+ "en-f00419": {
+  "before": "My income ",
+  "answer": "remains",
+  "after": " the same but prices just continue to rise.",
+  "reading": null,
+  "translation": "월급은 그대로인데 물가만 계속 올라.",
+  "audioPath": null
+ },
+ "en-f00420": {
+  "before": "Which ",
+  "answer": "field",
+  "after": " would you like to work in?",
+  "reading": null,
+  "translation": "어느 분야에서 일하고 싶어?",
+  "audioPath": null
+ },
+ "en-f00421": {
+  "before": "The ",
+  "answer": "government",
+  "after": " is working on it.",
+  "reading": null,
+  "translation": "정부가 그 문제 해결하려고 하고 있어.",
+  "audioPath": null
+ },
+ "en-f00422": {
+  "before": "Your daughter is ",
+  "answer": "smart",
+  "after": " and very well behaved.",
+  "reading": null,
+  "translation": "따님이 똑똑하고 아주 예의 바르네요.",
+  "audioPath": null
+ },
+ "en-f00423": {
+  "before": "Just ",
+  "answer": "fill",
+  "after": " out this form, will you?",
+  "reading": null,
+  "translation": "이 서류 좀 작성해 주시겠어요?",
+  "audioPath": null
+ },
+ "en-f00424": {
+  "before": "That's ",
+  "answer": "normal",
+  "after": " for anyone with a newborn.",
+  "reading": null,
+  "translation": "갓난아기 키우면 누구나 그래, 정상이야.",
+  "audioPath": null
+ },
+ "en-f00425": {
+  "before": "You're your own worst ",
+  "answer": "enemy",
+  "after": ".",
+  "reading": null,
+  "translation": "너를 제일 힘들게 하는 건 너 자신이야.",
+  "audioPath": null
+ },
+ "en-f00426": {
+  "before": "Oh, you've got a good ",
+  "answer": "memory",
+  "after": ".",
+  "reading": null,
+  "translation": "오, 기억력 좋네.",
+  "audioPath": null
+ },
+ "en-f00427": {
+  "before": "That's my greatest ",
+  "answer": "concern",
+  "after": ".",
+  "reading": null,
+  "translation": "그게 제일 걱정이야.",
+  "audioPath": null
+ },
+ "en-f00428": {
+  "before": "Have you ",
+  "answer": "travelled",
+  "after": " to many other countries?",
+  "reading": null,
+  "translation": "다른 나라 여행 많이 해 봤어?",
+  "audioPath": null
+ },
+ "en-f00429": {
+  "before": "How can I apply for this ",
+  "answer": "position",
+  "after": "?",
+  "reading": null,
+  "translation": "이 자리에 어떻게 지원하면 되나요?",
+  "audioPath": null
+ },
+ "en-f00430": {
+  "before": "Are you watching the soccer ",
+  "answer": "match",
+  "after": " tonight?",
+  "reading": null,
+  "translation": "오늘 밤 축구 경기 볼 거야?",
+  "audioPath": null
+ },
+ "en-f00431": {
+  "before": "I've got a regular dancing ",
+  "answer": "partner",
+  "after": ".",
+  "reading": null,
+  "translation": "나 고정 춤 파트너 있어.",
+  "audioPath": null
+ },
+ "en-f00432": {
+  "before": "I wouldn't ",
+  "answer": "dare",
+  "after": " go bungee jumping.",
+  "reading": null,
+  "translation": "난 번지점프는 감히 못 하겠어.",
+  "audioPath": null
+ },
+ "en-f00433": {
+  "before": "I need that ",
+  "answer": "file",
+  "after": " you took yesterday.",
+  "reading": null,
+  "translation": "네가 어제 가져간 그 파일 필요해.",
+  "audioPath": null
+ },
+ "en-f00435": {
+  "before": "I'd like to ",
+  "answer": "invite",
+  "after": " you to dinner.",
+  "reading": null,
+  "translation": "저녁 식사에 초대하고 싶어요.",
+  "audioPath": null
+ },
+ "en-f00437": {
+  "before": "Thank you for coming so ",
+  "answer": "quickly",
+  "after": ".",
+  "reading": null,
+  "translation": "이렇게 빨리 와 줘서 고마워.",
+  "audioPath": null
+ },
+ "en-f00438": {
+  "before": "I ",
+  "answer": "doubt",
+  "after": " if I can pass it.",
+  "reading": null,
+  "translation": "내가 통과할 수 있을지 모르겠어.",
+  "audioPath": null
+ },
+ "en-f00439": {
+  "before": "The ",
+  "answer": "store",
+  "after": " is across from the hotel.",
+  "reading": null,
+  "translation": "그 가게는 호텔 맞은편에 있어.",
+  "audioPath": null
+ },
+ "en-f00440": {
+  "before": "All of the ",
+  "answer": "major",
+  "after": " sights are included.",
+  "reading": null,
+  "translation": "주요 관광지는 다 포함돼 있어요.",
+  "audioPath": null
+ },
+ "en-f00441": {
+  "before": "My ",
+  "answer": "girlfriend",
+  "after": " just broke up with me.",
+  "reading": null,
+  "translation": "여자 친구한테 방금 차였어.",
+  "audioPath": null
+ },
+ "en-f00442": {
+  "before": "I am not ",
+  "answer": "certain",
+  "after": " about that.",
+  "reading": null,
+  "translation": "그건 확실하지 않아.",
+  "audioPath": null
+ },
+ "en-f00443": {
+  "before": "Would you be ",
+  "answer": "interested",
+  "after": " in joining me?",
+  "reading": null,
+  "translation": "나랑 같이 할 생각 있어?",
+  "audioPath": null
+ },
+ "en-f00444": {
+  "before": "I want to buy some running ",
+  "answer": "shoes",
+  "after": ".",
+  "reading": null,
+  "translation": "운동화 좀 사고 싶어.",
+  "audioPath": null
+ },
+ "en-f00445": {
+  "before": "I don't want to ",
+  "answer": "ruin",
+  "after": " it for you.",
+  "reading": null,
+  "translation": "너 재미 망치고 싶지 않아.",
+  "audioPath": null
+ },
+ "en-f00446": {
+  "before": "Where can I get an application ",
+  "answer": "form",
+  "after": "?",
+  "reading": null,
+  "translation": "신청서 양식은 어디서 받을 수 있어요?",
+  "audioPath": null
+ },
+ "en-f00447": {
+  "before": "I don't think it will ",
+  "answer": "fit",
+  "after": " me.",
+  "reading": null,
+  "translation": "그거 나한테 안 맞을 것 같아.",
+  "audioPath": null
+ },
+ "en-f00448": {
+  "before": "Can I ask you a ",
+  "answer": "personal",
+  "after": " question?",
+  "reading": null,
+  "translation": "개인적인 거 하나 물어봐도 돼?",
+  "audioPath": "sentence-audio/en/448.m4a"
+ },
+ "en-f00449": {
+  "before": "I've been looking ",
+  "answer": "forward",
+  "after": " to meeting you.",
+  "reading": null,
+  "translation": "뵙기를 정말 기다렸어요.",
+  "audioPath": null
+ },
+ "en-f00450": {
+  "before": "Are rabbits ",
+  "answer": "difficult",
+  "after": " to take care of?",
+  "reading": null,
+  "translation": "토끼 키우기 어려워?",
+  "audioPath": null
+ },
+ "en-f00451": {
+  "before": "Don't ",
+  "answer": "shout",
+  "after": " so loud.",
+  "reading": null,
+  "translation": "그렇게 크게 소리 지르지 마.",
+  "audioPath": null
+ },
+ "en-f00452": {
+  "before": "It was ",
+  "answer": "tough",
+  "after": ", but I made it.",
+  "reading": null,
+  "translation": "힘들었지만 해냈어.",
+  "audioPath": null
+ },
+ "en-f00453": {
+  "before": "I think you ",
+  "answer": "deserve",
+  "after": " a promotion.",
+  "reading": null,
+  "translation": "넌 승진할 자격 있다고 생각해.",
+  "audioPath": null
+ },
+ "en-f00455": {
+  "before": "Thanks for your ",
+  "answer": "support",
+  "after": " and care.",
+  "reading": null,
+  "translation": "응원해 주고 챙겨 줘서 고마워.",
+  "audioPath": null
+ },
+ "en-f00456": {
+  "before": "I am really ",
+  "answer": "proud",
+  "after": " of you.",
+  "reading": null,
+  "translation": "네가 정말 자랑스러워.",
+  "audioPath": null
+ },
+ "en-f00457": {
+  "before": "Is there a ",
+  "answer": "public",
+  "after": " restroom near here?",
+  "reading": null,
+  "translation": "이 근처에 공중화장실 있어요?",
+  "audioPath": null
+ },
+ "en-f00458": {
+  "before": "Don't be ",
+  "answer": "angry",
+  "after": " with me.",
+  "reading": null,
+  "translation": "나한테 화내지 마.",
+  "audioPath": null
+ },
+ "en-f00459": {
+  "before": "I ",
+  "answer": "owe",
+  "after": " you a big favor.",
+  "reading": null,
+  "translation": "너한테 큰 신세 졌다.",
+  "audioPath": null
+ },
+ "en-f00460": {
+  "before": "I don't want to ",
+  "answer": "risk",
+  "after": " my life.",
+  "reading": null,
+  "translation": "목숨까지 걸고 싶진 않아.",
+  "audioPath": "sentence-audio/en/460.m4a"
+ },
+ "en-f00461": {
+  "before": "What a nice ",
+  "answer": "tie",
+  "after": " you are wearing!",
+  "reading": null,
+  "translation": "넥타이 멋지다!",
+  "audioPath": null
+ },
+ "en-f00462": {
+  "before": "You got ",
+  "answer": "drunk",
+  "after": ", and you were hilarious.",
+  "reading": null,
+  "translation": "너 취해서 완전 웃겼어.",
+  "audioPath": null
+ },
+ "en-f00463": {
+  "before": "Do it for your own ",
+  "answer": "sake",
+  "after": ".",
+  "reading": null,
+  "translation": "너 자신을 위해서 해.",
+  "audioPath": null
+ },
+ "en-f00464": {
+  "before": "He ",
+  "answer": "suffers",
+  "after": " from a bad cold.",
+  "reading": null,
+  "translation": "그 사람 감기가 심해서 고생하고 있어.",
+  "audioPath": null
+ },
+ "en-f00465": {
+  "before": "Why did you ",
+  "answer": "quit",
+  "after": " your last job?",
+  "reading": null,
+  "translation": "전 직장은 왜 그만두셨어요?",
+  "audioPath": null
+ },
+ "en-f00466": {
+  "before": "I know who the ",
+  "answer": "killer",
+  "after": " is.",
+  "reading": null,
+  "translation": "범인이 누군지 알아.",
+  "audioPath": "sentence-audio/en/466.m4a"
+ },
+ "en-f00467": {
+  "before": "I really ",
+  "answer": "appreciate",
+  "after": " your help on this.",
+  "reading": null,
+  "translation": "이거 도와줘서 정말 고마워.",
+  "audioPath": null
+ },
+ "en-f00468": {
+  "before": "Did you see who the ",
+  "answer": "suspect",
+  "after": " was?",
+  "reading": null,
+  "translation": "용의자가 누군지 봤어?",
+  "audioPath": null
+ },
+ "en-f00469": {
+  "before": "What ",
+  "answer": "type",
+  "after": " of movies do you like?",
+  "reading": null,
+  "translation": "어떤 종류의 영화 좋아해?",
+  "audioPath": null
+ },
+ "en-f00470": {
+  "before": "OK, but don't say I didn't ",
+  "answer": "warn",
+  "after": " you.",
+  "reading": null,
+  "translation": "그래, 근데 내가 경고 안 했다고는 하지 마.",
+  "audioPath": null
+ },
+ "en-f00471": {
+  "before": "I ",
+  "answer": "blame",
+  "after": " it on global warming.",
+  "reading": null,
+  "translation": "지구 온난화 탓이라고 봐.",
+  "audioPath": null
+ },
+ "en-f00472": {
+  "before": "I didn't mean to ",
+  "answer": "screw",
+  "after": " anything up.",
+  "reading": null,
+  "translation": "일을 망치려고 한 건 아니었어.",
+  "audioPath": null
+ },
+ "en-f00473": {
+  "before": "Yes, that soup has a shrimp ",
+  "answer": "base",
+  "after": ".",
+  "reading": null,
+  "translation": "응, 그 수프는 새우로 국물을 낸 거야.",
+  "audioPath": null
+ },
+ "en-f00474": {
+  "before": "The balloon ",
+  "answer": "popped",
+  "after": " when I sat on it.",
+  "reading": null,
+  "translation": "내가 앉으니까 풍선이 펑 터졌어.",
+  "audioPath": null
+ },
+ "en-f00475": {
+  "before": "I went to a movie with my ",
+  "answer": "boyfriend",
+  "after": ".",
+  "reading": null,
+  "translation": "남자 친구랑 영화 보러 갔어.",
+  "audioPath": null
+ },
+ "en-f00476": {
+  "before": "It's been a ",
+  "answer": "pleasure",
+  "after": " working with you.",
+  "reading": null,
+  "translation": "함께 일해서 즐거웠어요.",
+  "audioPath": null
+ },
+ "en-f00477": {
+  "before": "Are you going to ",
+  "answer": "vote",
+  "after": " on Tuesday?",
+  "reading": null,
+  "translation": "화요일에 투표하러 갈 거야?",
+  "audioPath": null
+ },
+ "en-f00478": {
+  "before": "That's the ",
+  "answer": "third",
+  "after": " time this week!",
+  "reading": null,
+  "translation": "이번 주에만 벌써 세 번째야!",
+  "audioPath": null
+ },
+ "en-f00479": {
+  "before": "OK, ",
+  "answer": "Mum",
+  "after": ", when will you be back?",
+  "reading": null,
+  "translation": "알았어, 엄마, 언제 돌아와?",
+  "audioPath": null
+ },
+ "en-f00480": {
+  "before": "To be ",
+  "answer": "honest",
+  "after": ", I'm a bit fed up.",
+  "reading": null,
+  "translation": "솔직히 좀 지긋지긋해.",
+  "audioPath": null
+ },
+ "en-f00481": {
+  "before": "Do you ",
+  "answer": "often",
+  "after": " go to the movies?",
+  "reading": null,
+  "translation": "영화 자주 보러 가?",
+  "audioPath": null
+ },
+ "en-f00482": {
+  "before": "I ",
+  "answer": "failed",
+  "after": " the exam because I didn't study.",
+  "reading": null,
+  "translation": "공부 안 해서 시험 떨어졌어.",
+  "audioPath": null
+ },
+ "en-f00483": {
+  "before": "I think ",
+  "answer": "actions",
+  "after": " speak louder than words.",
+  "reading": null,
+  "translation": "말보다 행동이 중요하다고 생각해.",
+  "audioPath": "sentence-audio/en/483.m4a"
+ },
+ "en-f00484": {
+  "before": "Can I have a ",
+  "answer": "private",
+  "after": " talk with you?",
+  "reading": null,
+  "translation": "따로 얘기 좀 할 수 있을까?",
+  "audioPath": null
+ },
+ "en-f00485": {
+  "before": "I know, but I'm ",
+  "answer": "hungry",
+  "after": " again.",
+  "reading": null,
+  "translation": "알아, 근데 또 배고파.",
+  "audioPath": null
+ },
+ "en-f00486": {
+  "before": "Let's ",
+  "answer": "pack",
+  "after": " our bags and go home.",
+  "reading": null,
+  "translation": "짐 싸서 집에 가자.",
+  "audioPath": null
+ },
+ "en-f00487": {
+  "before": "I see you just graduated from ",
+  "answer": "college",
+  "after": ".",
+  "reading": null,
+  "translation": "대학 막 졸업하셨네요.",
+  "audioPath": null
+ },
+ "en-f00488": {
+  "before": "The bruise will ",
+  "answer": "disappear",
+  "after": " soon.",
+  "reading": null,
+  "translation": "멍은 금방 없어질 거야.",
+  "audioPath": null
+ },
+ "en-f00489": {
+  "before": "My uncle was a ",
+  "answer": "lieutenant",
+  "after": " in the army.",
+  "reading": null,
+  "translation": "우리 삼촌은 육군 중위였어.",
+  "audioPath": null
+ },
+ "en-f00490": {
+  "before": "Just ",
+  "answer": "press",
+  "after": " the button, like this.",
+  "reading": null,
+  "translation": "그냥 이렇게 버튼 누르면 돼.",
+  "audioPath": null
+ },
+ "en-f00491": {
+  "before": "What's the ",
+  "answer": "difference",
+  "after": " between these two styles?",
+  "reading": null,
+  "translation": "이 두 스타일은 차이가 뭐야?",
+  "audioPath": null
+ },
+ "en-f00492": {
+  "before": "Well, the ",
+  "answer": "client",
+  "after": " is always right.",
+  "reading": null,
+  "translation": "뭐, 고객은 항상 옳으니까.",
+  "audioPath": null
+ },
+ "en-f00493": {
+  "before": "The ",
+  "answer": "village",
+  "after": " looks so peaceful.",
+  "reading": null,
+  "translation": "마을이 정말 평화로워 보여.",
+  "audioPath": null
+ },
+ "en-f00494": {
+  "before": "What is the nearest ",
+  "answer": "planet",
+  "after": " to the sun?",
+  "reading": null,
+  "translation": "태양에서 제일 가까운 행성이 뭐야?",
+  "audioPath": null
+ },
+ "en-f00496": {
+  "before": "Is this going to ",
+  "answer": "cost",
+  "after": " me anything?",
+  "reading": null,
+  "translation": "이거 돈 들어?",
+  "audioPath": null
+ },
+ "en-f00497": {
+  "before": "The house was ",
+  "answer": "struck",
+  "after": " by lightning yesterday.",
+  "reading": null,
+  "translation": "어제 그 집에 벼락이 떨어졌어.",
+  "audioPath": "sentence-audio/en/497.m4a"
+ },
+ "en-f00498": {
+  "before": "He came home with a ",
+  "answer": "bloody",
+  "after": " nose.",
+  "reading": null,
+  "translation": "걔 코피를 흘리면서 집에 왔어.",
+  "audioPath": null
+ },
+ "en-f00499": {
+  "before": "Yes, I'd like a ",
+  "answer": "large",
+  "after": " soda, please.",
+  "reading": null,
+  "translation": "네, 탄산음료 큰 걸로 주세요.",
+  "audioPath": null
+ },
+ "en-f00500": {
+  "before": "Well, this really is delicious, I have to ",
+  "answer": "admit",
+  "after": ".",
+  "reading": null,
+  "translation": "음, 이거 진짜 맛있다, 인정할게.",
+  "audioPath": null
+ },
+ "en-f00501": {
+  "before": "A cat ",
+  "answer": "appeared",
+  "after": " from under the desk.",
+  "reading": null,
+  "translation": "책상 밑에서 고양이가 나타났어.",
+  "audioPath": "sentence-audio/en/501.m4a"
+ },
+ "en-f00502": {
+  "before": "It's ",
+  "answer": "especially",
+  "after": " cold when the wind is blowing.",
+  "reading": null,
+  "translation": "바람 불 때 특히 추워.",
+  "audioPath": null
+ },
+ "en-f00503": {
+  "before": "You ",
+  "answer": "received",
+  "after": " a letter in the mail.",
+  "reading": null,
+  "translation": "너한테 우편으로 편지 왔어.",
+  "audioPath": null
+ },
+ "en-f00504": {
+  "before": "It's a ",
+  "answer": "cute",
+  "after": " little teddy bear!",
+  "reading": null,
+  "translation": "귀여운 곰 인형이네!",
+  "audioPath": null
+ },
+ "en-f00505": {
+  "before": "After the ",
+  "answer": "beep",
+  "after": ", leave your message.",
+  "reading": null,
+  "translation": "삐 소리가 나면 메시지를 남겨 주세요.",
+  "audioPath": "sentence-audio/en/505.m4a"
+ },
+ "en-f00506": {
+  "before": "Yeah, but that's not why I am ",
+  "answer": "upset",
+  "after": ".",
+  "reading": null,
+  "translation": "응, 근데 내가 속상한 건 그것 때문이 아니야.",
+  "audioPath": null
+ },
+ "en-f00507": {
+  "before": "He's a ",
+  "answer": "hero",
+  "after": " in our town.",
+  "reading": null,
+  "translation": "그 사람 우리 동네 영웅이야.",
+  "audioPath": null
+ },
+ "en-f00508": {
+  "before": "It's ",
+  "answer": "impossible",
+  "after": " for me to get to sleep right now.",
+  "reading": null,
+  "translation": "지금은 도저히 잠들 수가 없어.",
+  "audioPath": null
+ },
+ "en-f00509": {
+  "before": "There's ",
+  "answer": "obviously",
+  "after": " a problem with your connection.",
+  "reading": null,
+  "translation": "네 인터넷 연결에 분명히 문제가 있어.",
+  "audioPath": null
+ },
+ "en-f00510": {
+  "before": "I've got to go before the ",
+  "answer": "bell",
+  "after": " rings.",
+  "reading": null,
+  "translation": "종 울리기 전에 가야 해.",
+  "audioPath": null
+ },
+ "en-f00511": {
+  "before": "Please ",
+  "answer": "enter",
+  "after": " your PIN number on the keypad.",
+  "reading": null,
+  "translation": "키패드에 비밀번호를 입력해 주세요.",
+  "audioPath": null
+ },
+ "en-f00512": {
+  "before": "And I've ",
+  "answer": "recorded",
+  "after": " every word of it.",
+  "reading": null,
+  "translation": "그리고 한 마디도 빠짐없이 다 녹음했어.",
+  "audioPath": null
+ },
+ "en-f00513": {
+  "before": "Money is the root of all ",
+  "answer": "evil",
+  "after": ".",
+  "reading": null,
+  "translation": "돈은 모든 악의 근원이야.",
+  "audioPath": "sentence-audio/en/513.m4a"
+ },
+ "en-f00514": {
+  "before": "",
+  "answer": "Besides",
+  "after": ", you picked the restaurant last week.",
+  "reading": null,
+  "translation": "게다가 지난주엔 네가 식당 골랐잖아.",
+  "audioPath": null
+ },
+ "en-f00515": {
+  "before": "I have an ",
+  "answer": "issue",
+  "after": " with my schedule.",
+  "reading": null,
+  "translation": "제 일정에 문제가 좀 있어요.",
+  "audioPath": null
+ },
+ "en-f00516": {
+  "before": "I don't want to go to ",
+  "answer": "jail",
+  "after": ".",
+  "reading": null,
+  "translation": "감옥 가기 싫어.",
+  "audioPath": "sentence-audio/en/516.m4a"
+ },
+ "en-f00517": {
+  "before": "I am a ",
+  "answer": "member",
+  "after": " of a gym nearby.",
+  "reading": null,
+  "translation": "나 근처 헬스장 회원이야.",
+  "audioPath": null
+ },
+ "en-f00518": {
+  "before": "Could you please tell me the ",
+  "answer": "address",
+  "after": "?",
+  "reading": null,
+  "translation": "주소 좀 알려 주시겠어요?",
+  "audioPath": null
+ },
+ "en-f00519": {
+  "before": "We're having some ",
+  "answer": "guests",
+  "after": " over this evening.",
+  "reading": null,
+  "translation": "오늘 저녁에 손님 몇 분 오셔.",
+  "audioPath": "sentence-audio/en/519.m4a"
+ },
+ "en-f00520": {
+  "before": "It will be ",
+  "answer": "released",
+  "after": " next month.",
+  "reading": null,
+  "translation": "다음 달에 출시될 거예요.",
+  "audioPath": null
+ },
+ "en-f00521": {
+  "before": "I can ",
+  "answer": "manage",
+  "after": " on my own.",
+  "reading": null,
+  "translation": "나 혼자서도 할 수 있어.",
+  "audioPath": null
+ },
+ "en-f00522": {
+  "before": "",
+  "answer": "Hop",
+  "after": " in, I'll give you a ride.",
+  "reading": null,
+  "translation": "타, 태워 줄게.",
+  "audioPath": null
+ },
+ "en-f00523": {
+  "before": "I ",
+  "answer": "suck",
+  "after": " at getting presents for people.",
+  "reading": null,
+  "translation": "나 사람들 선물 고르는 거 진짜 못해.",
+  "audioPath": null
+ },
+ "en-f00524": {
+  "before": "I don't have any ",
+  "answer": "cash",
+  "after": " on me.",
+  "reading": null,
+  "translation": "지금 현금이 하나도 없어.",
+  "audioPath": null
+ },
+ "en-f00525": {
+  "before": "You are going to have a ",
+  "answer": "huge",
+  "after": " bill.",
+  "reading": null,
+  "translation": "요금 엄청 많이 나오겠다.",
+  "audioPath": null
+ },
+ "en-f00526": {
+  "before": "Can your dog do any ",
+  "answer": "tricks",
+  "after": "?",
+  "reading": null,
+  "translation": "너네 개 재주 부릴 줄 알아?",
+  "audioPath": null
+ },
+ "en-f00527": {
+  "before": "My warmest ",
+  "answer": "congratulations",
+  "after": " on your promotion!",
+  "reading": null,
+  "translation": "승진 진심으로 축하해!",
+  "audioPath": null
+ },
+ "en-f00528": {
+  "before": "Have you called in the ",
+  "answer": "bomb",
+  "after": " squad?",
+  "reading": null,
+  "translation": "폭탄 처리반 불렀어?",
+  "audioPath": "sentence-audio/en/528.m4a"
+ },
+ "en-f00529": {
+  "before": "May I ",
+  "answer": "suggest",
+  "after": " our own hotel restaurant?",
+  "reading": null,
+  "translation": "저희 호텔 레스토랑은 어떠세요?",
+  "audioPath": null
+ },
+ "en-f00530": {
+  "before": "And I like ",
+  "answer": "German",
+  "after": " food as well.",
+  "reading": null,
+  "translation": "그리고 독일 음식도 좋아해.",
+  "audioPath": null
+ },
+ "en-f00531": {
+  "before": "How are you going to ",
+  "answer": "survive",
+  "after": " here?",
+  "reading": null,
+  "translation": "여기서 어떻게 살아남으려고?",
+  "audioPath": null
+ },
+ "en-f00532": {
+  "before": "It was a ",
+  "answer": "complete",
+  "after": " waste of time.",
+  "reading": null,
+  "translation": "완전히 시간 낭비였어.",
+  "audioPath": null
+ },
+ "en-f00533": {
+  "before": "What a fierce ",
+  "answer": "battle",
+  "after": "!",
+  "reading": null,
+  "translation": "정말 치열한 싸움이었어!",
+  "audioPath": null
+ },
+ "en-f00535": {
+  "before": "Oh, I've no ",
+  "answer": "interest",
+  "after": " in such films.",
+  "reading": null,
+  "translation": "아, 난 그런 영화엔 관심 없어.",
+  "audioPath": null
+ },
+ "en-f00536": {
+  "before": "The second floor is one ",
+  "answer": "level",
+  "after": " up.",
+  "reading": null,
+  "translation": "2층은 한 층 위야.",
+  "audioPath": null
+ },
+ "en-f00537": {
+  "before": "Oh, the ",
+  "answer": "final",
+  "after": " exam is coming soon.",
+  "reading": null,
+  "translation": "아, 곧 기말고사네.",
+  "audioPath": null
+ },
+ "en-f00538": {
+  "before": "What would my new ",
+  "answer": "duties",
+  "after": " be?",
+  "reading": null,
+  "translation": "제가 새로 맡을 업무는 뭔가요?",
+  "audioPath": null
+ },
+ "en-f00539": {
+  "before": "I ",
+  "answer": "pretended",
+  "after": " that I didn't see it.",
+  "reading": null,
+  "translation": "못 본 척했어.",
+  "audioPath": "sentence-audio/en/539.m4a"
+ },
+ "en-f00540": {
+  "before": "Can you do me a ",
+  "answer": "favor",
+  "after": "?",
+  "reading": null,
+  "translation": "부탁 하나만 들어줄래?",
+  "audioPath": null
+ },
+ "en-f00541": {
+  "before": "Are you ",
+  "answer": "settling",
+  "after": " in all right?",
+  "reading": null,
+  "translation": "잘 적응하고 있어?",
+  "audioPath": null
+ },
+ "en-f00542": {
+  "before": "Do you think I'm ",
+  "answer": "fat",
+  "after": "?",
+  "reading": null,
+  "translation": "내가 뚱뚱하다고 생각해?",
+  "audioPath": null
+ },
+ "en-f00543": {
+  "before": "You look as pale as a ",
+  "answer": "ghost",
+  "after": ".",
+  "reading": null,
+  "translation": "너 얼굴이 유령처럼 창백해.",
+  "audioPath": "sentence-audio/en/543.m4a"
+ },
+ "en-f00544": {
+  "before": "Animals can't ",
+  "answer": "exist",
+  "after": " without air and water.",
+  "reading": null,
+  "translation": "동물은 공기와 물 없이는 존재할 수 없어.",
+  "audioPath": "sentence-audio/en/544.m4a"
+ },
+ "en-f00545": {
+  "before": "I liked his ",
+  "answer": "magic",
+  "after": " tricks.",
+  "reading": null,
+  "translation": "그 사람 마술 재밌었어.",
+  "audioPath": null
+ },
+ "en-f00546": {
+  "before": "My grandfather was a ",
+  "answer": "colonel",
+  "after": " in the army.",
+  "reading": null,
+  "translation": "우리 할아버지는 육군 대령이셨어.",
+  "audioPath": null
+ },
+ "en-f00547": {
+  "before": "I am sorry that I ",
+  "answer": "yelled",
+  "after": " at you.",
+  "reading": null,
+  "translation": "소리 질러서 미안해.",
+  "audioPath": null
+ },
+ "en-f00548": {
+  "before": "That song ",
+  "answer": "reminds",
+  "after": " me of my childhood.",
+  "reading": null,
+  "translation": "그 노래 들으면 어릴 때가 생각나.",
+  "audioPath": "sentence-audio/en/548.m4a"
+ },
+ "en-f00549": {
+  "before": "I will do it ",
+  "answer": "immediately",
+  "after": ".",
+  "reading": null,
+  "translation": "바로 할게요.",
+  "audioPath": null
+ },
+ "en-f00550": {
+  "before": "I'm the HR ",
+  "answer": "director",
+  "after": " of our company.",
+  "reading": null,
+  "translation": "저는 저희 회사 인사 담당 이사예요.",
+  "audioPath": null
+ },
+ "en-f00551": {
+  "before": "I had nothing to do and I was ",
+  "answer": "bored",
+  "after": ".",
+  "reading": null,
+  "translation": "할 일도 없고 지루했어.",
+  "audioPath": null
+ },
+ "en-f00552": {
+  "before": "Do you want this ",
+  "answer": "mission",
+  "after": " to succeed?",
+  "reading": null,
+  "translation": "이 임무가 성공하길 바라?",
+  "audioPath": "sentence-audio/en/552.m4a"
+ },
+ "en-f00553": {
+  "before": "My ",
+  "answer": "aunts",
+  "after": " and uncles are all teachers.",
+  "reading": null,
+  "translation": "우리 이모랑 삼촌들은 다 선생님이야.",
+  "audioPath": null
+ },
+ "en-f00554": {
+  "before": "It's two ",
+  "answer": "blocks",
+  "after": " down the road.",
+  "reading": null,
+  "translation": "이 길 따라 두 블록 가면 있어요.",
+  "audioPath": null
+ },
+ "en-f00555": {
+  "before": "Is the house in good ",
+  "answer": "condition",
+  "after": "?",
+  "reading": null,
+  "translation": "그 집 상태는 괜찮아요?",
+  "audioPath": null
+ },
+ "en-f00556": {
+  "before": "Don't do strenuous exercises until your ",
+  "answer": "wound",
+  "after": " is healed.",
+  "reading": null,
+  "translation": "상처가 다 나을 때까지 격한 운동은 하지 마세요.",
+  "audioPath": null
+ },
+ "en-f00557": {
+  "before": "And ",
+  "answer": "suddenly",
+  "after": " I heard someone call my name.",
+  "reading": null,
+  "translation": "그런데 갑자기 누가 내 이름을 부르는 소리가 들렸어.",
+  "audioPath": null
+ },
+ "en-f00558": {
+  "before": "What do you ",
+  "answer": "usually",
+  "after": " have for breakfast?",
+  "reading": null,
+  "translation": "아침은 보통 뭐 먹어?",
+  "audioPath": null
+ },
+ "en-f00559": {
+  "before": "I'd like to open a savings ",
+  "answer": "account",
+  "after": ".",
+  "reading": null,
+  "translation": "예금 계좌 하나 만들고 싶어요.",
+  "audioPath": null
+ },
+ "en-f00560": {
+  "before": "Will I know the ",
+  "answer": "results",
+  "after": " right away?",
+  "reading": null,
+  "translation": "결과는 바로 알 수 있나요?",
+  "audioPath": null
+ },
+ "en-f00564": {
+  "before": "It was the ",
+  "answer": "worst",
+  "after": " feeling in the world.",
+  "reading": null,
+  "translation": "세상에서 제일 최악의 기분이었어.",
+  "audioPath": null
+ },
+ "en-f00565": {
+  "before": "This is going to be a ",
+  "answer": "challenge",
+  "after": ".",
+  "reading": null,
+  "translation": "이건 꽤 도전이 되겠는데.",
+  "audioPath": "sentence-audio/en/565.m4a"
+ },
+ "en-f00566": {
+  "before": "My mother bought me a new ",
+  "answer": "video",
+  "after": " game.",
+  "reading": null,
+  "translation": "엄마가 새 비디오 게임 사 주셨어.",
+  "audioPath": null
+ },
+ "en-f00567": {
+  "before": "Will you tell me the ",
+  "answer": "details",
+  "after": "?",
+  "reading": null,
+  "translation": "자세한 내용 좀 알려 줄래?",
+  "audioPath": null
+ },
+ "en-f00568": {
+  "before": "I've looked ",
+  "answer": "everywhere",
+  "after": ", but can't find it.",
+  "reading": null,
+  "translation": "다 찾아봤는데 못 찾겠어.",
+  "audioPath": "sentence-audio/en/568.m4a"
+ },
+ "en-f00569": {
+  "before": "I ",
+  "answer": "practice",
+  "after": " every weekend with my teammates.",
+  "reading": null,
+  "translation": "주말마다 팀원들이랑 연습해.",
+  "audioPath": null
+ },
+ "en-f00571": {
+  "before": "I've always wanted to sing on ",
+  "answer": "stage",
+  "after": ".",
+  "reading": null,
+  "translation": "항상 무대에서 노래해 보고 싶었어.",
+  "audioPath": "sentence-audio/en/571.m4a"
+ },
+ "en-f00572": {
+  "before": "A sleeping child looks like an ",
+  "answer": "angel",
+  "after": ".",
+  "reading": null,
+  "translation": "자는 아이는 천사 같아.",
+  "audioPath": "sentence-audio/en/572.m4a"
+ },
+ "en-f00573": {
+  "before": "I think we have had a very pleasant ",
+  "answer": "conversation",
+  "after": ", haven't we?",
+  "reading": null,
+  "translation": "우리 정말 즐거운 대화 나눈 것 같아요, 그렇죠?",
+  "audioPath": null
+ },
+ "en-f00574": {
+  "before": "I get ",
+  "answer": "nervous",
+  "after": " when I talk to girls.",
+  "reading": null,
+  "translation": "나 여자애들이랑 얘기하면 긴장돼.",
+  "audioPath": null
+ },
+ "en-f00575": {
+  "before": "I'd like to reserve a ",
+  "answer": "double",
+  "after": " room.",
+  "reading": null,
+  "translation": "더블룸 하나 예약하고 싶어요.",
+  "audioPath": null
+ },
+ "en-f00576": {
+  "before": "I want to go ",
+  "answer": "hunting",
+  "after": " with you.",
+  "reading": null,
+  "translation": "너랑 사냥하러 가고 싶어.",
+  "audioPath": "sentence-audio/en/576.m4a"
+ },
+ "en-f00577": {
+  "before": "Do you think we should ",
+  "answer": "hire",
+  "after": " her?",
+  "reading": null,
+  "translation": "그 사람 채용해야 할까?",
+  "audioPath": null
+ },
+ "en-f00578": {
+  "before": "Where is the ",
+  "answer": "mate",
+  "after": " to this sock?",
+  "reading": null,
+  "translation": "이 양말 짝 어디 있어?",
+  "audioPath": "sentence-audio/en/578.m4a"
+ },
+ "en-f00579": {
+  "before": "I have something to ",
+  "answer": "discuss",
+  "after": " with you.",
+  "reading": null,
+  "translation": "너랑 의논할 게 있어.",
+  "audioPath": null
+ },
+ "en-f00580": {
+  "before": "Could you ",
+  "answer": "copy",
+  "after": " this document for me?",
+  "reading": null,
+  "translation": "이 서류 좀 복사해 줄래요?",
+  "audioPath": null
+ },
+ "en-f00581": {
+  "before": "What is your stand on ",
+  "answer": "gay",
+  "after": " marriage?",
+  "reading": null,
+  "translation": "동성 결혼에 대해 어떤 입장이세요?",
+  "audioPath": null
+ },
+ "en-f00582": {
+  "before": "I'm training to be a team ",
+  "answer": "leader",
+  "after": ".",
+  "reading": null,
+  "translation": "팀장이 되려고 교육받는 중이에요.",
+  "audioPath": null
+ },
+ "en-f00583": {
+  "before": "Cats ",
+  "answer": "chase",
+  "after": " mice, don't they?",
+  "reading": null,
+  "translation": "고양이는 쥐를 쫓잖아, 그렇지?",
+  "audioPath": null
+ },
+ "en-f00584": {
+  "before": "Yes, I'd like to get some ",
+  "answer": "gas",
+  "after": ".",
+  "reading": null,
+  "translation": "네, 기름 좀 넣으려고요.",
+  "audioPath": null
+ },
+ "en-f00585": {
+  "before": "How do we know that he's ",
+  "answer": "innocent",
+  "after": "?",
+  "reading": null,
+  "translation": "그가 무죄인지 어떻게 알아?",
+  "audioPath": "sentence-audio/en/585.m4a"
+ },
+ "en-f00587": {
+  "before": "Well, who is your ",
+  "answer": "favorite",
+  "after": " football player?",
+  "reading": null,
+  "translation": "그럼 제일 좋아하는 축구 선수는 누구야?",
+  "audioPath": null
+ },
+ "en-f00588": {
+  "before": "You didn't give me the ",
+  "answer": "correct",
+  "after": " change.",
+  "reading": null,
+  "translation": "거스름돈을 잘못 주셨네요.",
+  "audioPath": "sentence-audio/en/588.m4a"
+ },
+ "en-f00589": {
+  "before": "It turned out to be a ",
+  "answer": "trap",
+  "after": ".",
+  "reading": null,
+  "translation": "알고 보니 함정이었어.",
+  "audioPath": "sentence-audio/en/589.m4a"
+ },
+ "en-f00590": {
+  "before": "Run fast, ",
+  "answer": "otherwise",
+  "after": " you'll miss the bus.",
+  "reading": null,
+  "translation": "빨리 뛰어, 안 그러면 버스 놓쳐.",
+  "audioPath": "sentence-audio/en/590.m4a"
+ },
+ "en-f00591": {
+  "before": "You are ",
+  "answer": "freaking",
+  "after": " me out.",
+  "reading": null,
+  "translation": "너 때문에 무서워 죽겠어.",
+  "audioPath": null
+ },
+ "en-f00592": {
+  "before": "These earphones are ",
+  "answer": "awesome",
+  "after": "!",
+  "reading": null,
+  "translation": "이 이어폰 끝내준다!",
+  "audioPath": null
+ },
+ "en-f00593": {
+  "before": "Did you say you saw a ",
+  "answer": "monster",
+  "after": "?",
+  "reading": null,
+  "translation": "괴물을 봤다고?",
+  "audioPath": "sentence-audio/en/593.m4a"
+ },
+ "en-f00594": {
+  "before": "I am not ",
+  "answer": "convinced",
+  "after": " by your explanation.",
+  "reading": null,
+  "translation": "네 설명으로는 납득이 안 돼.",
+  "audioPath": null
+ },
+ "en-f00595": {
+  "before": "I think I can work well under ",
+  "answer": "pressure",
+  "after": ".",
+  "reading": null,
+  "translation": "저는 압박 속에서도 일을 잘할 수 있다고 생각해요.",
+  "audioPath": null
+ },
+ "en-f00596": {
+  "before": "I've got a sore ",
+  "answer": "throat",
+  "after": " and a bad cough.",
+  "reading": null,
+  "translation": "목이 아프고 기침이 심해.",
+  "audioPath": null
+ },
+ "en-f00597": {
+  "before": "I'll ",
+  "answer": "add",
+  "after": " you to my contacts list.",
+  "reading": null,
+  "translation": "너 연락처에 추가할게.",
+  "audioPath": null
+ },
+ "en-f00598": {
+  "before": "I'm ",
+  "answer": "surprised",
+  "after": " to hear you say that.",
+  "reading": null,
+  "translation": "네가 그런 말을 하다니 놀랍다.",
+  "audioPath": null
+ },
+ "en-f00600": {
+  "before": "I've got mixed ",
+  "answer": "feelings",
+  "after": " about it.",
+  "reading": null,
+  "translation": "그거에 대해선 마음이 복잡해.",
+  "audioPath": null
+ },
+ "en-f00601": {
+  "before": "OK, ",
+  "answer": "folks",
+  "after": ", let's get to work.",
+  "reading": null,
+  "translation": "자, 다들 일 시작하자.",
+  "audioPath": null
+ },
+ "en-f00602": {
+  "before": "What's our ",
+  "answer": "target",
+  "after": " audience for this campaign?",
+  "reading": null,
+  "translation": "이번 캠페인 목표 고객층이 누구야?",
+  "audioPath": null
+ },
+ "en-f00603": {
+  "before": "The treasure was ",
+  "answer": "buried",
+  "after": " on the island.",
+  "reading": null,
+  "translation": "보물은 그 섬에 묻혀 있었어.",
+  "audioPath": "sentence-audio/en/603.m4a"
+ },
+ "en-f00604": {
+  "before": "May I see your ",
+  "answer": "driver",
+  "after": "'s license, please?",
+  "reading": null,
+  "translation": "운전면허증 좀 보여 주시겠어요?",
+  "audioPath": null
+ },
+ "en-f00605": {
+  "before": "Did you ",
+  "answer": "crash",
+  "after": " your car into something?",
+  "reading": null,
+  "translation": "차로 뭐 들이받았어?",
+  "audioPath": "sentence-audio/en/605.m4a"
+ },
+ "en-f00606": {
+  "before": "We dodged a ",
+  "answer": "bullet",
+  "after": " on that one.",
+  "reading": null,
+  "translation": "그건 진짜 아슬아슬하게 피했다.",
+  "audioPath": "sentence-audio/en/606.m4a"
+ },
+ "en-f00607": {
+  "before": "I didn't ",
+  "answer": "commit",
+  "after": " the crime.",
+  "reading": null,
+  "translation": "나 그 범죄 안 저질렀어.",
+  "audioPath": null
+ },
+ "en-f00608": {
+  "before": "You have nothing to feel ",
+  "answer": "guilty",
+  "after": " about.",
+  "reading": null,
+  "translation": "네가 죄책감 느낄 필요 없어.",
+  "audioPath": "sentence-audio/en/608.m4a"
+ },
+ "en-f00609": {
+  "before": "We've been drifting ",
+  "answer": "apart",
+  "after": " for a while.",
+  "reading": null,
+  "translation": "우리 한동안 사이가 점점 멀어졌어.",
+  "audioPath": null
+ },
+ "en-f00610": {
+  "before": "I accidentally deleted a ",
+  "answer": "bunch",
+  "after": " of files.",
+  "reading": null,
+  "translation": "실수로 파일을 잔뜩 지워 버렸어.",
+  "audioPath": "sentence-audio/en/610.m4a"
+ },
+ "en-f00611": {
+  "before": "Look, there are two ",
+  "answer": "empty",
+  "after": " seats over there.",
+  "reading": null,
+  "translation": "봐, 저기 빈자리 두 개 있어.",
+  "audioPath": null
+ },
+ "en-f00612": {
+  "before": "Is he in ",
+  "answer": "danger",
+  "after": "?",
+  "reading": null,
+  "translation": "그 사람 위험한 거야?",
+  "audioPath": null
+ },
+ "en-f00613": {
+  "before": "I'm still a ",
+  "answer": "sergeant",
+  "after": ".",
+  "reading": null,
+  "translation": "난 아직 병장이야.",
+  "audioPath": "sentence-audio/en/613.m4a"
+ },
+ "en-f00614": {
+  "before": "Can you lend me fifty ",
+  "answer": "bucks",
+  "after": "?",
+  "reading": null,
+  "translation": "50달러만 빌려줄래?",
+  "audioPath": null
+ },
+ "en-f00615": {
+  "before": "Hello, I'd like to reconfirm my ",
+  "answer": "flight",
+  "after": ".",
+  "reading": null,
+  "translation": "여보세요, 항공편 재확인하고 싶은데요.",
+  "audioPath": null
+ },
+ "en-f00616": {
+  "before": "This ",
+  "answer": "weekend",
+  "after": " would be OK with me.",
+  "reading": null,
+  "translation": "난 이번 주말 괜찮아.",
+  "audioPath": null
+ },
+ "en-f00617": {
+  "before": "Yes, breakfast is ",
+  "answer": "included",
+  "after": " in the price.",
+  "reading": null,
+  "translation": "네, 아침 식사는 가격에 포함돼 있어요.",
+  "audioPath": null
+ },
+ "en-f00618": {
+  "before": "She's ",
+  "answer": "upstairs",
+  "after": " in my room.",
+  "reading": null,
+  "translation": "걔 위층 내 방에 있어.",
+  "audioPath": null
+ },
+ "en-f00619": {
+  "before": "You should take it ",
+  "answer": "twice",
+  "after": " a day.",
+  "reading": null,
+  "translation": "하루에 두 번 드세요.",
+  "audioPath": null
+ },
+ "en-f00620": {
+  "before": "Do I have to have an ",
+  "answer": "operation",
+  "after": "?",
+  "reading": null,
+  "translation": "저 수술받아야 하나요?",
+  "audioPath": null
+ },
+ "en-f00621": {
+  "before": "",
+  "answer": "Indeed",
+  "after": ", it's been a while!",
+  "reading": null,
+  "translation": "정말 오랜만이다!",
+  "audioPath": null
+ },
+ "en-f00622": {
+  "before": "The ",
+  "answer": "fellow",
+  "after": " standing over there is my friend.",
+  "reading": null,
+  "translation": "저기 서 있는 녀석 내 친구야.",
+  "audioPath": "sentence-audio/en/622.m4a"
+ },
+ "en-f00623": {
+  "before": "Yeah, but he ",
+  "answer": "refused",
+  "after": " to take the medicine.",
+  "reading": null,
+  "translation": "응, 근데 걔가 약 먹기를 거부했어.",
+  "audioPath": null
+ },
+ "en-f00624": {
+  "before": "I never ",
+  "answer": "claimed",
+  "after": " I could do that.",
+  "reading": null,
+  "translation": "내가 그거 할 수 있다고 한 적 없어.",
+  "audioPath": "sentence-audio/en/624.m4a"
+ },
+ "en-f00625": {
+  "before": "What kind of ",
+  "answer": "character",
+  "after": " do you think you have?",
+  "reading": null,
+  "translation": "넌 네 성격이 어떤 것 같아?",
+  "audioPath": null
+ },
+ "en-f00626": {
+  "before": "This is a good ",
+  "answer": "opportunity",
+  "after": ".",
+  "reading": null,
+  "translation": "이건 좋은 기회야.",
+  "audioPath": null
+ },
+ "en-f00627": {
+  "before": "We ",
+  "answer": "loaded",
+  "after": " our baggage into the car.",
+  "reading": null,
+  "translation": "우리는 짐을 차에 실었어.",
+  "audioPath": "sentence-audio/en/627.m4a"
+ },
+ "en-f00628": {
+  "before": "I know, and I ",
+  "answer": "apologize",
+  "after": " for the delay.",
+  "reading": null,
+  "translation": "알아요, 늦어져서 죄송합니다.",
+  "audioPath": null
+ },
+ "en-f00629": {
+  "before": "Do you mean that you are ",
+  "answer": "pregnant",
+  "after": "?",
+  "reading": null,
+  "translation": "너 임신했다는 거야?",
+  "audioPath": null
+ },
+ "en-f00630": {
+  "before": "Don't you ",
+  "answer": "recognize",
+  "after": " me?",
+  "reading": null,
+  "translation": "나 못 알아보겠어?",
+  "audioPath": null
+ },
+ "en-f00631": {
+  "before": "I'd like to try a ",
+  "answer": "local",
+  "after": " beer.",
+  "reading": null,
+  "translation": "현지 맥주 한번 마셔 보고 싶어요.",
+  "audioPath": null
+ },
+ "en-f00632": {
+  "before": "Why don't you try using some ",
+  "answer": "tape",
+  "after": "?",
+  "reading": null,
+  "translation": "테이프 좀 써 보는 게 어때?",
+  "audioPath": "sentence-audio/en/632.m4a"
+ },
+ "en-f00633": {
+  "before": "I ",
+  "answer": "discovered",
+  "after": " a very nice place today.",
+  "reading": null,
+  "translation": "오늘 정말 좋은 곳을 발견했어.",
+  "audioPath": "sentence-audio/en/633.m4a"
+ },
+ "en-f00634": {
+  "before": "Don't be ",
+  "answer": "silly",
+  "after": ", forget about it.",
+  "reading": null,
+  "translation": "바보 같은 소리 하지 마, 신경 쓰지 마.",
+  "audioPath": null
+ },
+ "en-f00635": {
+  "before": "You can't exceed the ",
+  "answer": "speed",
+  "after": " limits.",
+  "reading": null,
+  "translation": "제한 속도를 넘으면 안 돼.",
+  "audioPath": null
+ },
+ "en-f00636": {
+  "before": "Could you ",
+  "answer": "deliver",
+  "after": " this to my house?",
+  "reading": null,
+  "translation": "이거 저희 집으로 배달해 주실 수 있어요?",
+  "audioPath": null
+ },
+ "en-f00637": {
+  "before": "I thought you'd be ",
+  "answer": "excited",
+  "after": ".",
+  "reading": null,
+  "translation": "너 신날 줄 알았는데.",
+  "audioPath": "sentence-audio/en/637.m4a"
+ },
+ "en-f00638": {
+  "before": "Is there a dress ",
+  "answer": "code",
+  "after": " there?",
+  "reading": null,
+  "translation": "거기 복장 규정 있어?",
+  "audioPath": null
+ },
+ "en-f00639": {
+  "before": "They're in the cabinet ",
+  "answer": "above",
+  "after": " the dishwasher.",
+  "reading": null,
+  "translation": "식기세척기 위 찬장에 있어.",
+  "audioPath": null
+ },
+ "en-f00640": {
+  "before": "This is a good ",
+  "answer": "hiding",
+  "after": " place.",
+  "reading": null,
+  "translation": "여기 숨기 좋은 곳이다.",
+  "audioPath": "sentence-audio/en/640.m4a"
+ },
+ "en-f00641": {
+  "before": "I really need to ",
+  "answer": "focus",
+  "after": " on my studies.",
+  "reading": null,
+  "translation": "나 진짜 공부에 집중해야 해.",
+  "audioPath": null
+ },
+ "en-f00642": {
+  "before": "I am ",
+  "answer": "assuming",
+  "after": " that the dress is casual.",
+  "reading": null,
+  "translation": "복장은 편하게 입으면 되는 걸로 알고 있을게.",
+  "audioPath": null
+ },
+ "en-f00643": {
+  "before": "I'll squeeze us some ",
+  "answer": "fresh",
+  "after": " orange juice.",
+  "reading": null,
+  "translation": "신선한 오렌지 주스 짜 줄게.",
+  "audioPath": null
+ },
+ "en-f00645": {
+  "before": "",
+  "answer": "However",
+  "after": ", printing costs ten cents per page.",
+  "reading": null,
+  "translation": "다만 인쇄는 한 장에 십 센트예요.",
+  "audioPath": null
+ },
+ "en-f00646": {
+  "before": "How could you ",
+  "answer": "cheat",
+  "after": " on your wife?",
+  "reading": null,
+  "translation": "어떻게 아내를 두고 바람을 피울 수 있어?",
+  "audioPath": null
+ },
+ "en-f00647": {
+  "before": "You ",
+  "answer": "stole",
+  "after": " the money, didn't you?",
+  "reading": null,
+  "translation": "너 그 돈 훔쳤지?",
+  "audioPath": "sentence-audio/en/647.m4a"
+ },
+ "en-f00648": {
+  "before": "There are no ",
+  "answer": "devils",
+  "after": " in this world.",
+  "reading": null,
+  "translation": "이 세상에 악마는 없어.",
+  "audioPath": "sentence-audio/en/648.m4a"
+ },
+ "en-f00649": {
+  "before": "I like ",
+  "answer": "wild",
+  "after": " animals.",
+  "reading": null,
+  "translation": "나 야생 동물 좋아해.",
+  "audioPath": null
+ },
+ "en-f00650": {
+  "before": "A centimeter is a ",
+  "answer": "unit",
+  "after": " of length.",
+  "reading": null,
+  "translation": "센티미터는 길이 단위야.",
+  "audioPath": "sentence-audio/en/650.m4a"
+ },
+ "en-f00651": {
+  "before": "Learning any ",
+  "answer": "language",
+  "after": " takes a lot of effort.",
+  "reading": null,
+  "translation": "어떤 언어든 배우려면 노력이 많이 필요해.",
+  "audioPath": null
+ },
+ "en-f00652": {
+  "before": "I will ",
+  "answer": "introduce",
+  "after": " you to our boss.",
+  "reading": null,
+  "translation": "우리 사장님께 소개해 줄게.",
+  "audioPath": null
+ },
+ "en-f00653": {
+  "before": "My parents ",
+  "answer": "divorced",
+  "after": " many years ago.",
+  "reading": null,
+  "translation": "우리 부모님은 오래전에 이혼하셨어.",
+  "audioPath": null
+ },
+ "en-f00654": {
+  "before": "We admired the ",
+  "answer": "beauty",
+  "after": " of the scenery.",
+  "reading": null,
+  "translation": "우리는 경치의 아름다움에 감탄했어.",
+  "audioPath": "sentence-audio/en/654.m4a"
+ },
+ "en-f00655": {
+  "before": "Will it be an all day ",
+  "answer": "event",
+  "after": "?",
+  "reading": null,
+  "translation": "하루 종일 하는 행사야?",
+  "audioPath": null
+ },
+ "en-f00656": {
+  "before": "We got the ",
+  "answer": "project",
+  "after": " done on schedule.",
+  "reading": null,
+  "translation": "프로젝트를 일정대로 끝냈어.",
+  "audioPath": null
+ },
+ "en-f00657": {
+  "before": "What about the ",
+  "answer": "damage",
+  "after": " to my car?",
+  "reading": null,
+  "translation": "내 차 망가진 건 어떻게 할 건데요?",
+  "audioPath": null
+ },
+ "en-f00658": {
+  "before": "Can I have a ",
+  "answer": "bite",
+  "after": "?",
+  "reading": null,
+  "translation": "한 입만 먹어도 돼?",
+  "audioPath": null
+ },
+ "en-f00659": {
+  "before": "We are ",
+  "answer": "approaching",
+  "after": " the top of the mountain.",
+  "reading": null,
+  "translation": "우리 산 정상에 거의 다 와 가.",
+  "audioPath": null
+ },
+ "en-f00661": {
+  "before": "It was a magnificent ",
+  "answer": "sight",
+  "after": ".",
+  "reading": null,
+  "translation": "정말 멋진 광경이었어.",
+  "audioPath": null
+ },
+ "en-f00662": {
+  "before": "I had a job ",
+  "answer": "interview",
+  "after": " this morning.",
+  "reading": null,
+  "translation": "오늘 아침에 면접 봤어.",
+  "audioPath": null
+ },
+ "en-f00663": {
+  "before": "",
+  "answer": "Apparently",
+  "after": " somebody took that book out of the library.",
+  "reading": null,
+  "translation": "듣자 하니 누가 그 책을 도서관에서 빌려 갔대.",
+  "audioPath": null
+ },
+ "en-f00664": {
+  "before": "Oh, he's the ",
+  "answer": "coach",
+  "after": " of the football team.",
+  "reading": null,
+  "translation": "아, 저 사람 축구팀 코치야.",
+  "audioPath": null
+ },
+ "en-f00665": {
+  "before": "The ",
+  "answer": "view",
+  "after": " from this window is wonderful.",
+  "reading": null,
+  "translation": "이 창문에서 보는 경치가 정말 멋져.",
+  "audioPath": null
+ },
+ "en-f00666": {
+  "before": "We say ",
+  "answer": "grace",
+  "after": " at every meal.",
+  "reading": null,
+  "translation": "우리는 식사 때마다 감사 기도를 해.",
+  "audioPath": "sentence-audio/en/666.m4a"
+ },
+ "en-f00667": {
+  "before": "I think that this is a ",
+  "answer": "fake",
+  "after": ".",
+  "reading": null,
+  "translation": "이거 가짜인 것 같아.",
+  "audioPath": "sentence-audio/en/667.m4a"
+ },
+ "en-f00668": {
+  "before": "Is there an ",
+  "answer": "extra",
+  "after": " charge for that?",
+  "reading": null,
+  "translation": "그거 추가 요금 있어요?",
+  "audioPath": null
+ },
+ "en-f00669": {
+  "before": "I'm going on ",
+  "answer": "trial",
+  "after": ".",
+  "reading": null,
+  "translation": "나 재판받게 됐어.",
+  "audioPath": null
+ },
+ "en-f00670": {
+  "before": "Our ",
+  "answer": "nurse",
+  "after": " can take good care of him.",
+  "reading": null,
+  "translation": "저희 간호사가 그분을 잘 돌봐 드릴 거예요.",
+  "audioPath": null
+ },
+ "en-f00671": {
+  "before": "I have a package to ",
+  "answer": "post",
+  "after": " today.",
+  "reading": null,
+  "translation": "오늘 부칠 소포가 있어.",
+  "audioPath": null
+ },
+ "en-f00672": {
+  "before": "You'd better stop being so ",
+  "answer": "ridiculous",
+  "after": ".",
+  "reading": null,
+  "translation": "그렇게 말도 안 되게 굴지 마.",
+  "audioPath": null
+ },
+ "en-f00673": {
+  "before": "You ",
+  "answer": "simply",
+  "after": " can't blame the server for this.",
+  "reading": null,
+  "translation": "이건 그냥 종업원 탓으로 돌릴 수 없어.",
+  "audioPath": null
+ },
+ "en-f00674": {
+  "before": "There is a ",
+  "answer": "crack",
+  "after": " in the glass.",
+  "reading": null,
+  "translation": "유리에 금이 가 있어.",
+  "audioPath": "sentence-audio/en/674.m4a"
+ },
+ "en-f00676": {
+  "before": "You are so romantic, my ",
+  "answer": "sweetheart",
+  "after": ".",
+  "reading": null,
+  "translation": "자기 너무 로맨틱하다.",
+  "audioPath": null
+ },
+ "en-f00677": {
+  "before": "My annual ",
+  "answer": "medical",
+  "after": " check-up is this afternoon.",
+  "reading": null,
+  "translation": "오늘 오후에 정기 건강 검진이 있어.",
+  "audioPath": null
+ },
+ "en-f00678": {
+  "before": "No, I couldn't fall ",
+  "answer": "asleep",
+  "after": " last night.",
+  "reading": null,
+  "translation": "아니, 어젯밤에 잠이 안 왔어.",
+  "audioPath": null
+ },
+ "en-f00679": {
+  "before": "That was a recommendation, not a ",
+  "answer": "command",
+  "after": ".",
+  "reading": null,
+  "translation": "그건 권고였지 명령이 아니었어.",
+  "audioPath": "sentence-audio/en/679.m4a"
+ },
+ "en-f00680": {
+  "before": "My hair looks ",
+  "answer": "awful",
+  "after": ".",
+  "reading": null,
+  "translation": "내 머리 꼴이 엉망이야.",
+  "audioPath": null
+ },
+ "en-f00681": {
+  "before": "The ",
+  "answer": "princess",
+  "after": " lives in a large castle.",
+  "reading": null,
+  "translation": "공주는 큰 성에 살아.",
+  "audioPath": "sentence-audio/en/681.m4a"
+ },
+ "en-f00683": {
+  "before": "I have ",
+  "answer": "faith",
+  "after": " in her.",
+  "reading": null,
+  "translation": "난 그녀를 믿어.",
+  "audioPath": null
+ },
+ "en-f00684": {
+  "before": "These books were ",
+  "answer": "due",
+  "after": " two weeks ago.",
+  "reading": null,
+  "translation": "이 책들 반납 기한이 2주 전이었어요.",
+  "audioPath": null
+ },
+ "en-f00685": {
+  "before": "You have ",
+  "answer": "plenty",
+  "after": " of time to decide.",
+  "reading": null,
+  "translation": "결정할 시간은 충분해.",
+  "audioPath": null
+ },
+ "en-f00686": {
+  "before": "How much are you ",
+  "answer": "willing",
+  "after": " to pay?",
+  "reading": null,
+  "translation": "얼마까지 낼 생각이에요?",
+  "audioPath": null
+ },
+ "en-f00687": {
+  "before": "The restaurant is ",
+  "answer": "excellent",
+  "after": " and reasonably priced.",
+  "reading": null,
+  "translation": "그 식당 훌륭하고 가격도 적당해.",
+  "audioPath": null
+ },
+ "en-f00688": {
+  "before": "All the neighbors ",
+  "answer": "united",
+  "after": " to clean up the park.",
+  "reading": null,
+  "translation": "이웃들이 다 같이 힘을 합쳐 공원을 청소했어.",
+  "audioPath": "sentence-audio/en/688.m4a"
+ },
+ "en-f00689": {
+  "before": "Who is ",
+  "answer": "responsible",
+  "after": " for the accident?",
+  "reading": null,
+  "translation": "그 사고는 누구 책임이야?",
+  "audioPath": null
+ },
+ "en-f00690": {
+  "before": "",
+  "answer": "Justice",
+  "after": " will prevail in the end.",
+  "reading": null,
+  "translation": "결국엔 정의가 이길 거야.",
+  "audioPath": "sentence-audio/en/690.m4a"
+ },
+ "en-f00691": {
+  "before": "There is a ",
+  "answer": "military",
+  "after": " base near here.",
+  "reading": null,
+  "translation": "이 근처에 군사 기지가 있어.",
+  "audioPath": "sentence-audio/en/691.m4a"
+ },
+ "en-f00692": {
+  "before": "What's the ",
+  "answer": "main",
+  "after": " idea in this essay?",
+  "reading": null,
+  "translation": "이 글의 요지가 뭐야?",
+  "audioPath": null
+ },
+ "en-f00693": {
+  "before": "It's nice that we have something in ",
+  "answer": "common",
+  "after": ".",
+  "reading": null,
+  "translation": "우리 공통점이 있다니 좋다.",
+  "audioPath": null
+ },
+ "en-f00694": {
+  "before": "I need to ",
+  "answer": "request",
+  "after": " a wake-up call for tomorrow morning.",
+  "reading": null,
+  "translation": "내일 아침 모닝콜 좀 부탁드릴게요.",
+  "audioPath": null
+ },
+ "en-f00695": {
+  "before": "God ",
+  "answer": "bless",
+  "after": " you and your family.",
+  "reading": null,
+  "translation": "당신과 가족에게 신의 축복이 있기를.",
+  "audioPath": "sentence-audio/en/695.m4a"
+ },
+ "en-f00697": {
+  "before": "Can you ",
+  "answer": "remove",
+  "after": " this stain without harming the fabric?",
+  "reading": null,
+  "translation": "옷감 상하지 않게 이 얼룩 지울 수 있나요?",
+  "audioPath": null
+ },
+ "en-f00698": {
+  "before": "I don't think that's really ",
+  "answer": "necessary",
+  "after": ".",
+  "reading": null,
+  "translation": "그건 별로 필요 없을 것 같아.",
+  "audioPath": null
+ },
+ "en-f00699": {
+  "before": "I learned my ",
+  "answer": "lesson",
+  "after": " from the last experience.",
+  "reading": null,
+  "translation": "지난번 일로 교훈을 얻었어.",
+  "audioPath": null
+ },
+ "en-f00700": {
+  "before": "I think I could have a good ",
+  "answer": "career",
+  "after": " in that field.",
+  "reading": null,
+  "translation": "그 분야에서 경력을 잘 쌓을 수 있을 것 같아.",
+  "audioPath": null
+ },
+ "en-f00701": {
+  "before": "No, but this is an ",
+  "answer": "emergency",
+  "after": "!",
+  "reading": null,
+  "translation": "아니요, 그래도 이건 응급 상황이에요!",
+  "audioPath": null
+ },
+ "en-f00702": {
+  "before": "I can't hear you ",
+  "answer": "clearly",
+  "after": ".",
+  "reading": null,
+  "translation": "잘 안 들려.",
+  "audioPath": null
+ },
+ "en-f00703": {
+  "before": "How many people are in your ",
+  "answer": "crew",
+  "after": "?",
+  "reading": null,
+  "translation": "너희 일행은 몇 명이야?",
+  "audioPath": "sentence-audio/en/703.m4a"
+ },
+ "en-f00704": {
+  "before": "Do you have this in my ",
+  "answer": "size",
+  "after": "?",
+  "reading": null,
+  "translation": "이거 제 사이즈로 있어요?",
+  "audioPath": "sentence-audio/en/704.m4a"
+ },
+ "en-f00705": {
+  "before": "Are you an ",
+  "answer": "inspector",
+  "after": "?",
+  "reading": null,
+  "translation": "조사관이세요?",
+  "audioPath": "sentence-audio/en/705.m4a"
+ },
+ "en-f00706": {
+  "before": "I like the ",
+  "answer": "design",
+  "after": " of the coat.",
+  "reading": null,
+  "translation": "그 코트 디자인 마음에 들어.",
+  "audioPath": null
+ },
+ "en-f00707": {
+  "before": "It ",
+  "answer": "depends",
+  "after": " on the type of work.",
+  "reading": null,
+  "translation": "일의 종류에 따라 달라.",
+  "audioPath": null
+ },
+ "en-f00708": {
+  "before": "The employees ",
+  "answer": "threatened",
+  "after": " to go on strike.",
+  "reading": null,
+  "translation": "직원들이 파업하겠다고 위협했어.",
+  "audioPath": "sentence-audio/en/708.m4a"
+ },
+ "en-f00709": {
+  "before": "How long will an ",
+  "answer": "investigation",
+  "after": " take?",
+  "reading": null,
+  "translation": "조사는 얼마나 걸리나요?",
+  "audioPath": null
+ },
+ "en-f00710": {
+  "before": "I haven't seen you for ",
+  "answer": "several",
+  "after": " days.",
+  "reading": null,
+  "translation": "며칠 동안 못 봤네.",
+  "audioPath": null
+ },
+ "en-f00711": {
+  "before": "The application ",
+  "answer": "process",
+  "after": " is pretty straightforward.",
+  "reading": null,
+  "translation": "신청 절차는 꽤 간단해요.",
+  "audioPath": null
+ },
+ "en-f00712": {
+  "before": "",
+  "answer": "Grandma",
+  "after": " makes the best dumplings in the world!",
+  "reading": null,
+  "translation": "할머니가 만두를 세상에서 제일 맛있게 만드셔!",
+  "audioPath": null
+ },
+ "en-f00713": {
+  "before": "Shall we go to a restaurant to ",
+  "answer": "celebrate",
+  "after": "?",
+  "reading": null,
+  "translation": "축하하러 식당 갈까?",
+  "audioPath": null
+ },
+ "en-f00714": {
+  "before": "I beg your ",
+  "answer": "pardon",
+  "after": " for being late.",
+  "reading": null,
+  "translation": "늦어서 죄송합니다.",
+  "audioPath": null
+ },
+ "en-f00715": {
+  "before": "Do you have any ",
+  "answer": "advice",
+  "after": " for me?",
+  "reading": null,
+  "translation": "나한테 해 줄 조언 있어?",
+  "audioPath": null
+ },
+ "en-f00716": {
+  "before": "I heard she ",
+  "answer": "dumped",
+  "after": " you.",
+  "reading": null,
+  "translation": "걔가 너 찼다며.",
+  "audioPath": null
+ },
+ "en-f00717": {
+  "before": "We have two examinations during this ",
+  "answer": "term",
+  "after": ".",
+  "reading": null,
+  "translation": "이번 학기에 시험이 두 번 있어.",
+  "audioPath": "sentence-audio/en/717.m4a"
+ },
+ "en-f00718": {
+  "before": "So you don't have to ",
+  "answer": "rush",
+  "after": ".",
+  "reading": null,
+  "translation": "그러니까 서두를 필요 없어.",
+  "audioPath": null
+ },
+ "en-f00719": {
+  "before": "I'm sorry we ",
+  "answer": "dragged",
+  "after": " you into this.",
+  "reading": null,
+  "translation": "너까지 끌어들여서 미안해.",
+  "audioPath": "sentence-audio/en/719.m4a"
+ },
+ "en-f00720": {
+  "before": "Overwork is bad for your ",
+  "answer": "health",
+  "after": ".",
+  "reading": null,
+  "translation": "과로는 건강에 안 좋아.",
+  "audioPath": null
+ },
+ "en-f00721": {
+  "before": "I'm not going to ",
+  "answer": "grant",
+  "after": " that request.",
+  "reading": null,
+  "translation": "그 요청은 들어주지 않을 거야.",
+  "audioPath": "sentence-audio/en/721.m4a"
+ },
+ "en-f00722": {
+  "before": "I was playing a ",
+  "answer": "joke",
+  "after": " on you.",
+  "reading": null,
+  "translation": "너한테 장난친 거였어.",
+  "audioPath": null
+ },
+ "en-f00723": {
+  "before": "Can you give me some ",
+  "answer": "examples",
+  "after": "?",
+  "reading": null,
+  "translation": "예를 좀 들어 줄 수 있어?",
+  "audioPath": null
+ },
+ "en-f00724": {
+  "before": "I can ",
+  "answer": "hardly",
+  "after": " keep my eyes open.",
+  "reading": null,
+  "translation": "눈을 뜨고 있기도 힘들어.",
+  "audioPath": null
+ },
+ "en-f00725": {
+  "before": "There are many ",
+  "answer": "rats",
+  "after": " on the ship.",
+  "reading": null,
+  "translation": "배에 쥐가 많아.",
+  "audioPath": "sentence-audio/en/725.m4a"
+ },
+ "en-f00726": {
+  "before": "Could you ",
+  "answer": "possibly",
+  "after": " give me a lift home?",
+  "reading": null,
+  "translation": "혹시 집까지 좀 태워 줄 수 있어?",
+  "audioPath": null
+ },
+ "en-f00727": {
+  "before": "Everybody has their ",
+  "answer": "strengths",
+  "after": " and weaknesses.",
+  "reading": null,
+  "translation": "누구나 장점과 단점이 있어.",
+  "audioPath": null
+ },
+ "en-f00728": {
+  "before": "I have to face it ",
+  "answer": "somehow",
+  "after": ".",
+  "reading": null,
+  "translation": "어떻게든 부딪쳐 봐야지.",
+  "audioPath": null
+ },
+ "en-f00729": {
+  "before": "I'd like to have your ",
+  "answer": "opinion",
+  "after": ".",
+  "reading": null,
+  "translation": "네 의견을 듣고 싶어.",
+  "audioPath": null
+ },
+ "en-f00730": {
+  "before": "I like the ",
+  "answer": "freedom",
+  "after": " of summer with no school.",
+  "reading": null,
+  "translation": "학교 안 가는 여름의 자유가 좋아.",
+  "audioPath": null
+ },
+ "en-f00731": {
+  "before": "We haven't got any ",
+  "answer": "meat",
+  "after": " at all.",
+  "reading": null,
+  "translation": "고기가 하나도 없어.",
+  "audioPath": null
+ },
+ "en-f00732": {
+  "before": "A ",
+  "answer": "powerful",
+  "after": " storm is headed our way.",
+  "reading": null,
+  "translation": "강력한 폭풍이 우리 쪽으로 오고 있어.",
+  "audioPath": "sentence-audio/en/732.m4a"
+ },
+ "en-f00733": {
+  "before": "The ",
+  "answer": "thief",
+  "after": " got away with the money.",
+  "reading": null,
+  "translation": "도둑이 돈을 갖고 달아났어.",
+  "audioPath": "sentence-audio/en/733.m4a"
+ },
+ "en-f00734": {
+  "before": "Do you want to ",
+  "answer": "rent",
+  "after": " a car?",
+  "reading": null,
+  "translation": "차 빌리시겠어요?",
+  "audioPath": null
+ },
+ "en-f00735": {
+  "before": "It only happens once in a ",
+  "answer": "century",
+  "after": ".",
+  "reading": null,
+  "translation": "백 년에 한 번 있는 일이야.",
+  "audioPath": "sentence-audio/en/735.m4a"
+ },
+ "en-f00737": {
+  "before": "Can I pay with a ",
+  "answer": "credit",
+  "after": " card?",
+  "reading": null,
+  "translation": "신용 카드로 계산해도 돼요?",
+  "audioPath": "sentence-audio/en/737.m4a"
+ },
+ "en-f00738": {
+  "before": "The rumor ",
+  "answer": "spread",
+  "after": " all over the town.",
+  "reading": null,
+  "translation": "소문이 온 동네에 퍼졌어.",
+  "audioPath": "sentence-audio/en/738.m4a"
+ },
+ "en-f00739": {
+  "before": "Have you done any ",
+  "answer": "research",
+  "after": " about the company?",
+  "reading": null,
+  "translation": "그 회사에 대해 좀 조사해 봤어?",
+  "audioPath": null
+ },
+ "en-f00740": {
+  "before": "Try to be ",
+  "answer": "natural",
+  "after": ", alert and interested.",
+  "reading": null,
+  "translation": "자연스럽고, 집중하고, 관심 있는 모습을 보이도록 해.",
+  "audioPath": null
+ },
+ "en-f00741": {
+  "before": "I was just as ",
+  "answer": "shocked",
+  "after": " when I found out.",
+  "reading": null,
+  "translation": "나도 알았을 때 똑같이 충격받았어.",
+  "audioPath": null
+ },
+ "en-f00742": {
+  "before": "He gave us the ",
+  "answer": "signal",
+  "after": " to begin.",
+  "reading": null,
+  "translation": "그가 우리한테 시작하라는 신호를 줬어.",
+  "audioPath": "sentence-audio/en/742.m4a"
+ },
+ "en-f00743": {
+  "before": "I ",
+  "answer": "clicked",
+  "after": " the link, but nothing happened.",
+  "reading": null,
+  "translation": "링크를 눌렀는데 아무 반응이 없었어.",
+  "audioPath": "sentence-audio/en/743.m4a"
+ },
+ "en-f00744": {
+  "before": "I'll go take a ",
+  "answer": "shower",
+  "after": ".",
+  "reading": null,
+  "translation": "가서 샤워할게.",
+  "audioPath": null
+ },
+ "en-f00745": {
+  "before": "Can you ",
+  "answer": "print",
+  "after": " it out before 12 o'clock?",
+  "reading": null,
+  "translation": "12시 전에 출력해 줄 수 있어?",
+  "audioPath": null
+ },
+ "en-f00746": {
+  "before": "I would like to ",
+  "answer": "switch",
+  "after": " it to next Friday.",
+  "reading": null,
+  "translation": "다음 주 금요일로 바꾸고 싶어요.",
+  "audioPath": null
+ },
+ "en-f00747": {
+  "before": "The pen is mightier than the ",
+  "answer": "sword",
+  "after": ".",
+  "reading": null,
+  "translation": "펜은 칼보다 강하다.",
+  "audioPath": "sentence-audio/en/747.m4a"
+ },
+ "en-f00748": {
+  "before": "That was an ",
+  "answer": "odd",
+  "after": " change of subject.",
+  "reading": null,
+  "translation": "화제를 참 묘하게 바꾸네.",
+  "audioPath": null
+ },
+ "en-f00749": {
+  "before": "It is the landlord's ",
+  "answer": "responsibility",
+  "after": ".",
+  "reading": null,
+  "translation": "그건 집주인 책임이에요.",
+  "audioPath": null
+ },
+ "en-f00750": {
+  "before": "You need to ",
+  "answer": "avoid",
+  "after": " caffeine and sugar.",
+  "reading": null,
+  "translation": "카페인이랑 설탕은 피하셔야 해요.",
+  "audioPath": null
+ },
+ "en-f00751": {
+  "before": "We have a computer ",
+  "answer": "lab",
+  "after": " on the first floor.",
+  "reading": null,
+  "translation": "일 층에 컴퓨터실이 있어요.",
+  "audioPath": null
+ },
+ "en-f00752": {
+  "before": "My ",
+  "answer": "alarm",
+  "after": " clock didn't go off this morning.",
+  "reading": null,
+  "translation": "오늘 아침에 알람이 안 울렸어.",
+  "audioPath": null
+ },
+ "en-f00753": {
+  "before": "Oh, I ",
+  "answer": "nearly",
+  "after": " forgot the exams.",
+  "reading": null,
+  "translation": "아, 시험 있는 거 깜빡할 뻔했다.",
+  "audioPath": null
+ },
+ "en-f00754": {
+  "before": "That should ",
+  "answer": "solve",
+  "after": " the problem.",
+  "reading": null,
+  "translation": "그러면 문제가 해결될 거야.",
+  "audioPath": null
+ },
+ "en-f00755": {
+  "before": "I believe that ",
+  "answer": "suicide",
+  "after": " is wrong.",
+  "reading": null,
+  "translation": "나는 자살이 잘못이라고 생각해.",
+  "audioPath": "sentence-audio/en/755.m4a"
+ },
+ "en-f00756": {
+  "before": "Are there any side ",
+  "answer": "effects",
+  "after": " with this medication?",
+  "reading": null,
+  "translation": "이 약 부작용 있어요?",
+  "audioPath": null
+ },
+ "en-f00757": {
+  "before": "Well, I have no ",
+  "answer": "regrets",
+  "after": "!",
+  "reading": null,
+  "translation": "뭐, 난 후회 없어!",
+  "audioPath": null
+ },
+ "en-f00758": {
+  "before": "Yes, and the food was ",
+  "answer": "horrible",
+  "after": "!",
+  "reading": null,
+  "translation": "응, 음식도 형편없었어!",
+  "audioPath": null
+ },
+ "en-f00759": {
+  "before": "What is the ",
+  "answer": "purpose",
+  "after": " of your stay?",
+  "reading": null,
+  "translation": "체류 목적이 무엇입니까?",
+  "audioPath": null
+ },
+ "en-f00760": {
+  "before": "There is a fish on the ",
+  "answer": "hook",
+  "after": ".",
+  "reading": null,
+  "translation": "낚싯바늘에 물고기가 걸렸어.",
+  "audioPath": null
+ },
+ "en-f00761": {
+  "before": "What ",
+  "answer": "subject",
+  "after": " do you like best?",
+  "reading": null,
+  "translation": "무슨 과목 제일 좋아해?",
+  "audioPath": null
+ },
+ "en-f00762": {
+  "before": "I just can't ",
+  "answer": "connect",
+  "after": " to the net.",
+  "reading": null,
+  "translation": "인터넷에 도무지 연결이 안 돼.",
+  "audioPath": null
+ },
+ "en-f00763": {
+  "before": "What materials do I need to ",
+  "answer": "provide",
+  "after": "?",
+  "reading": null,
+  "translation": "제가 어떤 서류를 내야 하나요?",
+  "audioPath": null
+ },
+ "en-f00764": {
+  "before": "What ",
+  "answer": "creature",
+  "after": " are you going to dress up as?",
+  "reading": null,
+  "translation": "무슨 괴물로 분장할 거야?",
+  "audioPath": null
+ },
+ "en-f00765": {
+  "before": "The more you work, the more you ",
+  "answer": "earn",
+  "after": ".",
+  "reading": null,
+  "translation": "일을 많이 할수록 더 많이 벌어.",
+  "audioPath": null
+ },
+ "en-f00766": {
+  "before": "I don't have time for this ",
+  "answer": "nonsense",
+  "after": ".",
+  "reading": null,
+  "translation": "이런 허튼소리 들을 시간 없어.",
+  "audioPath": "sentence-audio/en/766.m4a"
+ },
+ "en-f00767": {
+  "before": "The kettle is ",
+  "answer": "whistling",
+  "after": " on the stove.",
+  "reading": null,
+  "translation": "주전자가 가스레인지 위에서 삑삑 울리고 있어.",
+  "audioPath": "sentence-audio/en/767.m4a"
+ },
+ "en-f00768": {
+  "before": "It was only one-tenth of the ",
+  "answer": "original",
+  "after": " price.",
+  "reading": null,
+  "translation": "원래 가격의 10분의 1밖에 안 했어.",
+  "audioPath": null
+ },
+ "en-f00769": {
+  "before": "I am ",
+  "answer": "confused",
+  "after": " by what he said.",
+  "reading": null,
+  "translation": "걔가 한 말 때문에 헷갈려.",
+  "audioPath": null
+ },
+ "en-f00770": {
+  "before": "Didn't you hear the applause of the ",
+  "answer": "audience",
+  "after": "?",
+  "reading": null,
+  "translation": "관객들 박수 소리 못 들었어?",
+  "audioPath": null
+ },
+ "en-f00771": {
+  "before": "I'd ",
+  "answer": "prefer",
+  "after": " coffee if you don't mind.",
+  "reading": null,
+  "translation": "괜찮으면 난 커피가 좋겠어.",
+  "audioPath": null
+ },
+ "en-f00772": {
+  "before": "The interior is ",
+  "answer": "incredible",
+  "after": ".",
+  "reading": null,
+  "translation": "내부가 정말 끝내주네요.",
+  "audioPath": null
+ },
+ "en-f00773": {
+  "before": "A crowd ",
+  "answer": "gathered",
+  "after": " to see the fire.",
+  "reading": null,
+  "translation": "불구경하러 사람들이 모여들었어.",
+  "audioPath": "sentence-audio/en/773.m4a"
+ },
+ "en-f00774": {
+  "before": "A ",
+  "answer": "gang",
+  "after": " of thieves broke into the bank.",
+  "reading": null,
+  "translation": "도둑 일당이 은행에 침입했어.",
+  "audioPath": "sentence-audio/en/774.m4a"
+ },
+ "en-f00775": {
+  "before": "Do you own any ",
+  "answer": "property",
+  "after": " in Boston?",
+  "reading": null,
+  "translation": "보스턴에 갖고 있는 부동산 있어?",
+  "audioPath": "sentence-audio/en/775.m4a"
+ },
+ "en-f00776": {
+  "before": "That is ",
+  "answer": "truly",
+  "after": " amazing!",
+  "reading": null,
+  "translation": "정말 놀랍다!",
+  "audioPath": null
+ },
+ "en-f00777": {
+  "before": "I ",
+  "answer": "honestly",
+  "after": " think it looks great.",
+  "reading": null,
+  "translation": "솔직히 진짜 멋있어 보여.",
+  "audioPath": null
+ },
+ "en-f00778": {
+  "before": "Why should I care what ",
+  "answer": "society",
+  "after": " thinks?",
+  "reading": null,
+  "translation": "사회가 어떻게 생각하든 내가 왜 신경 써야 해?",
+  "audioPath": "sentence-audio/en/778.m4a"
+ },
+ "en-f00779": {
+  "before": "We'll ",
+  "answer": "split",
+  "after": " the bill.",
+  "reading": null,
+  "translation": "우리 나눠서 내자.",
+  "audioPath": null
+ },
+ "en-f00780": {
+  "before": "Sorry, could you ",
+  "answer": "repeat",
+  "after": " that please?",
+  "reading": null,
+  "translation": "죄송하지만, 다시 한번 말씀해 주시겠어요?",
+  "audioPath": null
+ },
+ "en-f00782": {
+  "before": "The color goes with your trousers ",
+  "answer": "perfectly",
+  "after": ".",
+  "reading": null,
+  "translation": "그 색이 네 바지랑 완벽하게 어울려.",
+  "audioPath": null
+ },
+ "en-f00783": {
+  "before": "This ",
+  "answer": "path",
+  "after": " leads to the cave.",
+  "reading": null,
+  "translation": "이 길로 가면 동굴이 나와.",
+  "audioPath": null
+ },
+ "en-f00784": {
+  "before": "",
+  "answer": "Papa",
+  "after": ", can you read me a story?",
+  "reading": null,
+  "translation": "아빠, 책 읽어 줄 수 있어?",
+  "audioPath": null
+ },
+ "en-f00786": {
+  "before": "Why is my Internet ",
+  "answer": "connection",
+  "after": " so slow?",
+  "reading": null,
+  "translation": "인터넷 연결이 왜 이렇게 느리지?",
+  "audioPath": "sentence-audio/en/786.m4a"
+ },
+ "en-f00787": {
+  "before": "I want to get in ",
+  "answer": "shape",
+  "after": ".",
+  "reading": null,
+  "translation": "몸 좀 만들고 싶어.",
+  "audioPath": null
+ },
+ "en-f00788": {
+  "before": "Two ",
+  "answer": "separate",
+  "after": " bills, please.",
+  "reading": null,
+  "translation": "계산서 따로따로 주세요.",
+  "audioPath": null
+ },
+ "en-f00789": {
+  "before": "Do you put ",
+  "answer": "cream",
+  "after": " in your coffee?",
+  "reading": null,
+  "translation": "커피에 크림 넣어?",
+  "audioPath": "sentence-audio/en/789.m4a"
+ },
+ "en-f00790": {
+  "before": "Your hand is ",
+  "answer": "bleeding",
+  "after": ".",
+  "reading": null,
+  "translation": "너 손에서 피 나.",
+  "audioPath": null
+ },
+ "en-f00791": {
+  "before": "And I am a regular ",
+  "answer": "customer",
+  "after": " here.",
+  "reading": null,
+  "translation": "그리고 저 여기 단골이에요.",
+  "audioPath": null
+ },
+ "en-f00792": {
+  "before": "There are countless stars in the ",
+  "answer": "universe",
+  "after": ".",
+  "reading": null,
+  "translation": "우주에는 셀 수 없이 많은 별이 있어.",
+  "audioPath": "sentence-audio/en/792.m4a"
+ },
+ "en-f00793": {
+  "before": "What is your date of ",
+  "answer": "birth",
+  "after": "?",
+  "reading": null,
+  "translation": "생년월일이 어떻게 되세요?",
+  "audioPath": null
+ },
+ "en-f00794": {
+  "before": "We're not as ",
+  "answer": "dumb",
+  "after": " as you think.",
+  "reading": null,
+  "translation": "우리 네 생각만큼 멍청하지 않아.",
+  "audioPath": "sentence-audio/en/794.m4a"
+ },
+ "en-f00795": {
+  "before": "You need to take a ",
+  "answer": "bath",
+  "after": ".",
+  "reading": null,
+  "translation": "너 목욕 좀 해야겠다.",
+  "audioPath": null
+ },
+ "en-f00796": {
+  "before": "The key was ",
+  "answer": "nowhere",
+  "after": " to be found.",
+  "reading": null,
+  "translation": "열쇠가 어디에도 없었어.",
+  "audioPath": "sentence-audio/en/796.m4a"
+ },
+ "en-f00797": {
+  "before": "She likes to ",
+  "answer": "collect",
+  "after": " little things like this.",
+  "reading": null,
+  "translation": "걔는 이런 작은 물건 모으는 걸 좋아해.",
+  "audioPath": null
+ },
+ "en-f00798": {
+  "before": "I ",
+  "answer": "demand",
+  "after": " an explanation for this mistake.",
+  "reading": null,
+  "translation": "이 실수에 대해 해명을 요구합니다.",
+  "audioPath": "sentence-audio/en/798.m4a"
+ },
+ "en-f00799": {
+  "before": "Lack of exercise may ",
+  "answer": "harm",
+  "after": " your health.",
+  "reading": null,
+  "translation": "운동 부족은 건강을 해칠 수 있어.",
+  "audioPath": "sentence-audio/en/799.m4a"
+ },
+ "en-f00800": {
+  "before": "Did you get caught in the bad ",
+  "answer": "storm",
+  "after": "?",
+  "reading": null,
+  "translation": "그 심한 폭풍 만났어?",
+  "audioPath": null
+ },
+ "en-f00801": {
+  "before": "Do you want to hear my ",
+  "answer": "theory",
+  "after": "?",
+  "reading": null,
+  "translation": "내 이론 들어 볼래?",
+  "audioPath": "sentence-audio/en/801.m4a"
+ },
+ "en-f00802": {
+  "before": "I'm so ",
+  "answer": "jealous",
+  "after": " of you.",
+  "reading": null,
+  "translation": "너 정말 부럽다.",
+  "audioPath": null
+ },
+ "en-f00803": {
+  "before": "It's on the ",
+  "answer": "tip",
+  "after": " of my tongue.",
+  "reading": null,
+  "translation": "혀끝에서 맴도는데 생각이 안 나.",
+  "audioPath": null
+ },
+ "en-f00804": {
+  "before": "Do you have ",
+  "answer": "proof",
+  "after": " of residence?",
+  "reading": null,
+  "translation": "거주 증명할 서류 있으세요?",
+  "audioPath": null
+ },
+ "en-f00805": {
+  "before": "I think you'll find it ",
+  "answer": "comfortable",
+  "after": ".",
+  "reading": null,
+  "translation": "아마 편하실 거예요.",
+  "audioPath": null
+ },
+ "en-f00806": {
+  "before": "What's the ",
+  "answer": "amount",
+  "after": " you'd like to change?",
+  "reading": null,
+  "translation": "환전하실 금액이 얼마예요?",
+  "audioPath": null
+ },
+ "en-f00807": {
+  "before": "I saw a light in the ",
+  "answer": "distance",
+  "after": ".",
+  "reading": null,
+  "translation": "멀리서 불빛이 보였어.",
+  "audioPath": "sentence-audio/en/807.m4a"
+ },
+ "en-f00809": {
+  "before": "I don't think I can ",
+  "answer": "afford",
+  "after": " it.",
+  "reading": null,
+  "translation": "나 그거 살 여유 없을 것 같아.",
+  "audioPath": null
+ },
+ "en-f00810": {
+  "before": "I'm ",
+  "answer": "deeply",
+  "after": " grateful for all you've done.",
+  "reading": null,
+  "translation": "해 주신 모든 것에 깊이 감사드려요.",
+  "audioPath": null
+ },
+ "en-f00811": {
+  "before": "",
+  "answer": "Babe",
+  "after": ", can you grab me a glass of water?",
+  "reading": null,
+  "translation": "자기야, 물 한 잔만 갖다줄래?",
+  "audioPath": null
+ },
+ "en-f00812": {
+  "before": "The ",
+  "answer": "total",
+  "after": " is 90 dollars including tax.",
+  "reading": null,
+  "translation": "세금 포함해서 총 90달러예요.",
+  "audioPath": null
+ },
+ "en-f00813": {
+  "before": "She's a ",
+  "answer": "joy",
+  "after": " to have in my class.",
+  "reading": null,
+  "translation": "그 애가 우리 반에 있어서 정말 기뻐요.",
+  "audioPath": null
+ },
+ "en-f00814": {
+  "before": "",
+  "answer": "Unfortunately",
+  "after": ", I just can't make it this time.",
+  "reading": null,
+  "translation": "안타깝게도 이번엔 도저히 못 가.",
+  "audioPath": null
+ },
+ "en-f00815": {
+  "before": "But can I ",
+  "answer": "trade",
+  "after": " my seat with you?",
+  "reading": null,
+  "translation": "근데 저랑 자리 바꿔 주실 수 있어요?",
+  "audioPath": null
+ },
+ "en-f00816": {
+  "before": "I think your ",
+  "answer": "speech",
+  "after": " was excellent.",
+  "reading": null,
+  "translation": "네 연설 정말 훌륭했던 것 같아.",
+  "audioPath": null
+ },
+ "en-f00817": {
+  "before": "I think it's time to ",
+  "answer": "seek",
+  "after": " professional help.",
+  "reading": null,
+  "translation": "이제 전문가 도움을 구할 때인 것 같아.",
+  "audioPath": null
+ },
+ "en-f00818": {
+  "before": "The ",
+  "answer": "murderer",
+  "after": " was finally caught last night.",
+  "reading": null,
+  "translation": "살인범이 어젯밤에 마침내 잡혔어.",
+  "audioPath": "sentence-audio/en/818.m4a"
+ },
+ "en-f00819": {
+  "before": "Their clothes are all ",
+  "answer": "laid",
+  "after": " out on the bed.",
+  "reading": null,
+  "translation": "걔네 옷이 침대 위에 다 펼쳐져 있어.",
+  "audioPath": null
+ },
+ "en-f00820": {
+  "before": "I'd like a ",
+  "answer": "pair",
+  "after": " of shoes, please.",
+  "reading": null,
+  "translation": "신발 한 켤레 사려고요.",
+  "audioPath": null
+ },
+ "en-f00821": {
+  "before": "I came home earlier than ",
+  "answer": "usual",
+  "after": " today.",
+  "reading": null,
+  "translation": "오늘 평소보다 일찍 집에 왔어.",
+  "audioPath": "sentence-audio/en/821.m4a"
+ },
+ "en-f00822": {
+  "before": "Well, it was my first ",
+  "answer": "attempt",
+  "after": "!",
+  "reading": null,
+  "translation": "뭐, 첫 시도였잖아!",
+  "audioPath": null
+ },
+ "en-f00823": {
+  "before": "The ",
+  "answer": "horn",
+  "after": " is only for emergencies!",
+  "reading": null,
+  "translation": "경적은 비상시에만 울리는 거야!",
+  "audioPath": null
+ },
+ "en-f00824": {
+  "before": "I wasn't ",
+  "answer": "aware",
+  "after": " of that!",
+  "reading": null,
+  "translation": "그건 몰랐어!",
+  "audioPath": null
+ },
+ "en-f00825": {
+  "before": "It's a ",
+  "answer": "sin",
+  "after": " to tell a lie.",
+  "reading": null,
+  "translation": "거짓말하는 건 죄야.",
+  "audioPath": "sentence-audio/en/825.m4a"
+ },
+ "en-f00826": {
+  "before": "",
+  "answer": "Surely",
+  "after": ", there are other ways to save money.",
+  "reading": null,
+  "translation": "분명 돈 아낄 다른 방법이 있을 거야.",
+  "audioPath": null
+ },
+ "en-f00827": {
+  "before": "I'd like to ",
+  "answer": "confirm",
+  "after": " a reservation, please.",
+  "reading": null,
+  "translation": "예약 확인 좀 하고 싶은데요.",
+  "audioPath": null
+ },
+ "en-f00828": {
+  "before": "He ",
+  "answer": "punched",
+  "after": " me in the arm as a joke.",
+  "reading": null,
+  "translation": "걔가 장난으로 내 팔을 쳤어.",
+  "audioPath": null
+ },
+ "en-f00829": {
+  "before": "I saw the ",
+  "answer": "score",
+  "after": " on your report.",
+  "reading": null,
+  "translation": "네 성적표에서 점수 봤어.",
+  "audioPath": null
+ },
+ "en-f00830": {
+  "before": "Do you take vitamin ",
+  "answer": "pills",
+  "after": " regularly?",
+  "reading": null,
+  "translation": "비타민 알약 꾸준히 먹어?",
+  "audioPath": null
+ },
+ "en-f00831": {
+  "before": "Put both hands on the steering ",
+  "answer": "wheel",
+  "after": ".",
+  "reading": null,
+  "translation": "핸들에 두 손 다 올려.",
+  "audioPath": "sentence-audio/en/831.m4a"
+ },
+ "en-f00832": {
+  "before": "Do you want to ",
+  "answer": "climb",
+  "after": " the mountain with us?",
+  "reading": null,
+  "translation": "우리랑 같이 등산 갈래?",
+  "audioPath": null
+ },
+ "en-f00833": {
+  "before": "Can I ",
+  "answer": "borrow",
+  "after": " some money from you?",
+  "reading": null,
+  "translation": "돈 좀 빌릴 수 있을까?",
+  "audioPath": null
+ },
+ "en-f00834": {
+  "before": "Do you know anyone who's had plastic ",
+  "answer": "surgery",
+  "after": "?",
+  "reading": null,
+  "translation": "성형 수술 받은 사람 알아?",
+  "audioPath": null
+ },
+ "en-f00835": {
+  "before": "I don't think I ",
+  "answer": "performed",
+  "after": " well.",
+  "reading": null,
+  "translation": "나 잘 못한 것 같아.",
+  "audioPath": null
+ },
+ "en-f00836": {
+  "before": "Do these cookies have ",
+  "answer": "nuts",
+  "after": " in them?",
+  "reading": null,
+  "translation": "이 쿠키에 견과류 들어 있어요?",
+  "audioPath": "sentence-audio/en/836.m4a"
+ },
+ "en-f00837": {
+  "before": "You are a ",
+  "answer": "brave",
+  "after": " kid.",
+  "reading": null,
+  "translation": "너 참 용감한 아이구나.",
+  "audioPath": null
+ },
+ "en-f00838": {
+  "before": "Are you a ",
+  "answer": "social",
+  "after": " person?",
+  "reading": null,
+  "translation": "너 사교적인 편이야?",
+  "audioPath": null
+ },
+ "en-f00839": {
+  "before": "It was on ",
+  "answer": "sale",
+  "after": " for 20 dollars.",
+  "reading": null,
+  "translation": "할인해서 이십 달러였어.",
+  "audioPath": null
+ },
+ "en-f00840": {
+  "before": "This ",
+  "answer": "style",
+  "after": " came out last year, though.",
+  "reading": null,
+  "translation": "근데 이 스타일은 작년에 나온 거야.",
+  "audioPath": null
+ },
+ "en-f00841": {
+  "before": "I accidentally ",
+  "answer": "ripped",
+  "after": " the cover.",
+  "reading": null,
+  "translation": "실수로 표지를 찢었어.",
+  "audioPath": null
+ },
+ "en-f00842": {
+  "before": "Is there any ",
+  "answer": "trace",
+  "after": " of the missing child?",
+  "reading": null,
+  "translation": "실종된 아이 흔적은 좀 찾았어?",
+  "audioPath": "sentence-audio/en/842.m4a"
+ },
+ "en-f00843": {
+  "before": "I have no ",
+  "answer": "desire",
+  "after": " to stay here.",
+  "reading": null,
+  "translation": "여기 있고 싶은 마음 전혀 없어.",
+  "audioPath": "sentence-audio/en/843.m4a"
+ },
+ "en-f00844": {
+  "before": "It's a calendar with all the ",
+  "answer": "community",
+  "after": " events on it.",
+  "reading": null,
+  "translation": "지역 행사가 다 나와 있는 달력이야.",
+  "audioPath": null
+ },
+ "en-f00845": {
+  "before": "Oh, the ink is spilled on the ",
+  "answer": "desk",
+  "after": ".",
+  "reading": null,
+  "translation": "앗, 책상에 잉크 쏟았다.",
+  "audioPath": null
+ },
+ "en-f00846": {
+  "before": "Hello, does my room have internet ",
+  "answer": "access",
+  "after": "?",
+  "reading": null,
+  "translation": "안녕하세요, 제 방에서 인터넷 접속 되나요?",
+  "audioPath": null
+ },
+ "en-f00847": {
+  "before": "It's just a policy of ",
+  "answer": "ours",
+  "after": ".",
+  "reading": null,
+  "translation": "그냥 저희 방침이에요.",
+  "audioPath": null
+ },
+ "en-f00848": {
+  "before": "Can you ",
+  "answer": "arrange",
+  "after": " a tour for us?",
+  "reading": null,
+  "translation": "저희 관광 일정 좀 잡아 주실 수 있어요?",
+  "audioPath": null
+ },
+ "en-f00849": {
+  "before": "How do you ",
+  "answer": "spell",
+  "after": " your last name?",
+  "reading": null,
+  "translation": "성 철자가 어떻게 되세요?",
+  "audioPath": null
+ },
+ "en-f00850": {
+  "before": "There's a program on ",
+  "answer": "ancient",
+  "after": " Egypt tonight.",
+  "reading": null,
+  "translation": "오늘 밤에 고대 이집트에 관한 프로그램 해.",
+  "audioPath": null
+ },
+ "en-f00851": {
+  "before": "Yeah, it has no ",
+  "answer": "value",
+  "after": " at all.",
+  "reading": null,
+  "translation": "응, 그거 아무 가치도 없어.",
+  "audioPath": null
+ },
+ "en-f00852": {
+  "before": "Did I ",
+  "answer": "scare",
+  "after": " you?",
+  "reading": null,
+  "translation": "나 때문에 놀랐어?",
+  "audioPath": null
+ },
+ "en-f00853": {
+  "before": "Can you ",
+  "answer": "direct",
+  "after": " me to the elevator?",
+  "reading": null,
+  "translation": "엘리베이터 가는 길 좀 알려 주시겠어요?",
+  "audioPath": null
+ },
+ "en-f00854": {
+  "before": "I must make up for the ",
+  "answer": "loss",
+  "after": ".",
+  "reading": null,
+  "translation": "그 손실을 메워야 해.",
+  "audioPath": "sentence-audio/en/854.m4a"
+ },
+ "en-f00855": {
+  "before": "What's the ",
+  "answer": "chef",
+  "after": "'s specialty?",
+  "reading": null,
+  "translation": "셰프 추천 요리가 뭐예요?",
+  "audioPath": null
+ },
+ "en-f00856": {
+  "before": "Would you like rice with your ",
+  "answer": "meal",
+  "after": "?",
+  "reading": null,
+  "translation": "식사에 밥도 같이 드릴까요?",
+  "audioPath": null
+ },
+ "en-f00857": {
+  "before": "I won't ",
+  "answer": "sacrifice",
+  "after": " my health in order to get money.",
+  "reading": null,
+  "translation": "돈 벌자고 건강을 희생하진 않을 거야.",
+  "audioPath": null
+ },
+ "en-f00858": {
+  "before": "I need to make a ",
+  "answer": "statement",
+  "after": " at the police station.",
+  "reading": null,
+  "translation": "경찰서에 가서 진술해야 해.",
+  "audioPath": null
+ },
+ "en-f00859": {
+  "before": "I was ",
+  "answer": "kidnapped",
+  "after": " when I was three.",
+  "reading": null,
+  "translation": "나 세 살 때 납치당했었어.",
+  "audioPath": "sentence-audio/en/859.m4a"
+ },
+ "en-f00860": {
+  "before": "A twist of ",
+  "answer": "fate",
+  "after": " brought us together.",
+  "reading": null,
+  "translation": "운명의 장난이 우리를 만나게 했어.",
+  "audioPath": null
+ },
+ "en-f00861": {
+  "before": "You were ",
+  "answer": "spying",
+  "after": " on me, weren't you?",
+  "reading": null,
+  "translation": "너 나 몰래 엿보고 있었지?",
+  "audioPath": null
+ },
+ "en-f00862": {
+  "before": "Have you seen any good movies ",
+  "answer": "lately",
+  "after": "?",
+  "reading": null,
+  "translation": "요즘 좋은 영화 본 거 있어?",
+  "audioPath": null
+ },
+ "en-f00863": {
+  "before": "He is a hard ",
+  "answer": "worker",
+  "after": ".",
+  "reading": null,
+  "translation": "그 사람 정말 열심히 일해.",
+  "audioPath": null
+ },
+ "en-f00864": {
+  "before": "What's the weight ",
+  "answer": "limit",
+  "after": "?",
+  "reading": null,
+  "translation": "무게 제한이 얼마예요?",
+  "audioPath": null
+ },
+ "en-f00865": {
+  "before": "Are there any ",
+  "answer": "tours",
+  "after": " of the city?",
+  "reading": null,
+  "translation": "시내 관광 투어 있어요?",
+  "audioPath": "sentence-audio/en/865.m4a"
+ },
+ "en-f00866": {
+  "before": "You don't need to wear anything ",
+  "answer": "fancy",
+  "after": ".",
+  "reading": null,
+  "translation": "화려하게 차려입을 필요 없어.",
+  "audioPath": "sentence-audio/en/866.m4a"
+ },
+ "en-f00867": {
+  "before": "It's nice and ",
+  "answer": "bright",
+  "after": " today, isn't it?",
+  "reading": null,
+  "translation": "오늘 날씨 화창하고 좋다, 그치?",
+  "audioPath": null
+ },
+ "en-f00868": {
+  "before": "I feel ",
+  "answer": "lonely",
+  "after": " when you're not here.",
+  "reading": null,
+  "translation": "네가 없으면 외로워.",
+  "audioPath": "sentence-audio/en/868.m4a"
+ },
+ "en-f00869": {
+  "before": "We are short of ",
+  "answer": "staff",
+  "after": " today.",
+  "reading": null,
+  "translation": "오늘 직원이 부족해요.",
+  "audioPath": null
+ },
+ "en-f00870": {
+  "before": "I don't make idle ",
+  "answer": "threats",
+  "after": ".",
+  "reading": null,
+  "translation": "난 빈말로 협박 안 해.",
+  "audioPath": null
+ },
+ "en-f00871": {
+  "before": "I've called you a ",
+  "answer": "thousand",
+  "after": " times.",
+  "reading": null,
+  "translation": "너한테 전화 천 번은 했어.",
+  "audioPath": null
+ },
+ "en-f00872": {
+  "before": "I didn't know you ",
+  "answer": "biked",
+  "after": " to work.",
+  "reading": null,
+  "translation": "너 자전거로 출근하는 줄 몰랐어.",
+  "audioPath": null
+ },
+ "en-f00873": {
+  "before": "We sat at the table in ",
+  "answer": "silence",
+  "after": ".",
+  "reading": null,
+  "translation": "우리는 말없이 식탁에 앉아 있었어.",
+  "audioPath": "sentence-audio/en/873.m4a"
+ },
+ "en-f00874": {
+  "before": "Money can't buy ",
+  "answer": "happiness",
+  "after": " and health.",
+  "reading": null,
+  "translation": "돈으로 행복과 건강은 못 사.",
+  "audioPath": null
+ },
+ "en-f00875": {
+  "before": "Fifty families live in this ",
+  "answer": "tiny",
+  "after": " village.",
+  "reading": null,
+  "translation": "이 작은 마을에 오십 가구가 살아.",
+  "audioPath": "sentence-audio/en/875.m4a"
+ },
+ "en-f00876": {
+  "before": "Don't you think he is ",
+  "answer": "handsome",
+  "after": "?",
+  "reading": null,
+  "translation": "그 사람 잘생긴 것 같지 않아?",
+  "audioPath": null
+ },
+ "en-f00877": {
+  "before": "What do you think of the new ",
+  "answer": "mayor",
+  "after": "?",
+  "reading": null,
+  "translation": "새 시장 어떻게 생각해?",
+  "audioPath": null
+ },
+ "en-f00878": {
+  "before": "I can't ",
+  "answer": "deny",
+  "after": " that.",
+  "reading": null,
+  "translation": "그건 부인 못 하지.",
+  "audioPath": null
+ },
+ "en-f00879": {
+  "before": "All the prices are on the ",
+  "answer": "site",
+  "after": ".",
+  "reading": null,
+  "translation": "가격은 전부 사이트에 나와 있어.",
+  "audioPath": "sentence-audio/en/879.m4a"
+ },
+ "en-f00880": {
+  "before": "We ",
+  "answer": "require",
+  "after": " a jacket and tie.",
+  "reading": null,
+  "translation": "재킷과 넥타이를 착용하셔야 합니다.",
+  "audioPath": null
+ },
+ "en-f00881": {
+  "before": "We're running out of office ",
+  "answer": "supplies",
+  "after": ".",
+  "reading": null,
+  "translation": "사무용품이 다 떨어져 가.",
+  "audioPath": null
+ },
+ "en-f00882": {
+  "before": "I'm ",
+  "answer": "kinda",
+  "after": " tired today.",
+  "reading": null,
+  "translation": "나 오늘 좀 피곤해.",
+  "audioPath": null
+ },
+ "en-f00883": {
+  "before": "My cousin will be the ",
+  "answer": "official",
+  "after": " photographer.",
+  "reading": null,
+  "translation": "내 사촌이 공식 사진사를 맡을 거야.",
+  "audioPath": null
+ },
+ "en-f00885": {
+  "before": "It's ",
+  "answer": "freezing",
+  "after": " in here!",
+  "reading": null,
+  "translation": "여기 완전 얼어 죽겠다!",
+  "audioPath": null
+ },
+ "en-f00886": {
+  "before": "Can you ",
+  "answer": "lower",
+  "after": " the price further?",
+  "reading": null,
+  "translation": "가격 좀 더 낮춰 주실 수 있어요?",
+  "audioPath": null
+ },
+ "en-f00887": {
+  "before": "I ",
+  "answer": "struggle",
+  "after": " with organization and time management.",
+  "reading": null,
+  "translation": "나는 정리랑 시간 관리가 힘들어.",
+  "audioPath": null
+ },
+ "en-f00888": {
+  "before": "The ",
+  "answer": "weather",
+  "after": " has been terrible this week.",
+  "reading": null,
+  "translation": "이번 주 날씨 진짜 별로였어.",
+  "audioPath": null
+ },
+ "en-f00889": {
+  "before": "Our ",
+  "answer": "nation",
+  "after": " is very fond of baseball.",
+  "reading": null,
+  "translation": "우리나라는 야구를 정말 좋아해.",
+  "audioPath": "sentence-audio/en/889.m4a"
+ },
+ "en-f00890": {
+  "before": "This is how a ",
+  "answer": "holiday",
+  "after": " should be.",
+  "reading": null,
+  "translation": "휴가는 이래야지.",
+  "audioPath": null
+ },
+ "en-f00891": {
+  "before": "Do I have to pay in ",
+  "answer": "advance",
+  "after": "?",
+  "reading": null,
+  "translation": "미리 내야 하나요?",
+  "audioPath": null
+ },
+ "en-f00892": {
+  "before": "You look very ",
+  "answer": "professional",
+  "after": " in the suit.",
+  "reading": null,
+  "translation": "정장 입으니까 되게 전문가 같아 보여.",
+  "audioPath": null
+ },
+ "en-f00893": {
+  "before": "Don't ",
+  "answer": "curse",
+  "after": " in front of the children.",
+  "reading": null,
+  "translation": "애들 앞에서 욕하지 마.",
+  "audioPath": "sentence-audio/en/893.m4a"
+ },
+ "en-f00894": {
+  "before": "What did you ",
+  "answer": "argue",
+  "after": " about?",
+  "reading": null,
+  "translation": "뭐 때문에 싸웠어?",
+  "audioPath": null
+ },
+ "en-f00895": {
+  "before": "I have a right to ",
+  "answer": "defend",
+  "after": " myself.",
+  "reading": null,
+  "translation": "나도 나 자신을 방어할 권리가 있어.",
+  "audioPath": "sentence-audio/en/895.m4a"
+ },
+ "en-f00896": {
+  "before": "I heard it from a reliable ",
+  "answer": "source",
+  "after": ".",
+  "reading": null,
+  "translation": "믿을 만한 데서 들었어.",
+  "audioPath": "sentence-audio/en/896.m4a"
+ },
+ "en-f00897": {
+  "before": "Can you ",
+  "answer": "mark",
+  "after": " that on your calendar?",
+  "reading": null,
+  "translation": "그거 달력에 표시해 줄래?",
+  "audioPath": null
+ },
+ "en-f00898": {
+  "before": "I have the ",
+  "answer": "authority",
+  "after": " to do this.",
+  "reading": null,
+  "translation": "나한테 이걸 할 권한이 있어.",
+  "audioPath": "sentence-audio/en/898.m4a"
+ },
+ "en-f00899": {
+  "before": "I've been learning to play go ",
+  "answer": "recently",
+  "after": ".",
+  "reading": null,
+  "translation": "요즘 바둑 배우고 있어.",
+  "audioPath": null
+ },
+ "en-f00900": {
+  "before": "I would like to ",
+  "answer": "transfer",
+  "after": " some money.",
+  "reading": null,
+  "translation": "돈 좀 이체하고 싶은데요.",
+  "audioPath": null
+ },
+ "en-f00901": {
+  "before": "How ",
+  "answer": "slowly",
+  "after": " you drive!",
+  "reading": null,
+  "translation": "너 운전 진짜 느리게 한다!",
+  "audioPath": null
+ },
+ "en-f00902": {
+  "before": "Did you have a good ",
+  "answer": "journey",
+  "after": "?",
+  "reading": null,
+  "translation": "오시는 길은 편하셨어요?",
+  "audioPath": null
+ },
+ "en-f00903": {
+  "before": "Could you ",
+  "answer": "please",
+  "after": " drive a little faster?",
+  "reading": null,
+  "translation": "좀 더 빨리 가 주시겠어요?",
+  "audioPath": null
+ },
+ "en-f00904": {
+  "before": "It's 20 ",
+  "answer": "degrees",
+  "after": " below zero now.",
+  "reading": null,
+  "translation": "지금 영하 이십 도야.",
+  "audioPath": null
+ },
+ "en-f00905": {
+  "before": "I like doing aerobics in my ",
+  "answer": "spare",
+  "after": " time.",
+  "reading": null,
+  "translation": "난 여가 시간에 에어로빅하는 걸 좋아해.",
+  "audioPath": null
+ },
+ "en-f00906": {
+  "before": "Are you saying that I'm a ",
+  "answer": "liar",
+  "after": "?",
+  "reading": null,
+  "translation": "지금 나보고 거짓말쟁이라는 거야?",
+  "audioPath": "sentence-audio/en/906.m4a"
+ },
+ "en-f00907": {
+  "before": "You can ",
+  "answer": "easily",
+  "after": " download it from their website.",
+  "reading": null,
+  "translation": "그쪽 웹사이트에서 쉽게 내려받을 수 있어.",
+  "audioPath": null
+ },
+ "en-f00908": {
+  "before": "They came to our ",
+  "answer": "rescue",
+  "after": " at once.",
+  "reading": null,
+  "translation": "그 사람들이 바로 우리를 구하러 왔어.",
+  "audioPath": "sentence-audio/en/908.m4a"
+ },
+ "en-f00909": {
+  "before": "How long do you ",
+  "answer": "intend",
+  "after": " to stay?",
+  "reading": null,
+  "translation": "얼마나 머무실 예정이세요?",
+  "audioPath": null
+ },
+ "en-f00910": {
+  "before": "What you decided to do is ",
+  "answer": "insane",
+  "after": ".",
+  "reading": null,
+  "translation": "네가 하기로 한 건 미친 짓이야.",
+  "audioPath": "sentence-audio/en/910.m4a"
+ },
+ "en-f00911": {
+  "before": "Failure is the mother of ",
+  "answer": "success",
+  "after": ".",
+  "reading": null,
+  "translation": "실패는 성공의 어머니야.",
+  "audioPath": null
+ },
+ "en-f00912": {
+  "before": "The ",
+  "answer": "toilet",
+  "after": " doesn't flush.",
+  "reading": null,
+  "translation": "변기 물이 안 내려가요.",
+  "audioPath": null
+ },
+ "en-f00913": {
+  "before": "I have a ",
+  "answer": "giant",
+  "after": " stuffed panda bear.",
+  "reading": null,
+  "translation": "나 엄청 큰 판다 인형 있어.",
+  "audioPath": "sentence-audio/en/913.m4a"
+ },
+ "en-f00914": {
+  "before": "I've got a temperature and my ",
+  "answer": "stomach",
+  "after": " hurts.",
+  "reading": null,
+  "translation": "열도 나고 배도 아파.",
+  "audioPath": null
+ },
+ "en-f00915": {
+  "before": "You should face the ",
+  "answer": "reality",
+  "after": ".",
+  "reading": null,
+  "translation": "현실을 직시해야 해.",
+  "audioPath": null
+ },
+ "en-f00916": {
+  "before": "It's ",
+  "answer": "basically",
+  "after": " a very strong espresso.",
+  "reading": null,
+  "translation": "한마디로 아주 진한 에스프레소야.",
+  "audioPath": null
+ },
+ "en-f00917": {
+  "before": "I have a sharp pain in my ",
+  "answer": "chest",
+  "after": ".",
+  "reading": null,
+  "translation": "가슴이 찌르는 듯이 아파요.",
+  "audioPath": null
+ },
+ "en-f00918": {
+  "before": "I'm the new ",
+  "answer": "assistant",
+  "after": " in the office.",
+  "reading": null,
+  "translation": "저 사무실에 새로 온 보조 직원이에요.",
+  "audioPath": null
+ },
+ "en-f00919": {
+  "before": "The meaning of this ",
+  "answer": "sentence",
+  "after": " is obscure.",
+  "reading": null,
+  "translation": "이 문장은 뜻이 모호해.",
+  "audioPath": "sentence-audio/en/919.m4a"
+ },
+ "en-f00920": {
+  "before": "I'd like to have my ",
+  "answer": "nails",
+  "after": " manicured.",
+  "reading": null,
+  "translation": "손톱 관리 받고 싶어요.",
+  "audioPath": null
+ },
+ "en-f00922": {
+  "before": "I think a ",
+  "answer": "medium",
+  "after": " one will do.",
+  "reading": null,
+  "translation": "중간 사이즈면 될 것 같아요.",
+  "audioPath": null
+ },
+ "en-f00923": {
+  "before": "Bacteria are invisible to the ",
+  "answer": "naked",
+  "after": " eye.",
+  "reading": null,
+  "translation": "세균은 맨눈으로는 안 보여.",
+  "audioPath": "sentence-audio/en/923.m4a"
+ },
+ "en-f00924": {
+  "before": "What's the best ",
+  "answer": "cure",
+  "after": " for a hangover?",
+  "reading": null,
+  "translation": "숙취에는 뭐가 제일 좋아?",
+  "audioPath": "sentence-audio/en/924.m4a"
+ },
+ "en-f00927": {
+  "before": "The truth is that it ",
+  "answer": "disgusts",
+  "after": " me.",
+  "reading": null,
+  "translation": "솔직히 그게 역겨워.",
+  "audioPath": "sentence-audio/en/927.m4a"
+ },
+ "en-f00928": {
+  "before": "Wherever there is light, there is ",
+  "answer": "shadow",
+  "after": ".",
+  "reading": null,
+  "translation": "빛이 있는 곳엔 그림자가 있어.",
+  "audioPath": "sentence-audio/en/928.m4a"
+ },
+ "en-f00929": {
+  "before": "You can be such a ",
+  "answer": "jerk",
+  "after": " sometimes.",
+  "reading": null,
+  "translation": "너 가끔 진짜 밉상이야.",
+  "audioPath": "sentence-audio/en/929.m4a"
+ },
+ "en-f00930": {
+  "before": "I'm in a good ",
+  "answer": "mood",
+  "after": " today, actually.",
+  "reading": null,
+  "translation": "사실 나 오늘 기분 좋아.",
+  "audioPath": null
+ },
+ "en-f00931": {
+  "before": "Wow, what is in this chicken ",
+  "answer": "dish",
+  "after": "?",
+  "reading": null,
+  "translation": "와, 이 닭 요리에 뭐 들어간 거야?",
+  "audioPath": null
+ },
+ "en-f00932": {
+  "before": "Do you have to work the night ",
+  "answer": "shift",
+  "after": "?",
+  "reading": null,
+  "translation": "야간 근무 해야 해?",
+  "audioPath": null
+ },
+ "en-f00933": {
+  "before": "I've got to ",
+  "answer": "cancel",
+  "after": " my traveling plan.",
+  "reading": null,
+  "translation": "여행 계획 취소해야겠어.",
+  "audioPath": null
+ },
+ "en-f00934": {
+  "before": "It is a ",
+  "answer": "safety",
+  "after": " rule of the company.",
+  "reading": null,
+  "translation": "회사 안전 규칙이에요.",
+  "audioPath": null
+ },
+ "en-f00935": {
+  "before": "I'm not a tech ",
+  "answer": "genius",
+  "after": " like you.",
+  "reading": null,
+  "translation": "나는 너처럼 기계 천재가 아니야.",
+  "audioPath": "sentence-audio/en/935.m4a"
+ },
+ "en-f00936": {
+  "before": "I'll have it if you ",
+  "answer": "insist",
+  "after": ".",
+  "reading": null,
+  "translation": "정 그렇다면 먹을게.",
+  "audioPath": null
+ },
+ "en-f00937": {
+  "before": "I want to ",
+  "answer": "develop",
+  "after": " some useful skills.",
+  "reading": null,
+  "translation": "쓸모 있는 기술 좀 키우고 싶어.",
+  "audioPath": null
+ },
+ "en-f00938": {
+  "before": "Did you play ",
+  "answer": "football",
+  "after": " with other children?",
+  "reading": null,
+  "translation": "다른 애들이랑 축구했어?",
+  "audioPath": null
+ },
+ "en-f00939": {
+  "before": "We will ",
+  "answer": "inform",
+  "after": " you as soon as possible.",
+  "reading": null,
+  "translation": "최대한 빨리 알려 드리겠습니다.",
+  "audioPath": null
+ },
+ "en-f00940": {
+  "before": "It's a ",
+  "answer": "miracle",
+  "after": " that I'm still alive.",
+  "reading": null,
+  "translation": "내가 아직 살아 있다니 기적이야.",
+  "audioPath": "sentence-audio/en/940.m4a"
+ },
+ "en-f00941": {
+  "before": "I ",
+  "answer": "object",
+  "after": " to being treated like that.",
+  "reading": null,
+  "translation": "그런 대접 받는 건 싫어.",
+  "audioPath": "sentence-audio/en/941.m4a"
+ },
+ "en-f00942": {
+  "before": "Lost in ",
+  "answer": "thought",
+  "after": ", I missed my stop.",
+  "reading": null,
+  "translation": "생각에 빠져서 내릴 정거장을 놓쳤어.",
+  "audioPath": "sentence-audio/en/942.m4a"
+ },
+ "en-f00943": {
+  "before": "My ",
+  "answer": "schedule",
+  "after": " right now is quite busy.",
+  "reading": null,
+  "translation": "요즘 일정이 꽤 바빠.",
+  "audioPath": null
+ },
+ "en-f00944": {
+  "before": "I could make a ",
+  "answer": "fortune",
+  "after": " doing this.",
+  "reading": null,
+  "translation": "이거 하면 떼돈 벌 수 있겠다.",
+  "audioPath": "sentence-audio/en/944.m4a"
+ },
+ "en-f00946": {
+  "before": "Why this ",
+  "answer": "sudden",
+  "after": " change?",
+  "reading": null,
+  "translation": "왜 갑자기 바뀐 거야?",
+  "audioPath": null
+ },
+ "en-f00948": {
+  "before": "Our soccer team has a good ",
+  "answer": "defense",
+  "after": ".",
+  "reading": null,
+  "translation": "우리 축구팀은 수비가 좋아.",
+  "audioPath": "sentence-audio/en/948.m4a"
+ },
+ "en-f00949": {
+  "before": "That can be a ",
+  "answer": "rough",
+  "after": " job, you know.",
+  "reading": null,
+  "translation": "그거 꽤 힘든 일일 수도 있어.",
+  "audioPath": null
+ },
+ "en-f00950": {
+  "before": "They ",
+  "answer": "accused",
+  "after": " me of taking the money.",
+  "reading": null,
+  "translation": "그 사람들이 내가 돈을 가져갔다고 몰아세웠어.",
+  "audioPath": "sentence-audio/en/950.m4a"
+ },
+ "en-f00951": {
+  "before": "Please pull your ",
+  "answer": "vehicle",
+  "after": " over to the side of the road.",
+  "reading": null,
+  "translation": "차를 길가에 세워 주세요.",
+  "audioPath": null
+ },
+ "en-f00952": {
+  "before": "Despite our ",
+  "answer": "efforts",
+  "after": ", we failed after all.",
+  "reading": null,
+  "translation": "그렇게 노력했는데 결국 실패했어.",
+  "audioPath": "sentence-audio/en/952.m4a"
+ },
+ "en-f00953": {
+  "before": "Do you have any ",
+  "answer": "bug",
+  "after": " spray?",
+  "reading": null,
+  "translation": "벌레 퇴치 스프레이 있어?",
+  "audioPath": null
+ },
+ "en-f00954": {
+  "before": "The ",
+  "answer": "winner",
+  "after": " gets two tickets to the Sydney Olympics!",
+  "reading": null,
+  "translation": "우승자는 시드니 올림픽 표 두 장을 받아!",
+  "audioPath": null
+ },
+ "en-f00955": {
+  "before": "That's my only ",
+  "answer": "option",
+  "after": " right now.",
+  "reading": null,
+  "translation": "지금은 그게 내 유일한 방법이야.",
+  "audioPath": null
+ },
+ "en-f00956": {
+  "before": "Do we have any ",
+  "answer": "chips",
+  "after": " left?",
+  "reading": null,
+  "translation": "감자칩 남은 거 있어?",
+  "audioPath": null
+ },
+ "en-f00957": {
+  "before": "It mainly ",
+  "answer": "produces",
+  "after": " toys for children.",
+  "reading": null,
+  "translation": "거기는 주로 아이들 장난감을 만들어.",
+  "audioPath": null
+ },
+ "en-f00958": {
+  "before": "",
+  "answer": "Personally",
+  "after": ", I prefer action movies.",
+  "reading": null,
+  "translation": "개인적으로 난 액션 영화가 더 좋아.",
+  "audioPath": null
+ },
+ "en-f00959": {
+  "before": "It was an ",
+  "answer": "exciting",
+  "after": " match.",
+  "reading": null,
+  "translation": "정말 신나는 경기였어.",
+  "audioPath": null
+ },
+ "en-f00960": {
+  "before": "Is that a ",
+  "answer": "chain",
+  "after": " restaurant?",
+  "reading": null,
+  "translation": "거기 체인 식당이야?",
+  "audioPath": null
+ },
+ "en-f00961": {
+  "before": "Was I ",
+  "answer": "disturbing",
+  "after": " you?",
+  "reading": null,
+  "translation": "내가 방해했어?",
+  "audioPath": null
+ },
+ "en-f00962": {
+  "before": "The ",
+  "answer": "wire",
+  "after": " in your phone might have gotten rusty.",
+  "reading": null,
+  "translation": "전화기 안의 전선이 녹슬었을 수도 있어요.",
+  "audioPath": null
+ },
+ "en-f00963": {
+  "before": "Have you got his ",
+  "answer": "permission",
+  "after": "?",
+  "reading": null,
+  "translation": "그 사람 허락 받았어?",
+  "audioPath": null
+ },
+ "en-f00964": {
+  "before": "I'll keep my lips ",
+  "answer": "sealed",
+  "after": ".",
+  "reading": null,
+  "translation": "입 꼭 다물고 있을게.",
+  "audioPath": "sentence-audio/en/964.m4a"
+ },
+ "en-f00966": {
+  "before": "OK, just ",
+  "answer": "ignore",
+  "after": " him.",
+  "reading": null,
+  "translation": "그래, 그냥 무시해.",
+  "audioPath": null
+ },
+ "en-f00967": {
+  "before": "He can ",
+  "answer": "barely",
+  "after": " make ends meet.",
+  "reading": null,
+  "translation": "그 사람 겨우 먹고살아.",
+  "audioPath": null
+ },
+ "en-f00968": {
+  "before": "We're thinking about getting ",
+  "answer": "engaged",
+  "after": ".",
+  "reading": null,
+  "translation": "우리 약혼할까 생각 중이야.",
+  "audioPath": null
+ },
+ "en-f00969": {
+  "before": "I haven't forgotten that you ",
+  "answer": "betrayed",
+  "after": " me.",
+  "reading": null,
+  "translation": "네가 날 배신한 거 안 잊었어.",
+  "audioPath": "sentence-audio/en/969.m4a"
+ },
+ "en-f00971": {
+  "before": "We all have a ",
+  "answer": "role",
+  "after": " to play.",
+  "reading": null,
+  "translation": "우리 모두 각자 맡은 역할이 있어.",
+  "audioPath": "sentence-audio/en/971.m4a"
+ },
+ "en-f00972": {
+  "before": "Well, I'd like some ",
+  "answer": "legal",
+  "after": " advice.",
+  "reading": null,
+  "translation": "음, 법률 상담을 좀 받고 싶어요.",
+  "audioPath": null
+ },
+ "en-f00973": {
+  "before": "The only thing I want is ",
+  "answer": "revenge",
+  "after": ".",
+  "reading": null,
+  "translation": "내가 원하는 건 복수뿐이야.",
+  "audioPath": "sentence-audio/en/973.m4a"
+ },
+ "en-f00975": {
+  "before": "But the ",
+  "answer": "competition",
+  "after": " is fierce this year...",
+  "reading": null,
+  "translation": "근데 올해는 경쟁이 치열해...",
+  "audioPath": null
+ },
+ "en-f00976": {
+  "before": "This is all a ",
+  "answer": "mystery",
+  "after": " to me.",
+  "reading": null,
+  "translation": "이건 나한테 전부 수수께끼야.",
+  "audioPath": "sentence-audio/en/976.m4a"
+ },
+ "en-f00977": {
+  "before": "Do you want to live like ",
+  "answer": "slaves",
+  "after": "?",
+  "reading": null,
+  "translation": "노예처럼 살고 싶어?",
+  "audioPath": "sentence-audio/en/977.m4a"
+ },
+ "en-f00978": {
+  "before": "Can you ",
+  "answer": "describe",
+  "after": " his appearance to me?",
+  "reading": null,
+  "translation": "그 사람 생김새 좀 설명해 줄래?",
+  "audioPath": null
+ },
+ "en-f00979": {
+  "before": "What about your computer ",
+  "answer": "skills",
+  "after": "?",
+  "reading": null,
+  "translation": "컴퓨터 실력은 어때요?",
+  "audioPath": null
+ },
+ "en-f00980": {
+  "before": "He is ",
+  "answer": "likely",
+  "after": " to be late again.",
+  "reading": null,
+  "translation": "걔 또 늦을 것 같아.",
+  "audioPath": "sentence-audio/en/980.m4a"
+ },
+ "en-f00981": {
+  "before": "You really have ",
+  "answer": "talent",
+  "after": ".",
+  "reading": null,
+  "translation": "너 진짜 재능 있다.",
+  "audioPath": null
+ },
+ "en-f00982": {
+  "before": "Why would I want to ",
+  "answer": "sue",
+  "after": " you?",
+  "reading": null,
+  "translation": "내가 왜 너를 고소하겠어?",
+  "audioPath": "sentence-audio/en/982.m4a"
+ },
+ "en-f00983": {
+  "before": "The police are ",
+  "answer": "investigating",
+  "after": " what happened here.",
+  "reading": null,
+  "translation": "경찰이 여기서 무슨 일이 있었는지 수사하고 있어.",
+  "audioPath": "sentence-audio/en/983.m4a"
+ },
+ "en-f00984": {
+  "before": "He died of lung ",
+  "answer": "cancer",
+  "after": ", right?",
+  "reading": null,
+  "translation": "그분 폐암으로 돌아가셨지?",
+  "audioPath": null
+ },
+ "en-f00985": {
+  "before": "I need to exchange this ",
+  "answer": "foreign",
+  "after": " currency.",
+  "reading": null,
+  "translation": "이 외화 좀 환전해야 해요.",
+  "audioPath": null
+ },
+ "en-f00986": {
+  "before": "You have the right to an ",
+  "answer": "attorney",
+  "after": ".",
+  "reading": null,
+  "translation": "당신은 변호사를 선임할 권리가 있습니다.",
+  "audioPath": null
+ },
+ "en-f00987": {
+  "before": "Oh, you have a ",
+  "answer": "crush",
+  "after": " on someone, don't you?",
+  "reading": null,
+  "translation": "오, 너 누구 좋아하지, 그렇지?",
+  "audioPath": null
+ },
+ "en-f00988": {
+  "before": "Is there a ",
+  "answer": "mirror",
+  "after": " around here?",
+  "reading": null,
+  "translation": "이 근처에 거울 있어요?",
+  "audioPath": null
+ },
+ "en-f00989": {
+  "before": "He was the ",
+  "answer": "obvious",
+  "after": " choice.",
+  "reading": null,
+  "translation": "그 사람이 당연한 선택이었지.",
+  "audioPath": null
+ },
+ "en-f00990": {
+  "before": "She was reluctant to ",
+  "answer": "reveal",
+  "after": " her secret.",
+  "reading": null,
+  "translation": "그녀는 자기 비밀을 밝히기 꺼려했어.",
+  "audioPath": "sentence-audio/en/990.m4a"
+ },
+ "en-f00991": {
+  "before": "My ",
+  "answer": "goodness",
+  "after": ", I didn't realize it was that bad.",
+  "reading": null,
+  "translation": "세상에, 그렇게 심한 줄 몰랐어.",
+  "audioPath": null
+ },
+ "en-f00992": {
+  "before": "It is a ",
+  "answer": "quarter",
+  "after": " to twelve.",
+  "reading": null,
+  "translation": "12시 15분 전이야.",
+  "audioPath": null
+ },
+ "en-f00993": {
+  "before": "And you'll have to wear the ",
+  "answer": "cast",
+  "after": " for three weeks.",
+  "reading": null,
+  "translation": "그리고 깁스는 삼 주 동안 하셔야 해요.",
+  "audioPath": null
+ },
+ "en-f00994": {
+  "before": "What kind of ",
+  "answer": "chocolate",
+  "after": " do you want?",
+  "reading": null,
+  "translation": "어떤 초콜릿 먹고 싶어?",
+  "audioPath": null
+ },
+ "en-f00995": {
+  "before": "Wow, you are the ",
+  "answer": "expert",
+  "after": " on it.",
+  "reading": null,
+  "translation": "와, 너 그거 전문가구나.",
+  "audioPath": null
+ },
+ "en-f00996": {
+  "before": "Why didn't you ",
+  "answer": "text",
+  "after": " me last night?",
+  "reading": null,
+  "translation": "어젯밤에 왜 문자 안 했어?",
+  "audioPath": null
+ },
+ "en-f00997": {
+  "before": "I'll ",
+  "answer": "wrap",
+  "after": " it up for you now.",
+  "reading": null,
+  "translation": "지금 포장해 드릴게요.",
+  "audioPath": null
+ },
+ "en-f00998": {
+  "before": "She was ",
+  "answer": "captured",
+  "after": " trying to steal jewelry.",
+  "reading": null,
+  "translation": "그녀는 보석을 훔치려다 붙잡혔어.",
+  "audioPath": "sentence-audio/en/998.m4a"
+ }
+}

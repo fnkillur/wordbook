@@ -1,11 +1,13 @@
 import Dexie, { type EntityTable } from 'dexie'
 import type { ReviewLog, StudyCard } from '../domain/schedule'
+import { pastCoins, type CoinRecord } from '../domain/wallet'
 
 export type AudioSource = 'tts' | 'forvo' | 'mine'
 
 // 그림·발음은 노트와 따로, 바이트와 형식으로 저장한다(Blob을 그대로 넣으면 환경에 따라 형식이 사라진다).
 export type StoredMedia = { data: ArrayBuffer; type: string }
-export type MediaKind = 'image' | 'audio'
+// sentence: 빈칸 문장 카드의 문장 음성(단어 발음 audio와 따로 둔다).
+export type MediaKind = 'image' | 'audio' | 'sentence'
 export type MediaRecord = StoredMedia & { key: string }
 
 export const mediaKey = (wordId: string, kind: MediaKind) => `${wordId}:${kind}`
@@ -34,6 +36,7 @@ export const db = new Dexie('wordbook') as Dexie & {
   reviewLogs: EntityTable<ReviewLog & { id?: number }, 'id'>
   wordStates: EntityTable<WordState, 'wordId'>
   settings: EntityTable<SettingRecord, 'key'>
+  coins: EntityTable<CoinRecord, 'id'>
 }
 
 db.version(1).stores({
@@ -44,3 +47,11 @@ db.version(1).stores({
   wordStates: 'wordId, status',
   settings: 'key',
 })
+
+db.version(2)
+  .stores({ coins: 'id, kind, at' })
+  .upgrade(async transaction => {
+    const logs = await transaction.table<ReviewLog>('reviewLogs').toArray()
+    const notes = await transaction.table<Note>('notes').toArray()
+    await transaction.table<CoinRecord>('coins').bulkPut(pastCoins(logs, notes))
+  })

@@ -1,6 +1,6 @@
 import { createEmptyCard, fsrs, generatorParameters, Rating, type Card } from 'ts-fsrs'
 
-export type CardType = 'produce' | 'recognize' | 'listen' | 'spell'
+export type CardType = 'produce' | 'recognize' | 'listen' | 'spell' | 'cloze'
 export type Grade = 'again' | 'good'
 
 // ts-fsrs 카드를 IndexedDB·백업 파일에 그대로 담을 수 있게 날짜를 문자열로 바꾼 모양.
@@ -10,7 +10,7 @@ export type StudyCard = { id: string; wordId: string; type: CardType; fsrs: Fsrs
 
 export type ReviewLog = { cardId: string; grade: Grade; at: string }
 
-const TYPE_ORDER: CardType[] = ['produce', 'recognize', 'listen', 'spell']
+const TYPE_ORDER: CardType[] = ['produce', 'recognize', 'listen', 'spell', 'cloze']
 
 const scheduler = fsrs(generatorParameters({ enable_fuzz: false }))
 
@@ -31,11 +31,14 @@ const fromState = (state: FsrsState): Card => ({
   last_review: state.last_review ? new Date(state.last_review) : undefined,
 })
 
-export const newStudyCard = (wordId: string, type: CardType, now: Date): StudyCard => ({
+export const startOfNextDay = (now: Date) => new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1)
+
+// due: 처음 나올 때. 주지 않으면 만든 순간부터 나온다.
+export const newStudyCard = (wordId: string, type: CardType, now: Date, due: Date = now): StudyCard => ({
   id: `${wordId}:${type}`,
   wordId,
   type,
-  fsrs: toState(createEmptyCard(now)),
+  fsrs: toState(createEmptyCard(due)),
   createdAt: now.toISOString(),
 })
 
@@ -78,10 +81,8 @@ export const todayQueue = (cards: StudyCard[], now: Date, options: QueueOptions)
       .sort((left, right) => left.fsrs.due.localeCompare(right.fsrs.due) || TYPE_ORDER.indexOf(left.type) - TYPE_ORDER.indexOf(right.type)),
   )
 
-const endOfDay = (now: Date) => new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1)
-
 export const newWordBudget = (cards: StudyCard[], now: Date, goalMinutes: number) => {
-  const dueToday = cards.filter(card => new Date(card.fsrs.due) < endOfDay(now)).length
+  const dueToday = cards.filter(card => new Date(card.fsrs.due) < startOfNextDay(now)).length
   const remaining = goalMinutes * 60 - dueToday * REVIEW_SECONDS
   if (remaining <= 0) return 0
   return Math.min(MAX_NEW_WORDS, Math.floor(remaining / NEW_WORD_SECONDS))

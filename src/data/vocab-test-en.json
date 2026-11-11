@@ -1,0 +1,3202 @@
+[
+ {
+  "rank": 7,
+  "band": 0,
+  "set": 0,
+  "text": "well",
+  "reading": "wɛl",
+  "meaningKo": "글쎄, 잘"
+ },
+ {
+  "rank": 13,
+  "band": 0,
+  "set": 1,
+  "text": "look",
+  "reading": "lʊk",
+  "meaningKo": "보다"
+ },
+ {
+  "rank": 24,
+  "band": 0,
+  "set": 0,
+  "text": "do",
+  "reading": "du",
+  "meaningKo": "하다"
+ },
+ {
+  "rank": 38,
+  "band": 0,
+  "set": 0,
+  "text": "try",
+  "reading": "traɪ",
+  "meaningKo": "해 보다, 노력하다"
+ },
+ {
+  "rank": 42,
+  "band": 0,
+  "set": 1,
+  "text": "happen",
+  "reading": "ˈhæpən",
+  "meaningKo": "일어나다"
+ },
+ {
+  "rank": 52,
+  "band": 0,
+  "set": 1,
+  "text": "sir",
+  "reading": "sɝ",
+  "meaningKo": "선생님, 님"
+ },
+ {
+  "rank": 128,
+  "band": 0,
+  "set": 0,
+  "text": "alone",
+  "reading": "əˈloʊn",
+  "meaningKo": "혼자"
+ },
+ {
+  "rank": 200,
+  "band": 0,
+  "set": 1,
+  "text": "drop",
+  "reading": "drɑp",
+  "meaningKo": "떨어뜨리다"
+ },
+ {
+  "rank": 202,
+  "band": 0,
+  "set": 0,
+  "text": "figure",
+  "reading": "ˈfɪɡjər",
+  "meaningKo": "알아내다, 모습"
+ },
+ {
+  "rank": 232,
+  "band": 0,
+  "set": 1,
+  "text": "state",
+  "reading": "steɪt",
+  "meaningKo": "상태, 주"
+ },
+ {
+  "rank": 257,
+  "band": 0,
+  "set": 0,
+  "text": "master",
+  "reading": "ˈmæstər",
+  "meaningKo": "주인, 달인"
+ },
+ {
+  "rank": 278,
+  "band": 0,
+  "set": 0,
+  "text": "join",
+  "reading": "dʒɔɪn",
+  "meaningKo": "합류하다"
+ },
+ {
+  "rank": 330,
+  "band": 0,
+  "set": 1,
+  "text": "chief",
+  "reading": "tʃif",
+  "meaningKo": "우두머리, 서장"
+ },
+ {
+  "rank": 369,
+  "band": 0,
+  "set": 0,
+  "text": "certainly",
+  "reading": "ˈsɝtənli",
+  "meaningKo": "확실히"
+ },
+ {
+  "rank": 416,
+  "band": 0,
+  "set": 0,
+  "text": "witness",
+  "reading": "ˈwɪtnəs",
+  "meaningKo": "목격자"
+ },
+ {
+  "rank": 417,
+  "band": 0,
+  "set": 1,
+  "text": "belong",
+  "reading": "bɪˈlɔŋ",
+  "meaningKo": "속하다"
+ },
+ {
+  "rank": 452,
+  "band": 0,
+  "set": 0,
+  "text": "tough",
+  "reading": "tʌf",
+  "meaningKo": "힘든, 강한"
+ },
+ {
+  "rank": 468,
+  "band": 0,
+  "set": 1,
+  "text": "suspect",
+  "reading": "səˈspɛkt",
+  "meaningKo": "용의자, 의심하다"
+ },
+ {
+  "rank": 501,
+  "band": 0,
+  "set": 0,
+  "text": "appear",
+  "reading": "əˈpɪr",
+  "meaningKo": "나타나다"
+ },
+ {
+  "rank": 558,
+  "band": 0,
+  "set": 1,
+  "text": "usually",
+  "reading": "ˈjuʒəwəli",
+  "meaningKo": "보통"
+ },
+ {
+  "rank": 571,
+  "band": 0,
+  "set": 0,
+  "text": "stage",
+  "reading": "steɪdʒ",
+  "meaningKo": "무대, 단계"
+ },
+ {
+  "rank": 572,
+  "band": 0,
+  "set": 1,
+  "text": "angel",
+  "reading": "ˈeɪndʒəl",
+  "meaningKo": "천사"
+ },
+ {
+  "rank": 600,
+  "band": 0,
+  "set": 1,
+  "text": "feeling",
+  "reading": "ˈfilɪŋ",
+  "meaningKo": "느낌"
+ },
+ {
+  "rank": 624,
+  "band": 0,
+  "set": 1,
+  "text": "claim",
+  "reading": "kleɪm",
+  "meaningKo": "주장하다"
+ },
+ {
+  "rank": 627,
+  "band": 0,
+  "set": 1,
+  "text": "load",
+  "reading": "loʊd",
+  "meaningKo": "짐, 싣다"
+ },
+ {
+  "rank": 667,
+  "band": 0,
+  "set": 1,
+  "text": "fake",
+  "reading": "feɪk",
+  "meaningKo": "가짜"
+ },
+ {
+  "rank": 686,
+  "band": 0,
+  "set": 1,
+  "text": "willing",
+  "reading": "ˈwɪlɪŋ",
+  "meaningKo": "기꺼이 하는"
+ },
+ {
+  "rank": 710,
+  "band": 0,
+  "set": 1,
+  "text": "several",
+  "reading": "ˈsɛvrəl",
+  "meaningKo": "몇몇의"
+ },
+ {
+  "rank": 726,
+  "band": 0,
+  "set": 1,
+  "text": "possibly",
+  "reading": "ˈpɑsəbli",
+  "meaningKo": "아마도"
+ },
+ {
+  "rank": 768,
+  "band": 0,
+  "set": 0,
+  "text": "original",
+  "reading": "ərˈɪdʒənəl",
+  "meaningKo": "원래의, 원본"
+ },
+ {
+  "rank": 794,
+  "band": 0,
+  "set": 0,
+  "text": "dumb",
+  "reading": "dʌm",
+  "meaningKo": "멍청한"
+ },
+ {
+  "rank": 797,
+  "band": 0,
+  "set": 0,
+  "text": "collect",
+  "reading": "kəˈlɛkt",
+  "meaningKo": "모으다"
+ },
+ {
+  "rank": 798,
+  "band": 0,
+  "set": 1,
+  "text": "demand",
+  "reading": "dɪˈmænd",
+  "meaningKo": "요구하다"
+ },
+ {
+  "rank": 809,
+  "band": 0,
+  "set": 0,
+  "text": "afford",
+  "reading": "əˈfɔrd",
+  "meaningKo": "여유가 있다"
+ },
+ {
+  "rank": 841,
+  "band": 0,
+  "set": 0,
+  "text": "rip",
+  "reading": "rɪp",
+  "meaningKo": "찢다"
+ },
+ {
+  "rank": 862,
+  "band": 0,
+  "set": 0,
+  "text": "lately",
+  "reading": "ˈleɪtli",
+  "meaningKo": "최근에"
+ },
+ {
+  "rank": 877,
+  "band": 0,
+  "set": 0,
+  "text": "mayor",
+  "reading": "ˈmeɪər",
+  "meaningKo": "시장(市長)"
+ },
+ {
+  "rank": 898,
+  "band": 0,
+  "set": 0,
+  "text": "authority",
+  "reading": "əˈθɔrəti",
+  "meaningKo": "권한, 당국"
+ },
+ {
+  "rank": 939,
+  "band": 0,
+  "set": 1,
+  "text": "inform",
+  "reading": "ɪnˈfɔrm",
+  "meaningKo": "알리다"
+ },
+ {
+  "rank": 959,
+  "band": 0,
+  "set": 1,
+  "text": "exciting",
+  "reading": "ɪkˈsaɪtɪŋ",
+  "meaningKo": "신나는"
+ },
+ {
+  "rank": 1056,
+  "band": 1,
+  "set": 0,
+  "text": "knowledge",
+  "reading": "ˈnɑlədʒ",
+  "meaningKo": "지식"
+ },
+ {
+  "rank": 1058,
+  "band": 1,
+  "set": 1,
+  "text": "eventually",
+  "reading": "ɪˈvɛntʃəwəli",
+  "meaningKo": "결국"
+ },
+ {
+  "rank": 1079,
+  "band": 1,
+  "set": 0,
+  "text": "performance",
+  "reading": "pərˈfɔrməns",
+  "meaningKo": "공연, 성과"
+ },
+ {
+  "rank": 1086,
+  "band": 1,
+  "set": 0,
+  "text": "neighborhood",
+  "reading": "ˈneɪbərhʊd",
+  "meaningKo": "동네"
+ },
+ {
+  "rank": 1103,
+  "band": 1,
+  "set": 0,
+  "text": "drown",
+  "reading": "draʊn",
+  "meaningKo": "익사하다"
+ },
+ {
+  "rank": 1118,
+  "band": 1,
+  "set": 0,
+  "text": "regard",
+  "reading": "rɪˈɡɑrd",
+  "meaningKo": "여기다, 관련"
+ },
+ {
+  "rank": 1135,
+  "band": 1,
+  "set": 0,
+  "text": "bark",
+  "reading": "bɑrk",
+  "meaningKo": "짖다"
+ },
+ {
+  "rank": 1138,
+  "band": 1,
+  "set": 0,
+  "text": "piano",
+  "reading": "piˈænoʊ",
+  "meaningKo": "피아노"
+ },
+ {
+  "rank": 1151,
+  "band": 1,
+  "set": 0,
+  "text": "violence",
+  "reading": "ˈvaɪələns",
+  "meaningKo": "폭력"
+ },
+ {
+  "rank": 1171,
+  "band": 1,
+  "set": 1,
+  "text": "dozen",
+  "reading": "ˈdʌzən",
+  "meaningKo": "12개, 다스"
+ },
+ {
+  "rank": 1177,
+  "band": 1,
+  "set": 1,
+  "text": "lion",
+  "reading": "ˈlaɪən",
+  "meaningKo": "사자"
+ },
+ {
+  "rank": 1189,
+  "band": 1,
+  "set": 0,
+  "text": "beg",
+  "reading": "bɛɡ",
+  "meaningKo": "빌다, 애원하다"
+ },
+ {
+  "rank": 1210,
+  "band": 1,
+  "set": 0,
+  "text": "loan",
+  "reading": "loʊn",
+  "meaningKo": "대출"
+ },
+ {
+  "rank": 1223,
+  "band": 1,
+  "set": 0,
+  "text": "mostly",
+  "reading": "ˈmoʊstli",
+  "meaningKo": "대부분"
+ },
+ {
+  "rank": 1231,
+  "band": 1,
+  "set": 0,
+  "text": "vampire",
+  "reading": "ˈvæmpaɪr",
+  "meaningKo": "흡혈귀"
+ },
+ {
+  "rank": 1238,
+  "band": 1,
+  "set": 1,
+  "text": "trash",
+  "reading": "træʃ",
+  "meaningKo": "쓰레기"
+ },
+ {
+  "rank": 1285,
+  "band": 1,
+  "set": 1,
+  "text": "contain",
+  "reading": "kənˈteɪn",
+  "meaningKo": "포함하다"
+ },
+ {
+  "rank": 1288,
+  "band": 1,
+  "set": 1,
+  "text": "attitude",
+  "reading": "ˈætətud",
+  "meaningKo": "태도"
+ },
+ {
+  "rank": 1290,
+  "band": 1,
+  "set": 0,
+  "text": "negative",
+  "reading": "ˈnɛɡətɪv",
+  "meaningKo": "부정적인"
+ },
+ {
+  "rank": 1359,
+  "band": 1,
+  "set": 1,
+  "text": "stretch",
+  "reading": "strɛtʃ",
+  "meaningKo": "늘이다, 스트레칭"
+ },
+ {
+  "rank": 1362,
+  "band": 1,
+  "set": 1,
+  "text": "legend",
+  "reading": "ˈlɛdʒənd",
+  "meaningKo": "전설"
+ },
+ {
+  "rank": 1379,
+  "band": 1,
+  "set": 1,
+  "text": "prevent",
+  "reading": "prɪˈvɛnt",
+  "meaningKo": "막다"
+ },
+ {
+  "rank": 1404,
+  "band": 1,
+  "set": 0,
+  "text": "habit",
+  "reading": "ˈhæbət",
+  "meaningKo": "습관"
+ },
+ {
+  "rank": 1446,
+  "band": 1,
+  "set": 0,
+  "text": "tale",
+  "reading": "teɪl",
+  "meaningKo": "이야기"
+ },
+ {
+  "rank": 1538,
+  "band": 1,
+  "set": 0,
+  "text": "gene",
+  "reading": "dʒin",
+  "meaningKo": "유전자"
+ },
+ {
+  "rank": 1594,
+  "band": 1,
+  "set": 1,
+  "text": "collapse",
+  "reading": "kəˈlæps",
+  "meaningKo": "무너지다"
+ },
+ {
+  "rank": 1604,
+  "band": 1,
+  "set": 0,
+  "text": "tax",
+  "reading": "tæks",
+  "meaningKo": "세금"
+ },
+ {
+  "rank": 1626,
+  "band": 1,
+  "set": 0,
+  "text": "height",
+  "reading": "haɪt",
+  "meaningKo": "높이, 키"
+ },
+ {
+  "rank": 1677,
+  "band": 1,
+  "set": 1,
+  "text": "helicopter",
+  "reading": "ˈhɛlɪkɑptər",
+  "meaningKo": "헬리콥터"
+ },
+ {
+  "rank": 1698,
+  "band": 1,
+  "set": 0,
+  "text": "attractive",
+  "reading": "əˈtræktɪv",
+  "meaningKo": "매력적인"
+ },
+ {
+  "rank": 1713,
+  "band": 1,
+  "set": 1,
+  "text": "invitation",
+  "reading": "ɪnvɪˈteɪʃən",
+  "meaningKo": "초대"
+ },
+ {
+  "rank": 1734,
+  "band": 1,
+  "set": 1,
+  "text": "average",
+  "reading": "ˈævərɪdʒ",
+  "meaningKo": "평균"
+ },
+ {
+  "rank": 1745,
+  "band": 1,
+  "set": 1,
+  "text": "underground",
+  "reading": "ˈʌndərɡraʊnd",
+  "meaningKo": "지하"
+ },
+ {
+  "rank": 1765,
+  "band": 1,
+  "set": 1,
+  "text": "complex",
+  "reading": "ˈkɑmplɛks",
+  "meaningKo": "복잡한, 단지"
+ },
+ {
+  "rank": 1819,
+  "band": 1,
+  "set": 1,
+  "text": "dismiss",
+  "reading": "dɪˈsmɪs",
+  "meaningKo": "해산하다, 묵살하다"
+ },
+ {
+  "rank": 1844,
+  "band": 1,
+  "set": 1,
+  "text": "native",
+  "reading": "ˈneɪtɪv",
+  "meaningKo": "원주민, 모국의"
+ },
+ {
+  "rank": 1882,
+  "band": 1,
+  "set": 1,
+  "text": "laundry",
+  "reading": "ˈlɔndri",
+  "meaningKo": "빨래"
+ },
+ {
+  "rank": 1923,
+  "band": 1,
+  "set": 1,
+  "text": "bounce",
+  "reading": "baʊns",
+  "meaningKo": "튀다"
+ },
+ {
+  "rank": 1954,
+  "band": 1,
+  "set": 0,
+  "text": "conflict",
+  "reading": "ˈkɑnflɪkt",
+  "meaningKo": "갈등"
+ },
+ {
+  "rank": 1965,
+  "band": 1,
+  "set": 1,
+  "text": "accomplish",
+  "reading": "əˈkɑmplɪʃ",
+  "meaningKo": "성취하다"
+ },
+ {
+  "rank": 2010,
+  "band": 2,
+  "set": 1,
+  "text": "worthy",
+  "reading": "ˈwɝði",
+  "meaningKo": "가치 있는"
+ },
+ {
+  "rank": 2023,
+  "band": 2,
+  "set": 1,
+  "text": "snack",
+  "reading": "snæk",
+  "meaningKo": "간식"
+ },
+ {
+  "rank": 2044,
+  "band": 2,
+  "set": 0,
+  "text": "horror",
+  "reading": "ˈhɔrər",
+  "meaningKo": "공포"
+ },
+ {
+  "rank": 2077,
+  "band": 2,
+  "set": 0,
+  "text": "prosecutor",
+  "reading": "ˈprɑsɪkjutər",
+  "meaningKo": "검사"
+ },
+ {
+  "rank": 2088,
+  "band": 2,
+  "set": 1,
+  "text": "safely",
+  "reading": "ˈseɪfli",
+  "meaningKo": "안전하게"
+ },
+ {
+  "rank": 2111,
+  "band": 2,
+  "set": 0,
+  "text": "eternal",
+  "reading": "ɪˈtɝnəl",
+  "meaningKo": "영원한"
+ },
+ {
+  "rank": 2129,
+  "band": 2,
+  "set": 1,
+  "text": "barrel",
+  "reading": "ˈbærəl",
+  "meaningKo": "통, 배럴"
+ },
+ {
+  "rank": 2131,
+  "band": 2,
+  "set": 0,
+  "text": "stall",
+  "reading": "stɔl",
+  "meaningKo": "노점, 시간을 끌다"
+ },
+ {
+  "rank": 2141,
+  "band": 2,
+  "set": 0,
+  "text": "visitor",
+  "reading": "ˈvɪzɪtər",
+  "meaningKo": "방문객"
+ },
+ {
+  "rank": 2179,
+  "band": 2,
+  "set": 0,
+  "text": "designer",
+  "reading": "dɪˈzaɪnər",
+  "meaningKo": "디자이너"
+ },
+ {
+  "rank": 2236,
+  "band": 2,
+  "set": 0,
+  "text": "baron",
+  "reading": "ˈbærən",
+  "meaningKo": "남작"
+ },
+ {
+  "rank": 2243,
+  "band": 2,
+  "set": 1,
+  "text": "fleet",
+  "reading": "flit",
+  "meaningKo": "함대"
+ },
+ {
+  "rank": 2287,
+  "band": 2,
+  "set": 0,
+  "text": "blank",
+  "reading": "blæŋk",
+  "meaningKo": "빈칸, 텅 빈"
+ },
+ {
+  "rank": 2291,
+  "band": 2,
+  "set": 1,
+  "text": "helmet",
+  "reading": "ˈhɛlmət",
+  "meaningKo": "헬멧"
+ },
+ {
+  "rank": 2360,
+  "band": 2,
+  "set": 1,
+  "text": "drift",
+  "reading": "drɪft",
+  "meaningKo": "떠돌다"
+ },
+ {
+  "rank": 2361,
+  "band": 2,
+  "set": 0,
+  "text": "ant",
+  "reading": "ænt",
+  "meaningKo": "개미"
+ },
+ {
+  "rank": 2411,
+  "band": 2,
+  "set": 1,
+  "text": "squeak",
+  "reading": "skwik",
+  "meaningKo": "찍찍 소리"
+ },
+ {
+  "rank": 2444,
+  "band": 2,
+  "set": 1,
+  "text": "economic",
+  "reading": "ɛkəˈnɑmɪk",
+  "meaningKo": "경제의"
+ },
+ {
+  "rank": 2454,
+  "band": 2,
+  "set": 1,
+  "text": "glow",
+  "reading": "ɡloʊ",
+  "meaningKo": "빛나다"
+ },
+ {
+  "rank": 2492,
+  "band": 2,
+  "set": 0,
+  "text": "sketch",
+  "reading": "skɛtʃ",
+  "meaningKo": "스케치"
+ },
+ {
+  "rank": 2553,
+  "band": 2,
+  "set": 1,
+  "text": "trailer",
+  "reading": "ˈtreɪlər",
+  "meaningKo": "예고편, 트레일러"
+ },
+ {
+  "rank": 2588,
+  "band": 2,
+  "set": 0,
+  "text": "riot",
+  "reading": "ˈraɪət",
+  "meaningKo": "폭동"
+ },
+ {
+  "rank": 2618,
+  "band": 2,
+  "set": 0,
+  "text": "gag",
+  "reading": "ɡæɡ",
+  "meaningKo": "재갈, 개그"
+ },
+ {
+  "rank": 2632,
+  "band": 2,
+  "set": 0,
+  "text": "devote",
+  "reading": "dɪˈvoʊt",
+  "meaningKo": "바치다"
+ },
+ {
+  "rank": 2647,
+  "band": 2,
+  "set": 1,
+  "text": "soak",
+  "reading": "soʊk",
+  "meaningKo": "담그다"
+ },
+ {
+  "rank": 2656,
+  "band": 2,
+  "set": 1,
+  "text": "psycho",
+  "reading": "ˈsaɪkoʊ",
+  "meaningKo": "사이코"
+ },
+ {
+  "rank": 2664,
+  "band": 2,
+  "set": 0,
+  "text": "dining",
+  "reading": "ˈdaɪnɪŋ",
+  "meaningKo": "식사"
+ },
+ {
+  "rank": 2677,
+  "band": 2,
+  "set": 1,
+  "text": "hush",
+  "reading": "hʌʃ",
+  "meaningKo": "쉿, 조용히 하다"
+ },
+ {
+  "rank": 2681,
+  "band": 2,
+  "set": 1,
+  "text": "pancake",
+  "reading": "ˈpænkeɪk",
+  "meaningKo": "팬케이크"
+ },
+ {
+  "rank": 2689,
+  "band": 2,
+  "set": 0,
+  "text": "employ",
+  "reading": "ɛmˈplɔɪ",
+  "meaningKo": "고용하다"
+ },
+ {
+  "rank": 2730,
+  "band": 2,
+  "set": 1,
+  "text": "jaw",
+  "reading": "dʒɔ",
+  "meaningKo": "턱"
+ },
+ {
+  "rank": 2814,
+  "band": 2,
+  "set": 0,
+  "text": "rally",
+  "reading": "ˈræli",
+  "meaningKo": "집회, 다시 모이다"
+ },
+ {
+  "rank": 2866,
+  "band": 2,
+  "set": 0,
+  "text": "consume",
+  "reading": "kənˈsum",
+  "meaningKo": "소비하다"
+ },
+ {
+  "rank": 2877,
+  "band": 2,
+  "set": 1,
+  "text": "straw",
+  "reading": "strɔ",
+  "meaningKo": "빨대, 짚"
+ },
+ {
+  "rank": 2950,
+  "band": 2,
+  "set": 0,
+  "text": "almighty",
+  "reading": "ɔlˈmaɪti",
+  "meaningKo": "전능한"
+ },
+ {
+  "rank": 2957,
+  "band": 2,
+  "set": 0,
+  "text": "jewel",
+  "reading": "ˈdʒuəl",
+  "meaningKo": "보석"
+ },
+ {
+  "rank": 2962,
+  "band": 2,
+  "set": 0,
+  "text": "ransom",
+  "reading": "ˈrænsəm",
+  "meaningKo": "몸값"
+ },
+ {
+  "rank": 2975,
+  "band": 2,
+  "set": 1,
+  "text": "firework",
+  "reading": "ˈfaɪrwɝk",
+  "meaningKo": "불꽃놀이"
+ },
+ {
+  "rank": 2978,
+  "band": 2,
+  "set": 1,
+  "text": "exploit",
+  "reading": "ˈɛksplɔɪt",
+  "meaningKo": "착취하다, 공적"
+ },
+ {
+  "rank": 2990,
+  "band": 2,
+  "set": 1,
+  "text": "racist",
+  "reading": "ˈreɪsɪst",
+  "meaningKo": "인종차별주의자"
+ },
+ {
+  "rank": 3061,
+  "band": 3,
+  "set": 0,
+  "text": "bee",
+  "reading": "bi",
+  "meaningKo": "벌"
+ },
+ {
+  "rank": 3083,
+  "band": 3,
+  "set": 0,
+  "text": "ballet",
+  "reading": "bæˈleɪ",
+  "meaningKo": "발레"
+ },
+ {
+  "rank": 3090,
+  "band": 3,
+  "set": 0,
+  "text": "vicious",
+  "reading": "ˈvɪʃəs",
+  "meaningKo": "사나운"
+ },
+ {
+  "rank": 3102,
+  "band": 3,
+  "set": 0,
+  "text": "sabotage",
+  "reading": "ˈsæbətɑʒ",
+  "meaningKo": "방해 공작"
+ },
+ {
+  "rank": 3103,
+  "band": 3,
+  "set": 0,
+  "text": "architect",
+  "reading": "ˈɑrkətɛkt",
+  "meaningKo": "건축가"
+ },
+ {
+  "rank": 3112,
+  "band": 3,
+  "set": 1,
+  "text": "fare",
+  "reading": "fɛr",
+  "meaningKo": "요금"
+ },
+ {
+  "rank": 3196,
+  "band": 3,
+  "set": 0,
+  "text": "vacuum",
+  "reading": "ˈvækjum",
+  "meaningKo": "진공, 청소기"
+ },
+ {
+  "rank": 3248,
+  "band": 3,
+  "set": 1,
+  "text": "generator",
+  "reading": "ˈdʒɛnəreɪtər",
+  "meaningKo": "발전기"
+ },
+ {
+  "rank": 3270,
+  "band": 3,
+  "set": 1,
+  "text": "pastor",
+  "reading": "ˈpæstər",
+  "meaningKo": "목사"
+ },
+ {
+  "rank": 3297,
+  "band": 3,
+  "set": 0,
+  "text": "fluid",
+  "reading": "ˈfluəd",
+  "meaningKo": "액체"
+ },
+ {
+  "rank": 3300,
+  "band": 3,
+  "set": 1,
+  "text": "horizon",
+  "reading": "hərˈaɪzən",
+  "meaningKo": "수평선"
+ },
+ {
+  "rank": 3302,
+  "band": 3,
+  "set": 0,
+  "text": "perimeter",
+  "reading": "pərˈɪmətər",
+  "meaningKo": "경계선"
+ },
+ {
+  "rank": 3309,
+  "band": 3,
+  "set": 0,
+  "text": "pea",
+  "reading": "pi",
+  "meaningKo": "완두콩"
+ },
+ {
+  "rank": 3344,
+  "band": 3,
+  "set": 1,
+  "text": "organic",
+  "reading": "ɔrˈɡænɪk",
+  "meaningKo": "유기농의"
+ },
+ {
+  "rank": 3372,
+  "band": 3,
+  "set": 0,
+  "text": "parliament",
+  "reading": "ˈpɑrləmənt",
+  "meaningKo": "의회"
+ },
+ {
+  "rank": 3377,
+  "band": 3,
+  "set": 1,
+  "text": "salmon",
+  "reading": "ˈsæmən",
+  "meaningKo": "연어"
+ },
+ {
+  "rank": 3394,
+  "band": 3,
+  "set": 1,
+  "text": "fierce",
+  "reading": "fɪrs",
+  "meaningKo": "사나운, 맹렬한"
+ },
+ {
+  "rank": 3408,
+  "band": 3,
+  "set": 0,
+  "text": "consistent",
+  "reading": "kənˈsɪstənt",
+  "meaningKo": "일관된"
+ },
+ {
+  "rank": 3443,
+  "band": 3,
+  "set": 0,
+  "text": "cracker",
+  "reading": "ˈkrækər",
+  "meaningKo": "크래커"
+ },
+ {
+  "rank": 3447,
+  "band": 3,
+  "set": 0,
+  "text": "desperately",
+  "reading": "ˈdɛspərətli",
+  "meaningKo": "절박하게"
+ },
+ {
+  "rank": 3461,
+  "band": 3,
+  "set": 1,
+  "text": "intellectual",
+  "reading": "ɪntəˈlɛktʃuəl",
+  "meaningKo": "지적인"
+ },
+ {
+  "rank": 3577,
+  "band": 3,
+  "set": 0,
+  "text": "disappearance",
+  "reading": "dɪsəˈpɪrəns",
+  "meaningKo": "실종"
+ },
+ {
+  "rank": 3615,
+  "band": 3,
+  "set": 1,
+  "text": "scumbag",
+  "reading": "ˈskʌmbæɡ",
+  "meaningKo": "쓰레기 같은 놈"
+ },
+ {
+  "rank": 3657,
+  "band": 3,
+  "set": 1,
+  "text": "mentor",
+  "reading": "ˈmɛntɔr",
+  "meaningKo": "스승, 멘토"
+ },
+ {
+  "rank": 3692,
+  "band": 3,
+  "set": 1,
+  "text": "felony",
+  "reading": "ˈfɛləni",
+  "meaningKo": "중범죄"
+ },
+ {
+  "rank": 3722,
+  "band": 3,
+  "set": 1,
+  "text": "disposal",
+  "reading": "dɪˈspoʊzəl",
+  "meaningKo": "처분"
+ },
+ {
+  "rank": 3749,
+  "band": 3,
+  "set": 0,
+  "text": "extent",
+  "reading": "ɪkˈstɛnt",
+  "meaningKo": "정도, 범위"
+ },
+ {
+  "rank": 3783,
+  "band": 3,
+  "set": 0,
+  "text": "ominous",
+  "reading": "ˈɑmənəs",
+  "meaningKo": "불길한"
+ },
+ {
+  "rank": 3846,
+  "band": 3,
+  "set": 1,
+  "text": "improvement",
+  "reading": "ɪmˈpruvmənt",
+  "meaningKo": "개선"
+ },
+ {
+  "rank": 3874,
+  "band": 3,
+  "set": 1,
+  "text": "triangle",
+  "reading": "ˈtraɪæŋɡəl",
+  "meaningKo": "삼각형"
+ },
+ {
+  "rank": 3888,
+  "band": 3,
+  "set": 0,
+  "text": "arena",
+  "reading": "ərˈinə",
+  "meaningKo": "경기장"
+ },
+ {
+  "rank": 3903,
+  "band": 3,
+  "set": 1,
+  "text": "sensei",
+  "reading": "ˈsɛnseɪ",
+  "meaningKo": "선생님(일본어)"
+ },
+ {
+  "rank": 3911,
+  "band": 3,
+  "set": 1,
+  "text": "clutch",
+  "reading": "klʌtʃ",
+  "meaningKo": "움켜쥐다, 클러치"
+ },
+ {
+  "rank": 3915,
+  "band": 3,
+  "set": 1,
+  "text": "stud",
+  "reading": "stʌd",
+  "meaningKo": "징, 종마"
+ },
+ {
+  "rank": 3922,
+  "band": 3,
+  "set": 1,
+  "text": "category",
+  "reading": "ˈkætəɡɔri",
+  "meaningKo": "범주"
+ },
+ {
+  "rank": 3923,
+  "band": 3,
+  "set": 1,
+  "text": "flare",
+  "reading": "flɛr",
+  "meaningKo": "조명탄, 확 타오르다"
+ },
+ {
+  "rank": 3946,
+  "band": 3,
+  "set": 0,
+  "text": "confirmation",
+  "reading": "kɑnfərˈmeɪʃən",
+  "meaningKo": "확인"
+ },
+ {
+  "rank": 3973,
+  "band": 3,
+  "set": 0,
+  "text": "terrace",
+  "reading": "ˈtɛrəs",
+  "meaningKo": "테라스"
+ },
+ {
+  "rank": 3989,
+  "band": 3,
+  "set": 0,
+  "text": "crank",
+  "reading": "kræŋk",
+  "meaningKo": "크랭크, 괴짜"
+ },
+ {
+  "rank": 3991,
+  "band": 3,
+  "set": 1,
+  "text": "heap",
+  "reading": "hip",
+  "meaningKo": "더미"
+ },
+ {
+  "rank": 4002,
+  "band": 4,
+  "set": 0,
+  "text": "resignation",
+  "reading": "rɛzəɡˈneɪʃən",
+  "meaningKo": "사임"
+ },
+ {
+  "rank": 4029,
+  "band": 4,
+  "set": 0,
+  "text": "contractor",
+  "reading": "ˈkɑntræktər",
+  "meaningKo": "계약자, 시공업자"
+ },
+ {
+  "rank": 4045,
+  "band": 4,
+  "set": 0,
+  "text": "cartel",
+  "reading": "kɑrˈtɛl",
+  "meaningKo": "카르텔"
+ },
+ {
+  "rank": 4048,
+  "band": 4,
+  "set": 1,
+  "text": "discreet",
+  "reading": "dɪˈskrit",
+  "meaningKo": "신중한"
+ },
+ {
+  "rank": 4074,
+  "band": 4,
+  "set": 0,
+  "text": "peer",
+  "reading": "pɪr",
+  "meaningKo": "동료, 응시하다"
+ },
+ {
+  "rank": 4191,
+  "band": 4,
+  "set": 1,
+  "text": "filth",
+  "reading": "fɪlθ",
+  "meaningKo": "오물"
+ },
+ {
+  "rank": 4197,
+  "band": 4,
+  "set": 0,
+  "text": "jasmine",
+  "reading": "ˈdʒæzmən",
+  "meaningKo": "재스민"
+ },
+ {
+  "rank": 4256,
+  "band": 4,
+  "set": 1,
+  "text": "babble",
+  "reading": "ˈbæbəl",
+  "meaningKo": "옹알이하다"
+ },
+ {
+  "rank": 4282,
+  "band": 4,
+  "set": 0,
+  "text": "flute",
+  "reading": "flut",
+  "meaningKo": "플루트"
+ },
+ {
+  "rank": 4310,
+  "band": 4,
+  "set": 1,
+  "text": "compass",
+  "reading": "ˈkʌmpəs",
+  "meaningKo": "나침반"
+ },
+ {
+  "rank": 4326,
+  "band": 4,
+  "set": 1,
+  "text": "diplomatic",
+  "reading": "dɪpləˈmætɪk",
+  "meaningKo": "외교의"
+ },
+ {
+  "rank": 4335,
+  "band": 4,
+  "set": 1,
+  "text": "terrorism",
+  "reading": "ˈtɛrərɪzəm",
+  "meaningKo": "테러"
+ },
+ {
+  "rank": 4420,
+  "band": 4,
+  "set": 0,
+  "text": "underworld",
+  "reading": "ˈʌndərwɝld",
+  "meaningKo": "지하 세계"
+ },
+ {
+  "rank": 4437,
+  "band": 4,
+  "set": 0,
+  "text": "eyeball",
+  "reading": "ˈaɪbɔl",
+  "meaningKo": "눈알"
+ },
+ {
+  "rank": 4461,
+  "band": 4,
+  "set": 1,
+  "text": "convey",
+  "reading": "kənˈveɪ",
+  "meaningKo": "전달하다"
+ },
+ {
+  "rank": 4472,
+  "band": 4,
+  "set": 1,
+  "text": "gallon",
+  "reading": "ˈɡælən",
+  "meaningKo": "갤런"
+ },
+ {
+  "rank": 4483,
+  "band": 4,
+  "set": 0,
+  "text": "upload",
+  "reading": "ˈʌploʊd",
+  "meaningKo": "업로드하다"
+ },
+ {
+  "rank": 4485,
+  "band": 4,
+  "set": 1,
+  "text": "upsetting",
+  "reading": "əpˈsɛtɪŋ",
+  "meaningKo": "속상하게 하는"
+ },
+ {
+  "rank": 4527,
+  "band": 4,
+  "set": 0,
+  "text": "heritage",
+  "reading": "ˈhɛrətədʒ",
+  "meaningKo": "유산"
+ },
+ {
+  "rank": 4534,
+  "band": 4,
+  "set": 1,
+  "text": "historic",
+  "reading": "hɪˈstɔrɪk",
+  "meaningKo": "역사적인"
+ },
+ {
+  "rank": 4579,
+  "band": 4,
+  "set": 0,
+  "text": "polar",
+  "reading": "ˈpoʊlər",
+  "meaningKo": "극지의"
+ },
+ {
+  "rank": 4588,
+  "band": 4,
+  "set": 1,
+  "text": "pearl",
+  "reading": "pɝl",
+  "meaningKo": "진주"
+ },
+ {
+  "rank": 4596,
+  "band": 4,
+  "set": 0,
+  "text": "syrup",
+  "reading": "ˈsɝəp",
+  "meaningKo": "시럽"
+ },
+ {
+  "rank": 4614,
+  "band": 4,
+  "set": 1,
+  "text": "spectacle",
+  "reading": "ˈspɛktəkəl",
+  "meaningKo": "구경거리"
+ },
+ {
+  "rank": 4615,
+  "band": 4,
+  "set": 1,
+  "text": "broadcast",
+  "reading": "ˈbrɔdkæst",
+  "meaningKo": "방송"
+ },
+ {
+  "rank": 4620,
+  "band": 4,
+  "set": 0,
+  "text": "ecstasy",
+  "reading": "ˈɛkstəsi",
+  "meaningKo": "황홀감"
+ },
+ {
+  "rank": 4651,
+  "band": 4,
+  "set": 0,
+  "text": "positively",
+  "reading": "ˈpɑzətɪvli",
+  "meaningKo": "확실히, 긍정적으로"
+ },
+ {
+  "rank": 4653,
+  "band": 4,
+  "set": 0,
+  "text": "feminine",
+  "reading": "ˈfɛmənən",
+  "meaningKo": "여성스러운"
+ },
+ {
+  "rank": 4658,
+  "band": 4,
+  "set": 1,
+  "text": "vague",
+  "reading": "veɪɡ",
+  "meaningKo": "모호한"
+ },
+ {
+  "rank": 4682,
+  "band": 4,
+  "set": 0,
+  "text": "feedback",
+  "reading": "ˈfidbæk",
+  "meaningKo": "피드백"
+ },
+ {
+  "rank": 4775,
+  "band": 4,
+  "set": 1,
+  "text": "hydrogen",
+  "reading": "ˈhaɪdrədʒən",
+  "meaningKo": "수소"
+ },
+ {
+  "rank": 4834,
+  "band": 4,
+  "set": 1,
+  "text": "nun",
+  "reading": "nʌn",
+  "meaningKo": "수녀"
+ },
+ {
+  "rank": 4851,
+  "band": 4,
+  "set": 0,
+  "text": "phew",
+  "reading": "fju",
+  "meaningKo": "휴, 아이고"
+ },
+ {
+  "rank": 4864,
+  "band": 4,
+  "set": 1,
+  "text": "weeping",
+  "reading": "ˈwipɪŋ",
+  "meaningKo": "흐느끼는"
+ },
+ {
+  "rank": 4874,
+  "band": 4,
+  "set": 0,
+  "text": "hardy",
+  "reading": "ˈhɑrdi",
+  "meaningKo": "강인한"
+ },
+ {
+  "rank": 4885,
+  "band": 4,
+  "set": 0,
+  "text": "verge",
+  "reading": "vɝdʒ",
+  "meaningKo": "가장자리, 직전"
+ },
+ {
+  "rank": 4907,
+  "band": 4,
+  "set": 1,
+  "text": "civilisation",
+  "reading": "",
+  "meaningKo": "문명"
+ },
+ {
+  "rank": 4916,
+  "band": 4,
+  "set": 1,
+  "text": "telly",
+  "reading": "ˈtɛli",
+  "meaningKo": "텔레비전(영국)"
+ },
+ {
+  "rank": 4959,
+  "band": 4,
+  "set": 0,
+  "text": "leverage",
+  "reading": "ˈlɛvərɪdʒ",
+  "meaningKo": "지렛대, 영향력"
+ },
+ {
+  "rank": 4997,
+  "band": 4,
+  "set": 1,
+  "text": "stream",
+  "reading": "strim",
+  "meaningKo": "개울, 흐름"
+ },
+ {
+  "rank": 5045,
+  "band": 5,
+  "set": 0,
+  "text": "getaway",
+  "reading": "ˈɡɛtəweɪ",
+  "meaningKo": "도주, 휴양지"
+ },
+ {
+  "rank": 5073,
+  "band": 5,
+  "set": 1,
+  "text": "ramp",
+  "reading": "ræmp",
+  "meaningKo": "경사로"
+ },
+ {
+  "rank": 5115,
+  "band": 5,
+  "set": 1,
+  "text": "tighter",
+  "reading": "ˈtaɪtər",
+  "meaningKo": "더 꽉 조인"
+ },
+ {
+  "rank": 5129,
+  "band": 5,
+  "set": 0,
+  "text": "margin",
+  "reading": "ˈmɑrdʒən",
+  "meaningKo": "여백, 차이"
+ },
+ {
+  "rank": 5139,
+  "band": 5,
+  "set": 1,
+  "text": "orchid",
+  "reading": "ˈɔrkəd",
+  "meaningKo": "난초"
+ },
+ {
+  "rank": 5190,
+  "band": 5,
+  "set": 0,
+  "text": "meaningful",
+  "reading": "ˈminɪŋfəl",
+  "meaningKo": "의미 있는"
+ },
+ {
+  "rank": 5210,
+  "band": 5,
+  "set": 0,
+  "text": "eminence",
+  "reading": "ˈɛmənəns",
+  "meaningKo": "저명함, 예하"
+ },
+ {
+  "rank": 5231,
+  "band": 5,
+  "set": 0,
+  "text": "clinical",
+  "reading": "ˈklɪnəkəl",
+  "meaningKo": "임상의"
+ },
+ {
+  "rank": 5278,
+  "band": 5,
+  "set": 1,
+  "text": "hairdresser",
+  "reading": "ˈhɛrdrɛsər",
+  "meaningKo": "미용사"
+ },
+ {
+  "rank": 5299,
+  "band": 5,
+  "set": 0,
+  "text": "vibration",
+  "reading": "vaɪˈbreɪʃən",
+  "meaningKo": "진동"
+ },
+ {
+  "rank": 5312,
+  "band": 5,
+  "set": 1,
+  "text": "tangle",
+  "reading": "ˈtæŋɡəl",
+  "meaningKo": "엉키다"
+ },
+ {
+  "rank": 5326,
+  "band": 5,
+  "set": 0,
+  "text": "squid",
+  "reading": "skwɪd",
+  "meaningKo": "오징어"
+ },
+ {
+  "rank": 5352,
+  "band": 5,
+  "set": 1,
+  "text": "wiggle",
+  "reading": "ˈwɪɡəl",
+  "meaningKo": "꼼지락거리다"
+ },
+ {
+  "rank": 5414,
+  "band": 5,
+  "set": 1,
+  "text": "archaeologist",
+  "reading": "ɑrkiˈɑlədʒɪst",
+  "meaningKo": "고고학자"
+ },
+ {
+  "rank": 5416,
+  "band": 5,
+  "set": 0,
+  "text": "jab",
+  "reading": "dʒæb",
+  "meaningKo": "쿡 찌르다, 잽"
+ },
+ {
+  "rank": 5433,
+  "band": 5,
+  "set": 0,
+  "text": "overload",
+  "reading": "ˈoʊvərloʊd",
+  "meaningKo": "과부하"
+ },
+ {
+  "rank": 5441,
+  "band": 5,
+  "set": 0,
+  "text": "trample",
+  "reading": "ˈtræmpəl",
+  "meaningKo": "짓밟다"
+ },
+ {
+  "rank": 5479,
+  "band": 5,
+  "set": 1,
+  "text": "outbreak",
+  "reading": "ˈaʊtbreɪk",
+  "meaningKo": "발발, 발생"
+ },
+ {
+  "rank": 5510,
+  "band": 5,
+  "set": 1,
+  "text": "chum",
+  "reading": "tʃʌm",
+  "meaningKo": "친구"
+ },
+ {
+  "rank": 5527,
+  "band": 5,
+  "set": 1,
+  "text": "nurture",
+  "reading": "ˈnɝtʃər",
+  "meaningKo": "기르다, 양육하다"
+ },
+ {
+  "rank": 5540,
+  "band": 5,
+  "set": 1,
+  "text": "tablet",
+  "reading": "ˈtæblət",
+  "meaningKo": "태블릿, 알약"
+ },
+ {
+  "rank": 5565,
+  "band": 5,
+  "set": 0,
+  "text": "projection",
+  "reading": "prəˈdʒɛkʃən",
+  "meaningKo": "투영, 예측"
+ },
+ {
+  "rank": 5568,
+  "band": 5,
+  "set": 0,
+  "text": "fiery",
+  "reading": "ˈfaɪəri",
+  "meaningKo": "불같은"
+ },
+ {
+  "rank": 5619,
+  "band": 5,
+  "set": 0,
+  "text": "obscure",
+  "reading": "əbsˈkjʊr",
+  "meaningKo": "모호한, 무명의"
+ },
+ {
+  "rank": 5636,
+  "band": 5,
+  "set": 1,
+  "text": "insensitive",
+  "reading": "ɪnˈsɛnsətɪv",
+  "meaningKo": "무신경한"
+ },
+ {
+  "rank": 5637,
+  "band": 5,
+  "set": 0,
+  "text": "nonetheless",
+  "reading": "nʌnðəˈlɛs",
+  "meaningKo": "그럼에도 불구하고"
+ },
+ {
+  "rank": 5642,
+  "band": 5,
+  "set": 1,
+  "text": "muddy",
+  "reading": "ˈmʌdi",
+  "meaningKo": "진흙투성이의"
+ },
+ {
+  "rank": 5656,
+  "band": 5,
+  "set": 1,
+  "text": "fraction",
+  "reading": "ˈfrækʃən",
+  "meaningKo": "일부, 분수"
+ },
+ {
+  "rank": 5717,
+  "band": 5,
+  "set": 0,
+  "text": "thermal",
+  "reading": "ˈθɝməl",
+  "meaningKo": "열의"
+ },
+ {
+  "rank": 5739,
+  "band": 5,
+  "set": 1,
+  "text": "paragraph",
+  "reading": "ˈpærəɡræf",
+  "meaningKo": "단락"
+ },
+ {
+  "rank": 5743,
+  "band": 5,
+  "set": 0,
+  "text": "doorman",
+  "reading": "ˈdɔrmæn",
+  "meaningKo": "도어맨"
+ },
+ {
+  "rank": 5829,
+  "band": 5,
+  "set": 1,
+  "text": "premature",
+  "reading": "priməˈtʃʊr",
+  "meaningKo": "시기상조의"
+ },
+ {
+  "rank": 5835,
+  "band": 5,
+  "set": 1,
+  "text": "appetizer",
+  "reading": "ˈæpətaɪzər",
+  "meaningKo": "애피타이저"
+ },
+ {
+  "rank": 5839,
+  "band": 5,
+  "set": 0,
+  "text": "hurray",
+  "reading": "həˈreɪ",
+  "meaningKo": "만세"
+ },
+ {
+  "rank": 5899,
+  "band": 5,
+  "set": 0,
+  "text": "premier",
+  "reading": "prɛˈmɪr",
+  "meaningKo": "최고의, 총리"
+ },
+ {
+  "rank": 5907,
+  "band": 5,
+  "set": 1,
+  "text": "lotion",
+  "reading": "ˈloʊʃən",
+  "meaningKo": "로션"
+ },
+ {
+  "rank": 5919,
+  "band": 5,
+  "set": 1,
+  "text": "seeker",
+  "reading": "ˈsikər",
+  "meaningKo": "추구하는 사람"
+ },
+ {
+  "rank": 5920,
+  "band": 5,
+  "set": 0,
+  "text": "module",
+  "reading": "ˈmɑdʒul",
+  "meaningKo": "모듈"
+ },
+ {
+  "rank": 5925,
+  "band": 5,
+  "set": 0,
+  "text": "watchman",
+  "reading": "ˈwɑtʃmən",
+  "meaningKo": "경비원"
+ },
+ {
+  "rank": 5979,
+  "band": 5,
+  "set": 1,
+  "text": "fluffy",
+  "reading": "ˈflʌfi",
+  "meaningKo": "폭신한"
+ },
+ {
+  "rank": 6009,
+  "band": 6,
+  "set": 1,
+  "text": "underway",
+  "reading": "ʌndərˈweɪ",
+  "meaningKo": "진행 중인"
+ },
+ {
+  "rank": 6041,
+  "band": 6,
+  "set": 1,
+  "text": "junction",
+  "reading": "ˈdʒʌŋkʃən",
+  "meaningKo": "교차로"
+ },
+ {
+  "rank": 6045,
+  "band": 6,
+  "set": 1,
+  "text": "virgin",
+  "reading": "ˈvɝdʒɪn",
+  "meaningKo": "처녀, 미개척의"
+ },
+ {
+  "rank": 6048,
+  "band": 6,
+  "set": 0,
+  "text": "denounce",
+  "reading": "dɪˈnaʊns",
+  "meaningKo": "비난하다"
+ },
+ {
+  "rank": 6065,
+  "band": 6,
+  "set": 1,
+  "text": "salsa",
+  "reading": "ˈsɔlsə",
+  "meaningKo": "살사"
+ },
+ {
+  "rank": 6070,
+  "band": 6,
+  "set": 0,
+  "text": "par",
+  "reading": "pɑr",
+  "meaningKo": "기준, 파"
+ },
+ {
+  "rank": 6074,
+  "band": 6,
+  "set": 0,
+  "text": "smug",
+  "reading": "smʌɡ",
+  "meaningKo": "우쭐대는"
+ },
+ {
+  "rank": 6127,
+  "band": 6,
+  "set": 1,
+  "text": "pipeline",
+  "reading": "ˈpaɪplaɪn",
+  "meaningKo": "파이프라인"
+ },
+ {
+  "rank": 6139,
+  "band": 6,
+  "set": 0,
+  "text": "forgiving",
+  "reading": "fərˈɡɪvɪŋ",
+  "meaningKo": "너그러운"
+ },
+ {
+  "rank": 6143,
+  "band": 6,
+  "set": 0,
+  "text": "swoop",
+  "reading": "swup",
+  "meaningKo": "급습하다"
+ },
+ {
+  "rank": 6164,
+  "band": 6,
+  "set": 1,
+  "text": "crossroad",
+  "reading": "ˈkrɔsroʊd",
+  "meaningKo": "갈림길"
+ },
+ {
+  "rank": 6194,
+  "band": 6,
+  "set": 0,
+  "text": "disagreement",
+  "reading": "dɪsəˈɡrimənt",
+  "meaningKo": "의견 차이"
+ },
+ {
+  "rank": 6195,
+  "band": 6,
+  "set": 1,
+  "text": "exploration",
+  "reading": "ɛksplərˈeɪʃən",
+  "meaningKo": "탐험"
+ },
+ {
+  "rank": 6224,
+  "band": 6,
+  "set": 0,
+  "text": "dumbass",
+  "reading": "ˈdʌmbæs",
+  "meaningKo": "멍청이"
+ },
+ {
+  "rank": 6263,
+  "band": 6,
+  "set": 0,
+  "text": "mystical",
+  "reading": "ˈmɪstɪkəl",
+  "meaningKo": "신비로운"
+ },
+ {
+  "rank": 6277,
+  "band": 6,
+  "set": 1,
+  "text": "wench",
+  "reading": "wɛntʃ",
+  "meaningKo": "아가씨, 계집"
+ },
+ {
+  "rank": 6321,
+  "band": 6,
+  "set": 0,
+  "text": "complicate",
+  "reading": "ˈkɑmpləkeɪt",
+  "meaningKo": "복잡하게 하다"
+ },
+ {
+  "rank": 6347,
+  "band": 6,
+  "set": 0,
+  "text": "transparent",
+  "reading": "trænˈspɛrənt",
+  "meaningKo": "투명한"
+ },
+ {
+  "rank": 6408,
+  "band": 6,
+  "set": 0,
+  "text": "troublemaker",
+  "reading": "ˈtrʌbəlmeɪkər",
+  "meaningKo": "말썽꾼"
+ },
+ {
+  "rank": 6429,
+  "band": 6,
+  "set": 1,
+  "text": "obnoxious",
+  "reading": "ɑbˈnɑkʃəs",
+  "meaningKo": "불쾌한"
+ },
+ {
+  "rank": 6433,
+  "band": 6,
+  "set": 0,
+  "text": "exaggerated",
+  "reading": "ɪɡˈzædʒəreɪtəd",
+  "meaningKo": "과장된"
+ },
+ {
+  "rank": 6448,
+  "band": 6,
+  "set": 0,
+  "text": "amaze",
+  "reading": "əˈmeɪz",
+  "meaningKo": "놀라게 하다"
+ },
+ {
+  "rank": 6458,
+  "band": 6,
+  "set": 1,
+  "text": "distinctive",
+  "reading": "dɪˈstɪŋktɪv",
+  "meaningKo": "독특한"
+ },
+ {
+  "rank": 6466,
+  "band": 6,
+  "set": 0,
+  "text": "terrorize",
+  "reading": "ˈtɛrəraɪz",
+  "meaningKo": "공포에 떨게 하다"
+ },
+ {
+  "rank": 6490,
+  "band": 6,
+  "set": 0,
+  "text": "chaotic",
+  "reading": "keɪˈɑtɪk",
+  "meaningKo": "혼란스러운"
+ },
+ {
+  "rank": 6556,
+  "band": 6,
+  "set": 1,
+  "text": "rightly",
+  "reading": "ˈraɪtli",
+  "meaningKo": "당연히, 정당하게"
+ },
+ {
+  "rank": 6606,
+  "band": 6,
+  "set": 0,
+  "text": "rearrange",
+  "reading": "riərˈeɪndʒ",
+  "meaningKo": "재배열하다"
+ },
+ {
+  "rank": 6611,
+  "band": 6,
+  "set": 1,
+  "text": "greenhouse",
+  "reading": "ˈɡrinhaʊs",
+  "meaningKo": "온실"
+ },
+ {
+  "rank": 6679,
+  "band": 6,
+  "set": 1,
+  "text": "commentator",
+  "reading": "ˈkɑmənteɪtər",
+  "meaningKo": "해설자"
+ },
+ {
+  "rank": 6776,
+  "band": 6,
+  "set": 1,
+  "text": "accountable",
+  "reading": "əˈkaʊntəbəl",
+  "meaningKo": "책임 있는"
+ },
+ {
+  "rank": 6798,
+  "band": 6,
+  "set": 0,
+  "text": "grad",
+  "reading": "ɡræd",
+  "meaningKo": "졸업생"
+ },
+ {
+  "rank": 6829,
+  "band": 6,
+  "set": 1,
+  "text": "prestige",
+  "reading": "prɛˈstiʒ",
+  "meaningKo": "명성"
+ },
+ {
+  "rank": 6850,
+  "band": 6,
+  "set": 0,
+  "text": "violently",
+  "reading": "ˈvaɪələntli",
+  "meaningKo": "격렬하게"
+ },
+ {
+  "rank": 6860,
+  "band": 6,
+  "set": 0,
+  "text": "drench",
+  "reading": "drɛntʃ",
+  "meaningKo": "흠뻑 적시다"
+ },
+ {
+  "rank": 6883,
+  "band": 6,
+  "set": 1,
+  "text": "sanity",
+  "reading": "ˈsænəti",
+  "meaningKo": "제정신"
+ },
+ {
+  "rank": 6900,
+  "band": 6,
+  "set": 0,
+  "text": "lavender",
+  "reading": "ˈlævəndər",
+  "meaningKo": "라벤더"
+ },
+ {
+  "rank": 6917,
+  "band": 6,
+  "set": 1,
+  "text": "fireball",
+  "reading": "ˈfaɪərbɔl",
+  "meaningKo": "불덩이"
+ },
+ {
+  "rank": 6925,
+  "band": 6,
+  "set": 1,
+  "text": "compression",
+  "reading": "kəmˈprɛʃən",
+  "meaningKo": "압축"
+ },
+ {
+  "rank": 6931,
+  "band": 6,
+  "set": 1,
+  "text": "pantry",
+  "reading": "ˈpæntri",
+  "meaningKo": "식료품 저장실"
+ },
+ {
+  "rank": 6957,
+  "band": 6,
+  "set": 1,
+  "text": "dangerously",
+  "reading": "ˈdeɪndʒərəsli",
+  "meaningKo": "위험하게"
+ },
+ {
+  "rank": 7015,
+  "band": 7,
+  "set": 1,
+  "text": "horseback",
+  "reading": "ˈhɔrsbæk",
+  "meaningKo": "말을 탄"
+ },
+ {
+  "rank": 7027,
+  "band": 7,
+  "set": 0,
+  "text": "aeroplane",
+  "reading": "",
+  "meaningKo": "비행기(영국)"
+ },
+ {
+  "rank": 7028,
+  "band": 7,
+  "set": 1,
+  "text": "ideology",
+  "reading": "aɪdiˈɑlədʒi",
+  "meaningKo": "이념"
+ },
+ {
+  "rank": 7029,
+  "band": 7,
+  "set": 0,
+  "text": "racism",
+  "reading": "ˈreɪsɪzəm",
+  "meaningKo": "인종차별"
+ },
+ {
+  "rank": 7056,
+  "band": 7,
+  "set": 1,
+  "text": "compassionate",
+  "reading": "kəmˈpæʃənət",
+  "meaningKo": "동정심 많은"
+ },
+ {
+  "rank": 7078,
+  "band": 7,
+  "set": 1,
+  "text": "edible",
+  "reading": "ˈɛdəbəl",
+  "meaningKo": "먹을 수 있는"
+ },
+ {
+  "rank": 7100,
+  "band": 7,
+  "set": 0,
+  "text": "harden",
+  "reading": "ˈhɑrdən",
+  "meaningKo": "굳히다"
+ },
+ {
+  "rank": 7105,
+  "band": 7,
+  "set": 1,
+  "text": "binocular",
+  "reading": "bəˈnɑkjələr",
+  "meaningKo": "쌍안경"
+ },
+ {
+  "rank": 7125,
+  "band": 7,
+  "set": 1,
+  "text": "housekeeping",
+  "reading": "ˈhaʊskipɪŋ",
+  "meaningKo": "살림, 객실 청소"
+ },
+ {
+  "rank": 7184,
+  "band": 7,
+  "set": 1,
+  "text": "investigative",
+  "reading": "ɪnˈvɛstəɡeɪtɪv",
+  "meaningKo": "수사의"
+ },
+ {
+  "rank": 7203,
+  "band": 7,
+  "set": 0,
+  "text": "postmortem",
+  "reading": "poʊstˈmɔrtɛm",
+  "meaningKo": "부검"
+ },
+ {
+  "rank": 7249,
+  "band": 7,
+  "set": 0,
+  "text": "impostor",
+  "reading": "ɪmˈpɔstər",
+  "meaningKo": "사기꾼"
+ },
+ {
+  "rank": 7333,
+  "band": 7,
+  "set": 0,
+  "text": "carefree",
+  "reading": "ˈkɛrfri",
+  "meaningKo": "근심 없는"
+ },
+ {
+  "rank": 7338,
+  "band": 7,
+  "set": 0,
+  "text": "caterer",
+  "reading": "ˈkeɪtərər",
+  "meaningKo": "출장 요리사"
+ },
+ {
+  "rank": 7374,
+  "band": 7,
+  "set": 1,
+  "text": "bleak",
+  "reading": "blik",
+  "meaningKo": "암울한"
+ },
+ {
+  "rank": 7399,
+  "band": 7,
+  "set": 0,
+  "text": "deity",
+  "reading": "ˈdiəti",
+  "meaningKo": "신"
+ },
+ {
+  "rank": 7412,
+  "band": 7,
+  "set": 1,
+  "text": "manipulation",
+  "reading": "mənɪpjəˈleɪʃən",
+  "meaningKo": "조작"
+ },
+ {
+  "rank": 7418,
+  "band": 7,
+  "set": 0,
+  "text": "maxim",
+  "reading": "ˈmæksəm",
+  "meaningKo": "격언"
+ },
+ {
+  "rank": 7466,
+  "band": 7,
+  "set": 1,
+  "text": "proximity",
+  "reading": "prɑkˈsɪməti",
+  "meaningKo": "근접"
+ },
+ {
+  "rank": 7484,
+  "band": 7,
+  "set": 1,
+  "text": "pointer",
+  "reading": "ˈpɔɪntər",
+  "meaningKo": "포인터, 조언"
+ },
+ {
+  "rank": 7499,
+  "band": 7,
+  "set": 0,
+  "text": "fabricate",
+  "reading": "ˈfæbrəkeɪt",
+  "meaningKo": "조작하다, 지어내다"
+ },
+ {
+  "rank": 7568,
+  "band": 7,
+  "set": 0,
+  "text": "trustee",
+  "reading": "trʌˈsti",
+  "meaningKo": "이사, 수탁자"
+ },
+ {
+  "rank": 7607,
+  "band": 7,
+  "set": 1,
+  "text": "paparazzi",
+  "reading": "pɑpɑˈrɔzi",
+  "meaningKo": "파파라치"
+ },
+ {
+  "rank": 7612,
+  "band": 7,
+  "set": 0,
+  "text": "museum",
+  "reading": "mjuˈziəm",
+  "meaningKo": "박물관"
+ },
+ {
+  "rank": 7629,
+  "band": 7,
+  "set": 1,
+  "text": "unimportant",
+  "reading": "ənɪmˈpɔrtənt",
+  "meaningKo": "중요하지 않은"
+ },
+ {
+  "rank": 7667,
+  "band": 7,
+  "set": 0,
+  "text": "definitive",
+  "reading": "dɪˈfɪnɪtɪv",
+  "meaningKo": "결정적인"
+ },
+ {
+  "rank": 7700,
+  "band": 7,
+  "set": 1,
+  "text": "bargaining",
+  "reading": "ˈbɑrɡɪnɪŋ",
+  "meaningKo": "협상"
+ },
+ {
+  "rank": 7701,
+  "band": 7,
+  "set": 0,
+  "text": "coastal",
+  "reading": "ˈkoʊstəl",
+  "meaningKo": "해안의"
+ },
+ {
+  "rank": 7731,
+  "band": 7,
+  "set": 1,
+  "text": "residential",
+  "reading": "rɛzɪˈdɛnʃəl",
+  "meaningKo": "주거의"
+ },
+ {
+  "rank": 7743,
+  "band": 7,
+  "set": 0,
+  "text": "gourmet",
+  "reading": "ˈɡʊrmeɪ",
+  "meaningKo": "미식가"
+ },
+ {
+  "rank": 7754,
+  "band": 7,
+  "set": 0,
+  "text": "accelerator",
+  "reading": "ækˈsɛləreɪtər",
+  "meaningKo": "가속 페달"
+ },
+ {
+  "rank": 7761,
+  "band": 7,
+  "set": 0,
+  "text": "pathway",
+  "reading": "ˈpæθweɪ",
+  "meaningKo": "길"
+ },
+ {
+  "rank": 7762,
+  "band": 7,
+  "set": 1,
+  "text": "showdown",
+  "reading": "ˈʃoʊdaʊn",
+  "meaningKo": "결전"
+ },
+ {
+  "rank": 7838,
+  "band": 7,
+  "set": 1,
+  "text": "frail",
+  "reading": "freɪl",
+  "meaningKo": "허약한"
+ },
+ {
+  "rank": 7867,
+  "band": 7,
+  "set": 0,
+  "text": "structural",
+  "reading": "ˈstrʌktʃərəl",
+  "meaningKo": "구조적인"
+ },
+ {
+  "rank": 7878,
+  "band": 7,
+  "set": 0,
+  "text": "dementia",
+  "reading": "dɪˈmɛnʃiə",
+  "meaningKo": "치매"
+ },
+ {
+  "rank": 7884,
+  "band": 7,
+  "set": 1,
+  "text": "jangle",
+  "reading": "ˈdʒæŋɡəl",
+  "meaningKo": "딸랑거리다"
+ },
+ {
+  "rank": 7900,
+  "band": 7,
+  "set": 1,
+  "text": "copyright",
+  "reading": "ˈkɑpiraɪt",
+  "meaningKo": "저작권"
+ },
+ {
+  "rank": 7962,
+  "band": 7,
+  "set": 1,
+  "text": "maturity",
+  "reading": "məˈtʃʊrəti",
+  "meaningKo": "성숙"
+ },
+ {
+  "rank": 7967,
+  "band": 7,
+  "set": 0,
+  "text": "mysteriously",
+  "reading": "mɪˈstɪriəsli",
+  "meaningKo": "이상하게"
+ },
+ {
+  "rank": 8037,
+  "band": 8,
+  "set": 1,
+  "text": "crummy",
+  "reading": "ˈkrʌmi",
+  "meaningKo": "형편없는"
+ },
+ {
+  "rank": 8071,
+  "band": 8,
+  "set": 1,
+  "text": "reconnaissance",
+  "reading": "riˈkɑnəsəns",
+  "meaningKo": "정찰"
+ },
+ {
+  "rank": 8076,
+  "band": 8,
+  "set": 0,
+  "text": "intentional",
+  "reading": "ɪnˈtɛnʃənəl",
+  "meaningKo": "의도적인"
+ },
+ {
+  "rank": 8138,
+  "band": 8,
+  "set": 0,
+  "text": "lush",
+  "reading": "lʌʃ",
+  "meaningKo": "무성한"
+ },
+ {
+  "rank": 8141,
+  "band": 8,
+  "set": 0,
+  "text": "washroom",
+  "reading": "ˈwɑʃrum",
+  "meaningKo": "화장실"
+ },
+ {
+  "rank": 8182,
+  "band": 8,
+  "set": 1,
+  "text": "daze",
+  "reading": "deɪz",
+  "meaningKo": "멍한 상태"
+ },
+ {
+  "rank": 8210,
+  "band": 8,
+  "set": 1,
+  "text": "novice",
+  "reading": "ˈnɑvəs",
+  "meaningKo": "초보자"
+ },
+ {
+  "rank": 8225,
+  "band": 8,
+  "set": 0,
+  "text": "contamination",
+  "reading": "kəntæməˈneɪʃən",
+  "meaningKo": "오염"
+ },
+ {
+  "rank": 8251,
+  "band": 8,
+  "set": 1,
+  "text": "mambo",
+  "reading": "ˈmɑmboʊ",
+  "meaningKo": "맘보"
+ },
+ {
+  "rank": 8272,
+  "band": 8,
+  "set": 0,
+  "text": "flack",
+  "reading": "flæk",
+  "meaningKo": "비난, 대공포"
+ },
+ {
+  "rank": 8292,
+  "band": 8,
+  "set": 0,
+  "text": "vogue",
+  "reading": "voʊɡ",
+  "meaningKo": "유행"
+ },
+ {
+  "rank": 8300,
+  "band": 8,
+  "set": 0,
+  "text": "pellet",
+  "reading": "ˈpɛlət",
+  "meaningKo": "알갱이"
+ },
+ {
+  "rank": 8346,
+  "band": 8,
+  "set": 0,
+  "text": "pester",
+  "reading": "ˈpɛstər",
+  "meaningKo": "괴롭히다"
+ },
+ {
+  "rank": 8353,
+  "band": 8,
+  "set": 1,
+  "text": "glaze",
+  "reading": "ɡleɪz",
+  "meaningKo": "유약, 윤기를 내다"
+ },
+ {
+  "rank": 8357,
+  "band": 8,
+  "set": 0,
+  "text": "unheard",
+  "reading": "ənˈhɝd",
+  "meaningKo": "전례 없는"
+ },
+ {
+  "rank": 8389,
+  "band": 8,
+  "set": 0,
+  "text": "snip",
+  "reading": "snɪp",
+  "meaningKo": "싹둑 자르다"
+ },
+ {
+  "rank": 8468,
+  "band": 8,
+  "set": 1,
+  "text": "vandalism",
+  "reading": "ˈvændəlɪzəm",
+  "meaningKo": "기물 파손"
+ },
+ {
+  "rank": 8486,
+  "band": 8,
+  "set": 1,
+  "text": "unimaginable",
+  "reading": "ʌnɪˈmædʒɪnəbəl",
+  "meaningKo": "상상도 못 할"
+ },
+ {
+  "rank": 8487,
+  "band": 8,
+  "set": 1,
+  "text": "vulnerability",
+  "reading": "vʌlnərəˈbɪlɪti",
+  "meaningKo": "취약성"
+ },
+ {
+  "rank": 8489,
+  "band": 8,
+  "set": 0,
+  "text": "dehydrate",
+  "reading": "dɪˈhaɪdreɪt",
+  "meaningKo": "탈수시키다"
+ },
+ {
+  "rank": 8532,
+  "band": 8,
+  "set": 0,
+  "text": "blockade",
+  "reading": "blɑˈkeɪd",
+  "meaningKo": "봉쇄"
+ },
+ {
+  "rank": 8561,
+  "band": 8,
+  "set": 1,
+  "text": "barley",
+  "reading": "ˈbɑrli",
+  "meaningKo": "보리"
+ },
+ {
+  "rank": 8595,
+  "band": 8,
+  "set": 0,
+  "text": "provocative",
+  "reading": "proʊˈvɑkətɪv",
+  "meaningKo": "도발적인"
+ },
+ {
+  "rank": 8604,
+  "band": 8,
+  "set": 0,
+  "text": "bloodstream",
+  "reading": "ˈblʌdstrim",
+  "meaningKo": "혈류"
+ },
+ {
+  "rank": 8633,
+  "band": 8,
+  "set": 0,
+  "text": "dealership",
+  "reading": "ˈdilərʃɪp",
+  "meaningKo": "대리점"
+ },
+ {
+  "rank": 8644,
+  "band": 8,
+  "set": 1,
+  "text": "atone",
+  "reading": "əˈtoʊn",
+  "meaningKo": "속죄하다"
+ },
+ {
+  "rank": 8649,
+  "band": 8,
+  "set": 1,
+  "text": "improper",
+  "reading": "ɪmˈprɑpər",
+  "meaningKo": "부적절한"
+ },
+ {
+  "rank": 8722,
+  "band": 8,
+  "set": 1,
+  "text": "resistant",
+  "reading": "rɪˈzɪstənt",
+  "meaningKo": "저항력 있는"
+ },
+ {
+  "rank": 8750,
+  "band": 8,
+  "set": 1,
+  "text": "solicit",
+  "reading": "səˈlɪsɪt",
+  "meaningKo": "간청하다"
+ },
+ {
+  "rank": 8772,
+  "band": 8,
+  "set": 0,
+  "text": "amputate",
+  "reading": "ˈæmpjəteɪt",
+  "meaningKo": "절단하다"
+ },
+ {
+  "rank": 8799,
+  "band": 8,
+  "set": 0,
+  "text": "musketeer",
+  "reading": "mʌskəˈtir",
+  "meaningKo": "총사"
+ },
+ {
+  "rank": 8822,
+  "band": 8,
+  "set": 1,
+  "text": "encyclopedia",
+  "reading": "ɪnsaɪkləˈpidiə",
+  "meaningKo": "백과사전"
+ },
+ {
+  "rank": 8840,
+  "band": 8,
+  "set": 0,
+  "text": "nostalgic",
+  "reading": "nɔˈstældʒɪk",
+  "meaningKo": "향수를 불러일으키는"
+ },
+ {
+  "rank": 8871,
+  "band": 8,
+  "set": 1,
+  "text": "deodorant",
+  "reading": "diˈoʊdərənt",
+  "meaningKo": "데오도란트"
+ },
+ {
+  "rank": 8922,
+  "band": 8,
+  "set": 1,
+  "text": "tutoring",
+  "reading": "ˈtutərɪŋ",
+  "meaningKo": "과외"
+ },
+ {
+  "rank": 8923,
+  "band": 8,
+  "set": 1,
+  "text": "emphasize",
+  "reading": "ˈɛmfəsaɪz",
+  "meaningKo": "강조하다"
+ },
+ {
+  "rank": 8931,
+  "band": 8,
+  "set": 0,
+  "text": "transcend",
+  "reading": "trænˈsɛnd",
+  "meaningKo": "초월하다"
+ },
+ {
+  "rank": 8933,
+  "band": 8,
+  "set": 0,
+  "text": "benevolent",
+  "reading": "bəˈnɛvələnt",
+  "meaningKo": "자비로운"
+ },
+ {
+  "rank": 8943,
+  "band": 8,
+  "set": 1,
+  "text": "bubbly",
+  "reading": "ˈbʌbli",
+  "meaningKo": "발랄한, 샴페인"
+ },
+ {
+  "rank": 8956,
+  "band": 8,
+  "set": 1,
+  "text": "flipper",
+  "reading": "ˈflɪpər",
+  "meaningKo": "지느러미발"
+ },
+ {
+  "rank": 9014,
+  "band": 9,
+  "set": 0,
+  "text": "manoeuvre",
+  "reading": "",
+  "meaningKo": "책략, 기동"
+ },
+ {
+  "rank": 9050,
+  "band": 9,
+  "set": 0,
+  "text": "jeweler",
+  "reading": "ˈdʒuələr",
+  "meaningKo": "보석상"
+ },
+ {
+  "rank": 9064,
+  "band": 9,
+  "set": 1,
+  "text": "sobriety",
+  "reading": "səˈbraɪəti",
+  "meaningKo": "맑은 정신, 금주"
+ },
+ {
+  "rank": 9086,
+  "band": 9,
+  "set": 0,
+  "text": "squad",
+  "reading": "skwɑd",
+  "meaningKo": "분대"
+ },
+ {
+  "rank": 9093,
+  "band": 9,
+  "set": 1,
+  "text": "messenger",
+  "reading": "ˈmɛsəndʒər",
+  "meaningKo": "전령"
+ },
+ {
+  "rank": 9098,
+  "band": 9,
+  "set": 1,
+  "text": "pulmonary",
+  "reading": "ˈpʊlmənɛri",
+  "meaningKo": "폐의"
+ },
+ {
+  "rank": 9100,
+  "band": 9,
+  "set": 0,
+  "text": "swerve",
+  "reading": "swɝv",
+  "meaningKo": "방향을 틀다"
+ },
+ {
+  "rank": 9102,
+  "band": 9,
+  "set": 1,
+  "text": "ammonia",
+  "reading": "əˈmoʊnjə",
+  "meaningKo": "암모니아"
+ },
+ {
+  "rank": 9122,
+  "band": 9,
+  "set": 0,
+  "text": "graph",
+  "reading": "ɡræf",
+  "meaningKo": "그래프"
+ },
+ {
+  "rank": 9127,
+  "band": 9,
+  "set": 0,
+  "text": "extort",
+  "reading": "ɛkˈstɔrt",
+  "meaningKo": "갈취하다"
+ },
+ {
+  "rank": 9135,
+  "band": 9,
+  "set": 1,
+  "text": "cognitive",
+  "reading": "ˈkɑɡnɪtɪv",
+  "meaningKo": "인지의"
+ },
+ {
+  "rank": 9137,
+  "band": 9,
+  "set": 0,
+  "text": "reassign",
+  "reading": "riəˈsaɪn",
+  "meaningKo": "재배치하다"
+ },
+ {
+  "rank": 9176,
+  "band": 9,
+  "set": 0,
+  "text": "fluent",
+  "reading": "ˈfluənt",
+  "meaningKo": "유창한"
+ },
+ {
+  "rank": 9198,
+  "band": 9,
+  "set": 0,
+  "text": "castrate",
+  "reading": "ˈkæstreɪt",
+  "meaningKo": "거세하다"
+ },
+ {
+  "rank": 9231,
+  "band": 9,
+  "set": 1,
+  "text": "quack",
+  "reading": "kwæk",
+  "meaningKo": "돌팔이, 꽥꽥"
+ },
+ {
+  "rank": 9250,
+  "band": 9,
+  "set": 0,
+  "text": "shrunk",
+  "reading": "ʃrʌŋk",
+  "meaningKo": "줄어든"
+ },
+ {
+  "rank": 9302,
+  "band": 9,
+  "set": 0,
+  "text": "bustle",
+  "reading": "ˈbʌsəl",
+  "meaningKo": "부산함"
+ },
+ {
+  "rank": 9322,
+  "band": 9,
+  "set": 1,
+  "text": "nightly",
+  "reading": "ˈnaɪtli",
+  "meaningKo": "매일 밤의"
+ },
+ {
+  "rank": 9339,
+  "band": 9,
+  "set": 0,
+  "text": "scrabble",
+  "reading": "ˈskræbəl",
+  "meaningKo": "스크래블, 허둥대다"
+ },
+ {
+  "rank": 9375,
+  "band": 9,
+  "set": 1,
+  "text": "cannibal",
+  "reading": "ˈkænəbəl",
+  "meaningKo": "식인종"
+ },
+ {
+  "rank": 9420,
+  "band": 9,
+  "set": 1,
+  "text": "psychosis",
+  "reading": "saɪˈkoʊsəs",
+  "meaningKo": "정신병"
+ },
+ {
+  "rank": 9440,
+  "band": 9,
+  "set": 1,
+  "text": "frigid",
+  "reading": "ˈfrɪdʒəd",
+  "meaningKo": "몹시 추운"
+ },
+ {
+  "rank": 9460,
+  "band": 9,
+  "set": 1,
+  "text": "seductive",
+  "reading": "sɪˈdʌktɪv",
+  "meaningKo": "유혹적인"
+ },
+ {
+  "rank": 9488,
+  "band": 9,
+  "set": 1,
+  "text": "brainstorm",
+  "reading": "ˈbreɪnstɔrm",
+  "meaningKo": "브레인스토밍하다"
+ },
+ {
+  "rank": 9530,
+  "band": 9,
+  "set": 0,
+  "text": "presumptuous",
+  "reading": "prɪˈzʌmptʃəwəs",
+  "meaningKo": "주제넘은"
+ },
+ {
+  "rank": 9570,
+  "band": 9,
+  "set": 0,
+  "text": "raptor",
+  "reading": "ˈræptər",
+  "meaningKo": "맹금, 랩터"
+ },
+ {
+  "rank": 9571,
+  "band": 9,
+  "set": 0,
+  "text": "thwart",
+  "reading": "θwɔrt",
+  "meaningKo": "좌절시키다"
+ },
+ {
+  "rank": 9572,
+  "band": 9,
+  "set": 1,
+  "text": "undefeated",
+  "reading": "ʌndɪˈfitɪd",
+  "meaningKo": "무패의"
+ },
+ {
+  "rank": 9590,
+  "band": 9,
+  "set": 0,
+  "text": "septic",
+  "reading": "ˈsɛptɪk",
+  "meaningKo": "패혈성의"
+ },
+ {
+  "rank": 9620,
+  "band": 9,
+  "set": 0,
+  "text": "handout",
+  "reading": "ˈhændaʊt",
+  "meaningKo": "유인물"
+ },
+ {
+  "rank": 9635,
+  "band": 9,
+  "set": 1,
+  "text": "sharper",
+  "reading": "ˈʃɑrpər",
+  "meaningKo": "더 날카로운"
+ },
+ {
+  "rank": 9777,
+  "band": 9,
+  "set": 1,
+  "text": "genome",
+  "reading": "ˈdʒinoʊm",
+  "meaningKo": "게놈"
+ },
+ {
+  "rank": 9833,
+  "band": 9,
+  "set": 1,
+  "text": "unintelligible",
+  "reading": "ʌnɪnˈtɛlədʒəbəl",
+  "meaningKo": "알아들을 수 없는"
+ },
+ {
+  "rank": 9851,
+  "band": 9,
+  "set": 1,
+  "text": "gab",
+  "reading": "ɡæb",
+  "meaningKo": "수다 떨다"
+ },
+ {
+  "rank": 9897,
+  "band": 9,
+  "set": 1,
+  "text": "crossbow",
+  "reading": "ˈkrɔsboʊ",
+  "meaningKo": "석궁"
+ },
+ {
+  "rank": 9941,
+  "band": 9,
+  "set": 1,
+  "text": "grocer",
+  "reading": "ˈɡroʊsər",
+  "meaningKo": "식료품 상인"
+ },
+ {
+  "rank": 9946,
+  "band": 9,
+  "set": 1,
+  "text": "cabinet",
+  "reading": "ˈkæbənət",
+  "meaningKo": "캐비닛, 내각"
+ },
+ {
+  "rank": 9975,
+  "band": 9,
+  "set": 0,
+  "text": "adrift",
+  "reading": "əˈdrɪft",
+  "meaningKo": "표류하는"
+ },
+ {
+  "rank": 9977,
+  "band": 9,
+  "set": 0,
+  "text": "bff",
+  "reading": "",
+  "meaningKo": "절친"
+ },
+ {
+  "rank": 9995,
+  "band": 9,
+  "set": 0,
+  "text": "thunderbolt",
+  "reading": "ˈθʌndərbɔlt",
+  "meaningKo": "벼락"
+ }
+]

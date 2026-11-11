@@ -1,0 +1,3202 @@
+[
+ {
+  "rank": 28,
+  "band": 0,
+  "set": 1,
+  "text": "もう",
+  "reading": "もう",
+  "meaningKo": "벌써, 이제"
+ },
+ {
+  "rank": 55,
+  "band": 0,
+  "set": 1,
+  "text": "いつ",
+  "reading": "いつ",
+  "meaningKo": "언제"
+ },
+ {
+  "rank": 135,
+  "band": 0,
+  "set": 1,
+  "text": "者",
+  "reading": "もの",
+  "meaningKo": "사람, 자"
+ },
+ {
+  "rank": 179,
+  "band": 0,
+  "set": 1,
+  "text": "送る",
+  "reading": "おくる",
+  "meaningKo": "보내다"
+ },
+ {
+  "rank": 206,
+  "band": 0,
+  "set": 1,
+  "text": "全員",
+  "reading": "ぜんいん",
+  "meaningKo": "전원, 모두"
+ },
+ {
+  "rank": 253,
+  "band": 0,
+  "set": 0,
+  "text": "残る",
+  "reading": "のこる",
+  "meaningKo": "남다"
+ },
+ {
+  "rank": 297,
+  "band": 0,
+  "set": 0,
+  "text": "決める",
+  "reading": "きめる",
+  "meaningKo": "정하다"
+ },
+ {
+  "rank": 353,
+  "band": 0,
+  "set": 1,
+  "text": "研究",
+  "reading": "けんきゅう",
+  "meaningKo": "연구"
+ },
+ {
+  "rank": 379,
+  "band": 0,
+  "set": 1,
+  "text": "楽しむ",
+  "reading": "たのしむ",
+  "meaningKo": "즐기다"
+ },
+ {
+  "rank": 418,
+  "band": 0,
+  "set": 1,
+  "text": "嫌い",
+  "reading": "きらい",
+  "meaningKo": "싫어함, 싫다"
+ },
+ {
+  "rank": 426,
+  "band": 0,
+  "set": 1,
+  "text": "連中",
+  "reading": "れんちゅう",
+  "meaningKo": "패거리, 녀석들"
+ },
+ {
+  "rank": 435,
+  "band": 0,
+  "set": 1,
+  "text": "犠牲",
+  "reading": "ぎせい",
+  "meaningKo": "희생"
+ },
+ {
+  "rank": 455,
+  "band": 0,
+  "set": 1,
+  "text": "弟",
+  "reading": "おとうと",
+  "meaningKo": "남동생"
+ },
+ {
+  "rank": 459,
+  "band": 0,
+  "set": 1,
+  "text": "向こう",
+  "reading": "むこう",
+  "meaningKo": "건너편, 저쪽"
+ },
+ {
+  "rank": 524,
+  "band": 0,
+  "set": 1,
+  "text": "下がる",
+  "reading": "さがる",
+  "meaningKo": "내려가다, 물러서다"
+ },
+ {
+  "rank": 530,
+  "band": 0,
+  "set": 1,
+  "text": "容疑",
+  "reading": "ようぎ",
+  "meaningKo": "혐의"
+ },
+ {
+  "rank": 531,
+  "band": 0,
+  "set": 0,
+  "text": "残り",
+  "reading": "のこり",
+  "meaningKo": "나머지"
+ },
+ {
+  "rank": 551,
+  "band": 0,
+  "set": 0,
+  "text": "まずい",
+  "reading": "まずい",
+  "meaningKo": "맛없다, 곤란하다"
+ },
+ {
+  "rank": 584,
+  "band": 0,
+  "set": 0,
+  "text": "忙しい",
+  "reading": "いそがしい",
+  "meaningKo": "바쁘다"
+ },
+ {
+  "rank": 628,
+  "band": 0,
+  "set": 0,
+  "text": "似る",
+  "reading": "にる",
+  "meaningKo": "닮다"
+ },
+ {
+  "rank": 630,
+  "band": 0,
+  "set": 0,
+  "text": "開始",
+  "reading": "かいし",
+  "meaningKo": "개시, 시작"
+ },
+ {
+  "rank": 634,
+  "band": 0,
+  "set": 0,
+  "text": "上がる",
+  "reading": "あがる",
+  "meaningKo": "오르다"
+ },
+ {
+  "rank": 655,
+  "band": 0,
+  "set": 0,
+  "text": "疲れる",
+  "reading": "つかれる",
+  "meaningKo": "지치다, 피곤하다"
+ },
+ {
+  "rank": 658,
+  "band": 0,
+  "set": 0,
+  "text": "クソ",
+  "reading": "くそ",
+  "meaningKo": "젠장, 똥"
+ },
+ {
+  "rank": 659,
+  "band": 0,
+  "set": 0,
+  "text": "ファイル",
+  "reading": "ふぁいる",
+  "meaningKo": "파일"
+ },
+ {
+  "rank": 687,
+  "band": 0,
+  "set": 0,
+  "text": "施設",
+  "reading": "しせつ",
+  "meaningKo": "시설"
+ },
+ {
+  "rank": 730,
+  "band": 0,
+  "set": 0,
+  "text": "活動",
+  "reading": "かつどう",
+  "meaningKo": "활동"
+ },
+ {
+  "rank": 732,
+  "band": 0,
+  "set": 0,
+  "text": "集める",
+  "reading": "あつめる",
+  "meaningKo": "모으다"
+ },
+ {
+  "rank": 757,
+  "band": 0,
+  "set": 0,
+  "text": "意識",
+  "reading": "いしき",
+  "meaningKo": "의식"
+ },
+ {
+  "rank": 818,
+  "band": 0,
+  "set": 0,
+  "text": "ヒーロー",
+  "reading": "ひーろー",
+  "meaningKo": "히어로, 영웅"
+ },
+ {
+  "rank": 855,
+  "band": 0,
+  "set": 0,
+  "text": "生徒",
+  "reading": "せいと",
+  "meaningKo": "학생"
+ },
+ {
+  "rank": 889,
+  "band": 0,
+  "set": 0,
+  "text": "恋",
+  "reading": "こい",
+  "meaningKo": "사랑, 연애"
+ },
+ {
+  "rank": 892,
+  "band": 0,
+  "set": 1,
+  "text": "落ち着ける",
+  "reading": "おちつける",
+  "meaningKo": "진정시키다"
+ },
+ {
+  "rank": 901,
+  "band": 0,
+  "set": 1,
+  "text": "閉じる",
+  "reading": "とじる",
+  "meaningKo": "닫다"
+ },
+ {
+  "rank": 908,
+  "band": 0,
+  "set": 0,
+  "text": "兄貴",
+  "reading": "あにき",
+  "meaningKo": "형님"
+ },
+ {
+  "rank": 929,
+  "band": 0,
+  "set": 1,
+  "text": "半",
+  "reading": "はん",
+  "meaningKo": "반, 30분"
+ },
+ {
+  "rank": 947,
+  "band": 0,
+  "set": 1,
+  "text": "実験",
+  "reading": "じっけん",
+  "meaningKo": "실험"
+ },
+ {
+  "rank": 988,
+  "band": 0,
+  "set": 1,
+  "text": "招待",
+  "reading": "しょうたい",
+  "meaningKo": "초대"
+ },
+ {
+  "rank": 998,
+  "band": 0,
+  "set": 0,
+  "text": "楽",
+  "reading": "らく",
+  "meaningKo": "편함, 쉬움"
+ },
+ {
+  "rank": 1000,
+  "band": 0,
+  "set": 1,
+  "text": "抜く",
+  "reading": "ぬく",
+  "meaningKo": "뽑다, 빼다"
+ },
+ {
+  "rank": 1024,
+  "band": 1,
+  "set": 0,
+  "text": "巨人",
+  "reading": "きょじん",
+  "meaningKo": "거인"
+ },
+ {
+  "rank": 1078,
+  "band": 1,
+  "set": 0,
+  "text": "罠",
+  "reading": "わな",
+  "meaningKo": "덫, 함정"
+ },
+ {
+  "rank": 1079,
+  "band": 1,
+  "set": 1,
+  "text": "台無し",
+  "reading": "だいなし",
+  "meaningKo": "엉망이 됨"
+ },
+ {
+  "rank": 1087,
+  "band": 1,
+  "set": 0,
+  "text": "本部",
+  "reading": "ほんぶ",
+  "meaningKo": "본부"
+ },
+ {
+  "rank": 1092,
+  "band": 1,
+  "set": 0,
+  "text": "かつて",
+  "reading": "かつて",
+  "meaningKo": "일찍이, 예전에"
+ },
+ {
+  "rank": 1105,
+  "band": 1,
+  "set": 0,
+  "text": "電気",
+  "reading": "でんき",
+  "meaningKo": "전기"
+ },
+ {
+  "rank": 1123,
+  "band": 1,
+  "set": 0,
+  "text": "イカれる",
+  "reading": "いかれる",
+  "meaningKo": "미치다, 고장 나다"
+ },
+ {
+  "rank": 1127,
+  "band": 1,
+  "set": 1,
+  "text": "タイム",
+  "reading": "たいむ",
+  "meaningKo": "타임, 시간"
+ },
+ {
+  "rank": 1219,
+  "band": 1,
+  "set": 1,
+  "text": "グループ",
+  "reading": "ぐるーぷ",
+  "meaningKo": "그룹"
+ },
+ {
+  "rank": 1257,
+  "band": 1,
+  "set": 1,
+  "text": "追い出す",
+  "reading": "おいだす",
+  "meaningKo": "쫓아내다"
+ },
+ {
+  "rank": 1315,
+  "band": 1,
+  "set": 0,
+  "text": "返事",
+  "reading": "へんじ",
+  "meaningKo": "대답, 답장"
+ },
+ {
+  "rank": 1352,
+  "band": 1,
+  "set": 0,
+  "text": "びっくり",
+  "reading": "びっくり",
+  "meaningKo": "깜짝 놀람"
+ },
+ {
+  "rank": 1423,
+  "band": 1,
+  "set": 0,
+  "text": "中尉",
+  "reading": "ちゅうい",
+  "meaningKo": "중위"
+ },
+ {
+  "rank": 1489,
+  "band": 1,
+  "set": 1,
+  "text": "別れ",
+  "reading": "わかれ",
+  "meaningKo": "이별"
+ },
+ {
+  "rank": 1497,
+  "band": 1,
+  "set": 1,
+  "text": "休暇",
+  "reading": "きゅうか",
+  "meaningKo": "휴가"
+ },
+ {
+  "rank": 1525,
+  "band": 1,
+  "set": 1,
+  "text": "思い出",
+  "reading": "おもいで",
+  "meaningKo": "추억"
+ },
+ {
+  "rank": 1531,
+  "band": 1,
+  "set": 0,
+  "text": "わずか",
+  "reading": "わずか",
+  "meaningKo": "약간, 겨우"
+ },
+ {
+  "rank": 1561,
+  "band": 1,
+  "set": 0,
+  "text": "態度",
+  "reading": "たいど",
+  "meaningKo": "태도"
+ },
+ {
+  "rank": 1577,
+  "band": 1,
+  "set": 1,
+  "text": "困難",
+  "reading": "こんなん",
+  "meaningKo": "곤란, 어려움"
+ },
+ {
+  "rank": 1582,
+  "band": 1,
+  "set": 1,
+  "text": "セキュリティ",
+  "reading": "せきゅりてぃ",
+  "meaningKo": "보안"
+ },
+ {
+  "rank": 1604,
+  "band": 1,
+  "set": 1,
+  "text": "リスク",
+  "reading": "りすく",
+  "meaningKo": "위험, 리스크"
+ },
+ {
+  "rank": 1606,
+  "band": 1,
+  "set": 0,
+  "text": "鳴る",
+  "reading": "なる",
+  "meaningKo": "울리다"
+ },
+ {
+  "rank": 1633,
+  "band": 1,
+  "set": 0,
+  "text": "種類",
+  "reading": "しゅるい",
+  "meaningKo": "종류"
+ },
+ {
+  "rank": 1646,
+  "band": 1,
+  "set": 1,
+  "text": "諜報",
+  "reading": "ちょうほう",
+  "meaningKo": "첩보"
+ },
+ {
+  "rank": 1659,
+  "band": 1,
+  "set": 1,
+  "text": "細胞",
+  "reading": "さいぼう",
+  "meaningKo": "세포"
+ },
+ {
+  "rank": 1671,
+  "band": 1,
+  "set": 1,
+  "text": "単なる",
+  "reading": "たんなる",
+  "meaningKo": "단순한"
+ },
+ {
+  "rank": 1705,
+  "band": 1,
+  "set": 1,
+  "text": "白人",
+  "reading": "はくじん",
+  "meaningKo": "백인"
+ },
+ {
+  "rank": 1742,
+  "band": 1,
+  "set": 1,
+  "text": "合図",
+  "reading": "あいず",
+  "meaningKo": "신호"
+ },
+ {
+  "rank": 1757,
+  "band": 1,
+  "set": 1,
+  "text": "夢中",
+  "reading": "むちゅう",
+  "meaningKo": "열중함"
+ },
+ {
+  "rank": 1762,
+  "band": 1,
+  "set": 1,
+  "text": "報酬",
+  "reading": "ほうしゅう",
+  "meaningKo": "보수, 보상"
+ },
+ {
+  "rank": 1768,
+  "band": 1,
+  "set": 0,
+  "text": "阻止",
+  "reading": "そし",
+  "meaningKo": "저지"
+ },
+ {
+  "rank": 1777,
+  "band": 1,
+  "set": 0,
+  "text": "悩む",
+  "reading": "なやむ",
+  "meaningKo": "고민하다"
+ },
+ {
+  "rank": 1810,
+  "band": 1,
+  "set": 1,
+  "text": "命ずる",
+  "reading": "めいずる",
+  "meaningKo": "명령하다"
+ },
+ {
+  "rank": 1861,
+  "band": 1,
+  "set": 0,
+  "text": "転送",
+  "reading": "てんそう",
+  "meaningKo": "전송"
+ },
+ {
+  "rank": 1873,
+  "band": 1,
+  "set": 0,
+  "text": "放る",
+  "reading": "ほうる",
+  "meaningKo": "던지다, 내버려 두다"
+ },
+ {
+  "rank": 1947,
+  "band": 1,
+  "set": 0,
+  "text": "助手",
+  "reading": "じょしゅ",
+  "meaningKo": "조수"
+ },
+ {
+  "rank": 1986,
+  "band": 1,
+  "set": 0,
+  "text": "撤退",
+  "reading": "てったい",
+  "meaningKo": "철수, 후퇴"
+ },
+ {
+  "rank": 1989,
+  "band": 1,
+  "set": 1,
+  "text": "当局",
+  "reading": "とうきょく",
+  "meaningKo": "당국"
+ },
+ {
+  "rank": 1998,
+  "band": 1,
+  "set": 1,
+  "text": "乗り越える",
+  "reading": "のりこえる",
+  "meaningKo": "극복하다"
+ },
+ {
+  "rank": 1999,
+  "band": 1,
+  "set": 0,
+  "text": "紳士",
+  "reading": "しんし",
+  "meaningKo": "신사"
+ },
+ {
+  "rank": 2001,
+  "band": 2,
+  "set": 0,
+  "text": "ビーチ",
+  "reading": "びーち",
+  "meaningKo": "해변"
+ },
+ {
+  "rank": 2013,
+  "band": 2,
+  "set": 1,
+  "text": "勝負",
+  "reading": "しょうぶ",
+  "meaningKo": "승부"
+ },
+ {
+  "rank": 2021,
+  "band": 2,
+  "set": 0,
+  "text": "共同",
+  "reading": "きょうどう",
+  "meaningKo": "공동"
+ },
+ {
+  "rank": 2066,
+  "band": 2,
+  "set": 1,
+  "text": "タンク",
+  "reading": "たんく",
+  "meaningKo": "탱크"
+ },
+ {
+  "rank": 2067,
+  "band": 2,
+  "set": 1,
+  "text": "勘違い",
+  "reading": "かんちがい",
+  "meaningKo": "착각"
+ },
+ {
+  "rank": 2089,
+  "band": 2,
+  "set": 1,
+  "text": "ミルク",
+  "reading": "みるく",
+  "meaningKo": "우유"
+ },
+ {
+  "rank": 2146,
+  "band": 2,
+  "set": 1,
+  "text": "種族",
+  "reading": "しゅぞく",
+  "meaningKo": "종족"
+ },
+ {
+  "rank": 2157,
+  "band": 2,
+  "set": 1,
+  "text": "屋敷",
+  "reading": "やしき",
+  "meaningKo": "저택"
+ },
+ {
+  "rank": 2303,
+  "band": 2,
+  "set": 1,
+  "text": "脅かす",
+  "reading": "おびやかす",
+  "meaningKo": "위협하다"
+ },
+ {
+  "rank": 2317,
+  "band": 2,
+  "set": 0,
+  "text": "本人",
+  "reading": "ほんにん",
+  "meaningKo": "본인"
+ },
+ {
+  "rank": 2332,
+  "band": 2,
+  "set": 0,
+  "text": "新人",
+  "reading": "しんじん",
+  "meaningKo": "신인, 신입"
+ },
+ {
+  "rank": 2351,
+  "band": 2,
+  "set": 1,
+  "text": "毎晩",
+  "reading": "まいばん",
+  "meaningKo": "매일 밤"
+ },
+ {
+  "rank": 2418,
+  "band": 2,
+  "set": 1,
+  "text": "取り組む",
+  "reading": "とりくむ",
+  "meaningKo": "몰두하다, 힘쓰다"
+ },
+ {
+  "rank": 2451,
+  "band": 2,
+  "set": 1,
+  "text": "昼食",
+  "reading": "ちゅうしょく",
+  "meaningKo": "점심 식사"
+ },
+ {
+  "rank": 2459,
+  "band": 2,
+  "set": 0,
+  "text": "笑える",
+  "reading": "わらえる",
+  "meaningKo": "웃기다, 웃을 수 있다"
+ },
+ {
+  "rank": 2464,
+  "band": 2,
+  "set": 0,
+  "text": "ジョーク",
+  "reading": "じょーく",
+  "meaningKo": "농담"
+ },
+ {
+  "rank": 2473,
+  "band": 2,
+  "set": 1,
+  "text": "レディ",
+  "reading": "れでぃ",
+  "meaningKo": "숙녀, 레이디"
+ },
+ {
+  "rank": 2477,
+  "band": 2,
+  "set": 0,
+  "text": "夜明け",
+  "reading": "よあけ",
+  "meaningKo": "새벽"
+ },
+ {
+  "rank": 2479,
+  "band": 2,
+  "set": 0,
+  "text": "立ち去る",
+  "reading": "たちさる",
+  "meaningKo": "떠나가다"
+ },
+ {
+  "rank": 2488,
+  "band": 2,
+  "set": 0,
+  "text": "電力",
+  "reading": "でんりょく",
+  "meaningKo": "전력"
+ },
+ {
+  "rank": 2499,
+  "band": 2,
+  "set": 1,
+  "text": "ペット",
+  "reading": "ぺっと",
+  "meaningKo": "반려동물"
+ },
+ {
+  "rank": 2524,
+  "band": 2,
+  "set": 1,
+  "text": "分ける",
+  "reading": "わける",
+  "meaningKo": "나누다"
+ },
+ {
+  "rank": 2552,
+  "band": 2,
+  "set": 1,
+  "text": "消防",
+  "reading": "しょうぼう",
+  "meaningKo": "소방"
+ },
+ {
+  "rank": 2567,
+  "band": 2,
+  "set": 1,
+  "text": "デブ",
+  "reading": "でぶ",
+  "meaningKo": "뚱보"
+ },
+ {
+  "rank": 2675,
+  "band": 2,
+  "set": 0,
+  "text": "拍手",
+  "reading": "はくしゅ",
+  "meaningKo": "박수"
+ },
+ {
+  "rank": 2710,
+  "band": 2,
+  "set": 0,
+  "text": "判明",
+  "reading": "はんめい",
+  "meaningKo": "판명"
+ },
+ {
+  "rank": 2722,
+  "band": 2,
+  "set": 0,
+  "text": "飼う",
+  "reading": "かう",
+  "meaningKo": "기르다"
+ },
+ {
+  "rank": 2798,
+  "band": 2,
+  "set": 1,
+  "text": "尊重",
+  "reading": "そんちょう",
+  "meaningKo": "존중"
+ },
+ {
+  "rank": 2804,
+  "band": 2,
+  "set": 1,
+  "text": "ゴールド",
+  "reading": "ごーるど",
+  "meaningKo": "금, 골드"
+ },
+ {
+  "rank": 2815,
+  "band": 2,
+  "set": 0,
+  "text": "交代",
+  "reading": "こうたい",
+  "meaningKo": "교대"
+ },
+ {
+  "rank": 2830,
+  "band": 2,
+  "set": 0,
+  "text": "ジャングル",
+  "reading": "じゃんぐる",
+  "meaningKo": "정글"
+ },
+ {
+  "rank": 2841,
+  "band": 2,
+  "set": 1,
+  "text": "匿名",
+  "reading": "とくめい",
+  "meaningKo": "익명"
+ },
+ {
+  "rank": 2887,
+  "band": 2,
+  "set": 0,
+  "text": "収容",
+  "reading": "しゅうよう",
+  "meaningKo": "수용"
+ },
+ {
+  "rank": 2892,
+  "band": 2,
+  "set": 1,
+  "text": "ドール",
+  "reading": "どーる",
+  "meaningKo": "인형"
+ },
+ {
+  "rank": 2909,
+  "band": 2,
+  "set": 0,
+  "text": "腰",
+  "reading": "こし",
+  "meaningKo": "허리"
+ },
+ {
+  "rank": 2938,
+  "band": 2,
+  "set": 1,
+  "text": "ともかく",
+  "reading": "ともかく",
+  "meaningKo": "어쨌든"
+ },
+ {
+  "rank": 2952,
+  "band": 2,
+  "set": 0,
+  "text": "伺う",
+  "reading": "うかがう",
+  "meaningKo": "여쭙다, 찾아뵙다"
+ },
+ {
+  "rank": 2975,
+  "band": 2,
+  "set": 0,
+  "text": "再会",
+  "reading": "さいかい",
+  "meaningKo": "재회"
+ },
+ {
+  "rank": 2977,
+  "band": 2,
+  "set": 0,
+  "text": "固定",
+  "reading": "こてい",
+  "meaningKo": "고정"
+ },
+ {
+  "rank": 2981,
+  "band": 2,
+  "set": 0,
+  "text": "解ける",
+  "reading": "とける",
+  "meaningKo": "풀리다, 녹다"
+ },
+ {
+  "rank": 3028,
+  "band": 3,
+  "set": 1,
+  "text": "申し出",
+  "reading": "もうしで",
+  "meaningKo": "제안, 신청"
+ },
+ {
+  "rank": 3068,
+  "band": 3,
+  "set": 1,
+  "text": "乗り込む",
+  "reading": "のりこむ",
+  "meaningKo": "올라타다, 들이닥치다"
+ },
+ {
+  "rank": 3102,
+  "band": 3,
+  "set": 0,
+  "text": "フェンス",
+  "reading": "ふぇんす",
+  "meaningKo": "울타리"
+ },
+ {
+  "rank": 3176,
+  "band": 3,
+  "set": 1,
+  "text": "変人",
+  "reading": "へんじん",
+  "meaningKo": "괴짜"
+ },
+ {
+  "rank": 3200,
+  "band": 3,
+  "set": 1,
+  "text": "データベース",
+  "reading": "でーたべーす",
+  "meaningKo": "데이터베이스"
+ },
+ {
+  "rank": 3226,
+  "band": 3,
+  "set": 0,
+  "text": "予感",
+  "reading": "よかん",
+  "meaningKo": "예감"
+ },
+ {
+  "rank": 3261,
+  "band": 3,
+  "set": 0,
+  "text": "士官",
+  "reading": "しかん",
+  "meaningKo": "장교"
+ },
+ {
+  "rank": 3271,
+  "band": 3,
+  "set": 0,
+  "text": "修道",
+  "reading": "しゅうどう",
+  "meaningKo": "수도(修道)"
+ },
+ {
+  "rank": 3279,
+  "band": 3,
+  "set": 1,
+  "text": "チェス",
+  "reading": "ちぇす",
+  "meaningKo": "체스"
+ },
+ {
+  "rank": 3286,
+  "band": 3,
+  "set": 0,
+  "text": "管制",
+  "reading": "かんせい",
+  "meaningKo": "관제"
+ },
+ {
+  "rank": 3291,
+  "band": 3,
+  "set": 0,
+  "text": "いじめる",
+  "reading": "いじめる",
+  "meaningKo": "괴롭히다"
+ },
+ {
+  "rank": 3297,
+  "band": 3,
+  "set": 1,
+  "text": "しくじる",
+  "reading": "しくじる",
+  "meaningKo": "실수하다, 망치다"
+ },
+ {
+  "rank": 3325,
+  "band": 3,
+  "set": 0,
+  "text": "プレート",
+  "reading": "ぷれーと",
+  "meaningKo": "접시, 번호판"
+ },
+ {
+  "rank": 3342,
+  "band": 3,
+  "set": 1,
+  "text": "決心",
+  "reading": "けっしん",
+  "meaningKo": "결심"
+ },
+ {
+  "rank": 3347,
+  "band": 3,
+  "set": 0,
+  "text": "酔っ払い",
+  "reading": "よっぱらい",
+  "meaningKo": "술주정뱅이"
+ },
+ {
+  "rank": 3355,
+  "band": 3,
+  "set": 0,
+  "text": "悔やみ",
+  "reading": "くやみ",
+  "meaningKo": "애도"
+ },
+ {
+  "rank": 3362,
+  "band": 3,
+  "set": 0,
+  "text": "券",
+  "reading": "けん",
+  "meaningKo": "표, 티켓"
+ },
+ {
+  "rank": 3369,
+  "band": 3,
+  "set": 1,
+  "text": "退治",
+  "reading": "たいじ",
+  "meaningKo": "퇴치"
+ },
+ {
+  "rank": 3372,
+  "band": 3,
+  "set": 1,
+  "text": "喪失",
+  "reading": "そうしつ",
+  "meaningKo": "상실"
+ },
+ {
+  "rank": 3389,
+  "band": 3,
+  "set": 1,
+  "text": "体重",
+  "reading": "たいじゅう",
+  "meaningKo": "체중"
+ },
+ {
+  "rank": 3394,
+  "band": 3,
+  "set": 1,
+  "text": "異星",
+  "reading": "いせい",
+  "meaningKo": "외계"
+ },
+ {
+  "rank": 3395,
+  "band": 3,
+  "set": 1,
+  "text": "競技",
+  "reading": "きょうぎ",
+  "meaningKo": "경기"
+ },
+ {
+  "rank": 3523,
+  "band": 3,
+  "set": 0,
+  "text": "初日",
+  "reading": "しょにち",
+  "meaningKo": "첫날"
+ },
+ {
+  "rank": 3562,
+  "band": 3,
+  "set": 0,
+  "text": "危害",
+  "reading": "きがい",
+  "meaningKo": "위해, 해"
+ },
+ {
+  "rank": 3617,
+  "band": 3,
+  "set": 1,
+  "text": "補佐",
+  "reading": "ほさ",
+  "meaningKo": "보좌"
+ },
+ {
+  "rank": 3656,
+  "band": 3,
+  "set": 1,
+  "text": "宿",
+  "reading": "やど",
+  "meaningKo": "숙소"
+ },
+ {
+  "rank": 3676,
+  "band": 3,
+  "set": 0,
+  "text": "片付く",
+  "reading": "かたづく",
+  "meaningKo": "정리되다"
+ },
+ {
+  "rank": 3702,
+  "band": 3,
+  "set": 0,
+  "text": "ブレイク",
+  "reading": "ぶれいく",
+  "meaningKo": "휴식, 브레이크"
+ },
+ {
+  "rank": 3767,
+  "band": 3,
+  "set": 0,
+  "text": "テーマ",
+  "reading": "てーま",
+  "meaningKo": "주제, 테마"
+ },
+ {
+  "rank": 3781,
+  "band": 3,
+  "set": 1,
+  "text": "配る",
+  "reading": "くばる",
+  "meaningKo": "나눠 주다"
+ },
+ {
+  "rank": 3797,
+  "band": 3,
+  "set": 0,
+  "text": "身長",
+  "reading": "しんちょう",
+  "meaningKo": "키"
+ },
+ {
+  "rank": 3801,
+  "band": 3,
+  "set": 0,
+  "text": "プラス",
+  "reading": "ぷらす",
+  "meaningKo": "플러스"
+ },
+ {
+  "rank": 3805,
+  "band": 3,
+  "set": 0,
+  "text": "一人ぼっち",
+  "reading": "ひとりぼっち",
+  "meaningKo": "외톨이"
+ },
+ {
+  "rank": 3822,
+  "band": 3,
+  "set": 1,
+  "text": "団結",
+  "reading": "だんけつ",
+  "meaningKo": "단결"
+ },
+ {
+  "rank": 3846,
+  "band": 3,
+  "set": 0,
+  "text": "不在",
+  "reading": "ふざい",
+  "meaningKo": "부재"
+ },
+ {
+  "rank": 3890,
+  "band": 3,
+  "set": 1,
+  "text": "本心",
+  "reading": "ほんしん",
+  "meaningKo": "본심"
+ },
+ {
+  "rank": 3893,
+  "band": 3,
+  "set": 0,
+  "text": "継ぐ",
+  "reading": "つぐ",
+  "meaningKo": "잇다, 물려받다"
+ },
+ {
+  "rank": 3913,
+  "band": 3,
+  "set": 1,
+  "text": "大騒ぎ",
+  "reading": "おおさわぎ",
+  "meaningKo": "큰 소동"
+ },
+ {
+  "rank": 3989,
+  "band": 3,
+  "set": 1,
+  "text": "住宅",
+  "reading": "じゅうたく",
+  "meaningKo": "주택"
+ },
+ {
+  "rank": 3999,
+  "band": 3,
+  "set": 1,
+  "text": "聴取",
+  "reading": "ちょうしゅ",
+  "meaningKo": "청취, 진술 듣기"
+ },
+ {
+  "rank": 4001,
+  "band": 4,
+  "set": 0,
+  "text": "ゆえ",
+  "reading": "ゆえ",
+  "meaningKo": "까닭, 때문"
+ },
+ {
+  "rank": 4058,
+  "band": 4,
+  "set": 1,
+  "text": "ステップ",
+  "reading": "すてっぷ",
+  "meaningKo": "단계, 스텝"
+ },
+ {
+  "rank": 4064,
+  "band": 4,
+  "set": 1,
+  "text": "石油",
+  "reading": "せきゆ",
+  "meaningKo": "석유"
+ },
+ {
+  "rank": 4093,
+  "band": 4,
+  "set": 1,
+  "text": "ドリル",
+  "reading": "どりる",
+  "meaningKo": "드릴"
+ },
+ {
+  "rank": 4094,
+  "band": 4,
+  "set": 0,
+  "text": "乞う",
+  "reading": "こう",
+  "meaningKo": "청하다, 빌다"
+ },
+ {
+  "rank": 4138,
+  "band": 4,
+  "set": 1,
+  "text": "同感",
+  "reading": "どうかん",
+  "meaningKo": "동감"
+ },
+ {
+  "rank": 4168,
+  "band": 4,
+  "set": 0,
+  "text": "ソーダ",
+  "reading": "そーだ",
+  "meaningKo": "소다"
+ },
+ {
+  "rank": 4258,
+  "band": 4,
+  "set": 0,
+  "text": "驚異",
+  "reading": "きょうい",
+  "meaningKo": "경이, 위협"
+ },
+ {
+  "rank": 4291,
+  "band": 4,
+  "set": 0,
+  "text": "演説",
+  "reading": "えんぜつ",
+  "meaningKo": "연설"
+ },
+ {
+  "rank": 4294,
+  "band": 4,
+  "set": 0,
+  "text": "見張り",
+  "reading": "みはり",
+  "meaningKo": "망보기, 감시"
+ },
+ {
+  "rank": 4298,
+  "band": 4,
+  "set": 0,
+  "text": "タコ",
+  "reading": "たこ",
+  "meaningKo": "문어"
+ },
+ {
+  "rank": 4320,
+  "band": 4,
+  "set": 1,
+  "text": "クジラ",
+  "reading": "くじら",
+  "meaningKo": "고래"
+ },
+ {
+  "rank": 4427,
+  "band": 4,
+  "set": 1,
+  "text": "ループ",
+  "reading": "るーぷ",
+  "meaningKo": "루프, 고리"
+ },
+ {
+  "rank": 4447,
+  "band": 4,
+  "set": 1,
+  "text": "何時",
+  "reading": "なんどき",
+  "meaningKo": "언제"
+ },
+ {
+  "rank": 4483,
+  "band": 4,
+  "set": 0,
+  "text": "駆除",
+  "reading": "くじょ",
+  "meaningKo": "구제, 퇴치"
+ },
+ {
+  "rank": 4495,
+  "band": 4,
+  "set": 1,
+  "text": "ロウソク",
+  "reading": "ろうそく",
+  "meaningKo": "양초"
+ },
+ {
+  "rank": 4509,
+  "band": 4,
+  "set": 1,
+  "text": "罪人",
+  "reading": "ざいにん",
+  "meaningKo": "죄인"
+ },
+ {
+  "rank": 4511,
+  "band": 4,
+  "set": 0,
+  "text": "解析",
+  "reading": "かいせき",
+  "meaningKo": "해석, 분석"
+ },
+ {
+  "rank": 4560,
+  "band": 4,
+  "set": 0,
+  "text": "分解",
+  "reading": "ぶんかい",
+  "meaningKo": "분해"
+ },
+ {
+  "rank": 4591,
+  "band": 4,
+  "set": 0,
+  "text": "適任",
+  "reading": "てきにん",
+  "meaningKo": "적임"
+ },
+ {
+  "rank": 4604,
+  "band": 4,
+  "set": 1,
+  "text": "窮地",
+  "reading": "きゅうち",
+  "meaningKo": "궁지"
+ },
+ {
+  "rank": 4617,
+  "band": 4,
+  "set": 0,
+  "text": "痛めつける",
+  "reading": "いためつける",
+  "meaningKo": "혼내 주다"
+ },
+ {
+  "rank": 4659,
+  "band": 4,
+  "set": 0,
+  "text": "ダサい",
+  "reading": "ださい",
+  "meaningKo": "촌스럽다"
+ },
+ {
+  "rank": 4677,
+  "band": 4,
+  "set": 0,
+  "text": "診療",
+  "reading": "しんりょう",
+  "meaningKo": "진료"
+ },
+ {
+  "rank": 4686,
+  "band": 4,
+  "set": 0,
+  "text": "コネ",
+  "reading": "こね",
+  "meaningKo": "연줄"
+ },
+ {
+  "rank": 4702,
+  "band": 4,
+  "set": 0,
+  "text": "自覚",
+  "reading": "じかく",
+  "meaningKo": "자각"
+ },
+ {
+  "rank": 4723,
+  "band": 4,
+  "set": 1,
+  "text": "縄",
+  "reading": "なわ",
+  "meaningKo": "밧줄"
+ },
+ {
+  "rank": 4734,
+  "band": 4,
+  "set": 1,
+  "text": "一矢",
+  "reading": "いっし",
+  "meaningKo": "한 방(반격)"
+ },
+ {
+  "rank": 4757,
+  "band": 4,
+  "set": 1,
+  "text": "カーテン",
+  "reading": "かーてん",
+  "meaningKo": "커튼"
+ },
+ {
+  "rank": 4765,
+  "band": 4,
+  "set": 1,
+  "text": "側面",
+  "reading": "そくめん",
+  "meaningKo": "측면"
+ },
+ {
+  "rank": 4778,
+  "band": 4,
+  "set": 0,
+  "text": "生体",
+  "reading": "せいたい",
+  "meaningKo": "생체"
+ },
+ {
+  "rank": 4781,
+  "band": 4,
+  "set": 0,
+  "text": "肉食",
+  "reading": "にくしょく",
+  "meaningKo": "육식"
+ },
+ {
+  "rank": 4783,
+  "band": 4,
+  "set": 0,
+  "text": "要望",
+  "reading": "ようぼう",
+  "meaningKo": "요망"
+ },
+ {
+  "rank": 4823,
+  "band": 4,
+  "set": 1,
+  "text": "仕打ち",
+  "reading": "しうち",
+  "meaningKo": "처사, 대우"
+ },
+ {
+  "rank": 4837,
+  "band": 4,
+  "set": 1,
+  "text": "紐",
+  "reading": "ひも",
+  "meaningKo": "끈"
+ },
+ {
+  "rank": 4857,
+  "band": 4,
+  "set": 1,
+  "text": "吐き気",
+  "reading": "はきけ",
+  "meaningKo": "구역질"
+ },
+ {
+  "rank": 4881,
+  "band": 4,
+  "set": 1,
+  "text": "体調",
+  "reading": "たいちょう",
+  "meaningKo": "몸 상태"
+ },
+ {
+  "rank": 4933,
+  "band": 4,
+  "set": 1,
+  "text": "受け止める",
+  "reading": "うけとめる",
+  "meaningKo": "받아들이다"
+ },
+ {
+  "rank": 4956,
+  "band": 4,
+  "set": 1,
+  "text": "スケジュール",
+  "reading": "すけじゅーる",
+  "meaningKo": "스케줄, 일정"
+ },
+ {
+  "rank": 4985,
+  "band": 4,
+  "set": 0,
+  "text": "エンド",
+  "reading": "えんど",
+  "meaningKo": "끝, 엔딩"
+ },
+ {
+  "rank": 5009,
+  "band": 5,
+  "set": 0,
+  "text": "いわゆる",
+  "reading": "いわゆる",
+  "meaningKo": "이른바"
+ },
+ {
+  "rank": 5154,
+  "band": 5,
+  "set": 0,
+  "text": "でっかい",
+  "reading": "でっかい",
+  "meaningKo": "엄청 크다"
+ },
+ {
+  "rank": 5175,
+  "band": 5,
+  "set": 1,
+  "text": "有力",
+  "reading": "ゆうりょく",
+  "meaningKo": "유력"
+ },
+ {
+  "rank": 5197,
+  "band": 5,
+  "set": 0,
+  "text": "暴走",
+  "reading": "ぼうそう",
+  "meaningKo": "폭주"
+ },
+ {
+  "rank": 5217,
+  "band": 5,
+  "set": 0,
+  "text": "ボディ",
+  "reading": "ぼでぃ",
+  "meaningKo": "몸, 바디"
+ },
+ {
+  "rank": 5226,
+  "band": 5,
+  "set": 0,
+  "text": "失格",
+  "reading": "しっかく",
+  "meaningKo": "실격"
+ },
+ {
+  "rank": 5273,
+  "band": 5,
+  "set": 1,
+  "text": "奨学",
+  "reading": "しょうがく",
+  "meaningKo": "장학"
+ },
+ {
+  "rank": 5274,
+  "band": 5,
+  "set": 1,
+  "text": "実習",
+  "reading": "じっしゅう",
+  "meaningKo": "실습"
+ },
+ {
+  "rank": 5288,
+  "band": 5,
+  "set": 0,
+  "text": "終身",
+  "reading": "しゅうしん",
+  "meaningKo": "종신"
+ },
+ {
+  "rank": 5318,
+  "band": 5,
+  "set": 1,
+  "text": "おしゃれ",
+  "reading": "おしゃれ",
+  "meaningKo": "멋, 멋쟁이"
+ },
+ {
+  "rank": 5358,
+  "band": 5,
+  "set": 1,
+  "text": "住める",
+  "reading": "すめる",
+  "meaningKo": "살 수 있다"
+ },
+ {
+  "rank": 5376,
+  "band": 5,
+  "set": 0,
+  "text": "給油",
+  "reading": "きゅうゆ",
+  "meaningKo": "급유, 주유"
+ },
+ {
+  "rank": 5407,
+  "band": 5,
+  "set": 0,
+  "text": "房",
+  "reading": "ぼう",
+  "meaningKo": "감방"
+ },
+ {
+  "rank": 5445,
+  "band": 5,
+  "set": 0,
+  "text": "記入",
+  "reading": "きにゅう",
+  "meaningKo": "기입"
+ },
+ {
+  "rank": 5454,
+  "band": 5,
+  "set": 1,
+  "text": "オムツ",
+  "reading": "おむつ",
+  "meaningKo": "기저귀"
+ },
+ {
+  "rank": 5464,
+  "band": 5,
+  "set": 1,
+  "text": "本性",
+  "reading": "ほんしょう",
+  "meaningKo": "본성"
+ },
+ {
+  "rank": 5480,
+  "band": 5,
+  "set": 0,
+  "text": "インク",
+  "reading": "いんく",
+  "meaningKo": "잉크"
+ },
+ {
+  "rank": 5503,
+  "band": 5,
+  "set": 1,
+  "text": "消耗",
+  "reading": "しょうもう",
+  "meaningKo": "소모"
+ },
+ {
+  "rank": 5526,
+  "band": 5,
+  "set": 0,
+  "text": "悪口",
+  "reading": "わるぐち",
+  "meaningKo": "험담"
+ },
+ {
+  "rank": 5530,
+  "band": 5,
+  "set": 1,
+  "text": "没収",
+  "reading": "ぼっしゅう",
+  "meaningKo": "몰수"
+ },
+ {
+  "rank": 5553,
+  "band": 5,
+  "set": 1,
+  "text": "ブローカー",
+  "reading": "ぶろーかー",
+  "meaningKo": "중개인"
+ },
+ {
+  "rank": 5590,
+  "band": 5,
+  "set": 0,
+  "text": "形成",
+  "reading": "けいせい",
+  "meaningKo": "형성"
+ },
+ {
+  "rank": 5609,
+  "band": 5,
+  "set": 0,
+  "text": "カクテル",
+  "reading": "かくてる",
+  "meaningKo": "칵테일"
+ },
+ {
+  "rank": 5626,
+  "band": 5,
+  "set": 0,
+  "text": "検問",
+  "reading": "けんもん",
+  "meaningKo": "검문"
+ },
+ {
+  "rank": 5636,
+  "band": 5,
+  "set": 1,
+  "text": "評決",
+  "reading": "ひょうけつ",
+  "meaningKo": "평결"
+ },
+ {
+  "rank": 5637,
+  "band": 5,
+  "set": 1,
+  "text": "速やか",
+  "reading": "すみやか",
+  "meaningKo": "신속하다"
+ },
+ {
+  "rank": 5657,
+  "band": 5,
+  "set": 0,
+  "text": "投げ出す",
+  "reading": "なげだす",
+  "meaningKo": "내팽개치다"
+ },
+ {
+  "rank": 5665,
+  "band": 5,
+  "set": 0,
+  "text": "紫",
+  "reading": "むらさき",
+  "meaningKo": "보라색"
+ },
+ {
+  "rank": 5724,
+  "band": 5,
+  "set": 1,
+  "text": "向き",
+  "reading": "むき",
+  "meaningKo": "방향, 적성"
+ },
+ {
+  "rank": 5743,
+  "band": 5,
+  "set": 1,
+  "text": "過小",
+  "reading": "かしょう",
+  "meaningKo": "과소"
+ },
+ {
+  "rank": 5750,
+  "band": 5,
+  "set": 1,
+  "text": "コンサート",
+  "reading": "こんさーと",
+  "meaningKo": "콘서트"
+ },
+ {
+  "rank": 5767,
+  "band": 5,
+  "set": 0,
+  "text": "単位",
+  "reading": "たんい",
+  "meaningKo": "단위, 학점"
+ },
+ {
+  "rank": 5791,
+  "band": 5,
+  "set": 1,
+  "text": "キラキラ",
+  "reading": "きらきら",
+  "meaningKo": "반짝반짝"
+ },
+ {
+  "rank": 5801,
+  "band": 5,
+  "set": 0,
+  "text": "不可欠",
+  "reading": "ふかけつ",
+  "meaningKo": "불가결"
+ },
+ {
+  "rank": 5855,
+  "band": 5,
+  "set": 0,
+  "text": "気温",
+  "reading": "きおん",
+  "meaningKo": "기온"
+ },
+ {
+  "rank": 5856,
+  "band": 5,
+  "set": 1,
+  "text": "洗礼",
+  "reading": "せんれい",
+  "meaningKo": "세례"
+ },
+ {
+  "rank": 5859,
+  "band": 5,
+  "set": 1,
+  "text": "画家",
+  "reading": "がか",
+  "meaningKo": "화가"
+ },
+ {
+  "rank": 5885,
+  "band": 5,
+  "set": 1,
+  "text": "ヴァイオレット",
+  "reading": "ゔぁいおれっと",
+  "meaningKo": "바이올렛"
+ },
+ {
+  "rank": 5982,
+  "band": 5,
+  "set": 0,
+  "text": "若造",
+  "reading": "わかぞう",
+  "meaningKo": "애송이"
+ },
+ {
+  "rank": 5996,
+  "band": 5,
+  "set": 1,
+  "text": "ヘア",
+  "reading": "へあ",
+  "meaningKo": "헤어, 머리"
+ },
+ {
+  "rank": 6016,
+  "band": 6,
+  "set": 1,
+  "text": "サンセット",
+  "reading": "さんせっと",
+  "meaningKo": "일몰, 선셋"
+ },
+ {
+  "rank": 6038,
+  "band": 6,
+  "set": 0,
+  "text": "次長",
+  "reading": "じちょう",
+  "meaningKo": "차장"
+ },
+ {
+  "rank": 6072,
+  "band": 6,
+  "set": 1,
+  "text": "モーター",
+  "reading": "もーたー",
+  "meaningKo": "모터"
+ },
+ {
+  "rank": 6117,
+  "band": 6,
+  "set": 1,
+  "text": "施す",
+  "reading": "ほどこす",
+  "meaningKo": "베풀다"
+ },
+ {
+  "rank": 6160,
+  "band": 6,
+  "set": 0,
+  "text": "真っ暗",
+  "reading": "まっくら",
+  "meaningKo": "캄캄함"
+ },
+ {
+  "rank": 6196,
+  "band": 6,
+  "set": 0,
+  "text": "手元",
+  "reading": "てもと",
+  "meaningKo": "손 닿는 곳"
+ },
+ {
+  "rank": 6218,
+  "band": 6,
+  "set": 1,
+  "text": "ドキドキ",
+  "reading": "どきどき",
+  "meaningKo": "두근두근"
+ },
+ {
+  "rank": 6230,
+  "band": 6,
+  "set": 0,
+  "text": "変形",
+  "reading": "へんけい",
+  "meaningKo": "변형"
+ },
+ {
+  "rank": 6253,
+  "band": 6,
+  "set": 0,
+  "text": "のろま",
+  "reading": "のろま",
+  "meaningKo": "굼벵이, 느림보"
+ },
+ {
+  "rank": 6257,
+  "band": 6,
+  "set": 1,
+  "text": "オークション",
+  "reading": "おーくしょん",
+  "meaningKo": "경매"
+ },
+ {
+  "rank": 6306,
+  "band": 6,
+  "set": 0,
+  "text": "退役",
+  "reading": "たいえき",
+  "meaningKo": "퇴역"
+ },
+ {
+  "rank": 6314,
+  "band": 6,
+  "set": 0,
+  "text": "ブーム",
+  "reading": "ぶーむ",
+  "meaningKo": "붐, 유행"
+ },
+ {
+  "rank": 6361,
+  "band": 6,
+  "set": 1,
+  "text": "上層",
+  "reading": "じょうそう",
+  "meaningKo": "상층"
+ },
+ {
+  "rank": 6380,
+  "band": 6,
+  "set": 1,
+  "text": "示唆",
+  "reading": "しさ",
+  "meaningKo": "시사, 암시"
+ },
+ {
+  "rank": 6426,
+  "band": 6,
+  "set": 1,
+  "text": "迂回",
+  "reading": "うかい",
+  "meaningKo": "우회"
+ },
+ {
+  "rank": 6428,
+  "band": 6,
+  "set": 0,
+  "text": "追いやる",
+  "reading": "おいやる",
+  "meaningKo": "내몰다"
+ },
+ {
+  "rank": 6442,
+  "band": 6,
+  "set": 1,
+  "text": "ソファー",
+  "reading": "そふぁー",
+  "meaningKo": "소파"
+ },
+ {
+  "rank": 6485,
+  "band": 6,
+  "set": 0,
+  "text": "カウントダウン",
+  "reading": "かうんとだうん",
+  "meaningKo": "카운트다운"
+ },
+ {
+  "rank": 6490,
+  "band": 6,
+  "set": 1,
+  "text": "セッション",
+  "reading": "せっしょん",
+  "meaningKo": "세션"
+ },
+ {
+  "rank": 6498,
+  "band": 6,
+  "set": 0,
+  "text": "ヴィジュアライズ",
+  "reading": "びじゅあらいず",
+  "meaningKo": "시각화하다"
+ },
+ {
+  "rank": 6505,
+  "band": 6,
+  "set": 0,
+  "text": "地中",
+  "reading": "ちちゅう",
+  "meaningKo": "땅속"
+ },
+ {
+  "rank": 6560,
+  "band": 6,
+  "set": 0,
+  "text": "葉巻",
+  "reading": "はまき",
+  "meaningKo": "시가, 엽궐련"
+ },
+ {
+  "rank": 6579,
+  "band": 6,
+  "set": 0,
+  "text": "ブリーフケース",
+  "reading": "ぶりーふけーす",
+  "meaningKo": "서류 가방"
+ },
+ {
+  "rank": 6582,
+  "band": 6,
+  "set": 1,
+  "text": "マトリックス",
+  "reading": "まとりっくす",
+  "meaningKo": "매트릭스"
+ },
+ {
+  "rank": 6593,
+  "band": 6,
+  "set": 1,
+  "text": "布告",
+  "reading": "ふこく",
+  "meaningKo": "포고"
+ },
+ {
+  "rank": 6621,
+  "band": 6,
+  "set": 1,
+  "text": "バーボン",
+  "reading": "ばーぼん",
+  "meaningKo": "버번위스키"
+ },
+ {
+  "rank": 6645,
+  "band": 6,
+  "set": 0,
+  "text": "見てくれ",
+  "reading": "みてくれ",
+  "meaningKo": "겉모양, 외모"
+ },
+ {
+  "rank": 6674,
+  "band": 6,
+  "set": 0,
+  "text": "呼びかける",
+  "reading": "よびかける",
+  "meaningKo": "호소하다, 부르다"
+ },
+ {
+  "rank": 6717,
+  "band": 6,
+  "set": 0,
+  "text": "出来上がる",
+  "reading": "できあがる",
+  "meaningKo": "완성되다"
+ },
+ {
+  "rank": 6721,
+  "band": 6,
+  "set": 1,
+  "text": "引ける",
+  "reading": "ひける",
+  "meaningKo": "기가 죽다, 끝나다"
+ },
+ {
+  "rank": 6733,
+  "band": 6,
+  "set": 1,
+  "text": "最速",
+  "reading": "さいそく",
+  "meaningKo": "최고 속도"
+ },
+ {
+  "rank": 6753,
+  "band": 6,
+  "set": 1,
+  "text": "エゴ",
+  "reading": "えご",
+  "meaningKo": "자아, 에고"
+ },
+ {
+  "rank": 6759,
+  "band": 6,
+  "set": 0,
+  "text": "ドリーム",
+  "reading": "どりーむ",
+  "meaningKo": "꿈, 드림"
+ },
+ {
+  "rank": 6770,
+  "band": 6,
+  "set": 0,
+  "text": "事例",
+  "reading": "じれい",
+  "meaningKo": "사례"
+ },
+ {
+  "rank": 6813,
+  "band": 6,
+  "set": 1,
+  "text": "不当",
+  "reading": "ふとう",
+  "meaningKo": "부당"
+ },
+ {
+  "rank": 6856,
+  "band": 6,
+  "set": 1,
+  "text": "パッド",
+  "reading": "ぱっど",
+  "meaningKo": "패드"
+ },
+ {
+  "rank": 6861,
+  "band": 6,
+  "set": 1,
+  "text": "出生",
+  "reading": "しゅっしょう",
+  "meaningKo": "출생"
+ },
+ {
+  "rank": 6876,
+  "band": 6,
+  "set": 0,
+  "text": "甘やかす",
+  "reading": "あまやかす",
+  "meaningKo": "응석을 받아주다"
+ },
+ {
+  "rank": 6902,
+  "band": 6,
+  "set": 0,
+  "text": "マグ",
+  "reading": "まぐ",
+  "meaningKo": "머그컵"
+ },
+ {
+  "rank": 6995,
+  "band": 6,
+  "set": 1,
+  "text": "スペル",
+  "reading": "すぺる",
+  "meaningKo": "철자, 스펠링"
+ },
+ {
+  "rank": 7001,
+  "band": 7,
+  "set": 1,
+  "text": "ピット",
+  "reading": "ぴっと",
+  "meaningKo": "구덩이, 피트"
+ },
+ {
+  "rank": 7008,
+  "band": 7,
+  "set": 0,
+  "text": "口紅",
+  "reading": "くちべに",
+  "meaningKo": "립스틱"
+ },
+ {
+  "rank": 7025,
+  "band": 7,
+  "set": 0,
+  "text": "特異",
+  "reading": "とくい",
+  "meaningKo": "특이"
+ },
+ {
+  "rank": 7053,
+  "band": 7,
+  "set": 0,
+  "text": "ヘル",
+  "reading": "へる",
+  "meaningKo": "지옥"
+ },
+ {
+  "rank": 7080,
+  "band": 7,
+  "set": 0,
+  "text": "生まれつき",
+  "reading": "うまれつき",
+  "meaningKo": "타고남"
+ },
+ {
+  "rank": 7084,
+  "band": 7,
+  "set": 1,
+  "text": "総理",
+  "reading": "そうり",
+  "meaningKo": "총리"
+ },
+ {
+  "rank": 7086,
+  "band": 7,
+  "set": 1,
+  "text": "要因",
+  "reading": "よういん",
+  "meaningKo": "요인"
+ },
+ {
+  "rank": 7138,
+  "band": 7,
+  "set": 0,
+  "text": "線路",
+  "reading": "せんろ",
+  "meaningKo": "선로"
+ },
+ {
+  "rank": 7144,
+  "band": 7,
+  "set": 1,
+  "text": "輸血",
+  "reading": "ゆけつ",
+  "meaningKo": "수혈"
+ },
+ {
+  "rank": 7190,
+  "band": 7,
+  "set": 0,
+  "text": "直線",
+  "reading": "ちょくせん",
+  "meaningKo": "직선"
+ },
+ {
+  "rank": 7192,
+  "band": 7,
+  "set": 0,
+  "text": "腕前",
+  "reading": "うでまえ",
+  "meaningKo": "솜씨"
+ },
+ {
+  "rank": 7195,
+  "band": 7,
+  "set": 0,
+  "text": "表紙",
+  "reading": "ひょうし",
+  "meaningKo": "표지"
+ },
+ {
+  "rank": 7215,
+  "band": 7,
+  "set": 0,
+  "text": "キツネザル",
+  "reading": "きつねざる",
+  "meaningKo": "여우원숭이"
+ },
+ {
+  "rank": 7303,
+  "band": 7,
+  "set": 1,
+  "text": "劣る",
+  "reading": "おとる",
+  "meaningKo": "뒤떨어지다"
+ },
+ {
+  "rank": 7320,
+  "band": 7,
+  "set": 1,
+  "text": "歌詞",
+  "reading": "かし",
+  "meaningKo": "가사"
+ },
+ {
+  "rank": 7332,
+  "band": 7,
+  "set": 1,
+  "text": "裂け目",
+  "reading": "さけめ",
+  "meaningKo": "갈라진 틈"
+ },
+ {
+  "rank": 7357,
+  "band": 7,
+  "set": 0,
+  "text": "ガロン",
+  "reading": "がろん",
+  "meaningKo": "갤런"
+ },
+ {
+  "rank": 7423,
+  "band": 7,
+  "set": 1,
+  "text": "チップス",
+  "reading": "ちっぷす",
+  "meaningKo": "칩스, 감자칩"
+ },
+ {
+  "rank": 7434,
+  "band": 7,
+  "set": 1,
+  "text": "ワーク",
+  "reading": "わーく",
+  "meaningKo": "일, 워크"
+ },
+ {
+  "rank": 7457,
+  "band": 7,
+  "set": 0,
+  "text": "照会",
+  "reading": "しょうかい",
+  "meaningKo": "조회"
+ },
+ {
+  "rank": 7486,
+  "band": 7,
+  "set": 0,
+  "text": "ドリアン",
+  "reading": "どりあん",
+  "meaningKo": "두리안"
+ },
+ {
+  "rank": 7504,
+  "band": 7,
+  "set": 1,
+  "text": "売り物",
+  "reading": "うりもの",
+  "meaningKo": "팔 물건"
+ },
+ {
+  "rank": 7507,
+  "band": 7,
+  "set": 1,
+  "text": "強迫",
+  "reading": "きょうはく",
+  "meaningKo": "강박"
+ },
+ {
+  "rank": 7536,
+  "band": 7,
+  "set": 1,
+  "text": "通告",
+  "reading": "つうこく",
+  "meaningKo": "통고"
+ },
+ {
+  "rank": 7581,
+  "band": 7,
+  "set": 1,
+  "text": "左折",
+  "reading": "させつ",
+  "meaningKo": "좌회전"
+ },
+ {
+  "rank": 7633,
+  "band": 7,
+  "set": 0,
+  "text": "トロフィー",
+  "reading": "とろふぃー",
+  "meaningKo": "트로피"
+ },
+ {
+  "rank": 7656,
+  "band": 7,
+  "set": 0,
+  "text": "好機",
+  "reading": "こうき",
+  "meaningKo": "좋은 기회"
+ },
+ {
+  "rank": 7678,
+  "band": 7,
+  "set": 0,
+  "text": "玩具",
+  "reading": "がんぐ",
+  "meaningKo": "장난감"
+ },
+ {
+  "rank": 7680,
+  "band": 7,
+  "set": 1,
+  "text": "真上",
+  "reading": "まうえ",
+  "meaningKo": "바로 위"
+ },
+ {
+  "rank": 7683,
+  "band": 7,
+  "set": 1,
+  "text": "罪状",
+  "reading": "ざいじょう",
+  "meaningKo": "죄상"
+ },
+ {
+  "rank": 7721,
+  "band": 7,
+  "set": 1,
+  "text": "ポーチ",
+  "reading": "ぽーち",
+  "meaningKo": "파우치"
+ },
+ {
+  "rank": 7749,
+  "band": 7,
+  "set": 1,
+  "text": "見違える",
+  "reading": "みちがえる",
+  "meaningKo": "몰라보다"
+ },
+ {
+  "rank": 7760,
+  "band": 7,
+  "set": 0,
+  "text": "はしゃぐ",
+  "reading": "はしゃぐ",
+  "meaningKo": "들떠서 떠들다"
+ },
+ {
+  "rank": 7770,
+  "band": 7,
+  "set": 1,
+  "text": "ココナッツ",
+  "reading": "ここなっつ",
+  "meaningKo": "코코넛"
+ },
+ {
+  "rank": 7851,
+  "band": 7,
+  "set": 0,
+  "text": "ラッシュ",
+  "reading": "らっしゅ",
+  "meaningKo": "러시, 쇄도"
+ },
+ {
+  "rank": 7930,
+  "band": 7,
+  "set": 0,
+  "text": "レッカー",
+  "reading": "れっかー",
+  "meaningKo": "견인차"
+ },
+ {
+  "rank": 7938,
+  "band": 7,
+  "set": 0,
+  "text": "地味",
+  "reading": "じみ",
+  "meaningKo": "수수함"
+ },
+ {
+  "rank": 7959,
+  "band": 7,
+  "set": 0,
+  "text": "矯正",
+  "reading": "きょうせい",
+  "meaningKo": "교정"
+ },
+ {
+  "rank": 7963,
+  "band": 7,
+  "set": 1,
+  "text": "衰える",
+  "reading": "おとろえる",
+  "meaningKo": "쇠약해지다"
+ },
+ {
+  "rank": 7978,
+  "band": 7,
+  "set": 1,
+  "text": "よせ",
+  "reading": "よせ",
+  "meaningKo": "그만둬"
+ },
+ {
+  "rank": 8025,
+  "band": 8,
+  "set": 0,
+  "text": "監察",
+  "reading": "かんさつ",
+  "meaningKo": "감찰"
+ },
+ {
+  "rank": 8037,
+  "band": 8,
+  "set": 1,
+  "text": "解任",
+  "reading": "かいにん",
+  "meaningKo": "해임"
+ },
+ {
+  "rank": 8120,
+  "band": 8,
+  "set": 0,
+  "text": "通気",
+  "reading": "つうき",
+  "meaningKo": "통풍"
+ },
+ {
+  "rank": 8127,
+  "band": 8,
+  "set": 1,
+  "text": "頭上",
+  "reading": "ずじょう",
+  "meaningKo": "머리 위"
+ },
+ {
+  "rank": 8136,
+  "band": 8,
+  "set": 1,
+  "text": "アドバイザー",
+  "reading": "あどばいざー",
+  "meaningKo": "조언자"
+ },
+ {
+  "rank": 8137,
+  "band": 8,
+  "set": 0,
+  "text": "アナリスト",
+  "reading": "あなりすと",
+  "meaningKo": "분석가"
+ },
+ {
+  "rank": 8160,
+  "band": 8,
+  "set": 1,
+  "text": "ライセンス",
+  "reading": "らいせんす",
+  "meaningKo": "면허, 라이선스"
+ },
+ {
+  "rank": 8176,
+  "band": 8,
+  "set": 1,
+  "text": "審問",
+  "reading": "しんもん",
+  "meaningKo": "심문"
+ },
+ {
+  "rank": 8195,
+  "band": 8,
+  "set": 0,
+  "text": "特性",
+  "reading": "とくせい",
+  "meaningKo": "특성"
+ },
+ {
+  "rank": 8214,
+  "band": 8,
+  "set": 1,
+  "text": "まして",
+  "reading": "まして",
+  "meaningKo": "하물며"
+ },
+ {
+  "rank": 8251,
+  "band": 8,
+  "set": 0,
+  "text": "主演",
+  "reading": "しゅえん",
+  "meaningKo": "주연"
+ },
+ {
+  "rank": 8256,
+  "band": 8,
+  "set": 1,
+  "text": "充実",
+  "reading": "じゅうじつ",
+  "meaningKo": "충실"
+ },
+ {
+  "rank": 8263,
+  "band": 8,
+  "set": 1,
+  "text": "圧迫",
+  "reading": "あっぱく",
+  "meaningKo": "압박"
+ },
+ {
+  "rank": 8271,
+  "band": 8,
+  "set": 0,
+  "text": "教区",
+  "reading": "きょうく",
+  "meaningKo": "교구"
+ },
+ {
+  "rank": 8277,
+  "band": 8,
+  "set": 0,
+  "text": "浸かる",
+  "reading": "つかる",
+  "meaningKo": "잠기다"
+ },
+ {
+  "rank": 8296,
+  "band": 8,
+  "set": 0,
+  "text": "こっち側",
+  "reading": "こっちがわ",
+  "meaningKo": "이쪽 편"
+ },
+ {
+  "rank": 8341,
+  "band": 8,
+  "set": 0,
+  "text": "導入",
+  "reading": "どうにゅう",
+  "meaningKo": "도입"
+ },
+ {
+  "rank": 8356,
+  "band": 8,
+  "set": 1,
+  "text": "熟練",
+  "reading": "じゅくれん",
+  "meaningKo": "숙련"
+ },
+ {
+  "rank": 8367,
+  "band": 8,
+  "set": 0,
+  "text": "請負",
+  "reading": "うけおい",
+  "meaningKo": "하청, 도급"
+ },
+ {
+  "rank": 8393,
+  "band": 8,
+  "set": 0,
+  "text": "ナイトクラブ",
+  "reading": "ないとくらぶ",
+  "meaningKo": "나이트클럽"
+ },
+ {
+  "rank": 8434,
+  "band": 8,
+  "set": 1,
+  "text": "枠",
+  "reading": "わく",
+  "meaningKo": "틀, 테두리"
+ },
+ {
+  "rank": 8444,
+  "band": 8,
+  "set": 1,
+  "text": "肖像",
+  "reading": "しょうぞう",
+  "meaningKo": "초상"
+ },
+ {
+  "rank": 8478,
+  "band": 8,
+  "set": 1,
+  "text": "チャージャー",
+  "reading": "ちゃーじゃー",
+  "meaningKo": "충전기"
+ },
+ {
+  "rank": 8492,
+  "band": 8,
+  "set": 0,
+  "text": "マリン",
+  "reading": "まりん",
+  "meaningKo": "해양, 마린"
+ },
+ {
+  "rank": 8496,
+  "band": 8,
+  "set": 1,
+  "text": "上部",
+  "reading": "じょうぶ",
+  "meaningKo": "윗부분"
+ },
+ {
+  "rank": 8498,
+  "band": 8,
+  "set": 1,
+  "text": "予見",
+  "reading": "よけん",
+  "meaningKo": "예견"
+ },
+ {
+  "rank": 8504,
+  "band": 8,
+  "set": 1,
+  "text": "口外",
+  "reading": "こうがい",
+  "meaningKo": "발설"
+ },
+ {
+  "rank": 8531,
+  "band": 8,
+  "set": 0,
+  "text": "毛深い",
+  "reading": "けぶかい",
+  "meaningKo": "털이 많다"
+ },
+ {
+  "rank": 8549,
+  "band": 8,
+  "set": 0,
+  "text": "見習い",
+  "reading": "みならい",
+  "meaningKo": "견습생"
+ },
+ {
+  "rank": 8562,
+  "band": 8,
+  "set": 0,
+  "text": "アヘン",
+  "reading": "あへん",
+  "meaningKo": "아편"
+ },
+ {
+  "rank": 8588,
+  "band": 8,
+  "set": 1,
+  "text": "並び",
+  "reading": "ならび",
+  "meaningKo": "줄, 배열"
+ },
+ {
+  "rank": 8596,
+  "band": 8,
+  "set": 0,
+  "text": "叩ける",
+  "reading": "たたける",
+  "meaningKo": "때릴 수 있다"
+ },
+ {
+  "rank": 8638,
+  "band": 8,
+  "set": 1,
+  "text": "苦",
+  "reading": "く",
+  "meaningKo": "괴로움"
+ },
+ {
+  "rank": 8691,
+  "band": 8,
+  "set": 1,
+  "text": "即興",
+  "reading": "そっきょう",
+  "meaningKo": "즉흥"
+ },
+ {
+  "rank": 8761,
+  "band": 8,
+  "set": 0,
+  "text": "アップグレード",
+  "reading": "あっぷぐれーど",
+  "meaningKo": "업그레이드"
+ },
+ {
+  "rank": 8779,
+  "band": 8,
+  "set": 0,
+  "text": "ストック",
+  "reading": "すとっく",
+  "meaningKo": "재고, 스톡"
+ },
+ {
+  "rank": 8807,
+  "band": 8,
+  "set": 0,
+  "text": "同等",
+  "reading": "どうとう",
+  "meaningKo": "동등"
+ },
+ {
+  "rank": 8861,
+  "band": 8,
+  "set": 0,
+  "text": "領地",
+  "reading": "りょうち",
+  "meaningKo": "영지"
+ },
+ {
+  "rank": 8904,
+  "band": 8,
+  "set": 1,
+  "text": "制する",
+  "reading": "せいする",
+  "meaningKo": "제압하다"
+ },
+ {
+  "rank": 8953,
+  "band": 8,
+  "set": 1,
+  "text": "さぞかし",
+  "reading": "さぞかし",
+  "meaningKo": "틀림없이, 오죽"
+ },
+ {
+  "rank": 9105,
+  "band": 9,
+  "set": 1,
+  "text": "嘔吐",
+  "reading": "おうと",
+  "meaningKo": "구토"
+ },
+ {
+  "rank": 9177,
+  "band": 9,
+  "set": 0,
+  "text": "ケチャップ",
+  "reading": "けちゃっぷ",
+  "meaningKo": "케첩"
+ },
+ {
+  "rank": 9206,
+  "band": 9,
+  "set": 0,
+  "text": "取り外す",
+  "reading": "とりはずす",
+  "meaningKo": "떼어내다"
+ },
+ {
+  "rank": 9215,
+  "band": 9,
+  "set": 0,
+  "text": "奏でる",
+  "reading": "かなでる",
+  "meaningKo": "연주하다"
+ },
+ {
+  "rank": 9218,
+  "band": 9,
+  "set": 1,
+  "text": "尽力",
+  "reading": "じんりょく",
+  "meaningKo": "진력, 애씀"
+ },
+ {
+  "rank": 9231,
+  "band": 9,
+  "set": 1,
+  "text": "朗報",
+  "reading": "ろうほう",
+  "meaningKo": "희소식"
+ },
+ {
+  "rank": 9233,
+  "band": 9,
+  "set": 1,
+  "text": "株主",
+  "reading": "かぶぬし",
+  "meaningKo": "주주"
+ },
+ {
+  "rank": 9280,
+  "band": 9,
+  "set": 1,
+  "text": "ズーム",
+  "reading": "ずーむ",
+  "meaningKo": "줌"
+ },
+ {
+  "rank": 9294,
+  "band": 9,
+  "set": 0,
+  "text": "乗り気",
+  "reading": "のりき",
+  "meaningKo": "마음이 내킴"
+ },
+ {
+  "rank": 9303,
+  "band": 9,
+  "set": 0,
+  "text": "出迎える",
+  "reading": "でむかえる",
+  "meaningKo": "마중하다"
+ },
+ {
+  "rank": 9331,
+  "band": 9,
+  "set": 0,
+  "text": "有用",
+  "reading": "ゆうよう",
+  "meaningKo": "유용"
+ },
+ {
+  "rank": 9337,
+  "band": 9,
+  "set": 0,
+  "text": "焚く",
+  "reading": "たく",
+  "meaningKo": "불을 피우다"
+ },
+ {
+  "rank": 9340,
+  "band": 9,
+  "set": 1,
+  "text": "生態",
+  "reading": "せいたい",
+  "meaningKo": "생태"
+ },
+ {
+  "rank": 9376,
+  "band": 9,
+  "set": 0,
+  "text": "つまみ",
+  "reading": "つまみ",
+  "meaningKo": "안주, 손잡이"
+ },
+ {
+  "rank": 9393,
+  "band": 9,
+  "set": 1,
+  "text": "クタクタ",
+  "reading": "くたくた",
+  "meaningKo": "녹초"
+ },
+ {
+  "rank": 9400,
+  "band": 9,
+  "set": 0,
+  "text": "ニックネーム",
+  "reading": "にっくねーむ",
+  "meaningKo": "별명"
+ },
+ {
+  "rank": 9434,
+  "band": 9,
+  "set": 1,
+  "text": "弁明",
+  "reading": "べんめい",
+  "meaningKo": "변명, 해명"
+ },
+ {
+  "rank": 9439,
+  "band": 9,
+  "set": 0,
+  "text": "星空",
+  "reading": "ほしぞら",
+  "meaningKo": "별이 뜬 하늘"
+ },
+ {
+  "rank": 9492,
+  "band": 9,
+  "set": 0,
+  "text": "テール",
+  "reading": "てーる",
+  "meaningKo": "꼬리"
+ },
+ {
+  "rank": 9508,
+  "band": 9,
+  "set": 1,
+  "text": "マニキュア",
+  "reading": "まにきゅあ",
+  "meaningKo": "매니큐어"
+ },
+ {
+  "rank": 9523,
+  "band": 9,
+  "set": 0,
+  "text": "収束",
+  "reading": "しゅうそく",
+  "meaningKo": "수습, 수렴"
+ },
+ {
+  "rank": 9535,
+  "band": 9,
+  "set": 1,
+  "text": "帰郷",
+  "reading": "ききょう",
+  "meaningKo": "귀향"
+ },
+ {
+  "rank": 9541,
+  "band": 9,
+  "set": 0,
+  "text": "携わる",
+  "reading": "たずさわる",
+  "meaningKo": "종사하다"
+ },
+ {
+  "rank": 9584,
+  "band": 9,
+  "set": 1,
+  "text": "遺跡",
+  "reading": "いせき",
+  "meaningKo": "유적"
+ },
+ {
+  "rank": 9598,
+  "band": 9,
+  "set": 1,
+  "text": "ぶっ潰す",
+  "reading": "ぶっつぶす",
+  "meaningKo": "박살 내다"
+ },
+ {
+  "rank": 9657,
+  "band": 9,
+  "set": 0,
+  "text": "反映",
+  "reading": "はんえい",
+  "meaningKo": "반영"
+ },
+ {
+  "rank": 9688,
+  "band": 9,
+  "set": 1,
+  "text": "比喩",
+  "reading": "ひゆ",
+  "meaningKo": "비유"
+ },
+ {
+  "rank": 9701,
+  "band": 9,
+  "set": 1,
+  "text": "穢れ",
+  "reading": "けがれ",
+  "meaningKo": "더러움, 부정"
+ },
+ {
+  "rank": 9751,
+  "band": 9,
+  "set": 0,
+  "text": "バーナー",
+  "reading": "ばーなー",
+  "meaningKo": "버너"
+ },
+ {
+  "rank": 9753,
+  "band": 9,
+  "set": 1,
+  "text": "ファントム",
+  "reading": "ふぁんとむ",
+  "meaningKo": "유령, 팬텀"
+ },
+ {
+  "rank": 9764,
+  "band": 9,
+  "set": 0,
+  "text": "ルーレット",
+  "reading": "るーれっと",
+  "meaningKo": "룰렛"
+ },
+ {
+  "rank": 9776,
+  "band": 9,
+  "set": 1,
+  "text": "合同",
+  "reading": "ごうどう",
+  "meaningKo": "합동"
+ },
+ {
+  "rank": 9838,
+  "band": 9,
+  "set": 0,
+  "text": "途切れる",
+  "reading": "とぎれる",
+  "meaningKo": "끊어지다"
+ },
+ {
+  "rank": 9840,
+  "band": 9,
+  "set": 0,
+  "text": "進出",
+  "reading": "しんしゅつ",
+  "meaningKo": "진출"
+ },
+ {
+  "rank": 9872,
+  "band": 9,
+  "set": 1,
+  "text": "サーバ",
+  "reading": "さーば",
+  "meaningKo": "서버"
+ },
+ {
+  "rank": 9894,
+  "band": 9,
+  "set": 1,
+  "text": "リリース",
+  "reading": "りりーす",
+  "meaningKo": "발매, 릴리스"
+ },
+ {
+  "rank": 9906,
+  "band": 9,
+  "set": 0,
+  "text": "刈る",
+  "reading": "かる",
+  "meaningKo": "베다, 깎다"
+ },
+ {
+  "rank": 9913,
+  "band": 9,
+  "set": 1,
+  "text": "合致",
+  "reading": "がっち",
+  "meaningKo": "합치"
+ },
+ {
+  "rank": 9936,
+  "band": 9,
+  "set": 1,
+  "text": "排気",
+  "reading": "はいき",
+  "meaningKo": "배기"
+ },
+ {
+  "rank": 9974,
+  "band": 9,
+  "set": 0,
+  "text": "議題",
+  "reading": "ぎだい",
+  "meaningKo": "의제"
+ }
+]

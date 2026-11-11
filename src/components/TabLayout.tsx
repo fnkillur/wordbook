@@ -1,4 +1,4 @@
-import { BookOpenTextIcon, GearSixIcon, HouseLineIcon, SparkleIcon, type Icon } from '@phosphor-icons/react'
+import { BooksIcon, GearSixIcon, HouseLineIcon, SparkleIcon, type Icon } from '@phosphor-icons/react'
 import { NavLink, Outlet } from 'react-router'
 
 function TabLayout() {
@@ -6,9 +6,9 @@ function TabLayout() {
     <>
       <Outlet />
       <nav className="tab-bar" aria-label="주요 메뉴">
-        <TabLink to="/" label="마을" icon={HouseLineIcon} end />
-        <TabLink to="/words" label="단어장" icon={BookOpenTextIcon} />
-        <TabLink to="/collection" label="도감" icon={SparkleIcon} />
+        <TabLink to="/" label="집" icon={HouseLineIcon} end />
+        <TabLink to="/words" label="책장" icon={BooksIcon} />
+        <TabLink to="/shop" label="도감" icon={SparkleIcon} />
         <TabLink to="/settings" label="설정" icon={GearSixIcon} />
       </nav>
     </>

@@ -25,13 +25,13 @@ const renderAt = async (path: string) => {
 }
 
 describe('TabLayout', () => {
-  it('마을·단어장·도감·설정 탭을 보여 준다', async () => {
-    expect((await renderAt('/')).labels).toEqual(['마을', '단어장', '도감', '설정'])
+  it('집·책장·도감·설정 탭을 보여 준다', async () => {
+    expect((await renderAt('/')).labels).toEqual(['집', '책장', '도감', '설정'])
   })
 
   it('지금 있는 탭에 선택 표시를 한다', async () => {
-    expect((await renderAt('/')).active).toEqual(['마을'])
-    expect((await renderAt('/words')).active).toEqual(['단어장'])
+    expect((await renderAt('/')).active).toEqual(['집'])
+    expect((await renderAt('/words')).active).toEqual(['책장'])
     expect((await renderAt('/settings')).active).toEqual(['설정'])
   })
 })

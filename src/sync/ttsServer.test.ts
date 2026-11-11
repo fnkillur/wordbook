@@ -33,10 +33,10 @@ describe('발음 서버', () => {
     const { server } = loadServer()
     expect(server.ttsRequest_('犬', 'ja')).toEqual({
       input: { text: '犬' },
-      voice: { languageCode: 'ja-JP', name: 'ja-JP-Neural2-B' },
+      voice: { languageCode: 'ja-JP', name: 'ja-JP-Chirp3-HD-Puck' },
       audioConfig: { audioEncoding: 'MP3' },
     })
-    expect(server.ttsRequest_('dog', 'en')).toMatchObject({ voice: { languageCode: 'en-US', name: 'en-US-Neural2-F' } })
+    expect(server.ttsRequest_('dog', 'en')).toMatchObject({ voice: { languageCode: 'en-US', name: 'en-US-Chirp3-HD-Aoede' } })
   })
 
   it('토큰이 맞으면 발음을 만들어 돌려준다', () => {

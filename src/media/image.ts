@@ -1,4 +1,5 @@
 import { Capacitor, registerPlugin, type PluginListenerHandle } from '@capacitor/core'
+import type { Placement } from './crop'
 
 const MAX_SIDE = 800
 const JPEG_QUALITY = 0.8
@@ -23,10 +24,33 @@ export const compressImage = async (blob: Blob) => {
   const canvas = document.createElement('canvas')
   canvas.width = size.width
   canvas.height = size.height
-  canvas.getContext('2d')!.drawImage(bitmap, 0, 0, size.width, size.height)
+  const context = canvas.getContext('2d')!
+  // JPEG는 투명을 못 담아서, 투명한 PNG가 검게 저장되지 않게 흰색을 먼저 칠한다.
+  context.fillStyle = '#ffffff'
+  context.fillRect(0, 0, size.width, size.height)
+  context.drawImage(bitmap, 0, 0, size.width, size.height)
   bitmap.close()
   return new Promise<Blob>((resolve, reject) =>
     canvas.toBlob(result => (result ? resolve(result) : reject(new Error('이미지를 줄이지 못했어요.'))), 'image/jpeg', JPEG_QUALITY),
+  )
+}
+
+// 카드 그림은 4:3으로 저장한다. 고를 때 칸에 보이던 모습 그대로 잘라서 복습 카드와 같게 한다.
+export const CARD_IMAGE_SIZE = { width: MAX_SIDE, height: (MAX_SIDE * 3) / 4 }
+
+export const cropImage = async (blob: Blob, placement: Placement) => {
+  const bitmap = await createImageBitmap(blob)
+  const canvas = document.createElement('canvas')
+  canvas.width = CARD_IMAGE_SIZE.width
+  canvas.height = CARD_IMAGE_SIZE.height
+  const context = canvas.getContext('2d')!
+  // 전체가 보이게 줄인 그림은 남는 곳을 흰색으로 채운다. 검색 그림은 대부분 흰 배경이다.
+  context.fillStyle = '#ffffff'
+  context.fillRect(0, 0, canvas.width, canvas.height)
+  context.drawImage(bitmap, placement.x, placement.y, placement.width, placement.height)
+  bitmap.close()
+  return new Promise<Blob>((resolve, reject) =>
+    canvas.toBlob(result => (result ? resolve(result) : reject(new Error('그림을 자르지 못했어요.'))), 'image/jpeg', JPEG_QUALITY),
   )
 }
 

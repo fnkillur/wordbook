@@ -4,7 +4,7 @@ const config: CapacitorConfig = {
   appId: 'com.teo.wordbook',
   appName: 'wordbook',
   webDir: 'dist',
-  backgroundColor: '#f7f6f3',
+  backgroundColor: '#f1eee8',
   plugins: {
     CapacitorHttp: { enabled: true },
   },

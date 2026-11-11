@@ -16,3 +16,5 @@ apps-script/.clasp.json
 .env.local
 .env.*.local
 .connect-code.txt
+__pycache__/
+.pytest_cache/

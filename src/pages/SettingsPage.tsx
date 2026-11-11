@@ -1,13 +1,24 @@
 import { Capacitor } from '@capacitor/core'
 import { Directory, Filesystem } from '@capacitor/filesystem'
 import { Share } from '@capacitor/share'
+import { CaretRightIcon, CloudArrowDownIcon, CloudArrowUpIcon, DownloadSimpleIcon, ExamIcon, ExportIcon } from '@phosphor-icons/react'
+import { useLiveQuery } from 'dexie-react-hooks'
 import { useState, type ChangeEvent } from 'react'
+import { Link } from 'react-router'
 import { exportArchive, importArchive } from '../backup/archive'
 import { dateKey } from '../db/repository'
-import { IS_WEB_BUILD, type Person } from '../platform'
-import { getSettings, saveSettings, type Settings } from '../settings'
+import { DEVICE_PERSON, IS_WEB_BUILD, type Language, type Person } from '../platform'
+import { getSettings, learningLanguageOf, saveSettings, type Settings } from '../settings'
 import { backfillAudio } from '../sync/audio'
+import { backfillSentenceAudio } from '../sync/sentenceAudio'
 import { decodeConnectCode } from '../sync/connectCode'
+import { backupIfDue, backupToDrive, driveBackupState, NO_DRIVE_BACKUP, restoreFromDrive } from '../sync/driveBackup'
+
+// 배우는 언어를 바꾸면 집·책장·테스트·새 단어가 그 언어로 바뀐다. 이미 만든 다른 언어 카드도 복습에는 계속 나온다.
+const LANGUAGES: { value: Language; label: string }[] = [
+  { value: 'ja', label: '일본어' },
+  { value: 'en', label: '영어' },
+]
 
 const GOAL_OPTIONS = [10, 15, 20, 30]
 const PEOPLE: Person[] = ['하치와레', '우사기']
@@ -51,24 +62,72 @@ const shareOnWeb = (file: File) => {
   })
 }
 
+type DriveWork = { kind: 'backup' | 'restore'; text: string }
+
+const pad = (value: number) => String(value).padStart(2, '0')
+
+const backupTimeOf = (iso: string) => {
+  const at = new Date(iso)
+  return `${at.getMonth() + 1}월 ${at.getDate()}일 ${pad(at.getHours())}:${pad(at.getMinutes())}`
+}
+
+const backupHintOf = (connected: boolean, work: DriveWork | null, lastAt: string | null | undefined) => {
+  if (!connected) return '서버를 연결하면 쓸 수 있어'
+  if (work?.kind === 'backup') return work.text
+  if (lastAt) return `마지막 백업 ${backupTimeOf(lastAt)}`
+  return '하루 한 번 저절로 올려'
+}
+
 function SettingsPage() {
+  const driveState = useLiveQuery(driveBackupState)
   const [settings, setSettings] = useState<Settings>(getSettings)
   const [connectCode, setConnectCode] = useState('')
   const [message, setMessage] = useState<string | null>(null)
   const [prepared, setPrepared] = useState<File | null>(null)
+  const [driveWork, setDriveWork] = useState<DriveWork | null>(null)
+
+  const person = settings.person ?? DEVICE_PERSON
 
   const update = (patch: Partial<Settings>) => setSettings(saveSettings(patch))
 
   const handleConnect = () => {
     const server = decodeConnectCode(connectCode)
     if (!server) {
-      setMessage('연결 코드가 올바르지 않아요.')
+      setMessage('연결 코드가 맞지 않아.')
       return
     }
     update({ server })
     setConnectCode('')
-    setMessage('발음 서버에 연결했어요.')
+    setMessage('서버에 연결했어.')
     backfillAudio()
+    backfillSentenceAudio()
+    backupIfDue().catch(() => undefined)
+  }
+
+  const handleDriveBackup = async () => {
+    if (!settings.server) return
+    setDriveWork({ kind: 'backup', text: '올리는 중' })
+    try {
+      await backupToDrive(settings.server, person, new Date(), (done, total) => setDriveWork({ kind: 'backup', text: `올리는 중 ${done}/${total}` }))
+      setMessage('드라이브에 백업했어.')
+    } catch {
+      setMessage('드라이브에 백업하지 못했어. 다음에 다시 해 볼게')
+    } finally {
+      setDriveWork(null)
+    }
+  }
+
+  const handleDriveRestore = async () => {
+    if (!settings.server) return
+    setDriveWork({ kind: 'restore', text: '받는 중' })
+    try {
+      const result = await restoreFromDrive(settings.server, person, (done, total) => setDriveWork({ kind: 'restore', text: `받는 중 ${done}/${total}` }))
+      setMessage(`되살렸어: 새로 ${result.added}개, 바뀐 것 ${result.updated}개`)
+    } catch (error) {
+      setMessage(error instanceof Error && error.message === NO_DRIVE_BACKUP ? NO_DRIVE_BACKUP : '드라이브에서 되살리지 못했어.')
+    } finally {
+      setDriveWork(null)
+    }
   }
 
   const handlePrepare = async () => {
@@ -80,7 +139,7 @@ function SettingsPage() {
       }
       setPrepared(file)
     } catch {
-      setMessage('백업 파일을 만들지 못했어요.')
+      setMessage('백업 파일을 만들지 못했어.')
     }
   }
 
@@ -88,7 +147,7 @@ function SettingsPage() {
     if (!prepared) return
     shareOnWeb(prepared)
       .then(() => setPrepared(null))
-      .catch(() => setMessage('백업 파일을 저장하지 못했어요.'))
+      .catch(() => setMessage('백업 파일을 저장하지 못했어.'))
   }
 
   const handleImport = async (event: ChangeEvent<HTMLInputElement>) => {
@@ -97,9 +156,9 @@ function SettingsPage() {
     if (!file) return
     try {
       const result = await importArchive(file)
-      setMessage(`가져왔어요: 새로 ${result.added}개, 바뀐 것 ${result.updated}개`)
+      setMessage(`가져왔어: 새로 ${result.added}개, 바뀐 것 ${result.updated}개`)
     } catch {
-      setMessage('백업 파일을 읽지 못했어요.')
+      setMessage('백업 파일을 읽지 못했어.')
     }
   }
 
@@ -113,6 +172,7 @@ function SettingsPage() {
           </p>
         )}
 
+        <h2 className="form-group-title">공부</h2>
         <section className="form-group">
           {IS_WEB_BUILD && (
             <div className="form-row">
@@ -126,6 +186,23 @@ function SettingsPage() {
               </div>
             </div>
           )}
+          <div className="form-row">
+            <span>배우는 언어</span>
+            <div className="segmented" role="radiogroup" aria-label="배우는 언어">
+              {LANGUAGES.map(option => (
+                <button
+                  key={option.value}
+                  type="button"
+                  role="radio"
+                  aria-checked={learningLanguageOf(settings) === option.value}
+                  className="segmented-option"
+                  onClick={() => update({ language: option.value })}
+                >
+                  {option.label}
+                </button>
+              ))}
+            </div>
+          </div>
           <div className="form-row">
             <span>하루 목표</span>
             <div className="segmented" role="radiogroup" aria-label="하루 목표 시간">
@@ -143,36 +220,63 @@ function SettingsPage() {
               ))}
             </div>
           </div>
-          <SwitchRow label="소리 없이 보기" hint="지하철처럼 소리를 못 켤 때. 듣기 카드는 뒤로 미뤄요" checked={settings.soundOff} onToggle={() => update({ soundOff: !settings.soundOff })} />
-          {settings.person === '우사기' && (
-            <SwitchRow label="철자 카드" hint="영어 단어를 듣고 쓰는 카드를 더 만들어요" checked={settings.spellCards} onToggle={() => update({ spellCards: !settings.spellCards })} />
+          <SwitchRow label="소리 없이 보기" hint="지하철처럼 소리를 못 켤 때. 듣기 카드는 뒤로 미룰게" checked={settings.soundOff} onToggle={() => update({ soundOff: !settings.soundOff })} />
+          {learningLanguageOf(settings) === 'en' && (
+            <SwitchRow label="철자 카드" hint="영어 단어를 듣고 쓰는 카드도 만들게" checked={settings.spellCards} onToggle={() => update({ spellCards: !settings.spellCards })} />
           )}
+          <Link to="/test" className="form-row form-row-button">
+            <ExamIcon size={22} aria-hidden="true" />
+            <span className="form-row-label">어휘량 테스트 다시 보기</span>
+            <CaretRightIcon size={18} className="form-row-caret" aria-hidden="true" />
+          </Link>
         </section>
 
+        <h2 className="form-group-title">서버</h2>
         <section className="form-group">
           <div className="form-row form-row-column">
-            <span>발음 서버 {settings.server ? '· 연결됨' : ''}</span>
+            <span className="form-row-heading">
+              발음·백업 서버
+              <span className={`status-badge${settings.server ? ' is-on' : ''}`}>{settings.server ? '연결됨' : '연결 안 됨'}</span>
+            </span>
             <div className="connect-row">
               <input className="text-input" placeholder="연결 코드 붙여넣기" value={connectCode} onChange={event => setConnectCode(event.target.value)} />
-              <button type="button" className="button" disabled={connectCode.trim() === ''} onClick={handleConnect}>
+              <button type="button" className="button button-primary" disabled={connectCode.trim() === ''} onClick={handleConnect}>
                 연결
               </button>
             </div>
           </div>
         </section>
 
+        <h2 className="form-group-title">백업</h2>
         <section className="form-group">
+          <button type="button" className="form-row form-row-button" disabled={!settings.server || driveWork !== null} onClick={handleDriveBackup}>
+            <CloudArrowUpIcon size={22} aria-hidden="true" />
+            <span className="form-row-text">
+              드라이브에 백업하기
+              <small>{backupHintOf(Boolean(settings.server), driveWork, driveState?.lastAt)}</small>
+            </span>
+          </button>
+          <button type="button" className="form-row form-row-button" disabled={!settings.server || driveWork !== null} onClick={handleDriveRestore}>
+            <CloudArrowDownIcon size={22} aria-hidden="true" />
+            <span className="form-row-text">
+              드라이브에서 되살리기
+              <small>{driveWork?.kind === 'restore' ? driveWork.text : '폰에 없는 것과 더 최근 것만 가져와'}</small>
+            </span>
+          </button>
           {prepared ? (
             <button type="button" className="form-row form-row-button" onClick={handleSave}>
-              저장하기 ({Math.ceil(prepared.size / 1024 / 1024)}MB)
+              <ExportIcon size={22} aria-hidden="true" />
+              <span className="form-row-label">저장하기 ({Math.ceil(prepared.size / 1024 / 1024)}MB)</span>
             </button>
           ) : (
             <button type="button" className="form-row form-row-button" onClick={handlePrepare}>
-              백업 파일 만들기
+              <ExportIcon size={22} aria-hidden="true" />
+              <span className="form-row-label">백업 파일 만들기</span>
             </button>
           )}
           <label className="form-row form-row-button">
-            백업 파일 가져오기
+            <DownloadSimpleIcon size={22} aria-hidden="true" />
+            <span className="form-row-label">백업 파일 가져오기</span>
             <input type="file" accept=".zip,application/zip" hidden onChange={handleImport} />
           </label>
         </section>

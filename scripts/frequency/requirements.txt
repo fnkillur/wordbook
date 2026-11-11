@@ -1,0 +1,5 @@
+pytest
+fugashi
+unidic-lite
+spacy
+# 영어 모델: python -m spacy download en_core_web_sm
