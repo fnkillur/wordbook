@@ -5,7 +5,7 @@ import { createMemoryRouter, RouterProvider } from 'react-router'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { db } from '../db/database'
 import { newStudyCard } from '../domain/schedule'
-import { makeWord, saveVocabTest, setStartRank } from '../db/repository'
+import { makeWord, saveExamResult, saveVocabTest, setStartRank } from '../db/repository'
 import { saveSettings } from '../settings'
 import { backupIfDue } from '../sync/driveBackup'
 import { fetchTts } from '../sync/tts'
@@ -90,6 +90,21 @@ describe('VillagePage', () => {
     await act(async () => exam.click())
     await waitForPath('/exam')
     expect(router.state.location.pathname).toBe('/exam')
+  })
+
+  it('딴 자격증이 있으면 오늘 공부하기 카드 오른쪽 위에 가장 높은 급수 자격증을 올려 둔다', async () => {
+    await open()
+    expect(container.querySelector('.today-card .today-license')).toBeNull()
+
+    await act(async () => {
+      await saveExamResult('ja', { takenAt: '2026-11-10T00:00:00.000Z', grade: 5, correct: 9, total: 10, passed: true })
+      await saveExamResult('ja', { takenAt: '2026-11-11T00:00:00.000Z', grade: 4, correct: 9, total: 10, passed: true })
+    })
+    await waitUntil(() => container.querySelector('.today-card .today-license') !== null)
+
+    const license = container.querySelector('.today-card .today-license')
+    expect(license?.getAttribute('src')).toContain('license-hachiware-4')
+    expect(license?.getAttribute('alt')).toBe('제초 4급 자격증')
   })
 
   it('복습할 카드가 있으면 복습부터 한다', async () => {

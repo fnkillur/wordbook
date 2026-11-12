@@ -3,12 +3,14 @@ import hachiwareAsk from './images/hachiware-ask.webp'
 import chiikawaStudy from './images/chiikawa-study.webp'
 import examGate from './images/exam-gate.webp'
 import examIntro from './images/exam-intro.webp'
+import examTaking from './images/exam-taking.webp'
 import hachiwareQuizFace from './images/hachiware-quiz-face.webp'
 import hachiwareQuiz from './images/hachiware-quiz.webp'
 import homeStudyPoster from './images/home-study-poster.webp'
 import homeStudy from './images/home-study.mp4'
 import shopArmor from './images/shop-armor.webp'
 import testIntro from './images/test-intro.webp'
+import usagiLicenseBragPoster from './images/usagi-license-brag-poster.webp'
 import usagiLicenseBrag from './images/usagi-license-brag.mp4'
 import usagiRapStill from './images/usagi-rap-still.webp'
 import usagiRap from './images/usagi-rap.webp'
@@ -36,12 +38,18 @@ export const EXAM_INTRO_IMAGE = examIntro
 
 export const EXAM_GATE_IMAGE = examGate
 
+// 시험을 시작할 때 화면을 잠깐 채우는 교실 장면.
+export const EXAM_TAKING_IMAGE = examTaking
+
 // 자격증 그림은 원본에서 급수 숫자만 바꾼 복사본이다(scripts/images/license_cards.py).
 const LICENSE_IMAGES = import.meta.glob<string>('./images/license-*.webp', { eager: true, import: 'default' })
 
 export const licenseImageOf = (person: Person, grade: number) => LICENSE_IMAGES[`./images/license-${person === '우사기' ? 'usagi' : 'hachiware'}-${grade}.webp`]
 
 export const LICENSE_BRAG_VIDEO = usagiLicenseBrag
+
+// 영상 첫 장면. 영상이 준비되기 전에 빈칸이나 재생 아이콘이 보이지 않게 먼저 깐다.
+export const LICENSE_BRAG_POSTER = usagiLicenseBragPoster
 
 // 할 일을 알려 주고 문제를 내는 건 두 사람 모두 하치와레다. 사람마다 다른 건 배우는 언어뿐이다.
 export const HOST: CharacterName = '하치와레'

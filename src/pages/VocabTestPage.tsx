@@ -4,17 +4,27 @@ import { useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router'
 import { DEFEAT_EFFECTS, pickImage } from '../characters/effects'
 import { TEST_INTRO_IMAGE } from '../characters/slots'
-import DefeatScene from '../components/DefeatScene'
+import ResultScene from '../components/ResultScene'
 import { wordSizeStyle } from '../components/wordSize'
 import { wordFormsOf } from '../components/wordForms'
 import { TEST_WORDS } from '../data/vocabTest'
-import { saveVocabTest, setStartRank, vocabTests } from '../db/repository'
+import { examProgress, saveVocabTest, setStartRank, vocabTests } from '../db/repository'
+import { vocabLevelText } from '../domain/exam'
 import { BAND_COUNT, BAND_SIZE, FREQ_LIMIT, isBandDone, nextSet, shouldStop, spreadOrder, summarize, type BandScore, type VocabTestResult } from '../domain/vocabTest'
 import { learningLanguage } from '../settings'
 
 type Progress = { set: 0 | 1; scores: BandScore[]; band: number; index: number; known: number }
 
 const stageLabel = (band: number) => `${band + 1}단계`
+
+const noteOf = (startRank: number) =>
+  startRank > FREQ_LIMIT ? '자주 쓰는 10,000단어는 거의 다 알아. 더 어려운 단어는 따로 준비할게.' : '아는 단어가 80%보다 적은 단계부터 시작해.'
+
+const startLabelOf = (startRank: number) => {
+  if (startRank > FREQ_LIMIT) return '홈으로'
+  if (startRank === 1) return '처음부터 시작할게'
+  return `${startRank.toLocaleString()}번째 단어부터 시작할게`
+}
 
 const rangeLabel = (band: number) => `많이 쓰는 순서로 ${(band * BAND_SIZE + 1).toLocaleString()}~${((band + 1) * BAND_SIZE).toLocaleString()}번째 단어`
 
@@ -34,6 +44,7 @@ function VocabTestPage() {
   const [result, setResult] = useState<VocabTestResult | null>(null)
   // 어려운 구간에서 끝났을 때 보여 줄 장면. 결과를 정할 때 한 번 골라 둔다.
   const [defeatImage, setDefeatImage] = useState<string | null>(null)
+  const [levelText, setLevelText] = useState('')
 
   const words = progress ? spreadOrder(TEST_WORDS[language].filter(word => word.band === progress.band && word.set === progress.set).sort((first, second) => first.rank - second.rank)) : []
   const word = progress ? words[progress.index] : undefined
@@ -59,42 +70,51 @@ function VocabTestPage() {
       return
     }
     isFinishing.current = true
-    const summary = summarize(scores, progress.set, new Date())
+    const now = new Date()
+    const summary = summarize(scores, progress.set, now)
     // 결과 화면에서 버튼 없이 나가도 테스트한 보람이 남게, 시작 위치도 함께 정해 둔다.
     await saveVocabTest(language, summary)
     await setStartRank(language, summary.startRank)
     if (summary.scores.length < BAND_COUNT) setDefeatImage(pickImage(DEFEAT_EFFECTS).src)
+    setLevelText(vocabLevelText(await examProgress(language, now)))
     setResult(summary)
   }
 
   if (result) {
+    const targetBand = (result.startRank - 1) / BAND_SIZE
+
     return (
       <div className="page">
         <main className="page-content">
-          <div className="vocab-column">
-            <h1 className="page-title">약 {result.estimate.toLocaleString()}개를 알아</h1>
-            {defeatImage && <DefeatScene image={defeatImage} />}
-            <ul className="vocab-bands">
-              {result.scores.map(score => (
-                <li key={score.band}>
-                  <span>{stageLabel(score.band)}</span>
-                  <span className="vocab-bar" aria-hidden="true">
-                    <span style={{ width: `${(score.known / score.total) * 100}%` }} />
-                  </span>
-                  <span>
-                    {score.known}/{score.total}
-                  </span>
-                </li>
-              ))}
-            </ul>
-            <p className="vocab-note">
-              {result.startRank > FREQ_LIMIT ? '자주 쓰는 10,000단어는 거의 다 알아. 더 어려운 단어는 따로 준비할게.' : '아는 단어가 80% 아래로 떨어지는 곳부터 배우면 좋아.'}
-            </p>
+          <div className="vocab-column vocab-result">
+            <div className="vocab-result-head">
+              <span className="vocab-result-eyebrow">내 단어 수준</span>
+              <h1 className="page-title">약 {result.estimate.toLocaleString()}개를 알아</h1>
+            </div>
+            {defeatImage && <ResultScene image={defeatImage} />}
+            <section className="vocab-result-card" aria-label="단계별로 아는 단어">
+              <ul className="vocab-bands">
+                {result.scores.map(score => (
+                  <li key={score.band} className={score.band === targetBand ? 'is-target' : undefined}>
+                    <span>{stageLabel(score.band)}</span>
+                    <span className="vocab-bar" aria-hidden="true">
+                      <span style={{ width: `${(score.known / score.total) * 100}%` }} />
+                    </span>
+                    <span className="vocab-band-count">
+                      {score.known}/{score.total}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+              {/* 중간에 끝나면 말풍선이 이미 시작할 곳을 알려 준다. */}
+              {!defeatImage && <p className="vocab-note">{noteOf(result.startRank)}</p>}
+            </section>
+            <p className="vocab-level">{levelText}</p>
           </div>
         </main>
         <div className="bottom-cta vocab-cta">
           <button type="button" className="button button-primary" onClick={() => navigate('/', { replace: true })}>
-            {result.startRank > FREQ_LIMIT ? '홈으로' : `${result.startRank.toLocaleString()}번째 단어부터 시작할게`}
+            {startLabelOf(result.startRank)}
           </button>
         </div>
       </div>

@@ -2,16 +2,16 @@ import { XIcon } from '@phosphor-icons/react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { useEffect, useRef, useState, type KeyboardEvent } from 'react'
 import { Link, useNavigate } from 'react-router'
-import { DEFEAT_EFFECTS, pickImage } from '../characters/effects'
-import { EXAM_INTRO_IMAGE, LICENSE_BRAG_VIDEO, licenseImageOf } from '../characters/slots'
-import DefeatScene from '../components/DefeatScene'
+import { EXAM_FAILED_EFFECT } from '../characters/effects'
+import { EXAM_INTRO_IMAGE, EXAM_TAKING_IMAGE, LICENSE_BRAG_POSTER, LICENSE_BRAG_VIDEO } from '../characters/slots'
+import ResultScene from '../components/ResultScene'
 import StudyImage from '../components/StudyImage'
 import { TEST_WORDS } from '../data/vocabTest'
 import { WORDS, type WordEntry } from '../data/words'
 import { examProgress, getMedia, learnedWords, postponeToTomorrow, saveExamResult } from '../db/repository'
 import { checkAnswer, englishWordSet, gradeLabel, GRADES, gradeRule, pickQuestions, type Answer, type ExamStatus } from '../domain/exam'
-import { DEVICE_PERSON, type Language } from '../platform'
-import { getSettings, learningLanguage } from '../settings'
+import type { Language } from '../platform'
+import { learningLanguage } from '../settings'
 
 type Question = { word: WordEntry; image: Blob | null }
 type Exam = { grade: number; pass: number; questions: Question[] }
@@ -19,6 +19,8 @@ type Answered = { word: WordEntry; answer: Answer }
 type ExamOutcome = { grade: number; pass: number; correct: number; total: number; passed: boolean; missed: WordEntry[] }
 
 const FAILED_MESSAGE = '괜찮아, 내일 다시 보자'
+
+const SPLASH_MS = 1600
 
 const ENGLISH_WORDS = englishWordSet([...WORDS.en, ...TEST_WORDS.en].map(word => word.text))
 
@@ -50,7 +52,6 @@ function ExamPage() {
   const navigate = useNavigate()
 
   const language = learningLanguage()
-  const person = getSettings().person ?? DEVICE_PERSON
 
   const today = useToday()
 
@@ -58,19 +59,31 @@ function ExamPage() {
 
   // 마지막 문제를 빠르게 두 번 눌러 결과를 두 번 저장하지 않게 막는다.
   const isFinishing = useRef(false)
+  const inputRef = useRef<HTMLInputElement>(null)
 
   const [exam, setExam] = useState<Exam | null>(null)
   const [answers, setAnswers] = useState<Answered[]>([])
   const [input, setInput] = useState('')
   const [checked, setChecked] = useState<Answer | null>(null)
   const [outcome, setOutcome] = useState<ExamOutcome | null>(null)
-  const [defeatImage, setDefeatImage] = useState<string | null>(null)
   const [isStarting, setIsStarting] = useState(false)
   const [saveFailed, setSaveFailed] = useState(false)
+  const [isSplashing, setIsSplashing] = useState(false)
 
   const rule = progress?.status.kind === 'ready' ? gradeRule(progress.status.grade) : null
   const question = exam?.questions[answers.length]
   const isLast = exam !== null && answers.length === exam.questions.length - 1
+
+  useEffect(() => {
+    if (!isSplashing) return
+    const timer = setTimeout(() => setIsSplashing(false), SPLASH_MS)
+    return () => clearTimeout(timer)
+  }, [isSplashing])
+
+  // 시작 장면이 걷히면 키보드를 올린다. 장면 위로 키보드가 먼저 올라와 그림이 찌그러지지 않게 한다.
+  useEffect(() => {
+    if (!isSplashing) inputRef.current?.focus()
+  }, [isSplashing])
 
   const start = async () => {
     if (!rule || isStarting) return
@@ -78,6 +91,7 @@ function ExamPage() {
     const words = pickQuestions(await learnedWords(language), rule.questions)
     const questions = await Promise.all(words.map(async word => ({ word, image: await getMedia(word.id, 'image') })))
     setExam({ grade: rule.grade, pass: rule.pass, questions })
+    setIsSplashing(true)
   }
 
   const finish = async (all: Answered[]) => {
@@ -96,13 +110,14 @@ function ExamPage() {
       setSaveFailed(true)
       return
     }
-    if (!passed) setDefeatImage(pickImage(DEFEAT_EFFECTS).src)
     setOutcome({ grade: exam.grade, pass: exam.pass, correct, total: all.length, passed, missed })
   }
 
   const check = () => {
     if (!question || checked || !input.trim()) return
     setChecked(checkAnswer(question.word, input, ENGLISH_WORDS))
+    // 키보드를 내려야 판정 패널이 그 자리에 올라온다.
+    inputRef.current?.blur()
   }
 
   const next = () => {
@@ -129,25 +144,22 @@ function ExamPage() {
     return (
       <div className="page">
         <main className="page-content">
-          <div className="vocab-column exam-result">
+          <div className="vocab-column vocab-result">
+            <div className="vocab-result-head">
+              <span className="vocab-result-eyebrow">제초 {outcome.grade}급 검정</span>
+              <h1 className="page-title">{outcome.passed ? `제초 ${outcome.grade}급 합격!` : '아쉽게 떨어졌어'}</h1>
+            </div>
             {outcome.passed ? (
-              <>
-                <h1 className="page-title">제초 {outcome.grade}급 합격!</h1>
-                <img className="exam-license" src={licenseImageOf(person, outcome.grade)} alt={`제초 ${outcome.grade}급 자격증`} />
-                <video className="exam-brag" src={LICENSE_BRAG_VIDEO} autoPlay loop muted playsInline aria-hidden="true" />
-              </>
+              <video className="exam-brag" src={LICENSE_BRAG_VIDEO} poster={LICENSE_BRAG_POSTER} autoPlay muted playsInline aria-hidden="true" />
             ) : (
-              <>
-                <h1 className="page-title">
-                  {outcome.correct}/{outcome.total} 맞혔어
-                </h1>
-                {defeatImage && <DefeatScene image={defeatImage} message={FAILED_MESSAGE} />}
-                <p className="vocab-note">합격은 {outcome.pass}개부터야.</p>
-              </>
+              <ResultScene image={EXAM_FAILED_EFFECT.src} message={FAILED_MESSAGE} />
             )}
+            <ExamScore correct={outcome.correct} total={outcome.total} pass={outcome.pass} />
             {outcome.missed.length > 0 && (
-              <section className="exam-missed" aria-label="틀린 단어">
-                <h2>틀린 단어 · 내일 복습에 다시 나와</h2>
+              <section className="vocab-result-card exam-missed" aria-label="틀린 단어">
+                <h2>
+                  틀린 단어 {outcome.missed.length}개<span> · 내일 복습에 다시 나와</span>
+                </h2>
                 <ul>
                   {outcome.missed.map(word => (
                     <li key={word.id}>
@@ -190,7 +202,7 @@ function ExamPage() {
                 <strong>제초 {exam.grade}급 검정</strong> 그림을 보고 단어를 써 줘
               </p>
             </div>
-            <section className="study-card exam-card" aria-live="polite">
+            <section className="study-card exam-card">
               <div className="exam-prompt">
                 {question.image ? (
                   <span className="study-image-frame">
@@ -202,12 +214,13 @@ function ExamPage() {
               </div>
               <input
                 key={question.word.id}
+                ref={inputRef}
                 className="text-input exam-input"
                 lang={language}
                 value={input}
                 placeholder={placeholderOf(language)}
                 aria-label="답"
-                autoFocus
+                autoFocus={!isSplashing}
                 autoComplete="off"
                 autoCapitalize="off"
                 spellCheck={false}
@@ -216,31 +229,37 @@ function ExamPage() {
                 onChange={event => setInput(event.target.value)}
                 onKeyDown={handleKeyDown}
               />
-              {checked && (
-                <p className={`exam-feedback is-${checked}`}>
-                  <span>{feedbackOf(checked)}</span>
-                  <strong lang={language}>{answerTextOf(question.word, language)}</strong>
-                </p>
-              )}
-              {saveFailed && (
-                <p className="exam-error" role="alert">
-                  결과를 저장하지 못했어. 다시 눌러 줘
-                </p>
-              )}
             </section>
           </div>
         </main>
-        <div className="bottom-cta vocab-cta">
-          {checked ? (
+        {checked ? (
+          <div className={`bottom-cta exam-sheet is-${checked}`} role="status">
+            <p className="exam-feedback">
+              <span>{feedbackOf(checked)}</span>
+              <strong lang={language}>{answerTextOf(question.word, language)}</strong>
+            </p>
+            {saveFailed && (
+              <p className="exam-error" role="alert">
+                결과를 저장하지 못했어. 다시 눌러 줘
+              </p>
+            )}
             <button type="button" className="button button-primary" onClick={next}>
               {isLast ? '결과 보기' : '다음'}
             </button>
-          ) : (
+          </div>
+        ) : (
+          <div className="bottom-cta vocab-cta">
             <button type="button" className="button button-primary" disabled={!input.trim()} onClick={check}>
               확인
             </button>
-          )}
-        </div>
+          </div>
+        )}
+        {isSplashing && (
+          <div className="exam-splash" style={{ animationDuration: `${SPLASH_MS}ms` }} onClick={() => setIsSplashing(false)}>
+            <img src={EXAM_TAKING_IMAGE} alt="" />
+            <strong>시험 시작!</strong>
+          </div>
+        )}
       </div>
     )
   }
@@ -349,6 +368,32 @@ function GradeLadder({ grade, target }: { grade: number | null; target: number |
           </li>
         ))}
       </ul>
+    </section>
+  )
+}
+
+type ExamScoreProps = { correct: number; total: number; pass: number }
+
+// 문제 하나가 한 칸이다. 맞힌 칸을 채우고, 합격 기준 칸 끝에 깃발을 꽂는다.
+function ExamScore({ correct, total, pass }: ExamScoreProps) {
+  return (
+    <section className="vocab-result-card exam-score" aria-label="점수">
+      <div className="exam-score-top">
+        <strong>
+          {correct} / {total}
+        </strong>
+        {correct < pass && <span>합격까지 {pass - correct}개 모자랐어</span>}
+      </div>
+      <div className="exam-score-track" aria-hidden="true">
+        <span className="exam-score-flag" style={{ left: `${(pass / total) * 100}%` }}>
+          합격
+        </span>
+        <ol className="exam-score-steps">
+          {Array.from({ length: total }, (_, index) => (
+            <li key={index} className={index < correct ? 'is-correct' : undefined} />
+          ))}
+        </ol>
+      </div>
     </section>
   )
 }

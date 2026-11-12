@@ -2,12 +2,13 @@ import { CaretRightIcon } from '@phosphor-icons/react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { useEffect, useState } from 'react'
 import { Link, Navigate, useNavigate } from 'react-router'
-import { EXAM_GATE_IMAGE, HOME_SCENE } from '../characters/slots'
-import { dayPlan, freqWordsLeft, knownCards, madeCountOn, peekDayPlan, silentWordIds, startRankOf, todaysWords, vocabTests } from '../db/repository'
+import { EXAM_GATE_IMAGE, HOME_SCENE, licenseImageOf } from '../characters/slots'
+import { dayPlan, examResults, freqWordsLeft, knownCards, madeCountOn, peekDayPlan, silentWordIds, startRankOf, todaysWords, vocabTests } from '../db/repository'
+import { currentGrade } from '../domain/exam'
 import { todayQueue } from '../domain/schedule'
 import { newWordsLeft, nextStep } from '../domain/session'
 import { FREQ_LIMIT } from '../domain/vocabTest'
-import { LANGUAGE_OF, type Person } from '../platform'
+import { LANGUAGE_OF, type Language, type Person } from '../platform'
 import { getSettings, learningLanguage, learningLanguageOf, saveSettings } from '../settings'
 import { backfillAudio } from '../sync/audio'
 import { backupIfDue } from '../sync/driveBackup'
@@ -95,6 +96,7 @@ function VillagePage() {
         {wordSupply?.left === 0 && <p className="notice">{supplyNotice(wordSupply.startRank ?? 0)}</p>}
         <section className="today-card" aria-label="오늘 공부하기">
           <span className="today-title">오늘 공부하기</span>
+          <HeldLicense person={person} language={language} />
           {today && (
             <span className="today-amount">
               복습 {today.dueCount}장 · 새 단어 {today.newLeft}개
@@ -108,6 +110,16 @@ function VillagePage() {
       </main>
     </div>
   )
+}
+
+type HeldLicenseProps = { person: Person; language: Language | null }
+
+// 딴 자격증 중 가장 높은 급수를 오늘 공부하기 카드에 걸어 둔다.
+function HeldLicense({ person, language }: HeldLicenseProps) {
+  const grade = useLiveQuery(async () => (language ? currentGrade(await examResults(language)) : null), [language])
+
+  if (!grade) return null
+  return <img className="today-license" src={licenseImageOf(person, grade)} alt={`제초 ${grade}급 자격증`} />
 }
 
 function ExamEntry() {

@@ -46,6 +46,9 @@ export const DEFEAT_EFFECTS: Animated[] = [
   { name: '치이카와 뒷걸음질', src: chiikawaBackstep, loopMs: 800 },
 ]
 
+// 검정에서 떨어졌을 때는 "괜찮아, 내일 다시 보자"와 어울리게 토벌에 실패한 하치와레만 보여 준다.
+export const [EXAM_FAILED_EFFECT] = DEFEAT_EFFECTS
+
 // 몰랐어가 많았던 날 끝에 다독일 때.
 export const TOUGH_DAY_EFFECTS: Animated[] = [
   { name: '치이카와 힘들어도 노력', src: chiikawaKeepTrying, loopMs: 3000 },

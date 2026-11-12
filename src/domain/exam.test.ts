@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { WordEntry } from '../data/words'
-import { checkAnswer, currentGrade, examStatus, GRADES, learnedWordIds, pickQuestions, totalVocab, type ExamResult } from './exam'
+import { checkAnswer, currentGrade, examStatus, GRADES, vocabLevelText, learnedWordIds, pickQuestions, totalVocab, type ExamResult } from './exam'
 import { newStudyCard, type StudyCard } from './schedule'
 import type { VocabTestResult } from './vocabTest'
 
@@ -60,6 +60,26 @@ describe('지금 급수', () => {
     expect(currentGrade([])).toBeNull()
     expect(currentGrade([result(5, false)])).toBeNull()
     expect(currentGrade([result(4, true), result(2, false), result(3, true)])).toBe(3)
+  })
+})
+
+describe('어휘량 수준', () => {
+  it('어휘량이 넘은 가장 높은 급수와, 그 시험까지 더 익힐 단어 수를 알려 준다', () => {
+    expect(vocabLevelText({ vocab: 900, learned: 0, grade: null })).toBe('어휘량으로는 5급 수준이야. 단어 30개를 익히면 5급 시험을 볼 수 있어.')
+    expect(vocabLevelText({ vocab: 2400, learned: 120, grade: 5 })).toBe('어휘량으로는 3급 수준이야. 단어 180개를 더 익히면 3급 시험을 볼 수 있어.')
+  })
+
+  it('익힌 단어도 채웠으면 바로 볼 수 있다고 알려 준다', () => {
+    expect(vocabLevelText({ vocab: 1200, learned: 100, grade: 5 })).toBe('어휘량으로는 4급 수준이야. 지금 4급 시험을 볼 수 있어.')
+  })
+
+  it('이미 그 급수 이상을 땄으면 수준만 알려 준다', () => {
+    expect(vocabLevelText({ vocab: 1200, learned: 100, grade: 4 })).toBe('어휘량으로는 4급 수준이야.')
+    expect(vocabLevelText({ vocab: 1200, learned: 300, grade: 3 })).toBe('어휘량으로는 4급 수준이야.')
+  })
+
+  it('5급 어휘량에 못 미치면 남은 어휘량을 알려 준다', () => {
+    expect(vocabLevelText({ vocab: 320, learned: 0, grade: null })).toBe('어휘가 180개 더 늘면 5급 수준이야.')
   })
 })
 

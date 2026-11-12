@@ -53,7 +53,20 @@ export const currentGrade = (results: ExamResult[]) => {
 
 export const gradeLabel = (grade: number | null) => (grade === null ? '급수 없음' : `${grade}급`)
 
-const isSameDay = (left: Date, right: Date) => left.toDateString() === right.toDateString()
+type VocabLevelInput = { vocab: number; learned: number; grade: number | null }
+
+// 테스트만으로 급수를 주지 않고, 어휘량으로 닿은 급수와 그 시험까지 남은 일을 알려 준다.
+export const vocabLevelText = ({ vocab, learned, grade }: VocabLevelInput) => {
+  const level = GRADES.filter(rule => vocab >= rule.vocab).at(-1)
+  if (!level) return `어휘가 ${(GRADES[0].vocab - vocab).toLocaleString()}개 더 늘면 ${GRADES[0].grade}급 수준이야.`
+  const levelText = `어휘량으로는 ${level.grade}급 수준이야.`
+  if (grade !== null && grade <= level.grade) return levelText
+  const learnedLeft = level.learned - learned
+  if (learnedLeft <= 0) return `${levelText} 지금 ${level.grade}급 시험을 볼 수 있어.`
+  return `${levelText} 단어 ${learnedLeft.toLocaleString()}개를 ${learned > 0 ? '더 ' : ''}익히면 ${level.grade}급 시험을 볼 수 있어.`
+}
+
+const isSameDay =(left: Date, right: Date) => left.toDateString() === right.toDateString()
 
 type StatusInput = { vocab: number; learned: number; results: ExamResult[]; now: Date }
 

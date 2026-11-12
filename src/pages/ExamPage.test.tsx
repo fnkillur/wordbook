@@ -116,8 +116,17 @@ describe('제초 검정', () => {
 
     await answerAll(answers)
 
-    expect(container.textContent).toContain('제초 4급 합격!')
-    expect(container.querySelector('.exam-license')?.getAttribute('src')).toContain('license-hachiware-4')
+    expect(container.querySelector('.vocab-result-eyebrow')?.textContent).toBe('제초 4급 검정')
+    expect(container.querySelector('.page-title')?.textContent).toBe('제초 4급 합격!')
+    expect(container.querySelector('video.exam-brag')?.getAttribute('poster')).toContain('usagi-license-brag-poster')
+    expect(container.querySelector('video.exam-brag')?.hasAttribute('loop')).toBe(false)
+    expect(container.querySelector('.exam-license')).toBeNull()
+    expect(container.querySelector('.result-scene')).toBeNull()
+    expect(container.querySelector('.exam-score')?.textContent).toContain('8 / 10')
+    expect(container.querySelectorAll('.exam-score-steps li')).toHaveLength(10)
+    expect(container.querySelectorAll('.exam-score-steps li.is-correct')).toHaveLength(8)
+    expect(container.querySelector('.exam-score-flag')?.textContent).toBe('합격')
+    expect(container.querySelector('.exam-missed h2')?.textContent).toContain('틀린 단어 2개')
     expect(await examResults('ja')).toMatchObject([{ grade: 4, correct: 8, total: 10, passed: true }])
   })
 
@@ -128,11 +137,40 @@ describe('제초 검정', () => {
 
     await answerAll(questions().map(() => 'ちがう'))
 
-    expect(container.textContent).toContain('괜찮아, 내일 다시 보자')
+    expect(container.querySelector('.page-title')?.textContent).toBe('아쉽게 떨어졌어')
+    expect(container.querySelector('.result-scene')?.textContent).toContain('괜찮아, 내일 다시 보자')
+    expect(container.querySelector('.result-scene img')?.getAttribute('src')).toContain('hachiware-defeat')
+    expect(container.querySelector('.exam-score')?.textContent).toContain('0 / 10')
+    expect(container.querySelector('.exam-score')?.textContent).toContain('합격까지 8개 모자랐어')
+    expect(container.querySelector('.exam-missed h2')?.textContent).toContain('틀린 단어 10개')
     expect(container.querySelector('.exam-missed')?.textContent).toContain(wrong.text)
     expect(await examResults('ja')).toMatchObject([{ grade: 4, correct: 0, passed: false }])
     const due = (await db.cards.get(`${wrong.id}:produce`))?.fsrs.due
     expect(new Date(due!).getTime()).toBeLessThan(new Date('2026-12-31T00:00:00.000Z').getTime())
+  })
+
+  it('시작하면 시험 중 그림이 화면을 채우며 시작을 알리고, 문제는 그 뒤에 이어진다', async () => {
+    await open()
+    await startExam()
+
+    expect(container.querySelector('.exam-splash img')?.getAttribute('src')).toContain('exam-taking')
+    expect(container.querySelector('.exam-splash')?.textContent).toContain('시험 시작!')
+    expect(container.querySelector('.vocab-progress-count')?.textContent).toBe('1 / 10')
+  })
+
+  it('확인하면 아래에서 판정 패널이 올라와 정답과 다음 버튼을 함께 보여 준다', async () => {
+    await open()
+    await startExam()
+    expect(container.querySelector('.exam-sheet')).toBeNull()
+
+    await type('ちがう')
+    await act(async () => button('확인')!.click())
+
+    const sheet = container.querySelector('.exam-sheet')
+    expect(sheet?.classList.contains('is-wrong')).toBe(true)
+    expect(sheet?.querySelector('.exam-feedback')?.textContent).toContain(questions()[0].text)
+    expect([...sheet!.querySelectorAll('button')].map(item => item.textContent)).toEqual(['다음'])
+    expect(button('확인')).toBeUndefined()
   })
 
   it('시작하기를 누르면 준비하는 동안 다시 누를 수 없다', async () => {
