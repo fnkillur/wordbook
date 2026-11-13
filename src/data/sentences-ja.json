@@ -789,7 +789,7 @@
   "after": "よ",
   "reading": "いけます",
   "translation": "다음 주라면 돼요.",
-  "audioPath": "sentence-audio/ja/100.m4a"
+  "audioPath": null
  },
  "ja-f00101": {
   "before": "彼はかばんに手帳を",
@@ -1893,7 +1893,7 @@
   "after": "しました、クラス委員さん。",
   "reading": "りょうかい",
   "translation": "알겠습니다, 반장님.",
-  "audioPath": "sentence-audio/ja/239.m4a"
+  "audioPath": null
  },
  "ja-f00240": {
   "before": "僕に",
@@ -2501,7 +2501,7 @@
   "after": "社は数十億円の損失ですよ",
   "reading": "わが",
   "translation": "우리 회사는 수십억 엔 손실이에요.",
-  "audioPath": "sentence-audio/ja/316.m4a"
+  "audioPath": null
  },
  "ja-f00317": {
   "before": "妹は",
@@ -3101,7 +3101,7 @@
   "after": "を大量に設置している",
   "reading": "そうち",
   "translation": "감시 장치를 잔뜩 설치해 놨어.",
-  "audioPath": "sentence-audio/ja/393.m4a"
+  "audioPath": null
  },
  "ja-f00394": {
   "before": "今年は雨が",
@@ -3805,7 +3805,7 @@
   "after": "の方向です",
   "reading": "びる",
   "translation": "연락이 온 빌딩 쪽이에요.",
-  "audioPath": "sentence-audio/ja/484.m4a"
+  "audioPath": null
  },
  "ja-f00485": {
   "before": "あ、",
@@ -4333,7 +4333,7 @@
   "after": "したの覚えてる？",
   "reading": "きす",
   "translation": "전에 나랑 키스한 거 기억나?",
-  "audioPath": "sentence-audio/ja/550.m4a"
+  "audioPath": null
  },
  "ja-f00551": {
   "before": "今日中に返答しなければ",
@@ -5005,7 +5005,7 @@
   "after": "",
   "reading": "たすかった",
   "translation": "오늘 도와줘서 정말 도움 됐어.",
-  "audioPath": "sentence-audio/ja/638.m4a"
+  "audioPath": null
  },
  "ja-f00639": {
   "before": "子供の手を",
@@ -6045,7 +6045,7 @@
   "after": "は数十億円の損失ですよ",
   "reading": "しゃ",
   "translation": "우리 회사는 수십억 엔 손실이라고요.",
-  "audioPath": "sentence-audio/ja/770.m4a"
+  "audioPath": null
  },
  "ja-f00771": {
   "before": "昨夜",
@@ -6373,7 +6373,7 @@
   "after": " やっぱ連絡取れない",
   "reading": "きょうじゅ",
   "translation": "후쿠시마 교수님, 역시 연락이 안 돼.",
-  "audioPath": "sentence-audio/ja/814.m4a"
+  "audioPath": null
  },
  "ja-f00815": {
   "before": "彼は",
@@ -6501,7 +6501,7 @@
   "after": "をしたい",
   "reading": "れい",
   "translation": "조만간 제대로 사례하고 싶어.",
-  "audioPath": "sentence-audio/ja/831.m4a"
+  "audioPath": null
  },
  "ja-f00832": {
   "before": "おい 卓球",
@@ -6629,7 +6629,7 @@
   "after": "してください",
   "reading": "ひなん",
   "translation": "침착하게 대피해 주세요.",
-  "audioPath": "sentence-audio/ja/849.m4a"
+  "audioPath": null
  },
  "ja-f00850": {
   "before": "彼女は会社で",
@@ -7061,7 +7061,7 @@
   "after": "した模様です",
   "reading": "しぼう",
   "translation": "범인은 사망한 것으로 보입니다.",
-  "audioPath": "sentence-audio/ja/903.m4a"
+  "audioPath": null
  },
  "ja-f00904": {
   "before": "恐らく 相手は",
@@ -7549,7 +7549,7 @@
   "after": "なんかで—",
   "reading": "かげん",
   "translation": "고작 계란 익힘 정도 가지고.",
-  "audioPath": "sentence-audio/ja/967.m4a"
+  "audioPath": null
  },
  "ja-f00968": {
   "before": "もっと",
@@ -8765,7 +8765,7 @@
   "after": "セールまで後十分だから",
   "reading": "たいむ",
   "translation": "타임 세일까지 10분 남았으니까.",
-  "audioPath": "sentence-audio/ja/1127.m4a"
+  "audioPath": null
  },
  "ja-f01128": {
   "before": "観客は",
@@ -9125,7 +9125,7 @@
   "after": "ねえよ",
   "reading": "にがさ",
   "translation": "사정을 듣기 전까진 절대 안 놓쳐.",
-  "audioPath": "sentence-audio/ja/1173.m4a"
+  "audioPath": null
  },
  "ja-f01174": {
   "before": "",
@@ -10021,7 +10021,7 @@
   "after": "ます",
   "reading": "つきとめ",
   "translation": "우리가 꼭 진상을 밝혀낼게요.",
-  "audioPath": "sentence-audio/ja/1293.m4a"
+  "audioPath": null
  },
  "ja-f01294": {
   "before": "毎朝、金魚に",
@@ -10037,7 +10037,7 @@
   "after": "があったようですね",
   "reading": "とらぶる",
   "translation": "무슨 문제가 있었던 것 같네요.",
-  "audioPath": "sentence-audio/ja/1295.m4a"
+  "audioPath": null
  },
  "ja-f01296": {
   "before": "",
@@ -10141,7 +10141,7 @@
   "after": "しろ",
   "reading": "あっぷ",
   "translation": "인터넷에 데이터를 올려.",
-  "audioPath": "sentence-audio/ja/1308.m4a"
+  "audioPath": null
  },
  "ja-f01309": {
   "before": "ねえ ",
@@ -10365,7 +10365,7 @@
   "after": "てしまいました",
   "reading": "みうしなっ",
   "translation": "대상을 놓쳐 버렸습니다.",
-  "audioPath": "sentence-audio/ja/1339.m4a"
+  "audioPath": null
  },
  "ja-f01340": {
   "before": "これって正当",
@@ -10661,7 +10661,7 @@
   "after": "とでも思ったのか？",
   "reading": "ゆうれい",
   "translation": "귀신이나 유령이라도 본 줄 알았어?",
-  "audioPath": "sentence-audio/ja/1378.m4a"
+  "audioPath": null
  },
  "ja-f01379": {
   "before": "",
@@ -10885,7 +10885,7 @@
   "after": "するミサイルを確認！",
   "reading": "せっきん",
   "translation": "접근하는 미사일 확인!",
-  "audioPath": "sentence-audio/ja/1407.m4a"
+  "audioPath": null
  },
  "ja-f01408": {
   "before": "",
@@ -11205,7 +11205,7 @@
   "after": "で一番かっこいいのは",
   "reading": "このよ",
   "translation": "이 세상에서 제일 멋있는 건…",
-  "audioPath": "sentence-audio/ja/1449.m4a"
+  "audioPath": null
  },
  "ja-f01450": {
   "before": "少し音量を",
@@ -11517,7 +11517,7 @@
   "after": "の言葉を決して口にしない",
   "reading": "わかれ",
   "translation": "작별 인사를 절대 입에 담지 않아.",
-  "audioPath": "sentence-audio/ja/1489.m4a"
+  "audioPath": null
  },
  "ja-f01490": {
   "before": "俺は お前の母を",
@@ -11557,7 +11557,7 @@
   "after": "もあるんだってさ",
   "reading": "あと",
   "translation": "몸에 화상 자국도 있대.",
-  "audioPath": "sentence-audio/ja/1495.m4a"
+  "audioPath": null
  },
  "ja-f01497": {
   "before": "そろそろ",
@@ -11701,7 +11701,7 @@
   "after": "を確認！",
   "reading": "みさいる",
   "translation": "접근하는 미사일 확인!",
-  "audioPath": "sentence-audio/ja/1516.m4a"
+  "audioPath": null
  },
  "ja-f01517": {
   "before": "全員 ",
@@ -11957,7 +11957,7 @@
   "after": "として金メダル",
   "reading": "だいひょう",
   "translation": "그대로 일본 대표로 금메달을 땄어.",
-  "audioPath": "sentence-audio/ja/1549.m4a"
+  "audioPath": null
  },
  "ja-f01550": {
   "before": "こちらで",
@@ -12293,7 +12293,7 @@
   "after": "だよな",
   "reading": "きみ",
   "translation": "걔 요즘 좀 땡땡이치는 기미가 있지?",
-  "audioPath": "sentence-audio/ja/1593.m4a"
+  "audioPath": null
  },
  "ja-f01594": {
   "before": "ちょっと待て。前に",
@@ -12389,7 +12389,7 @@
   "after": "の確認はまだ取れていない",
   "reading": "みもと",
   "translation": "신원 확인은 아직 안 됐어.",
-  "audioPath": "sentence-audio/ja/1605.m4a"
+  "audioPath": null
  },
  "ja-f01606": {
   "before": "携帯が大きな音で",
@@ -12477,7 +12477,7 @@
   "after": "したらしい…",
   "reading": "ついらく",
   "translation": "추락한 것 같아….",
-  "audioPath": "sentence-audio/ja/1618.m4a"
+  "audioPath": null
  },
  "ja-f01619": {
   "before": "道で財布を",
@@ -12869,7 +12869,7 @@
   "after": "の基本から行こうぜ",
   "reading": "きほん",
   "translation": "우선 기본 중의 기본부터 가자.",
-  "audioPath": "sentence-audio/ja/1672.m4a"
+  "audioPath": null
  },
  "ja-f01673": {
   "before": "‪",
@@ -12941,7 +12941,7 @@
   "after": "してんの？",
   "reading": "もうそう",
   "translation": "왜 그런 피해망상을 하는 거야?",
-  "audioPath": "sentence-audio/ja/1682.m4a"
+  "audioPath": null
  },
  "ja-f01683": {
   "before": "寂しいですけど　お別れの",
@@ -13173,7 +13173,7 @@
   "after": "れてしまう",
   "reading": "しばら",
   "translation": "자기 규칙에 얽매여 버려.",
-  "audioPath": "sentence-audio/ja/1713.m4a"
+  "audioPath": null
  },
  "ja-f01714": {
   "before": "荷物はトラックで",
@@ -13341,7 +13341,7 @@
   "after": "避難を！",
   "reading": "ただちに",
   "translation": "주민 여러분은 즉시 대피하세요!",
-  "audioPath": "sentence-audio/ja/1734.m4a"
+  "audioPath": null
  },
  "ja-f01735": {
   "before": "アップル",
@@ -13685,7 +13685,7 @@
   "after": "の命運が懸かっている",
   "reading": "いちぞく",
   "translation": "일족의 운명이 걸려 있어.",
-  "audioPath": "sentence-audio/ja/1781.m4a"
+  "audioPath": null
  },
  "ja-f01782": {
   "before": "",
@@ -13925,7 +13925,7 @@
   "after": "なんですよ。",
   "reading": "たいきん",
   "translation": "두 사람한테는 큰돈이에요.",
-  "audioPath": "sentence-audio/ja/1814.m4a"
+  "audioPath": null
  },
  "ja-f01815": {
   "before": "君の才能に",
@@ -14117,7 +14117,7 @@
   "after": "期限今日までだ",
   "reading": "しはらい",
   "translation": "전화 요금 납부 기한이 오늘까지야.",
-  "audioPath": "sentence-audio/ja/1841.m4a"
+  "audioPath": null
  },
  "ja-f01842": {
   "before": "こいつ言葉",
@@ -14693,7 +14693,7 @@
   "after": "ですか！",
   "reading": "さわぎ",
   "translation": "이게 대체 무슨 소동이에요!",
-  "audioPath": "sentence-audio/ja/1920.m4a"
+  "audioPath": null
  },
  "ja-f01922": {
   "before": "悪を",
@@ -15005,7 +15005,7 @@
   "after": "してます",
   "reading": "そんしょう",
   "translation": "상당히 심하게 손상됐어요.",
-  "audioPath": "sentence-audio/ja/1965.m4a"
+  "audioPath": null
  },
  "ja-f01966": {
   "before": "",
@@ -15181,7 +15181,7 @@
   "after": "の連中がこれを認めるはずもないしな",
   "reading": "とうきょく",
   "translation": "당국 사람들이 이걸 인정할 리도 없고.",
-  "audioPath": "sentence-audio/ja/1989.m4a"
+  "audioPath": null
  },
  "ja-f01990": {
   "before": "市",
@@ -15421,7 +15421,7 @@
   "after": "もありますから",
   "reading": "もーど",
   "translation": "이지 모드도 있으니까요.",
-  "audioPath": "sentence-audio/ja/2020.m4a"
+  "audioPath": null
  },
  "ja-f02021": {
   "before": "ゲーム製作は",
@@ -15925,7 +15925,7 @@
   "after": "こともあります。",
   "reading": "ひきおこす",
   "translation": "폐렴 같은 합병증을 일으킬 수도 있어요.",
-  "audioPath": "sentence-audio/ja/2087.m4a"
+  "audioPath": null
  },
  "ja-f02088": {
   "before": "人材",
@@ -16973,7 +16973,7 @@
   "after": "なら何とかなる",
   "reading": "かしょ",
   "translation": "스물세 곳이면 어떻게든 돼.",
-  "audioPath": "sentence-audio/ja/2235.m4a"
+  "audioPath": null
  },
  "ja-f02236": {
   "before": "昔から伝わっとる古い",
@@ -17269,7 +17269,7 @@
   "after": "をこっちに投げて！",
   "reading": "ろーぷ",
   "translation": "밧줄을 이쪽으로 던져!",
-  "audioPath": "sentence-audio/ja/2275.m4a"
+  "audioPath": null
  },
  "ja-f02276": {
   "before": "シャボン",
@@ -17741,7 +17741,7 @@
   "after": "は どういったもので？",
   "reading": "しょうじょう",
   "translation": "증상은 어떤가요?",
-  "audioPath": "sentence-audio/ja/2341.m4a"
+  "audioPath": null
  },
  "ja-f02342": {
   "before": "相手の油断を誘って 急所を",
@@ -17941,7 +17941,7 @@
   "after": "しているわけじゃないぞ",
   "reading": "どうじょう",
   "translation": "동정하는 건 아니야.",
-  "audioPath": "sentence-audio/ja/2369.m4a"
+  "audioPath": null
  },
  "ja-f02370": {
   "before": "子供が ",
@@ -18021,7 +18021,7 @@
   "after": "すればいいのかな",
   "reading": "ひょうげん",
   "translation": "뭐라고 표현하면 좋을까.",
-  "audioPath": "sentence-audio/ja/2380.m4a"
+  "audioPath": null
  },
  "ja-f02381": {
   "before": "何だか",
@@ -18509,7 +18509,7 @@
   "after": "は休めたか？",
   "reading": "さくばん",
   "translation": "어젯밤엔 좀 쉬었어?",
-  "audioPath": "sentence-audio/ja/2450.m4a"
+  "audioPath": null
  },
  "ja-f02451": {
   "before": "‪",
@@ -18821,7 +18821,7 @@
   "after": "室に来てください",
   "reading": "しょくいん",
   "translation": "나중에 교무실로 오세요.",
-  "audioPath": "sentence-audio/ja/2492.m4a"
+  "audioPath": null
  },
  "ja-f02494": {
   "before": "それ、今週の新",
@@ -19213,7 +19213,7 @@
   "after": "だろう",
   "reading": "だいしょう",
   "translation": "그 정도는 당연한 대가지.",
-  "audioPath": "sentence-audio/ja/2546.m4a"
+  "audioPath": null
  },
  "ja-f02547": {
   "before": "それは 私を",
@@ -20157,7 +20157,7 @@
   "after": "する",
   "reading": "ゆうどう",
   "translation": "내가 저 녀석을 밖으로 유도할게.",
-  "audioPath": "sentence-audio/ja/2692.m4a"
+  "audioPath": null
  },
  "ja-f02693": {
   "before": "それで成績急",
@@ -20773,7 +20773,7 @@
   "after": "がありませんでした",
   "reading": "とくちょう",
   "translation": "뭔가 특징은 없었어요?",
-  "audioPath": "sentence-audio/ja/2784.m4a"
+  "audioPath": null
  },
  "ja-f02785": {
   "before": "母親譲りの緑色の",
@@ -21037,7 +21037,7 @@
   "after": "を進む我々は想像を絶する事態に遭遇する",
   "reading": "じゃんぐる",
   "translation": "정글을 나아가던 우리는 상상을 초월하는 사태와 마주친다.",
-  "audioPath": "sentence-audio/ja/2830.m4a"
+  "audioPath": null
  },
  "ja-f02831": {
   "before": "アイドル",
@@ -21053,7 +21053,7 @@
   "after": "",
   "reading": "われる",
   "translation": "너한테 맡기면 달걀 깨져.",
-  "audioPath": "sentence-audio/ja/2833.m4a"
+  "audioPath": null
  },
  "ja-f02834": {
   "before": "私の物語の",
@@ -21549,7 +21549,7 @@
   "after": "ですよ",
   "reading": "そんしつ",
   "translation": "우리 회사는 수십억 엔 손실이에요.",
-  "audioPath": "sentence-audio/ja/2907.m4a"
+  "audioPath": null
  },
  "ja-f02908": {
   "before": "牧場に",
@@ -22221,7 +22221,7 @@
   "after": "今日までだ",
   "reading": "きげん",
   "translation": "전화 요금 납부 기한이 오늘까지야.",
-  "audioPath": "sentence-audio/ja/3008.m4a"
+  "audioPath": null
  },
  "ja-f03009": {
   "before": "まるで",
@@ -22269,7 +22269,7 @@
   "after": "教室へ戻ろう",
   "reading": "いったん",
   "translation": "아무튼 일단 교실로 돌아가자.",
-  "audioPath": "sentence-audio/ja/3016.m4a"
+  "audioPath": null
  },
  "ja-f03017": {
   "before": "警備員は担当",
@@ -22925,7 +22925,7 @@
   "after": "が起きていたらしい",
   "reading": "げんしょう",
   "translation": "방전 현상이 일어났던 모양이야.",
-  "audioPath": "sentence-audio/ja/3109.m4a"
+  "audioPath": null
  },
  "ja-f03110": {
   "before": "",
@@ -22941,7 +22941,7 @@
   "after": "するの忘れてたんだ",
   "reading": "じゅうでん",
   "translation": "휴대폰 충전하는 걸 깜빡했어.",
-  "audioPath": "sentence-audio/ja/3111.m4a"
+  "audioPath": null
  },
  "ja-f03112": {
   "before": "",
@@ -23141,7 +23141,7 @@
   "after": "で多く流通するようになりました",
   "reading": "こくない",
   "translation": "국내에서 많이 유통되게 되었습니다.",
-  "audioPath": "sentence-audio/ja/3138.m4a"
+  "audioPath": null
  },
  "ja-f03139": {
   "before": "お前の単純な技など 見切るのは",
@@ -23469,7 +23469,7 @@
   "after": "教室で会ったっけ？",
   "reading": "ぴあの",
   "translation": "피아노 학원에서 만났었나?",
-  "audioPath": "sentence-audio/ja/3183.m4a"
+  "audioPath": null
  },
  "ja-f03185": {
   "before": "あと、",
@@ -23837,7 +23837,7 @@
   "after": "でないことを祈ろう",
   "reading": "おろかもの",
   "translation": "네가 바보가 아니길 빌지.",
-  "audioPath": "sentence-audio/ja/3244.m4a"
+  "audioPath": null
  },
  "ja-f03245": {
   "before": "ゲームの中に隠された本質を",
@@ -23853,7 +23853,7 @@
   "after": "な弁護士を 雇い直したようです。",
   "reading": "ゆうのう",
   "translation": "형도 유능한 변호사를 새로 고용한 것 같아요.",
-  "audioPath": "sentence-audio/ja/3246.m4a"
+  "audioPath": null
  },
  "ja-f03247": {
   "before": "何をそんなに",
@@ -24229,7 +24229,7 @@
   "after": "は三十人程度なのに",
   "reading": "にんずう",
   "translation": "반 인원수는 서른 명 정도인데.",
-  "audioPath": "sentence-audio/ja/3306.m4a"
+  "audioPath": null
  },
  "ja-f03307": {
   "before": "さあお眠り。眠って体を",
@@ -24373,7 +24373,7 @@
   "after": "してるみたいだけど",
   "reading": "ていでん",
   "translation": "우리 집 쪽은 정전된 것 같은데.",
-  "audioPath": "sentence-audio/ja/3326.m4a"
+  "audioPath": null
  },
  "ja-f03327": {
   "before": "どうする？ ",
@@ -25453,7 +25453,7 @@
   "after": "旅行になったんだよ",
   "reading": "だんたい",
   "translation": "언제부터 단체 여행이 된 거야?",
-  "audioPath": "sentence-audio/ja/3492.m4a"
+  "audioPath": null
  },
  "ja-f03493": {
   "before": "",
@@ -25517,7 +25517,7 @@
   "after": "さえはっきりすれば",
   "reading": "でどころ",
   "translation": "그 이야기의 출처만 확실해지면.",
-  "audioPath": "sentence-audio/ja/3502.m4a"
+  "audioPath": null
  },
  "ja-f03503": {
   "before": "‪今からでも ",
@@ -26229,7 +26229,7 @@
   "after": "が飛べなかったと書いてあります",
   "reading": "へりこぷたー",
   "translation": "헬리콥터가 날지 못했다고 적혀 있어요.",
-  "audioPath": "sentence-audio/ja/3605.m4a"
+  "audioPath": null
  },
  "ja-f03606": {
   "before": "このまま",
@@ -26285,7 +26285,7 @@
   "after": "でるつもりだったんだ",
   "reading": "ひそん",
   "translation": "세상 한구석에 숨어 지낼 생각이었어.",
-  "audioPath": "sentence-audio/ja/3612.m4a"
+  "audioPath": null
  },
  "ja-f03613": {
   "before": "この町は観光",
@@ -26429,7 +26429,7 @@
   "after": "の支払い期限今日までだ",
   "reading": "りょうきん",
   "translation": "전화 요금 납부 기한이 오늘까지야.",
-  "audioPath": "sentence-audio/ja/3631.m4a"
+  "audioPath": null
  },
  "ja-f03632": {
   "before": "もう少し見て回りたい。",
@@ -26509,7 +26509,7 @@
   "after": "が届いたら　また連絡する",
   "reading": "だんやく",
   "translation": "탄약이 도착하면 다시 연락할게.",
-  "audioPath": "sentence-audio/ja/3643.m4a"
+  "audioPath": null
  },
  "ja-f03644": {
   "before": "俺はかあさんを",
@@ -26717,7 +26717,7 @@
   "after": "して防衛ラインを立て直す",
   "reading": "こうたい",
   "translation": "후퇴해서 방어선을 다시 세운다.",
-  "audioPath": "sentence-audio/ja/3672.m4a"
+  "audioPath": null
  },
  "ja-f03673": {
   "before": "こんな街なかに",
@@ -26837,7 +26837,7 @@
   "after": "は欲しくないぞ",
   "reading": "ぜんか",
   "translation": "난 아직 전과는 달고 싶지 않아.",
-  "audioPath": "sentence-audio/ja/3690.m4a"
+  "audioPath": null
  },
  "ja-f03691": {
   "before": "‪まあ 当然の",
@@ -26933,7 +26933,7 @@
   "after": "なんかはびっくりしたし",
   "reading": "らすと",
   "translation": "마지막 부분은 깜짝 놀랐어.",
-  "audioPath": "sentence-audio/ja/3705.m4a"
+  "audioPath": null
  },
  "ja-f03708": {
   "before": "ええ 私の望みを",
@@ -26981,7 +26981,7 @@
   "after": "時に食っとかねえと",
   "reading": "くえる",
   "translation": "먹을 수 있을 때 먹어 둬야지.",
-  "audioPath": "sentence-audio/ja/3713.m4a"
+  "audioPath": null
  },
  "ja-f03714": {
   "before": "“私のメール",
@@ -27149,7 +27149,7 @@
   "after": "を勉強しろよ",
   "reading": "じょうしき",
   "translation": "상식을 좀 더 공부해라.",
-  "audioPath": "sentence-audio/ja/3736.m4a"
+  "audioPath": null
  },
  "ja-f03737": {
   "before": "最大の",
@@ -27573,7 +27573,7 @@
   "after": "あり。 本件と関連性がありません。",
   "reading": "いぎ",
   "translation": "이의 있습니다. 본 사건과 관련이 없습니다.",
-  "audioPath": "sentence-audio/ja/3796.m4a"
+  "audioPath": null
  },
  "ja-f03797": {
   "before": "きっとあなたの",
@@ -27581,7 +27581,7 @@
   "after": "も伸びますよ",
   "reading": "しんちょう",
   "translation": "분명 당신 키도 클 거예요.",
-  "audioPath": "sentence-audio/ja/3797.m4a"
+  "audioPath": null
  },
  "ja-f03798": {
   "before": "だから親せきの子を",
@@ -27821,7 +27821,7 @@
   "after": "します",
   "reading": "こうぎ",
   "translation": "국장을 통해 항의하겠습니다.",
-  "audioPath": "sentence-audio/ja/3834.m4a"
+  "audioPath": null
  },
  "ja-f03835": {
   "before": "",
@@ -28029,7 +28029,7 @@
   "after": "のようになるのです",
   "reading": "えきたい",
   "translation": "놓으면 액체처럼 돼요.",
-  "audioPath": "sentence-audio/ja/3870.m4a"
+  "audioPath": null
  },
  "ja-f03871": {
   "before": "自信がもっと",
@@ -28061,7 +28061,7 @@
   "after": "カメラに バッチリ映ってるはずだから",
   "reading": "ぼうはん",
   "translation": "가게 방범 카메라에 확실히 찍혀 있을 테니까.",
-  "audioPath": "sentence-audio/ja/3874.m4a"
+  "audioPath": null
  },
  "ja-f03875": {
   "before": "うめえ！ 何だ？ この",
@@ -28317,7 +28317,7 @@
   "after": "で見たんですが",
   "reading": "どうが",
   "translation": "전에 어떤 동영상에서 봤는데요.",
-  "audioPath": "sentence-audio/ja/3911.m4a"
+  "audioPath": null
  },
  "ja-f03912": {
   "before": "二つの",
@@ -28733,7 +28733,7 @@
   "after": "してみたほうが よさそうね",
   "reading": "さいげん",
   "translation": "재현해 보는 게 좋겠네.",
-  "audioPath": "sentence-audio/ja/3966.m4a"
+  "audioPath": null
  },
  "ja-f03967": {
   "before": "これで やっと自分を",
@@ -28941,7 +28941,7 @@
   "after": "の跡もあるんだってさ",
   "reading": "やけど",
   "translation": "몸에는 화상 자국도 있대.",
-  "audioPath": "sentence-audio/ja/3997.m4a"
+  "audioPath": null
  },
  "ja-f03998": {
   "before": "",
@@ -29653,7 +29653,7 @@
   "after": "ておいてくださいっ",
   "reading": "まかし",
   "translation": "맡겨 주세요!",
-  "audioPath": "sentence-audio/ja/4095.m4a"
+  "audioPath": null
  },
  "ja-f04096": {
   "before": "彼女には",
@@ -30365,7 +30365,7 @@
   "after": "的な連中よ",
   "reading": "ゆうこう",
   "translation": "아마 우호적인 사람들일 거야.",
-  "audioPath": "sentence-audio/ja/4201.m4a"
+  "audioPath": null
  },
  "ja-f04202": {
   "before": "確かに眠気",
@@ -30821,7 +30821,7 @@
   "after": "されていたら　どうする",
   "reading": "ぼうじゅ",
   "translation": "통신이 감청되고 있으면 어떡해?",
-  "audioPath": "sentence-audio/ja/4270.m4a"
+  "audioPath": null
  },
  "ja-f04271": {
   "before": "",
@@ -31053,7 +31053,7 @@
   "after": "交通機関もいまだマヒ状態で…",
   "reading": "こうきょう",
   "translation": "대중교통도 아직 마비 상태라….",
-  "audioPath": "sentence-audio/ja/4305.m4a"
+  "audioPath": null
  },
  "ja-f04306": {
   "before": "証人に",
@@ -31101,7 +31101,7 @@
   "after": "の二階にありますね",
   "reading": "とう",
   "translation": "일반동 2층에 있네요.",
-  "audioPath": "sentence-audio/ja/4311.m4a"
+  "audioPath": null
  },
  "ja-f04312": {
   "before": "係累はおろか 家族",
@@ -31181,7 +31181,7 @@
   "after": "はＯＫですわ",
   "reading": "すたんばい",
   "translation": "카메라 스탠바이 완료예요.",
-  "audioPath": "sentence-audio/ja/4322.m4a"
+  "audioPath": null
  },
  "ja-f04324": {
   "before": "この",
@@ -31485,7 +31485,7 @@
   "after": "の方が言ってました",
   "reading": "じゃーなりすと",
   "translation": "뉴스에서 유명한 저널리스트가 말했어요.",
-  "audioPath": "sentence-audio/ja/4362.m4a"
+  "audioPath": null
  },
  "ja-f04365": {
   "before": "",
@@ -32197,7 +32197,7 @@
   "after": "者は全員集まってくれ",
   "reading": "しゅつえん",
   "translation": "출연자는 전원 모여 줘.",
-  "audioPath": "sentence-audio/ja/4467.m4a"
+  "audioPath": null
  },
  "ja-f04468": {
   "before": "水の",
@@ -32245,7 +32245,7 @@
   "after": "するつもりはない",
   "reading": "てきたい",
   "translation": "난 너랑 적대할 생각은 없어.",
-  "audioPath": "sentence-audio/ja/4473.m4a"
+  "audioPath": null
  },
  "ja-f04474": {
   "before": "彼の無実が",
@@ -32285,7 +32285,7 @@
   "after": "されますし。",
   "reading": "ほじょ",
   "translation": "비용도 일정액 보조되고요.",
-  "audioPath": "sentence-audio/ja/4479.m4a"
+  "audioPath": null
  },
  "ja-f04480": {
   "before": "あの目は",
@@ -32397,7 +32397,7 @@
   "after": "電話近くにあったっけ",
   "reading": "こうしゅう",
   "translation": "이 근처에 공중전화 있었나?",
-  "audioPath": "sentence-audio/ja/4500.m4a"
+  "audioPath": null
  },
  "ja-f04501": {
   "before": "大雨で川の水かさが",
@@ -32773,7 +32773,7 @@
   "after": "の高野さん。",
   "reading": "ぼらんてぃあ",
   "translation": "일 쉬는 날에 도와주시는 자원봉사자 다카노 씨예요.",
-  "audioPath": "sentence-audio/ja/4554.m4a"
+  "audioPath": null
  },
  "ja-f04555": {
   "before": "うわー ",
@@ -33293,7 +33293,7 @@
   "after": "落としただけです",
   "reading": "ふた",
   "translation": "소금 통 뚜껑을 떨어뜨렸을 뿐이에요.",
-  "audioPath": "sentence-audio/ja/4621.m4a"
+  "audioPath": null
  },
  "ja-f04622": {
   "before": "",
@@ -34477,7 +34477,7 @@
   "after": "が必要なんだ",
   "reading": "きゅうそく",
   "translation": "너한테는 휴식이 필요해.",
-  "audioPath": "sentence-audio/ja/4796.m4a"
+  "audioPath": null
  },
  "ja-f04797": {
   "before": "犯人が",
@@ -34517,7 +34517,7 @@
   "after": "から出ることはできない",
   "reading": "じょうへき",
   "translation": "이 나라에서는 일반인이 성벽 밖으로 나갈 수 없어.",
-  "audioPath": "sentence-audio/ja/4801.m4a"
+  "audioPath": null
  },
  "ja-f04802": {
   "before": "",
@@ -35117,7 +35117,7 @@
   "after": "なんですから",
   "reading": "むのう",
   "translation": "비 오는 날엔 무능하잖아요.",
-  "audioPath": "sentence-audio/ja/4890.m4a"
+  "audioPath": null
  },
  "ja-f04891": {
   "before": "よし、",
@@ -35173,7 +35173,7 @@
   "after": "て悪さする類の奴らだ",
   "reading": "とりつい",
   "translation": "사람한테 씌어서 나쁜 짓을 하는 부류야.",
-  "audioPath": "sentence-audio/ja/4903.m4a"
+  "audioPath": null
  },
  "ja-f04904": {
   "before": "仏像が本堂に",

@@ -1,0 +1,4366 @@
+{
+ "ja-0474": [
+  {
+   "before": "俺は毎日",
+   "answer": "働いてる",
+   "after": "",
+   "reading": "はたらいてる",
+   "translation": "난 매일 일하고 있어.",
+   "audioPath": "sentence-audio/ja/c/ja-0474-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "今日はよく",
+   "answer": "働いた",
+   "after": "な",
+   "reading": "はたらいた",
+   "translation": "오늘은 일 많이 했다.",
+   "audioPath": "sentence-audio/ja/c/ja-0474-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "でも ",
+   "answer": "働かなきゃ",
+   "after": " 暮らしていけないし—",
+   "reading": "はたらかなきゃ",
+   "translation": "그래도 일 안 하면 먹고살 수가 없잖아…",
+   "audioPath": "sentence-audio/ja/c/ja-0474-3.m4a",
+   "form": "~ない"
+  }
+ ],
+ "ja-0475": [
+  {
+   "before": "あしたも",
+   "answer": "遊ぼう",
+   "after": "ね",
+   "reading": "あそぼう",
+   "translation": "내일도 놀자.",
+   "audioPath": "sentence-audio/ja/c/ja-0475-1.m4a",
+   "form": "~よう/~おう"
+  },
+  {
+   "before": "最近　僕らのグループと一緒に",
+   "answer": "遊んでる",
+   "after": "から",
+   "reading": "あそんでる",
+   "translation": "요즘 우리 무리랑 같이 놀고 있거든.",
+   "audioPath": "sentence-audio/ja/c/ja-0475-2.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "僕とも",
+   "answer": "遊んで",
+   "after": "よ",
+   "reading": "あそんで",
+   "translation": "나랑도 놀아 줘.",
+   "audioPath": "sentence-audio/ja/c/ja-0475-3.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "俺と一緒に",
+   "answer": "遊ばない",
+   "after": "？",
+   "reading": "あそばない",
+   "translation": "나랑 같이 안 놀래?",
+   "audioPath": "sentence-audio/ja/c/ja-0475-4.m4a",
+   "form": "~ない"
+  }
+ ],
+ "ja-0476": [
+  {
+   "before": "ゆっくり",
+   "answer": "歩いて",
+   "after": "",
+   "reading": "あるいて",
+   "translation": "천천히 걸어.",
+   "audioPath": "sentence-audio/ja/c/ja-0476-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "ほら ちゃんと",
+   "answer": "歩かない",
+   "after": "と",
+   "reading": "あるかない",
+   "translation": "자, 제대로 걸어야지.",
+   "audioPath": "sentence-audio/ja/c/ja-0476-2.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "そこらへんを",
+   "answer": "歩いてる",
+   "after": "　カップルとか？",
+   "reading": "あるいてる",
+   "translation": "저기 걸어가는 커플 같은 거?",
+   "audioPath": "sentence-audio/ja/c/ja-0476-3.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "",
+   "answer": "歩いていく",
+   "after": "しかないだろ",
+   "reading": "あるいていく",
+   "translation": "걸어갈 수밖에 없잖아.",
+   "audioPath": "sentence-audio/ja/c/ja-0476-4.m4a",
+   "form": "~ていく/~てくる"
+  }
+ ],
+ "ja-0477": [
+  {
+   "before": "とにかく",
+   "answer": "走って",
+   "after": "",
+   "reading": "はしって",
+   "translation": "일단 뛰어!",
+   "audioPath": "sentence-audio/ja/c/ja-0477-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "なんで、",
+   "answer": "走ってる",
+   "after": "んだろうな、俺たち",
+   "reading": "はしってる",
+   "translation": "우리 왜 달리고 있는 걸까.",
+   "audioPath": "sentence-audio/ja/c/ja-0477-2.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "俺達なら",
+   "answer": "走った",
+   "after": "ほうが早い。",
+   "reading": "はしった",
+   "translation": "우리라면 뛰는 게 더 빨라.",
+   "audioPath": "sentence-audio/ja/c/ja-0477-3.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-0479": [
+  {
+   "before": "森の上を",
+   "answer": "飛んだ",
+   "after": "ほうが よかったですね",
+   "reading": "とんだ",
+   "translation": "숲 위로 날아가는 게 나았겠네요.",
+   "audioPath": "sentence-audio/ja/c/ja-0479-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "見て 見て 飛行機が",
+   "answer": "飛んでる",
+   "after": "―",
+   "reading": "とんでる",
+   "translation": "봐 봐, 비행기가 날아가!",
+   "audioPath": "sentence-audio/ja/c/ja-0479-2.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "今日は ",
+   "answer": "とばない",
+   "after": "の？",
+   "reading": "とばない",
+   "translation": "오늘은 안 날아?",
+   "audioPath": "sentence-audio/ja/c/ja-0479-3.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "痛いの痛いの ",
+   "answer": "飛んでいけ",
+   "after": "ー",
+   "reading": "とんでいけ",
+   "translation": "아픈 거 아픈 거 저리 날아가라~",
+   "audioPath": "sentence-audio/ja/c/ja-0479-4.m4a",
+   "form": "~ていく/~てくる"
+  }
+ ],
+ "ja-0480": [
+  {
+   "before": "ねね　一緒に",
+   "answer": "泳がない",
+   "after": "",
+   "reading": "およがない",
+   "translation": "있잖아, 같이 수영 안 할래?",
+   "audioPath": "sentence-audio/ja/c/ja-0480-1.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "すごく一生懸命　",
+   "answer": "泳いでる",
+   "after": "",
+   "reading": "およいでる",
+   "translation": "엄청 열심히 헤엄치고 있어.",
+   "audioPath": "sentence-audio/ja/c/ja-0480-2.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "週末は子どもをプールで",
+   "answer": "泳がせる",
+   "after": "つもりだ。",
+   "reading": "およがせる",
+   "translation": "주말엔 아이를 수영장에서 수영시킬 생각이야.",
+   "audioPath": null,
+   "form": "~せる/~させる"
+  },
+  {
+   "before": "向こう岸まで",
+   "answer": "泳いでいく",
+   "after": "よ。",
+   "reading": "およいでいく",
+   "translation": "건너편까지 헤엄쳐 갈게.",
+   "audioPath": null,
+   "form": "~ていく/~てくる"
+  }
+ ],
+ "ja-0481": [
+  {
+   "before": "先生のところ知らせに",
+   "answer": "行こう",
+   "after": "",
+   "reading": "いこう",
+   "translation": "선생님한테 알리러 가자.",
+   "audioPath": null,
+   "form": "~よう/~おう"
+  },
+  {
+   "before": "ちょっと",
+   "answer": "行ってくる",
+   "after": "よ",
+   "reading": "いってくる",
+   "translation": "잠깐 다녀올게.",
+   "audioPath": "sentence-audio/ja/c/ja-0481-2.m4a",
+   "form": "~ていく/~てくる"
+  }
+ ],
+ "ja-0482": [
+  {
+   "before": "ちょっと",
+   "answer": "止まって",
+   "after": "",
+   "reading": "とまって",
+   "translation": "잠깐 멈춰 봐.",
+   "audioPath": "sentence-audio/ja/c/ja-0482-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "いや… ニヤニヤが",
+   "answer": "止まんない",
+   "after": "",
+   "reading": "とまんない",
+   "translation": "아니… 자꾸 웃음이 나와서 멈출 수가 없어.",
+   "audioPath": "sentence-audio/ja/c/ja-0482-2.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "平気平気　鼻血",
+   "answer": "止まった",
+   "after": "し",
+   "reading": "とまった",
+   "translation": "괜찮아 괜찮아, 코피 멈췄으니까.",
+   "audioPath": "sentence-audio/ja/c/ja-0482-3.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "大変！ 電車 ",
+   "answer": "止まってる",
+   "after": "",
+   "reading": "とまってる",
+   "translation": "큰일이야! 전철이 멈춰 있어.",
+   "audioPath": "sentence-audio/ja/c/ja-0482-4.m4a",
+   "form": "~ている"
+  }
+ ],
+ "ja-0484": [
+  {
+   "before": "何",
+   "answer": "考えてる",
+   "after": "のか　全く分からないよ",
+   "reading": "かんがえてる",
+   "translation": "무슨 생각 하는지 전혀 모르겠어.",
+   "audioPath": "sentence-audio/ja/c/ja-0484-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "あれから",
+   "answer": "考えた",
+   "after": "んだ",
+   "reading": "かんがえた",
+   "translation": "그 뒤로 생각해 봤어.",
+   "audioPath": "sentence-audio/ja/c/ja-0484-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "じっくり　対策　",
+   "answer": "考えて",
+   "after": "よ",
+   "reading": "かんがえて",
+   "translation": "차분히 대책 좀 생각해 봐.",
+   "audioPath": "sentence-audio/ja/c/ja-0484-3.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "ずっと",
+   "answer": "考えてた",
+   "after": "けど 分からなかった",
+   "reading": "かんがえてた",
+   "translation": "계속 생각했는데 모르겠더라.",
+   "audioPath": "sentence-audio/ja/c/ja-0484-4.m4a",
+   "form": "~ていた"
+  }
+ ],
+ "ja-0485": [
+  {
+   "before": "前に",
+   "answer": "話した",
+   "after": "よね",
+   "reading": "はなした",
+   "translation": "전에 얘기했지?",
+   "audioPath": "sentence-audio/ja/c/ja-0485-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "",
+   "answer": "話して",
+   "after": "よ　私　驚かないから",
+   "reading": "はなして",
+   "translation": "말해 줘. 나 안 놀랄 테니까.",
+   "audioPath": "sentence-audio/ja/c/ja-0485-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "俺はまじめに",
+   "answer": "話してる",
+   "after": "んだ",
+   "reading": "はなしてる",
+   "translation": "난 진지하게 얘기하고 있는 거야.",
+   "audioPath": "sentence-audio/ja/c/ja-0485-3.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "お父さんと何を",
+   "answer": "話していた",
+   "after": "の",
+   "reading": "はなしていた",
+   "translation": "아빠랑 무슨 얘기 했어?",
+   "audioPath": "sentence-audio/ja/c/ja-0485-4.m4a",
+   "form": "~ていた"
+  }
+ ],
+ "ja-0486": [
+  {
+   "before": "１個だけなら",
+   "answer": "食べて",
+   "after": "いいわよ",
+   "reading": "たべて",
+   "translation": "한 개만이라면 먹어도 돼.",
+   "audioPath": "sentence-audio/ja/c/ja-0486-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "おう さっさと",
+   "answer": "食べない",
+   "after": "と 遅刻だぞ",
+   "reading": "たべない",
+   "translation": "자, 빨리 안 먹으면 지각이야.",
+   "audioPath": "sentence-audio/ja/c/ja-0486-2.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "じゃあ食べ物は？ 最近何かいいもん",
+   "answer": "食べた",
+   "after": "？",
+   "reading": "たべた",
+   "translation": "그럼 음식은? 요즘 뭐 맛있는 거 먹었어?",
+   "audioPath": "sentence-audio/ja/c/ja-0486-3.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "それより 熱いうちに",
+   "answer": "食べよう",
+   "after": "よ",
+   "reading": "たべよう",
+   "translation": "그보다 따뜻할 때 먹자.",
+   "audioPath": "sentence-audio/ja/c/ja-0486-4.m4a",
+   "form": "~よう/~おう"
+  }
+ ],
+ "ja-0487": [
+  {
+   "before": "はい、ゆっくり",
+   "answer": "飲んで",
+   "after": "ね",
+   "reading": "のんで",
+   "translation": "자, 천천히 마셔.",
+   "audioPath": "sentence-audio/ja/c/ja-0487-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "コーン茶 ",
+   "answer": "飲もう",
+   "after": "か",
+   "reading": "のもう",
+   "translation": "옥수수차 마실까?",
+   "audioPath": "sentence-audio/ja/c/ja-0487-2.m4a",
+   "form": "~よう/~おう"
+  },
+  {
+   "before": "",
+   "answer": "飲んだ",
+   "after": "ことありません",
+   "reading": "のんだ",
+   "translation": "마셔 본 적 없어요.",
+   "audioPath": "sentence-audio/ja/c/ja-0487-3.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-0488": [
+  {
+   "before": "",
+   "answer": "殺される",
+   "after": "のは　そりゃ　ご免だけれど",
+   "reading": "ころされる",
+   "translation": "죽임당하는 건 물론 사양이지만.",
+   "audioPath": "sentence-audio/ja/c/ja-0488-1.m4a",
+   "form": "~れる/~られる"
+  },
+  {
+   "before": "本当に",
+   "answer": "殺した",
+   "after": "かと… 思ったの",
+   "reading": "ころした",
+   "translation": "정말 죽인 줄… 알았어.",
+   "audioPath": "sentence-audio/ja/c/ja-0488-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "もしも裏切ったら",
+   "answer": "殺して",
+   "after": "いい",
+   "reading": "ころして",
+   "translation": "만약 배신하면 죽여도 돼.",
+   "audioPath": "sentence-audio/ja/c/ja-0488-3.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-0489": [
+  {
+   "before": "飼ってた金魚が",
+   "answer": "死んだ",
+   "after": "。",
+   "reading": "しんだ",
+   "translation": "키우던 금붕어가 죽었어.",
+   "audioPath": null,
+   "form": "~た"
+  },
+  {
+   "before": "",
+   "answer": "死ねば",
+   "after": "何もかも終わりだよ。",
+   "reading": "しねば",
+   "translation": "죽으면 다 끝이야.",
+   "audioPath": null,
+   "form": "~ば"
+  },
+  {
+   "before": "あの時は",
+   "answer": "死んじゃった",
+   "after": "かと思った",
+   "reading": "しんじゃった",
+   "translation": "그때는 죽은 줄 알았어.",
+   "audioPath": "sentence-audio/ja/c/ja-0489-3.m4a",
+   "form": "~てしまう"
+  }
+ ],
+ "ja-0490": [
+  {
+   "before": "この出会いに幸運が",
+   "answer": "微笑んでくれる",
+   "after": "よ",
+   "reading": "ほほえんでくれる",
+   "translation": "이 만남에 행운이 미소 지어 줄 거야.",
+   "audioPath": "sentence-audio/ja/c/ja-0490-1.m4a",
+   "form": "~てくれる"
+  },
+  {
+   "before": "写真の中で母が",
+   "answer": "微笑んでいる",
+   "after": "。",
+   "reading": "ほほえんでいる",
+   "translation": "사진 속에서 엄마가 미소 짓고 있어.",
+   "audioPath": null,
+   "form": "~ている"
+  }
+ ],
+ "ja-0491": [
+  {
+   "before": "何か…　少し　",
+   "answer": "笑ってる",
+   "after": "みたい",
+   "reading": "わらってる",
+   "translation": "왠지… 조금 웃고 있는 것 같아.",
+   "audioPath": "sentence-audio/ja/c/ja-0491-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "泣いても",
+   "answer": "笑って",
+   "after": "も　これが最後",
+   "reading": "わらって",
+   "translation": "울든 웃든 이게 마지막이야.",
+   "audioPath": "sentence-audio/ja/c/ja-0491-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "",
+   "answer": "笑わない",
+   "after": "って約束するなら言う",
+   "reading": "わらわない",
+   "translation": "안 웃겠다고 약속하면 말할게.",
+   "audioPath": "sentence-audio/ja/c/ja-0491-3.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "もうちょい",
+   "answer": "笑った",
+   "after": "ほうがカワイイよ",
+   "reading": "わらった",
+   "translation": "조금 더 웃는 게 귀여워.",
+   "audioPath": "sentence-audio/ja/c/ja-0491-4.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-0492": [
+  {
+   "before": "で　なんで　そんなに",
+   "answer": "泣いてん",
+   "after": "の？",
+   "reading": "ないてん",
+   "translation": "그래서 왜 그렇게 울고 있는 거야?",
+   "audioPath": "sentence-audio/ja/c/ja-0492-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "",
+   "answer": "泣かないで",
+   "after": "　そんなにひどくないから",
+   "reading": "なかないで",
+   "translation": "울지 마. 그렇게 심하지 않으니까.",
+   "audioPath": "sentence-audio/ja/c/ja-0492-2.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "",
+   "answer": "泣いて",
+   "after": "もいいよ",
+   "reading": "ないて",
+   "translation": "울어도 돼.",
+   "audioPath": "sentence-audio/ja/c/ja-0492-3.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "大丈夫でしょうか 昨日 ",
+   "answer": "泣いてた",
+   "after": "し",
+   "reading": "ないてた",
+   "translation": "괜찮을까요? 어제 울었는데.",
+   "audioPath": "sentence-audio/ja/c/ja-0492-4.m4a",
+   "form": "~ていた"
+  }
+ ],
+ "ja-0493": [
+  {
+   "before": "飲み物",
+   "answer": "買ってくる",
+   "after": "けど 何がいい？",
+   "reading": "かってくる",
+   "translation": "음료수 사 올 건데 뭐가 좋아?",
+   "audioPath": "sentence-audio/ja/c/ja-0493-1.m4a",
+   "form": "~ていく/~てくる"
+  },
+  {
+   "before": "それ　俺たちが",
+   "answer": "買った",
+   "after": "やつだぞ",
+   "reading": "かった",
+   "translation": "그거 우리가 산 거야.",
+   "audioPath": "sentence-audio/ja/c/ja-0493-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "発売したら",
+   "answer": "買って",
+   "after": "よね",
+   "reading": "かって",
+   "translation": "나오면 꼭 사.",
+   "audioPath": "sentence-audio/ja/c/ja-0493-3.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-0494": [
+  {
+   "before": "交通費",
+   "answer": "払って",
+   "after": "よく来るなぁ…",
+   "reading": "はらって",
+   "translation": "교통비까지 내면서 잘도 오네….",
+   "audioPath": "sentence-audio/ja/c/ja-0494-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "入場料",
+   "answer": "払わない",
+   "after": "と入れないんだね",
+   "reading": "はらわない",
+   "translation": "입장료 안 내면 못 들어가는구나.",
+   "audioPath": null,
+   "form": "~ない"
+  },
+  {
+   "before": "使った電気代はちゃんと",
+   "answer": "払います",
+   "after": "",
+   "reading": "はらいます",
+   "translation": "쓴 전기 요금은 꼭 낼게요.",
+   "audioPath": null,
+   "form": "~ます"
+  }
+ ],
+ "ja-0495": [
+  {
+   "before": "お菓子も",
+   "answer": "売ってる",
+   "after": "よ",
+   "reading": "うってる",
+   "translation": "과자도 팔아.",
+   "audioPath": "sentence-audio/ja/c/ja-0495-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "",
+   "answer": "売れば",
+   "after": "金になると思う？",
+   "reading": "うれば",
+   "translation": "팔면 돈이 될 것 같아?",
+   "audioPath": "sentence-audio/ja/c/ja-0495-2.m4a",
+   "form": "~ば"
+  },
+  {
+   "before": "この雑誌はコンビニでも",
+   "answer": "売られている",
+   "after": "。",
+   "reading": "うられている",
+   "translation": "이 잡지는 편의점에서도 팔고 있어.",
+   "audioPath": null,
+   "form": "~れる/~られる"
+  },
+  {
+   "before": "古いゲームを全部",
+   "answer": "売った",
+   "after": "。",
+   "reading": "うった",
+   "translation": "옛날 게임을 전부 팔았어.",
+   "audioPath": null,
+   "form": "~た"
+  }
+ ],
+ "ja-0497": [
+  {
+   "before": "一年の時に",
+   "answer": "習った",
+   "after": "はずなんだけど",
+   "reading": "ならった",
+   "translation": "1학년 때 배웠을 텐데.",
+   "audioPath": "sentence-audio/ja/c/ja-0497-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "私　４歳のころからピアノを",
+   "answer": "習ってた",
+   "after": "の",
+   "reading": "ならってた",
+   "translation": "나 네 살 때부터 피아노 배웠었어.",
+   "audioPath": "sentence-audio/ja/c/ja-0497-2.m4a",
+   "form": "~ていた"
+  }
+ ],
+ "ja-0498": [
+  {
+   "before": "メチャクチャ",
+   "answer": "跳んだ",
+   "after": "じゃん。",
+   "reading": "とんだ",
+   "translation": "엄청 높이 뛰었잖아.",
+   "audioPath": "sentence-audio/ja/c/ja-0498-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "子どもたちがトランポリンで",
+   "answer": "跳んでる",
+   "after": "。",
+   "reading": "とんでる",
+   "translation": "아이들이 트램펄린에서 뛰고 있어.",
+   "audioPath": null,
+   "form": "~ている"
+  },
+  {
+   "before": "なんで",
+   "answer": "跳ばない",
+   "after": "の？",
+   "reading": "とばない",
+   "translation": "왜 안 뛰어?",
+   "audioPath": null,
+   "form": "~ない"
+  },
+  {
+   "before": "猫が机の上に",
+   "answer": "跳んできた",
+   "after": "。",
+   "reading": "とんできた",
+   "translation": "고양이가 책상 위로 뛰어올라 왔어.",
+   "audioPath": null,
+   "form": "~ていく/~てくる"
+  }
+ ],
+ "ja-0499": [
+  {
+   "before": "",
+   "answer": "嗅いだ",
+   "after": "ことないシャンプーの香りがする",
+   "reading": "かいだ",
+   "translation": "맡아 본 적 없는 샴푸 향이 나.",
+   "audioPath": "sentence-audio/ja/c/ja-0499-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "この牛乳、ちょっと",
+   "answer": "嗅いでみて",
+   "after": "。",
+   "reading": "かいでみて",
+   "translation": "이 우유 냄새 좀 맡아 봐.",
+   "audioPath": null,
+   "form": "~てみる"
+  }
+ ],
+ "ja-0500": [
+  {
+   "before": "何だって？　",
+   "answer": "聞こえない",
+   "after": "よ　うわっ…",
+   "reading": "きこえない",
+   "translation": "뭐라고? 안 들려!",
+   "audioPath": "sentence-audio/ja/c/ja-0500-1.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "エンジンの音が",
+   "answer": "聞こえた",
+   "after": "気がします",
+   "reading": "きこえた",
+   "translation": "엔진 소리가 들린 것 같아요.",
+   "audioPath": "sentence-audio/ja/c/ja-0500-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "思いっきり",
+   "answer": "聞こえてる",
+   "after": "のよね",
+   "reading": "きこえてる",
+   "translation": "다 들리거든.",
+   "audioPath": "sentence-audio/ja/c/ja-0500-3.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "よく",
+   "answer": "聞こえなかった",
+   "after": "よ　もう一回",
+   "reading": "きこえなかった",
+   "translation": "잘 못 들었어. 한 번 더.",
+   "audioPath": "sentence-audio/ja/c/ja-0500-4.m4a",
+   "form": "~なかった"
+  }
+ ],
+ "ja-0501": [
+  {
+   "before": "この曲、もう",
+   "answer": "聴いた",
+   "after": "？",
+   "reading": "きいた",
+   "translation": "이 노래 벌써 들어 봤어?",
+   "audioPath": null,
+   "form": "~た"
+  },
+  {
+   "before": "毎朝ラジオを",
+   "answer": "聴いてる",
+   "after": "。",
+   "reading": "きいてる",
+   "translation": "매일 아침 라디오를 들어.",
+   "audioPath": null,
+   "form": "~ている"
+  },
+  {
+   "before": "ちょっとこの曲",
+   "answer": "聴いて",
+   "after": "。",
+   "reading": "きいて",
+   "translation": "이 노래 좀 들어 봐.",
+   "audioPath": null,
+   "form": "~て"
+  },
+  {
+   "before": "あのバンドの新曲、早く",
+   "answer": "聴きたい",
+   "after": "。",
+   "reading": "ききたい",
+   "translation": "그 밴드 신곡 빨리 듣고 싶어.",
+   "audioPath": null,
+   "form": "~たい"
+  }
+ ],
+ "ja-0502": [
+  {
+   "before": "",
+   "answer": "味わって",
+   "after": "飲んでね",
+   "reading": "あじわって",
+   "translation": "음미하면서 마셔.",
+   "audioPath": "sentence-audio/ja/c/ja-0502-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "人生で初めて孤独を",
+   "answer": "味わった",
+   "after": "",
+   "reading": "あじわった",
+   "translation": "살면서 처음으로 외로움을 맛봤어.",
+   "audioPath": "sentence-audio/ja/c/ja-0502-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "とっておきにスペシャルなのを ",
+   "answer": "味わわせて",
+   "after": "やるんだから！",
+   "reading": "あじわわせて",
+   "translation": "아껴 둔 특별한 걸 맛보게 해 줄 테니까!",
+   "audioPath": "sentence-audio/ja/c/ja-0502-3.m4a",
+   "form": "~せる/~させる"
+  },
+  {
+   "before": "ああ。できれば静かに",
+   "answer": "味わいたい",
+   "after": "んだが",
+   "reading": "あじわいたい",
+   "translation": "그래. 될 수 있으면 조용히 음미하고 싶은데.",
+   "audioPath": "sentence-audio/ja/c/ja-0502-4.m4a",
+   "form": "~たい"
+  }
+ ],
+ "ja-0503": [
+  {
+   "before": "すご〜い！　頭　",
+   "answer": "触って",
+   "after": "いい？",
+   "reading": "さわって",
+   "translation": "우와! 머리 만져 봐도 돼?",
+   "audioPath": "sentence-audio/ja/c/ja-0503-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "作りかけは",
+   "answer": "触らないで",
+   "after": "ね",
+   "reading": "さわらないで",
+   "translation": "만들다 만 건 만지지 마.",
+   "audioPath": "sentence-audio/ja/c/ja-0503-2.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "初めて",
+   "answer": "触った",
+   "after": "けど",
+   "reading": "さわった",
+   "translation": "처음 만져 봤는데.",
+   "audioPath": "sentence-audio/ja/c/ja-0503-3.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-0504": [
+  {
+   "before": "",
+   "answer": "見て",
+   "after": "！ 海にうかぶ町よ",
+   "reading": "みて",
+   "translation": "봐! 바다에 떠 있는 마을이야.",
+   "audioPath": "sentence-audio/ja/c/ja-0504-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "本物　初めて",
+   "answer": "見た",
+   "after": "。",
+   "reading": "みた",
+   "translation": "진짜는 처음 봤어.",
+   "audioPath": "sentence-audio/ja/c/ja-0504-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "みんな ",
+   "answer": "見てる",
+   "after": "よ",
+   "reading": "みてる",
+   "translation": "다들 보고 있어.",
+   "audioPath": "sentence-audio/ja/c/ja-0504-3.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "ここへ来て　猫の目ん中を",
+   "answer": "見てみ",
+   "after": "な。",
+   "reading": "みてみ",
+   "translation": "여기 와서 고양이 눈 속을 들여다봐.",
+   "audioPath": "sentence-audio/ja/c/ja-0504-4.m4a",
+   "form": "~てみる"
+  }
+ ],
+ "ja-0505": [
+  {
+   "before": "この映画、絶対",
+   "answer": "観て",
+   "after": "！",
+   "reading": "みて",
+   "translation": "이 영화 꼭 봐!",
+   "audioPath": null,
+   "form": "~て"
+  },
+  {
+   "before": "昨日の試合、",
+   "answer": "観た",
+   "after": "？",
+   "reading": "みた",
+   "translation": "어제 경기 봤어?",
+   "audioPath": null,
+   "form": "~た"
+  },
+  {
+   "before": "今ドラマ",
+   "answer": "観てる",
+   "after": "から、後でね。",
+   "reading": "みてる",
+   "translation": "지금 드라마 보고 있으니까 나중에.",
+   "audioPath": null,
+   "form": "~ている"
+  },
+  {
+   "before": "その映画、今度",
+   "answer": "観てみる",
+   "after": "よ。",
+   "reading": "みてみる",
+   "translation": "그 영화 다음에 봐 볼게.",
+   "audioPath": null,
+   "form": "~てみる"
+  }
+ ],
+ "ja-0507": [
+  {
+   "before": "火がだんだん強く",
+   "answer": "燃えてきた",
+   "after": "。",
+   "reading": "もえてきた",
+   "translation": "불이 점점 세게 타오르기 시작했어.",
+   "audioPath": null,
+   "form": "~ていく/~てくる"
+  },
+  {
+   "before": "台所で何か",
+   "answer": "燃えてる",
+   "after": "においがする。",
+   "reading": "もえてる",
+   "translation": "부엌에서 뭔가 타는 냄새가 나.",
+   "audioPath": null,
+   "form": "~ている"
+  },
+  {
+   "before": "このままじゃ　みんな",
+   "answer": "燃えちゃう",
+   "after": "！",
+   "reading": "もえちゃう",
+   "translation": "이러다 다 타 버리겠어!",
+   "audioPath": "sentence-audio/ja/c/ja-0507-3.m4a",
+   "form": "~てしまう"
+  }
+ ],
+ "ja-0508": [
+  {
+   "before": "アイス　",
+   "answer": "溶けちゃう",
+   "after": "のに",
+   "reading": "とけちゃう",
+   "translation": "아이스크림 녹아 버리는데.",
+   "audioPath": "sentence-audio/ja/c/ja-0508-1.m4a",
+   "form": "~てしまう"
+  },
+  {
+   "before": "この氷、なかなか",
+   "answer": "溶けない",
+   "after": "ね。",
+   "reading": "とけない",
+   "translation": "이 얼음 좀처럼 안 녹네.",
+   "audioPath": null,
+   "form": "~ない"
+  },
+  {
+   "before": "雪が",
+   "answer": "溶けて",
+   "after": "春になった。",
+   "reading": "とけて",
+   "translation": "눈이 녹고 봄이 됐어.",
+   "audioPath": null,
+   "form": "~て"
+  }
+ ],
+ "ja-0509": [
+  {
+   "before": "この前なんか　砂場に穴",
+   "answer": "掘って",
+   "after": "…",
+   "reading": "ほって",
+   "translation": "저번엔 모래밭에 구멍을 파서….",
+   "audioPath": "sentence-audio/ja/c/ja-0509-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "墓穴を",
+   "answer": "掘った",
+   "after": "な！",
+   "reading": "ほった",
+   "translation": "제 무덤을 팠군!",
+   "audioPath": "sentence-audio/ja/c/ja-0509-2.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-0511": [
+  {
+   "before": "適当に",
+   "answer": "座って",
+   "after": "ね",
+   "reading": "すわって",
+   "translation": "아무 데나 앉아.",
+   "audioPath": "sentence-audio/ja/c/ja-0511-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "いいから",
+   "answer": "座ってて",
+   "after": "",
+   "reading": "すわってて",
+   "translation": "됐으니까 앉아 있어.",
+   "audioPath": "sentence-audio/ja/c/ja-0511-2.m4a",
+   "form": "~ている"
+  }
+ ],
+ "ja-0512": [
+  {
+   "before": "でも　食事中に席を",
+   "answer": "立って",
+   "after": "はダメよ",
+   "reading": "たって",
+   "translation": "그래도 밥 먹는 중에 자리에서 일어나면 안 돼.",
+   "audioPath": "sentence-audio/ja/c/ja-0512-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "",
+   "answer": "立っている",
+   "after": "のが やっとかな？",
+   "reading": "たっている",
+   "translation": "서 있는 것도 겨우겠지?",
+   "audioPath": "sentence-audio/ja/c/ja-0512-2.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "まだ",
+   "answer": "立たない",
+   "after": "で、座ってて。",
+   "reading": "たたない",
+   "translation": "아직 일어서지 말고 앉아 있어.",
+   "audioPath": null,
+   "form": "~ない"
+  },
+  {
+   "before": "ママ　パンダさん",
+   "answer": "立った",
+   "after": "！",
+   "reading": "たった",
+   "translation": "엄마, 판다 씨가 일어섰어!",
+   "audioPath": "sentence-audio/ja/c/ja-0512-4.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-0513": [
+  {
+   "before": "だって私　あなたを",
+   "answer": "愛してる",
+   "after": "の！",
+   "reading": "あいしてる",
+   "translation": "그치만 난 당신을 사랑하는걸!",
+   "audioPath": "sentence-audio/ja/c/ja-0513-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "あなた ",
+   "answer": "愛されてます",
+   "after": "ねえ",
+   "reading": "あいされてます",
+   "translation": "당신, 사랑받고 있네요.",
+   "audioPath": "sentence-audio/ja/c/ja-0513-2.m4a",
+   "form": "~れる/~られる"
+  }
+ ],
+ "ja-0514": [
+  {
+   "before": "今日は",
+   "answer": "通らない",
+   "after": "みたいだね。",
+   "reading": "とおらない",
+   "translation": "오늘은 안 지나가나 봐.",
+   "audioPath": "sentence-audio/ja/c/ja-0514-1.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "ねぇ　先こんな道",
+   "answer": "通った",
+   "after": "っけ",
+   "reading": "とおった",
+   "translation": "저기, 아까 이런 길 지나갔었나?",
+   "audioPath": "sentence-audio/ja/c/ja-0514-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "家の前を電車が",
+   "answer": "通ってる",
+   "after": "。",
+   "reading": "とおってる",
+   "translation": "집 앞으로 전철이 지나가.",
+   "audioPath": null,
+   "form": "~ている"
+  }
+ ],
+ "ja-0515": [
+  {
+   "before": "髪はしばらく",
+   "answer": "切らない",
+   "after": "つもり。",
+   "reading": "きらない",
+   "translation": "머리는 한동안 안 자를 거야.",
+   "audioPath": null,
+   "form": "~ない"
+  },
+  {
+   "before": "おばさんたちの縄は",
+   "answer": "切った",
+   "after": "よ",
+   "reading": "きった",
+   "translation": "아줌마들 밧줄은 끊었어.",
+   "audioPath": "sentence-audio/ja/c/ja-0515-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "りんご、",
+   "answer": "切って",
+   "after": "くれる？",
+   "reading": "きって",
+   "translation": "사과 좀 잘라 줄래?",
+   "audioPath": null,
+   "form": "~て"
+  }
+ ],
+ "ja-0516": [
+  {
+   "before": "誰か",
+   "answer": "戦ってる",
+   "after": "のか",
+   "reading": "たたかってる",
+   "translation": "누가 싸우고 있는 거야?",
+   "audioPath": "sentence-audio/ja/c/ja-0516-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "あなたは",
+   "answer": "戦わない",
+   "after": "のですか？",
+   "reading": "たたかわない",
+   "translation": "당신은 싸우지 않나요?",
+   "audioPath": "sentence-audio/ja/c/ja-0516-2.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "逃げましょう　",
+   "answer": "戦って",
+   "after": "はダメ！",
+   "reading": "たたかって",
+   "translation": "도망쳐요. 싸우면 안 돼!",
+   "audioPath": "sentence-audio/ja/c/ja-0516-3.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "あれと",
+   "answer": "戦った",
+   "after": "ことは？",
+   "reading": "たたかった",
+   "translation": "저거랑 싸워 본 적은?",
+   "audioPath": "sentence-audio/ja/c/ja-0516-4.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-0518": [
+  {
+   "before": "ダンスは苦手だから私は",
+   "answer": "踊らない",
+   "after": "よ。",
+   "reading": "おどらない",
+   "translation": "춤은 잘 못 추니까 난 안 출래.",
+   "audioPath": null,
+   "form": "~ない"
+  },
+  {
+   "before": "",
+   "answer": "踊ってる",
+   "after": "暇あったら　私の歌　聞けよ！",
+   "reading": "おどってる",
+   "translation": "춤출 시간 있으면 내 노래나 들어!",
+   "audioPath": null,
+   "form": "~ている"
+  },
+  {
+   "before": "せっかく練習したんだしさ ",
+   "answer": "踊ろう",
+   "after": "ぜ",
+   "reading": "おどろう",
+   "translation": "기껏 연습했으니까 춤추자.",
+   "audioPath": "sentence-audio/ja/c/ja-0518-3.m4a",
+   "form": "~よう/~おう"
+  }
+ ],
+ "ja-0519": [
+  {
+   "before": "分かった おとなしく",
+   "answer": "寝ている",
+   "after": "よ",
+   "reading": "ねている",
+   "translation": "알았어, 얌전히 누워 있을게.",
+   "audioPath": "sentence-audio/ja/c/ja-0519-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "朝　出る時はまだ",
+   "answer": "寝てた",
+   "after": "",
+   "reading": "ねてた",
+   "translation": "아침에 나올 때는 아직 자고 있었어.",
+   "audioPath": "sentence-audio/ja/c/ja-0519-2.m4a",
+   "form": "~ていた"
+  },
+  {
+   "before": "そんなに",
+   "answer": "寝ちゃった",
+   "after": "のかな。",
+   "reading": "ねちゃった",
+   "translation": "그렇게 오래 자 버렸나.",
+   "audioPath": "sentence-audio/ja/c/ja-0519-3.m4a",
+   "form": "~てしまう"
+  }
+ ],
+ "ja-0520": [
+  {
+   "before": "ところが　もっと　すごいことが",
+   "answer": "起きた",
+   "after": "の",
+   "reading": "おきた",
+   "translation": "그런데 더 굉장한 일이 일어났어.",
+   "audioPath": "sentence-audio/ja/c/ja-0520-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "２人とも　早く",
+   "answer": "起きて",
+   "after": "！",
+   "reading": "おきて",
+   "translation": "둘 다 빨리 일어나!",
+   "audioPath": "sentence-audio/ja/c/ja-0520-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "まだ",
+   "answer": "起きてる",
+   "after": "の？早く寝なさい。",
+   "reading": "おきてる",
+   "translation": "아직 안 자? 얼른 자.",
+   "audioPath": null,
+   "form": "~ている"
+  },
+  {
+   "before": "もう",
+   "answer": "起きない",
+   "after": "と遅刻するよ　うっ　うん…",
+   "reading": "おきない",
+   "translation": "이제 안 일어나면 지각한다! 으, 응…",
+   "audioPath": "sentence-audio/ja/c/ja-0520-4.m4a",
+   "form": "~ない"
+  }
+ ],
+ "ja-0521": [
+  {
+   "before": "だからさ、ちゃんと",
+   "answer": "歌って",
+   "after": "よね。",
+   "reading": "うたって",
+   "translation": "그러니까 제대로 불러 줘.",
+   "audioPath": "sentence-audio/ja/c/ja-0521-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "はい　では",
+   "answer": "歌います",
+   "after": "",
+   "reading": "うたいます",
+   "translation": "네, 그럼 부르겠습니다.",
+   "audioPath": "sentence-audio/ja/c/ja-0521-2.m4a",
+   "form": "~ます"
+  }
+ ],
+ "ja-0522": [
+  {
+   "before": "流れる雲を",
+   "answer": "数えてる",
+   "after": "",
+   "reading": "かぞえてる",
+   "translation": "흘러가는 구름을 세고 있어.",
+   "audioPath": "sentence-audio/ja/c/ja-0522-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "まだ人数を",
+   "answer": "数えてない",
+   "after": "よ。",
+   "reading": "かぞえてない",
+   "translation": "아직 인원수 안 셌어.",
+   "audioPath": null,
+   "form": "~ていない"
+  }
+ ],
+ "ja-0524": [
+  {
+   "before": "幸運を",
+   "answer": "祈ってる",
+   "after": "わ",
+   "reading": "いのってる",
+   "translation": "행운을 빌게.",
+   "audioPath": "sentence-audio/ja/c/ja-0524-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "まあ　平和な一日になるよう",
+   "answer": "祈って",
+   "after": "",
+   "reading": "いのって",
+   "translation": "뭐, 평화로운 하루가 되길 빌어 보자.",
+   "audioPath": "sentence-audio/ja/c/ja-0524-2.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-0525": [
+  {
+   "before": "たった１回 ",
+   "answer": "勝った",
+   "after": "ぐらいで—",
+   "reading": "かった",
+   "translation": "고작 한 번 이긴 것 가지고…",
+   "audioPath": "sentence-audio/ja/c/ja-0525-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "",
+   "answer": "勝たなくて",
+   "after": "もいいよ",
+   "reading": "かたなくて",
+   "translation": "안 이겨도 돼.",
+   "audioPath": "sentence-audio/ja/c/ja-0525-2.m4a",
+   "form": "~ない"
+  }
+ ],
+ "ja-0526": [
+  {
+   "before": "この気持ちだけは誰にも",
+   "answer": "負けない",
+   "after": "",
+   "reading": "まけない",
+   "translation": "이 마음만큼은 누구한테도 지지 않아.",
+   "audioPath": "sentence-audio/ja/c/ja-0526-1.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "ケンカでは",
+   "answer": "負けた",
+   "after": "ことがないそうです",
+   "reading": "まけた",
+   "translation": "싸움에서는 진 적이 없대요.",
+   "audioPath": "sentence-audio/ja/c/ja-0526-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "あとは勝っても",
+   "answer": "負けて",
+   "after": "も",
+   "reading": "まけて",
+   "translation": "이제 이기든 지든.",
+   "audioPath": "sentence-audio/ja/c/ja-0526-3.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-0527": [
+  {
+   "before": "ルーとライスを",
+   "answer": "混ぜて",
+   "after": "食べる？",
+   "reading": "まぜて",
+   "translation": "카레랑 밥을 섞어서 먹어?",
+   "audioPath": "sentence-audio/ja/c/ja-0527-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "卵と砂糖をよく",
+   "answer": "混ぜてください",
+   "after": "。",
+   "reading": "まぜてください",
+   "translation": "달걀이랑 설탕을 잘 섞어 주세요.",
+   "audioPath": null,
+   "form": "~てくれる"
+  }
+ ],
+ "ja-0528": [
+  {
+   "before": "膝を",
+   "answer": "曲げて",
+   "after": "座って。",
+   "reading": "まげて",
+   "translation": "무릎을 굽히고 앉아.",
+   "audioPath": null,
+   "form": "~て"
+  },
+  {
+   "before": "それに　頑固で　一度　決めたことは",
+   "answer": "曲げない",
+   "after": "",
+   "reading": "まげない",
+   "translation": "게다가 고집이 세서 한번 정한 건 굽히지 않아.",
+   "audioPath": "sentence-audio/ja/c/ja-0528-2.m4a",
+   "form": "~ない"
+  }
+ ],
+ "ja-0529": [
+  {
+   "before": "手を",
+   "answer": "洗って",
+   "after": "おいで",
+   "reading": "あらって",
+   "translation": "손 씻고 와.",
+   "audioPath": "sentence-audio/ja/c/ja-0529-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "ごめん　ちょっと顔",
+   "answer": "洗ってきます",
+   "after": "",
+   "reading": "あらってきます",
+   "translation": "미안, 잠깐 세수하고 올게요.",
+   "audioPath": "sentence-audio/ja/c/ja-0529-2.m4a",
+   "form": "~ていく/~てくる"
+  },
+  {
+   "before": "シーツはもう",
+   "answer": "洗った",
+   "after": "？",
+   "reading": "あらった",
+   "translation": "시트는 벌써 빨았어?",
+   "audioPath": "sentence-audio/ja/c/ja-0529-3.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-0532": [
+  {
+   "before": "入って。ドアは",
+   "answer": "閉めて",
+   "after": "ね",
+   "reading": "しめて",
+   "translation": "들어와. 문은 닫아 줘.",
+   "audioPath": "sentence-audio/ja/c/ja-0532-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "なぜ街の門を",
+   "answer": "閉めた",
+   "after": "？",
+   "reading": "しめた",
+   "translation": "왜 마을 문을 닫았지?",
+   "audioPath": null,
+   "form": "~た"
+  }
+ ],
+ "ja-0533": [
+  {
+   "before": "願い事を",
+   "answer": "書いて",
+   "after": "ね",
+   "reading": "かいて",
+   "translation": "소원을 적어 줘.",
+   "audioPath": "sentence-audio/ja/c/ja-0533-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "なら　なんで６月なんて",
+   "answer": "書いた",
+   "after": "の？",
+   "reading": "かいた",
+   "translation": "그럼 왜 6월이라고 쓴 거야?",
+   "audioPath": "sentence-audio/ja/c/ja-0533-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "ええっ！？　あの子が",
+   "answer": "書いてる",
+   "after": "の？",
+   "reading": "かいてる",
+   "translation": "뭐?! 저 애가 쓰는 거야?",
+   "audioPath": "sentence-audio/ja/c/ja-0533-3.m4a",
+   "form": "~ている"
+  }
+ ],
+ "ja-0535": [
+  {
+   "before": "メーターが",
+   "answer": "回ってる",
+   "after": "から",
+   "reading": "まわってる",
+   "translation": "미터기 돌아가고 있으니까.",
+   "audioPath": "sentence-audio/ja/c/ja-0535-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "別の店 ",
+   "answer": "回って",
+   "after": "もいいし",
+   "reading": "まわって",
+   "translation": "다른 가게 돌아봐도 되고.",
+   "audioPath": "sentence-audio/ja/c/ja-0535-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "もうこれ車輪　",
+   "answer": "回らない",
+   "after": "ぞ",
+   "reading": "まわらない",
+   "translation": "이거 이제 바퀴가 안 돌아가.",
+   "audioPath": "sentence-audio/ja/c/ja-0535-3.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "もう校内は",
+   "answer": "回った",
+   "after": "の？",
+   "reading": "まわった",
+   "translation": "벌써 교내는 다 돌아봤어?",
+   "audioPath": "sentence-audio/ja/c/ja-0535-4.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-0537": [
+  {
+   "before": "",
+   "answer": "教えて",
+   "after": "ほしいことがあるんだけど",
+   "reading": "おしえて",
+   "translation": "가르쳐 줬으면 하는 게 있는데.",
+   "audioPath": "sentence-audio/ja/c/ja-0537-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "そっか… ",
+   "answer": "教えてくれて",
+   "after": "ありがとな",
+   "reading": "おしえてくれて",
+   "translation": "그렇구나… 알려 줘서 고마워.",
+   "audioPath": "sentence-audio/ja/c/ja-0537-2.m4a",
+   "form": "~てくれる"
+  },
+  {
+   "before": "大丈夫　私が",
+   "answer": "教えてあげる",
+   "after": "から",
+   "reading": "おしえてあげる",
+   "translation": "괜찮아, 내가 가르쳐 줄게.",
+   "audioPath": "sentence-audio/ja/c/ja-0537-3.m4a",
+   "form": "~てあげる"
+  }
+ ],
+ "ja-0538": [
+  {
+   "before": "母の",
+   "answer": "育った",
+   "after": "古い屋敷で",
+   "reading": "そだった",
+   "translation": "엄마가 자란 오래된 저택에서",
+   "audioPath": "sentence-audio/ja/c/ja-0538-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "つらい思いをしないで 元気に",
+   "answer": "育って",
+   "after": "ほしい。",
+   "reading": "そだって",
+   "translation": "힘든 일 겪지 말고 건강하게 자랐으면 좋겠어.",
+   "audioPath": "sentence-audio/ja/c/ja-0538-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "小さな芽がすくすく",
+   "answer": "育ってる",
+   "after": "ねー",
+   "reading": "そだってる",
+   "translation": "작은 싹이 쑥쑥 자라고 있네.",
+   "audioPath": "sentence-audio/ja/c/ja-0538-3.m4a",
+   "form": "~ている"
+  }
+ ],
+ "ja-0539": [
+  {
+   "before": "あれは誰が",
+   "answer": "描いた",
+   "after": "んですか",
+   "reading": "えがいた",
+   "translation": "저건 누가 그린 거예요?",
+   "audioPath": "sentence-audio/ja/c/ja-0539-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "私をモデルに絵を",
+   "answer": "描いて",
+   "after": "もいいわよ",
+   "reading": "えがいて",
+   "translation": "나를 모델로 그림 그려도 돼.",
+   "audioPath": "sentence-audio/ja/c/ja-0539-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "どんなマンガ",
+   "answer": "描いてる",
+   "after": "の――？",
+   "reading": "えがいてる",
+   "translation": "어떤 만화 그리고 있어?",
+   "audioPath": "sentence-audio/ja/c/ja-0539-3.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "この絵はいつ",
+   "answer": "描かれた",
+   "after": "と思う？",
+   "reading": "えがかれた",
+   "translation": "이 그림은 언제 그려진 것 같아?",
+   "audioPath": "sentence-audio/ja/c/ja-0539-4.m4a",
+   "form": "~れる/~られる"
+  }
+ ],
+ "ja-0541": [
+  {
+   "before": "スリだ！　スリを",
+   "answer": "捕まえた",
+   "after": "！",
+   "reading": "つかまえた",
+   "translation": "소매치기다! 소매치기를 잡았다!",
+   "audioPath": "sentence-audio/ja/c/ja-0541-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "ねぇ　こっちだよ　早く",
+   "answer": "捕まえて",
+   "after": "よ",
+   "reading": "つかまえて",
+   "translation": "이쪽이야, 빨리 잡아 봐.",
+   "audioPath": "sentence-audio/ja/c/ja-0541-2.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-0542": [
+  {
+   "before": "物",
+   "answer": "投げた",
+   "after": "の 誰だ？ こらぁ！",
+   "reading": "なげた",
+   "translation": "물건 던진 거 누구야? 야!",
+   "audioPath": "sentence-audio/ja/c/ja-0542-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "ロープをこっちに",
+   "answer": "投げて",
+   "after": "！",
+   "reading": "なげて",
+   "translation": "밧줄을 이쪽으로 던져!",
+   "audioPath": null,
+   "form": "~て"
+  },
+  {
+   "before": "子供たちに 石を",
+   "answer": "投げられてます",
+   "after": "けど？",
+   "reading": "なげられてます",
+   "translation": "애들한테 돌 맞고 있는데요?",
+   "audioPath": "sentence-audio/ja/c/ja-0542-3.m4a",
+   "form": "~れる/~られる"
+  },
+  {
+   "before": "どこに",
+   "answer": "投げてん",
+   "after": "のよ",
+   "reading": "なげてん",
+   "translation": "어디로 던지는 거야.",
+   "audioPath": "sentence-audio/ja/c/ja-0542-4.m4a",
+   "form": "~ている"
+  }
+ ],
+ "ja-0544": [
+  {
+   "before": "へへ～ん！ 私が",
+   "answer": "見つけた",
+   "after": "んだ～",
+   "reading": "みつけた",
+   "translation": "헤헤~ 내가 찾았지~",
+   "audioPath": "sentence-audio/ja/c/ja-0544-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "絶対 ",
+   "answer": "見つけて",
+   "after": "みせる",
+   "reading": "みつけて",
+   "translation": "꼭 찾아내고 말 거야.",
+   "audioPath": "sentence-audio/ja/c/ja-0544-2.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-0545": [
+  {
+   "before": "私　小さい時 川に",
+   "answer": "落ちた",
+   "after": "ことがあるの。",
+   "reading": "おちた",
+   "translation": "나 어렸을 때 강에 빠진 적 있어.",
+   "audioPath": "sentence-audio/ja/c/ja-0545-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "オーディション",
+   "answer": "落ちてしまったー",
+   "after": "",
+   "reading": "おちてしまったー",
+   "translation": "오디션 떨어져 버렸어~",
+   "audioPath": "sentence-audio/ja/c/ja-0545-2.m4a",
+   "form": "~てしまう"
+  }
+ ],
+ "ja-0546": [
+  {
+   "before": "誰かに背中を",
+   "answer": "押して",
+   "after": "ほしいのね",
+   "reading": "おして",
+   "translation": "누가 등 떠밀어 주길 바라는구나.",
+   "audioPath": "sentence-audio/ja/c/ja-0546-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "",
+   "answer": "押さないで",
+   "after": "よ 落っこちる",
+   "reading": "おさないで",
+   "translation": "밀지 마, 떨어진단 말이야!",
+   "audioPath": "sentence-audio/ja/c/ja-0546-2.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "だから　背中",
+   "answer": "押されて",
+   "after": "よかったよ",
+   "reading": "おされて",
+   "translation": "그러니까 등 떠밀려서 다행이야.",
+   "audioPath": "sentence-audio/ja/c/ja-0546-3.m4a",
+   "form": "~れる/~られる"
+  }
+ ],
+ "ja-0547": [
+  {
+   "before": "ロープを強く",
+   "answer": "引いた",
+   "after": "。",
+   "reading": "ひいた",
+   "translation": "밧줄을 세게 당겼어.",
+   "audioPath": null,
+   "form": "~た"
+  },
+  {
+   "before": "",
+   "answer": "引いて",
+   "after": "帰ればいいから",
+   "reading": "ひいて",
+   "translation": "끌고 가면 되니까.",
+   "audioPath": "sentence-audio/ja/c/ja-0547-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "ずっとドアを",
+   "answer": "引いてる",
+   "after": "のに、全然開かない。",
+   "reading": "ひいてる",
+   "translation": "계속 문을 당기고 있는데 전혀 안 열려.",
+   "audioPath": null,
+   "form": "~ている"
+  }
+ ],
+ "ja-0548": [
+  {
+   "before": "ベッドまで",
+   "answer": "運んでくれる",
+   "after": "？",
+   "reading": "はこんでくれる",
+   "translation": "침대까지 옮겨 줄래?",
+   "audioPath": "sentence-audio/ja/c/ja-0548-1.m4a",
+   "form": "~てくれる"
+  },
+  {
+   "before": "重いの私持つから 別の",
+   "answer": "運んで",
+   "after": "",
+   "reading": "はこんで",
+   "translation": "무거운 건 내가 들 테니까 다른 거 날라.",
+   "audioPath": "sentence-audio/ja/c/ja-0548-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "そういえば ダンボール箱をいくつか",
+   "answer": "運んだ",
+   "after": "な",
+   "reading": "はこんだ",
+   "translation": "그러고 보니 상자 몇 개 날랐지.",
+   "audioPath": "sentence-audio/ja/c/ja-0548-3.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "風にでも",
+   "answer": "運ばれてきた",
+   "after": "か？",
+   "reading": "はこばれてきた",
+   "translation": "바람에라도 실려 왔나?",
+   "audioPath": null,
+   "form": "~れる/~られる"
+  }
+ ],
+ "ja-0549": [
+  {
+   "before": "で　落ちた拍子に",
+   "answer": "壊しちゃった",
+   "after": "んだな",
+   "reading": "こわしちゃった",
+   "translation": "그래서 떨어질 때 망가뜨린 거구나.",
+   "audioPath": "sentence-audio/ja/c/ja-0549-1.m4a",
+   "form": "~てしまう"
+  },
+  {
+   "before": "はあ？ もう",
+   "answer": "壊した",
+   "after": "のか？",
+   "reading": "こわした",
+   "translation": "뭐? 벌써 망가뜨렸어?",
+   "audioPath": "sentence-audio/ja/c/ja-0549-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "どこも",
+   "answer": "壊されていない",
+   "after": "よね",
+   "reading": "こわされていない",
+   "translation": "어디 망가진 데는 없지?",
+   "audioPath": "sentence-audio/ja/c/ja-0549-3.m4a",
+   "form": "~れる/~られる"
+  },
+  {
+   "before": "お願い…　品物を",
+   "answer": "壊さないで",
+   "after": "！",
+   "reading": "こわさないで",
+   "translation": "제발… 물건 망가뜨리지 마!",
+   "audioPath": "sentence-audio/ja/c/ja-0549-4.m4a",
+   "form": "~ない"
+  }
+ ],
+ "ja-0550": [
+  {
+   "before": "服を",
+   "answer": "着て",
+   "after": "からリビングに行きます",
+   "reading": "きて",
+   "translation": "옷 입고 나서 거실로 갈게요.",
+   "audioPath": null,
+   "form": "~て"
+  },
+  {
+   "before": "うん　重さのない服を ",
+   "answer": "着てる",
+   "after": "みたいだ。",
+   "reading": "きてる",
+   "translation": "응, 무게가 없는 옷을 입은 것 같아.",
+   "audioPath": "sentence-audio/ja/c/ja-0550-2.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "白いＴシャツ",
+   "answer": "着てた",
+   "after": "んだって",
+   "reading": "きてた",
+   "translation": "하얀 티셔츠 입고 있었대.",
+   "audioPath": "sentence-audio/ja/c/ja-0550-3.m4a",
+   "form": "~ていた"
+  },
+  {
+   "before": "これ",
+   "answer": "着た",
+   "after": "ことない",
+   "reading": "きた",
+   "translation": "이거 입어 본 적 없어.",
+   "audioPath": "sentence-audio/ja/c/ja-0550-4.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-0551": [
+  {
+   "before": "これを首に",
+   "answer": "かけて",
+   "after": "",
+   "reading": "かけて",
+   "translation": "이걸 목에 걸어.",
+   "audioPath": "sentence-audio/ja/c/ja-0551-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "さっきお母さんに電話を",
+   "answer": "かけた",
+   "after": "。",
+   "reading": "かけた",
+   "translation": "아까 엄마한테 전화 걸었어.",
+   "audioPath": null,
+   "form": "~た"
+  }
+ ],
+ "ja-0552": [
+  {
+   "before": "このバット、重くてうまく",
+   "answer": "振れない",
+   "after": "。",
+   "reading": "ふれない",
+   "translation": "이 배트 무거워서 잘 못 휘두르겠어.",
+   "audioPath": null,
+   "form": "~れる/~られる"
+  },
+  {
+   "before": "これ",
+   "answer": "振って",
+   "after": "盛り上げるんだよ",
+   "reading": "ふって",
+   "translation": "이거 흔들어서 분위기 띄우는 거야.",
+   "audioPath": "sentence-audio/ja/c/ja-0552-2.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-0554": [
+  {
+   "before": "後ろから　",
+   "answer": "たたかれたら",
+   "after": "　誰でも振り向きます！",
+   "reading": "たたかれたら",
+   "translation": "뒤에서 누가 치면 누구든 돌아보죠!",
+   "audioPath": "sentence-audio/ja/c/ja-0554-1.m4a",
+   "form": "~れる/~られる"
+  },
+  {
+   "before": "ピアノ ",
+   "answer": "たたかない",
+   "after": "―",
+   "reading": "たたかない",
+   "translation": "피아노 함부로 치지 마.",
+   "audioPath": "sentence-audio/ja/c/ja-0554-2.m4a",
+   "form": "~ない"
+  }
+ ],
+ "ja-f00001": [
+  {
+   "before": "宿題",
+   "answer": "して",
+   "after": "から遊びに行く。",
+   "reading": "して",
+   "translation": "숙제하고 나서 놀러 갈게.",
+   "audioPath": null,
+   "form": "~て"
+  },
+  {
+   "before": "ああ　びっくり",
+   "answer": "した",
+   "after": "",
+   "reading": "した",
+   "translation": "아, 깜짝 놀랐어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00001-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "僕は朝ご飯に",
+   "answer": "します",
+   "after": "。",
+   "reading": "します",
+   "translation": "난 아침밥으로 할게요.",
+   "audioPath": "sentence-audio/ja/c/ja-f00001-3.m4a",
+   "form": "~ます"
+  }
+ ],
+ "ja-f00002": [
+  {
+   "before": "お母さんが",
+   "answer": "いない",
+   "after": "の！",
+   "reading": "いない",
+   "translation": "엄마가 없어!",
+   "audioPath": "sentence-audio/ja/c/ja-f00002-1.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "よう、まだ",
+   "answer": "いた",
+   "after": "か",
+   "reading": "いた",
+   "translation": "어, 아직 있었어?",
+   "audioPath": "sentence-audio/ja/c/ja-f00002-2.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-f00006": [
+  {
+   "before": "かあさんに何か",
+   "answer": "あった",
+   "after": "のかな…。",
+   "reading": "あった",
+   "translation": "엄마한테 무슨 일 있었나…",
+   "audioPath": "sentence-audio/ja/c/ja-f00006-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "見覚え 本当に",
+   "answer": "ありません",
+   "after": "か？",
+   "reading": "ありません",
+   "translation": "정말 본 적 없어요?",
+   "audioPath": "sentence-audio/ja/c/ja-f00006-2.m4a",
+   "form": "~ません"
+  }
+ ],
+ "ja-f00007": [
+  {
+   "before": "そう誰かに",
+   "answer": "言った",
+   "after": "のは初めて",
+   "reading": "いった",
+   "translation": "누군가한테 그렇게 말한 건 처음이야.",
+   "audioPath": "sentence-audio/ja/c/ja-f00007-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "違うって",
+   "answer": "いってる",
+   "after": "のに！",
+   "reading": "いってる",
+   "translation": "아니라고 하잖아!",
+   "audioPath": "sentence-audio/ja/c/ja-f00007-2.m4a",
+   "form": "~ている"
+  }
+ ],
+ "ja-f00009": [
+  {
+   "before": "今　",
+   "answer": "来た",
+   "after": "ばかりですけどね",
+   "reading": "きた",
+   "translation": "방금 막 왔지만요.",
+   "audioPath": "sentence-audio/ja/c/ja-f00009-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "今日は",
+   "answer": "来ない",
+   "after": "かと思ったけど",
+   "reading": "こない",
+   "translation": "오늘은 안 오는 줄 알았는데.",
+   "audioPath": "sentence-audio/ja/c/ja-f00009-2.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "時々 ここに",
+   "answer": "来て",
+   "after": "いい？",
+   "reading": "きて",
+   "translation": "가끔 여기 와도 돼?",
+   "audioPath": "sentence-audio/ja/c/ja-f00009-3.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-f00013": [
+  {
+   "before": "",
+   "answer": "分かった",
+   "after": "…　１人で大丈夫？",
+   "reading": "わかった",
+   "translation": "알았어… 혼자 괜찮겠어?",
+   "audioPath": "sentence-audio/ja/c/ja-f00013-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "何言ってるか全然",
+   "answer": "分かんない",
+   "after": "。",
+   "reading": "わかんない",
+   "translation": "무슨 말인지 하나도 모르겠어.",
+   "audioPath": null,
+   "form": "~ない"
+  },
+  {
+   "before": "",
+   "answer": "わかりました",
+   "after": "よ　いってらっしゃい",
+   "reading": "わかりました",
+   "translation": "알겠어요. 다녀오세요.",
+   "audioPath": "sentence-audio/ja/c/ja-f00013-3.m4a",
+   "form": "~ました"
+  },
+  {
+   "before": "年寄りが　どんなに大変なのか　",
+   "answer": "分かってる",
+   "after": "の？",
+   "reading": "わかってる",
+   "translation": "노인이 얼마나 힘든지 알기나 해?",
+   "audioPath": "sentence-audio/ja/c/ja-f00013-4.m4a",
+   "form": "~ている"
+  }
+ ],
+ "ja-f00014": [
+  {
+   "before": "会ってすぐ　仲良く",
+   "answer": "なった",
+   "after": "の",
+   "reading": "なった",
+   "translation": "만나자마자 친해졌어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00014-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "ごめん 遅く",
+   "answer": "なって",
+   "after": "",
+   "reading": "なって",
+   "translation": "늦어서 미안.",
+   "audioPath": "sentence-audio/ja/c/ja-f00014-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "平気だよ　全然　眠く",
+   "answer": "ならない",
+   "after": "もん。",
+   "reading": "ならない",
+   "translation": "괜찮아. 하나도 안 졸린걸.",
+   "audioPath": "sentence-audio/ja/c/ja-f00014-3.m4a",
+   "form": "~ない"
+  }
+ ],
+ "ja-f00016": [
+  {
+   "before": "考える暇も ",
+   "answer": "くれない",
+   "after": "つもりだ",
+   "reading": "くれない",
+   "translation": "생각할 틈도 안 줄 셈이야.",
+   "audioPath": "sentence-audio/ja/c/ja-f00016-1.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "おふくろが",
+   "answer": "くれた",
+   "after": "",
+   "reading": "くれた",
+   "translation": "엄마가 줬어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00016-2.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-f00017": [
+  {
+   "before": "あんたが　",
+   "answer": "やった",
+   "after": "のかい？",
+   "reading": "やった",
+   "translation": "네가 한 거야?",
+   "audioPath": "sentence-audio/ja/c/ja-f00017-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "こう",
+   "answer": "やって",
+   "after": "使うのよ。",
+   "reading": "やって",
+   "translation": "이렇게 쓰는 거야.",
+   "audioPath": "sentence-audio/ja/c/ja-f00017-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "何",
+   "answer": "やってる",
+   "after": "んですか？",
+   "reading": "やってる",
+   "translation": "뭐 하고 있어요?",
+   "audioPath": "sentence-audio/ja/c/ja-f00017-3.m4a",
+   "form": "~ている"
+  }
+ ],
+ "ja-f00020": [
+  {
+   "before": "早起き",
+   "answer": "できた",
+   "after": "から頑張ってみたの",
+   "reading": "できた",
+   "translation": "일찍 일어나서 열심히 해 봤어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00020-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "私には　どうすることも",
+   "answer": "できない",
+   "after": "よ",
+   "reading": "できない",
+   "translation": "나로서는 어떻게 할 수가 없어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00020-2.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "ちゃんと覚悟は",
+   "answer": "できてる",
+   "after": "?",
+   "reading": "できてる",
+   "translation": "각오는 제대로 됐어?",
+   "audioPath": "sentence-audio/ja/c/ja-f00020-3.m4a",
+   "form": "~ている"
+  }
+ ],
+ "ja-f00023": [
+  {
+   "before": "",
+   "answer": "知らない",
+   "after": "こと　いっぱいあるから。",
+   "reading": "しらない",
+   "translation": "모르는 게 잔뜩 있으니까.",
+   "audioPath": "sentence-audio/ja/c/ja-f00023-1.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "どうして私の名前 ",
+   "answer": "知ってる",
+   "after": "の？",
+   "reading": "しってる",
+   "translation": "어떻게 내 이름 알아?",
+   "audioPath": "sentence-audio/ja/c/ja-f00023-2.m4a",
+   "form": "~ている"
+  }
+ ],
+ "ja-f00025": [
+  {
+   "before": "ええっ？　私を男だと",
+   "answer": "思った",
+   "after": "の？",
+   "reading": "おもった",
+   "translation": "뭐? 나를 남자인 줄 알았어?",
+   "audioPath": "sentence-audio/ja/c/ja-f00025-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "くだらないと",
+   "answer": "思わない",
+   "after": "？",
+   "reading": "おもわない",
+   "translation": "시시하다고 생각 안 해?",
+   "audioPath": "sentence-audio/ja/c/ja-f00025-2.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "そんなの他人ごとだと",
+   "answer": "思ってた",
+   "after": "",
+   "reading": "おもってた",
+   "translation": "그런 건 남의 일인 줄 알았어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00025-3.m4a",
+   "form": "~ていた"
+  },
+  {
+   "before": "実際 自分もそう",
+   "answer": "思います",
+   "after": "",
+   "reading": "おもいます",
+   "translation": "실제로 저도 그렇게 생각해요.",
+   "audioPath": "sentence-audio/ja/c/ja-f00025-4.m4a",
+   "form": "~ます"
+  }
+ ],
+ "ja-f00034": [
+  {
+   "before": "お前に",
+   "answer": "聞いた",
+   "after": "俺がバカだった",
+   "reading": "きいた",
+   "translation": "너한테 물어본 내가 바보였지.",
+   "audioPath": "sentence-audio/ja/c/ja-f00034-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "",
+   "answer": "聞いてる",
+   "after": "の？ 僕の話を",
+   "reading": "きいてる",
+   "translation": "듣고 있어? 내 얘기.",
+   "audioPath": "sentence-audio/ja/c/ja-f00034-2.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "いいよ　じゃあ　何でも",
+   "answer": "聞いて",
+   "after": "",
+   "reading": "きいて",
+   "translation": "좋아, 그럼 뭐든 물어봐.",
+   "audioPath": "sentence-audio/ja/c/ja-f00034-3.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "だったら",
+   "answer": "聞きたい",
+   "after": "ことがある",
+   "reading": "ききたい",
+   "translation": "그럼 묻고 싶은 게 있어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00034-4.m4a",
+   "form": "~たい"
+  }
+ ],
+ "ja-f00036": [
+  {
+   "before": "",
+   "answer": "待って",
+   "after": "　行かないで",
+   "reading": "まって",
+   "translation": "기다려, 가지 마.",
+   "audioPath": "sentence-audio/ja/c/ja-f00036-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "お",
+   "answer": "待たせ",
+   "after": "しました",
+   "reading": "またせ",
+   "translation": "오래 기다리셨습니다.",
+   "audioPath": "sentence-audio/ja/c/ja-f00036-2.m4a",
+   "form": "~せる/~させる"
+  },
+  {
+   "before": "あ　手紙出してくるから",
+   "answer": "待ってて",
+   "after": "",
+   "reading": "まってて",
+   "translation": "아, 편지 부치고 올 테니까 기다리고 있어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00036-3.m4a",
+   "form": "~ている"
+  }
+ ],
+ "ja-f00038": [
+  {
+   "before": "ジュースとクッキーを",
+   "answer": "持ってきた",
+   "after": "わ",
+   "reading": "もってきた",
+   "translation": "주스랑 쿠키 가져왔어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00038-1.m4a",
+   "form": "~ていく/~てくる"
+  },
+  {
+   "before": "…っと 何かすごいの",
+   "answer": "持ってる",
+   "after": "な",
+   "reading": "もってる",
+   "translation": "…어, 뭔가 대단한 걸 갖고 있네.",
+   "audioPath": "sentence-audio/ja/c/ja-f00038-2.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "そんなことないです  自信",
+   "answer": "持って",
+   "after": "",
+   "reading": "もって",
+   "translation": "그렇지 않아요. 자신감을 가져요.",
+   "audioPath": "sentence-audio/ja/c/ja-f00038-3.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-f00044": [
+  {
+   "before": "やったー 広いとこに",
+   "answer": "出た",
+   "after": "よ",
+   "reading": "でた",
+   "translation": "야호, 넓은 데로 나왔다!",
+   "audioPath": "sentence-audio/ja/c/ja-f00044-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "体育館が暑いから ",
+   "answer": "出てきた",
+   "after": "だけで",
+   "reading": "でてきた",
+   "translation": "체육관이 더워서 나와 본 것뿐이야.",
+   "audioPath": "sentence-audio/ja/c/ja-f00044-2.m4a",
+   "form": "~ていく/~てくる"
+  },
+  {
+   "before": "でも これもエラーが",
+   "answer": "出ています",
+   "after": "",
+   "reading": "でています",
+   "translation": "근데 이것도 에러가 나요.",
+   "audioPath": "sentence-audio/ja/c/ja-f00044-3.m4a",
+   "form": "~ている"
+  }
+ ],
+ "ja-f00051": [
+  {
+   "before": "もう",
+   "answer": "ついてこなくて",
+   "after": "いいんだよ",
+   "reading": "ついてこなくて",
+   "translation": "이제 안 따라와도 돼.",
+   "audioPath": "sentence-audio/ja/c/ja-f00051-1.m4a",
+   "form": "~ていく/~てくる"
+  },
+  {
+   "before": "部屋の電気が",
+   "answer": "ついた",
+   "after": "。",
+   "reading": "ついた",
+   "translation": "방 불이 켜졌어.",
+   "audioPath": null,
+   "form": "~た"
+  },
+  {
+   "before": "ほら　もう　ご飯粒　",
+   "answer": "付いてる",
+   "after": "わよ。",
+   "reading": "ついてる",
+   "translation": "어머, 정말, 밥알 붙어 있잖아.",
+   "audioPath": "sentence-audio/ja/c/ja-f00051-3.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "全然 区別",
+   "answer": "つかない",
+   "after": "んですよ",
+   "reading": "つかない",
+   "translation": "전혀 구별이 안 돼요.",
+   "audioPath": "sentence-audio/ja/c/ja-f00051-4.m4a",
+   "form": "~ない"
+  }
+ ],
+ "ja-f00052": [
+  {
+   "before": "",
+   "answer": "戻ってくる",
+   "after": "って言ってるでしょ",
+   "reading": "もどってくる",
+   "translation": "돌아온다고 했잖아.",
+   "audioPath": "sentence-audio/ja/c/ja-f00052-1.m4a",
+   "form": "~ていく/~てくる"
+  },
+  {
+   "before": "部屋",
+   "answer": "戻って",
+   "after": "休もうか",
+   "reading": "もどって",
+   "translation": "방에 돌아가서 쉴까?",
+   "audioPath": "sentence-audio/ja/c/ja-f00052-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "なんだかあの頃に",
+   "answer": "戻った",
+   "after": "みたい",
+   "reading": "もどった",
+   "translation": "왠지 그 시절로 돌아간 것 같아.",
+   "audioPath": "sentence-audio/ja/c/ja-f00052-3.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "すぐに",
+   "answer": "戻らない",
+   "after": "と",
+   "reading": "もどらない",
+   "translation": "빨리 돌아가야 해.",
+   "audioPath": "sentence-audio/ja/c/ja-f00052-4.m4a",
+   "form": "~ない"
+  }
+ ],
+ "ja-f00054": [
+  {
+   "before": "約束が",
+   "answer": "違います",
+   "after": "ね",
+   "reading": "ちがいます",
+   "translation": "약속이랑 다르네요.",
+   "audioPath": "sentence-audio/ja/c/ja-f00054-1.m4a",
+   "form": "~ます"
+  },
+  {
+   "before": "思ってたのと",
+   "answer": "違った",
+   "after": "。",
+   "reading": "ちがった",
+   "translation": "생각했던 거랑 달랐어.",
+   "audioPath": null,
+   "form": "~た"
+  }
+ ],
+ "ja-f00062": [
+  {
+   "before": "",
+   "answer": "やめて",
+   "after": " 気持ち悪いんだけど",
+   "reading": "やめて",
+   "translation": "그만해, 징그럽거든.",
+   "audioPath": "sentence-audio/ja/c/ja-f00062-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "",
+   "answer": "やめといた",
+   "after": "方がいい",
+   "reading": "やめといた",
+   "translation": "그만두는 게 좋아.",
+   "audioPath": "sentence-audio/ja/c/ja-f00062-2.m4a",
+   "form": "~ておく"
+  },
+  {
+   "before": "だからもう家出なんか",
+   "answer": "やめてくれ",
+   "after": "よ",
+   "reading": "やめてくれ",
+   "translation": "그러니까 이제 가출 같은 건 그만해 줘.",
+   "audioPath": "sentence-audio/ja/c/ja-f00062-3.m4a",
+   "form": "~てくれる"
+  }
+ ],
+ "ja-f00063": [
+  {
+   "before": "あの夜　偶然　",
+   "answer": "会った",
+   "after": "んじゃない。",
+   "reading": "あった",
+   "translation": "그날 밤 우연히 만난 게 아니야.",
+   "audioPath": "sentence-audio/ja/c/ja-f00063-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "おじさん 娘に",
+   "answer": "会いたい",
+   "after": "の？",
+   "reading": "あいたい",
+   "translation": "아저씨, 딸 보고 싶어?",
+   "audioPath": "sentence-audio/ja/c/ja-f00063-2.m4a",
+   "form": "~たい"
+  },
+  {
+   "before": "二度と あの人に",
+   "answer": "会わない",
+   "after": "！",
+   "reading": "あわない",
+   "translation": "다시는 그 사람 안 만나!",
+   "audioPath": "sentence-audio/ja/c/ja-f00063-3.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "",
+   "answer": "会えて",
+   "after": "嬉しいよ",
+   "reading": "あえて",
+   "translation": "만나서 반가워.",
+   "audioPath": null,
+   "form": "~て"
+  }
+ ],
+ "ja-f00065": [
+  {
+   "before": "その塩、",
+   "answer": "取って",
+   "after": "くれる？",
+   "reading": "とって",
+   "translation": "그 소금 좀 집어 줄래?",
+   "audioPath": null,
+   "form": "~て"
+  },
+  {
+   "before": "テーブルの塩を",
+   "answer": "取った",
+   "after": "。",
+   "reading": "とった",
+   "translation": "식탁 위 소금을 집었어.",
+   "audioPath": null,
+   "form": "~た"
+  }
+ ],
+ "ja-f00066": [
+  {
+   "before": "答えろ　どうやって　ここに",
+   "answer": "入った",
+   "after": "？",
+   "reading": "はいった",
+   "translation": "대답해. 어떻게 여기 들어왔어?",
+   "audioPath": "sentence-audio/ja/c/ja-f00066-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "勝手に",
+   "answer": "入って",
+   "after": "いいんでしょうか",
+   "reading": "はいって",
+   "translation": "마음대로 들어가도 되는 걸까요?",
+   "audioPath": "sentence-audio/ja/c/ja-f00066-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "先に",
+   "answer": "入ってて",
+   "after": "　水くんでくるから",
+   "reading": "はいってて",
+   "translation": "먼저 들어가 있어. 물 길어 올게.",
+   "audioPath": "sentence-audio/ja/c/ja-f00066-3.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "大丈夫だって　奥には",
+   "answer": "入らない",
+   "after": "から",
+   "reading": "はいらない",
+   "translation": "괜찮다니까. 안쪽까진 안 들어갈게.",
+   "audioPath": "sentence-audio/ja/c/ja-f00066-4.m4a",
+   "form": "~ない"
+  }
+ ],
+ "ja-f00082": [
+  {
+   "before": "駅まで一緒に",
+   "answer": "帰ろう",
+   "after": "か",
+   "reading": "かえろう",
+   "translation": "역까지 같이 갈까?",
+   "audioPath": "sentence-audio/ja/c/ja-f00082-1.m4a",
+   "form": "~よう/~おう"
+  },
+  {
+   "before": "必ず　ここに",
+   "answer": "帰ってくる",
+   "after": "からな",
+   "reading": "かえってくる",
+   "translation": "꼭 여기로 돌아올게.",
+   "audioPath": "sentence-audio/ja/c/ja-f00082-2.m4a",
+   "form": "~ていく/~てくる"
+  },
+  {
+   "before": "１年は先に",
+   "answer": "帰って",
+   "after": "いいぞ",
+   "reading": "かえって",
+   "translation": "1학년은 먼저 가도 돼.",
+   "audioPath": "sentence-audio/ja/c/ja-f00082-3.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "おばあちゃん　お父さん　夕方まで",
+   "answer": "帰らない",
+   "after": "の。",
+   "reading": "かえらない",
+   "translation": "할머니, 아빠가 저녁때까지 안 들어온대요.",
+   "audioPath": "sentence-audio/ja/c/ja-f00082-4.m4a",
+   "form": "~ない"
+  }
+ ],
+ "ja-f00083": [
+  {
+   "before": "やっぱりネコを",
+   "answer": "助けて",
+   "after": "よかったのよ",
+   "reading": "たすけて",
+   "translation": "역시 고양이를 구해 주길 잘했어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00083-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "あの人 ",
+   "answer": "助けてくれた",
+   "after": "んです！",
+   "reading": "たすけてくれた",
+   "translation": "저 사람이 구해 줬어요!",
+   "audioPath": "sentence-audio/ja/c/ja-f00083-2.m4a",
+   "form": "~てくれる"
+  },
+  {
+   "before": "いや ",
+   "answer": "助けられた",
+   "after": "んだ",
+   "reading": "たすけられた",
+   "translation": "아니, 내가 도움받은 거야.",
+   "audioPath": "sentence-audio/ja/c/ja-f00083-3.m4a",
+   "form": "~れる/~られる"
+  }
+ ],
+ "ja-f00089": [
+  {
+   "before": "あなた　何を",
+   "answer": "探してます",
+   "after": "か？",
+   "reading": "さがしてます",
+   "translation": "뭘 찾고 있어요?",
+   "audioPath": "sentence-audio/ja/c/ja-f00089-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "今仕事",
+   "answer": "探してた",
+   "after": "の",
+   "reading": "さがしてた",
+   "translation": "지금 일자리 찾고 있었어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00089-2.m4a",
+   "form": "~ていた"
+  },
+  {
+   "before": "どこ行ってたの？ずっと",
+   "answer": "探した",
+   "after": "んだよ。",
+   "reading": "さがした",
+   "translation": "어디 갔었어? 계속 찾았잖아.",
+   "audioPath": null,
+   "form": "~た"
+  },
+  {
+   "before": "この中から",
+   "answer": "探して",
+   "after": "",
+   "reading": "さがして",
+   "translation": "이 안에서 찾아 봐.",
+   "audioPath": "sentence-audio/ja/c/ja-f00089-4.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-f00092": [
+  {
+   "before": "左の目が ほとんど",
+   "answer": "見えない",
+   "after": "んだよ",
+   "reading": "みえない",
+   "translation": "왼쪽 눈이 거의 안 보여.",
+   "audioPath": "sentence-audio/ja/c/ja-f00092-1.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "ごめんなさい 30代に",
+   "answer": "見えた",
+   "after": "から",
+   "reading": "みえた",
+   "translation": "미안해요, 30대로 보여서요.",
+   "audioPath": "sentence-audio/ja/c/ja-f00092-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "周りからはどう",
+   "answer": "見えてる",
+   "after": "んだろう",
+   "reading": "みえてる",
+   "translation": "남들 눈엔 어떻게 보이고 있을까.",
+   "audioPath": "sentence-audio/ja/c/ja-f00092-3.m4a",
+   "form": "~ている"
+  }
+ ],
+ "ja-f00093": [
+  {
+   "before": "暗いから電気",
+   "answer": "つけて",
+   "after": "。",
+   "reading": "つけて",
+   "translation": "어두우니까 불 좀 켜 줘.",
+   "audioPath": null,
+   "form": "~て"
+  },
+  {
+   "before": "テレビを",
+   "answer": "つけた",
+   "after": "まま寝ちゃった。",
+   "reading": "つけた",
+   "translation": "TV를 켜 둔 채로 잠들어 버렸어.",
+   "audioPath": null,
+   "form": "~た"
+  }
+ ],
+ "ja-f00099": [
+  {
+   "before": "このカバン、もう",
+   "answer": "使わない",
+   "after": "からあげるよ。",
+   "reading": "つかわない",
+   "translation": "이 가방 이제 안 쓰니까 줄게.",
+   "audioPath": null,
+   "form": "~ない"
+  },
+  {
+   "before": "よかったら",
+   "answer": "使って",
+   "after": "",
+   "reading": "つかって",
+   "translation": "괜찮으면 써.",
+   "audioPath": "sentence-audio/ja/c/ja-f00099-2.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-f00101": [
+  {
+   "before": "砂糖もう",
+   "answer": "入れた",
+   "after": "？",
+   "reading": "いれた",
+   "translation": "설탕 벌써 넣었어?",
+   "audioPath": null,
+   "form": "~た"
+  },
+  {
+   "before": "俺も仲間に",
+   "answer": "入れて",
+   "after": "",
+   "reading": "いれて",
+   "translation": "나도 끼워 줘.",
+   "audioPath": "sentence-audio/ja/c/ja-f00101-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "コーヒーに砂糖は",
+   "answer": "入れない",
+   "after": "。",
+   "reading": "いれない",
+   "translation": "커피에 설탕은 안 넣어.",
+   "audioPath": null,
+   "form": "~ない"
+  }
+ ],
+ "ja-f00104": [
+  {
+   "before": "ちょっと",
+   "answer": "止めて",
+   "after": "",
+   "reading": "とめて",
+   "translation": "잠깐 세워 줘.",
+   "audioPath": "sentence-audio/ja/c/ja-f00104-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "もう",
+   "answer": "止められない",
+   "after": "んじゃないかな",
+   "reading": "とめられない",
+   "translation": "이제 못 멈출 것 같은데.",
+   "audioPath": "sentence-audio/ja/c/ja-f00104-2.m4a",
+   "form": "~れる/~られる"
+  },
+  {
+   "before": "準備の手を",
+   "answer": "止めないでください",
+   "after": "",
+   "reading": "とめないでください",
+   "translation": "준비하던 손을 멈추지 마세요.",
+   "audioPath": null,
+   "form": "~ない"
+  },
+  {
+   "before": "だから",
+   "answer": "止めた",
+   "after": "んだよ",
+   "reading": "とめた",
+   "translation": "그래서 말린 거야.",
+   "audioPath": "sentence-audio/ja/c/ja-f00104-4.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-f00106": [
+  {
+   "before": "嘘　校長に",
+   "answer": "呼ばれた",
+   "after": "の",
+   "reading": "よばれた",
+   "translation": "헐, 교장 선생님한테 불려 갔어?",
+   "audioPath": "sentence-audio/ja/c/ja-f00106-1.m4a",
+   "form": "~れる/~られる"
+  },
+  {
+   "before": "だろうな　お前を",
+   "answer": "呼んで",
+   "after": "正解だったよ",
+   "reading": "よんで",
+   "translation": "그렇겠지. 너를 부르길 잘했어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00106-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "今　救急車を",
+   "answer": "呼んだ",
+   "after": "",
+   "reading": "よんだ",
+   "translation": "방금 구급차 불렀어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00106-3.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "やばいって、先生",
+   "answer": "呼んできて",
+   "after": "",
+   "reading": "よんできて",
+   "translation": "큰일이야, 선생님 불러 와.",
+   "audioPath": "sentence-audio/ja/c/ja-f00106-4.m4a",
+   "form": "~ていく/~てくる"
+  }
+ ],
+ "ja-f00107": [
+  {
+   "before": "そのまま ゆっくり 左足 ",
+   "answer": "出して",
+   "after": "",
+   "reading": "だして",
+   "translation": "그대로 천천히 왼발 내밀어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00107-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "先生にも",
+   "answer": "出した",
+   "after": "んだ",
+   "reading": "だした",
+   "translation": "선생님한테도 보냈구나?",
+   "audioPath": "sentence-audio/ja/c/ja-f00107-2.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-f00113": [
+  {
+   "before": "全員 ご起立",
+   "answer": "願います",
+   "after": "",
+   "reading": "ねがいます",
+   "translation": "모두 일어서 주시기 바랍니다.",
+   "audioPath": "sentence-audio/ja/c/ja-f00113-1.m4a",
+   "form": "~ます"
+  },
+  {
+   "before": "ああ　そう",
+   "answer": "願いたい",
+   "after": "。",
+   "reading": "ねがいたい",
+   "translation": "응, 그러길 바라.",
+   "audioPath": "sentence-audio/ja/c/ja-f00113-2.m4a",
+   "form": "~たい"
+  }
+ ],
+ "ja-f00115": [
+  {
+   "before": "私たちは何のために",
+   "answer": "生きている",
+   "after": "の？",
+   "reading": "いきている",
+   "translation": "우리는 뭘 위해 살고 있는 걸까?",
+   "audioPath": "sentence-audio/ja/c/ja-f00115-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "大丈夫 一人でも",
+   "answer": "生きていける",
+   "after": "",
+   "reading": "いきていける",
+   "translation": "괜찮아, 혼자서도 살아갈 수 있어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00115-2.m4a",
+   "form": "~ていく/~てくる"
+  },
+  {
+   "before": "アハハ まだ",
+   "answer": "生きてた",
+   "after": "んだ",
+   "reading": "いきてた",
+   "translation": "아하하, 아직 살아 있었구나.",
+   "audioPath": "sentence-audio/ja/c/ja-f00115-3.m4a",
+   "form": "~ていた"
+  }
+ ],
+ "ja-f00116": [
+  {
+   "before": "あ、今回は私も一緒に",
+   "answer": "作った",
+   "after": "のよ",
+   "reading": "つくった",
+   "translation": "아, 이번엔 나도 같이 만들었어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00116-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "ああ　",
+   "answer": "作って",
+   "after": "やるよ",
+   "reading": "つくって",
+   "translation": "응, 만들어 줄게.",
+   "audioPath": "sentence-audio/ja/c/ja-f00116-2.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-f00118": [
+  {
+   "before": "だから 弟子にしてくれって",
+   "answer": "頼んだ",
+   "after": "",
+   "reading": "たのんだ",
+   "translation": "그래서 제자로 받아 달라고 부탁했어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00118-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "いえ　",
+   "answer": "頼まれた",
+   "after": "ので",
+   "reading": "たのまれた",
+   "translation": "아뇨, 부탁받아서요.",
+   "audioPath": "sentence-audio/ja/c/ja-f00118-2.m4a",
+   "form": "~れる/~られる"
+  }
+ ],
+ "ja-f00119": [
+  {
+   "before": "あんたが",
+   "answer": "逃げた",
+   "after": "んでしょ",
+   "reading": "にげた",
+   "translation": "네가 도망친 거잖아.",
+   "audioPath": "sentence-audio/ja/c/ja-f00119-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "一度でも入札したら　もう",
+   "answer": "逃げられない",
+   "after": "",
+   "reading": "にげられない",
+   "translation": "한 번이라도 입찰하면 더는 못 빠져나가.",
+   "audioPath": "sentence-audio/ja/c/ja-f00119-2.m4a",
+   "form": "~れる/~られる"
+  },
+  {
+   "before": "もう",
+   "answer": "逃げない",
+   "after": "　泣かない",
+   "reading": "にげない",
+   "translation": "이제 도망치지 않아. 울지 않아.",
+   "audioPath": "sentence-audio/ja/c/ja-f00119-3.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "できれば",
+   "answer": "逃げて",
+   "after": "",
+   "reading": "にげて",
+   "translation": "할 수 있으면 도망쳐.",
+   "audioPath": "sentence-audio/ja/c/ja-f00119-4.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-f00123": [
+  {
+   "before": "いいですね　",
+   "answer": "連れていってください",
+   "after": "",
+   "reading": "つれていってください",
+   "translation": "좋네요. 데려가 주세요.",
+   "audioPath": "sentence-audio/ja/c/ja-f00123-1.m4a",
+   "form": "~ていく/~てくる"
+  },
+  {
+   "before": "うちまで",
+   "answer": "連れて",
+   "after": "帰ろう",
+   "reading": "つれて",
+   "translation": "집까지 데려가자.",
+   "audioPath": "sentence-audio/ja/c/ja-f00123-2.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-f00124": [
+  {
+   "before": "誕生日に時計を",
+   "answer": "もらった",
+   "after": "。",
+   "reading": "もらった",
+   "translation": "생일에 시계를 받았어.",
+   "audioPath": null,
+   "form": "~た"
+  },
+  {
+   "before": "もう1つ",
+   "answer": "もらって",
+   "after": "いいですか？",
+   "reading": "もらって",
+   "translation": "하나 더 받아도 돼요?",
+   "audioPath": null,
+   "form": "~て"
+  }
+ ],
+ "ja-f00128": [
+  {
+   "before": "",
+   "answer": "終わった",
+   "after": "よ　あとは飛ばすだけだ",
+   "reading": "おわった",
+   "translation": "끝났어. 이제 날리기만 하면 돼.",
+   "audioPath": "sentence-audio/ja/c/ja-f00128-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "やっと授業が",
+   "answer": "終わりました",
+   "after": "ね",
+   "reading": "おわりました",
+   "translation": "드디어 수업이 끝났네요.",
+   "audioPath": "sentence-audio/ja/c/ja-f00128-2.m4a",
+   "form": "~ました"
+  },
+  {
+   "before": "バイトが",
+   "answer": "終わったら",
+   "after": "話を聞いて",
+   "reading": "おわったら",
+   "translation": "알바 끝나면 얘기 좀 들어 줘.",
+   "audioPath": "sentence-audio/ja/c/ja-f00128-3.m4a",
+   "form": "~たら"
+  }
+ ],
+ "ja-f00129": [
+  {
+   "before": "一ヶ月が",
+   "answer": "過ぎた",
+   "after": "",
+   "reading": "すぎた",
+   "translation": "한 달이 지났다.",
+   "audioPath": "sentence-audio/ja/c/ja-f00129-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "張り切り",
+   "answer": "すぎて",
+   "after": "無理しないでよ",
+   "reading": "すぎて",
+   "translation": "너무 의욕 부리다가 무리하지 마.",
+   "audioPath": "sentence-audio/ja/c/ja-f00129-2.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-f00133": [
+  {
+   "before": "財布を落として",
+   "answer": "しまった",
+   "after": "。",
+   "reading": "しまった",
+   "translation": "지갑을 잃어버리고 말았어.",
+   "audioPath": null,
+   "form": "~た"
+  }
+ ],
+ "ja-f00134": [
+  {
+   "before": "ごめんね　すっかり",
+   "answer": "忘れてた",
+   "after": "わ",
+   "reading": "わすれてた",
+   "translation": "미안, 완전히 잊고 있었어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00134-1.m4a",
+   "form": "~ていた"
+  },
+  {
+   "before": "持ってくるのを",
+   "answer": "忘れた",
+   "after": "んだ",
+   "reading": "わすれた",
+   "translation": "가져오는 걸 깜빡했어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00134-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "決してあなたのことを",
+   "answer": "忘れない",
+   "after": "わ",
+   "reading": "わすれない",
+   "translation": "절대 너를 잊지 않을 거야.",
+   "audioPath": "sentence-audio/ja/c/ja-f00134-3.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "何 言うか",
+   "answer": "忘れちゃった",
+   "after": "…",
+   "reading": "わすれちゃった",
+   "translation": "뭐라고 할지 까먹었어…",
+   "audioPath": "sentence-audio/ja/c/ja-f00134-4.m4a",
+   "form": "~てしまう"
+  }
+ ],
+ "ja-f00138": [
+  {
+   "before": "約束は",
+   "answer": "守って",
+   "after": "ね。",
+   "reading": "まもって",
+   "translation": "약속은 지켜.",
+   "audioPath": "sentence-audio/ja/c/ja-f00138-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "約束を",
+   "answer": "守らない",
+   "after": "人は嫌い。",
+   "reading": "まもらない",
+   "translation": "약속 안 지키는 사람은 싫어.",
+   "audioPath": null,
+   "form": "~ない"
+  }
+ ],
+ "ja-f00139": [
+  {
+   "before": "弟にも少し",
+   "answer": "あげて",
+   "after": "。",
+   "reading": "あげて",
+   "translation": "동생한테도 좀 줘.",
+   "audioPath": null,
+   "form": "~て"
+  },
+  {
+   "before": "チャンスを",
+   "answer": "あげよう",
+   "after": "",
+   "reading": "あげよう",
+   "translation": "기회를 주지.",
+   "audioPath": "sentence-audio/ja/c/ja-f00139-2.m4a",
+   "form": "~よう/~おう"
+  }
+ ],
+ "ja-f00140": [
+  {
+   "before": "うちの娘にも",
+   "answer": "見せて",
+   "after": "やりたいよ",
+   "reading": "みせて",
+   "translation": "우리 딸한테도 보여 주고 싶네.",
+   "audioPath": "sentence-audio/ja/c/ja-f00140-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "ね　それちょっと",
+   "answer": "見せてくれる",
+   "after": "？",
+   "reading": "みせてくれる",
+   "translation": "있잖아, 그거 좀 보여 줄래?",
+   "audioPath": "sentence-audio/ja/c/ja-f00140-2.m4a",
+   "form": "~てくれる"
+  },
+  {
+   "before": "お前　手を",
+   "answer": "見せてみろ",
+   "after": "",
+   "reading": "みせてみろ",
+   "translation": "너, 손 좀 보여 봐.",
+   "audioPath": "sentence-audio/ja/c/ja-f00140-3.m4a",
+   "form": "~てみる"
+  },
+  {
+   "before": "証拠を",
+   "answer": "見せてあげる",
+   "after": " ほらっ！",
+   "reading": "みせてあげる",
+   "translation": "증거를 보여 줄게. 자!",
+   "audioPath": "sentence-audio/ja/c/ja-f00140-4.m4a",
+   "form": "~てあげる"
+  }
+ ],
+ "ja-f00145": [
+  {
+   "before": "じゃあ どこに行ったか",
+   "answer": "覚えてる",
+   "after": "？",
+   "reading": "おぼえてる",
+   "translation": "그럼 어디 갔었는지 기억나?",
+   "audioPath": "sentence-audio/ja/c/ja-f00145-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "うーん　あんまり",
+   "answer": "覚えてない",
+   "after": "。",
+   "reading": "おぼえてない",
+   "translation": "음, 별로 기억 안 나.",
+   "audioPath": "sentence-audio/ja/c/ja-f00145-2.m4a",
+   "form": "~ていない"
+  },
+  {
+   "before": "ここテスト出すから",
+   "answer": "覚えとく",
+   "after": "よーに",
+   "reading": "おぼえとく",
+   "translation": "여기 시험에 나오니까 외워 두도록.",
+   "audioPath": "sentence-audio/ja/c/ja-f00145-3.m4a",
+   "form": "~ておく"
+  },
+  {
+   "before": "そのときに",
+   "answer": "覚えた",
+   "after": "んだって。",
+   "reading": "おぼえた",
+   "translation": "그때 익혔대.",
+   "audioPath": "sentence-audio/ja/c/ja-f00145-4.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-f00149": [
+  {
+   "before": "先生の許可を",
+   "answer": "得ない",
+   "after": "と使えない。",
+   "reading": "えない",
+   "translation": "선생님 허락을 받지 않으면 못 써.",
+   "audioPath": null,
+   "form": "~ない"
+  },
+  {
+   "before": "要は コツを",
+   "answer": "得た",
+   "after": "ってこと",
+   "reading": "えた",
+   "translation": "요컨대 요령을 터득했다는 거야.",
+   "audioPath": "sentence-audio/ja/c/ja-f00149-2.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-f00154": [
+  {
+   "before": "バイトもう少し",
+   "answer": "続けて",
+   "after": "欲しいって",
+   "reading": "つづけて",
+   "translation": "아르바이트를 좀 더 계속해 줬으면 한대.",
+   "audioPath": "sentence-audio/ja/c/ja-f00154-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "まだ音楽は",
+   "answer": "続けてる",
+   "after": "？",
+   "reading": "つづけてる",
+   "translation": "아직 음악 계속하고 있어?",
+   "audioPath": "sentence-audio/ja/c/ja-f00154-2.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "僕は仕事を",
+   "answer": "続けた",
+   "after": "",
+   "reading": "つづけた",
+   "translation": "나는 일을 계속했다.",
+   "audioPath": "sentence-audio/ja/c/ja-f00154-3.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-f00158": [
+  {
+   "before": "はーい それじゃ 会議 ",
+   "answer": "始めます",
+   "after": "",
+   "reading": "はじめます",
+   "translation": "자, 그럼 회의 시작하겠습니다.",
+   "audioPath": "sentence-audio/ja/c/ja-f00158-1.m4a",
+   "form": "~ます"
+  },
+  {
+   "before": "うん　ちょっとアルバイト",
+   "answer": "始めた",
+   "after": "から",
+   "reading": "はじめた",
+   "translation": "응, 아르바이트를 좀 시작해서.",
+   "audioPath": "sentence-audio/ja/c/ja-f00158-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "じゃあ、早速練習",
+   "answer": "始めよう",
+   "after": "か。",
+   "reading": "はじめよう",
+   "translation": "그럼 바로 연습 시작할까?",
+   "audioPath": "sentence-audio/ja/c/ja-f00158-3.m4a",
+   "form": "~よう/~おう"
+  }
+ ],
+ "ja-f00162": [
+  {
+   "before": "場合に",
+   "answer": "よって",
+   "after": "は",
+   "reading": "よって",
+   "translation": "경우에 따라서는.",
+   "audioPath": "sentence-audio/ja/c/ja-f00162-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "噂に",
+   "answer": "よれば",
+   "after": "　その効果は絶大",
+   "reading": "よれば",
+   "translation": "소문에 따르면 효과가 엄청나대.",
+   "audioPath": "sentence-audio/ja/c/ja-f00162-2.m4a",
+   "form": "~ば"
+  }
+ ],
+ "ja-f00171": [
+  {
+   "before": "何年たっても",
+   "answer": "変わらない",
+   "after": "ね。",
+   "reading": "かわらない",
+   "translation": "몇 년이 지나도 안 변하네.",
+   "audioPath": null,
+   "form": "~ない"
+  },
+  {
+   "before": "確かに 最近",
+   "answer": "変わった",
+   "after": "よな あいつ",
+   "reading": "かわった",
+   "translation": "확실히 요즘 변했지, 걔.",
+   "audioPath": "sentence-audio/ja/c/ja-f00171-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "信号が",
+   "answer": "変わって",
+   "after": "から渡ろう。",
+   "reading": "かわって",
+   "translation": "신호가 바뀌고 나서 건너자.",
+   "audioPath": null,
+   "form": "~て"
+  }
+ ],
+ "ja-f00174": [
+  {
+   "before": "先行ってるから　２人とも",
+   "answer": "急いで",
+   "after": "ね～",
+   "reading": "いそいで",
+   "translation": "먼저 가 있을 테니까 둘 다 서둘러~",
+   "audioPath": "sentence-audio/ja/c/ja-f00174-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "",
+   "answer": "急がない",
+   "after": "と　昼休み　終わっちゃうし",
+   "reading": "いそがない",
+   "translation": "서두르지 않으면 점심시간 끝나 버려.",
+   "audioPath": "sentence-audio/ja/c/ja-f00174-2.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "あっ、バス来た。",
+   "answer": "急ごう",
+   "after": "。",
+   "reading": "いそごう",
+   "translation": "앗, 버스 왔다. 서두르자.",
+   "audioPath": "sentence-audio/ja/c/ja-f00174-3.m4a",
+   "form": "~よう/~おう"
+  }
+ ],
+ "ja-f00179": [
+  {
+   "before": "母が野菜を",
+   "answer": "送ってきた",
+   "after": "。",
+   "reading": "おくってきた",
+   "translation": "엄마가 채소를 보내왔어.",
+   "audioPath": null,
+   "form": "~ていく/~てくる"
+  },
+  {
+   "before": "この前　おばちゃんが",
+   "answer": "送ってくれた",
+   "after": "の。",
+   "reading": "おくってくれた",
+   "translation": "얼마 전에 이모가 보내 줬어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00179-2.m4a",
+   "form": "~てくれる"
+  },
+  {
+   "before": "どうだ？ ",
+   "answer": "送った",
+   "after": "の？",
+   "reading": "おくった",
+   "translation": "어때? 보냈어?",
+   "audioPath": "sentence-audio/ja/c/ja-f00179-3.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "写真 ",
+   "answer": "送って",
+   "after": "やる 急いで確認しろ！",
+   "reading": "おくって",
+   "translation": "사진 보내 줄게. 빨리 확인해!",
+   "audioPath": "sentence-audio/ja/c/ja-f00179-4.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-f00180": [
+  {
+   "before": "駅までバスに",
+   "answer": "乗って",
+   "after": "行こう。",
+   "reading": "のって",
+   "translation": "역까지 버스 타고 가자.",
+   "audioPath": null,
+   "form": "~て"
+  },
+  {
+   "before": "初めて飛行機に",
+   "answer": "乗った",
+   "after": "。",
+   "reading": "のった",
+   "translation": "처음으로 비행기를 탔어.",
+   "audioPath": null,
+   "form": "~た"
+  },
+  {
+   "before": "じゃ 先に車 ",
+   "answer": "乗ってます",
+   "after": "ね はい",
+   "reading": "のってます",
+   "translation": "그럼 먼저 차에 타 있을게요. 네.",
+   "audioPath": "sentence-audio/ja/c/ja-f00180-3.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "今日は電車に",
+   "answer": "乗らない",
+   "after": "で歩いて帰る。",
+   "reading": "のらない",
+   "translation": "오늘은 전철 안 타고 걸어서 갈래.",
+   "audioPath": null,
+   "form": "~ない"
+  }
+ ],
+ "ja-f00191": [
+  {
+   "before": "写真撮るから",
+   "answer": "動かないで",
+   "after": "。",
+   "reading": "うごかないで",
+   "translation": "사진 찍을 테니까 움직이지 마.",
+   "audioPath": null,
+   "form": "~ない"
+  },
+  {
+   "before": "温かくて　小鳥みたいに",
+   "answer": "動いてる",
+   "after": "。",
+   "reading": "うごいてる",
+   "translation": "따뜻하고, 작은 새처럼 움직이고 있어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00191-2.m4a",
+   "form": "~ている"
+  }
+ ],
+ "ja-f00194": [
+  {
+   "before": "そっちを",
+   "answer": "調べてみる",
+   "after": "",
+   "reading": "しらべてみる",
+   "translation": "그쪽을 조사해 볼게.",
+   "audioPath": "sentence-audio/ja/c/ja-f00194-1.m4a",
+   "form": "~てみる"
+  },
+  {
+   "before": "へえ… よく",
+   "answer": "調べた",
+   "after": "な",
+   "reading": "しらべた",
+   "translation": "오, 잘 조사했네.",
+   "audioPath": "sentence-audio/ja/c/ja-f00194-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "好きなだけ",
+   "answer": "調べて",
+   "after": "",
+   "reading": "しらべて",
+   "translation": "마음껏 조사해.",
+   "audioPath": "sentence-audio/ja/c/ja-f00194-3.m4a",
+   "form": "~て"
+  }
+ ],
+ "ja-f00195": [
+  {
+   "before": "神から",
+   "answer": "与えられた",
+   "after": " 使命だよ",
+   "reading": "あたえられた",
+   "translation": "신이 내려 준 사명이야.",
+   "audioPath": "sentence-audio/ja/c/ja-f00195-1.m4a",
+   "form": "~れる/~られる"
+  },
+  {
+   "before": "ふん、機会は",
+   "answer": "与えた",
+   "after": "ぞ",
+   "reading": "あたえた",
+   "translation": "흥, 기회는 줬다.",
+   "audioPath": null,
+   "form": "~た"
+  },
+  {
+   "before": "釈明の機会を",
+   "answer": "与えて",
+   "after": "やろう",
+   "reading": "あたえて",
+   "translation": "해명할 기회를 주지.",
+   "audioPath": null,
+   "form": "~て"
+  },
+  {
+   "before": "見てるだけで 力を",
+   "answer": "与えてくれる",
+   "after": "もんね",
+   "reading": "あたえてくれる",
+   "translation": "보고만 있어도 힘이 나잖아.",
+   "audioPath": "sentence-audio/ja/c/ja-f00195-4.m4a",
+   "form": "~てくれる"
+  }
+ ],
+ "ja-f00200": [
+  {
+   "before": "手間が ",
+   "answer": "かかってる",
+   "after": "から",
+   "reading": "かかってる",
+   "translation": "손이 많이 간 거라서.",
+   "audioPath": "sentence-audio/ja/c/ja-f00200-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "思ったより時間が　",
+   "answer": "かかった",
+   "after": "みたいだね",
+   "reading": "かかった",
+   "translation": "생각보다 시간이 걸렸나 보네.",
+   "audioPath": null,
+   "form": "~た"
+  },
+  {
+   "before": "さっき母から電話が",
+   "answer": "かかってきた",
+   "after": "。",
+   "reading": "かかってきた",
+   "translation": "아까 엄마한테서 전화가 왔어.",
+   "audioPath": null,
+   "form": "~ていく/~てくる"
+  }
+ ],
+ "ja-f00204": [
+  {
+   "before": "何もかも",
+   "answer": "失った",
+   "after": "",
+   "reading": "うしなった",
+   "translation": "모든 걸 잃었어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00204-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "",
+   "answer": "失われた",
+   "after": "ものは戻らない",
+   "reading": "うしなわれた",
+   "translation": "잃어버린 건 돌아오지 않아.",
+   "audioPath": "sentence-audio/ja/c/ja-f00204-2.m4a",
+   "form": "~れる/~られる"
+  },
+  {
+   "before": "気を",
+   "answer": "失ってる",
+   "after": "だけだ",
+   "reading": "うしなってる",
+   "translation": "기절했을 뿐이야.",
+   "audioPath": "sentence-audio/ja/c/ja-f00204-3.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "また 家を",
+   "answer": "失ってしまいました",
+   "after": "…",
+   "reading": "うしなってしまいました",
+   "translation": "또 집을 잃고 말았어요….",
+   "audioPath": "sentence-audio/ja/c/ja-f00204-4.m4a",
+   "form": "~てしまう"
+  }
+ ],
+ "ja-f00212": [
+  {
+   "before": "危ないから",
+   "answer": "離れて",
+   "after": "",
+   "reading": "はなれて",
+   "translation": "위험하니까 떨어져.",
+   "audioPath": "sentence-audio/ja/c/ja-f00212-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "年の",
+   "answer": "離れた",
+   "after": "兄なの",
+   "reading": "はなれた",
+   "translation": "나이 차이 많이 나는 오빠야.",
+   "audioPath": "sentence-audio/ja/c/ja-f00212-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "ちょっと",
+   "answer": "離れてて",
+   "after": "",
+   "reading": "はなれてて",
+   "translation": "좀 떨어져 있어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00212-3.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "頭から ",
+   "answer": "離れない",
+   "after": "んだ",
+   "reading": "はなれない",
+   "translation": "머릿속에서 떠나질 않아.",
+   "audioPath": "sentence-audio/ja/c/ja-f00212-4.m4a",
+   "form": "~ない"
+  }
+ ],
+ "ja-f00213": [
+  {
+   "before": "ここで何かが",
+   "answer": "起こった",
+   "after": "んだ",
+   "reading": "おこった",
+   "translation": "여기서 무슨 일이 일어났던 거야.",
+   "audioPath": null,
+   "form": "~た"
+  },
+  {
+   "before": "一体　ここで何が",
+   "answer": "起こってる",
+   "after": "んだ？",
+   "reading": "おこってる",
+   "translation": "도대체 여기서 무슨 일이 일어나고 있는 거야?",
+   "audioPath": "sentence-audio/ja/c/ja-f00213-2.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "それが",
+   "answer": "起こらない",
+   "after": "ことを祈ろう",
+   "reading": "おこらない",
+   "translation": "그런 일이 안 일어나길 빌자.",
+   "audioPath": "sentence-audio/ja/c/ja-f00213-3.m4a",
+   "form": "~ない"
+  }
+ ],
+ "ja-f00214": [
+  {
+   "before": "明日、試験を",
+   "answer": "受けて",
+   "after": "くるね。",
+   "reading": "うけて",
+   "translation": "내일 시험 보고 올게.",
+   "audioPath": null,
+   "form": "~て"
+  },
+  {
+   "before": "彼は報いを",
+   "answer": "受けた",
+   "after": "のよ",
+   "reading": "うけた",
+   "translation": "그는 벌을 받은 거야.",
+   "audioPath": "sentence-audio/ja/c/ja-f00214-2.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "私よりショック",
+   "answer": "受けてる",
+   "after": "",
+   "reading": "うけてる",
+   "translation": "나보다 더 충격받았네.",
+   "audioPath": "sentence-audio/ja/c/ja-f00214-3.m4a",
+   "form": "~ている"
+  }
+ ],
+ "ja-f00215": [
+  {
+   "before": "誰に",
+   "answer": "向かって",
+   "after": "言っている？",
+   "reading": "むかって",
+   "translation": "누구한테 하는 말이야?",
+   "audioPath": "sentence-audio/ja/c/ja-f00215-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "こっちに",
+   "answer": "向かってる",
+   "after": "？",
+   "reading": "むかってる",
+   "translation": "이쪽으로 오고 있어?",
+   "audioPath": "sentence-audio/ja/c/ja-f00215-2.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "もう港に",
+   "answer": "向かった",
+   "after": "か？",
+   "reading": "むかった",
+   "translation": "벌써 항구로 갔나?",
+   "audioPath": "sentence-audio/ja/c/ja-f00215-3.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-f00216": [
+  {
+   "before": "彼によろしく",
+   "answer": "伝えてくれ",
+   "after": "",
+   "reading": "つたえてくれ",
+   "translation": "그 사람한테 안부 전해 줘.",
+   "audioPath": null,
+   "form": "~てくれる"
+  },
+  {
+   "before": "うん 見かけたら",
+   "answer": "伝えとく",
+   "after": "わ",
+   "reading": "つたえとく",
+   "translation": "응, 보면 전해 둘게.",
+   "audioPath": "sentence-audio/ja/c/ja-f00216-2.m4a",
+   "form": "~ておく"
+  },
+  {
+   "before": "読まないから　いいって",
+   "answer": "伝えて",
+   "after": "",
+   "reading": "つたえて",
+   "translation": "안 읽으니까 됐다고 전해 줘.",
+   "audioPath": "sentence-audio/ja/c/ja-f00216-3.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "僕は君に",
+   "answer": "伝えたい",
+   "after": "ことがあるんだ",
+   "reading": "つたえたい",
+   "translation": "너한테 전하고 싶은 말이 있어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00216-4.m4a",
+   "form": "~たい"
+  }
+ ],
+ "ja-f00217": [
+  {
+   "before": "",
+   "answer": "要らないなら",
+   "after": "　捨ててちょうだい",
+   "reading": "いらないなら",
+   "translation": "필요 없으면 버려 줘.",
+   "audioPath": "sentence-audio/ja/c/ja-f00217-1.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "給料なんて",
+   "answer": "要りません",
+   "after": "",
+   "reading": "いりません",
+   "translation": "월급 같은 건 필요 없어요.",
+   "audioPath": null,
+   "form": "~ません"
+  }
+ ],
+ "ja-f00218": [
+  {
+   "before": "",
+   "answer": "救われた",
+   "after": "気がするんだ",
+   "reading": "すくわれた",
+   "translation": "구원받은 기분이야.",
+   "audioPath": "sentence-audio/ja/c/ja-f00218-1.m4a",
+   "form": "~れる/~られる"
+  },
+  {
+   "before": "命を",
+   "answer": "救って",
+   "after": "やったのに",
+   "reading": "すくって",
+   "translation": "목숨을 구해 줬는데.",
+   "audioPath": "sentence-audio/ja/c/ja-f00218-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "正義で世界は",
+   "answer": "救えない",
+   "after": "",
+   "reading": "すくえない",
+   "translation": "정의로는 세상을 구할 수 없어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00218-3.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "僕は大勢の人を",
+   "answer": "救った",
+   "after": "よ",
+   "reading": "すくった",
+   "translation": "난 많은 사람을 구했어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00218-4.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-f00221": [
+  {
+   "before": "こんなのを",
+   "answer": "望んだ",
+   "after": "んじゃない",
+   "reading": "のぞんだ",
+   "translation": "이런 걸 바란 게 아니야.",
+   "audioPath": "sentence-audio/ja/c/ja-f00221-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "それを",
+   "answer": "望んでいる",
+   "after": "と思うか？",
+   "reading": "のぞんでいる",
+   "translation": "그걸 바란다고 생각해?",
+   "audioPath": "sentence-audio/ja/c/ja-f00221-2.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "親父だって　それを",
+   "answer": "望んでた",
+   "after": "。",
+   "reading": "のぞんでた",
+   "translation": "아버지도 그걸 바랐어.",
+   "audioPath": null,
+   "form": "~ていた"
+  }
+ ],
+ "ja-f00223": [
+  {
+   "before": "お見送り　ありがとう",
+   "answer": "ございます",
+   "after": "",
+   "reading": "ございます",
+   "translation": "배웅해 주셔서 감사합니다.",
+   "audioPath": "sentence-audio/ja/c/ja-f00223-1.m4a",
+   "form": "~ます"
+  },
+  {
+   "before": "ありがとう",
+   "answer": "ございました",
+   "after": "",
+   "reading": "ございました",
+   "translation": "감사했습니다.",
+   "audioPath": "sentence-audio/ja/c/ja-f00223-2.m4a",
+   "form": "~ました"
+  }
+ ],
+ "ja-f00228": [
+  {
+   "before": "探していたのは ",
+   "answer": "見つかった",
+   "after": "のか？",
+   "reading": "みつかった",
+   "translation": "찾고 있던 건 찾았어?",
+   "audioPath": null,
+   "form": "~た"
+  },
+  {
+   "before": "全然　",
+   "answer": "見つかんない",
+   "after": "　どうしよう…",
+   "reading": "みつかんない",
+   "translation": "아무리 찾아도 안 나와. 어떡하지…",
+   "audioPath": "sentence-audio/ja/c/ja-f00228-2.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "先生に",
+   "answer": "見つかったら",
+   "after": "怒られそうで",
+   "reading": "みつかったら",
+   "translation": "선생님한테 들키면 혼날 것 같아서.",
+   "audioPath": "sentence-audio/ja/c/ja-f00228-3.m4a",
+   "form": "~たら"
+  },
+  {
+   "before": "早く行かないと",
+   "answer": "見つかっちゃう",
+   "after": "",
+   "reading": "みつかっちゃう",
+   "translation": "빨리 안 가면 들켜 버려.",
+   "audioPath": "sentence-audio/ja/c/ja-f00228-4.m4a",
+   "form": "~てしまう"
+  }
+ ],
+ "ja-f00230": [
+  {
+   "before": "だから",
+   "answer": "黙ってる",
+   "after": "のよ　あの人は",
+   "reading": "だまってる",
+   "translation": "그래서 잠자코 있는 거야, 그 사람은.",
+   "audioPath": "sentence-audio/ja/c/ja-f00230-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "",
+   "answer": "黙って",
+   "after": "帰っちゃってごめんね。",
+   "reading": "だまって",
+   "translation": "말없이 가 버려서 미안해.",
+   "audioPath": null,
+   "form": "~て"
+  },
+  {
+   "before": "なんで 俺には",
+   "answer": "黙ってた",
+   "after": "",
+   "reading": "だまってた",
+   "translation": "왜 나한테는 말 안 했어?",
+   "audioPath": "sentence-audio/ja/c/ja-f00230-3.m4a",
+   "form": "~ていた"
+  }
+ ],
+ "ja-f00235": [
+  {
+   "before": "話題を",
+   "answer": "変えて",
+   "after": "もいいか？",
+   "reading": "かえて",
+   "translation": "화제 좀 바꿔도 될까?",
+   "audioPath": null,
+   "form": "~て"
+  },
+  {
+   "before": "信じろ　未来は",
+   "answer": "変えられる",
+   "after": "",
+   "reading": "かえられる",
+   "translation": "믿어, 미래는 바꿀 수 있어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00235-2.m4a",
+   "form": "~れる/~られる"
+  },
+  {
+   "before": "髪形 ",
+   "answer": "変えた",
+   "after": "んだ",
+   "reading": "かえた",
+   "translation": "머리 스타일 바꿨구나.",
+   "audioPath": "sentence-audio/ja/c/ja-f00235-3.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-f00240": [
+  {
+   "before": "何か",
+   "answer": "隠してる",
+   "after": "よね",
+   "reading": "かくしてる",
+   "translation": "뭔가 숨기고 있지?",
+   "audioPath": "sentence-audio/ja/c/ja-f00240-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "",
+   "answer": "隠して",
+   "after": "も分かるわ",
+   "reading": "かくして",
+   "translation": "숨겨도 다 알아.",
+   "audioPath": "sentence-audio/ja/c/ja-f00240-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "引き出しの奥に手紙が",
+   "answer": "隠されていた",
+   "after": "。",
+   "reading": "かくされていた",
+   "translation": "서랍 안쪽에 편지가 숨겨져 있었어.",
+   "audioPath": null,
+   "form": "~れる/~られる"
+  },
+  {
+   "before": "うるさい！ どこに",
+   "answer": "隠した",
+   "after": "？",
+   "reading": "かくした",
+   "translation": "시끄러워! 어디에 숨겼어?",
+   "audioPath": "sentence-audio/ja/c/ja-f00240-4.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-f00242": [
+  {
+   "before": "これでやっと",
+   "answer": "落ち着いて",
+   "after": "話せるぜ",
+   "reading": "おちついて",
+   "translation": "이제야 차분하게 얘기할 수 있겠네.",
+   "audioPath": "sentence-audio/ja/c/ja-f00242-1.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "ちょっと　皆さん！ ",
+   "answer": "落ち着いてください",
+   "after": "！",
+   "reading": "おちついてください",
+   "translation": "잠깐만요, 여러분! 진정하세요!",
+   "audioPath": "sentence-audio/ja/c/ja-f00242-2.m4a",
+   "form": "~てくれる"
+  },
+  {
+   "before": "でも　おかげで少し",
+   "answer": "落ち着いた",
+   "after": "",
+   "reading": "おちついた",
+   "translation": "그래도 덕분에 좀 진정됐어.",
+   "audioPath": "sentence-audio/ja/c/ja-f00242-3.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "なんか",
+   "answer": "落ち着かない",
+   "after": "ね",
+   "reading": "おちつかない",
+   "translation": "왠지 안절부절못하겠네.",
+   "audioPath": "sentence-audio/ja/c/ja-f00242-4.m4a",
+   "form": "~ない"
+  }
+ ],
+ "ja-f00246": [
+  {
+   "before": "俺が",
+   "answer": "気づいた",
+   "after": "からよかったけどさあ",
+   "reading": "きづいた",
+   "translation": "내가 알아챘으니까 다행이었지만.",
+   "audioPath": "sentence-audio/ja/c/ja-f00246-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "何だ やっぱり",
+   "answer": "気づいてた",
+   "after": "んだ",
+   "reading": "きづいてた",
+   "translation": "뭐야, 역시 알고 있었구나.",
+   "audioPath": "sentence-audio/ja/c/ja-f00246-2.m4a",
+   "form": "~ていた"
+  },
+  {
+   "before": "あら電話が ",
+   "answer": "気付かなかった",
+   "after": "わ",
+   "reading": "きづかなかった",
+   "translation": "어머, 전화 온 줄 몰랐네.",
+   "audioPath": "sentence-audio/ja/c/ja-f00246-3.m4a",
+   "form": "~なかった"
+  },
+  {
+   "before": "どうして それに",
+   "answer": "気づかない",
+   "after": "の？",
+   "reading": "きづかない",
+   "translation": "왜 그걸 눈치채지 못하는 거야?",
+   "audioPath": "sentence-audio/ja/c/ja-f00246-4.m4a",
+   "form": "~ない"
+  }
+ ],
+ "ja-f00250": [
+  {
+   "before": "大事な物だから、誰にも",
+   "answer": "渡さない",
+   "after": "よ。",
+   "reading": "わたさない",
+   "translation": "소중한 거니까 아무한테도 안 줄 거야.",
+   "audioPath": null,
+   "form": "~ない"
+  },
+  {
+   "before": "かならず本人に",
+   "answer": "渡して",
+   "after": "ね",
+   "reading": "わたして",
+   "translation": "꼭 본인한테 전해 줘.",
+   "audioPath": "sentence-audio/ja/c/ja-f00250-2.m4a",
+   "form": "~て"
+  },
+  {
+   "before": "昨日",
+   "answer": "渡した",
+   "after": "これです",
+   "reading": "わたした",
+   "translation": "어제 드린 이거예요.",
+   "audioPath": "sentence-audio/ja/c/ja-f00250-3.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "",
+   "answer": "渡したい",
+   "after": "ものがある",
+   "reading": "わたしたい",
+   "translation": "주고 싶은 게 있어.",
+   "audioPath": null,
+   "form": "~たい"
+  }
+ ],
+ "ja-f00253": [
+  {
+   "before": "困ったね　まだ授業が",
+   "answer": "残ってる",
+   "after": "のに",
+   "reading": "のこってる",
+   "translation": "곤란하네, 아직 수업이 남아 있는데.",
+   "audioPath": "sentence-audio/ja/c/ja-f00253-1.m4a",
+   "form": "~ている"
+  },
+  {
+   "before": "悔いが",
+   "answer": "残らない",
+   "after": "ように",
+   "reading": "のこらない",
+   "translation": "후회가 남지 않도록.",
+   "audioPath": "sentence-audio/ja/c/ja-f00253-2.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "最後に",
+   "answer": "残った",
+   "after": "人の勝ち",
+   "reading": "のこった",
+   "translation": "마지막까지 남은 사람이 이기는 거야.",
+   "audioPath": "sentence-audio/ja/c/ja-f00253-3.m4a",
+   "form": "~た"
+  }
+ ],
+ "ja-f00256": [
+  {
+   "before": "お前が",
+   "answer": "盗んだ",
+   "after": "んだろ",
+   "reading": "ぬすんだ",
+   "translation": "네가 훔쳤지?",
+   "audioPath": "sentence-audio/ja/c/ja-f00256-1.m4a",
+   "form": "~た"
+  },
+  {
+   "before": "また",
+   "answer": "盗まれた",
+   "after": "のか",
+   "reading": "ぬすまれた",
+   "translation": "또 도둑맞았어?",
+   "audioPath": "sentence-audio/ja/c/ja-f00256-2.m4a",
+   "form": "~れる/~られる"
+  },
+  {
+   "before": "人の物は絶対",
+   "answer": "盗まない",
+   "after": "よ。",
+   "reading": "ぬすまない",
+   "translation": "남의 물건은 절대 안 훔쳐.",
+   "audioPath": null,
+   "form": "~ない"
+  },
+  {
+   "before": "誰かが私の自転車を",
+   "answer": "盗んで",
+   "after": "いった。",
+   "reading": "ぬすんで",
+   "translation": "누가 내 자전거를 훔쳐 갔어.",
+   "audioPath": null,
+   "form": "~て"
+  }
+ ],
+ "ja-f00259": [
+  {
+   "before": "やっと本当のことが",
+   "answer": "言えた",
+   "after": "。",
+   "reading": "いえた",
+   "translation": "드디어 사실대로 말할 수 있었어.",
+   "audioPath": null,
+   "form": "~た"
+  },
+  {
+   "before": "たしかに、それは",
+   "answer": "言えてる",
+   "after": "ね。",
+   "reading": "いえてる",
+   "translation": "확실히 그건 맞는 말이네.",
+   "audioPath": null,
+   "form": "~ている"
+  }
+ ],
+ "ja-f00261": [
+  {
+   "before": "久しぶりに友だちに",
+   "answer": "会えた",
+   "after": "。",
+   "reading": "あえた",
+   "translation": "오랜만에 친구를 만날 수 있었어.",
+   "audioPath": null,
+   "form": "~た"
+  },
+  {
+   "before": "だから　お前とは　もう",
+   "answer": "会えない",
+   "after": "",
+   "reading": "あえない",
+   "translation": "그러니까 너랑은 이제 못 만나.",
+   "audioPath": "sentence-audio/ja/c/ja-f00261-2.m4a",
+   "form": "~ない"
+  },
+  {
+   "before": "",
+   "answer": "会えて",
+   "after": "嬉しいよ",
+   "reading": "あえて",
+   "translation": "만나서 반가워.",
+   "audioPath": null,
+   "form": "~て"
+  }
+ ]
+}

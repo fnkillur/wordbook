@@ -6,7 +6,7 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { useState, type ChangeEvent } from 'react'
 import { Link } from 'react-router'
 import { exportArchive, importArchive } from '../backup/archive'
-import { dateKey } from '../db/repository'
+import { audioReports, clearAudioReports, dateKey } from '../db/repository'
 import { DEVICE_PERSON, IS_WEB_BUILD, type Language, type Person } from '../platform'
 import { getSettings, learningLanguageOf, saveSettings, type Settings } from '../settings'
 import { backfillAudio } from '../sync/audio'
@@ -80,6 +80,7 @@ const backupHintOf = (connected: boolean, work: DriveWork | null, lastAt: string
 
 function SettingsPage() {
   const driveState = useLiveQuery(driveBackupState)
+  const reports = useLiveQuery(audioReports) ?? []
   const [settings, setSettings] = useState<Settings>(getSettings)
   const [connectCode, setConnectCode] = useState('')
   const [message, setMessage] = useState<string | null>(null)
@@ -89,6 +90,11 @@ function SettingsPage() {
   const person = settings.person ?? DEVICE_PERSON
 
   const update = (patch: Partial<Settings>) => setSettings(saveSettings(patch))
+
+  const copyReports = async () => {
+    await navigator.clipboard.writeText(reports.map(report => `${report.wordId}\t${report.audioPath}\t${report.text}`).join('\n'))
+    setMessage('음성 제보를 복사했어.')
+  }
 
   const handleConnect = () => {
     const server = decodeConnectCode(connectCode)
@@ -279,6 +285,24 @@ function SettingsPage() {
             <span className="form-row-label">백업 파일 가져오기</span>
             <input type="file" accept=".zip,application/zip" hidden onChange={handleImport} />
           </label>
+        </section>
+
+        <h2 className="form-group-title">음성 제보</h2>
+        <section className="form-group">
+          <div className="form-row">
+            <span className="form-row-text">
+              음성 제보 {reports.length}개
+              <small>끝이 잘렸거나 이상한 녹음. 복사해서 전해 주면 앱에서 빼 줄게</small>
+            </span>
+            <div className="report-actions">
+              <button type="button" className="button" disabled={reports.length === 0} onClick={copyReports}>
+                복사
+              </button>
+              <button type="button" className="button" disabled={reports.length === 0} onClick={() => clearAudioReports()}>
+                비우기
+              </button>
+            </div>
+          </div>
         </section>
       </main>
     </div>

@@ -3,7 +3,9 @@ import { act } from 'react'
 import { createRoot, type Root } from 'react-dom/client'
 import { MemoryRouter } from 'react-router'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+import { sentencesOf } from '../data/sentences'
 import { db } from '../db/database'
+import { audioReports, reportSentenceAudio } from '../db/repository'
 import { getSettings, saveSettings } from '../settings'
 import { backupToDrive, restoreFromDrive } from '../sync/driveBackup'
 import SettingsPage from './SettingsPage'
@@ -80,12 +82,30 @@ describe('배우는 언어', () => {
 })
 
 describe('화면 구성', () => {
-  it('설정을 공부·서버·백업으로 묶어 제목을 단다', () => {
-    expect([...container.querySelectorAll('.form-group-title')].map(title => title.textContent)).toEqual(['공부', '서버', '백업'])
+  it('설정을 공부·서버·백업·음성 제보로 묶어 제목을 단다', () => {
+    expect([...container.querySelectorAll('.form-group-title')].map(title => title.textContent)).toEqual(['공부', '서버', '백업', '음성 제보'])
   })
 
   it('서버를 아직 연결하지 않았으면 연결 안 됨으로 보여 준다', () => {
     expect(container.querySelector('.status-badge')?.textContent).toBe('연결 안 됨')
+  })
+})
+
+describe('음성 제보', () => {
+  it('모은 제보 수를 보여 주고, 복사하면 한 줄에 하나씩 클립보드에 넣는다', async () => {
+    const writeText = vi.fn(async () => {})
+    vi.stubGlobal('navigator', { ...navigator, clipboard: { writeText } })
+    await reportSentenceAudio('ja-f00001', sentencesOf('ja-f00001')[0], new Date('2026-11-13T10:00:00+09:00'))
+    await rerender()
+    await wait()
+
+    expect(container.textContent).toContain('음성 제보 1개')
+    await act(async () => button('복사')!.click())
+    expect(writeText).toHaveBeenCalledWith(`ja-f00001\t${sentencesOf('ja-f00001')[0].audioPath}\t彼はテニスをします。`)
+
+    await act(async () => button('비우기')!.click())
+    await wait()
+    expect(await audioReports()).toEqual([])
   })
 })
 

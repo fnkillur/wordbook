@@ -1252,6 +1252,49 @@ a {
 
 /* 빈칸 문장 카드. 빈칸은 답 길이와 상관없이 같은 폭이라 길이로 답을 짐작하지 못한다. */
 /* 읽기가 들어갈 자리를 문장 아래에 늘 비워 두어 답을 봐도 문장·그림 크기가 그대로다. */
+.cloze-form {
+  flex: none;
+  padding: 4px 14px;
+  border-radius: 999px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.cloze-hint {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 14px;
+  border: 1px dashed var(--color-border);
+  border-radius: 999px;
+  color: var(--color-text-sub);
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.report-actions {
+  display: flex;
+  flex: none;
+  gap: var(--space-2);
+}
+
+.audio-report,
+.audio-reported {
+  flex: none;
+  color: var(--color-text-sub);
+  font-size: var(--text-caption);
+}
+
+.audio-report {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
 .cloze-sentence {
   flex: none;
   padding-bottom: 1.1em;

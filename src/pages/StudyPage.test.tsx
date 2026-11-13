@@ -4,7 +4,8 @@ import { createRoot, type Root } from 'react-dom/client'
 import { createMemoryRouter, RouterProvider } from 'react-router'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { db } from '../db/database'
-import { dateKey, earnedTotal, makeWord, setSentenceAudio } from '../db/repository'
+import { sentencesOf } from '../data/sentences'
+import { audioReports, dateKey, earnedTotal, makeWord, setSentenceAudio } from '../db/repository'
 import { newStudyCard } from '../domain/schedule'
 import { saveSettings } from '../settings'
 import { waitUntil } from '../testing/waitUntil'
@@ -371,6 +372,85 @@ describe('StudyPage', () => {
       expect(container.querySelector('.study-scene')?.classList).toContain('is-compact')
       expect(container.querySelector('.study-scene')?.classList).not.toContain('is-avatar-right')
       expect(container.querySelector('.study-scene img')?.getAttribute('src')).toContain('chiikawa-study')
+    })
+
+    it('복습한 횟수만큼 다음 활용형 문장을 보여 주고, 사전형과 꼴 힌트는 눌러야 보인다', async () => {
+      await clozeCard('ja-0481')
+      const card = (await db.cards.get('ja-0481:cloze'))!
+      await db.cards.put({ ...card, fsrs: { ...card.fsrs, reps: 1 } })
+      const sentences = sentencesOf('ja-0481')
+      const expected = sentences[1 % sentences.length]
+      await open()
+
+      // 힌트(사전형과 꼴)는 처음엔 가려 두고, 막힐 때 눌러서 본다. 눌러도 카드는 뒤집히지 않는다.
+      expect(container.querySelector('.cloze-form')).toBeNull()
+      expect(container.querySelector('.cloze-sentence')?.textContent).not.toContain(expected.answer)
+      await act(async () => (container.querySelector('.cloze-hint') as HTMLElement).click())
+      expect(container.querySelector('.cloze-form')?.textContent).toBe(`行く → ${expected.form}`)
+      expect(button('답 보기')).toBeDefined()
+    })
+
+    it('답을 보면 활용형 힌트도 함께 보여 준다', async () => {
+      await clozeCard('ja-0481')
+      await open()
+      await flip()
+
+      expect(container.querySelector('.cloze-form')?.textContent).toBe(`行く → ${sentencesOf('ja-0481')[0].form}`)
+      expect(container.querySelector('.cloze-answer')?.textContent).toBe(sentencesOf('ja-0481')[0].answer)
+    })
+
+    it('활용형 문장의 원어민 녹음은 앱에 든 파일에서 받아 답을 볼 때 재생한다', async () => {
+      const [wordId, index] = (() => {
+        for (const id of ['ja-0481', 'ja-0504', 'ja-0486', 'ja-0485']) {
+          const found = sentencesOf(id).findIndex((sentence, position) => position > 0 && sentence.audioPath)
+          if (found > 0) return [id, found] as const
+        }
+        throw new Error('녹음 있는 활용형 문장이 없어요')
+      })()
+      vi.stubGlobal('fetch', vi.fn(async () => new Response(new Uint8Array([1, 2, 3]), { status: 200, headers: { 'Content-Type': 'audio/mp4' } })))
+      await clozeCard(wordId)
+      const card = (await db.cards.get(`${wordId}:cloze`))!
+      await db.cards.put({ ...card, fsrs: { ...card.fsrs, reps: index } })
+      await open()
+      await flip()
+
+      expect(fetch).toHaveBeenCalledWith(`${import.meta.env.BASE_URL}${sentencesOf(wordId)[index].audioPath}`)
+      expect(played).toHaveLength(1)
+    })
+
+    it('첫 문장의 음성이 아직 없으면 카드를 열 때 앱에 든 녹음을 받아 둔다', async () => {
+      const wordId = ['ja-0481', 'ja-0504', 'ja-0486', 'ja-0485'].find(id => sentencesOf(id)[0]?.audioPath)!
+      vi.stubGlobal('fetch', vi.fn(async () => new Response(new Uint8Array([1, 2, 3]), { status: 200, headers: { 'Content-Type': 'audio/mp4' } })))
+      await clozeCard(wordId)
+      await open()
+      await flip()
+
+      expect(fetch).toHaveBeenCalledWith(`${import.meta.env.BASE_URL}${sentencesOf(wordId)[0].audioPath}`)
+      expect(played).toHaveLength(1)
+    })
+
+    it('예전 문장으로 받아 둔 음성이 남아 있어도, 문장이 바뀌었으면 지금 문장의 녹음을 다시 받는다', async () => {
+      vi.stubGlobal('fetch', vi.fn(async () => new Response(new Uint8Array([1, 2, 3]), { status: 200, headers: { 'Content-Type': 'audio/mp4' } })))
+      await clozeCard('ja-0504')
+      const card = (await db.cards.get('ja-0504:cloze'))!
+      await db.cards.put({ ...card, fsrs: { ...card.fsrs, reps: 1 } })
+      await db.media.put({ key: 'ja-0504:sentence-1', data: new ArrayBuffer(1), type: 'audio/mp4' })
+      await open()
+
+      expect(fetch).toHaveBeenCalledWith(`${import.meta.env.BASE_URL}${sentencesOf('ja-0504')[1].audioPath}`)
+    })
+
+    it('답을 본 뒤 원어민 녹음이 이상하면 제보할 수 있고, 제보하면 알려 준다', async () => {
+      await clozeCard('ja-f00001')
+      await setSentenceAudio('ja-f00001', new Blob(['m4a'], { type: 'audio/mp4' }))
+      await open()
+      expect(container.querySelector('.audio-report')).toBeNull()
+      await flip()
+
+      await act(async () => (container.querySelector('.audio-report') as HTMLElement).click())
+      await waitUntil(() => (container.textContent ?? '').includes('제보했어'))
+      expect((await audioReports()).map(report => report.wordId)).toEqual(['ja-f00001'])
+      expect(button('답 보기')).toBeUndefined()
     })
 
     it('번역 보기를 누르면 번역만 보이고 카드는 뒤집히지 않는다', async () => {

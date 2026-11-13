@@ -155,13 +155,16 @@ def main():
     parser.add_argument('--out', default='public/sentence-audio')
     args = parser.parse_args()
 
+    # 끝이 잘려서 지운 녹음(drop_clipped_audio.py)은 다시 받지 않는다.
+    clipped_path = os.path.join(args.data, 'clipped-audio.txt')
+    clipped = {line.strip() for line in open(clipped_path, encoding='utf-8') if line.strip() and not line.startswith('#')} if os.path.exists(clipped_path) else set()
     readers = {'K': kaishi_reader(args.kaishi), 'I': immersionkit_reader(args.immersionkit_js, args.immersionkit_cache), 'T': tatoeba_reader(args.tatoeba_audio)}
     for language in ('ja', 'en'):
         os.makedirs(os.path.join(args.out, language), exist_ok=True)
         saved, failed = 0, []
         for rank, sentence, source in sentence_rows(os.path.join(args.data, f'sentences-{language}.txt')):
             kind = source[:1]
-            if kind not in readers or source in ('self',):
+            if kind not in readers or source in ('self',) or f'{language}/{rank}' in clipped:
                 continue
             target = os.path.join(args.out, language, f'{rank}.m4a')
             if os.path.exists(target):
@@ -173,6 +176,30 @@ def main():
             else:
                 failed.append(rank)
         print(f'{language}: {saved}개 저장, 실패 {len(failed)}개 {failed}')
+
+    # 동사 활용형 문장(conjugations-ja.txt)은 단어 id와 그 단어의 몇 번째 줄인지로 이름을 붙인다(build-words.mjs와 같은 규칙).
+    conjugations = os.path.join(args.data, 'conjugations-ja.txt')
+    os.makedirs(os.path.join(args.out, 'ja', 'c'), exist_ok=True)
+    saved, failed, order = 0, [], {}
+    for line in open(conjugations, encoding='utf-8'):
+        cells = line.rstrip('\n').split('|')
+        if line.startswith('#') or len(cells) < 5:
+            continue
+        word_id, sentence, source = cells[0], cells[2].replace('[', '').replace(']', ''), cells[4]
+        order[word_id] = order.get(word_id, 0) + 1
+        kind = source[:1]
+        if kind not in readers or source == 'self' or f'ja/c/{word_id}-{order[word_id]}' in clipped:
+            continue
+        target = os.path.join(args.out, 'ja', 'c', f'{word_id}-{order[word_id]}.m4a')
+        if os.path.exists(target):
+            saved += 1
+            continue
+        data = readers[kind](sentence if kind == 'K' else source[1:])
+        if data and encode(data, target):
+            saved += 1
+        else:
+            failed.append(f'{word_id}-{order[word_id]}')
+    print(f'ja 활용: {saved}개 저장, 실패 {len(failed)}개 {failed}')
 
 
 main()

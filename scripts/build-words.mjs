@@ -89,6 +89,33 @@ const sentencesOf = (language, entries) => {
   return sentences
 }
 
+// 동사 활용형 빈칸 문장(conjugations-ja.txt): 단어 id|꼴|[빈칸]을 감싼 문장|번역|출처|빈칸 읽기. 한 동사에 여러 줄이고,
+// 복습할 때마다 그 단어의 기본 문장과 돌아가며 나온다. 녹음은 public/sentence-audio/ja/c/<단어 id>-<그 단어의 몇 번째 줄>.m4a.
+const conjugationsOf = entries => {
+  const wordIds = new Set(entries.map(entry => entry.id))
+  const conjugations = {}
+  for (const line of readFileSync(new URL('./data/conjugations-ja.txt', import.meta.url), 'utf8').split('\n')) {
+    if (line.trim() === '' || line.startsWith('#')) continue
+    const [id, form, marked, translation, source, reading] = line.split('|')
+    const parts = marked?.match(/^([^[\]]*)\[([^[\]]+)\]([^[\]]*)$/)
+    if (!wordIds.has(id)) throw new Error(`conjugations-ja.txt: ${id}는 단어 목록에 없어요`)
+    if (!form) throw new Error(`conjugations-ja.txt: ${id}의 꼴이 비었어요`)
+    if (!parts) throw new Error(`conjugations-ja.txt: ${id}(${form})의 빈칸 [ ]은 한 쌍이어야 해요`)
+    if (!translation) throw new Error(`conjugations-ja.txt: ${id}(${form})의 번역이 비었어요`)
+    if (!KANA.test(reading ?? '')) throw new Error(`conjugations-ja.txt: ${id}(${form})의 빈칸 읽기가 가나가 아니에요`)
+    conjugations[id] ??= []
+    const audioPath = `sentence-audio/ja/c/${id}-${conjugations[id].length + 1}.m4a`
+    const hasAudio = NATIVE_SOURCES.test(source) && existsSync(new URL(`../public/${audioPath}`, import.meta.url))
+    conjugations[id].push({ before: parts[1], answer: parts[2], after: parts[3], reading, translation, audioPath: hasAudio ? audioPath : null, form })
+  }
+  return conjugations
+}
+
+const conjugations = conjugationsOf(jaAll)
+writeFileSync(new URL('../src/data/conjugations-ja.json', import.meta.url), `${JSON.stringify(conjugations, null, 1)}\n`)
+const conjugationValues = Object.values(conjugations).flat()
+console.log(`ja 활용 문장 ${conjugationValues.length}개(동사 ${Object.keys(conjugations).length}개, 녹음 ${conjugationValues.filter(sentence => sentence.audioPath).length})`)
+
 for (const [language, entries] of [['ja', jaAll], ['en', enAll]]) {
   const sentences = sentencesOf(language, entries)
   writeFileSync(new URL(`../src/data/sentences-${language}.json`, import.meta.url), `${JSON.stringify(sentences, null, 1)}\n`)

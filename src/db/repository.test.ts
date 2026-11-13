@@ -1,8 +1,9 @@
 import 'fake-indexeddb/auto'
 import { beforeEach, describe, expect, it } from 'vitest'
+import { sentenceAudioKind, sentencesOf } from '../data/sentences'
 import { WORDS } from '../data/words'
 import { db, mediaKey } from './database'
-import { claimGoalBonus, earnedTotal, dayPlan, fillMissingAudio, getMedia, setSentenceAudio, wordsMissingSentenceAudio, knownCards, madeCountOn, makeWord, markWord, markWords, recordReview, saveVocabTest, setAudio, setStartRank, silentWordIds, startRankOf, todaysWords, vocabTests, ownedItemIds, examProgress, examResults, learnedWords, postponeToTomorrow, saveExamResult } from './repository'
+import { audioReports, clearAudioReports, reportSentenceAudio, claimGoalBonus, earnedTotal, dayPlan, fillMissingAudio, getMedia, setSentenceAudio, wordsMissingSentenceAudio, knownCards, madeCountOn, makeWord, markWord, markWords, recordReview, saveVocabTest, setAudio, setStartRank, silentWordIds, startRankOf, todaysWords, vocabTests, ownedItemIds, examProgress, examResults, learnedWords, postponeToTomorrow, saveExamResult } from './repository'
 
 const NOW = new Date('2026-11-05T09:00:00+09:00')
 const image = () => new Blob(['img'], { type: 'image/jpeg' })
@@ -235,6 +236,13 @@ describe('빈칸 카드 만들기', () => {
     expect(await db.cards.where('wordId').equals('ja-f00001').count()).toBe(3)
   })
 
+  it('활용형 문장만 있는 기초 동사도 처음 알았어로 답하면 빈칸 카드를 만든다', async () => {
+    await make('ja-0481')
+
+    expect(await recordReview('ja-0481:produce', 'good', NOW)).toBe('ja-0481')
+    expect(await clozeCards('ja-0481')).toHaveLength(1)
+  })
+
   it('기초 단어와 학습 목록에서 뺀 단어는 만들지 않는다', async () => {
     await make('ja-0001')
     await db.cards.put({ ...(await db.cards.get('ja-0001:produce'))!, id: 'en-f00104:produce', wordId: 'en-f00104' })
@@ -251,7 +259,28 @@ describe('빈칸 카드 만들기', () => {
     expect(await wordsMissingSentenceAudio()).toEqual(['ja-f00001'])
     await setSentenceAudio('ja-f00001', new Blob(['m4a'], { type: 'audio/mp4' }))
     expect(await wordsMissingSentenceAudio()).toEqual([])
-    expect((await getMedia('ja-f00001', 'sentence'))?.type).toBe('audio/mp4')
+    expect((await getMedia('ja-f00001', sentenceAudioKind(sentencesOf('ja-f00001')[0])))?.type).toBe('audio/mp4')
+  })
+
+  it('활용형 문장만 있는 동사는 첫 활용형 문장의 음성을 받았는지로 따진다', async () => {
+    await make('ja-0481')
+    await recordReview('ja-0481:produce', 'good', NOW)
+
+    expect(await wordsMissingSentenceAudio()).toEqual(['ja-0481'])
+    await setSentenceAudio('ja-0481', new Blob(['m4a'], { type: 'audio/mp4' }))
+    expect(await wordsMissingSentenceAudio()).toEqual([])
+  })
+})
+
+describe('음성 제보', () => {
+  it('원어민 녹음이 이상하다고 제보하면 한 번만 모아 두고, 비우면 없어진다', async () => {
+    const sentence = sentencesOf('ja-f00001')[0]
+    await reportSentenceAudio('ja-f00001', sentence, NOW)
+    await reportSentenceAudio('ja-f00001', sentence, NOW)
+
+    expect(await audioReports()).toEqual([{ wordId: 'ja-f00001', audioPath: sentence.audioPath, text: '彼はテニスをします。', reportedAt: NOW.toISOString() }])
+    await clearAudioReports()
+    expect(await audioReports()).toEqual([])
   })
 })
 

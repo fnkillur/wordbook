@@ -1,5 +1,5 @@
-import { findSentence, sentenceTextOf } from '../data/sentences'
-import { setSentenceAudio, wordsMissingSentenceAudio } from '../db/repository'
+import { sentencesOf, sentenceTextOf } from '../data/sentences'
+import { reportedAudioPaths, setSentenceAudio, withoutReportedAudio, wordsMissingSentenceAudio } from '../db/repository'
 import { getSettings } from '../settings'
 import { fetchTts } from './tts'
 
@@ -23,14 +23,16 @@ const ttsAudio = async (text: string, wordId: string) => {
   }
 }
 
-export const prepareSentenceAudio = async (wordId: string, { allowTts = true } = {}) => {
-  const sentence = findSentence(wordId)
-  if (!sentence) return false
+// index: 그 단어의 몇 번째 문장인지(동사 활용형 문장은 1부터).
+export const prepareSentenceAudio = async (wordId: string, { allowTts = true, index = 0 } = {}) => {
+  const found = sentencesOf(wordId)[index]
+  if (!found) return false
+  const sentence = withoutReportedAudio(found, await reportedAudioPaths().catch(() => new Set<string>()))
   const audio = (sentence.audioPath && (await nativeAudio(sentence.audioPath))) || (allowTts && (await ttsAudio(sentenceTextOf(sentence), wordId)))
   if (!audio) return false
   // 기다리지 않고 부르는 곳이 많아, 저장소 오류도 실패로 돌려준다. 다음 다시 받기에서 또 해 본다.
   try {
-    await setSentenceAudio(wordId, audio)
+    await setSentenceAudio(wordId, audio, sentence)
     return true
   } catch {
     return false
@@ -44,7 +46,7 @@ export const backfillSentenceAudio = async () => {
   let canUseTts = true
   const missing = await wordsMissingSentenceAudio().catch(() => [])
   for (const wordId of missing) {
-    const sentence = findSentence(wordId)
+    const [sentence] = sentencesOf(wordId)
     if (!sentence || (!sentence.audioPath && !canUseTts)) continue
     if (await prepareSentenceAudio(wordId, { allowTts: canUseTts })) {
       filled += 1

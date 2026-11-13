@@ -1,4 +1,4 @@
-import { findSentence } from '../data/sentences'
+import { sentenceAudioKind, sentencesOf, sentenceTextOf, type Sentence } from '../data/sentences'
 import { findWord, WORDS, type WordEntry } from '../data/words'
 import { gradeCard, newStudyCard, newWordBudget, startOfNextDay, type CardType, type Grade, type StudyCard } from '../domain/schedule'
 import { currentGrade, examStatus, learnedWordIds, totalVocab, type ExamResult } from '../domain/exam'
@@ -44,7 +44,7 @@ export const markWords = (wordIds: string[], status: 'known' | 'skipped') => {
 
 // 플루언트 포에버의 "카드 한 장에 새것 하나": 빈칸 문장 카드는 단어를 처음 알았어로 떠올린 다음 날부터 낸다.
 const shouldAddCloze = async (card: StudyCard, grade: Grade) => {
-  if (grade !== 'good' || card.type === 'cloze' || !findSentence(card.wordId)) return false
+  if (grade !== 'good' || card.type === 'cloze' || sentencesOf(card.wordId).length === 0) return false
   return !(await db.cards.get(`${card.wordId}:cloze`))
 }
 
@@ -70,12 +70,43 @@ export const setAudio = async (wordId: string, audio: Blob, source: AudioSource)
   })
 }
 
-export const setSentenceAudio = async (wordId: string, audio: Blob) => db.media.put({ key: mediaKey(wordId, 'sentence'), ...(await toStoredMedia(audio)) })
+// sentence를 주지 않으면 그 단어의 첫 문장 음성으로 저장한다.
+export const setSentenceAudio = async (wordId: string, audio: Blob, sentence: Sentence | undefined = sentencesOf(wordId)[0]) =>
+  db.media.put({ key: mediaKey(wordId, sentence ? sentenceAudioKind(sentence) : 'sentence'), ...(await toStoredMedia(audio)) })
+
+// 원어민 녹음이 잘렸거나 이상하다고 제보한 것. 그 녹음은 앱에서 TTS로 바꿔 읽고, 모은 목록을 복사해 녹음 목록에서 뺀다.
+export type AudioReport = { wordId: string; audioPath: string; text: string; reportedAt: string }
+
+const AUDIO_REPORTS_KEY = 'audioReports'
+
+export const audioReports = async () => ((await db.settings.get(AUDIO_REPORTS_KEY))?.value as AudioReport[] | undefined) ?? []
+
+export const reportSentenceAudio = async (wordId: string, sentence: Sentence, now: Date) => {
+  const { audioPath } = sentence
+  if (!audioPath) return
+  const reports = await audioReports()
+  if (reports.some(report => report.audioPath === audioPath)) return
+  await db.settings.put({ key: AUDIO_REPORTS_KEY, value: [...reports, { wordId, audioPath, text: sentenceTextOf(sentence), reportedAt: now.toISOString() }] })
+}
+
+export const clearAudioReports = () => db.settings.delete(AUDIO_REPORTS_KEY)
+
+// 제보한 녹음은 없는 것으로 보고 TTS로 읽는다. 저장 이름도 TTS 쪽으로 바뀌어 다시 받는다.
+export const withoutReportedAudio = (sentence: Sentence, reportedPaths: Set<string>) =>
+  sentence.audioPath && reportedPaths.has(sentence.audioPath) ? { ...sentence, audioPath: null } : sentence
+
+export const reportedAudioPaths = async () => new Set((await audioReports()).map(report => report.audioPath))
+
+// 단어의 첫 문장 음성을 받았는지 본다. 활용형 문장만 있는 동사는 첫 활용형 문장의 이름으로 저장된다.
+const firstSentenceKey = (wordId: string) => {
+  const [first] = sentencesOf(wordId)
+  return mediaKey(wordId, first ? sentenceAudioKind(first) : 'sentence')
+}
 
 export const wordsMissingSentenceAudio = async () => {
   const wordIds = (await db.cards.filter(card => card.type === 'cloze').toArray()).map(card => card.wordId)
-  const stored = new Set(await db.media.where('key').anyOf(wordIds.map(wordId => mediaKey(wordId, 'sentence'))).primaryKeys())
-  return wordIds.filter(wordId => !stored.has(mediaKey(wordId, 'sentence')))
+  const stored = new Set(await db.media.where('key').anyOf(wordIds.map(firstSentenceKey)).primaryKeys())
+  return wordIds.filter(wordId => !stored.has(firstSentenceKey(wordId)))
 }
 
 export const getMedia = async (wordId: string, kind: MediaKind) => {

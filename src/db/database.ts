@@ -6,8 +6,8 @@ export type AudioSource = 'tts' | 'forvo' | 'mine'
 
 // 그림·발음은 노트와 따로, 바이트와 형식으로 저장한다(Blob을 그대로 넣으면 환경에 따라 형식이 사라진다).
 export type StoredMedia = { data: ArrayBuffer; type: string }
-// sentence: 빈칸 문장 카드의 문장 음성(단어 발음 audio와 따로 둔다).
-export type MediaKind = 'image' | 'audio' | 'sentence'
+// sentence: 빈칸 문장 카드의 문장 음성(단어 발음 audio와 따로 둔다). 동사 활용형 문장은 문장마다 따로 둔다(sentence-<문장 글자로 지은 이름>).
+export type MediaKind = 'image' | 'audio' | 'sentence' | `sentence-${string}`
 export type MediaRecord = StoredMedia & { key: string }
 
 export const mediaKey = (wordId: string, kind: MediaKind) => `${wordId}:${kind}`

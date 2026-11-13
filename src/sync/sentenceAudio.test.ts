@@ -1,7 +1,8 @@
 import 'fake-indexeddb/auto'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+import { sentenceAudioKind, sentencesOf } from '../data/sentences'
 import { db } from '../db/database'
-import { getMedia, makeWord, recordReview } from '../db/repository'
+import { getMedia, makeWord, recordReview, reportSentenceAudio } from '../db/repository'
 import { saveSettings } from '../settings'
 import { backfillSentenceAudio, prepareSentenceAudio } from './sentenceAudio'
 import { fetchTts } from './tts'
@@ -9,6 +10,7 @@ import { fetchTts } from './tts'
 vi.mock('./tts', () => ({ fetchTts: vi.fn() }))
 
 const NOW = new Date('2026-11-05T09:00:00+09:00')
+const firstKind = (wordId: string) => sentenceAudioKind(sentencesOf(wordId)[0])
 const SERVER = { endpoint: 'https://example.test/exec', token: 'test-token' }
 // 테스트 환경의 Blob(jsdom)은 Node Response 본문이 되지 못해서 바이트와 형식 헤더로 응답을 만든다.
 const audioResponse = () => new Response(new Uint8Array([1, 2, 3]), { status: 200, headers: { 'Content-Type': 'audio/mp4' } })
@@ -51,7 +53,15 @@ describe('prepareSentenceAudio', () => {
 
     expect(await prepareSentenceAudio('ja-f00001')).toBe(true)
     expect(fetchMock).toHaveBeenCalledWith(`${import.meta.env.BASE_URL}sentence-audio/ja/1.m4a`)
-    expect((await getMedia('ja-f00001', 'sentence'))?.type).toBe('audio/mp4')
+    expect((await getMedia('ja-f00001', firstKind('ja-f00001')))?.type).toBe('audio/mp4')
+  })
+
+  it('활용형 문장은 몇 번째 문장인지에 따라 따로 저장한다', async () => {
+    vi.stubGlobal('fetch', vi.fn(async () => audioResponse()))
+
+    expect(await prepareSentenceAudio('ja-0481', { index: 1 })).toBe(true)
+    expect(await getMedia('ja-0481', sentenceAudioKind(sentencesOf('ja-0481')[1]))).not.toBeNull()
+    expect(await getMedia('ja-0481', firstKind('ja-0481'))).toBeNull()
   })
 
   it('녹음이 없는 문장은 서버 TTS로 문장 전체를 읽어 저장한다', async () => {
@@ -60,14 +70,26 @@ describe('prepareSentenceAudio', () => {
 
     expect(await prepareSentenceAudio('en-f00001')).toBe(true)
     expect(fetchTts).toHaveBeenCalledWith(SERVER, 'What can I get for you today?', 'en')
-    expect((await getMedia('en-f00001', 'sentence'))?.type).toBe('audio/mpeg')
+    expect((await getMedia('en-f00001', firstKind('en-f00001')))?.type).toBe('audio/mpeg')
+  })
+
+  it('이상하다고 제보한 원어민 녹음은 쓰지 않고 서버 TTS로 읽는다', async () => {
+    saveSettings({ server: SERVER })
+    const fetchMock = vi.fn(async () => audioResponse())
+    vi.stubGlobal('fetch', fetchMock)
+    vi.mocked(fetchTts).mockResolvedValue(new Blob(['mp3'], { type: 'audio/mpeg' }))
+    await reportSentenceAudio('ja-f00001', sentencesOf('ja-f00001')[0], NOW)
+
+    expect(await prepareSentenceAudio('ja-f00001')).toBe(true)
+    expect(fetchMock).not.toHaveBeenCalled()
+    expect(fetchTts).toHaveBeenCalledWith(SERVER, '彼はテニスをします。', 'ja')
   })
 
   it('녹음을 받지 못하고 서버도 없으면 저장하지 않는다', async () => {
     vi.stubGlobal('fetch', vi.fn(async () => new Response('', { status: 404 })))
 
     expect(await prepareSentenceAudio('ja-f00001')).toBe(false)
-    expect(await getMedia('ja-f00001', 'sentence')).toBeNull()
+    expect(await getMedia('ja-f00001', firstKind('ja-f00001'))).toBeNull()
   })
 })
 
@@ -88,7 +110,7 @@ describe('backfillSentenceAudio', () => {
     vi.stubGlobal('fetch', vi.fn(async () => audioResponse()))
 
     expect(await backfillSentenceAudio()).toBe(1)
-    expect(await getMedia('ja-f00001', 'sentence')).not.toBeNull()
+    expect(await getMedia('ja-f00001', firstKind('ja-f00001'))).not.toBeNull()
   })
 
   it('서버 TTS가 한 번 실패하면 남은 TTS 문장은 다음 기회로 미룬다', async () => {

@@ -1,4 +1,4 @@
-import { EyeIcon, SpeakerHighIcon, TranslateIcon, XIcon } from '@phosphor-icons/react'
+import { EyeIcon, LightbulbIcon, SpeakerHighIcon, TranslateIcon, XIcon } from '@phosphor-icons/react'
 import { useEffect, useRef, useState, type MouseEvent } from 'react'
 import { Link, useNavigate } from 'react-router'
 import { EFFECT_MESSAGE, questionOf, reactionOf } from '../characters/lines'
@@ -8,10 +8,24 @@ import EffectOverlay from '../components/EffectOverlay'
 import StudyImage from '../components/StudyImage'
 import { wordFormsOf } from '../components/wordForms'
 import { wordSizeStyle } from '../components/wordSize'
-import { findSentence } from '../data/sentences'
+import { sentenceAudioKind, sentenceForTurn, type Sentence } from '../data/sentences'
 import { findWord } from '../data/words'
 import { db, type Note } from '../db/database'
-import { claimGoalBonus, dayPlan, earnedTotal, getMedia, knownCards, madeCountOn, ownedItemIds, recordReview, silentWordIds, todaysWords } from '../db/repository'
+import {
+  claimGoalBonus,
+  dayPlan,
+  earnedTotal,
+  getMedia,
+  knownCards,
+  madeCountOn,
+  ownedItemIds,
+  recordReview,
+  reportedAudioPaths,
+  reportSentenceAudio,
+  silentWordIds,
+  todaysWords,
+  withoutReportedAudio,
+} from '../db/repository'
 import { todayQueue, type CardType, type Grade, type StudyCard } from '../domain/schedule'
 import { isToughDay, newWordsLeft } from '../domain/session'
 import { goalEffects, shopItemsFor, unlockedEffects, unlockedItems } from '../domain/shop'
@@ -20,7 +34,8 @@ import { DEVICE_PERSON, IS_WEB_BUILD } from '../platform'
 import { getSettings, learningLanguage } from '../settings'
 import { prepareSentenceAudio } from '../sync/sentenceAudio'
 
-type WordMedia = { note: Note; image: Blob | null; audio: Blob | null; sentenceAudio: Blob | null }
+// sentence: 오늘 빈칸 카드에 낼 문장(복습할 때마다 바뀐다)과 그 음성.
+type WordMedia = { note: Note; image: Blob | null; audio: Blob | null; sentence: Sentence | null; sentenceAudio: Blob | null }
 type Loaded = { queue: StudyCard[]; words: Map<string, WordMedia> }
 type Reaction = { grade: Grade; text: string }
 
@@ -44,8 +59,23 @@ const goalCelebrationNow = async () => {
 const loadQueue = async (): Promise<Loaded> => {
   const queue = todayQueue(await knownCards(learningLanguage()), new Date(), { soundOff: getSettings().soundOff, silentWords: await silentWordIds() })
   const notes = (await db.notes.bulkGet([...new Set(queue.map(card => card.wordId))])).filter((note): note is Note => !!note)
-  const words = await Promise.all(notes.map(async note => ({ note, image: await getMedia(note.wordId, 'image'), audio: await getMedia(note.wordId, 'audio'), sentenceAudio: await getMedia(note.wordId, 'sentence') })))
+  const clozeTurns = new Map(queue.filter(card => card.type === 'cloze').map(card => [card.wordId, card.fsrs.reps]))
+  const reported = await reportedAudioPaths()
+  const words = await Promise.all(
+    notes.map(async note => {
+      const chosen = sentenceForTurn(note.wordId, clozeTurns.get(note.wordId) ?? 0)
+      const sentence = chosen && withoutReportedAudio(chosen.sentence, reported)
+      return { note, image: await getMedia(note.wordId, 'image'), audio: await getMedia(note.wordId, 'audio'), sentence, sentenceAudio: chosen && sentence ? await sentenceAudioOf(note.wordId, sentence, chosen.index) : null }
+    }),
+  )
   return { queue, words: new Map(words.map(word => [word.note.wordId, word])) }
+}
+
+// 문장 음성이 아직 없으면(활용형 문장이 처음 나올 때 등) 앱에 든 녹음(없으면 TTS)으로 준비한다.
+const sentenceAudioOf = async (wordId: string, sentence: Sentence, index: number) => {
+  const stored = await getMedia(wordId, sentenceAudioKind(sentence))
+  if (stored) return stored
+  return (await prepareSentenceAudio(wordId, { index })) ? getMedia(wordId, sentenceAudioKind(sentence)) : null
 }
 
 // 가나로 된 빈칸 말에는 같은 읽기를 또 달 필요가 없다.
@@ -143,6 +173,17 @@ function StudyPage() {
     playAudio(card?.type === 'cloze' ? media?.sentenceAudio : media?.audio)
   }
 
+  // 원어민 녹음이 잘렸거나 이상하면 제보해 두고, 이 문장은 바로 TTS로 바꿔 다시 들려준다.
+  const reportAudio = async () => {
+    if (!card || !media?.sentence) return
+    await reportSentenceAudio(card.wordId, media.sentence, new Date())
+    const sentence = { ...media.sentence, audioPath: null }
+    const index = sentenceForTurn(card.wordId, card.fsrs.reps)?.index ?? 0
+    const sentenceAudio = (await prepareSentenceAudio(card.wordId, { index })) ? await getMedia(card.wordId, sentenceAudioKind(sentence)) : null
+    setLoaded(previous => previous && { ...previous, words: new Map(previous.words).set(card.wordId, { ...media, sentence, sentenceAudio }) })
+    playAudio(sentenceAudio)
+  }
+
   const answer = async (grade: Grade) => {
     if (!card || isAnswering.current) return
     isAnswering.current = true
@@ -210,7 +251,7 @@ function StudyPage() {
           </p>
         </section>
         <button ref={cardRef} type="button" className="study-card" onClick={flip} aria-label={isFlipped ? '답' : '눌러서 답 보기'}>
-          <CardFace key={card!.id} card={card!} media={media} isFlipped={isFlipped} />
+          <CardFace key={card!.id} card={card!} media={media} isFlipped={isFlipped} onReportAudio={reportAudio} />
         </button>
       </main>
       {overlays}
@@ -232,11 +273,13 @@ function StudyPage() {
   )
 }
 
-function CardFace({ card, media, isFlipped }: { card: StudyCard; media: WordMedia | undefined; isFlipped: boolean }) {
+type CardFaceProps = { card: StudyCard; media: WordMedia | undefined; isFlipped: boolean; onReportAudio: () => Promise<void> }
+
+function CardFace({ card, media, isFlipped, onReportAudio }: CardFaceProps) {
   const word = findWord(card.wordId)
 
   if (!word) return null
-  if (card.type === 'cloze') return <ClozeFace wordId={card.wordId} media={media} isFlipped={isFlipped} />
+  if (card.type === 'cloze') return <ClozeFace wordId={card.wordId} media={media} isFlipped={isFlipped} onReportAudio={onReportAudio} />
 
   const language = card.wordId.startsWith('en-') ? 'en' : 'ja'
   const forms = wordFormsOf(word, language)
@@ -307,13 +350,28 @@ function CardFace({ card, media, isFlipped }: { card: StudyCard; media: WordMedi
 
 // 플루언트 포에버의 빈칸 문장 카드: 번역 대신 그림을 힌트로 두고, 번역은 막힐 때만 눌러서 본다.
 // 빈칸 길이는 답 글자 수와 상관없이 같게 해서 길이로 답을 짐작하지 않게 한다.
-function ClozeFace({ wordId, media, isFlipped }: { wordId: string; media: WordMedia | undefined; isFlipped: boolean }) {
-  const [isTranslationShown, setIsTranslationShown] = useState(false)
+type ClozeFaceProps = { wordId: string; media: WordMedia | undefined; isFlipped: boolean; onReportAudio: () => Promise<void> }
 
-  const sentence = findSentence(wordId)
+function ClozeFace({ wordId, media, isFlipped, onReportAudio }: ClozeFaceProps) {
+  const [isTranslationShown, setIsTranslationShown] = useState(false)
+  const [isHintShown, setIsHintShown] = useState(false)
+  const [isReported, setIsReported] = useState(false)
+
+  const sentence = media?.sentence
   const language = wordId.startsWith('en-') ? 'en' : 'ja'
 
   if (!sentence) return null
+
+  const showHint = (event: MouseEvent) => {
+    event.stopPropagation()
+    setIsHintShown(true)
+  }
+
+  const reportAudio = async (event: MouseEvent) => {
+    event.stopPropagation()
+    setIsReported(true)
+    await onReportAudio()
+  }
 
   const toggleTranslation = (event: MouseEvent) => {
     event.stopPropagation()
@@ -322,6 +380,18 @@ function ClozeFace({ wordId, media, isFlipped }: { wordId: string; media: WordMe
 
   return (
     <>
+      {/* 활용형 문장은 빈칸에 활용된 꼴 그대로 넣어야 해서, 막히면 어떤 동사를 어떤 꼴로 바꾸는지 볼 수 있게 한다. 처음엔 가려 둔다. */}
+      {sentence.form &&
+        (isHintShown || isFlipped ? (
+          <span lang={language} className="cloze-form">
+            {findWord(wordId)?.text} → {sentence.form}
+          </span>
+        ) : (
+          <span role="button" tabIndex={0} className="cloze-hint" onClick={showHint}>
+            <LightbulbIcon size={18} aria-hidden="true" />
+            힌트 보기
+          </span>
+        ))}
       <span lang={language} className="cloze-sentence">
         {sentence.before}
         {isFlipped ? (
@@ -348,6 +418,12 @@ function ClozeFace({ wordId, media, isFlipped }: { wordId: string; media: WordMe
         {/* 문장 음성에는 빈칸 말이 그대로 들어 있어서 앞면에서는 버튼만 보여 준다. */}
         <ListenButton sound={media?.sentenceAudio} isEnabled={isFlipped} />
       </span>
+      {isFlipped && isReported && <span className="audio-reported">제보했어. 기계 음성으로 바꿨어</span>}
+      {isFlipped && !isReported && sentence.audioPath && (
+        <span role="button" tabIndex={0} className="audio-report" onClick={reportAudio}>
+          음성이 이상해요
+        </span>
+      )}
     </>
   )
 }
