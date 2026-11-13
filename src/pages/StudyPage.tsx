@@ -330,14 +330,12 @@ function CardFace({ card, media, isFlipped, onReportAudio }: CardFaceProps) {
       </>
     )
   }
+  // 소리 카드는 가운데 큰 소리 버튼이 곧 문제라서, 아래 듣기 버튼을 또 두지 않는다.
   if (card.type === 'listen') {
     return (
-      <>
-        <span className="study-sound" onClick={event => (event.stopPropagation(), playAudio(media?.audio))}>
-          <SpeakerHighIcon size={28} aria-hidden="true" />
-        </span>
-        {actions}
-      </>
+      <span className="study-sound" onClick={event => (event.stopPropagation(), playAudio(media?.audio))}>
+        <SpeakerHighIcon size={28} aria-hidden="true" />
+      </span>
     )
   }
   return (

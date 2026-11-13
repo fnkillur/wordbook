@@ -5,7 +5,7 @@ import { createMemoryRouter, RouterProvider } from 'react-router'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { db } from '../db/database'
 import { sentencesOf } from '../data/sentences'
-import { audioReports, dateKey, earnedTotal, makeWord, setSentenceAudio } from '../db/repository'
+import { audioReports, dateKey, earnedTotal, makeWord, setAudio, setSentenceAudio } from '../db/repository'
 import { newStudyCard } from '../domain/schedule'
 import { saveSettings } from '../settings'
 import { waitUntil } from '../testing/waitUntil'
@@ -300,6 +300,17 @@ describe('StudyPage', () => {
     await makeWord({ wordId: 'ja-0001', image: null, memo: '', cardTypes: ['recognize'] }, new Date(Date.now() - 60_000))
     await open()
 
+    expect(container.querySelector('.card-listen')?.getAttribute('aria-disabled')).toBe('false')
+  })
+
+  it('소리 카드는 앞면의 큰 소리 버튼과 겹쳐서 듣기 버튼을 두지 않고, 답을 보면 다시 둔다', async () => {
+    await makeWord({ wordId: 'ja-0001', image: null, memo: '', cardTypes: ['listen'] }, new Date(Date.now() - 60_000))
+    await setAudio('ja-0001', new Blob(['mp3'], { type: 'audio/mpeg' }), 'tts')
+    await open()
+
+    expect(container.querySelector('.study-sound')).not.toBeNull()
+    expect(container.querySelector('.card-listen')).toBeNull()
+    await flip()
     expect(container.querySelector('.card-listen')?.getAttribute('aria-disabled')).toBe('false')
   })
 
