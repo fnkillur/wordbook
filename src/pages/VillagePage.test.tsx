@@ -153,7 +153,7 @@ describe('VillagePage', () => {
     await open()
     expect(container.textContent).not.toContain('새 단어를 준비하고 있어')
 
-    await setStartRank('ja', 3001)
+    await setStartRank('ja', 5001)
     await wait()
     expect(container.textContent).toContain('새 단어를 준비하고 있어')
   })

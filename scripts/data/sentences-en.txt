@@ -2777,3 +2777,1697 @@
 2998|And our instruction [manuals] are very clearly written.|그리고 저희 사용 설명서는 아주 알기 쉽게 쓰여 있어요.|D
 2999|No, I [rarely] smoke.|아니, 담배는 거의 안 피워.|D
 3000|The [railway] station is very close.|기차역은 아주 가까워.|D
+3002|I think I'm going to fail my [chemistry] exam.|나 화학 시험 망칠 것 같아.|D
+3003|I think I'm going to [puke].|나 토할 것 같아.|T4907368
+3004|I think I mistakenly [deleted] that file.|실수로 그 파일을 지운 것 같아.|T1891287
+3006|Mike, did you win the [lottery] or something?|마이크, 너 복권이라도 당첨됐어?|D
+3007|We don't want any bad [publicity].|나쁜 쪽으로 언론에 오르내리고 싶진 않아.|T2014763
+3009|I don't think you're being [objective].|네가 객관적으로 보고 있는 것 같지 않아.|T6375086
+3010|You know, that's going to be a [tremendous] change for me.|있잖아, 그건 나한테 엄청난 변화일 거야.|D
+3011|Put on your [cape], we are going to fly home.|망토 걸쳐, 날아서 집에 갈 거야.|D
+3013|Actually we are on an [intimate] level.|사실 우린 아주 친한 사이야.|D
+3014|Come on, I'm [eager] to hear.|어서, 정말 듣고 싶단 말이야.|D
+3015|Will you get any kind of [scholarship]?|장학금 같은 거 받을 수 있어?|D
+3016|I'd like to send a [telegram].|전보를 보내고 싶어요.|T1936367
+3018|I'd love to, but I'm [allergic] to strawberries.|그러고 싶은데, 나 딸기 알레르기 있어.|D
+3019|Where is the [logic] in that?|그게 무슨 논리야?|T1010103
+3020|What should I say to show my [gratitude]?|고마운 마음을 어떻게 표현해야 할까?|D
+3021|Are you a [thug]?|너 깡패야?|T11894711
+3022|The rumor [ultimately] turned out to be false.|그 소문은 결국 거짓으로 밝혀졌어.|T10342163
+3023|The [majority] of young people own cellphones.|젊은 사람들 대다수가 휴대폰을 갖고 있어.|T9675496
+3025|Let me [calculate] the price for you.|가격을 계산해 드릴게요.|D
+3027|Write down your name here in [ink].|여기에 이름을 잉크로 써 주세요.|D
+3028|I'm studying business [administration] in college.|대학에서 경영학을 공부하고 있어요.|D
+3029|We need to [reform] our immigration system.|우리 이민 제도를 개혁해야 해.|T5852696
+3030|It seems Americans are very [passionate] about sports.|미국 사람들은 스포츠에 정말 열정적인 것 같아.|D
+3031|Sorry I can't be more [precise].|더 정확하게 말해 줄 수 없어서 미안해.|D
+3033|All the [inmates] are present and accounted for.|수감자 전원 이상 없이 다 있습니다.|T945664
+3034|Have you checked the [fuse] box?|두꺼비집 확인해 봤어?|D
+3036|Tom was killed by a suicide [bomber].|톰은 자살 폭탄범 때문에 목숨을 잃었어.|T1140957
+3037|Are you a regular blood [donor]?|정기적으로 헌혈하세요?|T6261638
+3038|The [dam] burst owing to the heavy rain.|폭우로 댐이 터졌어.|T275563
+3039|Ten [minus] two is eight.|10 빼기 2는 8이야.|T1304581
+3040|You have the body of an [athlete].|너 운동선수 몸이다.|T3723500
+3041|The wound on my leg is [healing].|다리 상처가 낫고 있어.|T9501191
+3042|You have no [obligation] to help us.|우리를 도와야 할 의무는 없어.|T69539
+3043|We got a [hostile] reception from the villagers.|마을 사람들이 우리를 적대적으로 맞았어.|T249012
+3044|Did you watch the Barcelona [versus] Madrid game?|바르셀로나 대 마드리드 경기 봤어?|D
+3045|The ship dropped [anchor] in the harbor.|배가 항구에 닻을 내렸어.|T842911
+3046|I like the [melody] of this song.|난 이 노래 멜로디가 좋아.|T2377609
+3047|Are you going to the class [reunion]?|동창회 갈 거야?|T2852544
+3048|Can you mark that on your [calendar]?|달력에 표시해 둘래?|D
+3050|Is it true dogs [descended] from wolves?|개가 늑대의 후손이라는 게 사실이야?|T8353316
+3051|Just look at her colorful [feathers].|저 화려한 깃털 좀 봐.|D
+3052|Laughter can reduce stress and [anxiety].|웃음은 스트레스와 불안을 줄여 줄 수 있어.|T9373992
+3053|We can't sleep because of the [noise].|소음 때문에 잠을 못 자겠어.|T1612
+3054|Let's go down to the [creek].|개울에 내려가 보자.|T11696331
+3056|The committee was [summoned] at once.|위원회가 즉시 소집됐어.|T28278
+3057|I'd rather live in a [wooden] house.|난 차라리 나무로 된 집에서 살래.|T38018
+3058|I am fully convinced of your [innocence].|난 네가 무죄라고 굳게 믿어.|T257121
+3059|Take me to the [railroad] station.|기차역으로 가 주세요.|D
+3060|Tom wants to [avenge] his brother's death.|톰은 형의 죽음에 복수하고 싶어 해.|T7731924
+3061|A [bee] flew out of the window.|벌 한 마리가 창밖으로 날아갔어.|T35188
+3062|Why have the [apes] evolved more than other animals?|왜 유인원은 다른 동물보다 더 진화했을까?|T36323
+3064|It'll be hard to find a [replacement].|후임자 찾기가 어려울 거야.|T10751489
+3065|Yes, I like collecting [antiques].|응, 나 골동품 모으는 거 좋아해.|D
+3067|Did you have an [accomplice]?|공범이 있었어?|T9440075
+3068|I've been [tormented] by regret.|후회 때문에 괴로웠어.|T2959313
+3070|The [pupils] did the work themselves.|학생들이 그 과제를 직접 했어.|T271865
+3071|How can you stand living in such a [messy] dorm?|이렇게 지저분한 기숙사에서 어떻게 살아?|D
+3072|There are seven [continents] on the earth.|지구에는 대륙이 일곱 개 있어.|T271117
+3074|I am not a [prophet].|난 예언자가 아니야.|T2794457
+3075|Are there lots of [sharks] around here?|이 근처에 상어가 많아?|T2491850
+3076|Oh, what lovely [earrings] you have!|어머, 귀걸이 정말 예쁘다!|D
+3077|I hung your [robe] up in the bathroom.|네 가운은 욕실에 걸어 뒀어.|T10857084
+3079|This is the [seventh] glass already.|벌써 일곱 번째 잔이야.|D
+3080|When I cough twice, that's your [cue] to come into the room.|내가 기침을 두 번 하면 그게 방에 들어오라는 신호야.|T10176416
+3081|My [limbs] are rusty now.|이제 팔다리가 예전 같지 않아.|D
+3083|Why don't we go see a [ballet]?|우리 발레 보러 갈래?|T9979119
+3084|Not everyone who drinks becomes an [alcoholic].|술 마시는 사람이 다 알코올 중독자가 되는 건 아니야.|T9831562
+3085|Which website should I visit to [download] it?|그거 내려받으려면 어느 사이트에 들어가야 해?|D
+3086|The doctor said I have a brain [tumor].|의사가 나한테 뇌종양이 있대.|T6660825
+3087|The language [barrier] was a big problem.|언어 장벽이 큰 문제였어.|T9752502
+3088|No, he's perfectly [harmless].|아니, 그 사람은 전혀 해롭지 않아.|D
+3089|My [curiosity] got the better of me.|호기심을 못 이겼어.|T8382861
+3090|Watch out! This monkey is [vicious].|조심해! 이 원숭이 사나워.|T1655458
+3091|The girl was [trembling] with fear.|그 여자애는 겁에 질려 떨고 있었어.|T267858
+3092|Let's compare the [translation] with the original.|번역본을 원문이랑 비교해 보자.|T322267
+3094|I [grind] my own coffee beans every morning.|난 매일 아침 커피콩을 직접 갈아.|T681104
+3095|What I saw was [shocking].|내가 본 건 충격적이었어.|T4967240
+3096|How will we pay the [mortgage]?|주택 대출은 어떻게 갚지?|T7126729
+3097|[Greedy] people always want more stuff.|욕심 많은 사람들은 늘 더 많은 걸 원해.|T681514
+3098|Please [classify] these books by subject.|이 책들을 주제별로 분류해 주세요.|T55071
+3099|I saw someone standing near the [fountain].|분수 근처에 누가 서 있는 걸 봤어.|T10475115
+3100|There is often [fog] in the morning.|아침에는 안개가 자주 껴.|T3258266
+3101|The [hunter] shot at the bird.|사냥꾼이 새를 향해 총을 쐈어.|T34954
+3102|The police haven't ruled out [sabotage].|경찰은 방해 공작 가능성을 배제하지 않았어.|T9968503
+3103|I have a brother who's an [architect].|나 건축가인 형이 있어.|T6661612
+3105|This is starting to feel like an [interrogation].|이거 점점 심문받는 기분이 드는데.|T8576847
+3106|I asked the [bartender] for another beer.|바텐더한테 맥주 한 잔 더 달라고 했어.|T2641041
+3107|I'm often accused of being [arrogant].|난 거만하다는 소리를 자주 들어.|T5850912
+3108|We had a heavy [frost] this morning.|오늘 아침에 서리가 많이 내렸어.|T242216
+3111|You tried to [seduce] me.|너 나 유혹하려고 했잖아.|D
+3112|How much is the bus [fare]?|버스 요금이 얼마예요?|T35222
+3113|I'd like to book the [standard] room.|스탠더드 룸으로 예약하고 싶어요.|D
+3114|Let me give you a [demonstration].|제가 시연해 드릴게요.|T6899216
+3115|I would love a really sticky cinnamon [bun].|끈적끈적한 시나몬 번 하나 먹고 싶다.|D
+3116|My teacher encouraged me to [fulfill] my ambitions.|선생님이 내 꿈을 이루라고 격려해 주셨어.|T272943
+3118|The team is ready for the [op] tonight.|팀은 오늘 밤 작전 준비가 끝났어.|self
+3119|Where can I find a [shuttle] bus?|셔틀버스는 어디서 타요?|T29669
+3120|There's no reason [whatsoever] to do it.|그걸 할 이유가 전혀 없어.|T9097171
+3121|The [grenade] exploded in the water.|수류탄이 물속에서 터졌어.|T9947322
+3122|I can't return to my [homeland].|난 고국으로 돌아갈 수 없어.|T10553155
+3123|[Teens] do a lot of dumb stuff.|십 대들은 바보 같은 짓을 많이 해.|T1383508
+3124|Are you trying to [provoke] me?|너 나 도발하는 거야?|T3730509
+3125|Please put your phones on silent [mode].|휴대폰은 무음 모드로 해 주세요.|T9337279
+3126|It's going to take [approximately] three hours.|대략 세 시간쯤 걸릴 거야.|T6433479
+3127|I like the [fabric], but I don't like the style.|천은 마음에 드는데 스타일이 별로예요.|D
+3128|I have a friend who's an [accountant].|나 회계사 친구 있어.|T8341012
+3129|The king had a long and prosperous [reign].|그 왕은 오랫동안 번영을 누리며 통치했어.|T6695403
+3130|Would you like a [sip] of water?|물 한 모금 마실래?|T11917913
+3131|I was a [sniper].|난 저격수였어.|T11927139
+3132|You'd better not [rub] your eyes.|눈 비비지 않는 게 좋아.|D
+3133|It's [unlikely] that our team will win.|우리 팀이 이길 것 같진 않아.|T954105
+3134|Why do you keep [weeping] like that?|왜 그렇게 계속 울어?|D
+3135|The meeting is in the council [chamber].|회의는 의회 회의실에서 열려.|self
+3137|Have you checked the [database]?|데이터베이스 확인해 봤어?|D
+3138|It's hard to eat just one [strawberry].|딸기는 하나만 먹기가 힘들어.|T3187259
+3139|Put a [scarf] on and keep warm.|목도리 하고 따뜻하게 있어.|T10730997
+3140|Nuclear power is used to [generate] electricity.|원자력은 전기를 만드는 데 쓰여.|T239466
+3141|I'd do it all again in a [heartbeat].|다시 하라고 해도 당장 할 거야.|T4689839
+3143|You and I have some [mutual] friends.|너랑 나는 겹치는 친구가 좀 있어.|T8900668
+3144|He's a [rogue], but a charming one.|그 사람은 악당이지만 매력은 있어.|self
+3145|That's a very serious [accusation] to make.|그건 아주 심각한 비난이야.|T5804082
+3146|Take it from my [savings] account.|제 저축 계좌에서 빼 주세요.|D
+3147|[Beware] of pickpockets here.|여기선 소매치기 조심해.|T61965
+3148|I saw a [cottage] in the distance.|멀리 오두막 한 채가 보였어.|T25831
+3149|I would like to file a [complaint].|항의를 하고 싶어요.|D
+3151|The students [assembled] in the classroom.|학생들이 교실에 모였어.|T21435
+3152|The horse [snorted] impatiently.|말이 조급하게 콧김을 뿜었어.|T282378
+3153|The speaker's comments were highly [offensive].|연사의 발언은 아주 모욕적이었어.|T681610
+3154|Is there any [discount] on this laptop?|이 노트북 할인되나요?|D
+3155|Now it's my turn to roll the [dice].|이제 내가 주사위 굴릴 차례야.|D
+3156|I want you to [analyze] this.|이것 좀 분석해 줘.|T2012693
+3157|Who was the leader of the [expedition]?|그 탐험대의 대장은 누구였어?|T49468
+3159|The country's main social problem is [poverty].|그 나라의 주된 사회 문제는 빈곤이야.|T681416
+3160|Her speech was full of [wit].|그녀의 연설은 재치가 넘쳤어.|T309877
+3161|What we need now is good [leadership].|지금 우리에게 필요한 건 좋은 리더십이야.|T9360088
+3162|My neighbor is a [Turk] from Istanbul.|우리 이웃은 이스탄불에서 온 튀르키예 사람이야.|self
+3163|Are you against [abortion]?|낙태에 반대해?|T4494294
+3165|This is a [violation] of the law.|이건 법 위반이야.|T2261061
+3166|This is our [legacy].|이게 우리의 유산이야.|T5756824
+3168|We [stumbled] around in the dark.|우린 어둠 속에서 비틀거리며 돌아다녔어.|T10634936
+3170|The audience [clapped] when the concert was over.|콘서트가 끝나자 관객들이 박수를 쳤어.|T25915
+3172|The garbage [collector] comes three times a week.|쓰레기 수거하는 분이 일주일에 세 번 와.|T56405
+3173|What do you [conclude] from that?|그걸로 무슨 결론을 내리겠어?|T69934
+3174|I [pawned] my guitar to pay the rent.|월세 내려고 기타를 전당포에 맡겼어.|T1258329
+3175|You look like a [banker].|너 은행가처럼 보인다.|T6271146
+3177|I don't think I heard you [correctly].|내가 잘못 들은 것 같은데.|T3737361
+3179|Do you know how to change a [diaper]?|기저귀 갈 줄 알아?|T10750491
+3180|Please push the [buzzer].|버저를 눌러 주세요.|T34360
+3181|The [countess] lived in a large castle.|백작 부인은 큰 성에서 살았어.|self
+3182|I really appreciate the offer, but I must [decline] it.|제안은 정말 감사하지만 거절해야겠어요.|D
+3183|Do you really want to be [immortal]?|너 정말 영원히 살고 싶어?|T1874019
+3184|How do you make the [font] bigger?|글꼴 크기는 어떻게 키워?|T3315265
+3185|Do I have to sign a [lease]?|임대 계약서에 서명해야 하나요?|D
+3186|I'd like to wish you every success in your new [venture].|새로 시작하는 사업이 크게 성공하길 바랄게요.|D
+3187|I dreamed I had been [abducted] by aliens.|외계인한테 납치되는 꿈을 꿨어.|T2640911
+3188|I usually only read the [headlines].|난 보통 헤드라인만 읽어.|T5909999
+3189|I [mop] the kitchen almost every day.|난 거의 매일 부엌을 걸레질해.|T8995860
+3190|If it tastes bad, [spit] it out.|맛없으면 뱉어.|T3045755
+3191|Snap the peas out of the [pod].|꼬투리에서 콩을 까 줘.|self
+3192|He was deaf to my [pleas].|그는 내 간청을 들은 척도 안 했어.|T303759
+3194|How long have you been an [auto] mechanic?|자동차 정비사로 일한 지 얼마나 됐어요?|T5849749
+3195|I'm sure there's a [logical] explanation for it.|분명 논리적인 설명이 있을 거야.|D
+3196|It's your turn to [vacuum] the house.|이번엔 네가 집 청소기 돌릴 차례야.|T2953157
+3197|All living things on Earth contain [carbon].|지구상의 모든 생물에는 탄소가 들어 있어.|T5322490
+3198|India gained [independence] from Britain in 1947.|인도는 1947년에 영국으로부터 독립했어.|T65728
+3199|I heard someone [shriek] outside.|밖에서 누가 비명을 지르는 소리를 들었어.|self
+3200|She's so [upbeat] and sweet.|그 애는 정말 밝고 다정해.|D
+3201|I need to [unlock] this door.|이 문 잠금을 풀어야 해.|T2387775
+3202|The hero set off on a [quest] for the lost sword.|주인공은 잃어버린 검을 찾아 길을 떠났어.|self
+3203|The old man lives on his [pension].|그 할아버지는 연금으로 생활하셔.|T43347
+3204|Tom lives off the [grid].|톰은 전력망 없이 살아.|T5748392
+3205|I think I need a new [notebook].|새 공책이 필요할 것 같아.|D
+3206|Would you like to eat some [pudding]?|푸딩 좀 먹을래?|T1830480
+3207|We're [bracing] for more heavy rain.|더 큰 비에 대비하고 있어.|T11497751
+3208|Thank you very much for your [cooperation].|협조해 주셔서 정말 감사합니다.|D
+3209|Do you still go [sailing] every summer?|아직도 여름마다 요트 타러 가?|T6248859
+3210|Patience is a rare [virtue] these days.|요즘 인내심은 보기 드문 미덕이야.|T281977
+3211|He is a very [sincere] person.|그는 아주 진실한 사람이야.|T292124
+3213|I am always in [pursuit] of perfection.|난 늘 완벽을 추구해.|D
+3214|I can recommend them, they're very [reliable].|그 사람들 추천할 수 있어, 아주 믿을 만해.|D
+3215|We talked about a [variety] of topics.|우린 다양한 주제로 이야기했어.|T326579
+3216|She strikes me as being very [sophisticated].|그녀는 아주 세련돼 보여.|D
+3217|There are three items on the [agenda].|안건이 세 가지 있어요.|T11922776
+3218|You look very [elegant] today.|오늘 아주 우아해 보이네요.|T8999751
+3219|One of my favorite [spices] is cinnamon.|내가 제일 좋아하는 향신료 중 하나는 계피야.|T6954771
+3221|Could you [scan] this for me?|이것 좀 스캔해 줄래?|T7774155
+3222|This road [curves] gently to the right.|이 길은 오른쪽으로 완만하게 굽어 있어.|T57626
+3223|[Owls] can see in the dark.|올빼미는 어둠 속에서도 볼 수 있어.|T1449389
+3224|Well, my [saddle] is too low for me.|음, 안장이 나한테 너무 낮아.|D
+3226|A careful [reader] would have noticed the mistake.|꼼꼼한 독자라면 그 실수를 알아챘을 거야.|T30382
+3227|The [pyramids] were built in ancient times.|피라미드는 고대에 지어졌어.|T34600
+3229|The ugly duckling turned into a beautiful [swan].|미운 오리 새끼는 아름다운 백조가 됐어.|T7584566
+3230|Are you going to the [annual] party?|연례 파티에 갈 거야?|D
+3231|Getting enough sleep is also [crucial] for fitness.|건강을 위해선 잠을 충분히 자는 것도 아주 중요해.|D
+3233|I think I'll make [stew] for dinner.|저녁으로 스튜를 만들까 봐.|T4054939
+3234|I was afraid I might get [expelled].|퇴학당할까 봐 겁났어.|T7217498
+3235|Where did you get the [sofa]?|그 소파 어디서 났어?|D
+3236|I'm filled with [despair].|절망감에 휩싸였어.|T10863108
+3238|The children were playing in the [backyard].|아이들이 뒷마당에서 놀고 있었어.|T245787
+3241|The [dolphin] is a very intelligent animal.|돌고래는 아주 똑똑한 동물이야.|T65813
+3242|I thought our [negotiation] went very well.|우리 협상이 아주 잘된 것 같아.|D
+3243|Because I want to study English [literature].|영문학을 공부하고 싶어서요.|D
+3245|The disease is [sexually] transmitted.|그 병은 성적 접촉으로 옮아.|self
+3246|I think the government needs a [radical] plan to improve things.|상황을 개선하려면 정부에 근본적인 대책이 필요한 것 같아.|D
+3247|You have to [distinguish] fact from fiction.|사실과 허구를 구별해야 해.|T263752
+3248|Do you have a [generator]?|발전기 있어?|T4497911
+3249|What sort of [welfare] facilities does your company provide?|회사에서 어떤 복지 시설을 제공하나요?|D
+3250|The space [probe] has reached Mars.|우주 탐사선이 화성에 도착했어.|T9460470
+3251|Would you like to make a [donation]?|기부하시겠어요?|D
+3252|Don't put your [elbows] on the table.|식탁에 팔꿈치 올리지 마.|T39635
+3253|I wish I had something to [contribute].|나도 보탤 게 있으면 좋을 텐데.|T1167844
+3256|I [transplanted] it to a bigger flowerpot.|그거 더 큰 화분으로 옮겨 심었어.|T10636475
+3257|You have to share the cake [equally].|케이크는 똑같이 나눠 먹어야 해.|T17655
+3258|There's a [flaw] in your argument.|네 주장에는 허점이 있어.|T7371289
+3259|The [shipment] has reached us safely.|화물이 무사히 도착했어요.|T272265
+3260|I found the keys under the [mat].|매트 밑에서 열쇠를 찾았어.|T12223706
+3261|Thank you for your [courtesy].|친절하게 대해 주셔서 감사합니다.|T2643709
+3262|We gave some blankets to the [refugees].|우린 난민들에게 담요를 좀 나눠 줬어.|T7816533
+3263|Have you [adapted] to the lifestyle in China?|중국 생활에는 적응했어?|D
+3264|The [fishermen] got up before dawn.|어부들은 새벽 전에 일어났어.|T5360693
+3265|I only paid ten [quid] for this jacket.|이 재킷 10파운드밖에 안 줬어.|self
+3266|Please be extra careful, the contents of the package are [fragile].|각별히 조심해 주세요, 소포 안에 깨지기 쉬운 물건이 들어 있어요.|D
+3267|These [grapes] are too sour to eat.|이 포도는 너무 셔서 못 먹겠어.|T3380541
+3268|Let's read a few [verses] from the Bible.|성경 구절 몇 개 읽어 보자.|T5725392
+3269|Which do you like better, [fiction] or non-fiction?|소설이랑 논픽션 중에 뭐가 더 좋아?|T69144
+3270|How did you become a [pastor]?|어떻게 목사가 되셨어요?|T12323240
+3271|The tiger [cub] looked like a large kitten.|그 새끼 호랑이는 큰 고양이 새끼 같았어.|T36937
+3272|[Sadly], many people died.|안타깝게도 많은 사람이 죽었어.|T10167448
+3273|Put this on my [tab], please.|이건 제 계산서에 달아 주세요.|T534218
+3274|Most [importantly], I practice every chance I get.|무엇보다 중요한 건, 기회가 될 때마다 연습한다는 거야.|D
+3275|This area is zoned for [industrial] use.|이 지역은 산업 용도로 지정돼 있어.|T9054847
+3276|I felt my phone [vibrate] in my pocket.|주머니 속에서 휴대폰이 진동하는 게 느껴졌어.|T2199535
+3277|I adopted a [stray] kitten.|길 잃은 새끼 고양이를 입양했어.|T11490297
+3278|Have you studied Darwin's theory of [evolution]?|다윈의 진화론 공부해 봤어?|T41251
+3279|I had no [notion] that you were coming.|네가 올 줄은 전혀 생각도 못 했어.|T18043
+3281|The nurse gave me an [injection].|간호사가 나한테 주사를 놔 줬어.|T9111488
+3282|Would you like to [spar] with me?|나랑 스파링할래?|T8680841
+3283|This game will keep your children [entertained].|이 게임이면 아이들이 지루해하지 않을 거예요.|T10786870
+3284|They just couldn't [grasp] that.|그 사람들은 그걸 도무지 이해하지 못했어.|T5731950
+3286|These shoes are not [suitable] for running.|이 신발은 달리기에 알맞지 않아.|T59580
+3287|You'd better prepare for the [examination].|시험 준비하는 게 좋을 거야.|D
+3288|Could I have a slice of [pumpkin] pie?|호박 파이 한 조각 먹어도 돼요?|D
+3289|I just hope he doesn't start [bragging] again!|그 사람이 또 자랑 늘어놓지 않으면 좋겠다!|D
+3290|Be sure to blow out all the candles in one [puff].|촛불은 꼭 한 번에 훅 불어서 다 꺼.|D
+3291|I really [admire] you for that.|그 점은 정말 존경스러워.|D
+3292|I [knelt] down to tie my shoes.|신발 끈을 묶으려고 무릎을 꿇었어.|T1661768
+3293|Are you trying to [intimidate] me?|너 지금 나 겁주려는 거야?|T10475880
+3294|The [cardinals] have elected a new pope.|추기경들이 새 교황을 선출했어.|T2303999
+3295|I [strongly] recommend it.|그거 강력히 추천해.|D
+3296|I work for a [trading] company.|나 무역 회사에 다녀.|T258613
+3297|I need to buy windshield wiper [fluid].|워셔액 사야 해.|T9964894
+3298|The [witch] turned the boy into a frog.|마녀가 소년을 개구리로 만들어 버렸어.|T8734072
+3299|I [vowed] never to go back there.|다시는 거기 안 가겠다고 맹세했어.|T5730886
+3300|A big ship appeared on the [horizon].|수평선에 큰 배 한 척이 나타났어.|T275526
+3301|Plastic and glass [containers] can be reused.|플라스틱 용기랑 유리 용기는 다시 쓸 수 있어.|T12330862
+3302|Guards are patrolling around the [perimeter] of the base.|경비병들이 기지 둘레를 순찰하고 있어.|T11065551
+3303|I want to ride a [camel] and definitely see the pyramids!|낙타도 타 보고 피라미드도 꼭 보고 싶어!|D
+3305|How did this misunderstanding ever [arise]?|어쩌다 이런 오해가 생긴 거야?|T38765
+3306|I want you to meet my [cousin].|내 사촌 소개해 줄게.|T250209
+3307|Please [board] the plane at Gate 15.|15번 게이트에서 탑승해 주세요.|D
+3309|I don't like green [peas].|난 완두콩 싫어.|T6270833
+3310|It's within the [realm] of possibility.|충분히 가능한 범위 안에 있어.|T11553269
+3311|Well, the [cultural] differences impressed me most.|음, 문화 차이가 가장 인상 깊었어.|D
+3312|Thank you for your [inquiry].|문의해 주셔서 감사합니다.|D
+3314|Do you know the [lyrics] to this song?|이 노래 가사 알아?|T1896372
+3315|I'm sorry for spilling my drink on your [rug].|네 러그에 음료를 쏟아서 미안해.|D
+3316|I have a [rash] on my neck.|목에 발진이 났어.|T266127
+3317|I'm certain your intentions are [honorable].|당신 의도가 떳떳하다는 건 확실히 알아요.|T7222281
+3318|The car is waxed and [shiny].|차가 왁스 칠이 돼서 반짝반짝해.|T12420124
+3320|I left my [briefcase] on the bus.|버스에 서류 가방을 두고 내렸어.|T554211
+3322|I play [trumpet] in the school band.|난 학교 밴드에서 트럼펫을 불어.|T2389872
+3323|He was [exiled] from his own country.|그는 조국에서 추방당했어.|T296172
+3324|My [jeep] got stuck in the mud.|내 지프차가 진흙에 빠졌어.|T8382824
+3327|You need to have strong [thigh] muscles to skate.|스케이트를 타려면 허벅지 근육이 튼튼해야 해.|T52035
+3328|We had an [unpleasant] experience there.|우린 거기서 불쾌한 일을 겪었어.|T262527
+3329|Perhaps I need to control my [jealousy].|아마 내가 질투심을 좀 다스려야 할 것 같아.|D
+3330|I'll throw you a [stag] party.|내가 총각 파티 열어 줄게.|T3730244
+3331|I'm sorry to [barge] in like this.|이렇게 불쑥 끼어들어서 미안해.|T3727109
+3332|This paper [absorbs] water so quickly!|이 종이는 물을 정말 빨리 흡수하네!|D
+3333|I can hear [sadness] in your voice.|네 목소리에서 슬픔이 느껴져.|T3722127
+3335|I think it's some kind of [cult].|그거 무슨 사이비 종교 같아.|T12382313
+3336|We need to try a different [tactic].|다른 작전을 써 봐야겠어.|T9251136
+3337|Where should I put the [tray]?|쟁반은 어디에 둘까요?|T4117147
+3338|A molecule is made up of [atoms].|분자는 원자로 이루어져 있어.|T681505
+3339|Did you get a job right after [graduation]?|졸업하자마자 취직했어?|D
+3340|The [villagers] were kind to their visitors.|마을 사람들은 손님들에게 친절했어.|T274596
+3341|Well, that was an interesting [documentary]!|와, 재미있는 다큐멘터리였다!|D
+3342|How did you get to the [stadium]?|경기장에 어떻게 갔어?|T19277
+3343|I'll go [regardless] of the weather.|날씨에 상관없이 갈 거야.|T9485018
+3344|[Organic] food is usually more expensive.|유기농 식품은 보통 더 비싸.|T559858
+3345|Do you still enjoy watching [cartoons]?|아직도 만화 보는 거 좋아해?|T6774541
+3346|Can you help me install this [software]?|이 소프트웨어 설치하는 것 좀 도와줄래?|T4873725
+3348|Why don't you stay [awhile]?|잠깐 있다 가지 그래?|T7355948
+3349|Yes, he's breathing, but he's not [conscious]!|숨은 쉬는데 의식이 없어!|D
+3350|You didn't do that [deliberately], did you?|일부러 그런 건 아니지?|T6241393
+3351|Is it ethical to [clone] humans?|인간을 복제하는 게 윤리적일까?|T11856920
+3352|I think a still more desirable benefit is [psychological].|더 바람직한 이점은 심리적인 면인 것 같아요.|D
+3354|Do they have any [grandchildren]?|그분들 손주 있어?|D
+3355|Are you more of a leader or a [follower]?|넌 이끄는 쪽이야, 따라가는 쪽이야?|D
+3356|One of your shoes is [untied].|너 신발 한 짝 끈 풀렸어.|T9668434
+3357|Hey, [buster], get out of my seat!|이봐, 내 자리에서 비켜!|self
+3358|I need to call a [tow] truck.|견인차를 불러야 해.|T6531508
+3359|What does the company [mainly] do?|그 회사는 주로 뭘 해?|D
+3360|I've never been in a [submarine].|난 잠수함에 타 본 적이 없어.|T5937880
+3361|See you back at the [precinct].|경찰서에서 보자.|T3821411
+3363|You should practice what you [preach].|남한테 하라는 대로 너도 해야지.|T10509450
+3364|[Swiss] chocolate really melts in your mouth.|스위스 초콜릿은 정말 입에서 살살 녹아.|T327052
+3365|I used to be a good [boxer].|나 예전엔 꽤 잘하는 권투 선수였어.|T5859834
+3366|The columns were made of [marble].|기둥은 대리석으로 만들어졌어.|T9974427
+3367|Do you want to be a [millionaire]?|백만장자가 되고 싶어?|D
+3368|The fox hid in the [hollow] tree.|여우가 속이 빈 나무 안에 숨었어.|T63325
+3369|Tom is a goal [keeper].|톰은 골키퍼야.|T5422324
+3370|I never [concealed] anything from you.|난 너한테 뭘 숨긴 적이 없어.|T1334596
+3371|The alarm has been [disabled].|경보 장치가 해제됐어.|T8524468
+3372|[Parliament] approved the new law last week.|의회가 지난주에 새 법을 통과시켰어.|T681694
+3373|It was a sight to [behold].|정말 볼 만한 광경이었어.|T9933869
+3374|You're now among the [elite].|넌 이제 엘리트 반열에 들었어.|T8332970
+3375|You can't afford to [neglect] your health.|건강을 소홀히 해서는 안 돼.|T16048
+3376|We pushed ahead despite the [obstacles].|우린 장애물에도 불구하고 밀고 나갔어.|T248891
+3377|Wait, you love [salmon], don't you?|잠깐, 너 연어 좋아하잖아, 그렇지?|D
+3378|Something [bizarre] happened to me last week.|지난주에 나한테 기이한 일이 있었어.|T4499129
+3379|You shouldn't work or use any equipment which requires [concentration].|집중력이 필요한 일을 하거나 기계를 다루면 안 돼요.|D
+3380|Please keep this information [confidential].|이 정보는 기밀로 해 주세요.|T13572495
+3381|It's time you had a [dose] of your medicine.|약 먹을 시간이야.|T31143
+3382|Who has [initiated] this?|누가 이걸 시작했어?|T3298171
+3383|Are you questioning my [integrity]?|지금 내 진실성을 의심하는 거야?|T3142957
+3384|I tell you I [despise] that man.|정말이지 난 그 남자를 경멸해.|T10910355
+3386|I'm not [mentally] prepared for that.|난 그거에 대해 마음의 준비가 안 됐어.|T6481242
+3387|She played the piano [beautifully].|그녀는 피아노를 아름답게 쳤어.|T312038
+3388|I bet she's very tall and [slim].|그 여자 분명 키 크고 날씬할 거야.|D
+3389|I would prefer any alternative to a [lawsuit].|소송만 아니면 어떤 방법이든 좋아.|T259161
+3390|I cut myself with a [razor].|면도칼에 베였어.|T2497792
+3391|How many were there [altogether]?|전부 합해서 몇 개였어?|T3731480
+3392|Have you seen the Grand [Canyon]?|그랜드 캐니언 가 봤어?|T2258248
+3393|I like this [blend] of coffee.|난 이 커피 블렌드가 좋아.|T253532
+3394|But the competition is [fierce] this year...|그런데 올해는 경쟁이 치열해...|D
+3395|It wasn't my [intent] to betray you.|널 배신하려던 건 아니었어.|T9934192
+3397|My [GPS] works very well.|내 GPS는 아주 잘 돼.|T1454078
+3398|I hope my car passes [inspection].|내 차가 검사를 통과하면 좋겠어.|T4499396
+3399|Your question isn't [relevant] to the subject.|네 질문은 주제와 관련이 없어.|T7492995
+3401|It's got a little [Mafia] story to it.|거기엔 마피아 이야기가 좀 얽혀 있어.|D
+3402|I'm glad that this hotel strives to keep its reputation [intact].|이 호텔이 명성을 온전히 지키려고 애써서 다행이야.|D
+3403|Not every day, but [occasionally].|매일은 아니고 가끔.|D
+3404|Your chair is [identical] to mine.|네 의자는 내 거랑 똑같아.|T17420
+3405|I'm a visiting [scholar].|저는 방문 학자예요.|D
+3406|The previous [tenant] just moved out yesterday.|전 세입자가 어제 막 이사 나갔어요.|D
+3407|I think I like [classical] music better.|난 클래식 음악이 더 좋은 것 같아.|D
+3408|I'm just trying to be [consistent].|난 그냥 일관성 있게 하려는 거야.|T7112231
+3409|I've been getting [harassing] calls recently.|요즘 괴롭힘 전화가 계속 와.|D
+3410|Okay, I will take it into [consideration].|알겠어, 그것도 고려해 볼게.|D
+3411|Honey, just turn down the [stove].|여보, 가스레인지 불 좀 줄여 줘.|D
+3412|I think that's a [legitimate] question.|그건 정당한 질문이라고 생각해.|T6884294
+3413|I don't understand this [obsession] of yours.|너의 이 집착이 이해가 안 돼.|T4846647
+3414|I think videogames are [warping] our kids' minds.|비디오 게임이 우리 애들 생각을 비뚤어지게 만드는 것 같아.|T2966764
+3415|I went snorkeling in a beautiful coral [reef].|아름다운 산호초에서 스노클링을 했어.|T709100
+3416|There's [mold] on the wall.|벽에 곰팡이가 피었어.|T9942709
+3418|The boy [peeped] in at the window.|소년이 창문으로 안을 엿봤어.|T46319
+3420|The [moonlight] reflected on the lake.|달빛이 호수에 비쳤어.|T238785
+3421|Don't confuse [comets] and asteroids.|혜성이랑 소행성을 헷갈리지 마.|T1169885
+3422|I have a [granddaughter] about your age.|나한테 너만 한 손녀가 있어.|T2358730
+3423|I [gazed] at the sea for hours.|난 몇 시간 동안 바다를 바라봤어.|T24553
+3424|Did you look in the [attic]?|다락방은 찾아봤어?|D
+3425|Have you ever ridden a [mule]?|노새 타 본 적 있어?|T1887003
+3426|Newspapers lay [scattered] all over the floor.|신문이 바닥에 온통 흩어져 있었어.|T268100
+3427|It has [sentimental] value.|그건 추억이 담긴 물건이야.|T2973577
+3428|I'm not one to hold a [grudge].|난 원한을 품는 사람이 아니야.|T9153911
+3429|I'm afraid she will [scold] me.|그녀가 나를 혼낼까 봐 걱정이야.|D
+3430|We [import] a lot from other countries.|우린 다른 나라에서 많이 수입해.|D
+3434|I just like the [pier] they have at Santa Monica.|난 그냥 산타모니카에 있는 부두가 좋아.|D
+3435|Should I have my tooth [extracted]?|이를 뽑아야 할까요?|T282729
+3436|We all grew up in the same [orphanage].|우린 모두 같은 고아원에서 자랐어.|T10566706
+3437|Do you know much about [photography]?|사진 찍는 거 좀 알아?|D
+3438|I hope I didn't say anything [inappropriate].|내가 부적절한 말을 안 했으면 좋겠는데.|T8078616
+3439|It's a pleasure to make your [acquaintance].|알게 되어 반갑습니다.|T3722170
+3440|I try to lead a healthy [lifestyle].|난 건강한 생활 방식을 유지하려고 해.|T10130948
+3441|This machine was [manufactured] in France.|이 기계는 프랑스에서 제조됐어.|T57457
+3442|I'm a [sinner], too.|나도 죄인이야.|T6372689
+3443|Please take some fruit salad and [crackers] for me.|과일 샐러드랑 크래커 좀 가져다줘.|D
+3444|Let's see what the [interior] looks like.|안이 어떻게 생겼는지 보자.|D
+3445|Who's your primary [physician]?|주치의가 누구세요?|T2954195
+3446|There is a [chapel] on the hill.|언덕 위에 예배당이 있어.|T10107344
+3447|You [desperately] need a vacation.|너 정말 휴가가 절실하다.|T3122662
+3448|I've never been good at [riddles].|난 수수께끼를 한 번도 잘 푼 적이 없어.|T2359991
+3449|[Nazi] Germany surrendered in 1945.|나치 독일은 1945년에 항복했어.|T10132942
+3451|What do you do when you're [frustrated]?|넌 짜증 날 때 뭐 해?|T10739099
+3452|The glass bowl broke into tiny [fragments].|유리 그릇이 산산조각 났어.|T63531
+3454|I helped build the sets and find [props] for the plays.|연극 무대 세트 만들고 소품 찾는 걸 도왔어.|D
+3455|Air conditioning makes me [sneeze].|에어컨 바람 때문에 재채기가 나.|D
+3456|Can I get another [scoop] of ice cream?|아이스크림 한 스쿱 더 먹어도 돼?|T9511667
+3457|My grandfather [founded] this company.|우리 할아버지가 이 회사를 세우셨어.|self
+3458|It's nothing that I can't [cope] with.|내가 감당 못 할 일은 아니야.|T3724248
+3459|I thank the [Lord] every day.|난 매일 주님께 감사드려.|T5738229
+3460|It was a [delightful] evening.|정말 즐거운 저녁이었어.|T4853342
+3461|I enjoy [intellectual] conversations.|난 지적인 대화를 좋아해.|T277055
+3462|Pharaohs were the [rulers] of ancient Egypt.|파라오는 고대 이집트의 통치자였어.|T7870178
+3463|How did you get started in [wrestling]?|레슬링은 어떻게 시작하게 됐어?|T5851601
+3464|I need to [regain] my strength.|기운을 되찾아야 해.|T7112788
+3465|Keep your eyes closed; don't [peek].|눈 감고 있어, 엿보지 마.|D
+3466|I don't want to clean up dog [poop].|개똥 치우기 싫어.|T8382119
+3467|I feel [emotionally] drained.|감정적으로 지쳤어.|T7538144
+3468|Then, add two [ounces] of milk.|그다음에 우유 2온스를 넣어.|D
+3469|Let me tell you an [amusing] story.|재미있는 이야기 하나 해 줄게.|T9314799
+3470|Do you drive a manual or [automatic]?|수동 차 몰아, 자동 차 몰아?|T2601399
+3471|The [kidnappers] want $300,000 in small bills.|납치범들이 소액권으로 30만 달러를 요구하고 있어.|T12103377
+3472|That would just be an [unnecessary] expense.|그건 그냥 불필요한 지출일 거야.|T11473794
+3473|You're not [authorized] to be here.|당신은 여기 들어올 권한이 없어요.|T2540722
+3475|Where can I throw these egg [shells]?|이 달걀 껍데기는 어디에 버려?|T5134187
+3476|Oh, then when do you celebrate [Easter]?|아, 그럼 부활절은 언제 쇠?|D
+3477|Have you ever seen a [hurricane]?|허리케인 본 적 있어?|D
+3478|It isn't [visible] to the naked eye.|그건 맨눈으로는 안 보여.|T11103044
+3479|I was entirely [ignorant] of the matter.|난 그 일에 대해 전혀 몰랐어.|T254137
+3480|The camera moves on a [dolly] for this shot.|이 장면에서는 카메라가 돌리를 타고 움직여.|self
+3481|Have you been drinking my [rum]?|너 내 럼주 마셨어?|T12191745
+3482|He found [salvation] in his faith.|그는 신앙에서 구원을 찾았어.|self
+3483|The time has come for you to play your [trump] card.|이제 네 비장의 카드를 꺼낼 때가 됐어.|T17296
+3484|The website was down for [maintenance].|웹사이트가 점검 때문에 접속이 안 됐어.|T1437507
+3485|The doctor [instructed] me to go on a diet.|의사가 나한테 다이어트를 하라고 지시했어.|T27980
+3486|There is a heavy tax on [tobacco].|담배에는 세금이 많이 붙어.|T40679
+3487|How far can you swim [underwater]?|물속에서 얼마나 멀리 헤엄칠 수 있어?|T9733116
+3488|The dog [retrieved] the ball.|개가 공을 물어 왔어.|T8113213
+3489|Can you tell me something about [yoga]?|요가에 대해 좀 알려 줄래?|D
+3490|Don't be so [modest].|너무 겸손 떨지 마.|D
+3491|The war is [essentially] over.|전쟁은 사실상 끝났어.|T1474587
+3493|This [berry] is good to eat.|이 베리는 먹어도 돼.|T58802
+3494|What a bunch of [jokers]!|정말 웃기는 놈들이네!|T12116863
+3495|There is a [subtle] difference between the two words.|두 단어 사이에는 미묘한 차이가 있어.|T50727
+3496|Iron [transmits] heat well.|철은 열을 잘 전달해.|T278751
+3497|Can you bend your [pinky] without bending your ring finger?|약지는 안 굽히고 새끼손가락만 굽힐 수 있어?|T11228598
+3499|Would you mind waiting in the [lounge] for 10 minutes?|라운지에서 10분만 기다려 주시겠어요?|D
+3500|My [hens] laid fewer eggs last year.|작년엔 우리 암탉들이 알을 덜 낳았어.|T250412
+3501|I saw my [reflection] in the mirror.|거울에 비친 내 모습을 봤어.|T2406080
+3502|You shouldn't [impose] your opinion on others.|남한테 네 의견을 강요하면 안 돼.|T264646
+3504|Hi, I'm the [superintendent] of this building.|안녕하세요, 이 건물 관리인입니다.|D
+3506|The pass was [intercepted].|패스를 가로채였어.|T6837680
+3507|Can I borrow your tennis [racket] today?|오늘 네 테니스 라켓 좀 빌려도 돼?|T243020
+3508|We are sick and tired of political [corruption].|정치 부패에 진절머리가 나.|T271368
+3509|These [kittens] are so cute and cuddly.|이 새끼 고양이들 정말 귀엽고 포근해.|T3634036
+3510|Have you bought a [burial] plot and a casket?|매장지랑 관은 사셨어요?|D
+3511|What was the [outcome] of the election?|선거 결과는 어떻게 됐어?|T273533
+3512|We have no way to [verify] this.|이걸 확인할 방법이 없어.|T5238196
+3513|There's a white [dove] on the roof.|지붕 위에 흰 비둘기가 있어.|T1499943
+3514|Which [carrier] are you flying with?|어느 항공사 비행기 타고 가?|self
+3515|There's no right or wrong way to [grieve].|슬퍼하는 데 옳고 그른 방법은 없어.|T3662516
+3516|We're going to have to [postpone] the meeting.|회의를 미뤄야 할 것 같아.|D
+3517|My dad was a soldier, but now he's a [civilian].|우리 아빠는 군인이었는데 지금은 민간인이야.|self
+3518|I enjoyed the [voyage] across the Pacific.|태평양을 건너는 항해가 즐거웠어.|T259281
+3519|What are you [crunching] on?|뭘 그렇게 아작아작 씹고 있어?|T36290
+3520|Are you looking for [housing] for this semester?|이번 학기에 지낼 집 구하고 있어?|D
+3521|I didn't know you were so [ambitious].|네가 그렇게 야심 있는 줄 몰랐어.|T2314979
+3522|He has made [rapid] progress in English.|그는 영어 실력이 빠르게 늘었어.|T293996
+3523|Thank you for your [guidance].|지도해 주셔서 감사합니다.|T3732739
+3524|I love flowers and [hence] have taken to growing them.|난 꽃을 좋아해서 직접 키우기 시작했어.|D
+3525|The players [scrambled] for the ball.|선수들이 공을 잡으려고 우르르 달려들었어.|T273557
+3526|It was [inevitable] that this would happen.|이런 일은 피할 수 없었어.|T9870909
+3527|We need to change your [bandage].|붕대 갈아야 해요.|T3313150
+3528|I heard that you bought a [yacht].|너 요트 샀다며.|T9247091
+3530|We agreed that the [deadline] was next Friday.|마감은 다음 주 금요일로 합의했잖아요.|D
+3531|Where is your [fiancée]?|네 약혼녀는 어디 있어?|T8625330
+3532|He said he saw a [phantom] in the old house.|걔가 그 낡은 집에서 유령을 봤대.|self
+3533|It was an [impulse] buy.|충동구매였어.|T3150681
+3534|They [defied] the laws of the king.|그들은 왕의 법을 거역했어.|T306206
+3535|The teacher [distributed] the question papers.|선생님이 시험지를 나눠 줬어.|T273072
+3536|My uncle served in the [Marines].|우리 삼촌은 해병대에서 복무했어.|self
+3537|Which [regiment] were you in?|어느 연대에 있었어?|T12179211
+3538|You should learn to [restrain] yourself.|자제하는 법을 배워야 해.|T16033
+3539|The [sewer] line is clogged.|하수관이 막혔어.|T11607375
+3540|I want coffee, toast, and [jelly].|커피랑 토스트, 잼 주세요.|T2267116
+3541|I quit my job as a food [critic].|음식 평론가 일 그만뒀어.|D
+3542|It gives me a real sense of [satisfaction].|진짜 만족감이 들어.|D
+3543|London is such a [historical] city!|런던은 정말 역사적인 도시야!|D
+3544|I'm just trying to [uncover] the truth.|난 그냥 진실을 밝혀내려는 거야.|T3724303
+3545|To my great [disappointment], she didn't come.|정말 실망스럽게도 그녀는 오지 않았어.|T71933
+3546|Green apples are too [sour] for me.|풋사과는 나한테 너무 시어.|D
+3547|Are we allowed to express ourselves [freely]?|우리 자유롭게 의견을 말해도 돼?|T9767480
+3548|That is quite an [achievement]!|그거 정말 대단한 성과다!|D
+3549|I think the [supermarket] is closed now.|지금 슈퍼마켓 문 닫았을 것 같아.|D
+3550|It's not a crow. It's a [raven].|그건 까마귀가 아니야. 큰까마귀야.|T2684381
+3551|Is it really necessary to wear all this [protective] gear?|이 보호 장비를 다 꼭 입어야 해?|D
+3552|Basset [hounds] are gentle dogs.|바셋 하운드는 순한 개야.|T681073
+3553|Are there seats on another [airline]?|다른 항공사에 자리 있어요?|D
+3554|I felt a burning [sensation] all over.|온몸이 화끈거리는 느낌이 들었어.|T273775
+3555|Oh, you look [stunning].|와, 너 정말 멋지다.|D
+3556|The movie was really [suspenseful].|그 영화 정말 조마조마했어.|self
+3557|What tips did your [trainer] give you?|트레이너가 무슨 팁 줬어?|D
+3558|Come on, I'll buy you a [pint].|가자, 맥주 한 잔 살게.|T8883939
+3559|The [pasta] is very good here.|여기 파스타 정말 맛있어.|D
+3561|No, it just [itches] a lot.|아니, 그냥 엄청 가려워.|D
+3562|We hit it off [instantly].|우리 바로 죽이 맞았어.|D
+3564|This place gives me a really bad [vibe].|이곳은 느낌이 정말 안 좋아.|T592488
+3566|You must be [exaggerating].|너 과장하는 거지.|D
+3567|Can't we just [stroll] around the park?|그냥 공원 산책하면 안 돼?|T5078432
+3568|I don't like being [interrogated].|취조당하는 거 싫어.|T2276089
+3570|Your price has gone up [sharply], hasn't it?|가격이 급격히 올랐네요, 그렇죠?|D
+3571|Don't forget to take your [meds].|약 먹는 거 잊지 마.|T9740726
+3572|Do you have a [superhero] costume?|슈퍼히어로 의상 있어?|T7131706
+3574|It's a [magnetic] key.|그건 자석 열쇠야.|T8957743
+3575|I don't want to be [tackled].|태클당하기 싫어.|D
+3576|I'll put the [survey] online this afternoon.|오늘 오후에 설문 조사 온라인에 올릴게.|D
+3577|We have to look into the [disappearance] of the doctor.|그 의사의 실종을 조사해야 해.|T49638
+3578|Purity is the [essence] of good coffee, right?|순수함이 좋은 커피의 본질이지?|D
+3580|The story and acting were [outstanding].|스토리랑 연기가 뛰어났어.|D
+3581|That [wardrobe] looks quite big.|저 옷장 꽤 커 보인다.|D
+3582|There's a [lump] on my head.|머리에 혹이 났어.|self
+3583|Oh, you don't usually have a [starter]?|아, 보통 애피타이저는 안 먹어?|D
+3584|Are you going to eat that [cupcake]?|그 컵케이크 먹을 거야?|T1847854
+3585|Put some [grease] on the wheel. It squeaks.|바퀴에 기름 좀 발라. 삐걱거려.|T3045723
+3586|Grab a [handful] of popcorn.|팝콘 한 줌 집어.|T12336574
+3587|Can you recommend some local [attractions]?|이 지역 명소 좀 추천해 주실래요?|D
+3588|We saw the [tower] in the distance.|멀리 탑이 보였어.|T25827
+3589|We have many things to be [thankful] for.|우리는 감사할 일이 많아.|T2912108
+3591|This is a good opportunity for [investors].|투자자들에게 좋은 기회야.|T11642172
+3592|Will you help me [unload] the truck?|트럭 짐 내리는 것 좀 도와줄래?|T9844652
+3594|Do I have to pay an [additional] fare to change trains?|기차 갈아타려면 추가 요금 내야 해요?|D
+3595|This bride is covering her face with a [veil].|이 신부는 면사포로 얼굴을 가리고 있어.|T680592
+3596|I have to use a needle to [inject] this under your skin.|이거 바늘로 피부 밑에 주사해야 해요.|T9849509
+3597|Until now I've never used an [axe].|지금까지 도끼를 써 본 적이 없어.|T1435603
+3598|[Reckless] driving will lead to an accident.|난폭 운전은 사고로 이어져.|T240640
+3599|It looks pretty [frightening].|꽤 무서워 보여.|D
+3600|I just took a [glance].|그냥 흘끗 봤어.|D
+3602|Let's start with a simple [premise].|간단한 전제에서 시작하자.|T5725978
+3604|This chocolate cake tastes [heavenly].|이 초콜릿 케이크 천국의 맛이야.|self
+3607|I couldn't [anticipate] that that would happen.|그런 일이 생길 줄은 예상 못 했어.|T2451993
+3608|The campfire [blazed] all night long.|모닥불이 밤새 활활 탔어.|self
+3609|Come back into the [classroom], class.|여러분, 교실로 돌아오세요.|D
+3610|We should cut him some [slack].|걔 좀 봐주자.|D
+3611|We found strange [footprints] in the snow.|눈 위에서 이상한 발자국을 발견했어.|T12203697
+3612|How much will the [toll] be?|통행료가 얼마나 나올까?|T7126469
+3613|Well, I felt like baking, so I made some [muffins].|빵이 굽고 싶어서 머핀 좀 만들었어.|D
+3617|I'm a [respectable] businessman.|난 품위 있는 사업가야.|T1966490
+3618|Does a [lid] come with this pan?|이 팬에 뚜껑도 같이 있어요?|D
+3619|Why didn't your dog bark at the [intruder]?|너희 개는 왜 침입자한테 안 짖었어?|T7984809
+3620|That sounds like [treason] to me.|내가 듣기엔 반역 같은데.|T4984303
+3621|The baby bottle needs a new [nipple].|젖병 꼭지를 새로 바꿔야 해.|self
+3622|Listen, [missy], it's time for bed.|이봐, 아가씨, 이제 잘 시간이야.|self
+3623|I don't want to [depress] you.|널 우울하게 하고 싶지 않아.|T7283062
+3625|May I inquire about the [departure] time?|출발 시간 좀 여쭤봐도 될까요?|D
+3626|Have you had any [nursing] experience?|간호 경험 있으세요?|D
+3627|A [tramp] is rummaging through the garbage can.|떠돌이 한 명이 쓰레기통을 뒤지고 있어.|T10715864
+3628|I felt like an [outsider] there.|거기서 나는 외부인 같은 기분이었어.|T10085733
+3629|The two sides signed a peace [treaty].|양측이 평화 조약에 서명했어.|T805472
+3630|Okay, I will go and get some [popcorn] first.|좋아, 먼저 가서 팝콘 좀 사 올게.|D
+3631|The mood in the [courtroom] was tense.|법정 안 분위기가 긴장됐어.|T5386961
+3632|It would be [pointless] to do that.|그렇게 해 봐야 소용없을 거야.|T9809747
+3633|[Loosen] the screws and remove the lamp cover.|나사를 풀고 전등 덮개를 빼.|T504659
+3634|I'm in law [enforcement].|난 법 집행 기관에서 일해.|T2546581
+3635|A nail [penetrated] the car tire.|못이 자동차 타이어를 뚫었어.|T394692
+3636|Things around here have been changing [rapidly].|이 근처는 빠르게 변하고 있어.|T10470894
+3637|Clogged [arteries] can cause heart attacks.|막힌 동맥은 심장마비를 일으킬 수 있어.|T11607384
+3638|I have a [workshop] in my garage.|우리 차고에 작업장이 있어.|T6664351
+3639|Oh, you are so [efficient].|와, 너 정말 효율적이다.|D
+3640|The injured dog was [licking] its wounds.|다친 개가 상처를 핥고 있었어.|T10539732
+3641|You really made a big [contribution] to our company.|우리 회사에 정말 큰 기여를 하셨어요.|D
+3642|A [queer] person is not a conversation piece.|퀴어인 사람은 이야깃거리가 아니야.|T6121957
+3643|I can't check my mail. The [server] is down.|메일 확인이 안 돼. 서버가 다운됐어.|T54206
+3644|I think this is totally [outrageous].|이건 정말 너무하다고 생각해.|T7110932
+3645|She is [gracious] to everyone.|그녀는 모두에게 친절해.|T315735
+3646|First, I need a letter of [recommendation].|먼저 추천서가 필요해요.|D
+3647|The flowers were [swaying] in the wind.|꽃들이 바람에 흔들리고 있었어.|T2268140
+3649|Your [finch] has escaped.|네 되새가 도망갔어.|T12074533
+3650|Beethoven was a [legendary] composer.|베토벤은 전설적인 작곡가였어.|T10943256
+3651|I want you to [hustle].|서둘러 줬으면 해.|T9943944
+3652|What is your current [occupation]?|현재 직업이 뭐예요?|D
+3653|I live in a small [shack] near the river.|난 강가의 작은 판잣집에 살아.|T8559970
+3654|A chill ran down my [spine].|등골이 오싹했어.|T9464412
+3655|Just wait in the [terminal] for twenty more minutes.|터미널에서 20분만 더 기다려.|D
+3657|You have been a great [mentor] to me.|당신은 제게 훌륭한 멘토였어요.|T20144
+3658|We joined in on the [chorus].|우리도 후렴을 같이 불렀어.|T248424
+3659|I need some [info] on car loans.|자동차 대출 정보가 좀 필요해요.|D
+3660|Do you mind if I [vent] a little bit?|나 좀 하소연해도 돼?|D
+3661|The diamond [sparkled] in the sunlight.|다이아몬드가 햇빛에 반짝였어.|T9972066
+3662|It was [utter] chaos.|완전 난장판이었어.|D
+3663|My driving [instructor] says I should be more patient.|운전 강사가 나더러 좀 더 참을성을 가지래.|T19004
+3664|He forgot to bring his homework, so he got [detention].|걔 숙제를 안 가져와서 방과 후에 남게 됐어.|T800851
+3665|You must not [yield] to temptation.|유혹에 굴복하면 안 돼.|T324512
+3666|Did you go to the art [exhibition]?|미술 전시회 갔었어?|T318171
+3667|I need you to help me [tidy] up a bit.|정리하는 것 좀 도와줘.|D
+3668|Please don't take this [lightly].|이걸 가볍게 여기지 마세요.|T2276692
+3669|Trespassers will be [prosecuted].|무단 침입자는 기소됩니다.|T2718494
+3670|The birds flew in a V [formation].|새들이 V자 대형으로 날아갔어.|self
+3671|My [remarks] were not aimed at you.|내 말은 너한테 한 게 아니었어.|T250828
+3672|[Incoming] mail can be sorted by name, date, or title.|받은 메일은 이름, 날짜, 제목순으로 정렬할 수 있어.|T5270123
+3673|Make sure you buy me a [souvenir]!|꼭 기념품 사 와!|D
+3674|It was a great [boost] to the economy.|그게 경제에 큰 활력이 됐어.|T11589152
+3675|I want to move to the [countryside].|시골로 이사 가고 싶어.|T3825543
+3676|Some mushrooms can be [lethal] if you eat them.|어떤 버섯은 먹으면 치명적일 수 있어.|self
+3677|I am a [rookie] in our office.|난 우리 사무실 신참이야.|D
+3678|Do you have any [identification]?|신분증 있으세요?|D
+3679|We should sometimes [pause] to think.|가끔은 멈춰서 생각해야 해.|T28833
+3680|I thought we got [disconnected].|전화 끊긴 줄 알았어.|T2618638
+3681|They're [constructing] a bridge over the river.|강 위에 다리를 짓고 있어.|T273182
+3682|Do [slugs] die if you put salt on them?|민달팽이에 소금 뿌리면 죽어?|T2484548
+3683|I'd like to apply for a [visa].|비자를 신청하고 싶어요.|T1936565
+3684|We formed a [partnership] to open a café.|우리는 카페를 열려고 동업을 시작했어.|self
+3685|There are different [definitions] of democracy.|민주주의에는 여러 가지 정의가 있어.|T8416158
+3687|What's the best cure for [loneliness]?|외로움을 달래는 가장 좋은 방법이 뭐야?|T4014705
+3688|I couldn't help but [overhear] your conversation.|본의 아니게 대화를 듣게 됐어요.|T2308246
+3689|There's a beauty [salon] next to the station.|역 옆에 미용실이 있어.|T10918351
+3690|This is an [epic] novel.|이건 대하소설이야.|T1841221
+3691|I will [gladly] help you.|기꺼이 도와드릴게요.|T20664
+3692|I'm being charged with a [felony].|나 중범죄 혐의를 받고 있어.|D
+3693|I tried to [shield] you from this.|이 일로부터 널 보호하려고 했어.|T8017981
+3694|You need to change your air [filter].|공기 필터 갈아야 해.|T4496393
+3695|Would you please fill in this [registration] form?|이 등록 신청서 좀 작성해 주시겠어요?|D
+3696|I can't lift this [crate] by myself.|이 상자 혼자서는 못 들겠어.|T6662967
+3697|Equality is guaranteed by the [Constitution].|평등은 헌법으로 보장돼.|T320163
+3699|Some people went [looting] because of the blackout.|정전 때문에 약탈하러 나간 사람들이 있었어.|D
+3700|He acted like a [madman].|걔 미친 사람처럼 굴었어.|T295368
+3701|I drew a picture of a [spaceship].|우주선 그림을 그렸어.|T5859703
+3702|My uncle is a [veteran] of the Vietnam War.|우리 삼촌은 베트남전 참전 용사야.|T251175
+3703|But I'd like a [facial] massage.|그래도 얼굴 마사지는 받고 싶어요.|D
+3704|So what do they do to you at your beauty [spa]?|그래서 네가 다니는 스파에서는 뭘 해 줘?|D
+3705|Are you really a [bounty] hunter?|너 진짜 현상금 사냥꾼이야?|T8999146
+3706|You're a very good [batter].|넌 정말 좋은 타자야.|T6267018
+3707|May I apply for [asylum]?|망명을 신청할 수 있을까요?|T3826501
+3708|Forgive me for being [blunt].|직설적으로 말해서 미안해.|T7715409
+3710|My grandfather never talked about the [battlefield].|우리 할아버지는 전쟁터 이야기를 한 번도 안 하셨어.|self
+3712|How was the [carnival]?|축제 어땠어?|T11933137
+3713|[Nevertheless], I won't give up.|그럼에도 불구하고 난 포기하지 않을 거야.|T11690915
+3715|The [portions] are huge at this restaurant.|이 식당은 1인분 양이 엄청나.|T2300579
+3716|Prices have been [slashed].|가격이 대폭 깎였어.|T5744700
+3717|I always have the [temptation] to eat something there.|거기만 가면 늘 뭔가 먹고 싶은 유혹이 생겨.|D
+3718|Why are you wearing those [handcuffs]?|왜 수갑을 차고 있어?|T3731550
+3719|I think you may have [overlooked] something.|뭔가 간과하신 것 같아요.|T4663477
+3720|I saw a dog with one [paw] bandaged.|한쪽 발에 붕대를 감은 개를 봤어.|T261637
+3721|[Supposedly] it's going to rain soon.|곧 비가 온다던데.|T10136095
+3722|My car is at your [disposal].|내 차 마음대로 써.|T251074
+3723|The show lost a lot of [viewers] this year.|그 프로그램은 올해 시청자가 많이 줄었어.|self
+3724|That's very [thoughtful] of you.|정말 사려 깊으시네요.|D
+3725|I suffer from carpal tunnel [syndrome].|나 손목 터널 증후군 있어.|T10922959
+3726|The [fortress] was truly impenetrable.|그 요새는 정말 난공불락이었어.|T10284528
+3727|My [employer] cut back on my hours.|고용주가 내 근무 시간을 줄였어.|D
+3728|Why are you acting so [childish]?|왜 그렇게 유치하게 굴어?|T7737019
+3730|This ladder looks a little [unstable].|이 사다리 좀 불안정해 보여.|self
+3732|The museum has many [nude] statues.|그 박물관에는 나체 조각상이 많아.|self
+3733|First, change your shoes to [slippers].|먼저 신발을 슬리퍼로 갈아 신어.|D
+3734|[Roger] that, we're on our way.|알았다, 지금 가는 중이다.|self
+3735|I'm [amazed] at your fluency in English.|네 영어가 너무 유창해서 놀랐어.|T17315
+3736|I didn't mean any [disrespect].|무례하게 굴려던 건 아니었어.|T2275887
+3737|Music is a [universal] language.|음악은 보편적인 언어야.|T370583
+3738|A [drunken] man was sleeping on the bench.|술 취한 남자가 벤치에서 자고 있었어.|T270974
+3740|They hid in the [bunker] during the storm.|폭풍이 치는 동안 그들은 지하 대피호에 숨었어.|self
+3741|Don't expose this [chemical] to direct sunlight.|이 화학 물질은 직사광선에 두지 마.|T56552
+3742|I can't forgive his [betrayal].|걔 배신은 용서 못 해.|self
+3744|I saw a [doe].|암사슴을 봤어.|T10808868
+3745|I don't want [pickles] on my sandwich.|샌드위치에 피클 넣지 마세요.|T8009423
+3746|Snow White lived with seven [dwarfs].|백설 공주는 일곱 난쟁이와 함께 살았어.|self
+3748|I like [exotic] foods.|난 이국적인 음식을 좋아해.|T5684352
+3749|I agree with you to some [extent].|어느 정도는 네 말에 동의해.|T67189
+3750|We have a very wide [selection] of colors.|색상이 아주 다양하게 준비돼 있어요.|D
+3751|You're [distorting] my words.|내 말을 왜곡하고 있잖아.|T9496896
+3752|With [shipping] charges, your total will be 68 dollars.|배송비 포함해서 총 68달러입니다.|D
+3753|Do you have any whole [wheat] bread?|통밀빵 있어요?|D
+3754|We haven't yet found the [culprit].|아직 범인을 못 찾았어.|T12070649
+3755|I've got an attractive [proposition] for you.|너한테 솔깃한 제안이 하나 있어.|T264407
+3756|It is about 15 [kilometers] to get there.|거기까지 15킬로미터쯤 돼.|D
+3758|Do you like [spaghetti]?|스파게티 좋아해?|D
+3759|The heat is [suffocating] me.|더워서 숨이 막혀.|T10770508
+3761|The sauce needs more [chili].|소스에 고추를 더 넣어야겠어.|T2961489
+3762|The [prospects] for our victory are excellent.|우리가 이길 가망이 아주 커.|T321996
+3763|Please welcome our next [contestant].|다음 참가자를 환영해 주세요.|T5767575
+3764|Did you go [diving] while you were there?|거기 있을 때 다이빙하러 갔어?|D
+3765|A [flock] of birds flew high overhead.|새 떼가 머리 위 높이 날아갔어.|T10558876
+3766|Could you tie it with a [ribbon]?|리본으로 묶어 주시겠어요?|T29668
+3767|The winner wore a crown of [laurel] leaves.|우승자는 월계수 잎으로 만든 관을 썼어.|self
+3768|Would you like your [cod] fried in batter?|대구를 튀김옷 입혀 튀겨 드릴까요?|T10900011
+3769|Do you take [vitamin] pills regularly?|비타민 꾸준히 챙겨 먹어?|D
+3770|She [yanked] the door open.|그녀가 문을 홱 잡아당겨 열었어.|self
+3772|It's so [noisy] that I can't work.|너무 시끄러워서 일을 못 하겠어.|D
+3773|They arrived at [twilight].|그들은 해 질 녘에 도착했어.|T2268766
+3774|My [godfather] gave me that red shirt.|대부님이 그 빨간 셔츠를 주셨어.|T2761953
+3775|It feels a little tight in the [waist].|허리가 좀 끼어요.|D
+3776|That's a [marker], not a pen.|그건 펜이 아니라 마커야.|T12016154
+3777|We're having a [clearance] sale.|지금 재고 정리 세일 중이에요.|D
+3778|Why don't you go and check the [refrigerator]?|냉장고 확인해 보지 그래?|D
+3779|The cabin was pretty [primitive], with no electricity.|그 오두막은 전기도 없어서 꽤 원시적이었어.|self
+3780|I had a [seizure].|나 발작을 일으켰어.|T2331626
+3781|We walked through the olive [grove].|우리는 올리브 과수원을 걸어서 지나갔어.|T12071222
+3782|I'm not a [fascist].|난 파시스트가 아니야.|T5852011
+3783|Those clouds look [ominous].|저 구름 불길해 보여.|T9997074
+3784|This bedroom doesn't get very much [sunlight].|이 침실은 햇빛이 잘 안 들어.|T1241200
+3785|The soldiers dug a [trench] along the hill.|군인들이 언덕을 따라 참호를 팠어.|self
+3786|Yes, it would be my first trip [overseas].|네, 제 첫 해외여행이 될 거예요.|D
+3787|Do you [resent] my being here?|내가 여기 있는 게 못마땅해?|T3196653
+3788|I just got bitten by a [mosquito].|방금 모기한테 물렸어.|T2362201
+3789|I'd like to work in [marketing].|마케팅 쪽에서 일하고 싶어요.|D
+3790|He [confined] himself to his room.|그는 방에 틀어박혀 있었어.|T298468
+3791|We have to take every [precaution].|모든 예방 조치를 해야 해.|T3312356
+3793|I like writing [poems] in my spare time.|난 시간 날 때 시 쓰는 걸 좋아해.|D
+3794|The [battalion] surrendered to the enemy.|그 대대는 적에게 항복했어.|T2267963
+3795|The next [ferry] isn't until tomorrow morning.|다음 여객선은 내일 아침에야 있어.|T10478633
+3796|Your doctor has requested a [urine] sample.|의사 선생님이 소변 검사를 요청하셨어요.|D
+3797|I just found a [nickel] in the street.|방금 길에서 5센트 동전을 주웠어.|T2649714
+3799|I've never seen a [calf] being born.|송아지가 태어나는 걸 본 적이 없어.|T7733097
+3800|Seoul is a very [dynamic] city.|서울은 정말 역동적인 도시야.|self
+3801|During the first three months, I'm on [probation].|처음 석 달은 수습 기간이야.|D
+3802|His words [rendered] me speechless.|그의 말에 할 말을 잃었어.|T286149
+3803|I didn't mean to [startle] you.|놀라게 하려던 건 아니었어.|T1804150
+3805|We're planning to apply for an [extension].|연장 신청할 계획이야.|T11554688
+3806|This is your [mini] bar.|여기가 미니바입니다.|D
+3808|May I suggest a [limo]?|리무진은 어떠세요?|D
+3809|What's the [admission] charge?|입장료가 얼마예요?|D
+3810|My grandfather served in the army medical [corps].|우리 할아버지는 육군 의무대에서 복무하셨어.|self
+3811|Could you get me the pepper from the [cupboard]?|찬장에서 후추 좀 꺼내 줄래?|D
+3812|We need to [dispose] of these chemicals properly.|이 화학 물질은 제대로 처리해야 해.|T9940082
+3813|You're a real [pal].|넌 진짜 좋은 친구야.|D
+3815|You're completely and [utterly] right.|네 말이 전적으로 옳아.|T10142012
+3816|That would be [ironic], wouldn't it?|그러면 아이러니하겠다, 그렇지?|T2877880
+3817|Older people still remember the Kennedy [assassination].|나이 든 사람들은 아직도 케네디 암살을 기억해.|T282212
+3818|It's been a nice trip [overall].|전반적으로 좋은 여행이었어.|T2669049
+3819|People are advised to drive with [caution].|운전할 때 주의하시기 바랍니다.|T9795863
+3820|Would you please [reconsider]?|다시 생각해 주시겠어요?|D
+3821|A vodka [martini], please.|보드카 마티니 주세요.|T65646
+3822|What [rating] would you give this food?|이 음식에 몇 점 줄래?|T10900013
+3823|Why don't you talk to your [advisor]?|지도 교수님한테 얘기해 보지 그래?|D
+3825|We found it boring and [meaningless].|우리는 그게 지루하고 무의미하다고 느꼈어.|T9484517
+3827|Let the tea [brew] for ten minutes.|차를 10분 동안 우려.|T9199643
+3828|We've got to clean the place [thoroughly].|여기를 철저히 청소해야 해.|T10830092
+3829|You have the patience of a [saint].|넌 성인군자 같은 인내심을 가졌구나.|T11650283
+3830|Well, I like to play [darts].|음, 난 다트 하는 걸 좋아해.|D
+3831|The [equations] are very complicated.|방정식이 아주 복잡해.|T4664311
+3832|Are you able to [compose] music?|작곡할 줄 알아?|D
+3833|I've been [craving] chicken and potatoes.|요즘 치킨이랑 감자가 계속 당겨.|D
+3834|Well, children usually [resemble] their parents.|음, 애들은 보통 부모를 닮지.|D
+3835|I [hereby] declare the meeting open.|이로써 회의를 시작하겠습니다.|self
+3836|Are you a [Christian]?|너 기독교인이야?|T9939671
+3837|The locking [mechanism] has jammed.|잠금장치가 걸렸어.|T662986
+3838|There was a [dispute] about our bill.|계산서 때문에 다툼이 있었어.|T680717
+3839|Could I get a [hamburger], please?|햄버거 하나 주시겠어요?|D
+3840|Have you ever taken a [psychology] course?|심리학 수업 들어 본 적 있어?|T10612038
+3842|The teachers are trying to [motivate] their students.|선생님들은 학생들에게 동기를 부여하려고 애쓰고 있어.|T19048
+3843|I've been feeling a little [restless].|요즘 좀 안절부절못하겠어.|T2359091
+3845|Avoid [exposure] to direct sunlight.|직사광선 노출을 피하세요.|T10805997
+3846|It's certainly a big [improvement] over yesterday.|어제보다 확실히 많이 나아졌네.|D
+3847|We need a [medic].|의무병이 필요해.|T2648898
+3848|He's really [hogging] the mic!|쟤 마이크 완전 독차지하네!|D
+3849|Would you please sign our [petition]?|저희 청원서에 서명해 주시겠어요?|T4664227
+3850|A [troll] lives under that bridge.|저 다리 밑에 트롤이 살아.|T11427088
+3851|She got a dental [implant] last month.|그녀는 지난달에 치아 임플란트를 했어.|self
+3852|My proposal met with unexpected [opposition].|내 제안은 뜻밖의 반대에 부딪혔어.|T251536
+3853|I bought [lace] curtains for my bedroom window.|침실 창문에 달 레이스 커튼을 샀어.|T258771
+3855|Don't let that man [dominate] you.|저 남자한테 지배당하지 마.|T2265855
+3856|I'll wait for you on the [porch].|현관에서 기다릴게.|T8919535
+3857|The [rooster] crows at sunrise.|수탉은 해 뜰 때 울어.|T895240
+3858|He walked in with two [goons] behind him.|그는 똘마니 두 명을 뒤에 달고 들어왔어.|self
+3859|I'm sorry for being so [clumsy].|덤벙대서 미안해.|T7294071
+3860|My friend told me you know how to work with [curls].|친구가 그러는데 곱슬머리 잘 다루신다면서요.|D
+3863|Estrogen is a [hormone].|에스트로겐은 호르몬이야.|T2937602
+3864|We've run out of [ammunition].|탄약이 다 떨어졌어.|T3597391
+3866|Thank you for the [introduction].|소개해 주셔서 감사합니다.|T2642747
+3867|Working from home is now the [norm].|이제 재택근무가 표준이 됐어.|self
+3868|The whole thing was a [setup].|그건 전부 함정이었어.|T11965762
+3869|You should take the [initiative] and make some changes first.|네가 먼저 주도적으로 나서서 좀 바꿔 봐.|D
+3870|The king always wears a [crown].|왕은 늘 왕관을 쓰고 있어.|T49456
+3871|[Greed] makes people do strange things.|탐욕은 사람을 이상하게 만들어.|T3024413
+3872|Why are we so [unlucky]?|우리는 왜 이렇게 운이 없을까?|D
+3873|A lot of people in my [dorm] are sick.|우리 기숙사에 아픈 사람이 많아.|D
+3874|How many sides does a [triangle] have?|삼각형은 변이 몇 개야?|T9806792
+3875|Come on, I can't wait to [chow] down.|어서, 빨리 먹고 싶어 죽겠어.|D
+3876|Your [handwriting] is very hard to read.|네 글씨는 정말 알아보기 힘들어.|T2792606
+3879|Elephants are an [endangered] species.|코끼리는 멸종 위기종이야.|T1087011
+3880|A [torpedo] is an underwater missile.|어뢰는 물속에서 쏘는 미사일이야.|T12381111
+3881|I'd like to buy some [postcards] of Beijing.|베이징 엽서를 좀 사고 싶어요.|D
+3882|I'm studying to become a [rabbi].|난 랍비가 되려고 공부하고 있어.|T12060781
+3883|We ran out of [petrol].|휘발유가 다 떨어졌어.|T1013928
+3884|The flag [flapped] in the wind.|깃발이 바람에 펄럭였어.|T10549837
+3885|I went to the [Naval] Academy.|난 해군사관학교를 나왔어.|T12206808
+3886|Your [lordship], dinner is ready.|나리, 저녁 준비됐습니다.|self
+3887|Did you see the [sunrise] this morning?|오늘 아침에 해돋이 봤어?|T3096138
+3888|Acrobats are doing somersaults in the [arena].|곡예사들이 경기장에서 공중제비를 돌고 있어.|T10465244
+3889|You [oughta] see a doctor.|너 병원 가 봐야겠다.|self
+3890|Could I have my hair [dyed]?|머리 염색할 수 있을까요?|D
+3891|The two houses stand [alongside] each other.|두 집이 나란히 서 있어.|T10645409
+3892|The government must make [fundamental] changes.|정부는 근본적인 변화를 이뤄야 해.|T271472
+3893|He had to appear before a [magistrate].|그는 치안 판사 앞에 출석해야 했어.|self
+3894|We live in a [democratic] society.|우리는 민주적인 사회에 살고 있어.|T249398
+3895|Another [packet] of sugar, please.|설탕 한 봉지 더 주세요.|T10241782
+3896|What is an [asteroid]?|소행성이 뭐야?|T8982564
+3897|Wasn't that a great [flick]?|그 영화 정말 좋지 않았어?|D
+3898|Is it safe to eat raw [oysters]?|생굴 먹어도 괜찮아?|T11760138
+3899|This is really [humiliating].|이거 정말 창피하다.|T3724026
+3900|Peacekeeping forces were [deployed] to the area.|평화유지군이 그 지역에 배치됐어.|T12381170
+3901|She couldn't hide her [fury].|그녀는 분노를 감추지 못했어.|self
+3902|We had a [lively] party last night.|어젯밤 파티 정말 활기찼어.|T244853
+3903|My karate [sensei] is very strict.|우리 가라테 사부님은 아주 엄격하셔.|self
+3904|Our [informant] was mistaken.|우리 제보자가 착각했어.|T12290480
+3905|Thanks for the [reminder].|알려 줘서 고마워.|T4013557
+3906|What's the [specialty] of the house?|이 집 대표 메뉴가 뭐예요?|D
+3907|Don't [snoop] in my drawers.|내 서랍 뒤지지 마.|T11935287
+3908|I've already spent my [inheritance].|유산은 벌써 다 써 버렸어.|T3722169
+3909|Our [morale] is low.|우리 사기가 떨어졌어.|T12275296
+3911|She [clutched] her baby in her arms.|그녀는 아기를 품에 꼭 끌어안았어.|T315421
+3912|Who are the key [competitors]?|주요 경쟁자가 누구예요?|D
+3913|Most criminals are repeat [offenders].|범죄자 대부분은 재범자야.|T5725636
+3914|I don't want admiration, just [recognition].|감탄은 필요 없어, 인정받고 싶을 뿐이야.|T7888741
+3915|It's 18K rose-gold, [studded] with amethyst and blue topaz.|18K 로즈골드에 자수정과 블루 토파즈가 박혀 있어요.|D
+3916|I don't have any [artistic] talent.|난 예술적 재능이 전혀 없어.|T5663689
+3917|The city was [liberated] in 1945.|그 도시는 1945년에 해방됐어.|self
+3918|You're such a [geek]!|너 진짜 괴짜다!|D
+3919|Are you a [jock]?|너 운동부야?|T11900103
+3920|Try searching in the [archives].|기록 보관소에서 찾아봐.|T9188259
+3921|Well, I think you may be [overreacting].|글쎄, 네가 과민 반응하는 것 같아.|D
+3922|This doesn't fit into any [category].|이건 어떤 범주에도 안 맞아.|T1006157
+3923|The fire [flared] up again in the wind.|불이 바람에 다시 확 타올랐어.|self
+3924|In this small bottle, there's a magic love [potion].|이 작은 병 안에 마법의 사랑 물약이 들어 있어.|D
+3925|I have a [cramp] in my leg.|다리에 쥐가 났어.|T6666300
+3929|America is a land of [immigrants].|미국은 이민자의 나라야.|T67540
+3931|Cut the potatoes into small [cubes].|감자를 작은 정육면체 모양으로 썰어.|D
+3932|I've finally gotten used to [urban] life.|드디어 도시 생활에 익숙해졌어.|T9635059
+3933|The [psychologist] asked me a series of questions.|심리학자가 나한테 질문을 여러 개 했어.|T12228384
+3935|They both agreed to [sever] all ties.|둘 다 모든 관계를 끊기로 했어.|T9943782
+3936|The river forms the [boundary] between the two towns.|강이 두 마을의 경계를 이루고 있어.|self
+3938|I think I need a [thorough] check-up.|철저한 검진을 받아야 할 것 같아.|D
+3939|She has a strong work [ethic].|그녀는 직업 의식이 투철해.|self
+3941|Do you like going to [nightclubs]?|나이트클럽 가는 거 좋아해?|T10730692
+3942|Oh, you are too [conservative].|아, 넌 너무 보수적이야.|D
+3943|I don't need the [user] manual.|사용자 설명서는 필요 없어.|T4240388
+3944|It looks really [classy] on you.|너한테 정말 고급스러워 보여.|D
+3945|We noticed the [janitor] closing the windows.|관리인이 창문을 닫는 걸 봤어.|T11490733
+3946|Do you have your [confirmation] number?|확인 번호 있으세요?|D
+3947|Thirty people [perished] in the flood.|홍수로 서른 명이 목숨을 잃었어.|T10370368
+3948|How do you feel about [adoption]?|입양에 대해 어떻게 생각해?|T6896531
+3949|She likes to scratch the couch with her [claws].|우리 고양이는 발톱으로 소파 긁는 걸 좋아해.|D
+3951|The people [revolted] against the tyranny.|사람들이 폭정에 맞서 반란을 일으켰어.|T322701
+3952|You don't seem to be as [cheerful] as you normally are.|평소처럼 밝아 보이지 않네.|D
+3955|Will that be [acceptable] to you?|그거 괜찮으시겠어요?|D
+3957|You have to be [realistic].|현실적이 돼야 해.|D
+3958|A brief explanation should be [sufficient].|간단히 설명하면 충분할 거야.|T9696453
+3959|Scientists study [cosmic] rays from space.|과학자들은 우주에서 오는 우주 방사선을 연구해.|self
+3960|The [rebellion] lasted about two months.|반란은 약 두 달 동안 계속됐어.|T807335
+3962|Is that a [toad] or a frog?|저거 두꺼비야, 개구리야?|T10451062
+3963|They clung together for [warmth].|그들은 온기를 나누려고 꼭 붙어 있었어.|T2082712
+3964|How much do you pay your [gardener]?|정원사한테 얼마 줘?|T4133590
+3965|Everything worked without a [hitch].|모든 게 문제없이 잘 됐어.|T4874621
+3966|How many credits are you taking this [semester]?|이번 학기에 몇 학점 들어?|D
+3967|Where can I find a French [tutor]?|프랑스어 과외 선생님은 어디서 구해?|T9640689
+3969|I used a [jack] to lift the car.|차를 들어 올리려고 잭을 썼어.|self
+3970|Are you an [outlaw], too?|너도 무법자야?|T11903932
+3971|I've made a mistake in my [calculations].|계산을 잘못했어.|T2359936
+3972|They [conceived] a plan to surprise the enemy.|그들은 적을 기습할 계획을 생각해 냈어.|T307208
+3973|Let's go out on the [terrace].|테라스로 나가자.|T6264173
+3975|He [amused] us with a funny story.|그는 재미있는 이야기로 우리를 웃겼어.|T289438
+3976|Do you have a [scanner]?|스캐너 있어?|T7538465
+3978|I called 911 and the [paramedics] came.|911에 전화했더니 구급대원들이 왔어.|T2300058
+3979|I had to work a little [overtime].|초과 근무를 좀 해야 했어.|D
+3980|He was the leader of our [platoon].|그 사람이 우리 소대장이었어.|self
+3981|I caught a [glimpse] of him.|그를 흘끗 봤어.|T307760
+3982|Let's go talk to the [tailor] about getting it made.|재단사한테 가서 맞춰 달라고 얘기하자.|D
+3983|Have you looked in the glove [compartment]?|조수석 사물함 찾아봤어?|T2978062
+3985|I had no idea you were so [ruthless].|네가 그렇게 무자비한 줄 몰랐어.|T2331690
+3987|There's a run in your [stocking].|스타킹 올이 나갔어.|T2985455
+3988|[Poke] the fire. It's going out.|불 좀 쑤셔 봐. 꺼져 가.|T2267663
+3989|Can you [crank] up the heat?|난방 좀 세게 틀어 줄래?|T3731663
+3991|Get rid of that [heap] of old newspapers.|저 헌 신문 더미 좀 치워.|T555492
+3992|What do you [dislike] most about your job?|일하면서 제일 싫은 게 뭐야?|D
+3993|Your [prophecy] has come true.|네 예언이 맞았어.|T16870
+3994|Dogs bark and birds [tweet].|개는 짖고 새는 짹짹 울어.|T9550741
+3995|Do you want me to read your [essay]?|네 에세이 읽어 줄까?|D
+3996|Have you ever walked through a [graveyard] at midnight?|한밤중에 묘지를 걸어 본 적 있어?|T563735
+3997|There's a lot of [injustice] in the world.|세상에는 불의가 많아.|T11825470
+3998|The government [rationed] meat during the war.|정부는 전쟁 중에 고기를 배급했어.|T273251
+3999|Did you [buckle] your seatbelt?|안전벨트 맸어?|D
+4000|Can you [recite] a poem?|시 한 편 암송할 수 있어?|T8910403
+4001|OK, we'll make the [correction] for you.|알겠습니다, 수정해 드릴게요.|D
+4002|I gave her my [resignation] a few days ago.|며칠 전에 그 사람한테 사표 냈어.|D
+4003|My girlfriend says I have an [addiction].|여자친구가 나더러 중독이래.|D
+4004|I [sincerely] hope you'll get well soon.|빨리 낫길 진심으로 바라.|T3022564
+4005|Are you a [freshman] in college?|너 대학교 1학년이야?|D
+4008|I don't like [fatty] foods.|난 기름진 음식 안 좋아해.|T2874436
+4009|It's a bit [spicy], but really good!|좀 맵긴 한데 진짜 맛있어!|D
+4010|I just saw a [panther].|방금 표범 봤어.|T3821622
+4011|He worked as a secret [operative] for years.|그는 몇 년 동안 비밀 요원으로 일했어.|self
+4013|It's a [sheer] waste of time.|그건 순전히 시간 낭비야.|T9472805
+4014|I think the [valve] is faulty.|밸브가 고장 난 것 같아.|D
+4015|My favorite tree is the weeping [willow].|내가 제일 좋아하는 나무는 수양버들이야.|T6555161
+4016|I am a [fireman] and it is a dangerous job.|난 소방관인데, 위험한 직업이야.|D
+4017|It's a [rental] car.|그거 렌터카야.|T10147444
+4018|It would be [virtually] impossible to do that.|그건 사실상 불가능할 거야.|T9732791
+4019|We [paddled] down the river.|우리는 노를 저어 강을 따라 내려갔어.|T8589415
+4020|I'm thinking of hiring a financial [consultant].|재무 컨설턴트를 고용할까 생각 중이야.|T7071541
+4022|I thought that you were [unemployed].|너 실직한 줄 알았어.|T7172112
+4023|Tom [slit] open the envelope.|톰이 봉투를 길게 잘라 열었어.|T1092905
+4024|Thank you for your [insight].|통찰력 있는 의견 감사해요.|T5737982
+4026|We were [stunned] by the news.|우리는 그 소식에 깜짝 놀랐어.|T7733341
+4027|There's no need to get [hysterical].|그렇게 히스테리 부릴 필요 없어.|T4915869
+4028|Better to be a happy fool than an unhappy [sage].|불행한 현자보다 행복한 바보가 낫다.|T862982
+4029|We hired a [contractor] to fix the roof.|지붕 고치려고 업자를 불렀어.|self
+4030|I'm looking for full-time [employment].|정규직 일자리를 찾고 있어요.|T6716144
+4031|Have you sent your novel to a [publisher]?|네 소설 출판사에 보냈어?|T7632534
+4032|Languages [enable] us to communicate with other people.|언어 덕분에 우리는 다른 사람들과 소통할 수 있어.|T239732
+4033|I don't understand this [chart].|이 도표 이해가 안 돼.|T1671720
+4034|Did you [weave] this basket yourself?|이 바구니 네가 직접 짰어?|T9782475
+4035|The concert was a [tribute] to his late father.|그 콘서트는 돌아가신 그의 아버지에게 바치는 헌사였어.|self
+4036|Do you have any [aspirin]?|아스피린 있어?|D
+4037|Maybe I'll just be a [cheerleader].|그냥 치어리더나 할까 봐.|D
+4038|I [thrust] my hand into my pocket.|나는 주머니에 손을 쑥 집어넣었어.|T255587
+4039|How do you like this [waltz]?|이 왈츠 어때?|D
+4040|Are you a [liberal] or conservative?|너는 진보야, 보수야?|T4660470
+4042|A rainbow is a natural [phenomenon].|무지개는 자연 현상이야.|T281038
+4043|[Mermaids] are half human and half fish.|인어는 반은 사람이고 반은 물고기야.|T11581856
+4045|The oil [cartel] raised prices again.|석유 카르텔이 또 가격을 올렸어.|self
+4046|My boss gets [annoyed] if we take coffee breaks.|우리가 커피 마시며 쉬면 사장님이 짜증 내셔.|D
+4047|What's the weather like in your [hometown]?|너희 고향은 날씨가 어때?|D
+4048|Next time, you need to be more [discreet].|다음엔 좀 더 신중해야 해.|T7735260
+4049|I don't just want to survive, but to [thrive].|그냥 살아남는 게 아니라 잘 살고 싶어.|T12149017
+4050|He [dreaded] having to spend Christmas in the hospital.|그는 크리스마스를 병원에서 보내야 하는 게 두려웠어.|T1409030
+4052|I was in [agony].|너무 고통스러웠어.|T5851539
+4054|I was suddenly [awakened] by a loud noise.|큰 소리에 갑자기 잠이 깼어.|T275495
+4055|I belong to the [karate] club.|나 가라테 동아리야.|T33550
+4056|Did you [confront] her about it when you saw her?|그 여자 만났을 때 그 일로 따졌어?|D
+4057|Who is the [creator] of this game?|이 게임 만든 사람이 누구야?|self
+4058|In the center of the pond, there was a [lone] lily pad.|연못 한가운데에 수련 잎 하나가 외롭게 떠 있었어.|T10250467
+4059|That pasture is ten [acres].|저 목초지는 10에이커야.|T470994
+4060|Those [bushes] are covering the stop sign.|저 덤불이 정지 표지판을 가리고 있어.|D
+4061|This is the [zoom] button.|이게 줌 버튼이야.|T2337284
+4062|I grew up in a [mining] town.|나는 광산 마을에서 자랐어.|T2282183
+4063|The couple has three school-[aged] children.|그 부부는 학교 다닐 나이의 아이가 셋 있어.|T5371922
+4064|The smoke [detector] went off.|화재경보기가 울렸어.|T12317773
+4065|This [monument] is more than one hundred years old.|이 기념비는 100년도 넘었어.|T10806463
+4067|The doctor [reassured] me about my father's condition.|의사가 아버지 상태에 대해 날 안심시켜 줬어.|T28093
+4068|I was [detained] for three hours.|세 시간 동안 붙잡혀 있었어.|T8933774
+4069|I've never been a [gambler].|난 도박꾼이었던 적 없어.|T8889307
+4070|The will was declared [void] by the court.|법원이 그 유언장을 무효라고 선언했어.|T49645
+4071|It's the oldest [establishment] in town.|여기가 이 동네에서 제일 오래된 가게야.|self
+4072|She was a [pioneer] in this field.|그녀는 이 분야의 선구자였어.|T737657
+4073|The surgeon scrubbed up before [commencing] the operation.|외과 의사는 수술을 시작하기 전에 손을 꼼꼼히 씻었어.|T11070365
+4074|Don't give in to [peer] pressure.|또래 압력에 굴하지 마.|T545682
+4077|The [cavalry] has arrived.|기병대가 도착했어.|T2262754
+4078|Don't let your emotions [dictate] your actions.|감정이 행동을 좌우하게 두지 마.|T8997425
+4079|The possibilities are [infinite].|가능성은 무한해.|T4493937
+4080|Are you a [believer]?|너 신자야?|T70284
+4081|May I leave a [memo] for her?|그분께 메모 남겨도 될까요?|D
+4082|We have to [lighten] the load.|짐을 가볍게 해야 해.|T2259761
+4083|There's a beautiful [meadow] behind the house.|집 뒤에 아름다운 초원이 있어.|T8174411
+4084|The road is [parallel] to the river.|그 도로는 강과 평행해.|T44667
+4085|What you just said is [irrelevant].|방금 네가 한 말은 상관없는 얘기야.|T8057335
+4087|I got a [thorn] in my finger.|손가락에 가시가 박혔어.|T2266974
+4088|How long have you been a [carpenter]?|목수 일 하신 지 얼마나 됐어요?|T5850895
+4089|Stop it. You're making me [blush].|그만해. 얼굴 빨개지잖아.|T1943884
+4090|He was a loyal [disciple] of the old master.|그는 노스승의 충실한 제자였어.|self
+4091|The steak was cooked to [perfection].|스테이크가 완벽하게 구워졌어.|T5287096
+4092|The mission had to be [aborted].|임무를 중단해야 했어.|T12117201
+4093|I [plucked] a daisy for her.|그녀에게 주려고 데이지를 한 송이 꺾었어.|T308819
+4095|Sometimes, they just lack [enthusiasm].|가끔 걔네는 그냥 열의가 없어.|D
+4096|Some painkillers contain [narcotic] substances.|어떤 진통제에는 마약성 성분이 들어 있어.|self
+4097|I [greatly] appreciate your help.|도와주셔서 정말 감사합니다.|D
+4098|You'll have to go to a [hardware] store to pick one up.|그거 사려면 철물점에 가야 할 거야.|D
+4099|I can't believe how [irresponsible] you are.|네가 이렇게 무책임할 줄은 몰랐어.|T2301888
+4101|We'll be at the [summit] by noon.|정오까지는 정상에 도착할 거야.|T7995620
+4102|Let's rent an [audio] guide.|오디오 가이드 빌리자.|D
+4104|Oh, wow, my palms are [sweaty] just thinking about it.|와, 생각만 해도 손바닥에 땀 나.|D
+4105|Do we have a [babysitter] for tonight?|오늘 밤 아이 봐 줄 사람 있어?|T434526
+4106|His [brigade] was sent to the border.|그의 여단은 국경으로 보내졌어.|self
+4107|There's a [beetle] on your shoulder.|네 어깨에 딱정벌레 있어.|self
+4108|The knight rode his [steed] into battle.|기사는 군마를 타고 전투에 나갔어.|self
+4109|My mom brought home the weirdest-shaped [squash] today.|엄마가 오늘 엄청 이상하게 생긴 호박을 사 오셨어.|T2844472
+4110|The books were tied up in a [bundle].|책들이 한 묶음으로 묶여 있었어.|T322067
+4111|Isn't it past your [bedtime] already?|벌써 잘 시간 지나지 않았어?|D
+4112|What were they [imprisoned] for?|그 사람들 무슨 죄로 투옥됐어?|T3731510
+4114|The flower has a long [stem].|그 꽃은 줄기가 길어.|T10021550
+4115|We need to keep [bacteria] out of food.|음식에 세균이 들어가지 않게 해야 해.|T680327
+4116|This is a photo of my [drawing].|이건 내 그림 사진이야.|T3249496
+4117|This is a bird [sanctuary].|여기는 조류 보호 구역이야.|T3174854
+4118|Any [surgical] procedure carries risks.|어떤 수술이든 위험이 따라.|T5725572
+4119|I simply want to take good care of my [elderly] grandfather.|그냥 연세 드신 할아버지를 잘 돌봐 드리고 싶어.|D
+4120|He has a roman nose, bushy [eyebrows] and dimples!|그 사람은 매부리코에 짙은 눈썹, 보조개까지 있어!|D
+4121|I found out [purely] by accident.|순전히 우연히 알게 됐어.|T11966031
+4123|It had a [profound] effect on me.|그건 나한테 깊은 영향을 줬어.|T2941052
+4125|Please insert your card into the [slot].|카드를 투입구에 넣어 주세요.|D
+4126|You're always so [careless].|넌 항상 너무 덜렁대.|D
+4127|This museum has a large [fossil] collection.|이 박물관에는 화석 소장품이 많아.|T6026146
+4128|The mission is [terminated].|임무는 종료됐어.|T5739559
+4129|The painters you hired did a very [sloppy] job.|네가 부른 페인트공들 일을 너무 엉성하게 했어.|T11573308
+4130|The beer [foamed] over the top of the glass.|맥주 거품이 잔 위로 넘쳤어.|T34848
+4131|Look how fast that car can [accelerate]!|저 차 가속하는 것 좀 봐, 엄청 빠르다!|D
+4132|My hair looks [hideous].|내 머리 꼴이 끔찍해.|D
+4133|Would you mind if I use your tape-[recorder]?|네 녹음기 좀 써도 될까?|D
+4134|We need a clear [separation] between work and home.|일과 집 사이에 확실한 분리가 필요해.|self
+4135|He spent a week in the [psych] ward.|그는 정신과 병동에서 일주일을 보냈어.|self
+4136|Are you still updating your [blog]?|아직도 블로그 업데이트해?|D
+4137|Hold on. I need to get my [broker] on the phone.|잠깐만. 중개인한테 전화 좀 해야 해.|T11696316
+4138|Do you want to drive the [tractor]?|트랙터 운전해 볼래?|T4904711
+4139|I've never been a [junkie].|난 중독자였던 적 없어.|T8397876
+4140|This is an ancient [monastery].|여기는 아주 오래된 수도원이야.|T11245465
+4141|I'm just glad there were no [complications].|합병증이 없어서 다행이야.|D
+4142|He slowly [reeled] in the fish.|그는 천천히 릴을 감아 물고기를 끌어올렸어.|self
+4143|You've done a [superb] job.|정말 훌륭하게 해냈어.|T3354515
+4144|I saw the [sponge] in the sink.|싱크대에 스펀지 있는 거 봤어.|T1556797
+4146|We took [refuge] from the storm in a nearby barn.|우리는 근처 헛간에서 폭풍을 피했어.|T325314
+4147|He's a [righteous] man who never lies.|그는 절대 거짓말하지 않는 의로운 사람이야.|self
+4148|The [squadron] flew over the city.|비행 편대가 도시 위를 날아갔어.|self
+4149|I just wanted to express my [condolences].|조의를 표하고 싶었어요.|T2374087
+4150|Your needs [overlap] with mine.|네 요구는 내 요구랑 겹쳐.|T12180694
+4151|Do you like my [pickup] truck?|내 픽업트럭 어때?|T6954769
+4152|That seems to be a reasonable [assumption].|그건 합리적인 추정 같아.|T4529208
+4153|How about your [academic] records at college?|대학 때 학업 성적은 어땠어요?|D
+4154|I felt myself [weakening].|몸이 약해지는 게 느껴졌어.|T11777426
+4155|I'll drink some water to quench my [thirst].|갈증 좀 풀게 물 좀 마실게.|T10048903
+4156|Strange looking handle on that coffee [mug], isn't it?|그 커피 머그잔 손잡이 모양 특이하다, 그렇지?|D
+4157|We're approaching the [rendezvous] point.|약속 장소에 거의 다 왔어.|T4529241
+4158|My phone is always on [mute].|내 폰은 항상 무음이야.|T11260163
+4159|The service is free to hotel [patrons].|그 서비스는 호텔 손님에게 무료예요.|D
+4160|I just don't get modern [sculpture].|현대 조각은 정말 이해가 안 돼.|T460354
+4161|Say, do you go to see your [grandparents] often?|그런데, 너 조부모님 자주 뵈러 가?|D
+4162|This lucky [streak] won't last forever.|이런 행운이 영원히 이어지진 않을 거야.|T1575220
+4164|I would like to see cute [pandas], too.|나도 귀여운 판다 보고 싶어.|D
+4165|I [entrusted] my wife with the family finances.|아내에게 집안 살림을 맡겼어.|T256512
+4166|The job market is so [competitive] nowadays.|요즘 취업 시장은 경쟁이 너무 치열해.|D
+4167|Why do zebras have [stripes]?|얼룩말은 왜 줄무늬가 있을까?|T5046521
+4168|Everybody is [immune] to smallpox nowadays.|요즘은 모두 천연두에 면역이 있어.|T241685
+4169|Do you go to church [regularly]?|교회에 정기적으로 다녀?|D
+4170|The [monk] took a vow of silence.|그 수도승은 묵언 서약을 했어.|T9959171
+4172|The [transition] won't be easy.|전환이 쉽지는 않을 거야.|T1522468
+4173|I have to get the [chores] done!|집안일 끝내야 해!|D
+4174|My little sister goes to [nursery] school.|내 여동생은 어린이집에 다녀.|T1458088
+4175|I thought it was in the Ming [dynasty].|명나라 때인 줄 알았어.|D
+4176|The young woman was carrying an [infant] in her arms.|젊은 여자가 아기를 품에 안고 있었어.|T46804
+4178|Do you want me to [trim] your beard?|수염 다듬어 드릴까요?|D
+4179|Peel the bananas and [mash] them with a fork.|바나나 껍질을 벗기고 포크로 으깨.|T3559562
+4180|Do you want [mustard] on your hot dog?|핫도그에 머스터드 뿌려 줄까?|T8047585
+4181|Sir, these coupons [expired] yesterday.|손님, 이 쿠폰은 어제 만료됐어요.|D
+4182|Our [reinforcements] will soon arrive.|곧 지원 병력이 도착할 거야.|T12285480
+4184|I don't need your [interference].|네 간섭은 필요 없어.|self
+4186|The picture is hung [crooked].|그림이 비뚤게 걸려 있어.|T22080
+4188|This is our first [transaction].|이번이 저희 첫 거래네요.|D
+4189|I usually have [cereal] for breakfast.|난 보통 아침으로 시리얼 먹어.|D
+4190|You'll get used to it [gradually].|점점 익숙해질 거야.|D
+4191|The kitchen was covered in [filth].|부엌이 오물로 뒤덮여 있었어.|self
+4192|I get nervous when going through [immigration].|출입국 심사 받을 때 긴장돼.|T8226921
+4199|The baby is still in its mother's [womb].|아기는 아직 엄마 자궁 속에 있어.|self
+4200|My mother is a [housewife].|우리 엄마는 주부야.|D
+4201|This worm is a [parasite] that lives in fish.|이 벌레는 물고기 몸속에 사는 기생충이야.|self
+4202|There's a very fine line between genius and [insanity].|천재와 광기는 종이 한 장 차이야.|T9589197
+4203|It was only a [partial] success.|부분적인 성공에 그쳤어.|T42123
+4204|This [compelled] me to stay another week.|그 때문에 일주일 더 머물러야 했어.|T60904
+4206|The children made some of these [decorations].|이 장식 중 몇 개는 아이들이 만들었어.|D
+4207|Please [dissolve] the powder in hot water.|가루를 뜨거운 물에 녹이세요.|D
+4210|They've been building a lot of [condos] along this beach.|이 해변을 따라 콘도를 많이 짓고 있어.|T9736028
+4211|He [criticizes] me when I do that.|내가 그렇게 하면 걔가 날 비판해.|D
+4212|I'll give you a [definite] answer tomorrow.|내일 확실한 답 줄게.|D
+4213|This restaurant lives up to all the [rave] reviews it got.|이 식당은 받은 극찬이 아깝지 않네.|T60342
+4214|Have you ever been [diagnosed] with diabetes?|당뇨 진단 받은 적 있으세요?|T9849580
+4215|The fish [thrashed] around in the net.|물고기가 그물 안에서 몸부림쳤어.|self
+4217|We need to find an [antidote].|해독제를 찾아야 해.|T3109529
+4218|I thought it was just a [metaphor].|그냥 은유인 줄 알았어.|T1961364
+4219|I need to buy a bag of [cement].|시멘트 한 포대 사야 해.|T6351489
+4220|I'll get the [flour] out.|밀가루 꺼낼게.|D
+4221|Today more and more people [advocate] lifelong learning.|요즘 점점 더 많은 사람들이 평생 학습을 지지해.|D
+4222|[Biology] class is my most boring class.|생물 수업이 제일 지루해.|T9089492
+4223|Do you believe in [extraterrestrials]?|외계인이 있다고 믿어?|T1488103
+4224|By the way, is there any [playground] in our neighborhood?|그런데 우리 동네에 놀이터 있어?|D
+4225|That could [potentially] become a problem.|그게 어쩌면 문제가 될 수도 있어.|T12173161
+4226|Yes, the money has been transferred [successfully].|네, 송금이 성공적으로 완료됐어요.|D
+4227|What is [quantum] physics?|양자 물리학이 뭐야?|T7852214
+4228|The cat has started acting [strangely].|고양이가 이상하게 굴기 시작했어.|T1740590
+4229|I don't see any [wrinkles] or sagging skin!|주름도 처진 피부도 전혀 안 보여!|D
+4230|Why don't we make another [batch] of cookies?|쿠키 한 판 더 만드는 거 어때?|T9999867
+4231|Always keep a [handkerchief] in your pocket.|주머니에 손수건을 늘 가지고 다녀.|T66096
+4232|You think I'm [bluffing], don't you?|내가 허세 부린다고 생각하지?|T3356280
+4233|Do you have a [flashlight]?|손전등 있어?|D
+4234|I like [authentic] Chinese food.|난 정통 중국 음식을 좋아해.|D
+4235|Please put this in the [microwave] oven.|이거 전자레인지에 넣어 줘.|T632466
+4236|I [disguised] myself as a homeless person.|나는 노숙자로 변장했어.|T5915299
+4237|Why did you [disobey] my order?|왜 내 명령을 거역했어?|T2643093
+4238|Our neighbor, Bruce, will take part in the [relay] race.|우리 이웃 브루스가 계주에 나가.|D
+4240|The [regime] has fallen.|정권이 무너졌어.|T5748142
+4241|I'll have our [housekeeper] come right away.|청소 직원을 바로 보내 드릴게요.|D
+4242|It is not easy to stop smoking [permanently].|담배를 영원히 끊는 건 쉽지 않아.|T6560504
+4243|I want to work as a [translator].|번역가로 일하고 싶어.|T8125647
+4244|Have you ever been tested for [allergies]?|알레르기 검사 받아 본 적 있어?|D
+4246|Life is short and time is [swift].|인생은 짧고 시간은 빨리 흘러.|T270589
+4247|I'll [prescribe] some pills for you to take.|드실 약을 좀 처방해 드릴게요.|D
+4248|This is a small [token] of my gratitude.|제 작은 감사의 표시예요.|T55838
+4249|All three doctors agreed on the [diagnosis].|의사 세 명 모두 그 진단에 동의했어.|T6342886
+4250|Are there any [poisonous] snakes around here?|이 근처에 독사 있어?|T3022667
+4251|Is she just working [temporarily]?|그 사람 그냥 임시로 일하는 거야?|D
+4252|September is the [ninth] month of the year.|9월은 1년의 아홉 번째 달이야.|T8973563
+4253|Why are you [limping]?|너 왜 다리를 절어?|D
+4254|Do they know what the [robber] looks like?|강도가 어떻게 생겼는지는 알아냈대?|D
+4255|Is it OK to [spank] kids?|아이 엉덩이를 때려도 괜찮을까?|T4494512
+4259|How much more would it cost to [upgrade]?|업그레이드하려면 얼마 더 내야 해요?|D
+4260|You stay here and be the [lookout].|넌 여기서 망 봐.|self
+4261|He was [paralyzed] by fear.|그는 두려움에 몸이 굳어 버렸어.|T295326
+4262|Thank you for your warm [hospitality].|따뜻하게 맞아 주셔서 감사합니다.|D
+4263|We need to buy a new [broom].|새 빗자루 사야 해.|T10444985
+4264|Do I have to [memorize] it?|그거 외워야 해?|D
+4265|When [Muslims] pray, they face towards Mecca.|무슬림은 기도할 때 메카 쪽을 향해.|D
+4267|Be careful not to fall [overboard].|배 밖으로 떨어지지 않게 조심해.|T4054885
+4270|[Juvenile] crimes have been increasing recently.|최근 청소년 범죄가 늘고 있어.|T1164067
+4271|Where can I pick up my [baggage]?|제 짐은 어디서 찾아요?|T38178
+4272|There's no [indication] that he's in love with me.|그가 날 좋아한다는 낌새는 전혀 없어.|D
+4273|The old wall began to [crumble].|오래된 벽이 무너지기 시작했어.|self
+4274|We had a big [breakthrough] today.|오늘 큰 돌파구를 찾았어.|T12070135
+4275|I'm not a [stalker].|난 스토커 아니야.|T3726540
+4277|The old motto was [retained].|옛 표어는 그대로 유지됐어.|T10908835
+4278|What kind of [gadget] is that?|그건 무슨 기기야?|T4494026
+4279|That was a clever [maneuver].|그거 영리한 작전이었어.|self
+4280|And I'd like the collar and [cuffs] starched.|그리고 칼라와 소맷부리에 풀 먹여 주세요.|D
+4281|Could you [elaborate] on that?|그것 좀 자세히 말해 줄래요?|D
+4282|Are you able to play the [flute]?|너 플루트 불 줄 알아?|T6713268
+4283|The company went [bankrupt] last year.|그 회사는 작년에 파산했어.|T10999920
+4284|I'm going to have to [confiscate] these.|이건 압수해야겠어요.|D
+4285|The [tiles] in the bathroom are white.|욕실 타일은 흰색이야.|T10927907
+4286|He denied any [involvement] in the scandal.|그는 그 스캔들에 관여한 걸 전부 부인했어.|self
+4288|What if the [parachute] doesn't open?|낙하산이 안 펴지면 어떡해?|T10233153
+4289|How can you bear such a [humiliation]?|그런 굴욕을 어떻게 참아?|T38741
+4290|She enjoys long [solitary] walks.|그녀는 혼자 오래 산책하는 걸 좋아해.|self
+4291|Could you survive alone in the [wilderness]?|황야에서 혼자 살아남을 수 있겠어?|T682117
+4292|Stock prices [plunged] to a record low.|주가가 사상 최저치로 폭락했어.|T21212
+4293|He [mounted] the horse and rode away.|그는 말에 올라타고 떠났어.|self
+4294|I've left my [disk] at home.|디스크를 집에 두고 왔어.|D
+4296|He carried a [rifle] on his shoulder.|그는 어깨에 소총을 메고 있었어.|T295994
+4297|What kind of [toothbrush] do you use?|넌 어떤 칫솔 써?|D
+4298|It tastes really [yummy].|진짜 맛있어.|T4502546
+4299|The [courier] just arrived.|택배 기사님 방금 오셨어.|T2262755
+4300|A [legion] of fans waited outside the hotel.|수많은 팬들이 호텔 밖에서 기다렸어.|self
+4301|The [briefing] will start now.|지금부터 브리핑을 시작하겠습니다.|T5736492
+4302|Use this wrench to [tighten] that bolt.|이 렌치로 저 볼트 좀 조여.|T11591705
+4303|Maybe you could [enlighten] me.|네가 좀 알려 줄 수 있을까?|T869393
+4304|I need to exchange this foreign [currency].|이 외화 좀 환전해야 해요.|D
+4305|France has a [mild] climate, doesn't it?|프랑스는 기후가 온화하지, 그렇지?|D
+4306|I've been to Boston [countless] times.|보스턴에는 셀 수 없이 많이 가 봤어.|T4101242
+4307|What are you [specializing] in?|전공 분야가 뭐예요?|D
+4308|Can you [quote] a line of Hamlet?|햄릿 대사 한 줄 인용할 수 있어?|T35099
+4310|I don't know how to use this [compass].|이 나침반 쓰는 법을 모르겠어.|T252155
+4311|What do the [preliminary] figures tell you?|예비 수치로 보면 어때요?|D
+4312|The police [restricted] access to the road.|경찰이 그 도로의 출입을 제한했어.|T681930
+4313|You need to eat more [fiber].|섬유질을 더 많이 먹어야 해.|T30421
+4314|You're a [runaway], aren't you?|너 가출했지, 그렇지?|T6261713
+4315|I'll till the soil and then [sow] the seeds.|땅을 갈고 나서 씨를 뿌릴게.|D
+4317|You may be entitled to [compensation].|보상을 받으실 수도 있어요.|T12193233
+4318|I'm [roughly] the same age as you.|난 너랑 대략 동갑이야.|T3568438
+4320|I couldn't stop myself from [yawning].|하품이 멈추질 않았어.|T3922158
+4322|The cat [arched] its back.|고양이가 등을 둥글게 구부렸어.|T282069
+4323|The [divers] are running out of air.|잠수부들의 공기가 떨어져 가고 있어.|T3431004
+4324|I know a lot about [environmental] problems.|난 환경 문제에 대해 많이 알아.|T256719
+4325|The lighthouse is a [beacon] for ships.|등대는 배들에게 신호가 돼 줘.|self
+4326|The two countries do not have [diplomatic] relations.|두 나라는 외교 관계가 없어.|T43470
+4327|I'm not a [psychopath].|난 사이코패스 아니야.|T5858507
+4328|I have to get this [spade] fixed.|이 삽 고쳐야 해.|T3045805
+4329|My words were taken out of [context].|내 말이 맥락과 상관없이 인용됐어.|T3084245
+4330|Your [stereo] is better than mine.|네 오디오가 내 것보다 좋다.|D
+4331|She was [banished] for life.|그녀는 평생 추방당했어.|T1933252
+4332|The film will delight and [enchant] you.|그 영화는 너를 즐겁게 하고 매혹할 거야.|T7745003
+4334|I don't want to be a [nuisance].|폐 끼치고 싶지 않아.|T9684668
+4335|How much do you know about [terrorism]?|테러리즘에 대해 얼마나 알아?|T5851753
+4336|I don't want to appear [ungrateful].|고마운 줄 모르는 사람처럼 보이고 싶지 않아.|T3724728
+4340|Switzerland is a [neutral] country.|스위스는 중립국이야.|T52442
+4341|Did you watch the [presidential] debate?|대선 토론 봤어?|T4831739
+4342|This bakery has the best [pastries] in town.|이 빵집 페이스트리가 동네에서 제일 맛있어.|T8228465
+4343|The [revelation] took everyone by surprise.|그 폭로에 모두가 놀랐어.|T4442257
+4344|This cheap wine goes down [surprisingly] well.|이 싼 와인 놀랍게도 술술 넘어가네.|T9435301
+4345|Subway doors open and close [automatically].|지하철 문은 자동으로 열리고 닫혀.|D
+4346|I have [cockroaches] crawling in my room.|내 방에 바퀴벌레가 기어 다녀.|D
+4347|First, the faucet in the bathtub [drips] constantly.|우선, 욕조 수도꼭지에서 물이 계속 똑똑 떨어져요.|D
+4348|Each [convent] has its own rules.|수녀원마다 나름의 규칙이 있어.|T11245469
+4349|What about the smaller [components]?|더 작은 부품들은요?|D
+4351|I began to sing when I was a [youngster].|난 어릴 때 노래를 시작했어.|T32560
+4353|Okay, you should take 1 [capsule] 3 times a day.|자, 하루에 세 번 한 캡슐씩 드세요.|D
+4354|He's still in [denial] about it.|걔는 아직도 그걸 부정하고 있어.|self
+4355|Oh, there is no [comparison].|아, 비교가 안 돼.|D
+4356|Did you hear about last night's [blackout]?|어젯밤 정전 소식 들었어?|D
+4359|Mom, can I have more [allowance]?|엄마, 용돈 좀 더 주면 안 돼?|D
+4360|The rain [gutter] is clogged with leaves.|빗물 배수로가 낙엽으로 막혔어.|T11607383
+4361|We [consoled] each other.|우리는 서로를 위로했어.|T248656
+4362|Would you still want full [coverage]?|그래도 전액 보장으로 하시겠어요?|D
+4363|I come here [specially] to pick up my tickets.|표 찾으러 일부러 여기 왔어요.|D
+4365|They lived near the [frontier] of the two countries.|그들은 두 나라 국경 근처에 살았어.|self
+4366|We're running out of [ammo].|탄약이 떨어져 가.|T3431022
+4367|What kind of people [irritate] you?|어떤 사람들이 널 짜증 나게 해?|T5849317
+4368|The beach was littered with [debris].|해변에 잔해가 널려 있었어.|T11813349
+4369|There were no [eyewitnesses].|목격자가 없었어.|T4502911
+4371|We need an [intervention].|개입이 필요해.|T5745960
+4372|The dog is the family's loyal [protector].|그 개는 가족의 충직한 수호자야.|self
+4373|Was Karl Marx a [communist]?|칼 마르크스는 공산주의자였어?|T9985255
+4374|He was talking and causing a [disturbance] during class.|걔가 수업 중에 떠들어서 소란을 피웠어.|D
+4377|I guess I should get home to the [missus].|이제 집에 가서 마누라 봐야겠다.|T953461
+4378|Don't forget to update the [inventory].|재고 목록 업데이트하는 거 잊지 마.|D
+4379|Garlic [enhances] the flavor of meals.|마늘은 음식 맛을 살려 줘.|T35857
+4380|Are you a [hacker]?|너 해커야?|T11896891
+4381|It's a difficult country to [govern].|다스리기 어려운 나라야.|T2267425
+4382|That was a [vile] thing to do.|그건 정말 비열한 짓이었어.|T3670429
+4383|The dragon is an [imaginary] creature.|용은 상상 속의 동물이야.|T325503
+4384|They went to the [mosque] to pray.|그들은 기도하러 모스크에 갔어.|T7828136
+4385|The soldiers had [artillery].|군인들에게는 대포가 있었어.|T805336
+4386|I feel like a [hypocrite].|내가 위선자가 된 기분이야.|T3723508
+4388|But the work you did was really [exceptional]!|그래도 네가 한 일은 정말 뛰어났어!|D
+4389|What's the difference between sarcasm and [irony]?|빈정거림과 반어는 뭐가 달라?|T12318965
+4390|The nuclear [reactor] was shut down for safety checks.|원자로가 안전 점검 때문에 가동을 멈췄어.|self
+4392|Smoke was rising from the [chimney].|굴뚝에서 연기가 피어오르고 있었어.|T25879
+4395|How can I [suppress] these feelings?|이 감정을 어떻게 억누르지?|T9821185
+4396|Poor eyesight is a [handicap] to a sportsman.|시력이 나쁜 건 운동선수에게 핸디캡이야.|T51620
+4397|I feel quite [refreshed] now!|이제 꽤 상쾌해!|D
+4399|There's a [banquet] I have to go to tonight.|오늘 밤 가야 하는 연회가 있어.|T10697701
+4401|How can you be so [shameless]?|어떻게 그렇게 뻔뻔할 수 있어?|self
+4402|She [yearns] to see her family again.|그녀는 가족을 다시 만나기를 간절히 바라.|self
+4403|The army tested a new [ballistic] missile.|군대가 새 탄도 미사일을 시험했어.|self
+4404|This [harness] needs to be repaired.|이 마구는 수리해야 해.|T12160569
+4405|This is our [turf].|여긴 우리 구역이야.|T9505948
+4406|I think it's a [vulture].|저거 독수리 같아.|D
+4407|You have dirt under your [fingernails].|손톱 밑에 때 꼈어.|T663265
+4408|You do not want to incur the [wrath] of God.|신의 노여움을 사고 싶진 않을 거야.|T1363505
+4409|I'm a flight [attendant] and I'm here on vacation.|저는 승무원인데 휴가 와 있어요.|D
+4410|It's a [regional] dialect.|그건 지역 사투리야.|T10092598
+4411|Yes, that [annoys] me too.|응, 그거 나도 짜증 나.|D
+4412|The horses grazed [peacefully] in the valley.|말들이 골짜기에서 평화롭게 풀을 뜯었어.|T8139861
+4414|We love each other [dearly].|우리는 서로를 무척 사랑해.|T5738721
+4415|What floor is the [pharmacy] on?|약국은 몇 층에 있어요?|D
+4416|He has sold millions of records [worldwide].|그는 전 세계에서 음반을 수백만 장 팔았어.|D
+4417|Getting a driver's license is a [rite] of passage.|운전면허 따는 건 일종의 통과 의례야.|self
+4418|Have you finished writing your [manuscript]?|원고 다 썼어?|T12222348
+4420|The movie is about the criminal [underworld].|그 영화는 범죄자들의 암흑가를 다뤄.|self
+4422|She married him at her mother's [bidding].|그녀는 어머니의 분부대로 그와 결혼했어.|D
+4423|Have you ever had [hallucinations]?|환각을 본 적 있어?|T12184379
+4425|Have you ever been stung by a [scorpion]?|전갈에 쏘여 본 적 있어?|T3396577
+4426|How many [squats] can you do?|스쿼트 몇 개 할 수 있어?|T10223610
+4427|Can you help me [tame] this horse?|이 말 길들이는 것 좀 도와줄래?|T12074348
+4428|I feel nothing but [contempt] for such behavior.|그런 행동은 경멸스러울 뿐이야.|T254205
+4429|It was just a [formality].|그냥 형식적인 절차였어.|T4494374
+4431|Do you know the [altitude] of the mountain?|그 산 고도가 얼마인지 알아?|D
+4433|She was born into [royalty].|그녀는 왕족으로 태어났어.|self
+4434|Are you a [temp]?|임시 직원이세요?|T11897817
+4435|They've been working on a new [vaccine].|그들은 새 백신을 개발하고 있어.|T3360466
+4436|Simply put, these [allegations] are false.|간단히 말해서, 이 혐의는 사실이 아니야.|T2124007
+4437|Is it safe to eat a pig's [eyeball]?|돼지 눈알 먹어도 괜찮아?|T954013
+4438|I'm going to work as a [builder] with my father.|아버지랑 같이 건축 일을 할 거야.|T455901
+4439|And also, the realtor will [inspect] the house.|그리고 중개인이 집을 점검할 거예요.|D
+4440|European countries are [relatively] small.|유럽 나라들은 비교적 작아.|D
+4441|We need to understand the [scope] of the problem.|문제의 범위를 파악해야 해.|T10164884
+4442|We heard [coyotes] howling at night.|밤에 코요테들이 우는 소리를 들었어.|self
+4443|I didn't mean to [spook] you.|놀래키려던 건 아니었어.|T2291179
+4444|Did you report the [burglary]?|빈집털이 신고했어?|T12331992
+4445|What's the difference between lions and [leopards]?|사자랑 표범은 뭐가 달라?|T29853
+4446|This [merchandise] is tax free.|이 상품은 면세야.|T2268956
+4447|The ground is so [slippery] from the snow.|눈 때문에 땅이 엄청 미끄러워.|D
+4448|The [duchess] visited the hospital today.|공작부인이 오늘 병원을 방문했어.|self
+4449|They're [alleging] I bribed someone.|그 사람들이 내가 누군가에게 뇌물을 줬다고 주장해.|T4529446
+4450|The university bears the name of its [founder].|그 대학은 설립자의 이름을 따서 지었어.|T462976
+4451|I have [numerous] books on my bookshelf.|내 책장에는 책이 아주 많아.|T1697745
+4452|Don't [scrape] your chair on the floor.|의자를 바닥에 긁지 마.|T66487
+4453|My hands are [numb] from the cold.|추워서 손에 감각이 없어.|T21141
+4454|I'll talk to my [fiance] about it tonight.|오늘 밤에 약혼자랑 그 얘기 해 볼게.|D
+4455|I thought that I was [invincible].|난 내가 무적인 줄 알았어.|T7174291
+4457|Are you going to the [cafeteria] downstairs?|아래층 구내식당 가?|D
+4458|No [sane] person would do that.|제정신인 사람이라면 그렇게 안 해.|T9814225
+4459|Yes, I [ache] all over.|응, 온몸이 아파.|D
+4460|Its [radius] must be thirty meters at least.|반지름이 최소 30미터는 될 거야.|T6941006
+4461|I can't [convey] my feelings in words.|내 감정을 말로 전할 수가 없어.|T258266
+4462|There's some [leftover] pizza from last night.|어젯밤에 먹다 남은 피자 있어.|D
+4463|The ship's [hull] is damaged.|배의 선체가 손상됐어.|T2259377
+4464|Why don't we build a [raft]?|우리 뗏목 만들어 보는 거 어때?|T9987131
+4465|There was a [moose] in the middle of the road.|길 한가운데에 무스가 있었어.|T8886773
+4466|She gently [caressed] the cat's head.|그녀는 고양이 머리를 살살 쓰다듬었어.|self
+4467|Archaeologists found a papyrus [scroll] in the ruins.|고고학자들이 유적에서 파피루스 두루마리를 발견했어.|T10108078
+4468|Old thermometers contain [mercury].|옛날 체온계에는 수은이 들어 있어.|self
+4470|They said they're [reviving] an old tradition.|옛 전통을 되살린대.|D
+4472|How many [gallons] do you want?|몇 갤런 넣어 드릴까요?|D
+4473|And the walls were [newly] painted.|그리고 벽은 새로 칠했어요.|D
+4474|Don't be so [impatient].|너무 조급하게 굴지 마.|D
+4475|A [strand] of hair fell across her face.|머리카락 한 가닥이 그녀 얼굴로 흘러내렸어.|self
+4476|We may have a small [quiz] tomorrow.|내일 쪽지 시험 볼지도 몰라.|D
+4477|Justice will [prevail] in the end.|결국엔 정의가 이길 거야.|T243905
+4478|He made the comment out of [ignorance], not malice.|그는 악의가 아니라 몰라서 그런 말을 한 거야.|D
+4479|I'll [cater] to your taste.|네 취향에 맞춰 줄게.|D
+4480|Can't you be a little more [civilized]?|좀 더 교양 있게 굴 수 없어?|T6098721
+4481|Do I have to [undress]?|옷 벗어야 해요?|T3731621
+4482|The [distribution] of food was very slow.|식량 분배가 아주 늦었어.|self
+4483|Have you ever [uploaded] a video to YouTube?|유튜브에 영상 올려 본 적 있어?|T4228324
+4485|I had the most [upsetting] day.|오늘 정말 속상한 하루였어.|T12090980
+4486|A [falcon] is a bird of prey.|매는 맹금류야.|T9848220
+4487|This traffic is [unbearable].|차가 너무 막혀서 못 참겠어.|D
+4488|Don't be a [brute].|짐승처럼 굴지 마.|T2258172
+4489|I really feel like having a big [juicy] steak!|육즙 가득한 큰 스테이크 먹고 싶다!|D
+4492|Things were kind of [freaky].|좀 괴상한 일들이 있었어.|T5737776
+4493|The two companies [merged] last year.|두 회사는 작년에 합병했어.|self
+4494|Let's make a [pact].|우리 약속하자.|T2007814
+4495|The lack of trust was [apparent].|신뢰가 부족한 게 분명했어.|T11630210
+4496|A lot of people get [conned] online.|온라인에서 사기당하는 사람이 많아.|D
+4497|The starving man [devoured] the food.|굶주린 남자는 음식을 게걸스럽게 먹어 치웠어.|T64021
+4498|The outlook is [grim].|전망이 암울해.|T263791
+4499|There are many [medieval] castles in Europe.|유럽에는 중세 성이 많아.|T5389172
+4500|It's really [frustrating], isn't it?|정말 답답하다, 그렇지?|D
+4501|It [stimulated] my imagination.|그게 내 상상력을 자극했어.|T5735701
+4502|I've applied for a [patent] on my invention.|내 발명품으로 특허를 출원했어.|T2820821
+4503|It was originally written as a [screenplay].|원래는 영화 대본으로 쓰인 거야.|T11009404
+4504|I appreciate the [sentiment].|그 마음은 고맙게 받을게.|T1933615
+4505|Is that your car in the [driveway]?|진입로에 있는 거 네 차야?|T1096413
+4506|I love your [funky] new glasses.|새로 산 안경 완전 멋지다.|self
+4507|We need to decide whether to [intervene].|우리가 개입할지 말지 정해야 해.|T10563837
+4509|But I don't [indulge] myself too much.|하지만 너무 마음껏 즐기진 않아.|D
+4511|A huge [mass] of snow fell off the roof.|지붕에서 커다란 눈덩이가 떨어졌어.|self
+4512|A [ray] of sunlight came through the window.|창문으로 햇살 한 줄기가 들어왔어.|self
+4513|Bring a [stool] from the kitchen.|부엌에서 의자 하나 가져와.|T8068846
+4514|I like [architecture] more than computers.|난 컴퓨터보다 건축이 더 좋아.|D
+4515|Trees are living [organisms].|나무는 살아 있는 생물이야.|T11558904
+4516|The [proportions] were all wrong.|비율이 전부 틀렸어.|T10911365
+4517|That kind of behavior is [unacceptable].|그런 행동은 용납할 수 없어.|T4495422
+4518|How do you [interpret] these sentences?|이 문장들 어떻게 해석해?|T57217
+4519|I admire her [devotion] to her family.|가족을 향한 그녀의 헌신이 존경스러워.|self
+4520|We try to [recycle] as much as we can.|우리는 최대한 재활용하려고 해.|D
+4521|I did this for [convenience].|편하려고 이렇게 한 거야.|D
+4522|Do you have any fresh [plums]?|신선한 자두 있어요?|D
+4524|I'm as strong as an [ox].|나 황소처럼 힘세.|T9582988
+4525|I broke your [vase] accidentally.|실수로 네 꽃병을 깼어.|D
+4526|[Collective] interests must be protected.|공동의 이익은 보호되어야 해.|T2264765
+4527|That's part of our [heritage].|그건 우리 유산의 일부야.|T9677762
+4529|I need to [renew] my ID card.|신분증 갱신해야 해.|T915843
+4530|This [lime] isn't ripe.|이 라임 안 익었어.|T8416188
+4532|That whole week was just a [blur].|그 주는 통째로 기억이 흐릿해.|T10564293
+4533|I want to show my [appreciation].|감사의 마음을 표하고 싶어.|T10952565
+4534|London is such a [historic] city!|런던은 정말 역사적인 도시야!|D
+4536|Would you like to take the [mic]?|마이크 잡아 볼래?|T1654662
+4538|Is this a sheep or a [goat]?|이거 양이야, 염소야?|T1635342
+4539|You have to take [antibiotics].|항생제 먹어야 해.|T8656451
+4540|I'd like a [loaf] of white bread.|흰 식빵 한 덩어리 주세요.|T8261749
+4541|[Researchers] say this isn't true.|연구자들은 이게 사실이 아니래.|T8902673
+4542|Your ticket is [valid] for three days.|표는 3일간 유효합니다.|D
+4543|She wore a long black [cloak].|그녀는 긴 검은 망토를 입고 있었어.|self
+4544|The walls are white [plaster].|벽은 흰 회반죽이야.|T3726608
+4545|This is a [hazard] to your health.|이건 건강에 위험해.|T55988
+4547|What caused the [malfunction]?|뭐 때문에 오작동한 거야?|T4014638
+4548|Do you want some [bourbon]?|버번 좀 마실래?|T2645090
+4549|We're not going [ashore].|우리는 뭍에 안 내려.|T3310920
+4550|I hope I can count on your [discretion].|신중하게 처리해 주시리라 믿어요.|T657067
+4551|The movie was a little [disappointing].|영화가 좀 실망스러웠어.|T4529313
+4552|I know a [shortcut]. Follow me.|나 지름길 알아. 따라와.|T10543778
+4553|I'm sorry that I was [absent] yesterday.|어제 결석해서 죄송해요.|D
+4554|It was a [catastrophe] for me.|나한텐 재앙이었어.|T7548793
+4556|I didn't want to [intrude].|방해하고 싶지 않았어.|T2012104
+4557|Stop cracking your [knuckles].|손가락 관절 좀 그만 꺾어.|T2815157
+4558|The rose is a common [motif] in her paintings.|장미는 그녀 그림에 자주 나오는 모티프야.|self
+4560|Thank you for being so [supportive].|이렇게 힘이 되어 줘서 고마워.|T2883037
+4561|I saw a young couple [cuddling] on a park bench.|공원 벤치에서 젊은 커플이 껴안고 있는 걸 봤어.|T2439670
+4562|A toothache [deprived] me of sleep.|치통 때문에 잠을 못 잤어.|T263584
+4564|Don't be such a [sissy].|그렇게 겁쟁이처럼 굴지 마.|T8705719
+4566|Do you like watching the Winter [Olympic] Games?|동계 올림픽 경기 보는 거 좋아해?|D
+4567|I work in an [accounting] office.|나 회계 사무소에서 일해.|T1691389
+4568|This is not my area of [expertise].|이건 내 전문 분야가 아니야.|T6542654
+4569|What should I do to stop [hiccups]?|딸꾹질 멈추려면 어떻게 해야 해?|T1057307
+4570|She told me about all her [woes].|그녀가 자기 온갖 괴로움을 다 털어놨어.|self
+4571|I nearly died of [embarrassment].|창피해서 죽는 줄 알았어.|T6542540
+4572|Do you prefer [waffles] or pancakes?|와플이 좋아, 팬케이크가 좋아?|T6037008
+4574|I like [vanilla] ice cream very much.|나 바닐라 아이스크림 정말 좋아해.|T874015
+4575|Wow, what a long [queue] this is!|와, 줄 엄청 기네!|D
+4577|A parrot can [mimic] a person's voice.|앵무새는 사람 목소리를 흉내 낼 수 있어.|T65170
+4578|Swimming [strengthens] the legs.|수영은 다리를 튼튼하게 해.|T4046161
+4579|I saw a [polar] bear yesterday.|어제 북극곰 봤어.|T12096063
+4584|It's [understandable] that you should feel this way.|네가 그렇게 느끼는 건 당연해.|T3773018
+4585|I've decided to answer all questions [publicly].|모든 질문에 공개적으로 답하기로 했어.|T842220
+4587|I think it might be a [defect].|결함인 것 같아.|T8839588
+4588|I've got a pair of [pearl] earrings.|나 진주 귀걸이 한 쌍 있어.|D
+4589|They attempted to [assassinate] the president.|그들은 대통령을 암살하려 했어.|T307108
+4590|When did these [delusions] first occur?|이런 망상이 언제 처음 생겼나요?|T3731523
+4591|Tom grew up in the [ghetto].|톰은 빈민가에서 자랐어.|T5276569
+4592|The [pilgrims] brought gifts from distant lands.|순례자들은 먼 나라에서 선물을 가져왔어.|T1210116
+4593|I want to [charter] a bus.|버스를 전세 내고 싶어요.|T275352
+4594|We should [acquaint] ourselves with the facts.|우리는 사실 관계부터 파악해야 해.|T263753
+4596|Could you pass me the maple [syrup]?|메이플 시럽 좀 건네줄래?|T5539516
+4598|The weather here is very [unpredictable].|여기 날씨는 정말 예측할 수가 없어.|T4135297
+4599|The whole ship was [quarantined].|배 전체가 격리됐어.|T8504782
+4600|I heard about your [suspension].|너 정학당했다는 얘기 들었어.|T12128176
+4603|The teacher [aroused] our interest.|선생님이 우리의 흥미를 불러일으켰어.|T48685
+4604|Do you think I'm being too [cautious]?|내가 너무 조심스러운 것 같아?|T3359729
+4605|The [sellers] are usually fairly quick to respond.|판매자들은 보통 꽤 빨리 답해 줘.|D
+4606|I'd like 300 [grams] of this.|이거 300그램 주세요.|T6266001
+4607|I'm a firm United [supporter].|난 유나이티드의 열렬한 지지자야.|D
+4608|You look a little [shaken].|너 좀 놀란 것 같아.|T3324299
+4609|I don't like [vulgar] jokes.|저속한 농담은 싫어.|T9203585
+4610|There are so many ancient [relics] in China.|중국엔 고대 유물이 정말 많아.|D
+4611|I like my bacon very [crisp].|베이컨은 아주 바삭한 게 좋아.|D
+4612|Do you want to get an ice cream [cone]?|아이스크림 콘 사 먹을래?|D
+4613|I am looking for a [blouse].|블라우스 찾고 있어요.|D
+4614|It was quite a [spectacle].|정말 장관이었어.|T12062893
+4615|The football game is now being [broadcast].|지금 축구 경기가 방송되고 있어.|T565350
+4616|There's a [dent] in my car door.|내 차 문이 움푹 들어갔어.|self
+4617|Students may not enter the [faculty] lounge.|학생은 교수 휴게실에 들어갈 수 없어요.|T4546282
+4618|Tom is [fiddling] with his bow tie.|톰이 나비넥타이를 만지작거리고 있어.|T3448923
+4619|I have [modified] my translation accordingly.|그에 맞게 번역을 수정했어.|T11565784
+4620|She was in [ecstasy] when she heard the news.|그 소식을 듣고 그녀는 황홀해했어.|self
+4621|Change the way you [perceive] the world.|세상을 인식하는 방식을 바꿔 봐.|T9370503
+4622|A [convoy] of trucks passed through the town.|트럭 수송대가 마을을 지나갔어.|self
+4623|That island has a [tropical] climate.|그 섬은 열대 기후야.|T67891
+4624|I was recently in an [automobile] accident.|최근에 자동차 사고를 당했어.|T243856
+4625|I understand your [frustration].|답답한 마음 이해해.|T1839513
+4626|Don't [meddle] in my affairs.|내 일에 참견하지 마.|T250995
+4628|The [empress] lived in a huge palace.|황후는 거대한 궁전에 살았어.|self
+4629|Our car is [equipped] with air conditioning.|우리 차엔 에어컨이 달려 있어.|T65546
+4630|Did you watch the [finale] last night?|어젯밤에 마지막 회 봤어?|D
+4631|Is there a [remedy] for it?|그거 치료법 있어요?|D
+4632|I asked Tom to [stoke] the fire.|톰한테 불 좀 지펴 달라고 했어.|T11796042
+4633|That was a [slick] move.|그거 진짜 능숙한 솜씨였어.|T8550086
+4634|Tell them we're [unarmed].|우리 무장 안 했다고 전해.|T3721578
+4636|Smoking is [prohibited] in all public buildings.|모든 공공건물에서 흡연은 금지야.|T2640298
+4637|That was a [tactical] mistake.|그건 전술적인 실수였어.|self
+4638|She works as a [teller] in a bank.|그녀는 은행 창구 직원으로 일해.|D
+4639|Why don't we just [elope]?|우리 그냥 사랑의 도피 할까?|T2281885
+4640|The spy tried to [infiltrate] the company.|스파이가 그 회사에 잠입하려 했어.|self
+4641|Do you have [wool] socks?|울 양말 있어요?|D
+4642|The baby is sleeping in the [crib].|아기가 아기 침대에서 자고 있어.|T10627801
+4643|When will I get my chance in the [spotlight]?|나는 언제 주목받을 기회가 올까?|T9166122
+4644|This table is a [priceless] antique.|이 탁자는 값을 매길 수 없는 골동품이야.|T60868
+4646|It's just a matter of [perception].|그냥 인식의 문제야.|T10482132
+4647|Keeping a car is a [considerable] expense.|차를 유지하려면 상당한 비용이 들어.|T265604
+4648|In the game, I always play as a [paladin].|게임에서 난 항상 성기사를 해.|self
+4650|I'll wait on the [sidewalk].|인도에서 기다릴게.|D
+4651|The food looks [positively] delicious.|음식이 확실히 맛있어 보여.|T5725604
+4653|She is the mature, stable, [feminine] type.|그녀는 성숙하고 안정적이고 여성스러운 타입이야.|D
+4654|Be careful not to [tamper] with it.|그거 함부로 손대지 않게 조심해.|T2047694
+4655|I don't like bread [crust].|난 빵 껍질 싫어.|T8926669
+4656|I [partly] agree with you.|네 말에 부분적으로 동의해.|D
+4657|Don't worry. They will be [supervised].|걱정 마. 감독하는 사람이 있을 거야.|T1721108
+4658|He gave a [vague] answer.|그는 모호한 대답을 했어.|T288687
+4659|You're right, it's a low [percentage].|맞아, 비율이 낮아.|D
+4660|Did you like the [meatballs]?|미트볼 맛있었어?|T12336541
+4661|How can I tell if they're [ripe]?|익었는지 어떻게 알 수 있어?|D
+4662|A [mist] hung over the river.|강 위에 안개가 끼어 있었어.|T273177
+4664|What a [gigantic] pumpkin!|엄청 거대한 호박이다!|T12175413
+4666|Who was the [conductor]?|지휘자가 누구였어?|D
+4667|The [headmaster] was a very stern man.|교장 선생님은 아주 엄격한 분이었어.|T10935450
+4668|The apartment is on the [tenth] floor.|그 아파트는 10층에 있어.|D
+4669|Quality is more important than [quantity].|양보다 질이 더 중요해.|T325900
+4670|She's actually very [athletic].|걔 사실 운동 신경 엄청 좋아.|D
+4671|Can I come [backstage]?|무대 뒤로 가도 돼요?|T4144668
+4672|This song has a great [groove].|이 노래 리듬감 끝내준다.|self
+4673|How should I [compensate] for this?|이거 어떻게 보상해 드려야 할까요?|D
+4674|It seems to be a [trend].|유행인 것 같아.|D
+4675|I want to get a [puppy] for my son.|아들한테 강아지 한 마리 사 주고 싶어.|D
+4676|We would like to [amend] it, please.|그거 수정하고 싶어요.|D
+4677|This water is [contaminated]. Don't drink it.|이 물은 오염됐어. 마시지 마.|T11127075
+4678|Put your name on all your [belongings].|소지품마다 이름을 써 둬.|T264740
+4679|I've lost the [motivation] to keep going.|계속할 의욕을 잃었어.|T9265435
+4680|It's a bit [chilly] in here.|여기 좀 쌀쌀하네.|D
+4682|Do you have any [feedback] for us?|저희한테 주실 의견 있으세요?|T675735
+4683|The telephone rang [repeatedly].|전화가 계속 울렸어.|T279304
+4684|This is an [exquisite] little painting.|이건 정말 정교하고 아름다운 작은 그림이야.|T55572
+4685|Are you a [socialist]?|너 사회주의자야?|T11935800
+4686|Her [vanity] knows no bounds.|그녀의 허영심은 끝이 없어.|T663007
+4687|I have a fever and a [headache].|열도 나고 머리도 아파요.|D
+4688|Money is [secondary] to me.|나한테 돈은 부차적인 거야.|self
+4689|A computer is an absolute [necessity] now.|이제 컴퓨터는 꼭 필요한 물건이야.|T54558
+4690|Tom [slew] the dragon.|톰이 용을 처치했어.|T7946007
+4691|I think I have a [concussion].|나 뇌진탕인 것 같아.|T6576818
+4692|Do you have a New Year's [resolution]?|새해 결심 있어?|D
+4693|Are you a [cigar] smoker?|시가 피우세요?|D
+4694|I'm really [longing] for summer vacation.|여름 방학이 너무 기다려져.|T261763
+4695|You're a [sly] one.|너 참 교활하구나.|T9149669
+4698|It was a head-on [collision].|정면충돌이었어.|T12297732
+4699|The [lava] destroyed everything in its path.|용암이 지나가는 길의 모든 걸 파괴했어.|T9955581
+4700|How much is the [monthly] rate?|월 요금이 얼마예요?|T24051
+4701|Check out these [stats].|이 통계 좀 봐.|T4496533
+4702|You can't [undo] what's already been done.|이미 한 일은 되돌릴 수 없어.|T6873340
+4703|We're in the [midst] of moving house.|우리 지금 한창 이사하는 중이야.|self
+4704|How was the [seminar]?|세미나 어땠어?|T2548422
+4705|She sings [gospel] music at church.|그녀는 교회에서 복음 성가를 불러.|self
+4706|I brought my [transcript] from my first year.|1학년 성적 증명서 가져왔어요.|D
+4707|She made a necklace with glass [beads].|그녀는 유리구슬로 목걸이를 만들었어.|self
+4708|The [serpent] tempted Eve.|뱀이 이브를 유혹했어.|T809841
+4709|The kids got bags full of [goodies].|애들이 맛있는 걸 한가득 받았어.|self
+4710|What time is your [curfew]?|너 통금 몇 시야?|T1839616
+4711|Give me the [equivalent] in dollars.|달러로 같은 금액을 주세요.|T2265981
+4712|He's a [notorious] liar.|그는 악명 높은 거짓말쟁이야.|T1462961
+4713|What a [pitiful] kid!|정말 불쌍한 아이다!|T12134463
+4715|This was on your [doorstep].|이게 너희 집 문 앞에 있었어.|T8185573
+4716|There's too much [propaganda] on the Internet.|인터넷에 선동이 너무 많아.|T10126322
+4717|I was [fascinated] by what I saw.|내가 본 것에 완전히 매료됐어.|T6046766
+4718|We won the [bronze] medal.|우리가 동메달을 땄어.|T1182395
+4719|The older brother became a successful [trader].|형은 성공한 상인이 됐어.|T2044306
+4720|The chickens [pecked] at the corn.|닭들이 옥수수를 쪼아 먹었어.|self
+4721|Which one of you is the [pitcher]?|너희 중에 누가 투수야?|T10703359
+4722|Tom is a [fearless] skier.|톰은 겁 없는 스키어야.|T6579360
+4723|It's down the [hall] and to the right.|복도 따라가다 오른쪽에 있어요.|D
+4725|May I suggest an [alternate] plan?|대체 계획을 제안해도 될까요?|T3127929
+4726|Let me [briefly] explain this to you.|이거 간단히 설명해 줄게.|T12258384
+4728|Our method is [experimental].|우리 방법은 실험적이야.|T12274793
+4730|Do you know any [Greek] myths?|그리스 신화 아는 거 있어?|T36314
+4732|We took a ferry back to the [mainland].|배를 타고 본토로 돌아왔어.|self
+4733|The [evaluation] could take months.|평가는 몇 달 걸릴 수도 있어.|T4664611
+4734|Are [indoor] sports popular?|실내 스포츠가 인기 있어?|D
+4735|The puppy [nipped] at my fingers.|강아지가 내 손가락을 살짝 물었어.|self
+4736|Some fish are able to change their [gender].|어떤 물고기는 성별을 바꿀 수 있어.|T560498
+4737|Mary entered a beauty [pageant].|메리가 미인 대회에 나갔어.|T5769757
+4738|Maybe you should ask him [openly].|그냥 그 사람한테 솔직하게 물어보는 게 좋겠어.|D
+4739|Are you a [deacon]?|집사님이세요?|T12101009
+4740|Hey, [shorty], need help reaching that?|어이 꼬맹이, 그거 꺼내는 거 도와줄까?|self
+4742|We can add that as an [amendment] to your contract.|그건 계약서에 수정 조항으로 추가할 수 있어요.|D
+4743|Don't worry, I won't [overdose]!|걱정 마, 과다 복용 안 할게!|D
+4744|I have a [tendency] to forget things.|난 뭘 잘 잊어버리는 경향이 있어.|T6662128
+4745|Tom believes in UFOs and alien [abductions].|톰은 UFO랑 외계인 납치를 믿어.|T8096418
+4747|Tom's face was [smeared] with dirt.|톰의 얼굴에 흙이 잔뜩 묻어 있었어.|T8126642
+4748|Food prices have [surged].|식료품 가격이 급등했어.|T5746912
+4749|Hide behind that [pillar].|저 기둥 뒤에 숨어.|T12188005
+4751|Put this [sticker] on your suitcase.|이 스티커 여행 가방에 붙여.|T8078984
+4752|The white dress was once a symbol of [virginity].|흰 드레스는 한때 순결의 상징이었어.|self
+4753|Tom built a chicken [coop] in his backyard.|톰은 뒷마당에 닭장을 지었어.|T6795391
+4754|This organization lacks [unity].|이 조직은 단결력이 부족해.|T58046
+4757|Is that the [belt] I gave you?|그거 내가 준 벨트야?|T3153705
+4758|There are lots of boats in the [harbour].|항구에 배가 많네.|self
+4759|My father is a [skilled] fisherman.|우리 아빠는 숙련된 어부야.|T998995
+4762|The road was closed, so traffic was [diverted].|길이 막혀서 차들이 다른 길로 돌려졌어.|self
+4763|He left early, and I did [likewise].|그는 일찍 떠났고, 나도 마찬가지로 그랬어.|self
+4765|I watch a lot of [gangster] movies.|나 갱 영화 많이 봐.|T5688242
+4766|Tom is a [hick].|톰은 촌놈이야.|T2272811
+4768|The two sides [clashed] several times.|양측은 여러 번 충돌했어.|T807275
+4769|What time do you usually [bathe] the baby?|보통 아기 몇 시에 목욕시켜?|T2459513
+4770|A nail [punctured] the tire.|못이 타이어에 구멍을 냈어.|T1223075
+4771|I think that's an accurate [assessment].|정확한 평가인 것 같아.|T5454748
+4773|Have you met my new [apprentice]?|내 새 견습생 만나 봤어?|T12065492
+4774|[Cobras] are always very alert.|코브라는 항상 경계심이 아주 강해.|T376414
+4775|Water contains [hydrogen] and oxygen.|물에는 수소와 산소가 들어 있어.|T270816
+4776|May we have a short [recess]?|잠깐 휴회해도 될까요?|T2247187
+4777|We need to make some [adjustments].|조정이 좀 필요해.|T8560366
+4778|It's hard to find a good [drummer].|좋은 드러머 찾기 어려워.|T9517254
+4779|The village [parson] visited us on Sunday.|일요일에 마을 목사님이 우리 집에 오셨어.|self
+4780|The deer [roam] freely inside the park.|사슴들이 공원 안을 자유롭게 돌아다녀.|T5485604
+4781|Would you like some more [gravy]?|그레이비 좀 더 드릴까요?|T62781
+4782|The storm [severely] damaged the crops.|폭풍이 농작물에 심한 피해를 줬어.|T755166
+4783|What's the nationality of that [cameraman] over there?|저기 저 카메라맨은 어느 나라 사람이야?|T71775
+4785|Does your son like going to [kindergarten]?|아들은 유치원 가는 거 좋아해?|T7131295
+4786|It's [characteristic] of him to behave like that.|그렇게 행동하는 게 딱 그 사람 특징이야.|T41441
+4787|I have a really bad [hangover].|숙취가 진짜 심해.|T2713179
+4788|I need to [clarify] this.|이건 분명히 해 둬야겠어.|D
+4791|We were attacked by [swarms] of bees.|우리는 벌 떼한테 공격당했어.|T22666
+4792|I'll just have to [improvise].|그냥 즉흥적으로 해야겠다.|T1096436
+4794|Tom answered in the [affirmative].|톰은 그렇다고 대답했어.|T4529549
+4795|I tried to be [merciful].|자비를 베풀려고 했어.|T11871241
+4796|The merry-go-round [rotates] clockwise.|회전목마는 시계 방향으로 돌아.|T3166248
+4797|I know you like [Italian] food.|너 이탈리아 음식 좋아하는 거 알아.|D
+4798|This is a time of [rejoicing].|지금은 크게 기뻐할 때야.|T1657835
+4803|I have to [rewrite] it.|그거 다시 써야 해.|D
+4804|Do you like that [vintage] clock?|저 빈티지 시계 마음에 들어?|D
+4805|Were you at the [courthouse]?|법원에 있었어?|T4494072
+4807|Press the [pedal] with your left foot.|왼발로 페달을 밟아.|T10959825
+4808|The meeting [adjourned] at 2:30 p.m.|회의는 오후 2시 반에 휴회했어.|T4501014
+4811|We felt the [holiness] of the old temple.|오래된 사원의 신성함이 느껴졌어.|self
+4812|The [isolation] was terrible.|고립감이 끔찍했어.|T11031399
+4813|The [transformation] was dramatic.|변화가 극적이었어.|T5728894
+4814|I would like to [nominate] myself.|제가 저 자신을 추천하고 싶어요.|T12381112
+4816|Great leaders inspire [greatness] in others.|위대한 지도자는 다른 사람들의 위대함을 끌어내.|T10106667
+4817|He deeply [repents] what he did.|그는 자기가 한 일을 깊이 뉘우치고 있어.|self
+4818|You should talk to a [solicitor] first.|먼저 변호사와 상담해 봐.|self
+4819|Have the [decency] to keep quiet.|예의가 있으면 좀 조용히 해.|T5480904
+4820|The pilot sent out a [mayday] call.|조종사가 조난 신호를 보냈어.|self
+4822|The interview [consists] of three parts.|면접은 세 부분으로 이루어져 있어요.|D
+4824|I can't [undertake] such a big project alone.|이렇게 큰 프로젝트를 혼자 맡을 수는 없어.|self
+4825|You were [exceeding] the speed limit, weren't you?|제한 속도를 넘으셨죠?|T271253
+4826|Oil prices are [soaring] nowadays, you know.|요즘 기름값이 치솟고 있잖아.|D
+4827|Have you ever seen a [cuckoo]?|뻐꾸기 본 적 있어?|T63693
+4828|What will our [descendants] be like?|우리 후손들은 어떤 모습일까?|T12069890
+4829|[Secondly], your company has a good reputation.|둘째로, 귀사는 평판이 좋습니다.|D
+4830|There's something [fishy] going on here.|여기 뭔가 수상한 일이 벌어지고 있어.|T10520659
+4833|I've brought you some [homemade] chicken soup.|집에서 만든 닭고기 수프 좀 가져왔어.|T10742818
+4834|Are you really a [nun]?|정말 수녀세요?|T1886325
+4835|What will you do with your first [paycheck]?|첫 월급으로 뭐 할 거야?|T5112101
+4836|I'm [genuinely] sorry for what I said.|내가 한 말 진심으로 미안해.|T8137291
+4837|Well, flying [kites] is more fun to me.|음, 난 연날리기가 더 재밌어.|D
+4839|Do you drive a [hybrid] car?|하이브리드 차 타?|T6033305
+4840|It's a [requirement] for graduation.|그건 졸업 요건이야.|T5725995
+4841|Put a [caption] on this photo.|이 사진에 설명 좀 달아 줘.|T7769167
+4842|That's just your personal [prejudice].|그건 그냥 네 개인적인 편견이야.|D
+4843|I felt [remorse] for what I had done.|내가 한 일에 양심의 가책을 느꼈어.|T11796727
+4844|Is there a public [restroom] near here?|이 근처에 공중화장실 있어요?|D
+4845|You were [courageous] to tell the truth.|진실을 말하다니 용감했어.|T322224
+4846|I can't get this [splinter] out of my finger.|손가락에 박힌 가시가 안 빠져.|T59071
+4847|Your [determination] is admirable.|네 투지는 정말 대단해.|T7760435
+4848|Your business is [flourishing], I hear.|사업이 번창하고 있다면서.|T267431
+4849|This is my last will and [testament].|이건 내 마지막 유언장이야.|T10900427
+4850|When is the [Apocalypse]?|종말은 언제 와?|T885674
+4852|Let's take it down a [notch].|한 단계 좀 낮추자.|T3724162
+4853|OK, just take a deep [breath], sir.|자, 숨 한번 깊게 쉬세요.|D
+4854|Watch your step. The stairs are [steep].|발밑 조심해. 계단이 가팔라.|T274493
+4855|Don't [squirt] water at your sister!|동생한테 물 뿌리지 마!|self
+4856|I promise to return this [videotape] within a week.|이 비디오테이프 일주일 안에 꼭 돌려줄게.|T60610
+4857|The bombs were [detonated] by remote control.|폭탄은 원격 조종으로 터뜨려졌어.|T5725264
+4858|Do you have any [ketchup]?|케첩 있어요?|D
+4859|The bright lights [dazzled] me.|밝은 불빛에 눈이 부셨어.|self
+4861|Have you filled in the [Declaration] Form?|신고서 작성하셨어요?|D
+4862|You can hear my [tummy] grumbling.|내 배에서 꼬르륵 소리 나는 거 들리지.|D
+4863|My dog tore my shirt to [shreds].|우리 개가 내 셔츠를 갈가리 찢어 놨어.|T11790542
+4865|He watched a movie about the [yakuza].|그는 야쿠자에 관한 영화를 봤어.|self
+4866|Things [spiraled] out of control.|상황이 걷잡을 수 없이 소용돌이쳤어.|T1875781
+4867|The light in this room is too [dim].|이 방 조명이 너무 어두워.|D
+4868|You never know what's [lurking] in the shadows.|어둠 속에 뭐가 숨어 있을지 몰라.|T11388986
+4869|That seems [legit] to me.|내가 보기엔 진짜 같아.|T4499793
+4870|It's a [prototype] of our new product.|저희 신제품의 시제품이에요.|D
+4871|[Moreover], I am familiar with CAD.|게다가 저는 CAD도 다룰 줄 압니다.|D
+4873|The [heroine] of this story is a little girl.|이 이야기의 여주인공은 어린 소녀야.|T57263
+4874|These plants are [hardy] enough to survive the winter.|이 식물들은 겨울을 날 만큼 강인해.|self
+4875|Let's call a [truce].|우리 휴전하자.|D
+4876|I have a house in the [suburbs].|나 교외에 집이 있어.|D
+4877|When was Germany [reunited]?|독일은 언제 재통일됐어?|T1761883
+4878|A baby is [incapable] of taking care of itself.|아기는 스스로를 돌볼 수 없어.|T272391
+4879|[Germs] can cause sickness.|세균은 병을 일으킬 수 있어.|T244203
+4880|I need to talk to you [privately].|너랑 따로 얘기 좀 해야 해.|T5803908
+4881|That's not much [consolation].|그건 별 위로가 안 돼.|T9199813
+4882|That was an [astonishing] performance.|정말 놀라운 공연이었어.|T12083976
+4883|The [mare] and her foal ran across the field.|암말과 망아지가 들판을 가로질러 달렸어.|self
+4884|The [defenders] can't keep up!|수비수들이 못 따라가!|D
+4885|I was on the [verge] of tears.|나 울기 직전이었어.|T4826137
+4886|I was told my tear [duct] was blocked.|눈물관이 막혔다고 하더라.|T325992
+4887|This coupon can only be [redeemed] in-store.|이 쿠폰은 매장에서만 교환할 수 있어.|T10162282
+4890|Watch me [chug] this beer.|내가 이 맥주 벌컥벌컥 마시는 거 봐.|T5114948
+4891|Some people find that novel too [erotic].|어떤 사람들은 그 소설이 너무 관능적이라고 생각해.|self
+4892|Tom is a [mercenary].|톰은 용병이야.|T7114181
+4893|The roof was torn off by the [gale].|강풍에 지붕이 날아갔어.|T25574
+4895|Do you have any [siblings]?|형제자매 있어?|D
+4896|Tom is being held [captive].|톰이 포로로 잡혀 있어.|T3723593
+4899|What's the difference between [ale] and lager?|에일이랑 라거는 뭐가 달라?|T10165118
+4900|Are you a friend or [foe]?|너 친구야, 적이야?|T11896311
+4901|He saw the new job as a chance for [redemption].|그는 새 직장을 만회할 기회로 여겼어.|self
+4902|He's a nice [chap], isn't he?|그 녀석 괜찮은 친구지?|self
+4903|Are you trying to [exclude] me?|나 빼려는 거야?|T10533982
+4904|Do you have any bug [spray]?|벌레 퇴치 스프레이 있어요?|D
+4905|This is just [speculation].|이건 그냥 추측이야.|T2982320
+4908|You should've [heeded] my warning.|내 경고를 귀담아들었어야지.|T12270217
+4909|A [tornado] has been spotted.|토네이도가 발견됐어.|D
+4910|He donated [plasma] at the hospital.|그는 병원에서 혈장을 기증했어.|self
+4911|The foreign [minister] attended the talks.|외무 장관이 회담에 참석했어.|T21843
+4912|Go on, [scram]! I'm busy.|얼른 가, 썩 꺼져! 나 바빠.|self
+4913|Mommy, I need to go [poo]!|엄마, 나 응가 마려워!|self
+4914|I'm thinking about changing my [supplier].|공급 업체를 바꿀까 생각 중이야.|T1351536
+4917|I'm not an [imbecile].|나 바보 아니야.|T7114029
+4918|We spent our holiday on a small [isle].|우리는 작은 섬에서 휴가를 보냈어.|self
+4919|I did very [poorly] on that test.|그 시험 정말 형편없이 봤어.|D
+4920|That is very [encouraging] news.|정말 고무적인 소식이네.|D
+4921|We put the data into a [matrix].|데이터를 행렬로 정리했어.|self
+4922|Keep both feet [firmly] on the ground.|두 발을 땅에 단단히 붙이고 있어.|T325735
+4923|Don't [boast] too much about that.|그거 너무 자랑하지 마.|T67731
+4924|The apple has begun to [decay].|사과가 썩기 시작했어.|T49726
+4925|I always confuse which side is port and which is [starboard].|난 어느 쪽이 좌현이고 어느 쪽이 우현인지 항상 헷갈려.|T12821572
+4926|We hope that there is [closure].|마음의 정리가 되길 바라.|T5731896
+4927|We are very sorry for the [inconvenience].|불편을 드려 정말 죄송합니다.|D
+4928|He's probably a [pervert].|그 사람 아마 변태일 거야.|D
+4929|The [garrison] was forced to surrender.|수비대는 어쩔 수 없이 항복했어.|T265892
+4930|All that [glitters] is not gold.|반짝인다고 다 금은 아니야.|T20086
+4931|Do you know the [chords] to this song?|이 노래 코드 알아?|T2951736
+4932|The stable is next to the [saloon].|마구간은 술집 옆에 있어.|T8865063
+4933|There's no life without [hardships].|고난 없는 삶은 없어.|T2268730
+4935|Let's sit down and discuss it [calmly].|앉아서 침착하게 얘기해 보자.|T4077424
+4936|We visited an old [abbey] in the countryside.|시골에 있는 오래된 수도원에 가 봤어.|self
+4937|This is indeed [shameful].|네 행동은 부끄러운 거였어.|T5746040
+4938|Chess players have to be good at [strategic] thinking.|체스 선수는 전략적 사고에 능해야 해.|T8946809
+4939|How many people are there on the [payroll]?|급여 대장에 몇 명이 올라 있어?|T24513
+4941|How do you normally handle [criticism]?|보통 비판을 어떻게 받아들이세요?|D
+4942|How can you be so [heartless]?|어떻게 그렇게 무정할 수 있어?|T2891266
+4943|This is an [immense] relief.|정말 엄청나게 안심된다.|T5739239
+4944|The child [tumbled] down the stairs.|아이가 계단에서 굴러떨어졌어.|T245946
+4945|Have you ever seen a [badger]?|오소리 본 적 있어?|T10107546
+4946|Pick up the [receiver] and hit one of the buttons.|수화기를 들고 버튼 하나를 누르세요.|D
+4947|Who's the [cutie] in the blue shirt?|파란 셔츠 입은 귀염둥이는 누구야?|T9744000
+4948|Our team was saved from [elimination] at the last minute.|우리 팀은 막판에 탈락을 면했어.|self
+4949|I bought a [pineapple] at the supermarket.|슈퍼에서 파인애플 하나 샀어.|T7735360
+4950|I hold her in high [esteem].|나는 그녀를 매우 존경해.|self
+4951|No, rabbits aren't very [stinky].|아니, 토끼는 별로 냄새 안 나.|D
+4952|A [cluster] of people gathered around the stage.|사람들이 무대 주변에 무리 지어 모였어.|self
+4953|It's a very [orderly] process.|아주 질서 정연한 과정이야.|T7126707
+4954|I was sworn to [secrecy].|비밀을 지키기로 맹세했어.|T4980195
+4955|How's your [thesis] going?|논문은 잘 돼 가?|D
+4956|Do you have regular [bowel] movements?|배변은 규칙적으로 하세요?|D
+4957|Childhood experiences shape a person's [psyche].|어린 시절의 경험이 사람의 정신을 형성해.|self
+4958|Why are you [shivering]?|왜 떨고 있어?|D
+4959|What we need is [leverage].|우리에게 필요한 건 영향력이야.|T3823056
+4960|There is no rest for the [weary].|지친 자에게 휴식은 없어.|T712818
+4961|I always wanted to be a [cowboy].|난 항상 카우보이가 되고 싶었어.|T5852205
+4962|His [extensive] knowledge surprises me.|그의 폭넓은 지식에 놀랐어.|T287307
+4963|I think you're being a bit [optimistic].|너 좀 낙관적인 것 같아.|D
+4964|I need it [urgently].|그거 급히 필요해.|D
+4965|I got lost in the [maze].|미로에서 길을 잃었어.|T3733647
+4966|It's kind of [spooky] in here.|여기 좀 으스스하다.|T7118069
+4968|[Paste] these labels on the jars.|이 라벨들을 병에 붙여.|T2820953
+4969|Come and warm yourself by the [fireplace].|벽난로 옆에 와서 몸 좀 녹여.|T6875984
+4971|The [vicar] wore drab clothing.|목사님은 칙칙한 옷을 입고 있었어.|T2323396
+4973|There's no cure for [stupidity].|어리석음에는 약이 없어.|T1370104
+4974|A ship is [moored] at the pier.|배 한 척이 부두에 정박해 있어.|T806580
+4975|Is my face still [swollen]?|내 얼굴 아직 부었어?|D
+4977|To my surprise, the door was [unlocked].|놀랍게도 문이 안 잠겨 있었어.|T18906
+4978|Well, trains are [frequent] and come on time.|음, 기차가 자주 있고 제시간에 와.|D
+4979|Air is a [mixture] of gases.|공기는 기체의 혼합물이야.|T18235
+4980|The knives are covered with [rust].|칼들이 녹으로 뒤덮여 있어.|T2985487
+4981|This is the result of women's [liberation].|이건 여성 해방의 결과야.|D
+4982|That was a great [comeback].|정말 멋진 재기였어.|T10308683
+4983|There's a lot of traffic on the [freeway].|고속도로에 차가 많아.|T4789471
+4984|I think I'll have a [latte], please.|라테로 할게요.|D
+4985|It's hard to [swat] a fly with your bare hand.|맨손으로 파리를 찰싹 잡기는 어려워.|T532037
+4987|I'm a great [admirer] of your work.|당신 작품의 열렬한 팬이에요.|T3724498
+4988|Santa Claus has many [reindeer].|산타클로스에게는 순록이 많아.|T5719356
+4989|Drivers hardly notice a gentle [incline], but cyclists do.|운전자는 완만한 경사를 거의 못 느끼지만, 자전거 타는 사람은 느껴.|T9440257
+4991|A whale is a [mammal].|고래는 포유동물이야.|T238461
+4992|The [snails] are eating our lettuce.|달팽이들이 우리 상추를 먹고 있어.|T10540251
+4993|I saw a helicopter flying [overhead].|머리 위로 헬리콥터가 날아가는 걸 봤어.|T2406061
+4994|You can't take any [excess] baggage on the plane.|비행기에 초과 수하물은 가져갈 수 없어요.|T2571465
+4995|How many [medals] do you think we'll win?|우리가 메달 몇 개 딸 것 같아?|D
+4996|I got a real [adrenaline] rush.|아드레날린이 확 솟았어.|T9286882
+4997|Let's walk by the [stream].|개울가를 걷자.|D
+4999|That must have been [stressful].|스트레스 많이 받았겠다.|D
+5000|I hate to complain, but this soup is too [salty].|불평하긴 싫지만, 이 수프 너무 짜요.|D
