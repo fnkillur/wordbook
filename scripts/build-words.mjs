@@ -1,7 +1,8 @@
 // 기초 단어 목록(base625.json)과 언어별 자료(words.txt), 회화 빈도 단어(freq-<lang>.tsv + learn-<lang>.txt)를 합쳐 앱이 읽는 단어 파일을 만든다.
 // 실행: node scripts/build-words.mjs (빈칸 문장 sentences-<lang>.txt도 함께 src/data/sentences-<lang>.json으로 만든다)
-// learn-<lang>.txt 한 줄: 순위|우리말 뜻 또는 순위|우리말 뜻|고친 읽기  (# 뒤는 메모)
+// learn-<lang>.txt 한 줄: 순위|우리말 뜻 또는 순위|우리말 뜻|고친 읽기 또는 순위|우리말 뜻|고친 읽기|고친 표제어  (# 뒤는 메모)
 // 빈도 목록의 읽기는 형태소 분석이 고른 것이라 틀릴 때가 있어서(read를 rɛd로), 고친 읽기가 있으면 그걸 쓴다.
+// 표제어도 분석기가 잘못 고를 때가 있어서(cookie를 cooky로), 고친 표제어가 있으면 순위(id)는 그대로 두고 단어만 바꾼다.
 import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 
 const base = JSON.parse(readFileSync(new URL('./data/base625.json', import.meta.url), 'utf8'))
@@ -47,8 +48,9 @@ const freqEntries = (language, baseEntries) => {
   )
   const baseTexts = new Set(baseEntries.map(entry => entry.text))
   return readLines(`learn-${language}.txt`).map(line => {
-    const [rank, meaningKo, fixedReading] = line.split('|').map(cell => cell.trim())
-    const entry = freq.get(Number(rank))
+    const [rank, meaningKo, fixedReading, fixedText] = line.split('|').map(cell => cell.trim())
+    const found = freq.get(Number(rank))
+    const entry = found && { ...found, text: fixedText || found.text }
     if (!entry) throw new Error(`learn-${language}.txt: 순위 ${rank}가 빈도 목록에 없어요`)
     if (!meaningKo) throw new Error(`learn-${language}.txt: 순위 ${rank}(${entry.text})의 뜻이 비었어요`)
     if (baseTexts.has(entry.text)) throw new Error(`learn-${language}.txt: ${entry.text}는 기초 625에 있어요`)

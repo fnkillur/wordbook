@@ -56290,6 +56290,19 @@
   "rank": 4091
  },
  {
+  "id": "ja-f04092",
+  "order": 4092,
+  "theme": "회화",
+  "text": "セクレタリー",
+  "reading": "せくれたりー",
+  "kanji": null,
+  "meaningKo": "비서",
+  "hint": "",
+  "searchQuery": "セクレタリー",
+  "source": "freq",
+  "rank": 4092
+ },
+ {
   "id": "ja-f04093",
   "order": 4093,
   "theme": "회화",

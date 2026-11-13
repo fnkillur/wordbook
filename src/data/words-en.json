@@ -12766,6 +12766,19 @@
   "rank": 363
  },
  {
+  "id": "en-f00364",
+  "order": 364,
+  "theme": "회화",
+  "text": "clothes",
+  "reading": "kloʊz",
+  "kanji": null,
+  "meaningKo": "옷",
+  "hint": "",
+  "searchQuery": "clothes",
+  "source": "freq",
+  "rank": 364
+ },
+ {
   "id": "en-f00365",
   "order": 365,
   "theme": "회화",
@@ -21346,6 +21359,19 @@
   "rank": 1059
  },
  {
+  "id": "en-f01060",
+  "order": 1060,
+  "theme": "회화",
+  "text": "ashamed",
+  "reading": "əˈʃeɪmd",
+  "kanji": null,
+  "meaningKo": "부끄러운",
+  "hint": "",
+  "searchQuery": "ashamed",
+  "source": "freq",
+  "rank": 1060
+ },
+ {
   "id": "en-f01061",
   "order": 1061,
   "theme": "회화",
@@ -21383,6 +21409,19 @@
   "searchQuery": "increase",
   "source": "freq",
   "rank": 1063
+ },
+ {
+  "id": "en-f01064",
+  "order": 1064,
+  "theme": "회화",
+  "text": "data",
+  "reading": "ˈdeɪtə",
+  "kanji": null,
+  "meaningKo": "데이터, 자료",
+  "hint": "",
+  "searchQuery": "data",
+  "source": "freq",
+  "rank": 1064
  },
  {
   "id": "en-f01065",
@@ -24986,6 +25025,19 @@
   "rank": 1359
  },
  {
+  "id": "en-f01361",
+  "order": 1361,
+  "theme": "회화",
+  "text": "politics",
+  "reading": "ˈpɑlətɪks",
+  "kanji": null,
+  "meaningKo": "정치",
+  "hint": "",
+  "searchQuery": "politics",
+  "source": "freq",
+  "rank": 1361
+ },
+ {
   "id": "en-f01362",
   "order": 1362,
   "theme": "회화",
@@ -25595,6 +25647,19 @@
   "searchQuery": "revolution",
   "source": "freq",
   "rank": 1409
+ },
+ {
+  "id": "en-f01410",
+  "order": 1410,
+  "theme": "회화",
+  "text": "beloved",
+  "reading": "bɪˈlʌvɪd",
+  "kanji": null,
+  "meaningKo": "사랑하는",
+  "hint": "",
+  "searchQuery": "beloved",
+  "source": "freq",
+  "rank": 1410
  },
  {
   "id": "en-f01411",
@@ -29391,6 +29456,19 @@
   "searchQuery": "obey",
   "source": "freq",
   "rank": 1716
+ },
+ {
+  "id": "en-f01717",
+  "order": 1717,
+  "theme": "회화",
+  "text": "headquarters",
+  "reading": "ˈhɛdˌkwɔrtərz",
+  "kanji": null,
+  "meaningKo": "본부",
+  "hint": "",
+  "searchQuery": "headquarters",
+  "source": "freq",
+  "rank": 1717
  },
  {
   "id": "en-f01718",
@@ -33813,6 +33891,19 @@
   "rank": 2094
  },
  {
+  "id": "en-f02095",
+  "order": 2095,
+  "theme": "회화",
+  "text": "talented",
+  "reading": "ˈtæləntɪd",
+  "kanji": null,
+  "meaningKo": "재능 있는",
+  "hint": "",
+  "searchQuery": "talented",
+  "source": "freq",
+  "rank": 2095
+ },
+ {
   "id": "en-f02096",
   "order": 2096,
   "theme": "회화",
@@ -34773,6 +34864,19 @@
   "searchQuery": "reply",
   "source": "freq",
   "rank": 2177
+ },
+ {
+  "id": "en-f02178",
+  "order": 2178,
+  "theme": "회화",
+  "text": "cookie",
+  "reading": "ˈkʊki",
+  "kanji": null,
+  "meaningKo": "쿠키",
+  "hint": "",
+  "searchQuery": "cookie",
+  "source": "freq",
+  "rank": 2178
  },
  {
   "id": "en-f02179",
@@ -37581,6 +37685,19 @@
   "searchQuery": "enterprise",
   "source": "freq",
   "rank": 2414
+ },
+ {
+  "id": "en-f02415",
+  "order": 2415,
+  "theme": "회화",
+  "text": "thanksgiving",
+  "reading": "ˌθæŋksˈɡɪvɪŋ",
+  "kanji": null,
+  "meaningKo": "추수감사절",
+  "hint": "",
+  "searchQuery": "thanksgiving",
+  "source": "freq",
+  "rank": 2415
  },
  {
   "id": "en-f02417",
@@ -41392,6 +41509,19 @@
   "rank": 2745
  },
  {
+  "id": "en-f02746",
+  "order": 2746,
+  "theme": "회화",
+  "text": "hatred",
+  "reading": "ˈheɪtrɪd",
+  "kanji": null,
+  "meaningKo": "증오",
+  "hint": "",
+  "searchQuery": "hatred",
+  "source": "freq",
+  "rank": 2746
+ },
+ {
   "id": "en-f02747",
   "order": 2747,
   "theme": "회화",
@@ -44577,6 +44707,19 @@
   "rank": 3031
  },
  {
+  "id": "en-f03032",
+  "order": 3032,
+  "theme": "회화",
+  "text": "jeans",
+  "reading": "dʒinz",
+  "kanji": null,
+  "meaningKo": "청바지",
+  "hint": "",
+  "searchQuery": "jeans",
+  "source": "freq",
+  "rank": 3032
+ },
+ {
   "id": "en-f03033",
   "order": 3033,
   "theme": "회화",
@@ -46046,6 +46189,19 @@
   "rank": 3163
  },
  {
+  "id": "en-f03164",
+  "order": 3164,
+  "theme": "회화",
+  "text": "scissors",
+  "reading": "ˈsɪzərz",
+  "kanji": null,
+  "meaningKo": "가위",
+  "hint": "",
+  "searchQuery": "scissors",
+  "source": "freq",
+  "rank": 3164
+ },
+ {
   "id": "en-f03165",
   "order": 3165,
   "theme": "회화",
@@ -46070,6 +46226,19 @@
   "searchQuery": "legacy",
   "source": "freq",
   "rank": 3166
+ },
+ {
+  "id": "en-f03167",
+  "order": 3167,
+  "theme": "회화",
+  "text": "trousers",
+  "reading": "ˈtraʊzərz",
+  "kanji": null,
+  "meaningKo": "바지",
+  "hint": "",
+  "searchQuery": "trousers",
+  "source": "freq",
+  "rank": 3167
  },
  {
   "id": "en-f03168",
@@ -46850,6 +47019,19 @@
   "searchQuery": "backyard",
   "source": "freq",
   "rank": 3238
+ },
+ {
+  "id": "en-f03240",
+  "order": 3240,
+  "theme": "회화",
+  "text": "whereabouts",
+  "reading": "ˈwɛrəˌbaʊts",
+  "kanji": null,
+  "meaningKo": "행방",
+  "hint": "",
+  "searchQuery": "whereabouts",
+  "source": "freq",
+  "rank": 3240
  },
  {
   "id": "en-f03241",
@@ -52494,6 +52676,19 @@
   "rank": 3730
  },
  {
+  "id": "en-f03731",
+  "order": 3731,
+  "theme": "회화",
+  "text": "install",
+  "reading": "ɪnˈstɔl",
+  "kanji": null,
+  "meaningKo": "설치하다",
+  "hint": "",
+  "searchQuery": "install",
+  "source": "freq",
+  "rank": 3731
+ },
+ {
   "id": "en-f03732",
   "order": 3732,
   "theme": "회화",
@@ -53352,6 +53547,19 @@
   "rank": 3806
  },
  {
+  "id": "en-f03807",
+  "order": 3807,
+  "theme": "회화",
+  "text": "destined",
+  "reading": "ˈdɛstɪnd",
+  "kanji": null,
+  "meaningKo": "(~할) 운명인",
+  "hint": "",
+  "searchQuery": "destined",
+  "source": "freq",
+  "rank": 3807
+ },
+ {
   "id": "en-f03808",
   "order": 3808,
   "theme": "회화",
@@ -53558,6 +53766,19 @@
   "searchQuery": "meaningless",
   "source": "freq",
   "rank": 3825
+ },
+ {
+  "id": "en-f03826",
+  "order": 3826,
+  "theme": "회화",
+  "text": "wretched",
+  "reading": "ˈrɛtʃɪd",
+  "kanji": null,
+  "meaningKo": "비참한, 지독한",
+  "hint": "",
+  "searchQuery": "wretched",
+  "source": "freq",
+  "rank": 3826
  },
  {
   "id": "en-f03827",
@@ -56030,6 +56251,19 @@
   "rank": 4050
  },
  {
+  "id": "en-f04051",
+  "order": 4051,
+  "theme": "회화",
+  "text": "barracks",
+  "reading": "ˈbærəks",
+  "kanji": null,
+  "meaningKo": "막사, 병영",
+  "hint": "",
+  "searchQuery": "barracks",
+  "source": "freq",
+  "rank": 4051
+ },
+ {
   "id": "en-f04052",
   "order": 4052,
   "theme": "회화",
@@ -57317,6 +57551,19 @@
   "rank": 4162
  },
  {
+  "id": "en-f04163",
+  "order": 4163,
+  "theme": "회화",
+  "text": "cunning",
+  "reading": "ˈkʌnɪŋ",
+  "kanji": null,
+  "meaningKo": "교활한, 교묘한",
+  "hint": "",
+  "searchQuery": "cunning",
+  "source": "freq",
+  "rank": 4163
+ },
+ {
   "id": "en-f04164",
   "order": 4164,
   "theme": "회화",
@@ -58160,6 +58407,19 @@
   "searchQuery": "allergy",
   "source": "freq",
   "rank": 4244
+ },
+ {
+  "id": "en-f04245",
+  "order": 4245,
+  "theme": "회화",
+  "text": "pajamas",
+  "reading": "pəˈdʒɑməz",
+  "kanji": null,
+  "meaningKo": "잠옷, 파자마",
+  "hint": "",
+  "searchQuery": "pajamas",
+  "source": "freq",
+  "rank": 4245
  },
  {
   "id": "en-f04246",
@@ -59421,6 +59681,19 @@
   "searchQuery": "specially",
   "source": "freq",
   "rank": 4363
+ },
+ {
+  "id": "en-f04364",
+  "order": 4364,
+  "theme": "회화",
+  "text": "tongs",
+  "reading": "tɔŋz",
+  "kanji": null,
+  "meaningKo": "집게",
+  "hint": "",
+  "searchQuery": "tongs",
+  "source": "freq",
+  "rank": 4364
  },
  {
   "id": "en-f04365",
@@ -61763,6 +62036,19 @@
   "rank": 4579
  },
  {
+  "id": "en-f04581",
+  "order": 4581,
+  "theme": "회화",
+  "text": "congrats",
+  "reading": "kənˈɡræts",
+  "kanji": null,
+  "meaningKo": "축하해",
+  "hint": "",
+  "searchQuery": "congrats",
+  "source": "freq",
+  "rank": 4581
+ },
+ {
   "id": "en-f04584",
   "order": 4584,
   "theme": "회화",
@@ -62868,6 +63154,19 @@
   "rank": 4680
  },
  {
+  "id": "en-f04681",
+  "order": 4681,
+  "theme": "회화",
+  "text": "eldest",
+  "reading": "ˈɛldɪst",
+  "kanji": null,
+  "meaningKo": "맏이의, 가장 나이 많은",
+  "hint": "",
+  "searchQuery": "eldest",
+  "source": "freq",
+  "rank": 4681
+ },
+ {
   "id": "en-f04682",
   "order": 4682,
   "theme": "회화",
@@ -63414,6 +63713,19 @@
   "rank": 4728
  },
  {
+  "id": "en-f04729",
+  "order": 4729,
+  "theme": "회화",
+  "text": "unfinished",
+  "reading": "ʌnˈfɪnɪʃt",
+  "kanji": null,
+  "meaningKo": "끝나지 않은, 미완성의",
+  "hint": "",
+  "searchQuery": "unfinished",
+  "source": "freq",
+  "rank": 4729
+ },
+ {
   "id": "en-f04730",
   "order": 4730,
   "theme": "회화",
@@ -63750,6 +64062,19 @@
   "searchQuery": "likewise",
   "source": "freq",
   "rank": 4763
+ },
+ {
+  "id": "en-f04764",
+  "order": 4764,
+  "theme": "회화",
+  "text": "sunglasses",
+  "reading": "ˈsʌnˌɡlæsɪz",
+  "kanji": null,
+  "meaningKo": "선글라스",
+  "hint": "",
+  "searchQuery": "sunglasses",
+  "source": "freq",
+  "rank": 4764
  },
  {
   "id": "en-f04765",

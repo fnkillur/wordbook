@@ -29623,6 +29623,14 @@
   "translation": "원, 투, 스리, 포!",
   "audioPath": "sentence-audio/ja/4091.m4a"
  },
+ "ja-f04092": {
+  "before": "そして　家にはホームオートメーションとＡＩ",
+  "answer": "セクレタリー",
+  "after": "",
+  "reading": "せくれたりー",
+  "translation": "그리고 집에는 홈 오토메이션과 AI 비서가 있어.",
+  "audioPath": "sentence-audio/ja/4092.m4a"
+ },
  "ja-f04093": {
   "before": "",
   "answer": "ドリル",

@@ -2839,6 +2839,14 @@
   "translation": "열대어에 관한 정보를 찾고 있어요.",
   "audioPath": null
  },
+ "en-f00364": {
+  "before": "What sort of ",
+  "answer": "clothes",
+  "after": " does he wear?",
+  "reading": null,
+  "translation": "그는 어떤 옷을 입어?",
+  "audioPath": null
+ },
  "en-f00365": {
   "before": "This ",
   "answer": "situation",
@@ -8119,6 +8127,14 @@
   "translation": "나는 전망을 아주 긍정적으로 봐.",
   "audioPath": null
  },
+ "en-f01060": {
+  "before": "I'm ",
+  "answer": "ashamed",
+  "after": " that I did that.",
+  "reading": null,
+  "translation": "그런 짓을 해서 부끄러워.",
+  "audioPath": null
+ },
  "en-f01061": {
   "before": "It is good to have ",
   "answer": "goals",
@@ -8141,6 +8157,14 @@
   "after": " the chance of accidents.",
   "reading": null,
   "translation": "그러면 사고 날 확률이 높아져.",
+  "audioPath": null
+ },
+ "en-f01064": {
+  "before": "The ",
+  "answer": "data",
+  "after": " is irrefutable!",
+  "reading": null,
+  "translation": "그 데이터는 반박할 수가 없어!",
   "audioPath": null
  },
  "en-f01065": {
@@ -10359,6 +10383,14 @@
   "translation": "다리 좀 펴실래요?",
   "audioPath": null
  },
+ "en-f01361": {
+  "before": "She is also interested in ",
+  "answer": "politics",
+  "after": ".",
+  "reading": null,
+  "translation": "그녀는 정치에도 관심이 있어.",
+  "audioPath": null
+ },
  "en-f01362": {
   "before": "There are a lot of ",
   "answer": "legends",
@@ -10734,6 +10766,14 @@
   "reading": null,
   "translation": "혁명은 많은 변화를 가져왔어.",
   "audioPath": "sentence-audio/en/1409.m4a"
+ },
+ "en-f01410": {
+  "before": "He couldn't possibly part with his ",
+  "answer": "beloved",
+  "after": " dog.",
+  "reading": null,
+  "translation": "그는 사랑하는 개와 도저히 헤어질 수 없었어.",
+  "audioPath": "sentence-audio/en/1410.m4a"
  },
  "en-f01411": {
   "before": "I would like to return an ",
@@ -13070,6 +13110,14 @@
   "reading": null,
   "translation": "법은 지켜야 하는 거야.",
   "audioPath": "sentence-audio/en/1716.m4a"
+ },
+ "en-f01717": {
+  "before": "Hi Ron, this is Kim at ",
+  "answer": "headquarters",
+  "after": ".",
+  "reading": null,
+  "translation": "안녕 론, 본부의 김이야.",
+  "audioPath": null
  },
  "en-f01718": {
   "before": "I want a large ",
@@ -15791,6 +15839,14 @@
   "translation": "나 밴드 리허설 가야 해.",
   "audioPath": "sentence-audio/en/2094.m4a"
  },
+ "en-f02095": {
+  "before": "She is so young and ",
+  "answer": "talented",
+  "after": ".",
+  "reading": null,
+  "translation": "그녀는 아주 어리고 재능 있어.",
+  "audioPath": null
+ },
  "en-f02096": {
   "before": "There's been a ",
   "answer": "spike",
@@ -16381,6 +16437,14 @@
   "after": ".",
   "reading": null,
   "translation": "답장 기다릴게.",
+  "audioPath": null
+ },
+ "en-f02178": {
+  "before": "May I have a ",
+  "answer": "cookie",
+  "after": "?",
+  "reading": null,
+  "translation": "쿠키 하나 먹어도 돼?",
   "audioPath": null
  },
  "en-f02179": {
@@ -18110,6 +18174,14 @@
   "reading": null,
   "translation": "소기업들이 인플레이션으로 압박을 받고 있어.",
   "audioPath": "sentence-audio/en/2414.m4a"
+ },
+ "en-f02415": {
+  "before": "So what are you doing for ",
+  "answer": "Thanksgiving",
+  "after": "?",
+  "reading": null,
+  "translation": "그래서 추수감사절에 뭐 해?",
+  "audioPath": null
  },
  "en-f02417": {
   "before": "Do you have the ",
@@ -20455,6 +20527,14 @@
   "translation": "그녀는 프랑스어를 못 한다는 걸 인정했어.",
   "audioPath": "sentence-audio/en/2745.m4a"
  },
+ "en-f02746": {
+  "before": "She stared at him with ",
+  "answer": "hatred",
+  "after": ".",
+  "reading": null,
+  "translation": "그녀는 증오에 찬 눈으로 그를 노려봤어.",
+  "audioPath": "sentence-audio/en/2746.m4a"
+ },
  "en-f02747": {
   "before": "Which ",
   "answer": "platform",
@@ -22415,6 +22495,14 @@
   "translation": "더 정확하게 말해 줄 수 없어서 미안해.",
   "audioPath": null
  },
+ "en-f03032": {
+  "before": "But I love wearing T-shirts and ",
+  "answer": "jeans",
+  "after": ".",
+  "reading": null,
+  "translation": "그래도 난 티셔츠에 청바지 입는 게 좋아.",
+  "audioPath": null
+ },
  "en-f03033": {
   "before": "All the ",
   "answer": "inmates",
@@ -23319,6 +23407,14 @@
   "translation": "낙태에 반대해?",
   "audioPath": "sentence-audio/en/3163.m4a"
  },
+ "en-f03164": {
+  "before": "Could I borrow a pair of ",
+  "answer": "scissors",
+  "after": "?",
+  "reading": null,
+  "translation": "가위 좀 빌릴 수 있을까?",
+  "audioPath": "sentence-audio/en/3164.m4a"
+ },
  "en-f03165": {
   "before": "This is a ",
   "answer": "violation",
@@ -23334,6 +23430,14 @@
   "reading": null,
   "translation": "이게 우리의 유산이야.",
   "audioPath": "sentence-audio/en/3166.m4a"
+ },
+ "en-f03167": {
+  "before": "The ",
+  "answer": "trousers",
+  "after": " are too long for me.",
+  "reading": null,
+  "translation": "바지가 나한테 너무 길어.",
+  "audioPath": null
  },
  "en-f03168": {
   "before": "We ",
@@ -23814,6 +23918,14 @@
   "reading": null,
   "translation": "아이들이 뒷마당에서 놀고 있었어.",
   "audioPath": "sentence-audio/en/3238.m4a"
+ },
+ "en-f03240": {
+  "before": "We have no idea about his ",
+  "answer": "whereabouts",
+  "after": ".",
+  "reading": null,
+  "translation": "우리는 그의 행방을 전혀 몰라.",
+  "audioPath": "sentence-audio/en/3240.m4a"
  },
  "en-f03241": {
   "before": "The ",
@@ -27287,6 +27399,14 @@
   "translation": "이 사다리 좀 불안정해 보여.",
   "audioPath": null
  },
+ "en-f03731": {
+  "before": "I want to ",
+  "answer": "install",
+  "after": " a security door.",
+  "reading": null,
+  "translation": "방범문을 설치하고 싶어.",
+  "audioPath": null
+ },
  "en-f03732": {
   "before": "The museum has many ",
   "answer": "nude",
@@ -27815,6 +27935,14 @@
   "translation": "여기가 미니바입니다.",
   "audioPath": null
  },
+ "en-f03807": {
+  "before": "We were ",
+  "answer": "destined",
+  "after": " to meet one day.",
+  "reading": null,
+  "translation": "우리는 언젠가 만날 운명이었어.",
+  "audioPath": "sentence-audio/en/3807.m4a"
+ },
  "en-f03808": {
   "before": "May I suggest a ",
   "answer": "limo",
@@ -27942,6 +28070,14 @@
   "reading": null,
   "translation": "우리는 그게 지루하고 무의미하다고 느꼈어.",
   "audioPath": "sentence-audio/en/3825.m4a"
+ },
+ "en-f03826": {
+  "before": "What a ",
+  "answer": "wretched",
+  "after": " day!",
+  "reading": null,
+  "translation": "정말 지독한 하루야!",
+  "audioPath": null
  },
  "en-f03827": {
   "before": "Let the tea ",
@@ -29463,6 +29599,14 @@
   "translation": "그는 크리스마스를 병원에서 보내야 하는 게 두려웠어.",
   "audioPath": "sentence-audio/en/4050.m4a"
  },
+ "en-f04051": {
+  "before": "He peels potatoes in the ",
+  "answer": "barracks",
+  "after": ".",
+  "reading": null,
+  "translation": "그는 막사에서 감자 껍질을 벗겨.",
+  "audioPath": "sentence-audio/en/4051.m4a"
+ },
  "en-f04052": {
   "before": "I was in ",
   "answer": "agony",
@@ -30255,6 +30399,14 @@
   "translation": "이런 행운이 영원히 이어지진 않을 거야.",
   "audioPath": "sentence-audio/en/4162.m4a"
  },
+ "en-f04163": {
+  "before": "The fox is the most ",
+  "answer": "cunning",
+  "after": " of all animals.",
+  "reading": null,
+  "translation": "여우는 모든 동물 중에서 가장 교활해.",
+  "audioPath": "sentence-audio/en/4163.m4a"
+ },
  "en-f04164": {
   "before": "I would like to see cute ",
   "answer": "pandas",
@@ -30773,6 +30925,14 @@
   "after": "?",
   "reading": null,
   "translation": "알레르기 검사 받아 본 적 있어?",
+  "audioPath": null
+ },
+ "en-f04245": {
+  "before": "These ",
+  "answer": "pajamas",
+  "after": " don't fit right.",
+  "reading": null,
+  "translation": "이 잠옷 잘 안 맞아.",
   "audioPath": null
  },
  "en-f04246": {
@@ -31550,6 +31710,14 @@
   "reading": null,
   "translation": "표 찾으러 일부러 여기 왔어요.",
   "audioPath": null
+ },
+ "en-f04364": {
+  "before": "I prefer wooden ",
+  "answer": "tongs",
+  "after": ".",
+  "reading": null,
+  "translation": "난 나무 집게가 더 좋아.",
+  "audioPath": "sentence-audio/en/4364.m4a"
  },
  "en-f04365": {
   "before": "They lived near the ",
@@ -32991,6 +33159,14 @@
   "translation": "어제 북극곰 봤어.",
   "audioPath": "sentence-audio/en/4579.m4a"
  },
+ "en-f04581": {
+  "before": "",
+  "answer": "Congrats",
+  "after": " on your new job!",
+  "reading": null,
+  "translation": "새 직장 축하해!",
+  "audioPath": null
+ },
  "en-f04584": {
   "before": "It's ",
   "answer": "understandable",
@@ -33671,6 +33847,14 @@
   "translation": "여기 좀 쌀쌀하네.",
   "audioPath": null
  },
+ "en-f04681": {
+  "before": "Fatima is the ",
+  "answer": "eldest",
+  "after": " student in our class.",
+  "reading": null,
+  "translation": "파티마는 우리 반에서 가장 나이 많은 학생이야.",
+  "audioPath": "sentence-audio/en/4681.m4a"
+ },
  "en-f04682": {
   "before": "Do you have any ",
   "answer": "feedback",
@@ -34007,6 +34191,14 @@
   "translation": "우리 방법은 실험적이야.",
   "audioPath": "sentence-audio/en/4728.m4a"
  },
+ "en-f04729": {
+  "before": "I think we have some ",
+  "answer": "unfinished",
+  "after": " business.",
+  "reading": null,
+  "translation": "우리 아직 끝나지 않은 일이 있는 것 같아.",
+  "audioPath": "sentence-audio/en/4729.m4a"
+ },
  "en-f04730": {
   "before": "Do you know any ",
   "answer": "Greek",
@@ -34214,6 +34406,14 @@
   "reading": null,
   "translation": "그는 일찍 떠났고, 나도 마찬가지로 그랬어.",
   "audioPath": null
+ },
+ "en-f04764": {
+  "before": "I need a good pair of ",
+  "answer": "sunglasses",
+  "after": ".",
+  "reading": null,
+  "translation": "좋은 선글라스가 하나 필요해.",
+  "audioPath": "sentence-audio/en/4764.m4a"
  },
  "en-f04765": {
   "before": "I watch a lot of ",

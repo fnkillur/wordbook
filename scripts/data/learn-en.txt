@@ -362,7 +362,7 @@
 361|지역, 구역  # area (ˈɛriə)
 362|대하다, 대접하다  # treat (trit)
 363|정보  # information (ɪnfərˈmeɪʃən)
-# 364|옷, 옷을 입히다  # clothe (kloʊð)  ← 뺌: clothes 표제어 오류
+364|옷|kloʊz|clothes  # clothe (kloʊð)  ← 표제어 고침
 365|상황  # situation (sɪtʃuˈeɪʃən)
 366|오르다, 일어서다  # rise (raɪz)
 367|대신에  # instead (ɪnˈstɛd)
@@ -1058,11 +1058,11 @@
 1057|보장하다, 보증  # guarantee (ɡɛrənˈti)
 1058|결국, 마침내  # eventually (ɪˈvɛntʃəwəli)
 1059|긍정적인, 확신하는, 양성의  # positive (ˈpɑzətɪv)
-# 1060|부끄러운  # ashame (əˈʃeɪm)  ← 뺌: ashamed 표제어 오류
+1060|부끄러운|əˈʃeɪmd|ashamed  # ashame (əˈʃeɪm)  ← 표제어 고침
 1061|목표, 골  # goal (ɡoʊl)
 1062|짐승, 야수  # beast (bist)
 1063|늘다, 늘리다, 증가  # increase (ɪnˈkris)
-# 1064|데이터, 자료  # datum (ˈdætəm)  ← 뺌: data 표제어 오류
+1064|데이터, 자료|ˈdeɪtə|data  # datum (ˈdætəm)  ← 표제어 고침
 1065|조심스럽게, 신중히  # carefully (ˈkɛrfəli)
 1066|연결, 링크, 잇다  # link (lɪŋk)
 1067|부족, 모자라다  # lack (læk)
@@ -1359,7 +1359,7 @@
 1358|토끼  # rabbit (ˈræbət)
 1359|늘이다, 스트레칭하다  # stretch (strɛtʃ)
 # 1360|개자식 (비속어)  # bastard (ˈbæstərd)  ← 뺌: 비속어
-# 1361|정치  # politic (ˈpɑlətɪk)  ← 뺌: politics 표제어 오류
+1361|정치|ˈpɑlətɪks|politics  # politic (ˈpɑlətɪk)  ← 표제어 고침
 1362|전설  # legend (ˈlɛdʒənd)
 1363|소포, 꾸러미  # package (ˈpækədʒ)
 1364|항복하다, 넘겨주다  # surrender (sərˈɛndər)
@@ -1408,7 +1408,7 @@
 1407|파이프, 관  # pipe (paɪp)
 1408|소문  # rumor (ˈrumər)
 1409|혁명  # revolution (rɛvəˈluʃən)
-# 1410|사랑하는  # belove (bɪˈlʌv)  ← 뺌: beloved 표제어 오류
+1410|사랑하는|bɪˈlʌvɪd|beloved  # belove (bɪˈlʌv)  ← 표제어 고침
 1411|물품, 항목  # item (ˈaɪtəm)
 1412|발명하다  # invent (ɪnˈvɛnt)
 1413|실제의  # actual (ˈæktʃəwəl)
@@ -1715,7 +1715,7 @@
 1714|화장  # makeup (ˈmeɪkʌp)
 1715|검사하다, 진찰하다  # examine (ɪɡˈzæmɪn)
 1716|따르다, 복종하다  # obey (oʊˈbeɪ)
-# 1717|본부  # headquarter (ˈhɛdkwɔrtər)  ← 뺌: headquarters 표제어 오류
+1717|본부|ˈhɛdˌkwɔrtərz|headquarters  # headquarter (ˈhɛdkwɔrtər)  ← 표제어 고침
 1718|관, 튜브  # tube (tub)
 1719|프로필, 옆모습  # profile (ˈproʊfaɪl)
 1720|먼, 거리가 있는  # distant (ˈdɪstənt)
@@ -2093,7 +2093,7 @@
 2092|술집, 펍  # pub (pʌb)
 2093|평화로운  # peaceful (ˈpisfəl)
 2094|리허설, 예행연습  # rehearsal (rɪˈhɝsəl)
-# 2095|재능 있는  # talente ()  ← 뺌: talented 표제어 오류
+2095|재능 있는|ˈtæləntɪd|talented  # talente ()  ← 표제어 고침
 2096|뾰족한 것, 급증  # spike (spaɪk)
 2097|탐험하다, 살펴보다  # explore (ɪkˈsplɔr)
 2098|위쪽의, 상부의  # upper (ˈʌpər)
@@ -2176,7 +2176,7 @@
 2175|합계, 금액  # sum (sʌm)
 2176|냉장고  # fridge (frɪdʒ)
 2177|대답하다, 답장  # reply (rɪˈplaɪ)
-# 2178|쿠키  # cooky ()  ← 뺌: cookie 표제어 오류
+2178|쿠키|ˈkʊki|cookie  # cooky ()  ← 표제어 고침
 2179|디자이너  # designer (dɪˈzaɪnər)
 2180|몹시, 정말  # awfully (ˈɑfli)
 2181|다르게  # differently (ˈdɪfrəntli)
@@ -2413,7 +2413,7 @@
 2412|곤충  # insect (ˈɪnsɛkt)
 2413|라이터, 더 가벼운  # lighter (ˈlaɪtər)
 2414|기업, 사업  # enterprise (ˈɛntərpraɪz)
-# 2415|추수감사절  # thanksgive ()  ← 뺌: thanksgiving 표제어 오류
+2415|추수감사절|ˌθæŋksˈɡɪvɪŋ|thanksgiving  # thanksgive ()  ← 표제어 고침
 # 2416|메건 (이름)  # megan (ˈmeɪɡən)  ← 뺌: 인명
 2417|영수증  # receipt (rɪˈsit)
 2418|절도  # theft (θɛft)
@@ -2744,7 +2744,7 @@
 2743|챔피언 (줄임말)  # champ (tʃæmp)
 2744|지하철  # subway (ˈsʌbweɪ)
 2745|인정하다  # acknowledge (ækˈnɑlɪdʒ)
-# 2746|증오  # hatre ()  ← 뺌: hatred 표제어 오류
+2746|증오|ˈheɪtrɪd|hatred  # hatre ()  ← 표제어 고침
 2747|승강장, 단상, 플랫폼  # platform (ˈplætfɔrm)
 # 2748|POS 등 (약어)  # pos (pɑs)  ← 뺌: 약어 조각
 2749|패널, 위원단  # panel (ˈpænəl)
@@ -3030,7 +3030,7 @@
 3029|개혁, 개혁하다  # reform (rəˈfɔrm)
 3030|열정적인  # passionate (ˈpæʃənət)
 3031|정확한  # precise (prɪˈsaɪs)
-# 3032|청바지  # jean (dʒin)  ← 뺌: jeans 표제어 오류
+3032|청바지|dʒinz|jeans  # jean (dʒin)  ← 표제어 고침
 3033|수감자  # inmate (ˈɪnmeɪt)
 3034|퓨즈, 융합하다  # fuse (fjuz)
 # 3035|저능아 (비하어)  # retard (rɪˈtɑrd)  ← 뺌: 비속어
@@ -3162,10 +3162,10 @@
 3161|지도력, 리더십  # leadership (ˈlidərʃɪp)
 3162|튀르키예 사람, 터키인  # turk (tɝk)
 3163|낙태  # abortion (əˈbɔrʃən)
-# 3164|가위  # scissor (ˈsɪzər)  ← 뺌: scissors 표제어 오류
+3164|가위|ˈsɪzərz|scissors  # scissor (ˈsɪzər)  ← 표제어 고침
 3165|위반  # violation (vaɪəˈleɪʃən)
 3166|유산, 업적  # legacy (ˈlɛɡəsi)
-# 3167|바지  # trouser (ˈtraʊzər)  ← 뺌: trousers 표제어 오류
+3167|바지|ˈtraʊzərz|trousers  # trouser (ˈtraʊzər)  ← 표제어 고침
 3168|비틀거리다, 우연히 발견하다  # stumble (ˈstʌmbəl)
 # 3169|이웃 (영국식 철자)  # neighbour (ˈneɪbər)  ← 뺌: neighbor(기초 625)와 같은 말
 3170|박수 치다  # clap (klæp)
@@ -3238,7 +3238,7 @@
 # 3237|호모 (동성애자 비하어)  # faggot (ˈfæɡət)  ← 뺌: 비속어
 3238|뒷마당  # backyard (ˈbækjɑrd)
 # 3239|오토 (이름)  # otto (ˈɑtoʊ)  ← 뺌: 인명
-# 3240|행방  # whereabout ()  ← 뺌: whereabouts 표제어 오류
+3240|행방|ˈwɛrəˌbaʊts|whereabouts  # whereabout ()  ← 표제어 고침
 3241|돌고래  # dolphin (ˈdɑlfən)
 3242|협상  # negotiation (nɪɡoʊʃiˈeɪʃən)
 3243|문학  # literature (ˈlɪtərətʃər)
@@ -3729,7 +3729,7 @@
 3728|유치한  # childish (ˈtʃaɪldɪʃ)
 # 3729|길버트 (이름)  # gilbert (ˈɡɪlbərt)  ← 뺌: 인명
 3730|불안정한  # unstable (ənˈsteɪbəl)
-# 3731|설치하다  # instal ()  ← 뺌: install 표제어 오류
+3731|설치하다|ɪnˈstɔl|install  # instal ()  ← 표제어 고침
 3732|나체의  # nude (nud)
 3733|슬리퍼  # slipper (ˈslɪpər)
 3734|알았다 (무전 응답)  # roger (ˈrɑdʒər)
@@ -3805,7 +3805,7 @@
 # 3804|젬마 (이름)  # gemma (ˈdʒɛmə)  ← 뺌: 인명
 3805|연장, 내선 번호  # extension (ɪkˈstɛnʃən)
 3806|소형의, 미니  # mini (ˈmɪni)
-# 3807|운명 짓다  # destine ()  ← 뺌: destined 표제어 오류
+3807|(~할) 운명인|ˈdɛstɪnd|destined  # destine ()  ← 표제어 고침
 3808|리무진  # limo (ˈlɪmoʊ)
 3809|입장, 입학, 인정  # admission (ædˈmɪʃən)
 3810|군단, 부대  # corps (kɔr)
@@ -3824,7 +3824,7 @@
 3823|조언자, 고문  # advisor (ædˈvaɪzər)
 # 3824|헛소리, 불알 (비속어)  # bollock ()  ← 뺌: 비속어
 3825|무의미한  # meaningless (ˈminɪŋləs)
-# 3826|비참한, 지독한  # wretche ()  ← 뺌: wretched 표제어 오류
+3826|비참한, 지독한|ˈrɛtʃɪd|wretched  # wretche ()  ← 표제어 고침
 3827|(맥주·차를) 끓이다, 양조하다  # brew (bru)
 3828|철저히, 완전히  # thoroughly (ˈθɝoʊli)
 3829|성인, 성자  # saint (seɪnt)
@@ -4049,7 +4049,7 @@
 4048|신중한, 조심스러운  # discreet (dɪˈskrit)
 4049|번창하다, 잘 자라다  # thrive (θraɪv)
 4050|두려워하다, 두려움  # dread (drɛd)
-# 4051|막사, 병영  # barrack (ˈbærək)  ← 뺌: barracks 표제어 오류
+4051|막사, 병영|ˈbærəks|barracks  # barrack (ˈbærək)  ← 표제어 고침
 4052|극심한 고통  # agony (ˈæɡəni)
 # 4053|철컹 (소리)  # clank (klæŋk)  ← 뺌: 자막 효과음 태그
 4054|깨어나다, 깨우다  # awaken (əˈweɪkən)
@@ -4161,7 +4161,7 @@
 4160|조각, 조각품  # sculpture (ˈskʌlptʃər)
 4161|조부모  # grandparent (ˈɡrændpɛrənt)
 4162|줄무늬, 연속 (연승 등)  # streak (strik)
-# 4163|교활한, 교묘한  # cunne ()  ← 뺌: cunning 표제어 오류
+4163|교활한, 교묘한|ˈkʌnɪŋ|cunning  # cunne ()  ← 표제어 고침
 4164|판다  # panda (ˈpændə)
 4165|맡기다  # entrust (ɛnˈtrʌst)
 4166|경쟁적인, 경쟁력 있는  # competitive (kəmˈpɛtətɪv)
@@ -4243,7 +4243,7 @@
 4242|영구적으로, 영원히  # permanently (ˈpɝmənəntli)
 4243|번역가, 통역사  # translator (trænˈsleɪtər)
 4244|알레르기  # allergy (ˈælərdʒi)
-# 4245|잠옷, 파자마  # pajama (pəˈdʒɑmə)  ← 뺌: pajamas 표제어 오류
+4245|잠옷, 파자마|pəˈdʒɑməz|pajamas  # pajama (pəˈdʒɑmə)  ← 표제어 고침
 4246|빠른, 신속한  # swift (swɪft)
 4247|처방하다  # prescribe (prəˈskraɪb)
 4248|표시, 토큰  # token (ˈtoʊkən)
@@ -4362,7 +4362,7 @@
 4361|위로하다, 콘솔|kənˈsoʊl  # console (ˈkɑnsoʊl)
 4362|보도, 보장 범위  # coverage (ˈkʌvərədʒ)
 4363|특별히  # specially (ˈspɛʃəli)
-# 4364|집게  # tong (tɔŋ)  ← 뺌: tongs 표제어 오류
+4364|집게|tɔŋz|tongs  # tong (tɔŋ)  ← 표제어 고침
 4365|국경, 개척지  # frontier (frənˈtɪr)
 4366|탄약 (구어)  # ammo (ˈæmoʊ)
 4367|짜증 나게 하다, 자극하다  # irritate (ˈɪrɪteɪt)
@@ -4579,7 +4579,7 @@
 4578|강화하다, 튼튼하게 하다  # strengthen (ˈstrɛŋθən)
 4579|극지의, 북극의  # polar (ˈpoʊlər)
 # 4580|(말이) 울다, 히힝  # whinny ()  ← 뺌: 자막 효과음 태그
-# 4581|축하해 (congrats)  # congrat ()  ← 뺌: congrats 표제어 오류
+4581|축하해|kənˈɡræts|congrats  # congrat ()  ← 표제어 고침
 # 4582|알프 (이름)  # alf (ælf)  ← 뺌: 인명
 # 4583|파이크 (이름), 창, 강꼬치고기  # pike (paɪk)  ← 뺌: 인명
 4584|이해할 수 있는, 당연한  # understandable (ʌndərˈstændəbəl)
@@ -4679,7 +4679,7 @@
 4678|소지품 (belongings), 소속감  # belonging (bɪˈlɔŋɪŋ)
 4679|동기, 의욕  # motivation (moʊtəˈveɪʃən)
 4680|쌀쌀한  # chilly (ˈtʃɪli)
-# 4681|가장 나이 많은 (eldest)  # eld ()  ← 뺌: eldest 표제어 오류
+4681|맏이의, 가장 나이 많은|ˈɛldɪst|eldest  # eld ()  ← 표제어 고침
 4682|의견, 피드백  # feedback (ˈfidbæk)
 4683|반복해서, 되풀이하여  # repeatedly (rɪˈpitɪdli)
 4684|매우 아름다운, 정교한  # exquisite (ˈɛkskwəzət)
@@ -4727,7 +4727,7 @@
 4726|잠시, 간단히  # briefly (ˈbrifli)
 # 4727|테사 (이름)  # tessa (ˈtɛsə)  ← 뺌: 인명
 4728|실험적인, 실험의  # experimental (ɪkspɛrɪˈmɛntəl)
-# 4729|끝나지 않은  # unfinishe ()  ← 뺌: unfinished 표제어 오류
+4729|끝나지 않은, 미완성의|ʌnˈfɪnɪʃt|unfinished  # unfinishe ()  ← 표제어 고침
 4730|그리스의, 그리스어  # greek (ɡrik)
 # 4731|작은 (little 구어체)  # lil (lɪl)  ← 뺌: little(36)의 구어체 철자
 4732|본토  # mainland (ˈmeɪnlænd)
@@ -4762,7 +4762,7 @@
 # 4761|로즈메리 (이름), 로즈메리 (허브)  # rosemary (ˈroʊzmɛri)  ← 뺌: 인명
 4762|돌리다, 전환하다  # divert (daɪˈvɝt)
 4763|마찬가지로, 저도요  # likewise (ˈlaɪkwaɪz)
-# 4764|선글라스  # sunglass (ˈsʌnɡlæs)  ← 뺌: sunglasses 표제어 오류
+4764|선글라스|ˈsʌnˌɡlæsɪz|sunglasses  # sunglass (ˈsʌnɡlæs)  ← 표제어 고침
 4765|갱, 조직 폭력배  # gangster (ˈɡæŋstər)
 4766|시골뜨기, 촌놈  # hick (hɪk)
 # 4767|약혼녀|fiɑnˈseɪ  # fiancee (fiˈænsi)  ← 뺌: fiancée(3531)와 같은 말
