@@ -1501,6 +1501,12 @@ a {
   color: var(--color-text);
 }
 
+/* 단어 하나와 뜻 보기만 담는 카드라, 화면 높이를 채우지 않고 내용만큼만 키운다. 위아래는 낙서 자리만 남긴다. */
+.study-card.vocab-card {
+  min-height: 0;
+  padding: 56px var(--space-4) 64px;
+}
+
 .vocab-intro-time {
   display: inline-flex;
   align-items: center;
