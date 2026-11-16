@@ -1,6 +1,6 @@
 import { existsSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
-import { CONJUGATIONS, findSentence, SENTENCES, sentenceForTurn, sentencesOf } from './sentences'
+import { conjugationHintOf, CONJUGATIONS, formLabelOf, findSentence, rubySegments, SENTENCES, sentenceForTurn, sentencesOf } from './sentences'
 
 describe('빈칸 문장', () => {
   it('일본어 문장은 빈칸 앞·빈칸 말·뒤와 문장 속 꼴의 읽기, 번역을 준다', () => {
@@ -50,10 +50,47 @@ describe('동사 활용형 문장', () => {
     expect(sentenceForTurn('ja-0001', 3)).toBeNull()
   })
 
-  it('동사 150개 안팎에 활용형 문장이 있고, 녹음 경로는 실제 파일을 가리킨다', () => {
+  it('형용사도 자주 쓰는 활용형 문장이 있다', () => {
+    expect(sentencesOf('ja-0581').map(sentence => sentence.form)).toContain('~に')
+    expect(sentencesOf('ja-f00296').slice(1).map(sentence => sentence.form)).toContain('~かった')
+  })
+
+  it('힌트는 な형용사의 な를 떼고 어간에서 어떤 꼴로 바꾸는지 보여 준다', () => {
+    expect(conjugationHintOf('静かな', '~に')).toBe('静か → ~に')
+    expect(conjugationHintOf('高い', '~くない')).toBe('高い → ~くない')
+  })
+
+  it('문제에서는 단어 원형 없이 과거·존댓말 같은 꼴 이름만 알려 준다', () => {
+    expect(formLabelOf('~た')).toBe('과거')
+    expect(formLabelOf('~ません')).toBe('존댓말 부정')
+    const forms = new Set(Object.values(CONJUGATIONS).flat().map(sentence => sentence.form!))
+    expect([...forms].filter(form => formLabelOf(form) === form)).toEqual([])
+  })
+
+  it('동사 150개·형용사 100개 안팎에 활용형 문장이 있고, 녹음 경로는 실제 파일을 가리킨다', () => {
     const sentences = Object.values(CONJUGATIONS).flat()
-    expect(Object.keys(CONJUGATIONS).length).toBeGreaterThan(140)
+    expect(Object.keys(CONJUGATIONS).length).toBeGreaterThan(230)
     sentences.forEach(sentence => expect(sentence.answer).not.toBe(''))
     sentences.filter(sentence => sentence.audioPath).forEach(sentence => expect(existsSync(`public/${sentence.audioPath}`)).toBe(true))
+  })
+})
+
+describe('후리가나', () => {
+  it('빈칸 밖 한자에 읽기가 있고, 빈칸 말에는 붙이지 않는다', () => {
+    const sentence = Object.values(SENTENCES).find(item => item.ruby?.length)!
+    const answerStart = sentence.before.length
+    const answerEnd = answerStart + sentence.answer.length
+    sentence.ruby!.forEach(([start, end]) => expect(end <= answerStart || start >= answerEnd).toBe(true))
+  })
+
+  it('문장 조각을 읽기가 붙는 한자와 나머지로 나눈다', () => {
+    const ruby: [number, number, string][] = [[0, 2, 'でんき'], [2, 3, 'だい'], [9, 11, 'ちゃん']]
+    expect(rubySegments('電気代はちゃんと', 0, ruby)).toEqual([
+      { text: '電気', reading: 'でんき' },
+      { text: '代', reading: 'だい' },
+      { text: 'はちゃんと' },
+    ])
+    expect(rubySegments('を払う', 5, [[3, 4, 'そ'], [6, 7, 'はら']])).toEqual([{ text: 'を' }, { text: '払', reading: 'はら' }, { text: 'う' }])
+    expect(rubySegments('ねえ', 0, undefined)).toEqual([{ text: 'ねえ' }])
   })
 })

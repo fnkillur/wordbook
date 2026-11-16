@@ -1,5 +1,5 @@
-import { EyeIcon, LightbulbIcon, SpeakerHighIcon, TranslateIcon, XIcon } from '@phosphor-icons/react'
-import { useEffect, useRef, useState, type MouseEvent } from 'react'
+import { EyeIcon, SpeakerHighIcon, TranslateIcon, XIcon } from '@phosphor-icons/react'
+import { Fragment, useEffect, useRef, useState, type MouseEvent } from 'react'
 import { Link, useNavigate } from 'react-router'
 import { EFFECT_MESSAGE, questionOf, reactionOf } from '../characters/lines'
 import { pickCelebration, pickImage, TOUGH_DAY_EFFECTS, type Celebration } from '../characters/effects'
@@ -8,7 +8,7 @@ import EffectOverlay from '../components/EffectOverlay'
 import StudyImage from '../components/StudyImage'
 import { wordFormsOf } from '../components/wordForms'
 import { wordSizeStyle } from '../components/wordSize'
-import { sentenceAudioKind, sentenceForTurn, type Sentence } from '../data/sentences'
+import { conjugationHintOf, formLabelOf, rubySegments, sentenceAudioKind, sentenceForTurn, type Ruby, type Sentence } from '../data/sentences'
 import { findWord } from '../data/words'
 import { db, type Note } from '../db/database'
 import {
@@ -352,18 +352,12 @@ type ClozeFaceProps = { wordId: string; media: WordMedia | undefined; isFlipped:
 
 function ClozeFace({ wordId, media, isFlipped, onReportAudio }: ClozeFaceProps) {
   const [isTranslationShown, setIsTranslationShown] = useState(false)
-  const [isHintShown, setIsHintShown] = useState(false)
   const [isReported, setIsReported] = useState(false)
 
   const sentence = media?.sentence
   const language = wordId.startsWith('en-') ? 'en' : 'ja'
 
   if (!sentence) return null
-
-  const showHint = (event: MouseEvent) => {
-    event.stopPropagation()
-    setIsHintShown(true)
-  }
 
   const reportAudio = async (event: MouseEvent) => {
     event.stopPropagation()
@@ -378,20 +372,14 @@ function ClozeFace({ wordId, media, isFlipped, onReportAudio }: ClozeFaceProps) 
 
   return (
     <>
-      {/* 활용형 문장은 빈칸에 활용된 꼴 그대로 넣어야 해서, 막히면 어떤 동사를 어떤 꼴로 바꾸는지 볼 수 있게 한다. 처음엔 가려 둔다. */}
-      {sentence.form &&
-        (isHintShown || isFlipped ? (
-          <span lang={language} className="cloze-form">
-            {findWord(wordId)?.text} → {sentence.form}
-          </span>
-        ) : (
-          <span role="button" tabIndex={0} className="cloze-hint" onClick={showHint}>
-            <LightbulbIcon size={18} aria-hidden="true" />
-            힌트 보기
-          </span>
-        ))}
+      {/* 활용형 문장은 빈칸에 활용된 꼴 그대로 넣어야 해서 꼴 이름을 늘 알려 주고, 답을 보면 원형에서 어떻게 바꿨는지 보여 준다. */}
+      {sentence.form && (
+        <span lang={isFlipped ? language : 'ko'} className="cloze-form">
+          {isFlipped ? conjugationHintOf(findWord(wordId)?.text ?? '', sentence.form) : formLabelOf(sentence.form)}
+        </span>
+      )}
       <span lang={language} className="cloze-sentence">
-        {sentence.before}
+        <RubyText text={sentence.before} offset={0} ruby={sentence.ruby} />
         {isFlipped ? (
           <span className="cloze-filled">
             <strong className="cloze-answer">{sentence.answer}</strong>
@@ -400,7 +388,7 @@ function ClozeFace({ wordId, media, isFlipped, onReportAudio }: ClozeFaceProps) 
         ) : (
           <span className="cloze-blank" role="img" aria-label="빈칸" />
         )}
-        {sentence.after}
+        <RubyText text={sentence.after} offset={sentence.before.length + sentence.answer.length} ruby={sentence.ruby} />
       </span>
       {isTranslationShown && <span className="cloze-translation">{sentence.translation}</span>}
       {media?.image && (
@@ -423,6 +411,20 @@ function ClozeFace({ wordId, media, isFlipped, onReportAudio }: ClozeFaceProps) 
         </span>
       )}
     </>
+  )
+}
+
+// 일본어 문장의 한자 위에 읽기를 작게 단다. 빈칸 말은 답을 본 뒤 따로 읽기를 보여 준다.
+function RubyText({ text, offset, ruby }: { text: string; offset: number; ruby: Ruby[] | undefined }) {
+  return rubySegments(text, offset, ruby).map((segment, index) =>
+    segment.reading ? (
+      <ruby key={index}>
+        {segment.text}
+        <rt>{segment.reading}</rt>
+      </ruby>
+    ) : (
+      <Fragment key={index}>{segment.text}</Fragment>
+    ),
   )
 }
 

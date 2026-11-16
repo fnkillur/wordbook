@@ -1262,20 +1262,6 @@ a {
   font-weight: 700;
 }
 
-.cloze-hint {
-  display: inline-flex;
-  flex: none;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 14px;
-  border: 1px dashed var(--color-border);
-  border-radius: 999px;
-  color: var(--color-text-sub);
-  font-size: 15px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
 .report-actions {
   display: flex;
   flex: none;
@@ -1302,6 +1288,13 @@ a {
   line-height: 1.9;
   text-align: center;
   overflow-wrap: anywhere;
+}
+
+/* 한자 읽기는 문장보다 한참 작고 흐리게 둬서 문장을 읽는 데 방해되지 않게 한다. 줄 간격이 넉넉해 위에 얹어도 줄이 벌어지지 않는다. */
+.cloze-sentence rt {
+  color: var(--color-text-sub);
+  font-size: 0.42em;
+  font-weight: 500;
 }
 
 .cloze-blank {

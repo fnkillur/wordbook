@@ -4,7 +4,7 @@ import { createRoot, type Root } from 'react-dom/client'
 import { createMemoryRouter, RouterProvider } from 'react-router'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { db } from '../db/database'
-import { sentencesOf } from '../data/sentences'
+import { formLabelOf, SENTENCES, sentencesOf, sentenceTextOf } from '../data/sentences'
 import { audioReports, dateKey, earnedTotal, makeWord, setAudio, setSentenceAudio } from '../db/repository'
 import { newStudyCard } from '../domain/schedule'
 import { saveSettings } from '../settings'
@@ -343,11 +343,26 @@ describe('StudyPage', () => {
       vi.unstubAllGlobals()
     })
 
+    it('일본어 문장은 빈칸 밖 한자 위에 읽기를 작게 단다', async () => {
+      const wordId = Object.keys(SENTENCES).find(id => id.startsWith('ja-') && SENTENCES[id].ruby?.length)!
+      const [start, end, reading] = SENTENCES[wordId].ruby![0]
+      const text = sentenceTextOf(SENTENCES[wordId])
+      await clozeCard(wordId)
+      await open()
+
+      const ruby = container.querySelector('.cloze-sentence ruby')
+      expect(ruby?.firstChild?.textContent).toBe(text.slice(start, end))
+      expect(ruby?.querySelector('rt')?.textContent).toBe(reading)
+    })
+
     it('앞면은 빈칸 문장과 그림만 보여 주고 답·번역·소리 버튼은 숨긴다', async () => {
       await clozeCard('ja-f00122')
       await open()
 
-      const sentence = container.querySelector('.cloze-sentence')?.textContent ?? ''
+      // 한자 위 읽기(rt)는 빼고 문장 글자만 본다.
+      const sentenceNode = container.querySelector('.cloze-sentence')!.cloneNode(true) as HTMLElement
+      sentenceNode.querySelectorAll('rt').forEach(reading => reading.remove())
+      const sentence = sentenceNode.textContent ?? ''
       expect(sentence).toContain('母が')
       expect(sentence).toContain('しています。')
       expect(sentence).not.toContain('心配')
@@ -385,7 +400,7 @@ describe('StudyPage', () => {
       expect(container.querySelector('.study-scene img')?.getAttribute('src')).toContain('chiikawa-study')
     })
 
-    it('복습한 횟수만큼 다음 활용형 문장을 보여 주고, 사전형과 꼴 힌트는 눌러야 보인다', async () => {
+    it('복습한 횟수만큼 다음 활용형 문장을 보여 주고, 문제에는 원형 없이 꼴 이름만 보인다', async () => {
       await clozeCard('ja-0481')
       const card = (await db.cards.get('ja-0481:cloze'))!
       await db.cards.put({ ...card, fsrs: { ...card.fsrs, reps: 1 } })
@@ -393,15 +408,14 @@ describe('StudyPage', () => {
       const expected = sentences[1 % sentences.length]
       await open()
 
-      // 힌트(사전형과 꼴)는 처음엔 가려 두고, 막힐 때 눌러서 본다. 눌러도 카드는 뒤집히지 않는다.
-      expect(container.querySelector('.cloze-form')).toBeNull()
+      // 원형을 보여 주면 답이 바로 보여서, 문제에는 과거·존댓말 같은 꼴 이름만 알려 준다.
       expect(container.querySelector('.cloze-sentence')?.textContent).not.toContain(expected.answer)
-      await act(async () => (container.querySelector('.cloze-hint') as HTMLElement).click())
-      expect(container.querySelector('.cloze-form')?.textContent).toBe(`行く → ${expected.form}`)
-      expect(button('답 보기')).toBeDefined()
+      expect(container.querySelector('.cloze-form')?.textContent).toBe(formLabelOf(expected.form!))
+      expect(container.querySelector('.cloze-form')?.textContent).not.toContain('行く')
+      expect(container.querySelector('.cloze-hint')).toBeNull()
     })
 
-    it('답을 보면 활용형 힌트도 함께 보여 준다', async () => {
+    it('답을 보면 원형에서 어떤 꼴로 바꿨는지 보여 준다', async () => {
       await clozeCard('ja-0481')
       await open()
       await flip()
