@@ -25,8 +25,8 @@ const renderAt = async (path: string) => {
 }
 
 describe('TabLayout', () => {
-  it('집·책장·도감·설정 탭을 보여 준다', async () => {
-    expect((await renderAt('/')).labels).toEqual(['집', '책장', '도감', '설정'])
+  it('안드로이드 앱은 오른손 엄지가 닿도록 집을 오른쪽 끝에 두어 설정·도감·책장·집 순서로 보여 준다', async () => {
+    expect((await renderAt('/')).labels).toEqual(['설정', '도감', '책장', '집'])
   })
 
   it('지금 있는 탭에 선택 표시를 한다', async () => {
