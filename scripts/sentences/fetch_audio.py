@@ -177,7 +177,7 @@ def main():
                 failed.append(rank)
         print(f'{language}: {saved}개 저장, 실패 {len(failed)}개 {failed}')
 
-    # 동사 활용형 문장(conjugations-ja.txt)은 단어 id와 그 단어의 몇 번째 줄인지로 이름을 붙인다(build-words.mjs와 같은 규칙).
+    # 동사·형용사 활용형 문장(conjugations-ja.txt)은 단어 id와 그 단어의 몇 번째 줄인지로 이름을 붙인다(build-words.mjs와 같은 규칙).
     conjugations = os.path.join(args.data, 'conjugations-ja.txt')
     os.makedirs(os.path.join(args.out, 'ja', 'c'), exist_ok=True)
     saved, failed, order = 0, [], {}

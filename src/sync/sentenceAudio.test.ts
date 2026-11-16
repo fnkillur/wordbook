@@ -1,6 +1,6 @@
 import 'fake-indexeddb/auto'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
-import { sentenceAudioKind, sentencesOf } from '../data/sentences'
+import { SENTENCES, sentenceAudioKind, sentencesOf, sentenceTextOf } from '../data/sentences'
 import { db } from '../db/database'
 import { getMedia, makeWord, recordReview, reportSentenceAudio } from '../db/repository'
 import { saveSettings } from '../settings'
@@ -11,6 +11,8 @@ vi.mock('./tts', () => ({ fetchTts: vi.fn() }))
 
 const NOW = new Date('2026-11-05T09:00:00+09:00')
 const firstKind = (wordId: string) => sentenceAudioKind(sentencesOf(wordId)[0])
+// 영어 문장은 원어민 녹음으로 계속 바뀌어서, TTS로 읽는 단어는 데이터에서 고른다.
+const [ttsWord, otherTtsWord] = Object.keys(SENTENCES).filter(id => id.startsWith('en-') && !SENTENCES[id].audioPath)
 const SERVER = { endpoint: 'https://example.test/exec', token: 'test-token' }
 // 테스트 환경의 Blob(jsdom)은 Node Response 본문이 되지 못해서 바이트와 형식 헤더로 응답을 만든다.
 const audioResponse = () => new Response(new Uint8Array([1, 2, 3]), { status: 200, headers: { 'Content-Type': 'audio/mp4' } })
@@ -68,9 +70,9 @@ describe('prepareSentenceAudio', () => {
     saveSettings({ server: SERVER })
     vi.mocked(fetchTts).mockResolvedValue(new Blob(['mp3'], { type: 'audio/mpeg' }))
 
-    expect(await prepareSentenceAudio('en-f00001')).toBe(true)
-    expect(fetchTts).toHaveBeenCalledWith(SERVER, 'What can I get for you today?', 'en')
-    expect((await getMedia('en-f00001', firstKind('en-f00001')))?.type).toBe('audio/mpeg')
+    expect(await prepareSentenceAudio(ttsWord)).toBe(true)
+    expect(fetchTts).toHaveBeenCalledWith(SERVER, sentenceTextOf(SENTENCES[ttsWord]), 'en')
+    expect((await getMedia(ttsWord, firstKind(ttsWord)))?.type).toBe('audio/mpeg')
   })
 
   it('이상하다고 제보한 원어민 녹음은 쓰지 않고 서버 TTS로 읽는다', async () => {
@@ -95,8 +97,8 @@ describe('prepareSentenceAudio', () => {
 
 describe('backfillSentenceAudio', () => {
   it('빠진 문장 음성을 차례로 받다가 처음 실패하면 멈춘다', async () => {
-    await withCloze('en-f00001')
-    await withCloze('en-f00002')
+    await withCloze(ttsWord)
+    await withCloze(otherTtsWord)
     saveSettings({ server: SERVER })
     vi.mocked(fetchTts).mockRejectedValue(new Error('offline'))
 
@@ -105,7 +107,7 @@ describe('backfillSentenceAudio', () => {
   })
 
   it('TTS로 읽을 문장을 받지 못해도 앱에 든 원어민 녹음은 계속 받는다', async () => {
-    await withCloze('en-f00001')
+    await withCloze(ttsWord)
     await withCloze('ja-f00001')
     vi.stubGlobal('fetch', vi.fn(async () => audioResponse()))
 
@@ -114,8 +116,8 @@ describe('backfillSentenceAudio', () => {
   })
 
   it('서버 TTS가 한 번 실패하면 남은 TTS 문장은 다음 기회로 미룬다', async () => {
-    await withCloze('en-f00001')
-    await withCloze('en-f00002')
+    await withCloze(ttsWord)
+    await withCloze(otherTtsWord)
     saveSettings({ server: SERVER })
     vi.mocked(fetchTts).mockRejectedValue(new Error('offline'))
 

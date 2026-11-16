@@ -97,7 +97,7 @@ export const withoutReportedAudio = (sentence: Sentence, reportedPaths: Set<stri
 
 export const reportedAudioPaths = async () => new Set((await audioReports()).map(report => report.audioPath))
 
-// 단어의 첫 문장 음성을 받았는지 본다. 활용형 문장만 있는 동사는 첫 활용형 문장의 이름으로 저장된다.
+// 단어의 첫 문장 음성을 받았는지 본다. 활용형 문장만 있는 기초 동사·형용사는 첫 활용형 문장의 이름으로 저장된다.
 const firstSentenceKey = (wordId: string) => {
   const [first] = sentencesOf(wordId)
   return mediaKey(wordId, first ? sentenceAudioKind(first) : 'sentence')

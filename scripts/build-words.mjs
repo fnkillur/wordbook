@@ -70,6 +70,21 @@ console.log(`일본어 ${jaAll.length}개(빈도 ${jaAll.length - ja.length}), �
 const NATIVE_SOURCES = /^(K|I|T)/
 const KANA = /^[\u3041-\u3096ー]+$/u
 
+// 빈칸 밖 한자의 읽기(furigana-ja.txt, scripts/sentences/furigana.py로 만든다). 문장 글자 위치 [시작, 끝, 읽기] 목록.
+const FURIGANA = new Map(
+  readFileSync(new URL('./data/furigana-ja.txt', import.meta.url), 'utf8')
+    .split('\n')
+    .filter(line => line.trim() !== '')
+    .map(line => {
+      const [sentence, spans] = line.split('|')
+      return [sentence, spans.split(';').map(span => span.split(':')).map(([start, end, reading]) => [Number(start), Number(end), reading])]
+    }),
+)
+const rubyOf = parts => {
+  const ruby = FURIGANA.get(`${parts[1]}${parts[2]}${parts[3]}`)
+  return ruby ? { ruby } : {}
+}
+
 const sentencesOf = (language, entries) => {
   const learnIds = new Set(entries.filter(entry => entry.source === 'freq').map(entry => entry.id))
   const sentences = {}
@@ -84,12 +99,12 @@ const sentencesOf = (language, entries) => {
     if (language === 'ja' && !KANA.test(reading ?? '')) throw new Error(`sentences-ja.txt: 순위 ${rank}의 빈칸 읽기가 가나가 아니에요`)
     const audioPath = `sentence-audio/${language}/${rank}.m4a`
     const hasAudio = NATIVE_SOURCES.test(source) && existsSync(new URL(`../public/${audioPath}`, import.meta.url))
-    sentences[id] = { before: parts[1], answer: parts[2], after: parts[3], reading: language === 'ja' ? reading : null, translation, audioPath: hasAudio ? audioPath : null }
+    sentences[id] = { before: parts[1], answer: parts[2], after: parts[3], reading: language === 'ja' ? reading : null, translation, audioPath: hasAudio ? audioPath : null, ...(language === 'ja' ? rubyOf(parts) : {}) }
   }
   return sentences
 }
 
-// 동사 활용형 빈칸 문장(conjugations-ja.txt): 단어 id|꼴|[빈칸]을 감싼 문장|번역|출처|빈칸 읽기. 한 동사에 여러 줄이고,
+// 동사·형용사 활용형 빈칸 문장(conjugations-ja.txt): 단어 id|꼴|[빈칸]을 감싼 문장|번역|출처|빈칸 읽기. 한 단어에 여러 줄이고,
 // 복습할 때마다 그 단어의 기본 문장과 돌아가며 나온다. 녹음은 public/sentence-audio/ja/c/<단어 id>-<그 단어의 몇 번째 줄>.m4a.
 const conjugationsOf = entries => {
   const wordIds = new Set(entries.map(entry => entry.id))
@@ -106,7 +121,7 @@ const conjugationsOf = entries => {
     conjugations[id] ??= []
     const audioPath = `sentence-audio/ja/c/${id}-${conjugations[id].length + 1}.m4a`
     const hasAudio = NATIVE_SOURCES.test(source) && existsSync(new URL(`../public/${audioPath}`, import.meta.url))
-    conjugations[id].push({ before: parts[1], answer: parts[2], after: parts[3], reading, translation, audioPath: hasAudio ? audioPath : null, form })
+    conjugations[id].push({ before: parts[1], answer: parts[2], after: parts[3], reading, translation, audioPath: hasAudio ? audioPath : null, form, ...rubyOf(parts) })
   }
   return conjugations
 }
@@ -114,7 +129,7 @@ const conjugationsOf = entries => {
 const conjugations = conjugationsOf(jaAll)
 writeFileSync(new URL('../src/data/conjugations-ja.json', import.meta.url), `${JSON.stringify(conjugations, null, 1)}\n`)
 const conjugationValues = Object.values(conjugations).flat()
-console.log(`ja 활용 문장 ${conjugationValues.length}개(동사 ${Object.keys(conjugations).length}개, 녹음 ${conjugationValues.filter(sentence => sentence.audioPath).length})`)
+console.log(`ja 활용 문장 ${conjugationValues.length}개(동사·형용사 ${Object.keys(conjugations).length}개, 녹음 ${conjugationValues.filter(sentence => sentence.audioPath).length})`)
 
 for (const [language, entries] of [['ja', jaAll], ['en', enAll]]) {
   const sentences = sentencesOf(language, entries)
