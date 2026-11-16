@@ -68,12 +68,26 @@ export const readClipboardImage = async (): Promise<ClipboardImage | null> => {
     if (!result.data || !result.mimeType) return null
     return { blob: fromBase64(result.data, result.mimeType), signature: result.signature ?? '' }
   }
-  const items = await navigator.clipboard.read()
-  for (const item of items) {
-    const type = item.types.find(candidate => candidate.startsWith('image/'))
-    if (type) return { blob: await item.getType(type), signature: '' }
+  const result = await readWebClipboard()
+  return 'image' in result ? result.image : null
+}
+
+type ClipboardSource = () => Promise<{ types: readonly string[]; getType: (type: string) => Promise<Blob> }[]>
+type WebClipboardResult = { image: ClipboardImage } | { missing: 'link' | 'empty' | 'denied' }
+
+// 아이폰 구글 이미지에서 썸네일을 길게 눌러 복사하면 그림이 아니라 링크가 복사돼서, 왜 못 붙였는지 나눠서 알려 준다.
+export const readWebClipboard = async (read: ClipboardSource = () => navigator.clipboard.read()): Promise<WebClipboardResult> => {
+  try {
+    const items = await read()
+    for (const item of items) {
+      const type = item.types.find(candidate => candidate.startsWith('image/'))
+      if (type) return { image: { blob: await item.getType(type), signature: '' } }
+    }
+    const hasLink = items.some(item => item.types.some(type => type === 'text/uri-list' || type === 'text/plain'))
+    return { missing: hasLink ? 'link' : 'empty' }
+  } catch {
+    return { missing: 'denied' }
   }
-  return null
 }
 
 // 안드로이드 10부터는 앱 창이 입력 포커스를 받은 뒤에야 클립보드를 읽을 수 있어서, 돌아온 순간이 아니라 포커스를 받은 때 읽는다.

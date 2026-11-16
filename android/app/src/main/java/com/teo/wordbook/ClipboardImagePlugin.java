@@ -45,9 +45,11 @@ public class ClipboardImagePlugin extends Plugin {
             return;
         }
         try {
-            result.put("data", readBase64(uri));
+            String data = readBase64(uri);
+            result.put("data", data);
             result.put("mimeType", mimeType);
-            result.put("signature", uri.toString());
+            // 크롬은 복사할 때마다 같은 주소에 그림을 덮어써서, 주소만으로는 새 그림인지 알 수 없다.
+            result.put("signature", uri + "#" + data.length() + ":" + data.hashCode());
             call.resolve(result);
         } catch (Exception error) {
             call.reject("클립보드 이미지를 읽지 못했어요.", error);

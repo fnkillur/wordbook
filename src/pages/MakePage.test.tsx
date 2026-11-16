@@ -266,7 +266,7 @@ describe('MakePage', () => {
     expect(container.querySelector('.make-image label input[type="file"]')).not.toBeNull()
     const sources = [...(card?.querySelectorAll('.make-sources .card-action') ?? [])].map(item => item.textContent)
     expect(sources.slice(0, 2)).toEqual(['구글에서 찾기', '갤러리'])
-    const order = [...(card?.children ?? [])].map(item => item.className)
+    const order = [...(card?.querySelector('.make-card-scroll')?.children ?? [])].map(item => item.className)
     expect(order.indexOf('card-actions make-sources')).toBeLessThan(order.findIndex(name => name.startsWith('make-image')))
     expect(card?.querySelector('.make-memo-line svg')).not.toBeNull()
 
@@ -293,5 +293,15 @@ describe('MakePage', () => {
     expect(container.querySelector('.speech-bubble')).not.toBe(before)
     expect(container.querySelector('.study-host')?.classList.contains('is-talking')).toBe(true)
     expect(container.querySelector('.make-memo-line')?.classList.contains('is-suggested')).toBe(true)
+  })
+
+  it('붙여넣기에서 그림 대신 링크가 복사돼 있으면 그림을 크게 열어 복사하라고 알려 준다', async () => {
+    const read = vi.fn(async () => [{ types: ['text/uri-list'], getType: async () => new Blob(['https://x.test']) }])
+    Object.defineProperty(navigator, 'clipboard', { value: { read }, configurable: true })
+    await open('/make/ja-0001')
+    await act(async () => button('붙여넣기').click())
+    await wait()
+
+    expect(container.querySelector('.make-error')?.textContent).toContain('링크가 복사됐어')
   })
 })

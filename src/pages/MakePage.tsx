@@ -15,7 +15,7 @@ import { dayPlan, getMedia, madeCountOn, makeWord, markWord, setAudio, todaysWor
 import type { CardType } from '../domain/schedule'
 import { newWordsLeft } from '../domain/session'
 import type { Placement } from '../media/crop'
-import { compressImage, cropImage, onWindowFocus, readClipboardImage, type ClipboardImage } from '../media/image'
+import { compressImage, cropImage, onWindowFocus, readClipboardImage, readWebClipboard, type ClipboardImage } from '../media/image'
 import { subscribeSharedImage, takeSharedImage } from '../media/sharedImage'
 import { googleImageUrl } from '../media/search'
 import type { Language } from '../platform'
@@ -32,6 +32,12 @@ type MakeState = { notice?: string; knownWordId?: string; fromBook?: boolean } |
 const offeredClips = new Set<string>()
 
 const languageOf = (word: WordEntry): Language => (word.id.startsWith('ja-') ? 'ja' : 'en')
+
+const pasteErrorOf = (missing: 'link' | 'empty' | 'denied') => {
+  if (missing === 'link') return '그림 대신 링크가 복사됐어. 그림을 눌러 크게 연 다음, 큰 그림을 길게 눌러 복사해 줘.'
+  if (missing === 'denied') return '붙여넣기를 못 했어. 다시 눌러서 뜨는 붙여넣기 말풍선을 눌러 줘.'
+  return '복사한 그림이 없어. 그림을 길게 눌러 복사해 줘.'
+}
 
 const cardTypesFor = (language: Language): CardType[] => {
   const types: CardType[] = ['produce', 'recognize', 'listen']
@@ -175,12 +181,12 @@ function MakeForm({ word }: { word: WordEntry }) {
   }
 
   const handlePaste = async () => {
-    const clip = await readClipboardImage().catch(() => null)
-    if (clip) {
-      applyImage(clip.blob)
+    const result = await readWebClipboard()
+    if ('image' in result) {
+      applyImage(result.image.blob)
       return
     }
-    setError('복사한 그림이 없어. 그림을 길게 눌러 복사해 줘.')
+    setError(pasteErrorOf(result.missing))
   }
 
   return (
@@ -210,69 +216,70 @@ function MakeForm({ word }: { word: WordEntry }) {
         </header>
         {notice && <p className="notice">{notice}</p>}
 
-        {/* 만들 카드를 복습 카드와 같은 책 페이지로 미리 보여 준다. */}
+        {/* 만들 카드를 복습 카드와 같은 책 페이지로 미리 보여 준다. 책 모양은 화면에 고정하고 안쪽만 스크롤한다. */}
         <section className="study-card make-card">
-          <div className="make-word">
-            <span className="study-word">
-              <strong lang={language} className="word-display" style={wordSizeStyle(forms.main)}>
-                {forms.main}
-              </strong>
-              {forms.sub && <small lang={language}>{forms.sub}</small>}
-              {word.hint && <small>({word.hint})</small>}
-            </span>
-            <span className="word-meaning">{word.meaningKo}</span>
-          </div>
-
-          {/* 그림을 찾는 게 가장 먼저 할 일이라 단어 바로 아래에 둬서 짧은 화면에서도 가리지 않는다. */}
-          <div className="card-actions make-sources">
-            <a className={picked ? 'card-action' : 'card-action is-primary'} href={googleImageUrl(word, language)} target="_blank" rel="noreferrer">
-              <MagnifyingGlassIcon size={18} weight="bold" aria-hidden="true" />
-              구글에서 찾기
-            </a>
-            <label className="card-action">
-              <ImageIcon size={18} aria-hidden="true" />
-              갤러리
-              <input type="file" accept="image/*" aria-label="갤러리에서 고르기" hidden onChange={handleGallery} />
-            </label>
-            {!Capacitor.isNativePlatform() && (
-              <button type="button" className="card-action" onClick={handlePaste}>
-                <ClipboardTextIcon size={18} aria-hidden="true" />
-                붙여넣기
-              </button>
-            )}
-          </div>
-
-          {picked ? (
-            <div className="make-image has-image">
-              <ImageCropper key={picked.url} url={picked.url} onPlacementChange={(placement, isAdjusted) => (cropRef.current = { placement, isAdjusted })} />
+          <div className="make-card-scroll">
+            <div className="make-word">
+              <span className="study-word">
+                <strong lang={language} className="word-display" style={wordSizeStyle(forms.main)}>
+                  {forms.main}
+                </strong>
+                {forms.sub && <small lang={language}>{forms.sub}</small>}
+                {word.hint && <small>({word.hint})</small>}
+              </span>
+              <span className="word-meaning">{word.meaningKo}</span>
             </div>
-          ) : (
-            <div className="make-image">
-              <label className="make-image-pick">
-                <ImageIcon size={32} aria-hidden="true" />
-                눌러서 갤러리에서 고르기
+
+            {/* 그림을 찾는 게 가장 먼저 할 일이라 단어 바로 아래에 둬서 짧은 화면에서도 가리지 않는다. */}
+            <div className="card-actions make-sources">
+              <a className={picked ? 'card-action' : 'card-action is-primary'} href={googleImageUrl(word, language)} target="_blank" rel="noreferrer">
+                <MagnifyingGlassIcon size={18} weight="bold" aria-hidden="true" />
+                구글에서 찾기
+              </a>
+              <label className="card-action">
+                <ImageIcon size={18} aria-hidden="true" />
+                갤러리
                 <input type="file" accept="image/*" aria-label="갤러리에서 고르기" hidden onChange={handleGallery} />
               </label>
+              {!Capacitor.isNativePlatform() && (
+                <button type="button" className="card-action" onClick={handlePaste}>
+                  <ClipboardTextIcon size={18} aria-hidden="true" />
+                  붙여넣기
+                </button>
+              )}
             </div>
-          )}
-          {picked && <p className="make-image-hint">끌어서 옮기고, 두 손가락으로 크기를 바꿀 수 있어</p>}
 
-          {clipOffer && (
-            <div className="make-offer" role="status">
-              <span>복사한 그림을 넣을까?</span>
-              <button type="button" className="text-button text-primary" onClick={() => applyImage(clipOffer.blob)}>
-                넣기
-              </button>
-            </div>
-          )}
-          {error && <p className="make-error">{error}</p>}
+            {picked ? (
+              <div className="make-image has-image">
+                <ImageCropper key={picked.url} url={picked.url} onPlacementChange={(placement, isAdjusted) => (cropRef.current = { placement, isAdjusted })} />
+              </div>
+            ) : (
+              <div className="make-image">
+                <label className="make-image-pick">
+                  <ImageIcon size={32} aria-hidden="true" />
+                  눌러서 갤러리에서 고르기
+                  <input type="file" accept="image/*" aria-label="갤러리에서 고르기" hidden onChange={handleGallery} />
+                </label>
+              </div>
+            )}
+            {picked && <p className="make-image-hint">끌어서 옮기고, 두 손가락으로 크기를 바꿀 수 있어</p>}
 
-          {/* 기억 한 줄은 공책 줄에 연필로 적는 느낌으로. */}
-          <label className={`make-memo-line${picked && !memo ? ' is-suggested' : ''}`}>
-            <PencilSimpleLineIcon size={20} aria-hidden="true" />
-            <input className="make-memo" placeholder={memoPromptOf(word.id)} value={memo} onChange={event => setMemo(event.target.value)} />
-          </label>
+            {clipOffer && (
+              <div className="make-offer" role="status">
+                <span>복사한 그림을 넣을까?</span>
+                <button type="button" className="text-button text-primary" onClick={() => applyImage(clipOffer.blob)}>
+                  넣기
+                </button>
+              </div>
+            )}
+            {error && <p className="make-error">{error}</p>}
 
+            {/* 기억 한 줄은 공책 줄에 연필로 적는 느낌으로. */}
+            <label className={`make-memo-line${picked && !memo ? ' is-suggested' : ''}`}>
+              <PencilSimpleLineIcon size={20} aria-hidden="true" />
+              <input className="make-memo" placeholder={memoPromptOf(word.id)} value={memo} onChange={event => setMemo(event.target.value)} />
+            </label>
+          </div>
         </section>
       </main>
 

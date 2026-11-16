@@ -712,6 +712,8 @@ a {
   display: flex;
   flex-direction: column;
   gap: var(--space-3);
+  /* 책 페이지가 남은 높이를 채우고 안쪽만 스크롤하도록 화면 높이에 맞춘다. */
+  height: 100dvh;
   /* 아래 고정 영역(만들기 52 + 넘기기 44 + 간격) 높이만큼만 비워 둔다. */
   padding-bottom: calc(var(--space-3) + 52px + var(--space-2) + 44px + var(--cta-bottom) + var(--space-3) + env(safe-area-inset-bottom, 0px));
 }
@@ -787,8 +789,6 @@ a {
 .make-image {
   display: grid;
   aspect-ratio: 4 / 3;
-  /* 폴드 커버처럼 짧은 화면에서도 구글 찾기 버튼이 아래 만들기 버튼에 가리지 않게 높이를 줄인다. */
-  max-height: 32dvh;
   overflow: hidden;
   border: 2px dashed var(--color-border);
   border-radius: var(--radius-image);
@@ -799,10 +799,10 @@ a {
   border-style: solid;
 }
 
-/* 고른 그림은 저장되는 4:3 그대로 보여 준다. 짧은 화면에서는 폭을 줄여 비율을 지킨다. */
+/* 고른 그림은 저장되는 4:3 그대로 카드 폭에 맞춰 보여 준다. */
 .make-image.has-image {
   align-self: center;
-  width: min(100%, calc(32dvh * 4 / 3));
+  width: 100%;
   background: #ffffff;
 }
 
@@ -2159,13 +2159,37 @@ a {
 
 /* 카드 만들기: 만들 카드를 복습 카드와 같은 책 페이지로 보여 준다. 위에서부터 단어, 그림, 그림 찾기 버튼(짧은 화면에서도 보이게), 기억 한 줄. */
 .make-card {
+  flex: 1 1 auto;
   justify-content: flex-start;
   min-height: 0;
   margin-bottom: 24px;
   cursor: auto;
 }
 
-.make-card > :first-child,
+/* 책갈피·겹친 종이는 페이지 밖으로 삐져나와서, 페이지 자체가 아니라 안쪽 칸만 스크롤해야 잘리지 않는다. */
+.make-card-scroll {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
+}
+
+/* 칸이 넘치면 줄어들지 말고 스크롤되어야 해서, 안의 요소는 원래 크기를 지킨다. */
+.make-card-scroll > * {
+  flex-shrink: 0;
+}
+
+.make-card-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.make-card-scroll > :first-child,
 .make-card .card-actions {
   margin-top: 0;
 }
