@@ -245,6 +245,19 @@ describe('제초 검정', () => {
     expect(await examResults('ja')).toEqual([])
   })
 
+  it('어휘량으로 높은 급수부터 보면 아래 급수는 건너뜀, 높은 급수에 합격하면 면제로 보여 준다', async () => {
+    await open()
+    const ladderRow = (grade: number) => [...container.querySelectorAll('.exam-ladder li')].find(row => row.textContent?.startsWith(`${grade}급`))
+    expect(ladderRow(5)?.textContent).toContain('건너뜀')
+
+    act(() => root.unmount())
+    root = createRoot(container)
+    await saveExamResult('ja', { takenAt: '2026-11-01T00:00:00.000Z', grade: 4, correct: 10, total: 10, passed: true })
+    await open()
+    expect(ladderRow(4)?.textContent).toContain('땄어')
+    expect(ladderRow(5)?.textContent).toContain('면제')
+  })
+
   it('볼 수 있는 시험이 없으면 남은 것을 알려 준다', async () => {
     await db.cards.clear()
     await open()

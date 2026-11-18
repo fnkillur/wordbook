@@ -2692,8 +2692,17 @@ a {
   width: 32px;
 }
 
-.exam-ladder-done {
-  color: var(--color-success-text);
+.exam-ladder-mark {
   font-size: var(--text-caption);
   font-weight: 700;
+}
+
+.exam-ladder-mark.is-passed {
+  color: var(--color-success-text);
+}
+
+/* 면제·건너뜀은 시험을 봐서 딴 것과 구분되게 흐리게 둔다. */
+.exam-ladder-mark.is-exempt,
+.exam-ladder-mark.is-skipped {
+  color: var(--color-text-sub);
 }

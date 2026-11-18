@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { WordEntry } from '../data/words'
-import { checkAnswer, currentGrade, examStatus, GRADES, vocabLevelText, learnedWordIds, pickQuestions, totalVocab, type ExamResult } from './exam'
+import { checkAnswer, currentGrade, examStatus, GRADES, ladderMarkOf, vocabLevelText, learnedWordIds, pickQuestions, totalVocab, type ExamResult } from './exam'
 import { newStudyCard, type StudyCard } from './schedule'
 import type { VocabTestResult } from './vocabTest'
 
@@ -60,6 +60,28 @@ describe('지금 급수', () => {
     expect(currentGrade([])).toBeNull()
     expect(currentGrade([result(5, false)])).toBeNull()
     expect(currentGrade([result(4, true), result(2, false), result(3, true)])).toBe(3)
+  })
+})
+
+describe('급수 안내 표시', () => {
+  it('시험을 봐서 합격한 급수는 땄다고 한다', () => {
+    expect(ladderMarkOf(3, [result(3, true)], null)).toBe('passed')
+  })
+
+  it('높은 급수에 합격해서 보지 않고 넘어간 아래 급수는 면제다', () => {
+    expect(ladderMarkOf(5, [result(2, true)], 1)).toBe('exempt')
+    expect(ladderMarkOf(3, [result(4, true), result(2, true)], 1)).toBe('exempt')
+  })
+
+  it('어휘량으로 높은 급수부터 보게 돼서 아직 보지 않은 아래 급수는 건너뛴 것으로 보여 준다', () => {
+    expect(ladderMarkOf(5, [], 2)).toBe('skipped')
+    expect(ladderMarkOf(3, [result(2, false)], 2)).toBe('skipped')
+  })
+
+  it('목표 급수와 그보다 높은 급수, 떨어진 급수는 표시가 없다', () => {
+    expect(ladderMarkOf(2, [], 2)).toBeNull()
+    expect(ladderMarkOf(1, [], 2)).toBeNull()
+    expect(ladderMarkOf(5, [result(5, false)], 5)).toBeNull()
   })
 })
 

@@ -9,7 +9,7 @@ import StudyImage from '../components/StudyImage'
 import { TEST_WORDS } from '../data/vocabTest'
 import { WORDS, type WordEntry } from '../data/words'
 import { examProgress, getMedia, learnedWords, postponeToTomorrow, saveExamResult } from '../db/repository'
-import { checkAnswer, englishWordSet, gradeLabel, GRADES, gradeRule, pickQuestions, type Answer, type ExamStatus } from '../domain/exam'
+import { checkAnswer, englishWordSet, gradeLabel, GRADES, gradeRule, ladderMarkOf, pickQuestions, type Answer, type ExamResult, type ExamStatus, type LadderMark } from '../domain/exam'
 import type { Language } from '../platform'
 import { learningLanguage } from '../settings'
 
@@ -33,7 +33,7 @@ const feedbackOf = (answer: Answer) => {
 // 일본어는 표기와 읽기가 다르면 함께 보여 준다.
 const answerTextOf = (word: WordEntry, language: Language) => (language === 'ja' && word.reading && word.reading !== word.text ? `${word.text} (${word.reading})` : word.text)
 
-const isPassed = (grade: number, current: number | null) => current !== null && grade >= current
+const LADDER_MARK_LABELS: Record<LadderMark, string> = { passed: '땄어', exempt: '면제', skipped: '건너뜀' }
 
 const statusTextOf = (status: ExamStatus, pass: number, questions: number) => {
   if (status.kind === 'ready') return `${questions}문제 중 ${pass}개 맞히면 합격`
@@ -277,7 +277,7 @@ function ExamPage() {
         </div>
         <img className="exam-intro-image" src={EXAM_INTRO_IMAGE} alt="" />
         <NextExam grade={progress.grade} vocab={progress.vocab} learned={progress.learned} status={progress.status} />
-        <GradeLadder grade={progress.grade} target={progress.status.kind === 'top' ? null : progress.status.grade} />
+        <GradeLadder results={progress.results} target={progress.status.kind === 'top' ? null : progress.status.grade} />
       </main>
       {rule && (
         <div className="bottom-cta vocab-actions vocab-cta">
@@ -349,9 +349,10 @@ function ProgressRow({ label, value, goal }: ProgressRowProps) {
   )
 }
 
-function GradeLadder({ grade, target }: { grade: number | null; target: number | null }) {
+function GradeLadder({ results, target }: { results: ExamResult[]; target: number | null }) {
   const classOf = (ladderGrade: number) => {
-    if (isPassed(ladderGrade, grade)) return 'is-passed'
+    const mark = ladderMarkOf(ladderGrade, results, target)
+    if (mark === 'passed' || mark === 'exempt') return 'is-passed'
     if (ladderGrade === target) return 'is-target'
     return ''
   }
@@ -360,13 +361,16 @@ function GradeLadder({ grade, target }: { grade: number | null; target: number |
     <section className="exam-section" aria-label="급수 안내">
       <h2>급수 안내</h2>
       <ul className="exam-ladder">
-        {GRADES.map(rule => (
-          <li key={rule.grade} className={classOf(rule.grade)}>
-            <strong>{rule.grade}급</strong>
-            <span>{GRADE_LEVELS[rule.grade]}</span>
-            {isPassed(rule.grade, grade) && <span className="exam-ladder-done">땄어</span>}
-          </li>
-        ))}
+        {GRADES.map(rule => {
+          const mark = ladderMarkOf(rule.grade, results, target)
+          return (
+            <li key={rule.grade} className={classOf(rule.grade)}>
+              <strong>{rule.grade}급</strong>
+              <span>{GRADE_LEVELS[rule.grade]}</span>
+              {mark && <span className={`exam-ladder-mark is-${mark}`}>{LADDER_MARK_LABELS[mark]}</span>}
+            </li>
+          )
+        })}
       </ul>
     </section>
   )

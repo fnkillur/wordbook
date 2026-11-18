@@ -224,7 +224,7 @@ export const examProgress = async (language: Language, now: Date) => {
   const results = await examResults(language)
   const vocab = totalVocab((await vocabTests(language)).at(-1) ?? null, cards)
   const learned = learnedWordIds(cards).length
-  return { grade: currentGrade(results), vocab, learned, status: examStatus({ vocab, learned, results, now }) }
+  return { grade: currentGrade(results), results, vocab, learned, status: examStatus({ vocab, learned, results, now }) }
 }
 
 // 시험에서 틀린 단어는 기억 강도는 그대로 두고 늦어도 다음 날 복습에 다시 낸다. 이미 기한이 지난 카드는 그대로 오늘 나온다.

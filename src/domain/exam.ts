@@ -51,6 +51,18 @@ export const currentGrade = (results: ExamResult[]) => {
   return passed.length > 0 ? Math.min(...passed) : null
 }
 
+export type LadderMark = 'passed' | 'exempt' | 'skipped'
+
+// 어휘량 테스트 결과에 따라 높은 급수부터 보게 되면 아래 급수는 볼 일이 없다.
+// 높은 급수에 합격하면 그 아래는 면제이고, 합격 전에는 어휘량으로 건너뛴 것이다.
+export const ladderMarkOf = (grade: number, results: ExamResult[], target: number | null): LadderMark | null => {
+  if (results.some(result => result.grade === grade && result.passed)) return 'passed'
+  const current = currentGrade(results)
+  if (current !== null && grade > current) return 'exempt'
+  if (target !== null && grade > target) return 'skipped'
+  return null
+}
+
 export const gradeLabel = (grade: number | null) => (grade === null ? '급수 없음' : `${grade}급`)
 
 type VocabLevelInput = { vocab: number; learned: number; grade: number | null }
