@@ -92,3 +92,24 @@ export const rubySegments = (text: string, offset: number, ruby: Ruby[] | undefi
   if (position < text.length) segments.push({ text: text.slice(position) })
   return segments
 }
+
+const KANJI = /\p{Script=Han}/u
+
+// 빈칸 말의 읽기는 말 전체 읽기라서, 앞뒤에 같은 가나(食べた의 べた)를 떼고 남은 한자 위에만 단다.
+export const answerRuby = (answer: string, reading: string | null) => {
+  if (!reading || !KANJI.test(answer)) return [{ text: answer }]
+  let head = 0
+  while (head < answer.length && !KANJI.test(answer[head]) && answer[head] === reading[head]) head += 1
+  let tail = 0
+  while (
+    tail < answer.length - head &&
+    !KANJI.test(answer[answer.length - 1 - tail]) &&
+    answer[answer.length - 1 - tail] === reading[reading.length - 1 - tail]
+  )
+    tail += 1
+  const segments: { text: string; reading?: string }[] = []
+  if (head > 0) segments.push({ text: answer.slice(0, head) })
+  segments.push({ text: answer.slice(head, answer.length - tail), reading: reading.slice(head, reading.length - tail) })
+  if (tail > 0) segments.push({ text: answer.slice(answer.length - tail) })
+  return segments
+}

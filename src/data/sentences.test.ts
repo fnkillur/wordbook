@@ -1,6 +1,6 @@
 import { existsSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
-import { conjugationHintOf, CONJUGATIONS, formLabelOf, findSentence, rubySegments, SENTENCES, sentenceForTurn, sentencesOf } from './sentences'
+import { answerRuby, conjugationHintOf, CONJUGATIONS, formLabelOf, findSentence, rubySegments, SENTENCES, sentenceForTurn, sentencesOf } from './sentences'
 
 describe('빈칸 문장', () => {
   it('일본어 문장은 빈칸 앞·빈칸 말·뒤와 문장 속 꼴의 읽기, 번역을 준다', () => {
@@ -92,5 +92,18 @@ describe('후리가나', () => {
     ])
     expect(rubySegments('を払う', 5, [[3, 4, 'そ'], [6, 7, 'はら']])).toEqual([{ text: 'を' }, { text: '払', reading: 'はら' }, { text: 'う' }])
     expect(rubySegments('ねえ', 0, undefined)).toEqual([{ text: 'ねえ' }])
+  })
+})
+
+describe('answerRuby', () => {
+  it('빈칸 말의 읽기는 앞뒤 가나를 빼고 한자 위에만 단다', () => {
+    expect(answerRuby('食べた', 'たべた')).toEqual([{ text: '食', reading: 'た' }, { text: 'べた' }])
+    expect(answerRuby('お茶', 'おちゃ')).toEqual([{ text: 'お' }, { text: '茶', reading: 'ちゃ' }])
+    expect(answerRuby('電気', 'でんき')).toEqual([{ text: '電気', reading: 'でんき' }])
+  })
+
+  it('한자가 없거나 읽기가 없으면 읽기를 달지 않는다', () => {
+    expect(answerRuby('します', 'します')).toEqual([{ text: 'します' }])
+    expect(answerRuby('get', null)).toEqual([{ text: 'get' }])
   })
 })

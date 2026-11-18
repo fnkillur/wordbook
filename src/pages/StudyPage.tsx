@@ -1,14 +1,15 @@
 import { EyeIcon, SpeakerHighIcon, TranslateIcon, XIcon } from '@phosphor-icons/react'
-import { Fragment, useEffect, useRef, useState, type MouseEvent } from 'react'
+import { useEffect, useRef, useState, type MouseEvent } from 'react'
 import { Link, useNavigate } from 'react-router'
 import { EFFECT_MESSAGE, questionOf, reactionOf } from '../characters/lines'
 import { pickCelebration, pickImage, TOUGH_DAY_EFFECTS, type Celebration } from '../characters/effects'
 import { ANSWER_IMAGES, QUIZ_AVATARS, QUIZ_SCENE } from '../characters/slots'
 import EffectOverlay from '../components/EffectOverlay'
+import { RubySegments, RubyText } from '../components/RubyText'
 import StudyImage from '../components/StudyImage'
 import { wordFormsOf } from '../components/wordForms'
 import { wordSizeStyle } from '../components/wordSize'
-import { conjugationHintOf, formLabelOf, rubySegments, sentenceAudioKind, sentenceForTurn, type Ruby, type Sentence } from '../data/sentences'
+import { answerRuby, conjugationHintOf, formLabelOf, sentenceAudioKind, sentenceForTurn, type Sentence } from '../data/sentences'
 import { findWord } from '../data/words'
 import { db, type Note } from '../db/database'
 import {
@@ -78,8 +79,6 @@ const sentenceAudioOf = async (wordId: string, sentence: Sentence, index: number
   return (await prepareSentenceAudio(wordId, { index })) ? getMedia(wordId, sentenceAudioKind(sentence)) : null
 }
 
-// 가나로 된 빈칸 말에는 같은 읽기를 또 달 필요가 없다.
-const hasKanji = (text: string) => /\p{Script=Han}/u.test(text)
 
 // 세로가 짧은 폰 앱에서는 카드 그림 자리를 넓히려고 장면 대신 작은 얼굴을 말풍선 옆에 둔다. 웹앱(아이폰)은 자리가 넉넉하다.
 const sceneOf = (card: StudyCard) => {
@@ -382,8 +381,9 @@ function ClozeFace({ wordId, media, isFlipped, onReportAudio }: ClozeFaceProps) 
         <RubyText text={sentence.before} offset={0} ruby={sentence.ruby} />
         {isFlipped ? (
           <span className="cloze-filled">
-            <strong className="cloze-answer">{sentence.answer}</strong>
-            {hasKanji(sentence.answer) && <small className="cloze-reading">{sentence.reading}</small>}
+            <strong className="cloze-answer">
+              <RubySegments segments={answerRuby(sentence.answer, sentence.reading)} />
+            </strong>
           </span>
         ) : (
           <span className="cloze-blank" role="img" aria-label="빈칸" />
@@ -411,20 +411,6 @@ function ClozeFace({ wordId, media, isFlipped, onReportAudio }: ClozeFaceProps) 
         </span>
       )}
     </>
-  )
-}
-
-// 일본어 문장의 한자 위에 읽기를 작게 단다. 빈칸 말은 답을 본 뒤 따로 읽기를 보여 준다.
-function RubyText({ text, offset, ruby }: { text: string; offset: number; ruby: Ruby[] | undefined }) {
-  return rubySegments(text, offset, ruby).map((segment, index) =>
-    segment.reading ? (
-      <ruby key={index}>
-        {segment.text}
-        <rt>{segment.reading}</rt>
-      </ruby>
-    ) : (
-      <Fragment key={index}>{segment.text}</Fragment>
-    ),
   )
 }
 

@@ -1305,25 +1305,12 @@ a {
   vertical-align: -0.1em;
 }
 
-/* 일본어 읽기는 채운 말 바로 아래에 작게 단다(후리가나 대신). 줄 높이에 끼어들지 않게 띄워 둔다. */
 .cloze-filled {
-  position: relative;
   margin: 0 0.15em;
 }
 
 .cloze-answer {
   color: var(--color-primary);
-}
-
-.cloze-reading {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  color: var(--color-text-sub);
-  font-size: var(--text-sub);
-  line-height: 1;
-  white-space: nowrap;
 }
 
 /* 카드 아래 도움 버튼(듣기, 빈칸 카드는 번역도)은 같은 크기로 나란히 두고, 쓸 수 없을 때는 흐리게만 보여 줘서 버튼이 움직이지 않는다. */

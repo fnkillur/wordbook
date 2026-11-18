@@ -18,6 +18,12 @@ let router: ReturnType<typeof createMemoryRouter>
 const wait = () => act(() => new Promise(resolve => setTimeout(resolve, 30)))
 const afterReaction = () => act(() => new Promise(resolve => setTimeout(resolve, 760)))
 const flip = () => act(async () => (container.querySelector('.study-card') as HTMLElement).click())
+// 빈칸 말 한자 위에 단 읽기(rt)는 빼고 빈칸에 들어간 글자만 읽는다.
+const answerText = () => {
+  const answer = container.querySelector('.cloze-answer')?.cloneNode(true) as Element | undefined
+  answer?.querySelectorAll('rt').forEach(reading => reading.remove())
+  return answer?.textContent
+}
 const button = (name: string) => [...container.querySelectorAll('button')].find(item => item.textContent?.includes(name)) as HTMLButtonElement | undefined
 
 const open = async () => {
@@ -421,7 +427,7 @@ describe('StudyPage', () => {
       await flip()
 
       expect(container.querySelector('.cloze-form')?.textContent).toBe(`行く → ${sentencesOf('ja-0481')[0].form}`)
-      expect(container.querySelector('.cloze-answer')?.textContent).toBe(sentencesOf('ja-0481')[0].answer)
+      expect(answerText()).toBe(sentencesOf('ja-0481')[0].answer)
     })
 
     it('활용형 문장의 원어민 녹음은 앱에 든 파일에서 받아 답을 볼 때 재생한다', async () => {
@@ -487,14 +493,14 @@ describe('StudyPage', () => {
       expect(button('답 보기')).toBeDefined()
     })
 
-    it('답을 보면 빈칸 말과 문장 속 읽기를 보여 주고 문장 음성을 한 번 재생한다', async () => {
+    it('답을 보면 빈칸 말 한자 위에 문장 속 읽기를 달고 문장 음성을 한 번 재생한다', async () => {
       await clozeCard('ja-f00122')
       await setSentenceAudio('ja-f00122', new Blob(['m4a'], { type: 'audio/mp4' }))
       await open()
       await flip()
 
-      expect(container.querySelector('.cloze-answer')?.textContent).toBe('心配')
-      expect(container.querySelector('.cloze-reading')?.textContent).toBe('しんぱい')
+      expect(answerText()).toBe('心配')
+      expect(container.querySelector('.cloze-answer rt')?.textContent).toBe('しんぱい')
       expect(played).toHaveLength(1)
     })
 
@@ -503,8 +509,8 @@ describe('StudyPage', () => {
       await open()
       await flip()
 
-      expect(container.querySelector('.cloze-answer')?.textContent).toBe('します')
-      expect(container.querySelector('.cloze-reading')).toBeNull()
+      expect(answerText()).toBe('します')
+      expect(container.querySelector('.cloze-answer rt')).toBeNull()
     })
 
     it('소리 없이 보기면 답을 봐도 재생하지 않는다', async () => {
