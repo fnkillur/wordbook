@@ -7,8 +7,10 @@ import { makePromptOf, memoPromptOf } from '../characters/lines'
 import { HOST } from '../characters/slots'
 import Character from '../components/Character'
 import ImageCropper from '../components/ImageCropper'
+import { RubySegments, RubyText } from '../components/RubyText'
 import { wordFormsOf } from '../components/wordForms'
 import { wordSizeStyle } from '../components/wordSize'
+import { answerRuby, sentencesOf } from '../data/sentences'
 import { findWord, speechTextOf, type WordEntry } from '../data/words'
 import { db } from '../db/database'
 import { dayPlan, getMedia, madeCountOn, makeWord, markWord, setAudio, todaysWords, unmarkWord } from '../db/repository'
@@ -229,6 +231,7 @@ function MakeForm({ word }: { word: WordEntry }) {
               </span>
               <span className="word-meaning">{word.meaningKo}</span>
             </div>
+            <ExampleSentence wordId={word.id} language={language} />
 
             {/* 그림을 찾는 게 가장 먼저 할 일이라 단어 바로 아래에 둬서 짧은 화면에서도 가리지 않는다. */}
             <div className="card-actions make-sources">
@@ -307,6 +310,25 @@ function MakeForm({ word }: { word: WordEntry }) {
         )}
       </div>
     </div>
+  )
+}
+
+// 단어와 뜻만으로는 어떤 장면의 말인지 모호해서, 그 말이 흔히 쓰이는 문장을 보고 그림을 고르게 한다.
+function ExampleSentence({ wordId, language }: { wordId: string; language: Language }) {
+  const [sentence] = sentencesOf(wordId)
+  if (!sentence) return null
+
+  return (
+    <p className="make-example">
+      <span lang={language} className="make-example-sentence">
+        <RubyText text={sentence.before} offset={0} ruby={sentence.ruby} />
+        <strong className="make-example-answer">
+          <RubySegments segments={answerRuby(sentence.answer, sentence.reading)} />
+        </strong>
+        <RubyText text={sentence.after} offset={sentence.before.length + sentence.answer.length} ruby={sentence.ruby} />
+      </span>
+      <span className="make-example-translation">{sentence.translation}</span>
+    </p>
   )
 }
 

@@ -785,6 +785,34 @@ a {
   text-align: center;
 }
 
+/* 예문은 단어보다 한참 작게 둬서 그림 찾기 버튼을 아래로 크게 밀어내지 않는다. */
+.make-example {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  margin: 0;
+  text-align: center;
+}
+
+.make-example-sentence {
+  font-size: var(--text-body);
+  line-height: 1.9;
+  overflow-wrap: anywhere;
+}
+
+.make-example-sentence rt {
+  color: var(--color-text-sub);
+  font-size: 0.5em;
+}
+
+.make-example-answer {
+  color: var(--color-primary);
+}
+
+.make-example-translation {
+  color: var(--color-text-sub);
+  font-size: var(--text-sub);
+}
 
 .make-image {
   display: grid;

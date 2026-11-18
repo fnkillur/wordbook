@@ -4,6 +4,7 @@ import { createRoot, type Root } from 'react-dom/client'
 import { createMemoryRouter, RouterProvider } from 'react-router'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { MEMO_PROMPTS } from '../characters/lines'
+import { sentenceTextOf, sentencesOf } from '../data/sentences'
 import { db } from '../db/database'
 import { saveSettings } from '../settings'
 import { fetchTts } from '../sync/tts'
@@ -87,6 +88,25 @@ describe('MakePage', () => {
     expect(container.textContent).toContain('犬')
     expect(container.textContent).toContain('いぬ')
     expect(button('만들기').disabled).toBe(true)
+  })
+
+  it('단어가 흔히 쓰이는 문맥을 알 수 있게 예문과 번역을 보여 준다', async () => {
+    await open('/make/ja-f00001')
+    const sentence = sentencesOf('ja-f00001')[0]
+    const example = container.querySelector('.make-example')
+
+    const sentenceText = example?.querySelector('.make-example-sentence')?.cloneNode(true) as Element | undefined
+    sentenceText?.querySelectorAll('rt').forEach(reading => reading.remove())
+
+    expect(sentenceText?.textContent).toBe(sentenceTextOf(sentence))
+    expect(example?.querySelector('.make-example-answer')?.textContent).toBe(sentence.answer)
+    expect(example?.textContent).toContain(sentence.translation)
+  })
+
+  it('예문이 없는 단어는 예문 칸을 보여 주지 않는다', async () => {
+    await open('/make/ja-0001')
+
+    expect(container.querySelector('.make-example')).toBeNull()
   })
 
   it('그림을 넣고 만들면 카드 세 장과 발음을 저장하고 다음 단어로 간다', async () => {
