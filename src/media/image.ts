@@ -6,6 +6,7 @@ const JPEG_QUALITY = 0.8
 
 type ClipboardImagePlugin = {
   read: () => Promise<{ data?: string; mimeType?: string; signature?: string }>
+  toJpeg: (options: { data: string }) => Promise<{ data: string }>
   addListener(event: 'sharedImage', callback: (image: { data: string; mimeType: string }) => void): Promise<PluginListenerHandle>
   addListener(event: 'windowFocus', callback: () => void): Promise<PluginListenerHandle>
 }
@@ -18,8 +19,32 @@ export const fitSize = (width: number, height: number, max = MAX_SIDE) => {
   return { width: Math.round(width * scale), height: Math.round(height * scale) }
 }
 
+const fromBase64 = (data: string, mimeType: string) => {
+  const bytes = Uint8Array.from(atob(data), char => char.charCodeAt(0))
+  return new Blob([bytes], { type: mimeType })
+}
+
+const toBase64 = (blob: Blob) =>
+  new Promise<string>((resolve, reject) => {
+    const reader = new FileReader()
+    reader.onload = () => resolve(String(reader.result).split(',')[1] ?? '')
+    reader.onerror = () => reject(reader.error)
+    reader.readAsDataURL(blob)
+  })
+
+// 안드로이드 웹뷰는 갤럭시 카메라가 저장하는 HEIC 사진을 못 열어서, 앱에서는 안드로이드 디코더로 JPEG로 바꿔 다시 연다.
+const openBitmap = async (blob: Blob) => {
+  try {
+    return await createImageBitmap(blob)
+  } catch (error) {
+    if (!Capacitor.isNativePlatform()) throw error
+    const converted = await ClipboardImage.toJpeg({ data: await toBase64(blob) })
+    return createImageBitmap(fromBase64(converted.data, 'image/jpeg'))
+  }
+}
+
 export const compressImage = async (blob: Blob) => {
-  const bitmap = await createImageBitmap(blob)
+  const bitmap = await openBitmap(blob)
   const size = fitSize(bitmap.width, bitmap.height)
   const canvas = document.createElement('canvas')
   canvas.width = size.width
@@ -52,11 +77,6 @@ export const cropImage = async (blob: Blob, placement: Placement) => {
   return new Promise<Blob>((resolve, reject) =>
     canvas.toBlob(result => (result ? resolve(result) : reject(new Error('그림을 자르지 못했어요.'))), 'image/jpeg', JPEG_QUALITY),
   )
-}
-
-const fromBase64 = (data: string, mimeType: string) => {
-  const bytes = Uint8Array.from(atob(data), char => char.charCodeAt(0))
-  return new Blob([bytes], { type: mimeType })
 }
 
 export type ClipboardImage = { blob: Blob; signature: string }
