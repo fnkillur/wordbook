@@ -1,4 +1,4 @@
-import { CaretRightIcon } from '@phosphor-icons/react'
+import { CaretRightIcon, SpeakerHighIcon, SpeakerSlashIcon } from '@phosphor-icons/react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { useEffect, useState } from 'react'
 import { Link, Navigate, useNavigate } from 'react-router'
@@ -23,6 +23,7 @@ function VillagePage() {
   const navigate = useNavigate()
 
   const [person, setPerson] = useState(() => getSettings().person)
+  const [soundOff, setSoundOff] = useState(() => getSettings().soundOff)
 
   const language = person ? learningLanguageOf({ ...getSettings(), person }) : null
   // 오늘 할 양은 지금 배우는 언어만 센다.
@@ -30,10 +31,10 @@ function VillagePage() {
     if (!language) return undefined
     const now = new Date()
     const settings = getSettings()
-    const dueCount = todayQueue(await knownCards(language), now, { soundOff: settings.soundOff, silentWords: await silentWordIds() }).length
+    const dueCount = todayQueue(await knownCards(language), now, { soundOff, silentWords: await silentWordIds() }).length
     const plan = await peekDayPlan(now, settings.goalMinutes, language)
     return { dueCount, newLeft: newWordsLeft(plan, await madeCountOn(now, language)) }
-  }, [language])
+  }, [language, soundOff])
   const hasTested = useLiveQuery(async () => (language ? (await vocabTests(language)).length > 0 : true), [language])
   const wordSupply = useLiveQuery(async () => {
     if (!language) return null
@@ -52,6 +53,8 @@ function VillagePage() {
     saveSettings({ person: chosen })
     setPerson(chosen)
   }
+
+  const toggleSoundOff = () => setSoundOff(saveSettings({ soundOff: !soundOff }).soundOff)
 
   const handleContinue = async () => {
     if (!today) return
@@ -96,6 +99,7 @@ function VillagePage() {
         {wordSupply?.left === 0 && <p className="notice">{supplyNotice(wordSupply.startRank ?? 0)}</p>}
         <section className="today-card" aria-label="오늘 공부하기">
           <span className="today-title">오늘 공부하기</span>
+          <SoundToggle isOn={!soundOff} onToggle={toggleSoundOff} />
           <HeldLicense person={person} language={language} />
           {today && (
             <span className="today-amount">
@@ -109,6 +113,18 @@ function VillagePage() {
         <ExamEntry />
       </main>
     </div>
+  )
+}
+
+type SoundToggleProps = { isOn: boolean; onToggle: () => void }
+
+// 지하철처럼 소리를 못 켤 때 바로 끄도록 둔다. 끄면 듣기 카드는 오늘 복습에서 뒤로 미룬다.
+function SoundToggle({ isOn, onToggle }: SoundToggleProps) {
+  return (
+    <button type="button" role="switch" aria-checked={isOn} aria-label="소리 켜기" className="today-sound" onClick={onToggle}>
+      {isOn ? <SpeakerHighIcon size={20} weight="bold" aria-hidden="true" /> : <SpeakerSlashIcon size={20} weight="bold" aria-hidden="true" />}
+      <span className="switch" aria-hidden="true" />
+    </button>
   )
 }
 

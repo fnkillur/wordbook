@@ -687,11 +687,43 @@ a {
   background: var(--color-surface);
 }
 
-/* 딴 자격증을 카드 오른쪽 위에 살짝 기울여 걸어 둔다. 이어서 하기 버튼에는 닿지 않는 크기다. */
+/* 소리 켜기 스위치. 누르는 칸을 44px 높이로 잡고 카드 오른쪽 위 모서리에 맞춘다. */
+.today-sound {
+  position: absolute;
+  top: var(--space-2);
+  right: var(--space-2);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  height: 44px;
+  padding: 0 var(--space-2);
+  border: 0;
+  background: none;
+  color: var(--color-text-sub);
+  cursor: pointer;
+}
+
+.today-sound[aria-checked='true'] {
+  color: var(--color-brand-strong);
+}
+
+.today-sound .switch {
+  pointer-events: none;
+}
+
+.today-sound[aria-checked='true'] .switch {
+  background: var(--color-brand-strong);
+}
+
+.today-sound[aria-checked='true'] .switch::after {
+  transform: translateX(20px);
+}
+
+/* 딴 자격증을 소리 스위치 왼쪽에 살짝 기울여 걸어 둔다. 이어서 하기 버튼에는 닿지 않는 크기다. */
 .today-license {
   position: absolute;
   top: var(--space-3);
-  right: var(--space-4);
+  right: calc(var(--space-2) + 96px);
   width: 68px;
   border: 2px solid var(--color-surface);
   border-radius: var(--radius-sm);
@@ -988,6 +1020,25 @@ a {
   min-height: var(--header-height);
   margin-bottom: var(--header-gap);
   color: var(--color-text-sub);
+}
+
+.study-top-right {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+/* 집에서 소리를 껐으면 복습 중에 알려만 준다. 바꾸는 건 집의 오늘 공부하기 카드에서. */
+.study-mode {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-full);
+  background: var(--color-surface);
+  color: var(--color-brand-strong);
+  font-size: 0.8125rem;
+  font-weight: 600;
 }
 
 /* 복습 위쪽 장면: 하치와레가 문제를 내고, 말풍선 꼬리가 하치와레를 가리킨다. 짧은 화면에서는 장면 높이를 줄인다. */

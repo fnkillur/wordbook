@@ -226,7 +226,7 @@ function SettingsPage() {
               ))}
             </div>
           </div>
-          <SwitchRow label="소리 없이 보기" hint="지하철처럼 소리를 못 켤 때. 듣기 카드는 뒤로 미룰게" checked={settings.soundOff} onToggle={() => update({ soundOff: !settings.soundOff })} />
+          <SwitchRow label="소리 켜기" hint="지하철처럼 소리를 못 켤 때는 꺼 줘. 듣기 카드는 뒤로 미룰게" checked={!settings.soundOff} onToggle={() => update({ soundOff: !settings.soundOff })} />
           {learningLanguageOf(settings) === 'en' && (
             <SwitchRow label="철자 카드" hint="영어 단어를 듣고 쓰는 카드도 만들게" checked={settings.spellCards} onToggle={() => update({ spellCards: !settings.spellCards })} />
           )}

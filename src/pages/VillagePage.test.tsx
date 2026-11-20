@@ -6,7 +6,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { db } from '../db/database'
 import { newStudyCard } from '../domain/schedule'
 import { makeWord, saveExamResult, saveVocabTest, setStartRank } from '../db/repository'
-import { saveSettings } from '../settings'
+import { getSettings, saveSettings } from '../settings'
 import { backupIfDue } from '../sync/driveBackup'
 import { fetchTts } from '../sync/tts'
 import VillagePage from './VillagePage'
@@ -138,6 +138,24 @@ describe('VillagePage', () => {
     await open()
 
     expect(router.state.location.pathname).toBe('/test')
+  })
+
+  it('오늘 공부하기 카드의 소리 스위치를 끄면 설정에 남기고 듣기 카드를 복습 수에서 뺀다', async () => {
+    await makeWord({ wordId: 'ja-0001', image: null, memo: '', cardTypes: ['produce'] }, new Date(Date.now() - 60_000))
+    await makeWord({ wordId: 'ja-0002', image: null, memo: '', cardTypes: ['listen'] }, new Date(Date.now() - 60_000))
+    await db.notes.update('ja-0002', { audioSource: 'tts' })
+    await open()
+    const soundSwitch = container.querySelector('[role="switch"][aria-label="소리 켜기"]') as HTMLButtonElement
+
+    expect(soundSwitch.getAttribute('aria-checked')).toBe('true')
+    expect(container.textContent).toContain('복습 2장')
+
+    await act(async () => soundSwitch.click())
+    await waitUntil(() => container.textContent?.includes('복습 1장') ?? false)
+
+    expect(soundSwitch.getAttribute('aria-checked')).toBe('false')
+    expect(getSettings().soundOff).toBe(true)
+    expect(container.textContent).toContain('복습 1장')
   })
 
   it('오늘 할 양은 지금 배우는 언어만 센다', async () => {

@@ -1,4 +1,4 @@
-import { EyeIcon, SpeakerHighIcon, TranslateIcon, XIcon } from '@phosphor-icons/react'
+import { EyeIcon, SpeakerHighIcon, SpeakerSlashIcon, TranslateIcon, XIcon } from '@phosphor-icons/react'
 import { useEffect, useRef, useState, type MouseEvent } from 'react'
 import { Link, useNavigate } from 'react-router'
 import { EFFECT_MESSAGE, questionOf, reactionOf } from '../characters/lines'
@@ -239,8 +239,16 @@ function StudyPage() {
           <Link to="/" replace className="nav-button" aria-label="그만하기">
             <XIcon size={24} weight="bold" aria-hidden="true" />
           </Link>
-          <span>
-            {index + 1} / {loaded.queue.length}
+          <span className="study-top-right">
+            {getSettings().soundOff && (
+              <span className="study-mode">
+                <SpeakerSlashIcon size={16} weight="bold" aria-hidden="true" />
+                소리 없이
+              </span>
+            )}
+            <span>
+              {index + 1} / {loaded.queue.length}
+            </span>
           </span>
         </div>
         <section className={scene!.className}>
