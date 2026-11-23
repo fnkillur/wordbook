@@ -166,6 +166,12 @@ function StudyPage() {
     cardRef.current?.scrollIntoView?.({ block: 'nearest', behavior })
   }, [isFlipped, index])
 
+  // 소리로만 묻는 카드는 소리가 곧 문제라, 카드가 나오자마자 들려준다.
+  useEffect(() => {
+    if (card?.type !== 'listen') return
+    playAudio(media?.audio)
+  }, [card?.id, card?.type, media?.audio])
+
   const flip = () => {
     if (isFlipped) return
     setIsFlipped(true)
@@ -215,7 +221,7 @@ function StudyPage() {
     </>
   )
 
-  if (!loaded) return null
+  if (!loaded) return <StudyLoading />
 
   if (isDone) {
     return (
@@ -276,6 +282,18 @@ function StudyPage() {
           </button>
         )}
       </div>
+    </div>
+  )
+}
+
+// 오늘 카드와 그림·소리를 다 불러오기 전까지 흰 화면 대신 보여 준다.
+function StudyLoading() {
+  return (
+    <div className="page">
+      <main className="page-content study-loading" aria-live="polite">
+        <img src={QUIZ_AVATARS.cloze} alt="" />
+        <p>카드를 준비하고 있어…</p>
+      </main>
     </div>
   )
 }

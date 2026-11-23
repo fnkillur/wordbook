@@ -309,6 +309,59 @@ describe('StudyPage', () => {
     expect(container.querySelector('.card-listen')?.getAttribute('aria-disabled')).toBe('false')
   })
 
+  it('카드를 불러오는 동안 흰 화면 대신 준비 중 화면을 보여 준다', async () => {
+    await made('ja-0001', '옆집 개')
+    router = createMemoryRouter([{ path: '/study', element: <StudyPage /> }], { initialEntries: ['/study'] })
+    act(() => root.render(<RouterProvider router={router} />))
+
+    expect(container.querySelector('.study-loading')?.textContent).toContain('카드를 준비하고 있어')
+
+    await waitUntil(() => container.querySelector('.study-card') !== null)
+    expect(container.querySelector('.study-loading')).toBeNull()
+  })
+
+  it('소리로만 묻는 카드는 나오자마자 소리를 들려준다', async () => {
+    const played: string[] = []
+    vi.stubGlobal(
+      'Audio',
+      class {
+        src: string
+        constructor(src: string) {
+          this.src = src
+        }
+        play() {
+          played.push(this.src)
+          return Promise.resolve()
+        }
+      },
+    )
+    await makeWord({ wordId: 'ja-0001', image: null, memo: '', cardTypes: ['listen'] }, new Date(Date.now() - 60_000))
+    await setAudio('ja-0001', new Blob(['mp3'], { type: 'audio/mpeg' }), 'tts')
+    await open()
+
+    expect(played).toHaveLength(1)
+    vi.unstubAllGlobals()
+  })
+
+  it('그림을 보고 떠올리는 카드는 나와도 소리를 먼저 들려주지 않는다', async () => {
+    const played: string[] = []
+    vi.stubGlobal(
+      'Audio',
+      class {
+        play() {
+          played.push('played')
+          return Promise.resolve()
+        }
+      },
+    )
+    await makeWord({ wordId: 'ja-0001', image: null, memo: '', cardTypes: ['produce'] }, new Date(Date.now() - 60_000))
+    await setAudio('ja-0001', new Blob(['mp3'], { type: 'audio/mpeg' }), 'tts')
+    await open()
+
+    expect(played).toHaveLength(0)
+    vi.unstubAllGlobals()
+  })
+
   it('소리 카드는 앞면의 큰 소리 버튼과 겹쳐서 듣기 버튼을 두지 않고, 답을 보면 다시 둔다', async () => {
     await makeWord({ wordId: 'ja-0001', image: null, memo: '', cardTypes: ['listen'] }, new Date(Date.now() - 60_000))
     await setAudio('ja-0001', new Blob(['mp3'], { type: 'audio/mpeg' }), 'tts')

@@ -1013,6 +1013,38 @@ a {
 }
 
 /* 복습 */
+/* 복습 카드를 불러오는 동안: 공부하는 치이카와가 천천히 숨 쉬듯 움직인다. */
+.study-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  min-height: 100dvh;
+  color: var(--color-text-sub);
+}
+
+.study-loading img {
+  width: 96px;
+  animation: study-loading-breathe 1600ms ease-in-out infinite;
+}
+
+@keyframes study-loading-breathe {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .study-loading img {
+    animation: none;
+  }
+}
+
 .study-top {
   display: flex;
   align-items: center;
