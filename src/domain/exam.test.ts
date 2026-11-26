@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { WordEntry } from '../data/words'
-import { checkAnswer, currentGrade, examChoices, examStatus, isBelowVocabLevel, pickBookQuestions, GRADES, ladderMarkOf, vocabLevelText, learnedWordIds, pickQuestions, totalVocab, type ExamResult } from './exam'
+import { checkAnswer, currentGrade, examChoices, examStatus, needsBookQuestions, pickBookQuestions, GRADES, ladderMarkOf, vocabLevelText, learnedWordIds, pickQuestions, totalVocab, type ExamResult } from './exam'
 import { newStudyCard, type StudyCard } from './schedule'
 import type { VocabTestResult } from './vocabTest'
 
@@ -86,67 +86,60 @@ describe('급수 안내 표시', () => {
 })
 
 describe('어휘량 수준', () => {
-  it('어휘량이 넘은 가장 높은 급수와, 그 시험까지 더 익힐 단어 수를 알려 준다', () => {
-    expect(vocabLevelText({ vocab: 900, learned: 0, grade: null })).toBe('어휘량으로는 5급 수준이야. 단어 30개를 익히면 5급 시험을 볼 수 있어.')
-    expect(vocabLevelText({ vocab: 2400, learned: 120, grade: 4 })).toBe('어휘량으로는 3급 수준이야. 단어 180개를 더 익히면 3급 시험을 볼 수 있어.')
-  })
-
-  it('높은 급수 수준이면 그 아래 급수는 바로 볼 수 있다고 알려 준다', () => {
-    expect(vocabLevelText({ vocab: 3200, learned: 0, grade: null })).toBe('어휘량으로는 2급 수준이야. 단어 600개를 익히면 2급 시험을 볼 수 있어. 3급까지는 지금 바로 볼 수 있어.')
-  })
-
-  it('익힌 단어도 채웠으면 바로 볼 수 있다고 알려 준다', () => {
-    expect(vocabLevelText({ vocab: 1200, learned: 100, grade: 5 })).toBe('어휘량으로는 4급 수준이야. 지금 4급 시험을 볼 수 있어.')
+  it('어휘량으로 닿은 급수는 익힌 단어와 상관없이 지금 볼 수 있다고 알려 준다', () => {
+    expect(vocabLevelText({ vocab: 900, grade: null })).toBe('어휘량으로는 5급 수준이야. 지금 5급 시험을 볼 수 있어.')
+    expect(vocabLevelText({ vocab: 2400, grade: 4 })).toBe('어휘량으로는 3급 수준이야. 지금 3급 시험을 볼 수 있어.')
+    expect(vocabLevelText({ vocab: 1200, grade: 5 })).toBe('어휘량으로는 4급 수준이야. 지금 4급 시험을 볼 수 있어.')
   })
 
   it('이미 그 급수 이상을 땄으면 수준만 알려 준다', () => {
-    expect(vocabLevelText({ vocab: 1200, learned: 100, grade: 4 })).toBe('어휘량으로는 4급 수준이야.')
-    expect(vocabLevelText({ vocab: 1200, learned: 300, grade: 3 })).toBe('어휘량으로는 4급 수준이야.')
+    expect(vocabLevelText({ vocab: 1200, grade: 4 })).toBe('어휘량으로는 4급 수준이야.')
+    expect(vocabLevelText({ vocab: 1200, grade: 3 })).toBe('어휘량으로는 4급 수준이야.')
   })
 
   it('5급 어휘량에 못 미치면 남은 어휘량을 알려 준다', () => {
-    expect(vocabLevelText({ vocab: 320, learned: 0, grade: null })).toBe('어휘가 180개 더 늘면 5급 수준이야.')
+    expect(vocabLevelText({ vocab: 320, grade: null })).toBe('어휘가 180개 더 늘면 5급 수준이야.')
   })
 })
 
 describe('볼 수 있는 시험', () => {
   it('두 자격을 채운 가장 높은 급수를 바로 본다', () => {
-    expect(examStatus({ vocab: 3200, learned: 650, results: [], now: NOW })).toEqual({ kind: 'ready', grade: 2 })
+    expect(examStatus({ vocab: 3200, results: [], now: NOW })).toEqual({ kind: 'ready', grade: 2 })
   })
 
-  it('어휘량이 넘어도 익힌 단어가 모자라면 못 보고, 남은 양을 알려 준다', () => {
-    expect(examStatus({ vocab: 900, learned: 20, results: [], now: NOW })).toEqual({ kind: 'locked', grade: 5, vocabLeft: 0, learnedLeft: 10 })
-    expect(examStatus({ vocab: 400, learned: 120, results: [], now: NOW })).toEqual({ kind: 'locked', grade: 5, vocabLeft: 100, learnedLeft: 0 })
+  it('어휘량이 모자라면 못 보고, 남은 양을 알려 준다', () => {
+    expect(examStatus({ vocab: 400, results: [], now: NOW })).toEqual({ kind: 'locked', grade: 5, vocabLeft: 100 })
   })
 
   it('이미 딴 급수보다 높은 시험만 보고, 다음 급수까지 남은 양을 알려 준다', () => {
-    expect(examStatus({ vocab: 1500, learned: 200, results: [result(4, true)], now: NOW })).toEqual({ kind: 'locked', grade: 3, vocabLeft: 500, learnedLeft: 100 })
+    expect(examStatus({ vocab: 1500, results: [result(4, true)], now: NOW })).toEqual({ kind: 'locked', grade: 3, vocabLeft: 500 })
   })
 
   it('오늘 떨어진 급수는 내일 다시 본다', () => {
     const failedToday = result(4, false, '2026-11-10T08:00:00+09:00')
-    expect(examStatus({ vocab: 1000, learned: 100, results: [failedToday], now: NOW })).toEqual({ kind: 'retry-tomorrow', grade: 4 })
-    expect(examStatus({ vocab: 1000, learned: 100, results: [failedToday], now: new Date('2026-11-11T07:00:00+09:00') })).toEqual({ kind: 'ready', grade: 4 })
+    expect(examStatus({ vocab: 1000, results: [failedToday], now: NOW })).toEqual({ kind: 'retry-tomorrow', grade: 4 })
+    expect(examStatus({ vocab: 1000, results: [failedToday], now: new Date('2026-11-11T07:00:00+09:00') })).toEqual({ kind: 'ready', grade: 4 })
   })
 
-  it('어휘량으로 2급에서 시작했으면 익힌 단어 없이도 3급까지는 바로 보고, 5·4·3급 중 골라 볼 수 있다', () => {
-    expect(examStatus({ vocab: 3200, learned: 0, results: [], now: NOW })).toEqual({ kind: 'ready', grade: 3 })
-    expect(examChoices({ vocab: 3200, learned: 0, results: [], now: NOW })).toEqual([5, 4, 3])
-    expect(examChoices({ vocab: 3200, learned: 0, results: [result(5, true)], now: NOW })).toEqual([4, 3])
+  it('어휘량으로 닿은 급수와 그 아래 급수는 익힌 단어 없이도 바로 보고, 그중 골라 볼 수 있다', () => {
+    expect(examStatus({ vocab: 900, results: [], now: NOW })).toEqual({ kind: 'ready', grade: 5 })
+    expect(examStatus({ vocab: 2400, results: [], now: NOW })).toEqual({ kind: 'ready', grade: 3 })
+    expect(examChoices({ vocab: 2400, results: [], now: NOW })).toEqual([5, 4, 3])
+    expect(examChoices({ vocab: 2400, results: [result(5, true)], now: NOW })).toEqual([4, 3])
   })
 
   it('오늘 떨어진 급수는 고를 수 없다', () => {
-    expect(examChoices({ vocab: 3200, learned: 0, results: [result(4, false, '2026-11-10T08:00:00+09:00')], now: NOW })).toEqual([5, 3])
+    expect(examChoices({ vocab: 2400, results: [result(4, false, '2026-11-10T08:00:00+09:00')], now: NOW })).toEqual([5, 3])
   })
 
-  it('어휘량 수준의 급수부터는 익힌 단어가 있어야 한다', () => {
-    expect(isBelowVocabLevel(3, 3200)).toBe(true)
-    expect(isBelowVocabLevel(2, 3200)).toBe(false)
-    expect(isBelowVocabLevel(5, 400)).toBe(false)
+  it('익힌 단어가 모자랄 때만 교재에서 문제를 낸다', () => {
+    expect(needsBookQuestions(5, 0)).toBe(true)
+    expect(needsBookQuestions(4, 100)).toBe(false)
+    expect(needsBookQuestions(3, 100)).toBe(true)
   })
 
   it('1급을 땄으면 더 볼 시험이 없다', () => {
-    expect(examStatus({ vocab: 9000, learned: 2000, results: [result(1, true)], now: NOW })).toEqual({ kind: 'top' })
+    expect(examStatus({ vocab: 9000, results: [result(1, true)], now: NOW })).toEqual({ kind: 'top' })
   })
 })
 

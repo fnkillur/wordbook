@@ -10,7 +10,7 @@ import { TEST_WORDS } from '../data/vocabTest'
 import { WORDS, type WordEntry } from '../data/words'
 import { examProgress, getMedia, learnedWords, postponeToTomorrow, saveExamResult } from '../db/repository'
 import { bookWords, BOOKS } from '../domain/books'
-import { checkAnswer, englishWordSet, gradeLabel, GRADES, gradeRule, isBelowVocabLevel, ladderMarkOf, pickBookQuestions, pickQuestions, type Answer, type ExamResult, type ExamStatus, type LadderMark } from '../domain/exam'
+import { checkAnswer, englishWordSet, gradeLabel, GRADES, gradeRule, ladderMarkOf, needsBookQuestions, pickBookQuestions, pickQuestions, type Answer, type ExamResult, type ExamStatus, type LadderMark } from '../domain/exam'
 import type { Language } from '../platform'
 import { learningLanguage } from '../settings'
 
@@ -39,7 +39,7 @@ const LADDER_MARK_LABELS: Record<LadderMark, string> = { passed: '땄어', exemp
 const statusTextOf = (status: ExamStatus, pass: number, questions: number) => {
   if (status.kind === 'ready') return `${questions}문제 중 ${pass}개 맞히면 합격`
   if (status.kind === 'retry-tomorrow') return '오늘은 봤으니 내일 다시 볼 수 있어'
-  return '둘 다 채우면 시험을 볼 수 있어'
+  return '어휘량을 채우면 시험을 볼 수 있어'
 }
 
 // 일본어는 한자·읽기 어느 쪽으로 써도 정답이라 입력칸에서 알려 준다.
@@ -89,10 +89,10 @@ function ExamPage() {
     if (!isSplashing) inputRef.current?.focus()
   }, [isSplashing])
 
-  // 어휘량으로 건너뛴 아래 급수는 익힌 단어가 없을 수 있어 그 급수 교재에서 낸다.
+  // 어휘량만으로 보는 급수는 익힌 단어가 모자라 그 급수 교재에서 낸다.
   const questionWordsOf = async (grade: number, count: number) => {
     const book = BOOKS.find(item => item.grade === grade)
-    if (progress && book && isBelowVocabLevel(grade, progress.vocab)) return pickBookQuestions(bookWords(book, WORDS[language]), count)
+    if (progress && book && needsBookQuestions(grade, progress.learned)) return pickBookQuestions(bookWords(book, WORDS[language]), count)
     return pickQuestions(await learnedWords(language), count)
   }
 
@@ -287,7 +287,7 @@ function ExamPage() {
           </Link>
         </div>
         <img className="exam-intro-image" src={EXAM_INTRO_IMAGE} alt="" />
-        <NextExam grade={progress.grade} vocab={progress.vocab} learned={progress.learned} status={status ?? progress.status} />
+        <NextExam grade={progress.grade} vocab={progress.vocab} status={status ?? progress.status} />
         <GradeLadder results={progress.results} target={!status || status.kind === 'top' ? null : status.grade} choices={progress.choices} onChoose={setChosenGrade} />
       </main>
       {rule && (
@@ -320,9 +320,9 @@ function useToday() {
   return today
 }
 
-type NextExamProps = { grade: number | null; vocab: number; learned: number; status: ExamStatus }
+type NextExamProps = { grade: number | null; vocab: number; status: ExamStatus }
 
-function NextExam({ grade, vocab, learned, status }: NextExamProps) {
+function NextExam({ grade, vocab, status }: NextExamProps) {
   const rule = status.kind === 'top' ? null : gradeRule(status.grade)
 
   return (
@@ -331,12 +331,7 @@ function NextExam({ grade, vocab, learned, status }: NextExamProps) {
         <h2>{rule ? `${rule.grade}급 시험` : '1급까지 다 땄어!'}</h2>
         <span className="exam-chip">지금 {gradeLabel(grade)}</span>
       </div>
-      {rule && status.kind === 'locked' && (
-        <>
-          <ProgressRow label="어휘량" value={vocab} goal={rule.vocab} />
-          <ProgressRow label="익힌 단어" value={learned} goal={rule.learned} />
-        </>
-      )}
+      {rule && status.kind === 'locked' && <ProgressRow label="어휘량" value={vocab} goal={rule.vocab} />}
       {rule && <p className="exam-status">{statusTextOf(status, rule.pass, rule.questions)}</p>}
     </section>
   )

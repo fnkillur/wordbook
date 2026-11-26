@@ -2,7 +2,8 @@ import type { WordEntry } from '../data/words'
 import type { StudyCard } from './schedule'
 import type { VocabTestResult } from './vocabTest'
 
-// 제초 검정 급수표. 전체 어휘량과 앱에서 익힌 단어를 다 채워야 볼 수 있고, 높을수록 길고 깐깐하다.
+// 제초 검정 급수표. 어휘량이 닿은 급수까지 볼 수 있고, 높을수록 길고 깐깐하다.
+// learned만큼 앱에서 익혔으면 익힌 단어로, 모자라면 그 급수 교재에서 문제를 낸다.
 // 1급(어휘 5,000)이 외국인과 프리토킹이 되는 수준이다. 처음은 무급이고 5급부터 시험으로 딴다.
 export const GRADES = [
   { grade: 5, vocab: 500, learned: 30, questions: 10, pass: 8 },
@@ -19,7 +20,7 @@ export type ExamResult = { takenAt: string; grade: number; correct: number; tota
 export type ExamStatus =
   | { kind: 'ready'; grade: number }
   | { kind: 'retry-tomorrow'; grade: number }
-  | { kind: 'locked'; grade: number; vocabLeft: number; learnedLeft: number }
+  | { kind: 'locked'; grade: number; vocabLeft: number }
   | { kind: 'top' }
 
 export type Answer = 'correct' | 'almost' | 'wrong'
@@ -45,18 +46,12 @@ export const totalVocab = (lastTest: VocabTestResult | null, cards: StudyCard[])
   return lastTest.estimate + learned.filter(madeAfterTest).length
 }
 
-// 어휘량으로 닿은 급수. 5급 어휘량에도 못 미치면 null.
-const vocabGradeOf = (vocab: number) => GRADES.filter(rule => vocab >= rule.vocab).at(-1)?.grade ?? null
-
-// 어휘량 테스트로 높은 급수에서 시작했으면 그보다 아래 급수는 이미 아는 단어라, 앱에서 익힌 단어 없이 바로 본다.
-// 이때 문제는 그 급수 교재에서 낸다.
-export const isBelowVocabLevel = (grade: number, vocab: number) => {
-  const level = vocabGradeOf(vocab)
-  return level !== null && grade > level
+export const needsBookQuestions = (grade: number, learned: number) => {
+  const rule = gradeRule(grade)
+  return rule !== null && learned < rule.learned
 }
 
-const isEligible = (rule: (typeof GRADES)[number], vocab: number, learned: number) =>
-  vocab >= rule.vocab && (learned >= rule.learned || isBelowVocabLevel(rule.grade, vocab))
+const isEligible = (rule: (typeof GRADES)[number], vocab: number) => vocab >= rule.vocab
 
 // 합격한 가장 높은 급수. 없으면 무급(null).
 export const currentGrade = (results: ExamResult[]) => {
@@ -78,25 +73,20 @@ export const ladderMarkOf = (grade: number, results: ExamResult[], target: numbe
 
 export const gradeLabel = (grade: number | null) => (grade === null ? '급수 없음' : `${grade}급`)
 
-type VocabLevelInput = { vocab: number; learned: number; grade: number | null }
+type VocabLevelInput = { vocab: number; grade: number | null }
 
-// 테스트만으로 급수를 주지 않고, 어휘량으로 닿은 급수와 그 시험까지 남은 일을 알려 준다.
-export const vocabLevelText = ({ vocab, learned, grade }: VocabLevelInput) => {
+// 테스트만으로 급수를 주지는 않고, 어휘량으로 닿은 급수까지는 바로 시험을 볼 수 있다고 알려 준다.
+export const vocabLevelText = ({ vocab, grade }: VocabLevelInput) => {
   const level = GRADES.filter(rule => vocab >= rule.vocab).at(-1)
   if (!level) return `어휘가 ${(GRADES[0].vocab - vocab).toLocaleString()}개 더 늘면 ${GRADES[0].grade}급 수준이야.`
   const levelText = `어휘량으로는 ${level.grade}급 수준이야.`
   if (grade !== null && grade <= level.grade) return levelText
-  const learnedLeft = level.learned - learned
-  if (learnedLeft <= 0) return `${levelText} 지금 ${level.grade}급 시험을 볼 수 있어.`
-  const below = level.grade + 1
-  const canTakeBelow = gradeRule(below) !== null && (grade === null || grade > below)
-  const belowText = canTakeBelow ? ` ${below}급까지는 지금 바로 볼 수 있어.` : ''
-  return `${levelText} 단어 ${learnedLeft.toLocaleString()}개를 ${learned > 0 ? '더 ' : ''}익히면 ${level.grade}급 시험을 볼 수 있어.${belowText}`
+  return `${levelText} 지금 ${level.grade}급 시험을 볼 수 있어.`
 }
 
 const isSameDay =(left: Date, right: Date) => left.toDateString() === right.toDateString()
 
-type StatusInput = { vocab: number; learned: number; results: ExamResult[]; now: Date }
+type StatusInput = { vocab: number; results: ExamResult[]; now: Date }
 
 const failedOn = (grade: number, results: ExamResult[], now: Date) =>
   results.some(result => result.grade === grade && !result.passed && isSameDay(new Date(result.takenAt), now))
@@ -106,22 +96,22 @@ const higherThanCurrent = (results: ExamResult[]) => {
   return GRADES.filter(rule => current === null || rule.grade < current)
 }
 
-// 딴 급수보다 높은 것 중 두 자격을 다 채운 가장 높은 급수를 바로 본다. 오늘 떨어졌으면 내일 다시 본다.
-export const examStatus = ({ vocab, learned, results, now }: StatusInput): ExamStatus => {
+// 딴 급수보다 높은 것 중 어휘량이 닿은 가장 높은 급수를 바로 본다. 오늘 떨어졌으면 내일 다시 본다.
+export const examStatus = ({ vocab, results, now }: StatusInput): ExamStatus => {
   const higher = higherThanCurrent(results)
   if (higher.length === 0) return { kind: 'top' }
-  const target = higher.filter(rule => isEligible(rule, vocab, learned)).at(-1)
+  const target = higher.filter(rule => isEligible(rule, vocab)).at(-1)
   if (!target) {
     const [next] = higher
-    return { kind: 'locked', grade: next.grade, vocabLeft: Math.max(0, next.vocab - vocab), learnedLeft: Math.max(0, next.learned - learned) }
+    return { kind: 'locked', grade: next.grade, vocabLeft: Math.max(0, next.vocab - vocab) }
   }
   return failedOn(target.grade, results, now) ? { kind: 'retry-tomorrow', grade: target.grade } : { kind: 'ready', grade: target.grade }
 }
 
 // 지금 골라서 볼 수 있는 급수. 어휘량으로 높은 급수에서 시작했으면 그 아래 급수를 하나씩 따 갈 수도 있다.
-export const examChoices = ({ vocab, learned, results, now }: StatusInput) =>
+export const examChoices = ({ vocab, results, now }: StatusInput) =>
   higherThanCurrent(results)
-    .filter(rule => isEligible(rule, vocab, learned) && !failedOn(rule.grade, results, now))
+    .filter(rule => isEligible(rule, vocab) && !failedOn(rule.grade, results, now))
     .map(rule => rule.grade)
 
 // 기초 단어는 회화 빈도 단어보다 쉬운 쪽으로 친다.

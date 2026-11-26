@@ -259,9 +259,9 @@ describe('제초 검정', () => {
     expect(ladderRow(5)?.textContent).toContain('면제')
   })
 
-  it('어휘량으로 2급에서 시작하면 익힌 단어가 없어도 5·4·3급을 골라 보고, 문제는 그 급수 교재에서 낸다', async () => {
+  it('어휘량으로 3급 수준이면 익힌 단어가 없어도 5·4·3급을 골라 보고, 문제는 그 급수 교재에서 낸다', async () => {
     await db.cards.clear()
-    await saveVocabTest('ja', { takenAt: '2026-11-01T00:00:00.000Z', set: 0, scores: [], estimate: 3200, startRank: 3001 })
+    await saveVocabTest('ja', { takenAt: '2026-11-01T00:00:00.000Z', set: 0, scores: [], estimate: 2400, startRank: 2001 })
     await open()
 
     expect(button('3급 시험 시작하기')).toBeDefined()
@@ -277,14 +277,16 @@ describe('제초 검정', () => {
     expect(baseMeanings.some(meaning => prompt.includes(meaning))).toBe(true)
   })
 
-  it('볼 수 있는 시험이 없으면 남은 것을 알려 준다', async () => {
+  it('볼 수 있는 시험이 없으면 남은 어휘량을 알려 준다', async () => {
     await db.cards.clear()
+    await saveVocabTest('ja', { takenAt: '2026-11-01T00:00:00.000Z', set: 0, scores: [], estimate: 300, startRank: 1 })
     await open()
 
     expect(container.querySelector('.exam-next')?.textContent).toContain('5급 시험')
     expect(container.querySelector('.exam-next')?.textContent).toContain('지금 급수 없음')
-    expect(container.querySelector('.exam-next')?.textContent).toContain('익힌 단어0 / 30')
-    expect(container.querySelector('.exam-next')?.textContent).toContain('둘 다 채우면 시험을 볼 수 있어')
+    expect(container.querySelector('.exam-next')?.textContent).toContain('어휘량300 / 500')
+    expect(container.querySelector('.exam-next')?.textContent).not.toContain('익힌 단어')
+    expect(container.querySelector('.exam-next')?.textContent).toContain('어휘량을 채우면 시험을 볼 수 있어')
     expect(container.querySelector('.exam-next small')).toBeNull()
     expect(container.querySelectorAll('.exam-ladder li')).toHaveLength(5)
     expect(button('시작하기')).toBeUndefined()

@@ -224,7 +224,7 @@ export const examProgress = async (language: Language, now: Date) => {
   const results = await examResults(language)
   const vocab = totalVocab((await vocabTests(language)).at(-1) ?? null, cards)
   const learned = learnedWordIds(cards).length
-  const input = { vocab, learned, results, now }
+  const input = { vocab, results, now }
   return { grade: currentGrade(results), results, vocab, learned, status: examStatus(input), choices: examChoices(input) }
 }
 
