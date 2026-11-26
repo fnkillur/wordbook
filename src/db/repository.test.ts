@@ -301,7 +301,7 @@ describe('제초 검정 기록', () => {
     await learnCard('ja-0001', 30)
     await learnCard('ja-0002', 3)
 
-    expect(await examProgress('ja', NOW)).toEqual({ grade: null, results: [], vocab: 991, learned: 1, status: { kind: 'locked', grade: 5, vocabLeft: 0, learnedLeft: 29 } })
+    expect(await examProgress('ja', NOW)).toEqual({ grade: null, results: [], vocab: 991, learned: 1, status: { kind: 'locked', grade: 5, vocabLeft: 0, learnedLeft: 29 }, choices: [] })
     expect((await learnedWords('ja')).map(word => word.id)).toEqual(['ja-0001'])
   })
 

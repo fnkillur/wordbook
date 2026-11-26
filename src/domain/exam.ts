@@ -45,6 +45,19 @@ export const totalVocab = (lastTest: VocabTestResult | null, cards: StudyCard[])
   return lastTest.estimate + learned.filter(madeAfterTest).length
 }
 
+// 어휘량으로 닿은 급수. 5급 어휘량에도 못 미치면 null.
+const vocabGradeOf = (vocab: number) => GRADES.filter(rule => vocab >= rule.vocab).at(-1)?.grade ?? null
+
+// 어휘량 테스트로 높은 급수에서 시작했으면 그보다 아래 급수는 이미 아는 단어라, 앱에서 익힌 단어 없이 바로 본다.
+// 이때 문제는 그 급수 교재에서 낸다.
+export const isBelowVocabLevel = (grade: number, vocab: number) => {
+  const level = vocabGradeOf(vocab)
+  return level !== null && grade > level
+}
+
+const isEligible = (rule: (typeof GRADES)[number], vocab: number, learned: number) =>
+  vocab >= rule.vocab && (learned >= rule.learned || isBelowVocabLevel(rule.grade, vocab))
+
 // 합격한 가장 높은 급수. 없으면 무급(null).
 export const currentGrade = (results: ExamResult[]) => {
   const passed = results.filter(result => result.passed).map(result => result.grade)
@@ -75,41 +88,62 @@ export const vocabLevelText = ({ vocab, learned, grade }: VocabLevelInput) => {
   if (grade !== null && grade <= level.grade) return levelText
   const learnedLeft = level.learned - learned
   if (learnedLeft <= 0) return `${levelText} 지금 ${level.grade}급 시험을 볼 수 있어.`
-  return `${levelText} 단어 ${learnedLeft.toLocaleString()}개를 ${learned > 0 ? '더 ' : ''}익히면 ${level.grade}급 시험을 볼 수 있어.`
+  const below = level.grade + 1
+  const canTakeBelow = gradeRule(below) !== null && (grade === null || grade > below)
+  const belowText = canTakeBelow ? ` ${below}급까지는 지금 바로 볼 수 있어.` : ''
+  return `${levelText} 단어 ${learnedLeft.toLocaleString()}개를 ${learned > 0 ? '더 ' : ''}익히면 ${level.grade}급 시험을 볼 수 있어.${belowText}`
 }
 
 const isSameDay =(left: Date, right: Date) => left.toDateString() === right.toDateString()
 
 type StatusInput = { vocab: number; learned: number; results: ExamResult[]; now: Date }
 
+const failedOn = (grade: number, results: ExamResult[], now: Date) =>
+  results.some(result => result.grade === grade && !result.passed && isSameDay(new Date(result.takenAt), now))
+
+const higherThanCurrent = (results: ExamResult[]) => {
+  const current = currentGrade(results)
+  return GRADES.filter(rule => current === null || rule.grade < current)
+}
+
 // 딴 급수보다 높은 것 중 두 자격을 다 채운 가장 높은 급수를 바로 본다. 오늘 떨어졌으면 내일 다시 본다.
 export const examStatus = ({ vocab, learned, results, now }: StatusInput): ExamStatus => {
-  const current = currentGrade(results)
-  const higher = GRADES.filter(rule => current === null || rule.grade < current)
+  const higher = higherThanCurrent(results)
   if (higher.length === 0) return { kind: 'top' }
-  const target = higher.filter(rule => vocab >= rule.vocab && learned >= rule.learned).at(-1)
+  const target = higher.filter(rule => isEligible(rule, vocab, learned)).at(-1)
   if (!target) {
     const [next] = higher
     return { kind: 'locked', grade: next.grade, vocabLeft: Math.max(0, next.vocab - vocab), learnedLeft: Math.max(0, next.learned - learned) }
   }
-  const failedToday = results.some(result => result.grade === target.grade && !result.passed && isSameDay(new Date(result.takenAt), now))
-  return failedToday ? { kind: 'retry-tomorrow', grade: target.grade } : { kind: 'ready', grade: target.grade }
+  return failedOn(target.grade, results, now) ? { kind: 'retry-tomorrow', grade: target.grade } : { kind: 'ready', grade: target.grade }
 }
+
+// 지금 골라서 볼 수 있는 급수. 어휘량으로 높은 급수에서 시작했으면 그 아래 급수를 하나씩 따 갈 수도 있다.
+export const examChoices = ({ vocab, learned, results, now }: StatusInput) =>
+  higherThanCurrent(results)
+    .filter(rule => isEligible(rule, vocab, learned) && !failedOn(rule.grade, results, now))
+    .map(rule => rule.grade)
 
 // 기초 단어는 회화 빈도 단어보다 쉬운 쪽으로 친다.
 const difficultyOf = (word: WordEntry) => (word.source === 'freq' ? (word.rank ?? 0) : -1)
 
-// 어려운 쪽 문제 수의 두 배에서 무작위로 고른다. 쉬운 단어만 나와 합격하지 않게 한다.
-export const pickQuestions = (words: WordEntry[], count: number, random: () => number = Math.random) => {
-  const pool = [...words].sort((first, second) => difficultyOf(second) - difficultyOf(first)).slice(0, count * 2)
+const shuffle = (words: WordEntry[], random: () => number) => {
+  const pool = [...words]
   for (let index = pool.length - 1; index > 0; index -= 1) {
     const swap = Math.floor(random() * (index + 1))
     const picked = pool[swap]
     pool[swap] = pool[index]
     pool[index] = picked
   }
-  return pool.slice(0, count)
+  return pool
 }
+
+// 어려운 쪽 문제 수의 두 배에서 무작위로 고른다. 쉬운 단어만 나와 합격하지 않게 한다.
+export const pickQuestions = (words: WordEntry[], count: number, random: () => number = Math.random) =>
+  shuffle([...words].sort((first, second) => difficultyOf(second) - difficultyOf(first)).slice(0, count * 2), random).slice(0, count)
+
+// 익힌 단어 없이 보는 급수는 그 급수 교재 전체에서 고르게 뽑는다.
+export const pickBookQuestions = (words: WordEntry[], count: number, random: () => number = Math.random) => shuffle(words, random).slice(0, count)
 
 const KATAKANA_TO_HIRAGANA = 0x60
 

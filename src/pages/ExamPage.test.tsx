@@ -245,10 +245,11 @@ describe('제초 검정', () => {
     expect(await examResults('ja')).toEqual([])
   })
 
-  it('어휘량으로 높은 급수부터 보면 아래 급수는 건너뜀, 높은 급수에 합격하면 면제로 보여 준다', async () => {
+  it('어휘량으로 높은 급수에 닿으면 아래 급수도 골라 볼 수 있고, 높은 급수에 합격하면 면제로 보여 준다', async () => {
     await open()
     const ladderRow = (grade: number) => [...container.querySelectorAll('.exam-ladder li')].find(row => row.textContent?.startsWith(`${grade}급`))
-    expect(ladderRow(5)?.textContent).toContain('건너뜀')
+    expect(ladderRow(5)?.querySelector('.exam-ladder-choice')).not.toBeNull()
+    expect(ladderRow(5)?.textContent).not.toContain('건너뜀')
 
     act(() => root.unmount())
     root = createRoot(container)
@@ -256,6 +257,24 @@ describe('제초 검정', () => {
     await open()
     expect(ladderRow(4)?.textContent).toContain('땄어')
     expect(ladderRow(5)?.textContent).toContain('면제')
+  })
+
+  it('어휘량으로 2급에서 시작하면 익힌 단어가 없어도 5·4·3급을 골라 보고, 문제는 그 급수 교재에서 낸다', async () => {
+    await db.cards.clear()
+    await saveVocabTest('ja', { takenAt: '2026-11-01T00:00:00.000Z', set: 0, scores: [], estimate: 3200, startRank: 3001 })
+    await open()
+
+    expect(button('3급 시험 시작하기')).toBeDefined()
+    const choices = [...container.querySelectorAll<HTMLButtonElement>('.exam-ladder-choice')]
+    expect(choices.map(choice => choice.textContent?.slice(0, 2))).toEqual(['5급', '4급', '3급'])
+
+    await act(async () => choices[0].click())
+    expect(container.querySelector('.exam-next')?.textContent).toContain('5급 시험')
+    await act(async () => button('5급 시험 시작하기')!.click())
+    await wait()
+    const prompt = container.querySelector('.exam-prompt')?.textContent ?? ''
+    const baseMeanings = WORDS.ja.filter(word => word.source === 'base').map(word => word.meaningKo)
+    expect(baseMeanings.some(meaning => prompt.includes(meaning))).toBe(true)
   })
 
   it('볼 수 있는 시험이 없으면 남은 것을 알려 준다', async () => {

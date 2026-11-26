@@ -1,7 +1,7 @@
 import { sentenceAudioKind, sentencesOf, sentenceTextOf, type Sentence } from '../data/sentences'
 import { findWord, WORDS, type WordEntry } from '../data/words'
 import { gradeCard, newStudyCard, newWordBudget, startOfNextDay, type CardType, type Grade, type StudyCard } from '../domain/schedule'
-import { currentGrade, examStatus, learnedWordIds, totalVocab, type ExamResult } from '../domain/exam'
+import { currentGrade, examChoices, examStatus, learnedWordIds, totalVocab, type ExamResult } from '../domain/exam'
 import type { DayPlan } from '../domain/session'
 import type { VocabTestResult } from '../domain/vocabTest'
 import { earnedOf, goalCoin, makeCoin, reviewCoin } from '../domain/wallet'
@@ -224,7 +224,8 @@ export const examProgress = async (language: Language, now: Date) => {
   const results = await examResults(language)
   const vocab = totalVocab((await vocabTests(language)).at(-1) ?? null, cards)
   const learned = learnedWordIds(cards).length
-  return { grade: currentGrade(results), results, vocab, learned, status: examStatus({ vocab, learned, results, now }) }
+  const input = { vocab, learned, results, now }
+  return { grade: currentGrade(results), results, vocab, learned, status: examStatus(input), choices: examChoices(input) }
 }
 
 // 시험에서 틀린 단어는 기억 강도는 그대로 두고 늦어도 다음 날 복습에 다시 낸다. 이미 기한이 지난 카드는 그대로 오늘 나온다.

@@ -9,7 +9,8 @@ import StudyImage from '../components/StudyImage'
 import { TEST_WORDS } from '../data/vocabTest'
 import { WORDS, type WordEntry } from '../data/words'
 import { examProgress, getMedia, learnedWords, postponeToTomorrow, saveExamResult } from '../db/repository'
-import { checkAnswer, englishWordSet, gradeLabel, GRADES, gradeRule, ladderMarkOf, pickQuestions, type Answer, type ExamResult, type ExamStatus, type LadderMark } from '../domain/exam'
+import { bookWords, BOOKS } from '../domain/books'
+import { checkAnswer, englishWordSet, gradeLabel, GRADES, gradeRule, isBelowVocabLevel, ladderMarkOf, pickBookQuestions, pickQuestions, type Answer, type ExamResult, type ExamStatus, type LadderMark } from '../domain/exam'
 import type { Language } from '../platform'
 import { learningLanguage } from '../settings'
 
@@ -69,8 +70,11 @@ function ExamPage() {
   const [isStarting, setIsStarting] = useState(false)
   const [saveFailed, setSaveFailed] = useState(false)
   const [isSplashing, setIsSplashing] = useState(false)
+  const [chosenGrade, setChosenGrade] = useState<number | null>(null)
 
-  const rule = progress?.status.kind === 'ready' ? gradeRule(progress.status.grade) : null
+  // 고른 급수가 없거나 더는 볼 수 없으면(합격·오늘 떨어짐) 앱이 정한 다음 시험으로 돌아간다.
+  const status: ExamStatus | undefined = progress && (chosenGrade !== null && progress.choices.includes(chosenGrade) ? { kind: 'ready', grade: chosenGrade } : progress.status)
+  const rule = status?.kind === 'ready' ? gradeRule(status.grade) : null
   const question = exam?.questions[answers.length]
   const isLast = exam !== null && answers.length === exam.questions.length - 1
 
@@ -85,10 +89,17 @@ function ExamPage() {
     if (!isSplashing) inputRef.current?.focus()
   }, [isSplashing])
 
+  // 어휘량으로 건너뛴 아래 급수는 익힌 단어가 없을 수 있어 그 급수 교재에서 낸다.
+  const questionWordsOf = async (grade: number, count: number) => {
+    const book = BOOKS.find(item => item.grade === grade)
+    if (progress && book && isBelowVocabLevel(grade, progress.vocab)) return pickBookQuestions(bookWords(book, WORDS[language]), count)
+    return pickQuestions(await learnedWords(language), count)
+  }
+
   const start = async () => {
     if (!rule || isStarting) return
     setIsStarting(true)
-    const words = pickQuestions(await learnedWords(language), rule.questions)
+    const words = await questionWordsOf(rule.grade, rule.questions)
     const questions = await Promise.all(words.map(async word => ({ word, image: await getMedia(word.id, 'image') })))
     setExam({ grade: rule.grade, pass: rule.pass, questions })
     setIsSplashing(true)
@@ -276,8 +287,8 @@ function ExamPage() {
           </Link>
         </div>
         <img className="exam-intro-image" src={EXAM_INTRO_IMAGE} alt="" />
-        <NextExam grade={progress.grade} vocab={progress.vocab} learned={progress.learned} status={progress.status} />
-        <GradeLadder results={progress.results} target={progress.status.kind === 'top' ? null : progress.status.grade} />
+        <NextExam grade={progress.grade} vocab={progress.vocab} learned={progress.learned} status={status ?? progress.status} />
+        <GradeLadder results={progress.results} target={!status || status.kind === 'top' ? null : status.grade} choices={progress.choices} onChoose={setChosenGrade} />
       </main>
       {rule && (
         <div className="bottom-cta vocab-actions vocab-cta">
@@ -349,9 +360,15 @@ function ProgressRow({ label, value, goal }: ProgressRowProps) {
   )
 }
 
-function GradeLadder({ results, target }: { results: ExamResult[]; target: number | null }) {
+type GradeLadderProps = { results: ExamResult[]; target: number | null; choices: number[]; onChoose: (grade: number) => void }
+
+// 지금 볼 수 있는 급수가 여럿이면 눌러서 어느 시험을 볼지 고른다.
+function GradeLadder({ results, target, choices, onChoose }: GradeLadderProps) {
+  const canChoose = choices.length > 1
+  const markOf = (ladderGrade: number) => (canChoose && choices.includes(ladderGrade) ? null : ladderMarkOf(ladderGrade, results, target))
+
   const classOf = (ladderGrade: number) => {
-    const mark = ladderMarkOf(ladderGrade, results, target)
+    const mark = markOf(ladderGrade)
     if (mark === 'passed' || mark === 'exempt') return 'is-passed'
     if (ladderGrade === target) return 'is-target'
     return ''
@@ -360,14 +377,26 @@ function GradeLadder({ results, target }: { results: ExamResult[]; target: numbe
   return (
     <section className="exam-section" aria-label="급수 안내">
       <h2>급수 안내</h2>
+      {canChoose && <p className="exam-ladder-hint">볼 시험을 눌러서 골라</p>}
       <ul className="exam-ladder">
         {GRADES.map(rule => {
-          const mark = ladderMarkOf(rule.grade, results, target)
-          return (
-            <li key={rule.grade} className={classOf(rule.grade)}>
+          const mark = markOf(rule.grade)
+          const content = (
+            <>
               <strong>{rule.grade}급</strong>
               <span>{GRADE_LEVELS[rule.grade]}</span>
               {mark && <span className={`exam-ladder-mark is-${mark}`}>{LADDER_MARK_LABELS[mark]}</span>}
+            </>
+          )
+          return (
+            <li key={rule.grade} className={classOf(rule.grade)}>
+              {canChoose && choices.includes(rule.grade) ? (
+                <button type="button" className="exam-ladder-choice" aria-pressed={rule.grade === target} onClick={() => onChoose(rule.grade)}>
+                  {content}
+                </button>
+              ) : (
+                content
+              )}
             </li>
           )
         })}

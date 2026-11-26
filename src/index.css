@@ -2789,3 +2789,33 @@ a {
 .exam-ladder-mark.is-skipped {
   color: var(--color-text-sub);
 }
+
+.exam-ladder-hint {
+  margin: 0 0 var(--space-2);
+  color: var(--color-text-sub);
+  font-size: var(--text-caption);
+}
+
+/* 고를 수 있는 급수는 줄 전체가 눌리는 단추다. */
+.exam-ladder li:has(> .exam-ladder-choice) {
+  padding: 0;
+}
+
+.exam-ladder-choice {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.exam-ladder-choice > span:first-of-type {
+  flex: 1;
+}
